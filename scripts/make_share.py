@@ -9,8 +9,8 @@ import hashlib, html, json, os, re, sys, glob
 
 SITE = "https://mnews.jintar.co.kr/"
 OUT = "s"
-SECS = ["sentence", "poem", "novel", "writer", "puzzle", "trivia"]
-NAME = {"sentence": "오늘의 문장", "poem": "오늘의 시", "novel": "오늘의 소설 구절", "writer": "오늘의 문인", "puzzle": "낱말 퍼즐", "trivia": "문학 상식 OX"}
+SECS = ["sentence", "poem", "novel", "writer", "puzzle", "trivia", "classic", "rx"]
+NAME = {"sentence": "오늘의 문장", "poem": "오늘의 시", "novel": "오늘의 소설 구절", "writer": "오늘의 문인", "puzzle": "낱말 퍼즐", "trivia": "문학 상식 OX", "classic": "1분 고전", "rx": "기분 처방전"}
 
 
 def esc(x):
@@ -55,6 +55,13 @@ def content(D, sec):
         T = D.get("trivia") or []
         return (f"문학 상식 OX · {clip(T[0]['q'], 40)}" if T else "문학 상식", " / ".join("Q" + str(i + 1) + ". " + t["q"] for i, t in enumerate(T))[:110],
                 "O일까, X일까?", esc(clip(T[0]["q"], 70)) if T else "", None, f"{len(T)}문항 · 정답과 해설은 지면에서")
+    if sec == "classic":
+        C = D["classic"]
+        return (f"1분 고전 · {C['writer']} 「{C['title']}」", clip(C.get("oneline", "") + " " + " ".join(C.get("lines", [])), 110),
+                f"「{esc(C['title'])}」", esc(clip(C.get("oneline"), 80)), None, f"{esc(C['writer'])} · {C['year']} · 다섯 문장 요약")
+    if sec == "rx":
+        return ("기분 처방전 · 오늘 기분에 맞는 문장 한 알", "지쳤어요·울적해요·불안해요·화나요·설레요·멍해요 — 기분을 고르면 금로동 약사가 문장 한 알을 지어 드립니다.",
+                "오늘 기분에<br>문장 한 알", "기분을 고르면 출처가 분명한 문장을 처방해 드려요.", None, "문학 약국 · 금로동 약사")
     raise KeyError(sec)
 
 
@@ -121,7 +128,7 @@ def main(dates):
         if dates and d not in dates:
             continue
         for sec in SECS:
-            if not D.get(sec):
+            if sec != "rx" and not D.get(sec):
                 continue
             title, desc, head, lede, img, tail = content(D, sec)
             key = f"{d}-{sec}"
@@ -143,6 +150,10 @@ def main(dates):
             elif sec == "trivia":
                 right = '<div class="r" style="width:330px;display:flex;gap:22px;top:150px"><b style="width:150px;height:150px;border:5px solid #1A1A1A;display:grid;place-items:center;font-size:110px;font-weight:900;line-height:1">O</b><b style="width:150px;height:150px;border:5px solid #1A1A1A;display:grid;place-items:center;font-size:110px;font-weight:900;line-height:1;background:#1A1A1A;color:#EDEDED">X</b></div>'
                 lw = 740
+            elif sec in ("rx", "classic"):
+                lbl = "文學<br>藥局" if sec == "rx" else "1分<br>古典"
+                right = f'<div class="r" style="width:300px;top:120px"><div style="width:280px;height:330px;margin-left:auto;background:#f9f8f3;border:3px solid #1A1A1A;box-shadow:10px 10px 0 #1A1A1A;position:relative;padding:22px"><div style="font-size:30px;font-weight:900;border-bottom:4px double #1A1A1A;padding-bottom:8px">{"문학 약국" if sec=="rx" else "1분 고전"}</div><div style="font-size:18px;color:#A01E1E;font-weight:700;margin-top:10px">{"처방전 · 內服藥" if sec=="rx" else "다섯 문장 요약"}</div><div style="position:absolute;right:24px;bottom:28px;width:110px;height:110px;border:5px solid #A01E1E;border-radius:50%;color:#A01E1E;font-size:26px;font-weight:900;line-height:1.15;display:grid;place-items:center;text-align:center;transform:rotate(-14deg)">{lbl}</div></div></div>'
+                lw = 760
             elif img and os.path.exists(img):
                 wr = sec == "writer"
                 right = f'<div class="r{" wr" if wr else ""}"><img src="file://{os.path.abspath(img)}"><div class="cap">{"얼굴 없는 실루엣 펜화" if wr else "AI 삽화"}</div></div>'
@@ -150,6 +161,23 @@ def main(dates):
             card = CARD.replace("__DATE__", kdate(d)).replace("__KICK__", NAME[sec]).replace("__HEAD__", head).replace("__LEDE__", lede).replace("__TAIL__", tail).replace("__RIGHT__", right).replace("__LW__", str(lw))
             jobs.append((card, f"{OUT}/{key}.jpg"))
             open(hp, "w", encoding="utf-8").write(page(key, title, desc, SITE + f"{OUT}/{key}.jpg", f"?d={d}#{sec}", sig))
+    # 기분별 처방 공유 페이지(날짜와 무관): s/rx-<기분>.html → ../?m=<기분>#rx
+    try:
+        R = json.load(open("data/rx.json", encoding="utf-8"))
+        for m in R["moods"]:
+            key = f"rx-{m['key']}"
+            title = f"기분 처방전 · {m['label']} — 오늘의 문장 한 알"
+            desc = f"증상: {m['symptom']}. 금로동 약사가 이 기분에 맞는 문장을 출처와 함께 지어 드립니다."
+            sig = hashlib.md5((title + desc + CARD).encode()).hexdigest()[:10]
+            hp = f"{OUT}/{key}.html"
+            if os.path.exists(hp) and f'content="{sig}"' in open(hp, encoding="utf-8").read() and os.path.exists(f"{OUT}/{key}.jpg"):
+                continue
+            right = f'<div class="r" style="width:300px;top:120px"><div style="width:280px;height:330px;margin-left:auto;background:#f9f8f3;border:3px solid #1A1A1A;box-shadow:10px 10px 0 #1A1A1A;position:relative;padding:22px"><div style="font-size:30px;font-weight:900;border-bottom:4px double #1A1A1A;padding-bottom:8px">문학 약국</div><div style="font-size:18px;color:#A01E1E;font-weight:700;margin-top:10px">처방전 · 內服藥</div><div style="font-size:22px;margin-top:22px">증상 <b>{esc(m["label"])}</b></div><div style="position:absolute;right:24px;bottom:28px;width:110px;height:110px;border:5px solid #A01E1E;border-radius:50%;color:#A01E1E;font-size:26px;font-weight:900;line-height:1.15;display:grid;place-items:center;text-align:center;transform:rotate(-14deg)">文學<br>藥局</div></div></div>'
+            card = CARD.replace("__DATE__", "기분 처방전").replace("__KICK__", "기분 처방전").replace("__HEAD__", f"오늘 {esc(m['label'])}?<br>문장 한 알 드세요").replace("__LEDE__", esc(m["symptom"]) + " — 출처가 분명한 문장을 지어 드립니다.").replace("__TAIL__", "문학 약국 · 금로동 약사").replace("__RIGHT__", right).replace("__LW__", "760")
+            jobs.append((card, f"{OUT}/{key}.jpg"))
+            open(hp, "w", encoding="utf-8").write(page(key, title, desc, SITE + f"{OUT}/{key}.jpg", f"?m={m['key']}#rx", sig))
+    except FileNotFoundError:
+        pass
     if not jobs:
         print("share: nothing to do"); return
     from playwright.sync_api import sync_playwright

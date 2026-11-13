@@ -1,0 +1,192 @@
+{
+ "moods": [
+  {
+   "key": "tired",
+   "label": "지쳤어요",
+   "symptom": "몸도 마음도 방전"
+  },
+  {
+   "key": "blue",
+   "label": "울적해요",
+   "symptom": "이유 없이 가라앉음"
+  },
+  {
+   "key": "anxious",
+   "label": "불안해요",
+   "symptom": "내일이 자꾸 걱정됨"
+  },
+  {
+   "key": "angry",
+   "label": "화나요",
+   "symptom": "속에서 불이 남"
+  },
+  {
+   "key": "flutter",
+   "label": "설레요",
+   "symptom": "괜히 두근거림"
+  },
+  {
+   "key": "blank",
+   "label": "멍해요",
+   "symptom": "아무 생각이 없음"
+  }
+ ],
+ "items": [
+  {
+   "mood": "tired",
+   "text": "날개야 다시 돋아라. 날자. 날자. 날자. 한 번만 더 날자꾸나.",
+   "writer": "이상",
+   "work": "날개",
+   "year": 1936,
+   "kind": "소설",
+   "dose": "어깨를 한 번 크게 펴고 소리 내어 세 번 읽으세요. '날자'를 할 때마다 목소리를 조금씩 키우는 게 요령입니다.",
+   "sources": [
+    "https://namu.wiki/w/%EB%82%A0%EA%B0%9C(%EC%86%8C%EC%84%A4)"
+   ]
+  },
+  {
+   "mood": "tired",
+   "text": "타고 남은 재가 다시 기름이 됩니다.",
+   "writer": "한용운",
+   "work": "알 수 없어요",
+   "year": 1926,
+   "kind": "시",
+   "dose": "다 타 버린 것 같은 날에 복용하세요. 오늘 쓴 기운은 재가 되어 내일 다시 불을 붙입니다.",
+   "sources": [
+    "https://encykorea.aks.ac.kr/Article/E0035136"
+   ]
+  },
+  {
+   "mood": "blue",
+   "text": "내일은 아직 아무 실수도 하지 않은 새날이라고 생각하면 기분 좋지 않아요?",
+   "orig": "Isn't it nice to think that tomorrow is a new day with no mistakes in it yet?",
+   "translator": "금로동 옮김",
+   "writer": "L. M. 몽고메리",
+   "work": "빨간 머리 앤",
+   "year": 1908,
+   "kind": "소설",
+   "dose": "잠들기 직전에 한 번. 오늘의 실수는 오늘 밤 12시에 유효기간이 끝납니다.",
+   "sources": [
+    "https://graciousquotes.com/library/anne-of-green-gables-quotes/"
+   ]
+  },
+  {
+   "mood": "blue",
+   "text": "'희망'은 깃털 달린 것 — 영혼에 내려앉아 가사 없는 노래를 부르고, 결코 멈추지 않는다.",
+   "orig": "\"Hope\" is the thing with feathers — That perches in the soul — And sings the tune without the words — And never stops — at all —",
+   "translator": "금로동 옮김",
+   "writer": "에밀리 디킨슨",
+   "work": "'희망'은 깃털 달린 것",
+   "year": 1891,
+   "kind": "시",
+   "dose": "가슴께에 작은 새 한 마리가 앉아 있다고 상상하며 숨을 세 번 고르세요. 노랫말이 없어도 노래는 노래입니다.",
+   "sources": [
+    "https://shenandoahliterary.org/blog/2014/01/emily-dickinson-hope-is-the-thing-with-feathers-1891/"
+   ]
+  },
+  {
+   "mood": "anxious",
+   "text": "어제로 돌아가 봐야 소용없어요. 그때 저는 다른 사람이었거든요.",
+   "orig": "It's no use going back to yesterday, because I was a different person then.",
+   "translator": "금로동 옮김",
+   "writer": "루이스 캐럴",
+   "work": "이상한 나라의 앨리스",
+   "year": 1865,
+   "kind": "소설",
+   "dose": "지나간 일을 곱씹을 때 복용하세요. 어제의 나는 이미 퇴근했습니다.",
+   "sources": [
+    "https://www.sparknotes.com/lit/alice/quotes/theme/the-loss-of-childhood-innocence"
+   ]
+  },
+  {
+   "mood": "anxious",
+   "text": "우리는 만날 때에 떠날 것을 염려하는 것과 같이 떠날 때에 다시 만날 것을 믿습니다.",
+   "writer": "한용운",
+   "work": "님의 침묵",
+   "year": 1926,
+   "kind": "시",
+   "dose": "걱정의 방향을 반대로 돌려 보는 약입니다. 끝을 걱정하는 만큼 다시 시작될 것도 믿어 보세요.",
+   "sources": [
+    "https://ko.wikisource.org/wiki/%EB%8B%98%EC%9D%98_%EC%B9%A8%EB%AC%B5/%EB%8B%98%EC%9D%98_%EC%B9%A8%EB%AC%B5"
+   ]
+  },
+  {
+   "mood": "angry",
+   "text": "한때의 분함을 참으면 백 날의 근심을 면한다.",
+   "orig": "忍一時之忿 免百日之憂",
+   "writer": "명심보감",
+   "work": "계성편(戒性篇)",
+   "year": "고려 말 엮음",
+   "kind": "고전",
+   "dose": "답장 보내기 전에 열을 세고 복용하세요. 하루만 묵혀도 백 날이 편해집니다.",
+   "sources": [
+    "https://m.cafe.daum.net/kyongcj/9Lg8/4028"
+   ]
+  },
+  {
+   "mood": "angry",
+   "text": "분노와 슬픔이 가져오는 결과는, 그것을 불러일으킨 일보다 얼마나 더 해로운가!",
+   "translator": "금로동 옮김",
+   "writer": "마르쿠스 아우렐리우스",
+   "work": "명상록 11권 18장",
+   "year": "2세기",
+   "kind": "고전",
+   "dose": "황제도 화가 났다는 사실에서 위로를 받으세요. 그리고 그 화가 나를 더 다치게 하기 전에 내려놓기.",
+   "sources": [
+    "https://wist.info/marcus-aureleus/22955/"
+   ]
+  },
+  {
+   "mood": "flutter",
+   "text": "동짓달 기나긴 밤을 한 허리를 베어 내어 / 춘풍 이불 아래 서리서리 넣었다가 / 어른 님 오신 날 밤이여든 구비구비 펴리라",
+   "writer": "황진이",
+   "work": "동짓달 기나긴 밤을",
+   "year": "16세기",
+   "kind": "시조",
+   "dose": "기다리는 사람이 있는 날 복용하세요. 긴 밤을 잘라 접어 두었다가 만나는 날 펼치는, 조선 최고의 시간 보관법입니다.",
+   "sources": [
+    "https://brunch.co.kr/@@5xkf/143"
+   ]
+  },
+  {
+   "mood": "flutter",
+   "text": "10월이 있는 세상에 살아서 정말 기뻐요.",
+   "orig": "I'm so glad I live in a world where there are Octobers.",
+   "translator": "금로동 옮김",
+   "writer": "L. M. 몽고메리",
+   "work": "빨간 머리 앤",
+   "year": 1908,
+   "kind": "소설",
+   "dose": "'10월' 자리에 오늘 설레게 한 것을 넣어 다시 읽으세요. 효과가 두 배가 됩니다.",
+   "sources": [
+    "https://www.goodreads.com/work/quotes/3464264"
+   ]
+  },
+  {
+   "mood": "blank",
+   "text": "산에는 꽃 피네 / 꽃이 피네 / 갈 봄 여름 없이 / 꽃이 피네",
+   "writer": "김소월",
+   "work": "산유화",
+   "year": 1925,
+   "kind": "시",
+   "dose": "아무 생각 없을 때 딱 맞는 약입니다. 이유 없이 피는 꽃처럼, 그냥 있어도 괜찮습니다.",
+   "sources": [
+    "https://ko.wikisource.org/wiki/%EC%A7%84%EB%8B%AC%EB%9E%98%EA%BD%83_(%EC%8B%9C%EC%A7%91)/%EC%82%B0%EC%9C%A0%ED%99%94"
+   ]
+  },
+  {
+   "mood": "blank",
+   "text": "시간이란 내가 낚시하러 가는 개울일 뿐이다.",
+   "orig": "Time is but the stream I go a-fishing in.",
+   "translator": "금로동 옮김",
+   "writer": "헨리 데이비드 소로",
+   "work": "월든",
+   "year": 1854,
+   "kind": "산문",
+   "dose": "멍한 시간을 낭비라고 부르지 마세요. 소로는 그 시간에 낚싯대를 드리웠습니다.",
+   "sources": [
+    "https://walden.org/quotation-category/time/page/7"
+   ]
+  }
+ ]
+}
