@@ -75,7 +75,7 @@ button,select{font:inherit}
 .sub-h{font-size:.84rem;font-weight:900;margin:14px 0 4px;display:flex;align-items:center;gap:6px}
 .sub-h::before{content:"";width:12px;height:2px;background:var(--red)}
 /* 오늘의 문장 */
-.hero{display:grid;grid-template-columns:1.25fr 1fr;gap:28px;padding-top:14px}
+.hero{display:grid;grid-template-columns:1.25fr 1fr;gap:32px;padding-top:18px}
 .quote-big{font-weight:900;font-size:clamp(2.2rem,4.6vw,4.4rem);line-height:1.18;letter-spacing:-.035em;margin:6px 0 14px}
 .quote-big .qm{color:var(--red)}
 .quote-big span{display:block}
@@ -92,13 +92,13 @@ button,select{font:inherit}
 .three h3 em{font-style:normal;color:var(--red);font-family:var(--mono);margin-right:6px}
 .three p{font-size:.92rem;line-height:1.75;text-align:justify}
 /* 시·소설 */
-.row2{display:grid;grid-template-columns:1fr 1fr;gap:0;margin-top:28px}
-.row2>.sec+.sec{border-left:1px solid var(--rule);padding-left:22px;margin-left:22px}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:0;margin-top:52px}
+.row2>.sec+.sec{border-left:1px solid var(--rule);padding-left:30px;margin-left:30px}
 .poem-wrap{display:grid;grid-template-columns:1fr 1fr;gap:18px}
 .poem-title{font-size:1.5rem;font-weight:900;letter-spacing:-.02em}
 .poem-meta{font-size:.8rem;color:var(--muted);margin:2px 0 12px}
 .poem-lines{font-size:1rem;line-height:1.95}
-.poem-lines p{margin:0 0 .9em;text-indent:-1em;padding-left:1em}
+.poem-lines p{margin:0 0 .9em}
 .note{font-size:.7rem;color:var(--faint)}
 .oneline{margin-top:14px;padding:10px 12px;border:1px solid var(--ink);font-size:.9rem;background:var(--paper2)}
 .oneline b{color:var(--red);margin-right:6px}
@@ -107,8 +107,8 @@ button,select{font:inherit}
 .nq .ko{font-size:1.45rem;font-weight:900;line-height:1.45;letter-spacing:-.02em;margin-top:8px}
 .nq .tr{font-size:.76rem;color:var(--faint);margin-top:4px}
 /* 아랫단 */
-.row3{display:grid;grid-template-columns:1fr 1.5fr 1fr;gap:0;margin-top:28px}
-.row3>.sec+.sec{border-left:1px solid var(--rule);padding-left:20px;margin-left:20px}
+.row3{display:grid;grid-template-columns:1fr 1.5fr 1fr;gap:0;margin-top:52px}
+.row3>.sec+.sec{border-left:1px solid var(--rule);padding-left:28px;margin-left:28px}
 .writer-top{display:grid;grid-template-columns:110px 1fr;gap:12px;align-items:start}
 .writer-top img{width:110px;height:auto;border:1px solid var(--ink);display:block}
 .wn{font-size:1.45rem;font-weight:900;line-height:1.1}
@@ -163,7 +163,7 @@ button,select{font:inherit}
 .cal{margin-top:14px;font-size:.82rem;border:1px solid var(--ink);padding:8px 10px}
 .cal b{display:block;font-size:.72rem;letter-spacing:.08em;color:var(--red);margin-bottom:2px}
 /* 판권 */
-.colophon{margin-top:30px;border-top:3px double var(--ink);padding-top:10px;display:grid;grid-template-columns:1fr auto;gap:16px;align-items:end;font-size:.8rem;color:var(--muted)}
+.colophon{margin-top:56px;border-top:3px double var(--ink);padding-top:10px;display:grid;grid-template-columns:1fr auto;gap:16px;align-items:end;font-size:.8rem;color:var(--muted)}
 .staff{display:flex;gap:12px;align-items:center}
 .staff .av{width:44px;height:44px;border:1px solid var(--ink);border-radius:50%;display:grid;place-items:center;font-weight:900;color:var(--ink);background:var(--paper2)}
 .staff b{color:var(--ink);font-size:.9rem}
@@ -190,7 +190,7 @@ button,select{font:inherit}
 .fig video{pointer-events:none;-webkit-user-select:none;user-select:none}
 .fig{-webkit-touch-callout:none}
 /* 반응형 */
-@media (max-width:1100px){.row3{grid-template-columns:1fr 1fr}.row3>.sec:nth-child(2){grid-column:1/-1;order:3;border-left:0;padding-left:0;margin:24px 0 0;border-top:0}.poem-wrap{grid-template-columns:1fr}}
+@media (max-width:1100px){.row3{grid-template-columns:1fr 1fr}.row3>.sec:nth-child(2){grid-column:1/-1;order:3;border-left:0;padding-left:0;margin:44px 0 0;border-top:0}.poem-wrap{grid-template-columns:1fr}}
 @media (max-width:860px){
   body{padding:0 14px 28px}
   .mast{grid-template-columns:1fr;text-align:center;gap:6px}.mast .l{display:none}.mast .r{align-items:center}
@@ -198,8 +198,8 @@ button,select{font:inherit}
   .hero,.row2,.row3,.three,.puz{grid-template-columns:1fr}
   .hero .fig{order:-1}
   .three>div{padding:10px 0!important;border-left:0!important}.three>div+div{border-top:1px solid var(--rule-soft)}
-  .row2>.sec+.sec,.row3>.sec+.sec{border-left:0;padding-left:0;margin:26px 0 0}
-  .row3>.sec:nth-child(2){margin-top:26px}
+  .row2>.sec+.sec,.row3>.sec+.sec{border-left:0;padding-left:0;margin:44px 0 0}
+  .row3>.sec:nth-child(2){margin-top:44px}
   .pz-grid{max-width:100%}
   .colophon{grid-template-columns:1fr}.pub{text-align:left}
 }
