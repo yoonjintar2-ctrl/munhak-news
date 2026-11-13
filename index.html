@@ -43,6 +43,11 @@ button,select{font:inherit}
 .mast h1 small{font-size:.32em;font-weight:700;letter-spacing:.05em;vertical-align:.9em;margin-left:.2em;color:var(--red)}
 .slogan{font-size:.86rem;color:var(--muted);margin-top:6px;letter-spacing:.02em}
 .mast .r{display:flex;flex-direction:column;align-items:flex-end;gap:6px}
+.issue-share{display:inline-flex;align-items:center;gap:7px;font:inherit;font-size:.86rem;font-weight:900;padding:8px 14px;border:2px solid var(--ink);background:var(--ink);color:var(--paper);cursor:pointer;box-shadow:3px 3px 0 var(--red);transition:transform .08s,box-shadow .08s}
+.issue-share svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linejoin:round}
+.issue-share:hover{transform:translate(-1px,-1px);box-shadow:4px 4px 0 var(--red)}
+.issue-share:active{transform:translate(3px,3px);box-shadow:none}
+@media (max-width:860px){.issue-share{font-size:.92rem;padding:10px 16px;margin:4px 0 2px}}
 .back{display:flex;gap:6px;align-items:center;font-size:.8rem}
 .back select{font-family:var(--serif);font-size:.8rem;background:transparent;border:1px solid var(--ink);padding:3px 6px;color:var(--ink)}
 .back a{border:1px solid var(--ink);padding:3px 8px;font-weight:700}
@@ -330,6 +335,7 @@ button,select{font:inherit}
     <p class="slogan">밑줄 긋고 싶은 문장, 매일 아침 한 숟갈씩 떠-먹여 드려요.</p>
   </div>
   <div class="r">
+    <button type="button" class="issue-share" id="issueShare" title="오늘 신문 전체를 공유"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h13v14H6a2 2 0 0 1-2-2V5Z"/><path d="M17 8h3v9a2 2 0 0 1-2 2"/><path d="M7 9h7M7 12h7M7 15h4"/></svg><span id="issueShareLbl">문학늬우스 공유하기</span></button>
     <div class="back"><label for="past">지난 호</label><select id="past"><option value="">불러오는 중…</option></select><a id="toToday" href="./" hidden>오늘 호</a></div>
   </div>
 </header>
@@ -505,6 +511,7 @@ function render(D){
   document.title='문학늬우스 제'+D.no+'호 — '+(D.sentence?D.sentence.work:'');
   $('dl-date').textContent=fmtDate(D.date);
   $('dl-no').textContent='제'+D.no+'호'+(D.no===1?' · 창간호':'');
+  issueShare(D);
   if(D.publisher)$('dl-pub').textContent=D.publisher.name;
   var tk=[];if(D.calendar)tk.push('오늘의 문학 달력 — '+D.calendar);
   if(D.sentence)tk.push('오늘의 문장 · '+D.sentence.writer+' 「'+D.sentence.work+'」');
@@ -650,6 +657,13 @@ var ICON={
  text:'<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 3.5h10M3 6.5h10M3 9.5h10M3 12.5h6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>',
  img:'<svg viewBox="0 0 16 16" aria-hidden="true"><rect x="2" y="3" width="12" height="10" rx="1" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="6" cy="6.6" r="1.2" fill="currentColor"/><path d="M3 12l3.6-3.4 2.4 2.2 1.8-1.6L13 11.4" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>',
  link:'<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6.6 9.4a2.6 2.6 0 0 0 3.7 0l2.4-2.4a2.6 2.6 0 0 0-3.7-3.7l-.9.9M9.4 6.6a2.6 2.6 0 0 0-3.7 0L3.3 9a2.6 2.6 0 0 0 3.7 3.7l.9-.9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>'};
+function issueShare(D){var b=$('issueShare');if(!b)return;var md=D.date.slice(5).split('-'),mdT=(+md[0])+'월 '+(+md[1])+'일';
+  $('issueShareLbl').textContent='문학늬우스 제'+D.no+'호 공유하기';
+  var url='https://mnews.jintar.co.kr/s/'+D.date+'-issue.html';
+  var title='문학늬우스 '+mdT+' 제'+D.no+'호 신문이 도착했습니다';
+  b.onclick=function(){
+    if(IS_TOUCH&&navigator.share){navigator.share({title:title,text:'📰 '+title,url:url}).catch(function(){});return}
+    copyText('📰 '+title+'\n'+url).then(function(){toast('제'+D.no+'호 공유 링크를 복사했어요')},function(){prompt('링크를 복사하세요',url)})}}
 function toast(m){var t=document.querySelector('.toast');if(!t){t=document.createElement('div');t.className='toast';document.body.appendChild(t)}t.textContent=m;t.classList.add('on');clearTimeout(t._h);t._h=setTimeout(function(){t.classList.remove('on')},2200)}
 function shareUrl(D,sec){if(sec==='rx'&&RXcur)return SITE+'s/rx-'+RXcur.mood+'.html';return SITE+'s/'+D.date+'-'+sec+'.html'}
 function copyText(txt){if(navigator.clipboard&&window.isSecureContext)return navigator.clipboard.writeText(txt);return new Promise(function(ok,no){var a=document.createElement('textarea');a.value=txt;a.style.position='fixed';a.style.opacity='0';document.body.appendChild(a);a.select();try{document.execCommand('copy')?ok():no()}catch(e){no(e)}a.remove()})}
