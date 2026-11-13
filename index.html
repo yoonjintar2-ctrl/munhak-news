@@ -194,6 +194,12 @@ button,select{font:inherit}
 /* 1분 고전 · 기분 처방전 */
 .row4{display:grid;grid-template-columns:1fr 1.15fr;gap:0;margin-top:28px}
 .row4>.sec+.sec{border-left:1px solid var(--rule);padding-left:22px;margin-left:22px}
+.savesheet{position:fixed;inset:0;z-index:9999;background:rgba(20,20,20,.72);display:flex;align-items:center;justify-content:center;padding:16px}
+.ss-box{background:var(--paper);max-width:520px;width:100%;max-height:92vh;display:flex;flex-direction:column;gap:10px;padding:14px;border:2px solid var(--ink)}
+.ss-box img{width:100%;height:auto;max-height:62vh;object-fit:contain;background:#ddd;-webkit-touch-callout:default;user-select:auto}
+.ss-tip{font-size:.85rem;color:var(--muted);text-align:center;margin:0}
+.ss-btns{display:flex;gap:8px}.ss-btns button{flex:1;font:inherit;font-weight:900;font-size:.95rem;padding:12px;border:2px solid var(--ink);background:var(--paper);color:var(--ink)}
+.ss-btns .ss-save{background:var(--ink);color:var(--paper)}
 .cl-mode{display:flex;align-items:center;gap:6px;margin:2px 0 12px}
 .cl-mode button{font:inherit;font-size:.82rem;font-weight:900;padding:6px 12px;border:1.5px solid var(--ink);background:var(--paper);color:var(--ink);cursor:pointer;box-shadow:2px 2px 0 var(--ink);transition:transform .08s}
 .cl-mode button:active{transform:translate(2px,2px);box-shadow:none}
@@ -203,6 +209,7 @@ button,select{font:inherit}
 .day-list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:1px solid var(--ink)}
 .day-list li{padding:14px 0 6px}
 .day-list li+li{border-left:1px solid var(--rule);padding-left:24px;margin-left:24px}
+.day-ago{font-size:1.45rem;font-weight:900;letter-spacing:-.02em;line-height:1.2}
 .day-y{font-family:var(--mono);font-size:.8rem;color:var(--red);font-weight:700}
 .day-h{font-size:1.08rem;font-weight:900;line-height:1.4;margin:4px 0 8px;letter-spacing:-.01em}
 .day-b{font-size:.93rem;line-height:1.75;color:#2a2a2a}
@@ -225,9 +232,11 @@ button,select{font:inherit}
 .rowm{display:grid;grid-template-columns:1.15fr 1fr;gap:0;margin-top:52px}
 .rowm>*+*{border-left:1px solid var(--rule);padding-left:28px;margin-left:28px}
 .rowm .col>.sec+.sec{margin-top:52px}
+.rowc{display:grid;grid-template-columns:1fr 1fr;gap:0;margin-top:52px}
+.rowc>.sec+.sec{border-left:1px solid var(--rule);padding-left:28px;margin-left:28px}
 .rowe{display:grid;grid-template-columns:1.5fr 1fr;gap:0;margin-top:52px}
 .rowe>.sec+.sec{border-left:1px solid var(--rule);padding-left:28px;margin-left:28px}
-@media (max-width:860px){.rowm>#s-rx{position:static}.rowm,.rowe{grid-template-columns:1fr;margin-top:48px}.rowm>*+*,.rowe>.sec+.sec{border-left:0;padding-left:0;margin:48px 0 0}.rowm .col>.sec+.sec{margin-top:48px}}
+@media (max-width:860px){.rowm>#s-rx{position:static}.rowc{grid-template-columns:1fr;margin-top:48px}.rowc>.sec+.sec{border-left:0;padding-left:0;margin:48px 0 0}.rowm,.rowe{grid-template-columns:1fr;margin-top:48px}.rowm>*+*,.rowe>.sec+.sec{border-left:0;padding-left:0;margin:48px 0 0}.rowm .col>.sec+.sec{margin-top:48px}}
 #s-rx>.rx-bag{margin:6px auto 0;width:100%}
 .rowm>#s-rx{align-self:start;position:sticky;top:16px}
 @media (max-width:860px){#s-rx>.rx-bag{margin:14px auto 0}}
@@ -380,22 +389,11 @@ button,select{font:inherit}
       <p class="link" id="w-link"></p>
       <p class="src" id="w-src"></p>
     </section>
-    <section class="sec" id="s-classic" data-sec="classic" data-name="1분 고전"><a class="anc" id="classic"></a>
-      <div class="kick"><h2 id="cl-kick"><i>⑤</i>1분 고전</h2><span>그래서 결말이 뭔데?</span></div>
-      <div class="cl-mode" id="cl-mode" role="tablist"><button type="button" data-m="1" class="on" aria-pressed="true">1분 컷</button><button type="button" data-m="5" aria-pressed="false">5분 정주행</button><em id="cl-len"></em></div>
-      <p class="cl-title" id="cl-title"></p>
-      <p class="cl-meta" id="cl-meta"></p>
-      <p class="cl-one" id="cl-one"></p>
-      <div class="cl-story body" id="cl-story"></div><ol class="cl-lines" id="cl-lines"></ol>
-      <details class="cl-end"><summary>결말 보기 <em>(스포일러)</em></summary><p id="cl-ending"></p></details>
-      <p class="sub-h">왜 읽을 만한가</p>
-      <div class="body"><p id="cl-why"></p></div>
-      <p class="src" id="cl-src"></p>
-    </section>
+    
     
     </div>
     <section class="sec" id="s-rx" data-sec="rx" data-name="기분 처방전"><a class="anc" id="rx"></a>
-      <div class="kick"><h2><i>⑥</i>기분 처방전</h2><span>문학 약국 · 금로동 약사</span></div>
+      <div class="kick"><h2><i>⑤</i>기분 처방전</h2><span>문학 약국 · 금로동 약사</span></div>
       <div class="rx-bag" id="rx-bag">
         <div class="rx-top">
           <span class="rx-cross"><b>약</b></span>
@@ -417,15 +415,40 @@ button,select{font:inherit}
     </section>
   </div>
 
+  <div class="rowc">
+    <section class="sec" id="s-classic" data-sec="classic" data-name="1분 고전"><a class="anc" id="classic"></a>
+      <div class="kick"><h2><i>⑥</i>1분 고전</h2><span>그래서 결말이 뭔데?</span></div>
+      <p class="cl-title" id="cl-title"></p>
+      <p class="cl-meta" id="cl-meta"></p>
+      <p class="cl-one" id="cl-one"></p>
+      <div class="cl-story body" id="cl-story"></div><ol class="cl-lines" id="cl-lines"></ol>
+      <details class="cl-end"><summary>결말 보기 <em>(스포일러)</em></summary><p id="cl-ending"></p></details>
+      <p class="sub-h">왜 읽을 만한가</p>
+      <div class="body"><p id="cl-why"></p></div>
+      <p class="src" id="cl-src"></p>
+    </section>
+    <section class="sec" id="s-modern" data-sec="modern" data-name="1분 현대문학"><a class="anc" id="modern"></a>
+      <div class="kick"><h2><i>⑦</i>1분 현대문학</h2><span>요즘 소설, 1분 요약</span></div>
+      <p class="cl-title" id="md-title"></p>
+      <p class="cl-meta" id="md-meta"></p>
+      <p class="cl-one" id="md-one"></p>
+      <div class="cl-story body" id="md-story"></div><ol class="cl-lines" id="md-lines"></ol>
+      <details class="cl-end"><summary>결말 보기 <em>(스포일러)</em></summary><p id="md-ending"></p></details>
+      <p class="sub-h">왜 읽을 만한가</p>
+      <div class="body"><p id="md-why"></p></div>
+      <p class="src" id="md-src"></p>
+    </section>
+  </div>
+
   <section class="sec" id="s-day" data-sec="day" data-name="그날의 문학"><a class="anc" id="day"></a>
-    <div class="kick"><h2><i>⑦</i>그날의 문학</h2><span id="day-tag"></span></div>
+    <div class="kick"><h2><i>⑧</i>그날의 문학</h2><span id="day-tag"></span></div>
     <ol class="day-list" id="day-list"></ol>
     <p class="src" id="day-src"></p>
   </section>
 
   <div class="rowe">
     <section class="sec" id="s-puzzle" data-sec="puzzle" data-name="낱말 퍼즐"><a class="anc" id="puzzle"></a>
-      <div class="kick"><h2><i>⑧</i>낱말 퍼즐</h2><span>칸이나 단서를 누르고 답을 넣으세요</span></div>
+      <div class="kick"><h2><i>⑨</i>낱말 퍼즐</h2><span>칸이나 단서를 누르고 답을 넣으세요</span></div>
       <div class="puz">
         <div>
           <div class="pz-grid" id="pz-grid"></div>
@@ -439,7 +462,7 @@ button,select{font:inherit}
       </div>
     </section>
     <section class="sec" id="s-trivia" data-sec="trivia" data-name="문학 상식"><a class="anc" id="trivia"></a>
-      <div class="kick"><h2><i>⑨</i>문학 상식</h2><span>O · X</span></div>
+      <div class="kick"><h2><i>⑩</i>문학 상식</h2><span>O · X</span></div>
       <ol class="tv" id="tv"></ol>
       <p class="cal" id="cal" hidden><b>오늘의 문학 달력</b><span></span></p>
     </section>
@@ -543,7 +566,7 @@ function render(D){
   if(D.calendar){$('cal').hidden=false;$('cal').querySelector('span').textContent=D.calendar}
   hideIf('s-puzzle',!(D.puzzle&&D.puzzle.words&&D.puzzle.words.length));
   if(D.puzzle&&D.puzzle.words)puzzle(D.puzzle,D.date);
-  classic(D.classic);
+  classic(D.classic);oneMin(D.modern,'md-','s-modern');
   day(D);
   rx(D);
   vidUp(D);
@@ -582,24 +605,16 @@ function puzzle(P,date){
 
 
 /* 1분 고전 */
-var CLmode=1;
 function day(D){var Y=D.onthisday;hideIf('s-day',!(Y&&Y.length));if(!Y||!Y.length)return;
   var md=D.date.slice(5).split('-');$('day-tag').textContent=(+md[0])+'월 '+(+md[1])+'일, 그해에는';
-  $('day-list').innerHTML=Y.map(function(y){return'<li><div class="day-y">'+esc(y.year)+'</div><p class="day-h">'+esc(y.title)+'</p><p class="day-b">'+esc(y.body)+'</p></li>'}).join('');
+  $('day-list').innerHTML=Y.map(function(y){return'<li><div class="day-ago">'+(+D.date.slice(0,4)-(+y.year))+'년 전 오늘</div><div class="day-y">'+esc(y.year)+'년</div><p class="day-h">'+esc(y.title)+'</p><p class="day-b">'+esc(y.body)+'</p></li>'}).join('');
   var all=[];Y.forEach(function(y){(y.sources||[]).forEach(function(u){if(all.indexOf(u)<0)all.push(u)})});$('day-src').innerHTML=srcs(all)}
-function classic(C){hideIf('s-classic',!C);if(!C)return;
-  $('cl-title').textContent=C.title;$('cl-meta').textContent=C.writer+' · '+(C.where||C.year)+(C.origin?' · '+C.origin:'');
-  $('cl-one').textContent=C.oneline||'';
-  var hasLong=!!(C.story_long&&C.story_long.length);hideIf('cl-mode',!hasLong);
-  function clDraw(m){var st=(m==5&&hasLong)?C.story_long:(C.story||[]);CLmode=m;
-    $('cl-story').innerHTML=st.map(function(p){return'<p>'+esc(p)+'</p>'}).join('');hideIf('cl-story',!st.length);
-    $('cl-kick').innerHTML='<i>⑤</i>'+(m==5&&hasLong?'5분':'1분')+' 고전';
-    var n=st.join('').length;$('cl-len').textContent='약 '+n.toLocaleString()+'자';
-    [].slice.call($('cl-mode').querySelectorAll('button')).forEach(function(b){var on=b.getAttribute('data-m')==String(m);b.classList.toggle('on',on);b.setAttribute('aria-pressed',on?'true':'false')})}
-  $('cl-mode').onclick=function(e){var b=e.target.closest('button');if(!b)return;clDraw(+b.getAttribute('data-m'));try{localStorage.setItem('cl-mode',b.getAttribute('data-m'))}catch(x){}};
-  var pm=1;try{pm=+(localStorage.getItem('cl-mode')||1)}catch(x){}if(/[?&]five=1/.test(location.search))pm=5;clDraw(pm);
-  $('cl-lines').innerHTML=(C.lines||[]).map(function(l){return'<li><span>'+esc(l)+'</span></li>'}).join('');hideIf('cl-lines',!(C.lines&&C.lines.length));
-  $('cl-ending').textContent=C.ending||'';$('cl-why').textContent=C.why||'';$('cl-src').innerHTML=srcs(C.sources)}
+function oneMin(C,pre,sid){hideIf(sid,!C);if(!C)return;
+  $(pre+'title').textContent=C.title;$(pre+'meta').textContent=C.writer+' · '+(C.where||C.year)+(C.origin?' · '+C.origin:'');
+  $(pre+'one').textContent=C.oneline||'';var st=C.story||[];$(pre+'story').innerHTML=st.map(function(p){return'<p>'+esc(p)+'</p>'}).join('');hideIf(pre+'story',!st.length);
+  $(pre+'lines').innerHTML=(C.lines||[]).map(function(l){return'<li><span>'+esc(l)+'</span></li>'}).join('');hideIf(pre+'lines',!(C.lines&&C.lines.length));
+  $(pre+'ending').textContent=C.ending||'';$(pre+'why').textContent=C.why||'';$(pre+'src').innerHTML=srcs(C.sources)}
+function classic(C){oneMin(C,'cl-','s-classic')}
 /* 기분 처방전: data/rx.json 묶음에서 기분별로 한 알 */
 var RX=null,RXcur=null;
 function rx(D){fetch('data/rx.json?v='+Date.now()).then(function(r){return r.json()}).then(function(R){RX=R;
@@ -634,12 +649,24 @@ function secText(D,sec){var L=[],dt=D.date.replace(/-/g,'.'),hd='[문학늬우�
  if(sec==='novel'){var N=D.novel;L.push(hd+'오늘의 소설 구절]','');if(N.quote_orig)L.push('“'+N.quote_orig+'”');L.push('“'+N.quote+'”','— '+N.writer+' 『'+N.title+'』('+N.year+')'+(N.translator?' · '+N.translator:''),'','■ 앞뒤 맥락',N.context,'','■ 문체와 인물',N.analysis)}
  if(sec==='writer'){var W=D.writer;L.push(hd+'오늘의 문인]','',W.name+(W.hanja?'('+W.hanja+')':'')+' '+(W.life||''),'',W.bio,'','대표작: '+(W.works||[]).join(', '));if(W.link)L.push('',W.link)}
  if(sec==='puzzle'){var Z=D.puzzle;L.push(hd+'낱말 퍼즐]','');['across','down'].forEach(function(d){L.push(d==='across'?'■ 가로':'■ 세로');Z.words.filter(function(w){return w.dir===d}).sort(function(a,b){return a.n-b.n}).forEach(function(w){L.push(w.n+'. '+w.clue+' ('+w.a.length+'글자)')});L.push('')});L.push('칸에 직접 풀어 보세요 👇')}
- if(sec==='day'){var md=D.date.slice(5).split('-');L.push(hd+'그날의 문학 · '+(+md[0])+'월 '+(+md[1])+'일]','');(D.onthisday||[]).forEach(function(y){L.push('■ '+y.year+' — '+y.title,y.body,'')})}
+ if(sec==='day'){var md=D.date.slice(5).split('-');L.push(hd+'그날의 문학 · '+(+md[0])+'월 '+(+md[1])+'일]','');(D.onthisday||[]).forEach(function(y){L.push('■ '+(+D.date.slice(0,4)-(+y.year))+'년 전 오늘('+y.year+') — '+y.title,y.body,'')})}
  if(sec==='trivia'){L.push(hd+'문학 상식 OX]','');(D.trivia||[]).forEach(function(t,i){L.push('Q'+(i+1)+'. '+t.q,'   정답 '+t.a+' — '+t.why,'')});if(D.calendar)L.push('오늘의 문학 달력 — '+D.calendar)}
- if(sec==='classic'){var C=D.classic;L.push(hd+(CLmode==5&&C.story_long?'5분':'1분')+' 고전]','','「'+C.title+'」 '+C.writer+' ('+C.year+')',C.oneline||'','');((CLmode==5&&C.story_long)?C.story_long:(C.story||[])).forEach(function(p){L.push(p,'')});(C.lines||[]).forEach(function(l,i){L.push((i+1)+'. '+l)});L.push('','■ 결말(스포일러)',C.ending||'','','■ 왜 읽을 만한가',C.why||'')}
+ if(sec==='classic'){var C=D.classic;L.push(hd+'1분 고전]','','「'+C.title+'」 '+C.writer+' ('+C.year+')',C.oneline||'','');(C.story||[]).forEach(function(p){L.push(p,'')});(C.lines||[]).forEach(function(l,i){L.push((i+1)+'. '+l)});L.push('','■ 결말(스포일러)',C.ending||'','','■ 왜 읽을 만한가',C.why||'')}
+ if(sec==='modern'){var C=D.modern;L.push(hd+'1분 현대문학]','','「'+C.title+'」 '+C.writer+' ('+C.year+')',C.oneline||'','');(C.story||[]).forEach(function(p){L.push(p,'')});(C.lines||[]).forEach(function(l,i){L.push((i+1)+'. '+l)});L.push('','■ 결말(스포일러)',C.ending||'','','■ 왜 읽을 만한가',C.why||'')}
  if(sec==='rx'){if(RXcur){L.push(hd+'기분 처방전]','','증상: '+RXcur._m.label+' — '+RXcur._m.symptom,'','“'+RXcur.text+'”');if(RXcur.orig)L.push(RXcur.orig);L.push('— '+RXcur.writer+' 「'+RXcur.work+'」'+(RXcur.year?' ('+RXcur.year+')':'')+(RXcur.translator?' · '+RXcur.translator:''),'','복용법: '+RXcur.dose)}else{L.push(hd+'기분 처방전]','','오늘 기분을 고르면 문장 한 알을 지어 드립니다.')}}
  L.push('','금로동 기자 · 문학늬우스',shareUrl(D,sec));return L.join('\n').replace(/\n{3,}/g,'\n\n')}
 var h2c=null;function loadH2C(){if(window.html2canvas)return Promise.resolve();if(h2c)return h2c;h2c=new Promise(function(ok,no){var s=document.createElement('script');s.src='vendor/html2canvas.min.js';s.onload=ok;s.onerror=no;document.head.appendChild(s)});return h2c}
+var IS_TOUCH=false;try{IS_TOUCH=matchMedia('(hover:none) and (pointer:coarse)').matches}catch(e){}
+function saveSheet(b,n){var u=URL.createObjectURL(b),f=null;try{f=new File([b],n,{type:'image/png'})}catch(e){}
+  var canShare=!!(f&&navigator.canShare&&navigator.canShare({files:[f]}));
+  var w=document.createElement('div');w.className='savesheet';
+  w.innerHTML='<div class="ss-box"><img alt="저장할 이미지"><p class="ss-tip">이미지를 <b>길게 눌러</b> \'사진에 저장\'(또는 \'이미지 저장\')을 눌러도 돼요.</p><div class="ss-btns"><button type="button" class="ss-save">'+(canShare?'사진에 저장 · 공유':'이미지 내려받기')+'</button><button type="button" class="ss-close">닫기</button></div></div>';
+  w.querySelector('img').src=u;document.body.appendChild(w);
+  function close(){w.remove();setTimeout(function(){URL.revokeObjectURL(u)},500)}
+  w.onclick=function(e){if(e.target===w||e.target.closest('.ss-close'))close()};
+  w.querySelector('.ss-save').onclick=function(){
+    if(canShare){navigator.share({files:[f]}).then(close,function(){})}
+    else{var a=document.createElement('a');a.href=u;a.download=n;document.body.appendChild(a);a.click();a.remove();toast('내려받기를 시작했어요')}}}
 function secImage(el,D,sec){
   var tgt=sec==='rx'?$('rx-bag'):el;
   var blobP=loadH2C().then(function(){el.classList.add('capturing');
@@ -655,6 +682,8 @@ function secImage(el,D,sec){
      g.fillStyle='#1A1A1A';g.fillRect(pad,c.height+pad+fh*0.4,o.width-pad*2,2);g.font='700 '+Math.round(fh*0.62)+'px "Noto Serif KR",serif';g.textBaseline='middle';g.fillText('문학늬우스 · '+D.date.replace(/-/g,'.'),pad,c.height+pad+fh*1.25);g.textAlign='right';g.fillText('mnews.jintar.co.kr',o.width-pad,c.height+pad+fh*1.25);
      return new Promise(function(ok){o.toBlob(ok,'image/png')})},function(e){el.classList.remove('capturing');throw e});
   var name='문학늬우스-'+D.date+'-'+sec+'.png';
+  // 휴대폰: 복사 대신 저장 시트(공유 → '이미지 저장' 또는 길게 눌러 저장)
+  if(IS_TOUCH)return blobP.then(function(b){saveSheet(b,name);return'sheet'});
   if(navigator.clipboard&&window.ClipboardItem&&window.isSecureContext){
     return navigator.clipboard.write([new ClipboardItem({'image/png':blobP})]).then(function(){return'copied'},function(){return blobP.then(function(b){dl(b,name);return'saved'})})}
   return blobP.then(function(b){dl(b,name);return'saved'});
@@ -665,13 +694,13 @@ function tools(D){
     var sec=el.getAttribute('data-sec'),name=el.getAttribute('data-name'),k=el.querySelector('.kick');if(!k||k.querySelector('.tools'))return;
     var rt=k.querySelector('.rt');if(!rt){rt=document.createElement('span');rt.className='rt';var sp=k.querySelector(':scope>span');if(sp)rt.appendChild(sp);k.appendChild(rt)}
     var t=document.createElement('span');t.className='tools';
-    t.innerHTML='<button type="button" data-act="text" title="'+name+' 글로 복사">'+ICON.text+'<span>글 복사</span></button><button type="button" data-act="img" title="'+name+' 이미지로 복사">'+ICON.img+'<span>이미지 복사</span></button><button type="button" data-act="link" title="'+name+' 링크 복사">'+ICON.link+'<span>링크 복사</span></button>';
+    t.innerHTML='<button type="button" data-act="text" title="'+name+' 글로 복사">'+ICON.text+'<span>글 복사</span></button><button type="button" data-act="img" title="'+name+' 이미지로 '+(IS_TOUCH?'저장':'복사')+'">'+ICON.img+'<span>이미지 복사</span></button><button type="button" data-act="link" title="'+name+' 링크 복사">'+ICON.link+'<span>링크 복사</span></button>';
     rt.appendChild(t);
     t.onclick=function(e){var b=e.target.closest('button');if(!b)return;var act=b.getAttribute('data-act');
       var done=function(m){b.classList.add('ok');toast(m);setTimeout(function(){b.classList.remove('ok')},1400)},fail=function(){toast('복사하지 못했어요. 다시 눌러 주세요.')};
       if(act==='link')copyText(shareUrl(D,sec)).then(function(){done(name+' 링크를 복사했어요')},fail);
       if(act==='text')copyText(secText(D,sec)).then(function(){done(name+' 글을 복사했어요')},fail);
-      if(act==='img'){toast('이미지를 만드는 중…');secImage(el,D,sec).then(function(r){done(r==='copied'?name+' 이미지를 복사했어요':name+' 이미지를 저장했어요')},fail)}};
+      if(act==='img'){toast('이미지를 만드는 중…');secImage(el,D,sec).then(function(r){if(r==='sheet'){toast('이미지를 만들었어요');return}done(r==='copied'?name+' 이미지를 복사했어요':name+' 이미지를 내려받았어요')},fail)}};
   });
   var h=(location.hash||'').slice(1);if(h){var tg=document.getElementById(h);if(tg)setTimeout(function(){tg.scrollIntoView({behavior:'smooth',block:'start'});var box=tg.closest('[data-sec]')||tg;box.classList.add('flash')},350)}
 }

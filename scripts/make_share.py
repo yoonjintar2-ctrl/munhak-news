@@ -9,8 +9,8 @@ import hashlib, html, json, os, re, sys, glob
 
 SITE = "https://mnews.jintar.co.kr/"
 OUT = "s"
-SECS = ["sentence", "poem", "novel", "writer", "puzzle", "trivia", "classic", "rx", "day"]
-NAME = {"sentence": "오늘의 문장", "poem": "오늘의 시", "novel": "오늘의 소설 구절", "writer": "오늘의 문인", "puzzle": "낱말 퍼즐", "trivia": "문학 상식 OX", "classic": "1분 고전", "rx": "기분 처방전", "day": "그날의 문학"}
+SECS = ["sentence", "poem", "novel", "writer", "puzzle", "trivia", "classic", "rx", "day", "modern"]
+NAME = {"sentence": "오늘의 문장", "poem": "오늘의 시", "novel": "오늘의 소설 구절", "writer": "오늘의 문인", "puzzle": "낱말 퍼즐", "trivia": "문학 상식 OX", "classic": "1분 고전", "rx": "기분 처방전", "day": "그날의 문학", "modern": "1분 현대문학"}
 
 
 def esc(x):
@@ -55,10 +55,10 @@ def content(D, sec):
         T = D.get("trivia") or []
         return (f"문학 상식 OX · {clip(T[0]['q'], 40)}" if T else "문학 상식", " / ".join("Q" + str(i + 1) + ". " + t["q"] for i, t in enumerate(T))[:110],
                 "O일까, X일까?", esc(clip(T[0]["q"], 70)) if T else "", None, f"{len(T)}문항 · 정답과 해설은 지면에서")
-    if sec == "classic":
-        C = D["classic"]
-        return (f"1분 고전 · {C['writer']} 「{C['title']}」", clip(C.get("oneline", "") + " " + " ".join(C.get("story") or C.get("lines", [])), 110),
-                f"「{esc(C['title'])}」", esc(clip(C.get("oneline"), 80)), None, f"{esc(C['writer'])} · {C['year']} · 1분 컷 · 5분 정주행")
+    if sec in ("classic", "modern"):
+        C = D[sec]
+        return (f"{NAME[sec]} · {C['writer']} 「{C['title']}」", clip(C.get("oneline", "") + " " + " ".join(C.get("story") or C.get("lines", [])), 110),
+                f"「{esc(C['title'])}」", esc(clip(C.get("oneline"), 80)), None, f"{esc(C['writer'])} · {C['year']} · 1분이면 읽는 줄거리")
     if sec == "day":
         Y = D.get("onthisday") or []
         m, dd = D["date"][5:].split("-")
@@ -155,9 +155,9 @@ def main(dates):
             elif sec == "trivia":
                 right = '<div class="r" style="width:330px;display:flex;gap:22px;top:150px"><b style="width:150px;height:150px;border:5px solid #1A1A1A;display:grid;place-items:center;font-size:110px;font-weight:900;line-height:1">O</b><b style="width:150px;height:150px;border:5px solid #1A1A1A;display:grid;place-items:center;font-size:110px;font-weight:900;line-height:1;background:#1A1A1A;color:#EDEDED">X</b></div>'
                 lw = 740
-            elif sec in ("rx", "classic", "day"):
-                lbl = {"rx": "文學<br>藥局", "classic": "1分<br>古典", "day": "今日<br>文學"}[sec]
-                right = f'<div class="r" style="width:300px;top:120px"><div style="width:280px;height:330px;margin-left:auto;background:#f9f8f3;border:3px solid #1A1A1A;box-shadow:10px 10px 0 #1A1A1A;position:relative;padding:22px"><div style="font-size:30px;font-weight:900;border-bottom:4px double #1A1A1A;padding-bottom:8px">{ {"rx":"문학 약국","classic":"1분 고전","day":"그날의 문학"}[sec] }</div><div style="font-size:18px;color:#A01E1E;font-weight:700;margin-top:10px">{ {"rx":"처방전 · 內服藥","classic":"1분 컷 · 5분 정주행","day":"오늘 날짜의 문학사"}[sec] }</div><div style="position:absolute;right:24px;bottom:28px;width:110px;height:110px;border:5px solid #A01E1E;border-radius:50%;color:#A01E1E;font-size:26px;font-weight:900;line-height:1.15;display:grid;place-items:center;text-align:center;transform:rotate(-14deg)">{lbl}</div></div></div>'
+            elif sec in ("rx", "classic", "day", "modern"):
+                lbl = {"rx": "文學<br>藥局", "classic": "1分<br>古典", "day": "今日<br>文學", "modern": "1分<br>現代"}[sec]
+                right = f'<div class="r" style="width:300px;top:120px"><div style="width:280px;height:330px;margin-left:auto;background:#f9f8f3;border:3px solid #1A1A1A;box-shadow:10px 10px 0 #1A1A1A;position:relative;padding:22px"><div style="font-size:30px;font-weight:900;border-bottom:4px double #1A1A1A;padding-bottom:8px">{ {"rx":"문학 약국","classic":"1분 고전","day":"그날의 문학","modern":"1분 현대문학"}[sec] }</div><div style="font-size:18px;color:#A01E1E;font-weight:700;margin-top:10px">{ {"rx":"처방전 · 內服藥","classic":"1분이면 읽는 줄거리","day":"오늘 날짜의 문학사","modern":"요즘 소설 1분 요약"}[sec] }</div><div style="position:absolute;right:24px;bottom:28px;width:110px;height:110px;border:5px solid #A01E1E;border-radius:50%;color:#A01E1E;font-size:26px;font-weight:900;line-height:1.15;display:grid;place-items:center;text-align:center;transform:rotate(-14deg)">{lbl}</div></div></div>'
                 lw = 760
             elif img and os.path.exists(img):
                 wr = sec == "writer"

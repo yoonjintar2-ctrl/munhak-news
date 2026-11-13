@@ -69,5 +69,5 @@
 
 ## 추가 필드 (2026-11-13)
 - `poem.permission` / `poem.text_file`: 저작권자 허락을 받은 시. 전문은 발행인이 직접 `poems/<날짜>.txt`에 붙여 넣고, 페이지가 읽어 연 단위로 보여 줍니다(기자는 전문을 옮겨 적지 않음).
-- `classic.story`: 1분 컷(1문단). `classic.story_long`: 같은 줄거리의 5분 정주행(여러 문단). 결말은 둘 다 `classic.ending`(스포일러 접기).
-- `onthisday`: [{year, title, body, sources[]}] — 「그날의 문학」, 오늘 날짜의 과거 문학 사건 2~3개.
+- `classic` / `modern`: 1분 고전·1분 현대문학. 같은 형식 {title, writer, year, origin, where, oneline, story[문단], ending(스포일러 접기), why, sources}.
+- `onthisday`: [{year, title, body, sources[]}] — 「그날의 문학」, 오늘 날짜의 과거 문학 사건 2~3개. 화면에는 발행 연도 − year로 'N년 전 오늘'이 크게 붙습니다.
