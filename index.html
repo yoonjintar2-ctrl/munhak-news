@@ -43,11 +43,11 @@ button,select{font:inherit}
 .mast h1 small{font-size:.32em;font-weight:700;letter-spacing:.05em;vertical-align:.9em;margin-left:.2em;color:var(--red)}
 .slogan{font-size:.86rem;color:var(--muted);margin-top:6px;letter-spacing:.02em}
 .mast .r{display:flex;flex-direction:column;align-items:flex-end;gap:6px}
-.issue-share{display:inline-flex;align-items:center;gap:7px;font:inherit;font-size:.86rem;font-weight:900;padding:8px 14px;border:2px solid var(--ink);background:var(--ink);color:var(--paper);cursor:pointer;box-shadow:3px 3px 0 var(--red);transition:transform .08s,box-shadow .08s}
-.issue-share svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linejoin:round}
-.issue-share:hover{transform:translate(-1px,-1px);box-shadow:4px 4px 0 var(--red)}
-.issue-share:active{transform:translate(3px,3px);box-shadow:none}
-@media (max-width:860px){.issue-share{font-size:.92rem;padding:10px 16px;margin:4px 0 2px}}
+.issue-share{display:inline-flex;align-items:center;gap:5px;font:inherit;font-size:.74rem;font-weight:700;padding:4px 9px;border:1px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer;line-height:1.2}
+.issue-share svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linejoin:round}
+.issue-share:hover{background:var(--ink);color:var(--paper)}
+.issue-share:active{transform:translate(1px,1px)}
+@media (max-width:860px){.mast{position:relative}.issue-share{position:absolute;top:2px;right:0;font-size:.7rem;padding:4px 7px}.issue-share .lg{display:none}}
 .back{display:flex;gap:6px;align-items:center;font-size:.8rem}
 .back select{font-family:var(--serif);font-size:.8rem;background:transparent;border:1px solid var(--ink);padding:3px 6px;color:var(--ink)}
 .back a{border:1px solid var(--ink);padding:3px 8px;font-weight:700}
@@ -335,12 +335,11 @@ button,select{font:inherit}
     <p class="slogan">밑줄 긋고 싶은 문장, 매일 아침 한 숟갈씩 떠-먹여 드려요.</p>
   </div>
   <div class="r">
-    <button type="button" class="issue-share" id="issueShare" title="오늘 신문 전체를 공유"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h13v14H6a2 2 0 0 1-2-2V5Z"/><path d="M17 8h3v9a2 2 0 0 1-2 2"/><path d="M7 9h7M7 12h7M7 15h4"/></svg><span id="issueShareLbl">문학늬우스 공유하기</span></button>
+    <button type="button" class="issue-share" id="issueShare" title="오늘 신문 전체를 공유"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h13v14H6a2 2 0 0 1-2-2V5Z"/><path d="M17 8h3v9a2 2 0 0 1-2 2"/><path d="M7 9h7M7 12h7M7 15h4"/></svg><span id="issueShareLbl">공유하기</span></button>
     <div class="back"><label for="past">지난 호</label><select id="past"><option value="">불러오는 중…</option></select><a id="toToday" href="./" hidden>오늘 호</a></div>
   </div>
 </header>
 <div class="dateline"><span id="dl-date">—</span><span id="dl-no">—</span><span>발행인 <span id="dl-pub">윤진탈</span> <span class="red">(지구별)</span> · 글 금로동 기자</span></div>
-<div class="ticker"><b>오늘의 문학</b><div class="tw"><div class="track" id="ticker"></div></div></div>
 
 <main id="paper">
   <article class="sec-wrap" id="sentence" data-sec="sentence" data-name="오늘의 문장">
@@ -518,7 +517,7 @@ function render(D){
   if(D.poem)tk.push('오늘의 시 · '+D.poem.writer+' 「'+D.poem.title+'」');
   if(D.novel)tk.push('오늘의 소설 구절 · '+D.novel.writer+' 『'+D.novel.title+'』');
   if(D.writer)tk.push('오늘의 문인 · '+D.writer.name);
-  var h=tk.map(function(t){return'<span>'+esc(t)+'</span>'}).join('');$('ticker').innerHTML=h+h;
+  var h=tk.map(function(t){return'<span>'+esc(t)+'</span>'}).join('');var tke=$('ticker');if(tke)tke.innerHTML=h+h;
   var S=D.sentence;hideIf('sentence',!S);
   if(S){
     var big=S.big&&S.big.length?S.big:[S.text];
@@ -658,7 +657,7 @@ var ICON={
  img:'<svg viewBox="0 0 16 16" aria-hidden="true"><rect x="2" y="3" width="12" height="10" rx="1" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="6" cy="6.6" r="1.2" fill="currentColor"/><path d="M3 12l3.6-3.4 2.4 2.2 1.8-1.6L13 11.4" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>',
  link:'<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6.6 9.4a2.6 2.6 0 0 0 3.7 0l2.4-2.4a2.6 2.6 0 0 0-3.7-3.7l-.9.9M9.4 6.6a2.6 2.6 0 0 0-3.7 0L3.3 9a2.6 2.6 0 0 0 3.7 3.7l.9-.9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>'};
 function issueShare(D){var b=$('issueShare');if(!b)return;var md=D.date.slice(5).split('-'),mdT=(+md[0])+'월 '+(+md[1])+'일';
-  $('issueShareLbl').textContent='문학늬우스 제'+D.no+'호 공유하기';
+  $('issueShareLbl').innerHTML='<span class="lg">문학늬우스 </span>제'+D.no+'호 공유';
   var url='https://mnews.jintar.co.kr/s/'+D.date+'-issue.html';
   var title='문학늬우스 '+mdT+' 제'+D.no+'호 신문이 도착했습니다';
   b.onclick=function(){
