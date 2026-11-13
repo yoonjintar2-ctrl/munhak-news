@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>문학늬우스 — 매일 아침, 밑줄 긋고 싶은 문장 하나</title>
+<meta name="description" content="오늘의 문장, 오늘의 시, 소설 구절, 오늘의 문인, 낱말 퍼즐, 문학 상식. 매일 아침 발행하는 흑백 문학 신문.">
+<meta property="og:title" content="문학늬우스">
+<meta property="og:description" content="밑줄 긋고 싶은 문장, 매일 아침 한 숟갈씩 떠-먹여 드려요.">
+<meta property="og:image" content="img/og.jpg">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' fill='%231A1A1A'/><text x='32' y='45' font-size='38' text-anchor='middle' fill='%23EDEDED' font-family='serif' font-weight='900'>文</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;500;600;700;900&family=IBM+Plex+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --paper:#EDEDED;--paper2:#E4E4E4;--ink:#1A1A1A;--muted:#4F4F4F;--faint:#7A7A7A;--rule:#A6A6A6;--rule-soft:#CDCDCD;--tint:#E0E0E0;
+  --red:#A01E1E;
+  --serif:"Noto Serif KR","AppleMyungjo","Batang",serif;
+  --sans:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;--mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+html{font-size:15px}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{margin:0;word-break:keep-all;overflow-wrap:anywhere;background-color:var(--paper);background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .3  0 0 0 0 .3  0 0 0 0 .3  0 0 0 .06 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");color:var(--ink);font-family:var(--serif);line-height:1.6;padding:0 16px 32px}
+a{color:inherit;text-decoration:none}
+a:hover{text-decoration:underline;text-underline-offset:2px}
+h1,h2,h3,h4,p{margin:0}
+button,select{font:inherit}
+.wrap{max-width:1400px;margin:0 auto}
+/* 제호 */
+.mast{display:grid;grid-template-columns:1fr auto 1fr;align-items:end;gap:16px;padding:14px 0 8px}
+.mast .l{font-family:var(--mono);font-size:.74rem;color:var(--muted);line-height:1.6}
+.mast .l b{font-family:var(--serif);color:var(--ink)}
+.mast .c{text-align:center}
+.mast h1{font-weight:900;font-size:4.2rem;line-height:1;letter-spacing:-.03em;color:#111}
+.mast h1 small{font-size:.32em;font-weight:700;letter-spacing:.05em;vertical-align:.9em;margin-left:.2em;color:var(--red)}
+.slogan{font-size:.86rem;color:var(--muted);margin-top:6px;letter-spacing:.02em}
+.mast .r{display:flex;flex-direction:column;align-items:flex-end;gap:6px}
+.back{display:flex;gap:6px;align-items:center;font-size:.8rem}
+.back select{font-family:var(--serif);font-size:.8rem;background:transparent;border:1px solid var(--ink);padding:3px 6px;color:var(--ink)}
+.back a{border:1px solid var(--ink);padding:3px 8px;font-weight:700}
+.back a:hover{background:var(--ink);color:var(--paper);text-decoration:none}
+.dateline{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;border-top:3px solid var(--ink);border-bottom:1px solid var(--ink);padding:3px 0;font-weight:700;font-size:.82rem;box-shadow:0 2px 0 -1px var(--paper),0 3px 0 -1px var(--ink)}
+.dateline .red{color:var(--red);font-weight:500}
+.ticker{display:flex;align-items:center;gap:12px;border-bottom:1px solid var(--rule);padding:6px 0;overflow:hidden;font-weight:700;font-size:.88rem;margin-top:4px}
+.ticker b{flex:none;font-size:.72rem;letter-spacing:.1em;color:var(--paper);background:var(--red);padding:2px 7px}
+.tw{flex:1;min-width:0;overflow:hidden}
+.track{display:flex;gap:3rem;white-space:nowrap;width:max-content;animation:scroll 60s linear infinite}
+.track span::before{content:"◆";color:var(--red);font-size:.6em;margin-right:.6rem;vertical-align:.15em}
+@keyframes scroll{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.track{animation:none}}
+/* 공통 */
+.kick{display:flex;justify-content:space-between;align-items:baseline;gap:8px;border-top:2px solid var(--ink);padding-top:5px;margin-bottom:10px}
+.kick h2{font-weight:900;font-size:1rem;letter-spacing:.02em}
+.kick h2 i{font-style:normal;color:var(--red);margin-right:6px}
+.kick span{font-size:.72rem;color:var(--faint)}
+.sec{min-width:0}
+.byline{display:flex;justify-content:flex-end;gap:6px;align-items:baseline;font-size:.78rem;color:var(--muted);margin-top:10px}
+.byline b{color:var(--ink)}
+.src{font-family:var(--mono);font-size:.66rem;color:var(--faint);margin-top:8px;line-height:1.5;word-break:break-all}
+.src a{text-decoration:underline;text-decoration-color:var(--rule)}
+.fig{position:relative;border:1px solid var(--ink);background:#d9d9d4;margin:0}
+.fig img,.fig video{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
+.fig figcaption{font-size:.72rem;color:var(--muted);padding:5px 8px;border-top:1px solid var(--ink);background:var(--paper)}
+.fig .tag{position:absolute;left:8px;top:8px;font-size:.66rem;font-weight:700;background:var(--paper);border:1px solid var(--ink);padding:1px 6px}
+.body p{font-size:.95rem;line-height:1.75;text-align:justify}
+.body p+p{margin-top:.6em}
+.sub-h{font-size:.84rem;font-weight:900;margin:14px 0 4px;display:flex;align-items:center;gap:6px}
+.sub-h::before{content:"";width:12px;height:2px;background:var(--red)}
+/* 오늘의 문장 */
+.hero{display:grid;grid-template-columns:1.25fr 1fr;gap:28px;padding-top:14px}
+.quote-big{font-weight:900;font-size:clamp(2.2rem,4.6vw,4.4rem);line-height:1.18;letter-spacing:-.035em;margin:6px 0 14px}
+.quote-big .qm{color:var(--red)}
+.quote-big span{display:block}
+.quote-full{font-size:1rem;line-height:1.7;border-left:3px solid var(--red);padding-left:12px;color:var(--muted)}
+.quote-from{margin-top:12px;font-size:.92rem}
+.quote-from b{font-weight:900}
+.quote-from em{font-style:normal;color:var(--faint);font-size:.82rem;margin-left:4px}
+.lead{font-size:.88rem;color:var(--muted);margin-top:14px;padding-top:10px;border-top:1px dotted var(--rule)}
+.three{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:22px;border-top:1px solid var(--ink)}
+.three>div{padding:10px 16px 4px}
+.three>div:first-child{padding-left:0}
+.three>div+div{border-left:1px solid var(--rule-soft)}
+.three h3{font-size:.84rem;font-weight:900;margin-bottom:6px}
+.three h3 em{font-style:normal;color:var(--red);font-family:var(--mono);margin-right:6px}
+.three p{font-size:.92rem;line-height:1.75;text-align:justify}
+/* 시·소설 */
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:0;margin-top:28px}
+.row2>.sec+.sec{border-left:1px solid var(--rule);padding-left:22px;margin-left:22px}
+.poem-wrap{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.poem-title{font-size:1.5rem;font-weight:900;letter-spacing:-.02em}
+.poem-meta{font-size:.8rem;color:var(--muted);margin:2px 0 12px}
+.poem-lines{font-size:1rem;line-height:1.95}
+.poem-lines p{margin:0 0 .9em;text-indent:-1em;padding-left:1em}
+.note{font-size:.7rem;color:var(--faint)}
+.oneline{margin-top:14px;padding:10px 12px;border:1px solid var(--ink);font-size:.9rem;background:var(--paper2)}
+.oneline b{color:var(--red);margin-right:6px}
+.nq{margin:14px 0}
+.nq .orig{font-family:Georgia,"Times New Roman",serif;font-style:italic;font-size:1.05rem;line-height:1.55;color:var(--muted)}
+.nq .ko{font-size:1.45rem;font-weight:900;line-height:1.45;letter-spacing:-.02em;margin-top:8px}
+.nq .tr{font-size:.76rem;color:var(--faint);margin-top:4px}
+/* 아랫단 */
+.row3{display:grid;grid-template-columns:1fr 1.5fr 1fr;gap:0;margin-top:28px}
+.row3>.sec+.sec{border-left:1px solid var(--rule);padding-left:20px;margin-left:20px}
+.writer-top{display:grid;grid-template-columns:110px 1fr;gap:12px;align-items:start}
+.writer-top img{width:110px;height:auto;border:1px solid var(--ink);display:block}
+.wn{font-size:1.45rem;font-weight:900;line-height:1.1}
+.wn small{font-size:.6em;color:var(--faint);font-weight:500;margin-left:4px}
+.wm{font-size:.78rem;color:var(--muted);margin-top:4px;line-height:1.5}
+.works{list-style:none;margin:10px 0 0;padding:0;border-top:1px solid var(--ink)}
+.works li{font-size:.86rem;padding:5px 0;border-bottom:1px solid var(--rule-soft)}
+.works li::before{content:counter(w) ". ";counter-increment:w;color:var(--red);font-family:var(--mono);font-size:.8em}
+.works{counter-reset:w}
+.link{margin-top:10px;font-size:.88rem;background:var(--paper2);padding:8px 10px;border-left:3px solid var(--ink)}
+/* 퍼즐 */
+.puz{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px}
+.pz-grid{display:grid;border:2px solid var(--ink);background:var(--ink);gap:1px;width:100%;max-width:420px;align-self:start}
+.pz-b{background:#bdbab2;aspect-ratio:1}
+.pz-c{position:relative;background:var(--paper);aspect-ratio:1;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:clamp(.8rem,1.6vw,1.15rem);cursor:pointer;user-select:none}
+.pz-n{position:absolute;left:2px;top:0;font-size:.55rem;font-weight:700;line-height:1.2}
+.pz-c.on{background:#f3ead0}.pz-c.cur{background:#ffe08a}
+.pz-c.good{background:#dfeedd}.pz-c.bad{color:var(--red);background:#f5d4d0}
+.pz-c.shown{color:#23405F}
+.pz-entry{margin-top:10px}
+.pz-entry label{display:block;font-size:.84rem;line-height:1.5;margin-bottom:6px;min-height:2.6em}
+.pz-entry label i{font-style:normal;color:var(--faint)}
+.pz-row{display:flex;gap:6px}
+.pz-row input{flex:1;min-width:0;font:inherit;font-size:1rem;padding:6px 9px;border:1px solid var(--ink);background:var(--paper2);color:var(--ink)}
+.pz-row button,.pz-btns button{font-family:var(--serif);font-weight:700;font-size:.8rem;padding:6px 11px;border:1px solid var(--ink);background:var(--ink);color:var(--paper);cursor:pointer}
+.pz-btns{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.pz-btns button{background:transparent;color:var(--ink)}
+.pz-btns button:hover{background:var(--ink);color:var(--paper)}
+.pz-msg{font-size:.8rem;color:var(--muted);margin-top:6px;min-height:1.2em}
+.pz-clues h3{font-size:.86rem;font-weight:900;margin:0 0 4px;padding-bottom:3px;border-bottom:1px solid var(--ink)}
+.pz-clues h3+ol+h3{margin-top:12px}
+.pz-clues ol{list-style:none;margin:0;padding:0;max-height:none}
+.pz-clues li{font-size:.8rem;line-height:1.5;padding:4px 3px;border-bottom:1px solid var(--rule-soft);cursor:pointer}
+.pz-clues li b{display:inline-block;min-width:1.5em;color:var(--red)}
+.pz-clues li i{font-style:normal;color:var(--faint);font-size:.74rem}
+.pz-clues li:hover{background:var(--paper2)}
+.pz-clues li.on{background:#f3ead0}
+.pz-clues li.done{color:var(--faint);text-decoration:line-through}
+/* 상식 */
+.tv{list-style:none;margin:0;padding:0}
+.tv li{border-bottom:1px solid var(--rule-soft);padding:10px 0}
+.tv .q{font-size:.92rem;line-height:1.6;display:flex;gap:8px}
+.tv .q b{color:var(--red);font-family:var(--mono);white-space:nowrap;flex:none}
+.tv .ox{display:flex;gap:6px;margin:8px 0 0 22px}
+.tv .ox button{font-family:var(--serif);font-weight:900;width:44px;padding:3px 0;border:1px solid var(--ink);background:transparent;cursor:pointer;font-size:.95rem}
+.tv .ox button:hover{background:var(--ink);color:var(--paper)}
+.tv .ox button.pick-good{background:#1F6B3E;border-color:#1F6B3E;color:#fff}
+.tv .ox button.pick-bad{background:var(--red);border-color:var(--red);color:#fff}
+.tv details{margin:6px 0 0 22px;font-size:.84rem;color:var(--muted)}
+.tv summary{cursor:pointer;font-size:.76rem;color:var(--faint)}
+.tv .ans{font-weight:900;color:var(--ink);margin-right:4px}
+.cal{margin-top:14px;font-size:.82rem;border:1px solid var(--ink);padding:8px 10px}
+.cal b{display:block;font-size:.72rem;letter-spacing:.08em;color:var(--red);margin-bottom:2px}
+/* 판권 */
+.colophon{margin-top:30px;border-top:3px double var(--ink);padding-top:10px;display:grid;grid-template-columns:1fr auto;gap:16px;align-items:end;font-size:.8rem;color:var(--muted)}
+.staff{display:flex;gap:12px;align-items:center}
+.staff .av{width:44px;height:44px;border:1px solid var(--ink);border-radius:50%;display:grid;place-items:center;font-weight:900;color:var(--ink);background:var(--paper2)}
+.staff b{color:var(--ink);font-size:.9rem}
+.pub{text-align:right;line-height:1.7}
+.pub b{color:var(--ink)}
+.copy{font-size:.7rem;color:var(--faint);margin-top:6px;grid-column:1/-1}
+.empty{padding:40px 0;text-align:center;color:var(--muted)}
+/* 반응형 */
+@media (max-width:1100px){.row3{grid-template-columns:1fr 1fr}.row3>.sec:nth-child(2){grid-column:1/-1;order:3;border-left:0;padding-left:0;margin:24px 0 0;border-top:0}.poem-wrap{grid-template-columns:1fr}}
+@media (max-width:860px){
+  body{padding:0 14px 28px}
+  .mast{grid-template-columns:1fr;text-align:center;gap:6px}.mast .l{display:none}.mast .r{align-items:center}
+  .mast h1{font-size:2.9rem}
+  .hero,.row2,.row3,.three,.puz{grid-template-columns:1fr}
+  .hero .fig{order:-1}
+  .three>div{padding:10px 0!important;border-left:0!important}.three>div+div{border-top:1px solid var(--rule-soft)}
+  .row2>.sec+.sec,.row3>.sec+.sec{border-left:0;padding-left:0;margin:26px 0 0}
+  .row3>.sec:nth-child(2){margin-top:26px}
+  .pz-grid{max-width:100%}
+  .colophon{grid-template-columns:1fr}.pub{text-align:left}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="mast">
+  <div class="l">
+    <div><b>창간</b> 2026. 11. 13.</div>
+    <div>매일 아침 발행 · 지구별 문학부</div>
+    <div>mnews.jintar.co.kr</div>
+  </div>
+  <div class="c">
+    <h1>문학늬우스<small>文</small></h1>
+    <p class="slogan">밑줄 긋고 싶은 문장, 매일 아침 한 숟갈씩 떠-먹여 드려요.</p>
+  </div>
+  <div class="r">
+    <div class="back"><label for="past">지난 호</label><select id="past"><option value="">불러오는 중…</option></select><a id="toToday" href="./" hidden>오늘 호</a></div>
+  </div>
+</header>
+<div class="dateline"><span id="dl-date">—</span><span id="dl-no">—</span><span>발행인 <span id="dl-pub">윤진탈</span> <span class="red">(지구별)</span> · 글 금로동 기자</span></div>
+<div class="ticker"><b>오늘의 문학</b><div class="tw"><div class="track" id="ticker"></div></div></div>
+
+<main id="paper">
+  <section class="hero sec" id="s-sentence">
+    <div>
+      <div class="kick"><h2><i>①</i>오늘의 문장</h2><span id="sen-tag"></span></div>
+      <p class="quote-big" id="sen-big"></p>
+      <p class="quote-full" id="sen-full"></p>
+      <p class="quote-from" id="sen-from"></p>
+      <p class="lead" id="lead"></p>
+    </div>
+    <figure class="fig" id="sen-fig"><span class="tag">AI 삽화</span><img id="sen-img" alt=""><figcaption id="sen-cap"></figcaption></figure>
+  </section>
+  <div class="three" id="s-sentence-x">
+    <div><h3><em>01</em>이 문장이 품은 뜻</h3><p id="sen-meaning"></p></div>
+    <div><h3><em>02</em>누가, 어느 장면에서</h3><p id="sen-context"></p></div>
+    <div><h3><em>03</em>작가가 노린 것</h3><p id="sen-craft"></p><p class="src" id="sen-src"></p></div>
+  </div>
+
+  <div class="row2">
+    <section class="sec" id="s-poem">
+      <div class="kick"><h2><i>②</i>오늘의 시</h2><span id="poem-tag"></span></div>
+      <div class="poem-wrap">
+        <div>
+          <h3 class="poem-title" id="poem-title"></h3>
+          <p class="poem-meta" id="poem-meta"></p>
+          <div class="poem-lines" id="poem-lines"></div>
+          <p class="note" id="poem-note"></p>
+        </div>
+        <div>
+          <figure class="fig"><span class="tag">AI 삽화</span><img id="poem-img" alt=""><figcaption id="poem-cap"></figcaption></figure>
+          <p class="sub-h">읽기</p>
+          <div class="body" id="poem-analysis"></div>
+        </div>
+      </div>
+      <p class="oneline" id="poem-oneline"></p>
+      <p class="src" id="poem-src"></p>
+    </section>
+    <section class="sec" id="s-novel">
+      <div class="kick"><h2><i>③</i>오늘의 소설 구절</h2><span id="novel-tag"></span></div>
+      <figure class="fig"><span class="tag">AI 삽화</span><img id="novel-img" alt=""><figcaption id="novel-cap"></figcaption></figure>
+      <div class="nq"><p class="orig" id="novel-orig"></p><p class="ko" id="novel-ko"></p><p class="tr" id="novel-tr"></p></div>
+      <p class="sub-h">앞뒤 맥락</p>
+      <div class="body"><p id="novel-context"></p></div>
+      <p class="sub-h">문체와 인물</p>
+      <div class="body" id="novel-analysis"></div>
+      <p class="src" id="novel-src"></p>
+    </section>
+  </div>
+
+  <div class="row3">
+    <section class="sec" id="s-writer">
+      <div class="kick"><h2><i>④</i>오늘의 문인</h2><span>문인 열전</span></div>
+      <div class="writer-top"><img id="w-img" alt=""><div><p class="wn" id="w-name"></p><p class="wm" id="w-meta"></p></div></div>
+      <div class="body" style="margin-top:10px"><p id="w-bio"></p></div>
+      <ul class="works" id="w-works"></ul>
+      <p class="link" id="w-link"></p>
+      <p class="src" id="w-src"></p>
+    </section>
+    <section class="sec" id="s-puzzle">
+      <div class="kick"><h2><i>⑤</i>낱말 퍼즐</h2><span>칸이나 단서를 누르고 답을 넣으세요</span></div>
+      <div class="puz">
+        <div>
+          <div class="pz-grid" id="pz-grid"></div>
+          <div class="pz-entry"><label id="pz-label">단서를 고르세요.</label>
+            <div class="pz-row"><input id="pz-in" autocomplete="off" placeholder="정답 입력"><button id="pz-put">넣기</button></div>
+            <div class="pz-btns"><button id="pz-check">맞혀 보기</button><button id="pz-hint">한 글자 힌트</button><button id="pz-show">정답 보기</button><button id="pz-reset">지우기</button></div>
+            <p class="pz-msg" id="pz-msg"></p>
+          </div>
+        </div>
+        <div class="pz-clues"><h3>가로</h3><ol id="pz-across"></ol><h3>세로</h3><ol id="pz-down"></ol></div>
+      </div>
+    </section>
+    <section class="sec" id="s-trivia">
+      <div class="kick"><h2><i>⑥</i>문학 상식</h2><span>O · X</span></div>
+      <ol class="tv" id="tv"></ol>
+      <p class="cal" id="cal" hidden><b>오늘의 문학 달력</b><span></span></p>
+    </section>
+  </div>
+</main>
+
+<footer class="colophon">
+  <div class="staff"><span class="av">금</span><div><b>금로동 기자</b> · 문학늬우스 유일한 필진 (AI 기자, Claude)<br>문장마다 밑줄 그으며 읽고, 확인한 것만 씁니다.</div></div>
+  <div class="pub">발행인 <b>윤진탈</b> · 소속 <b>지구별</b><br>문학늬우스 · mnews.jintar.co.kr</div>
+  <p class="copy">시 전문은 저작권 보호기간이 끝난 작품만 싣습니다. 외국 작품은 금로동 기자가 직접 옮겼습니다. 삽화는 AI로 만든 3D 그림이며 실존 인물의 얼굴을 그리지 않습니다.</p>
+</footer>
+</div>
+
+<script>
+(function(){
+var $=function(id){return document.getElementById(id)};
+var esc=function(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})};
+var paras=function(s){return String(s||'').split(/\n+/).filter(Boolean).map(function(p){return'<p>'+esc(p)+'</p>'}).join('')};
+var srcs=function(a){return(a&&a.length)?'출처 · '+a.map(function(u,i){return'<a href="'+esc(u)+'" target="_blank" rel="noopener">'+(i+1)+'</a>'}).join(' '):''};
+var WD=['일','월','화','수','목','금','토'];
+function fmtDate(d){var t=new Date(d+'T00:00:00+09:00');return t.getFullYear()+'년 '+(t.getMonth()+1)+'월 '+t.getDate()+'일 '+WD[t.getDay()]+'요일'}
+function hideIf(id,cond){var e=$(id);if(e)e.hidden=!!cond}
+var q=new URLSearchParams(location.search).get('d');
+var url=q&&/^\d{4}-\d{2}-\d{2}$/.test(q)?'archive/'+q+'.json':'today.json';
+fetch(url+'?v='+Date.now()).then(function(r){if(!r.ok)throw 0;return r.json()}).then(render).catch(function(){$('paper').innerHTML='<p class="empty">이 날짜의 호를 찾지 못했습니다. <a href="./">오늘 호 보기</a></p>'});
+fetch('archive/index.json?v='+Date.now()).then(function(r){return r.json()}).then(function(L){var s=$('past');s.innerHTML='<option value="">날짜 고르기</option>'+L.map(function(x){return'<option value="'+x.date+'">'+x.date.replace(/-/g,'.')+' · 제'+x.no+'호 · '+esc(x.writer||'')+'</option>'}).join('');if(q)s.value=q;s.onchange=function(){if(s.value)location.search='?d='+s.value}}).catch(function(){$('past').innerHTML='<option>아직 없음</option>'});
+if(q)$('toToday').hidden=false;
+
+function render(D){
+  document.title='문학늬우스 제'+D.no+'호 — '+(D.sentence?D.sentence.work:'');
+  $('dl-date').textContent=fmtDate(D.date);
+  $('dl-no').textContent='제'+D.no+'호'+(D.no===1?' · 창간호':'');
+  if(D.publisher)$('dl-pub').textContent=D.publisher.name;
+  var tk=[];if(D.calendar)tk.push('오늘의 문학 달력 — '+D.calendar);
+  if(D.sentence)tk.push('오늘의 문장 · '+D.sentence.writer+' 「'+D.sentence.work+'」');
+  if(D.poem)tk.push('오늘의 시 · '+D.poem.writer+' 「'+D.poem.title+'」');
+  if(D.novel)tk.push('오늘의 소설 구절 · '+D.novel.writer+' 『'+D.novel.title+'』');
+  if(D.writer)tk.push('오늘의 문인 · '+D.writer.name);
+  var h=tk.map(function(t){return'<span>'+esc(t)+'</span>'}).join('');$('ticker').innerHTML=h+h;
+  var S=D.sentence;hideIf('s-sentence',!S);hideIf('s-sentence-x',!S);
+  if(S){
+    var big=S.big&&S.big.length?S.big:[S.text];
+    $('sen-big').innerHTML='<span class="qm">“</span>'+big.map(function(b){return'<span>'+esc(b)+'</span>'}).join('').replace(/<\/span>$/,'<span class="qm" style="display:inline">”</span></span>');
+    $('sen-full').textContent='전문 · '+S.text;
+    $('sen-from').innerHTML='— '+esc(S.speaker||'')+' · <b>'+esc(S.writer)+'</b> 「'+esc(S.work)+'」<em>'+(S.year||'')+' · '+esc(S.origin||'')+'</em>';
+    $('sen-tag').textContent=S.writer+' · '+S.year;
+    $('sen-meaning').textContent=S.meaning;$('sen-context').textContent=S.context;$('sen-craft').textContent=S.craft;$('sen-src').innerHTML=srcs(S.sources);
+    if(S.img){$('sen-img').src=S.img;$('sen-img').alt=S.alt||'';$('sen-cap').textContent=S.alt||''}else hideIf('sen-fig',1);
+  }
+  $('lead').textContent=D.lead||'';hideIf('lead',!D.lead);
+  var P=D.poem;hideIf('s-poem',!P);
+  if(P){
+    $('poem-title').textContent=P.title;$('poem-meta').textContent=P.writer+' · '+(P.book||P.year)+(P.translator?' · '+P.translator:'');
+    $('poem-tag').textContent=P.origin+' · '+P.year;
+    $('poem-lines').innerHTML=(P.public_domain&&P.lines?P.lines:[]).map(function(l){return l?'<p>'+esc(l)+'</p>':'<br>'}).join('');
+    $('poem-note').textContent=P.note||'';
+    $('poem-img').src=P.img;$('poem-img').alt=P.alt||'';$('poem-cap').textContent=P.alt||'';
+    $('poem-analysis').innerHTML=paras(P.analysis);
+    $('poem-oneline').innerHTML='<b>금로동의 한 줄</b>'+esc(P.oneline||'');hideIf('poem-oneline',!P.oneline);
+    $('poem-src').innerHTML=srcs(P.sources);
+  }
+  var N=D.novel;hideIf('s-novel',!N);
+  if(N){
+    $('novel-tag').textContent=N.writer+' · '+N.year;
+    $('novel-img').src=N.img;$('novel-img').alt=N.alt||'';$('novel-cap').textContent=N.alt||'';
+    $('novel-orig').textContent=N.quote_orig?('“'+N.quote_orig+'”'):'';hideIf('novel-orig',!N.quote_orig);
+    $('novel-ko').textContent='“'+N.quote+'”';
+    $('novel-tr').textContent='— '+N.writer+' 『'+N.title+'』'+(N.title_orig?' ('+N.title_orig+', '+N.year+')':' ('+N.year+')')+(N.translator?' · '+N.translator:'');
+    $('novel-context').textContent=N.context;$('novel-analysis').innerHTML=paras(N.analysis);$('novel-src').innerHTML=srcs(N.sources);
+  }
+  var W=D.writer;hideIf('s-writer',!W);
+  if(W){
+    $('w-img').src=W.img;$('w-img').alt=W.alt||'';
+    $('w-name').innerHTML=esc(W.name)+(W.hanja?'<small>'+esc(W.hanja)+'</small>':'');
+    $('w-meta').textContent=(W.life||'')+(W.pen?' · 호 '+W.pen:'');
+    $('w-bio').textContent=W.bio;
+    $('w-works').innerHTML=(W.works||[]).map(function(w){return'<li>'+esc(w)+'</li>'}).join('');
+    $('w-link').textContent=W.link||'';hideIf('w-link',!W.link);$('w-src').innerHTML=srcs(W.sources);
+  }
+  var T=D.trivia;hideIf('s-trivia',!(T&&T.length));
+  if(T){
+    $('tv').innerHTML=T.map(function(t,i){var ox=/^[OX]$/.test(t.a);return'<li><p class="q"><b>Q'+(i+1)+'</b><span>'+esc(t.q)+'</span></p>'+(ox?'<div class="ox" data-a="'+t.a+'"><button>O</button><button>X</button></div>':'')+'<details><summary>정답·해설 펼치기</summary><span class="ans">'+esc(t.a)+'</span>'+esc(t.why)+'</details></li>'}).join('');
+    [].slice.call(document.querySelectorAll('.tv .ox')).forEach(function(box){box.onclick=function(e){if(e.target.tagName!=='BUTTON')return;var a=box.getAttribute('data-a');[].slice.call(box.children).forEach(function(b){b.className=''});e.target.className=e.target.textContent===a?'pick-good':'pick-bad';box.nextElementSibling.open=true}});
+  }
+  if(D.calendar){$('cal').hidden=false;$('cal').querySelector('span').textContent=D.calendar}
+  hideIf('s-puzzle',!(D.puzzle&&D.puzzle.words&&D.puzzle.words.length));
+  if(D.puzzle&&D.puzzle.words)puzzle(D.puzzle,D.date);
+  vidUp(D);
+}
+
+/* 낱말 퍼즐: 한 칸 한 음절, 단서를 고르고 단어 단위로 입력(한글 조합 입력에 안전) */
+function puzzle(P,date){
+  var R=P.size[0],C=P.size[1],KEY='munhak-pz-'+date,cells={},grid=$('pz-grid'),cur=null,st={};
+  try{st=JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){}
+  P.words.forEach(function(w){for(var i=0;i<w.a.length;i++){var r=w.r+(w.dir==='down'?i:0),c=w.c+(w.dir==='across'?i:0);var k=r+','+c;cells[k]=cells[k]||{a:w.a[i],ws:[]};cells[k].ws.push(w)}});
+  grid.style.gridTemplateColumns='repeat('+C+',1fr)';
+  var nums={};P.words.forEach(function(w){nums[w.r+','+w.c]=w.n});
+  var html='';for(var r=0;r<R;r++)for(var c=0;c<C;c++){var k=r+','+c;html+=cells[k]?'<div class="pz-c" data-k="'+k+'">'+(nums[k]?'<span class="pz-n">'+nums[k]+'</span>':'')+'<span class="ch"></span></div>':'<div class="pz-b"></div>'}
+  grid.innerHTML=html;
+  var el=function(k){return grid.querySelector('[data-k="'+k+'"]')};
+  var keys=function(w){var a=[];for(var i=0;i<w.a.length;i++)a.push((w.r+(w.dir==='down'?i:0))+','+(w.c+(w.dir==='across'?i:0)));return a};
+  function save(){try{localStorage.setItem(KEY,JSON.stringify(st))}catch(e){}}
+  function paint(){Object.keys(cells).forEach(function(k){var e=el(k);e.querySelector('.ch').textContent=st[k]||'';e.classList.remove('good','bad')});P.words.forEach(function(w){var li=document.querySelector('[data-w="'+w.dir+w.n+'"]');if(li)li.classList.toggle('done',keys(w).every(function(k){return st[k]===cells[k].a}))})}
+  function sel(w){cur=w;[].slice.call(grid.children).forEach(function(e){e.classList.remove('on','cur')});keys(w).forEach(function(k,i){el(k).classList.add(i?'on':'cur')});
+    [].slice.call(document.querySelectorAll('.pz-clues li')).forEach(function(li){li.classList.toggle('on',li.getAttribute('data-w')===w.dir+w.n)});
+    $('pz-label').innerHTML='<b>'+w.n+' '+(w.dir==='across'?'가로':'세로')+'</b> '+esc(w.clue)+' <i>('+w.a.length+'글자)</i>';$('pz-in').value=keys(w).map(function(k){return st[k]||''}).join('');$('pz-in').maxLength=w.a.length;$('pz-msg').textContent=''}
+  ['across','down'].forEach(function(d){$('pz-'+d).innerHTML=P.words.filter(function(w){return w.dir===d}).sort(function(a,b){return a.n-b.n}).map(function(w){return'<li data-w="'+d+w.n+'"><b>'+w.n+'</b>'+esc(w.clue)+' <i>('+w.a.length+')</i></li>'}).join('')});
+  [].slice.call(document.querySelectorAll('.pz-clues li')).forEach(function(li){li.onclick=function(){var id=li.getAttribute('data-w');sel(P.words.filter(function(w){return w.dir+w.n===id})[0]);$('pz-in').focus()}});
+  grid.onclick=function(e){var c=e.target.closest('.pz-c');if(!c)return;var ws=cells[c.getAttribute('data-k')].ws;sel(cur&&ws.length>1&&ws[0]===cur?ws[1]:ws[0]);$('pz-in').focus()};
+  function put(){if(!cur)return;var v=$('pz-in').value.replace(/\s/g,'');keys(cur).forEach(function(k,i){if(v[i])st[k]=v[i];else delete st[k]});save();paint();sel(cur);
+    if(keys(cur).every(function(k){return st[k]===cells[k].a})){$('pz-msg').textContent='정답입니다!';var nx=P.words.filter(function(w){return!keys(w).every(function(k){return st[k]===cells[k].a})})[0];if(nx)setTimeout(function(){sel(nx)},700);else $('pz-msg').textContent='모든 칸을 채웠어요. 오늘도 문장 하나 건졌습니다.'}}
+  $('pz-put').onclick=put;$('pz-in').onkeydown=function(e){if(e.key==='Enter'&&!e.isComposing){e.preventDefault();put()}};
+  $('pz-check').onclick=function(){var n=0,b=0;Object.keys(cells).forEach(function(k){if(st[k]){var ok=st[k]===cells[k].a;el(k).classList.add(ok?'good':'bad');ok?n++:b++}});$('pz-msg').textContent='맞은 칸 '+n+' · 틀린 칸 '+b+' · 남은 칸 '+(Object.keys(cells).length-n-b)};
+  $('pz-hint').onclick=function(){if(!cur){$('pz-msg').textContent='먼저 단서를 고르세요.';return}var k=keys(cur).filter(function(k){return st[k]!==cells[k].a})[0];if(!k)return;st[k]=cells[k].a;save();paint();sel(cur);el(k).classList.add('shown')};
+  $('pz-show').onclick=function(){if(!cur){$('pz-msg').textContent='먼저 단서를 고르세요.';return}keys(cur).forEach(function(k){st[k]=cells[k].a});save();paint();sel(cur)};
+  $('pz-reset').onclick=function(){st={};save();paint();if(cur)sel(cur)};
+  paint();sel(P.words.filter(function(w){return w.dir==='across'}).sort(function(a,b){return a.n-b.n})[0]||P.words[0]);
+}
+
+/* 3초 반복 삽화: img와 video가 같이 있으면 그림 자리를 소리 없는 반복 영상으로 (데이터 절약·동작 줄이기면 그림 유지) */
+function vidUp(D){
+  var low=false;try{low=(navigator.connection&&navigator.connection.saveData)||matchMedia('(prefers-reduced-motion: reduce)').matches}catch(e){}
+  if(low)return;var map={};
+  (function walk(o,d){if(!o||typeof o!=='object'||d>5)return;if(Array.isArray(o)){o.forEach(function(x){walk(x,d+1)});return}
+    if(typeof o.img==='string'&&typeof o.video==='string')map[o.img]=o.video;for(var k in o)if(o.hasOwnProperty(k)&&typeof o[k]==='object')walk(o[k],d+1)})(D,0);
+  var io='IntersectionObserver' in window?new IntersectionObserver(function(es){es.forEach(function(e){var v=e.target;if(e.isIntersecting){var p=v.play();if(p&&p.catch)p.catch(function(){})}else v.pause()})},{rootMargin:'100px'}):null;
+  [].slice.call(document.images).forEach(function(im){var vs=map[im.getAttribute('src')];if(!vs||im.__vid)return;im.__vid=1;
+    var v=document.createElement('video');v.muted=true;v.loop=true;v.playsInline=true;v.setAttribute('muted','');v.setAttribute('playsinline','');v.preload='metadata';
+    v.poster=im.getAttribute('src');v.src=vs;v.setAttribute('aria-label',im.alt||'');v.title=im.alt||'';im.replaceWith(v);if(io)io.observe(v);else v.autoplay=true});
+}
+})();
+</script>
+</body>
+</html>
