@@ -65,3 +65,9 @@
 - `img`와 `video`가 같이 있으면 web/vidup.js가 그 자리의 그림을 반복 영상으로 바꿉니다. 영상 포스터는 같은 이름의 .jpg입니다.
 - `public_domain`이 false인 시는 `lines`에 전문을 넣지 않습니다. 그런 날은 시를 다른 작품으로 바꿉니다.
 - `archive/index.json`은 `[{"date","no","sentence","writer"}]` 목록이며 '지난 호' 메뉴에 씁니다.
+
+
+## 추가 필드 (2026-11-13)
+- `poem.permission` / `poem.text_file`: 저작권자 허락을 받은 시. 전문은 발행인이 직접 `poems/<날짜>.txt`에 붙여 넣고, 페이지가 읽어 연 단위로 보여 줍니다(기자는 전문을 옮겨 적지 않음).
+- `classic.story`: 1분 컷(1문단). `classic.story_long`: 같은 줄거리의 5분 정주행(여러 문단). 결말은 둘 다 `classic.ending`(스포일러 접기).
+- `onthisday`: [{year, title, body, sources[]}] — 「그날의 문학」, 오늘 날짜의 과거 문학 사건 2~3개.

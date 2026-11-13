@@ -194,6 +194,20 @@ button,select{font:inherit}
 /* 1분 고전 · 기분 처방전 */
 .row4{display:grid;grid-template-columns:1fr 1.15fr;gap:0;margin-top:28px}
 .row4>.sec+.sec{border-left:1px solid var(--rule);padding-left:22px;margin-left:22px}
+.cl-mode{display:flex;align-items:center;gap:6px;margin:2px 0 12px}
+.cl-mode button{font:inherit;font-size:.82rem;font-weight:900;padding:6px 12px;border:1.5px solid var(--ink);background:var(--paper);color:var(--ink);cursor:pointer;box-shadow:2px 2px 0 var(--ink);transition:transform .08s}
+.cl-mode button:active{transform:translate(2px,2px);box-shadow:none}
+.cl-mode button.on{background:var(--ink);color:var(--paper)}
+.cl-mode em{font-style:normal;font-size:.75rem;color:var(--muted);margin-left:4px}
+.capturing .cl-mode{display:none}
+.day-list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:1px solid var(--ink)}
+.day-list li{padding:14px 0 6px}
+.day-list li+li{border-left:1px solid var(--rule);padding-left:24px;margin-left:24px}
+.day-y{font-family:var(--mono);font-size:.8rem;color:var(--red);font-weight:700}
+.day-h{font-size:1.08rem;font-weight:900;line-height:1.4;margin:4px 0 8px;letter-spacing:-.01em}
+.day-b{font-size:.93rem;line-height:1.75;color:#2a2a2a}
+#s-day{margin-top:52px}
+@media (max-width:860px){.day-list{grid-template-columns:1fr}.day-list li+li{border-left:0;padding-left:0;margin-left:0;border-top:1px solid var(--rule-soft);margin-top:10px;padding-top:14px}#s-day{margin-top:48px}}
 .cl-title{font-size:1.6rem;font-weight:900;letter-spacing:-.02em;line-height:1.2}
 .cl-meta{font-size:.8rem;color:var(--muted);margin:3px 0 10px}
 .cl-one{font-size:1rem;font-weight:700;border-left:3px solid var(--red);padding-left:10px;margin-bottom:12px}
@@ -208,7 +222,14 @@ button,select{font:inherit}
 .cl-end p{margin-top:8px;font-size:.93rem;line-height:1.7}
 .rx-bag{--g:#2E7D4F;position:relative;max-width:520px;margin:6px auto 0;background:#fbf6f6;border:1px solid #cdbfbf;padding:30px 26px 18px;box-shadow:0 1px 0 #fff inset,6px 8px 0 rgba(0,0,0,.08)}
 #s-rx{display:flex;flex-direction:column}
-#s-rx>.rx-bag{margin:auto;width:100%}
+.rowm{display:grid;grid-template-columns:1.15fr 1fr;gap:0;margin-top:52px}
+.rowm>*+*{border-left:1px solid var(--rule);padding-left:28px;margin-left:28px}
+.rowm .col>.sec+.sec{margin-top:52px}
+.rowe{display:grid;grid-template-columns:1.5fr 1fr;gap:0;margin-top:52px}
+.rowe>.sec+.sec{border-left:1px solid var(--rule);padding-left:28px;margin-left:28px}
+@media (max-width:860px){.rowm>#s-rx{position:static}.rowm,.rowe{grid-template-columns:1fr;margin-top:48px}.rowm>*+*,.rowe>.sec+.sec{border-left:0;padding-left:0;margin:48px 0 0}.rowm .col>.sec+.sec{margin-top:48px}}
+#s-rx>.rx-bag{margin:6px auto 0;width:100%}
+.rowm>#s-rx{align-self:start;position:sticky;top:16px}
 @media (max-width:860px){#s-rx>.rx-bag{margin:14px auto 0}}
 .rx-top{display:flex;align-items:center;gap:12px;margin-top:6px}
 .rx-cross{position:relative;width:60px;height:60px;flex:none}
@@ -349,7 +370,8 @@ button,select{font:inherit}
     </section>
   </div>
 
-  <div class="row3">
+  <div class="rowm">
+    <div class="col">
     <section class="sec" id="s-writer" data-sec="writer" data-name="오늘의 문인"><a class="anc" id="writer"></a>
       <div class="kick"><h2><i>④</i>오늘의 문인</h2><span>문인 열전</span></div>
       <div class="writer-top"><img id="w-img" alt=""><div><p class="wn" id="w-name"></p><p class="wm" id="w-meta"></p></div></div>
@@ -358,29 +380,9 @@ button,select{font:inherit}
       <p class="link" id="w-link"></p>
       <p class="src" id="w-src"></p>
     </section>
-    <section class="sec" id="s-puzzle" data-sec="puzzle" data-name="낱말 퍼즐"><a class="anc" id="puzzle"></a>
-      <div class="kick"><h2><i>⑤</i>낱말 퍼즐</h2><span>칸이나 단서를 누르고 답을 넣으세요</span></div>
-      <div class="puz">
-        <div>
-          <div class="pz-grid" id="pz-grid"></div>
-          <div class="pz-entry"><label id="pz-label">단서를 고르세요.</label>
-            <div class="pz-row"><input id="pz-in" autocomplete="off" placeholder="정답 입력"><button id="pz-put">넣기</button></div>
-            <div class="pz-btns"><button id="pz-check">맞혀 보기</button><button id="pz-hint">한 글자 힌트</button><button id="pz-show">정답 보기</button><button id="pz-reset">지우기</button></div>
-            <p class="pz-msg" id="pz-msg"></p>
-          </div>
-        </div>
-        <div class="pz-clues"><h3>가로</h3><ol id="pz-across"></ol><h3>세로</h3><ol id="pz-down"></ol></div>
-      </div>
-    </section>
-    <section class="sec" id="s-trivia" data-sec="trivia" data-name="문학 상식"><a class="anc" id="trivia"></a>
-      <div class="kick"><h2><i>⑥</i>문학 상식</h2><span>O · X</span></div>
-      <ol class="tv" id="tv"></ol>
-      <p class="cal" id="cal" hidden><b>오늘의 문학 달력</b><span></span></p>
-    </section>
-  </div>
-  <div class="row4">
     <section class="sec" id="s-classic" data-sec="classic" data-name="1분 고전"><a class="anc" id="classic"></a>
-      <div class="kick"><h2><i>⑦</i>1분 고전</h2><span>그래서 결말이 뭔데?</span></div>
+      <div class="kick"><h2 id="cl-kick"><i>⑤</i>1분 고전</h2><span>그래서 결말이 뭔데?</span></div>
+      <div class="cl-mode" id="cl-mode" role="tablist"><button type="button" data-m="1" class="on" aria-pressed="true">1분 컷</button><button type="button" data-m="5" aria-pressed="false">5분 정주행</button><em id="cl-len"></em></div>
       <p class="cl-title" id="cl-title"></p>
       <p class="cl-meta" id="cl-meta"></p>
       <p class="cl-one" id="cl-one"></p>
@@ -390,8 +392,10 @@ button,select{font:inherit}
       <div class="body"><p id="cl-why"></p></div>
       <p class="src" id="cl-src"></p>
     </section>
+    
+    </div>
     <section class="sec" id="s-rx" data-sec="rx" data-name="기분 처방전"><a class="anc" id="rx"></a>
-      <div class="kick"><h2><i>⑧</i>기분 처방전</h2><span>문학 약국 · 금로동 약사</span></div>
+      <div class="kick"><h2><i>⑥</i>기분 처방전</h2><span>문학 약국 · 금로동 약사</span></div>
       <div class="rx-bag" id="rx-bag">
         <div class="rx-top">
           <span class="rx-cross"><b>약</b></span>
@@ -410,6 +414,34 @@ button,select{font:inherit}
         <span class="rx-stamp">文學<br>藥局</span>
       </div>
       <p class="src" id="rx-src"></p>
+    </section>
+  </div>
+
+  <section class="sec" id="s-day" data-sec="day" data-name="그날의 문학"><a class="anc" id="day"></a>
+    <div class="kick"><h2><i>⑦</i>그날의 문학</h2><span id="day-tag"></span></div>
+    <ol class="day-list" id="day-list"></ol>
+    <p class="src" id="day-src"></p>
+  </section>
+
+  <div class="rowe">
+    <section class="sec" id="s-puzzle" data-sec="puzzle" data-name="낱말 퍼즐"><a class="anc" id="puzzle"></a>
+      <div class="kick"><h2><i>⑧</i>낱말 퍼즐</h2><span>칸이나 단서를 누르고 답을 넣으세요</span></div>
+      <div class="puz">
+        <div>
+          <div class="pz-grid" id="pz-grid"></div>
+          <div class="pz-entry"><label id="pz-label">단서를 고르세요.</label>
+            <div class="pz-row"><input id="pz-in" autocomplete="off" placeholder="정답 입력"><button id="pz-put">넣기</button></div>
+            <div class="pz-btns"><button id="pz-check">맞혀 보기</button><button id="pz-hint">한 글자 힌트</button><button id="pz-show">정답 보기</button><button id="pz-reset">지우기</button></div>
+            <p class="pz-msg" id="pz-msg"></p>
+          </div>
+        </div>
+        <div class="pz-clues"><h3>가로</h3><ol id="pz-across"></ol><h3>세로</h3><ol id="pz-down"></ol></div>
+      </div>
+    </section>
+    <section class="sec" id="s-trivia" data-sec="trivia" data-name="문학 상식"><a class="anc" id="trivia"></a>
+      <div class="kick"><h2><i>⑨</i>문학 상식</h2><span>O · X</span></div>
+      <ol class="tv" id="tv"></ol>
+      <p class="cal" id="cal" hidden><b>오늘의 문학 달력</b><span></span></p>
     </section>
   </div>
 </main>
@@ -512,6 +544,7 @@ function render(D){
   hideIf('s-puzzle',!(D.puzzle&&D.puzzle.words&&D.puzzle.words.length));
   if(D.puzzle&&D.puzzle.words)puzzle(D.puzzle,D.date);
   classic(D.classic);
+  day(D);
   rx(D);
   vidUp(D);
   tools(D);
@@ -549,9 +582,22 @@ function puzzle(P,date){
 
 
 /* 1분 고전 */
+var CLmode=1;
+function day(D){var Y=D.onthisday;hideIf('s-day',!(Y&&Y.length));if(!Y||!Y.length)return;
+  var md=D.date.slice(5).split('-');$('day-tag').textContent=(+md[0])+'월 '+(+md[1])+'일, 그해에는';
+  $('day-list').innerHTML=Y.map(function(y){return'<li><div class="day-y">'+esc(y.year)+'</div><p class="day-h">'+esc(y.title)+'</p><p class="day-b">'+esc(y.body)+'</p></li>'}).join('');
+  var all=[];Y.forEach(function(y){(y.sources||[]).forEach(function(u){if(all.indexOf(u)<0)all.push(u)})});$('day-src').innerHTML=srcs(all)}
 function classic(C){hideIf('s-classic',!C);if(!C)return;
   $('cl-title').textContent=C.title;$('cl-meta').textContent=C.writer+' · '+(C.where||C.year)+(C.origin?' · '+C.origin:'');
-  $('cl-one').textContent=C.oneline||'';$('cl-story').innerHTML=(C.story||[]).map(function(p){return'<p>'+esc(p)+'</p>'}).join('');hideIf('cl-story',!(C.story&&C.story.length));
+  $('cl-one').textContent=C.oneline||'';
+  var hasLong=!!(C.story_long&&C.story_long.length);hideIf('cl-mode',!hasLong);
+  function clDraw(m){var st=(m==5&&hasLong)?C.story_long:(C.story||[]);CLmode=m;
+    $('cl-story').innerHTML=st.map(function(p){return'<p>'+esc(p)+'</p>'}).join('');hideIf('cl-story',!st.length);
+    $('cl-kick').innerHTML='<i>⑤</i>'+(m==5&&hasLong?'5분':'1분')+' 고전';
+    var n=st.join('').length;$('cl-len').textContent='약 '+n.toLocaleString()+'자';
+    [].slice.call($('cl-mode').querySelectorAll('button')).forEach(function(b){var on=b.getAttribute('data-m')==String(m);b.classList.toggle('on',on);b.setAttribute('aria-pressed',on?'true':'false')})}
+  $('cl-mode').onclick=function(e){var b=e.target.closest('button');if(!b)return;clDraw(+b.getAttribute('data-m'));try{localStorage.setItem('cl-mode',b.getAttribute('data-m'))}catch(x){}};
+  var pm=1;try{pm=+(localStorage.getItem('cl-mode')||1)}catch(x){}if(/[?&]five=1/.test(location.search))pm=5;clDraw(pm);
   $('cl-lines').innerHTML=(C.lines||[]).map(function(l){return'<li><span>'+esc(l)+'</span></li>'}).join('');hideIf('cl-lines',!(C.lines&&C.lines.length));
   $('cl-ending').textContent=C.ending||'';$('cl-why').textContent=C.why||'';$('cl-src').innerHTML=srcs(C.sources)}
 /* 기분 처방전: data/rx.json 묶음에서 기분별로 한 알 */
@@ -588,8 +634,9 @@ function secText(D,sec){var L=[],dt=D.date.replace(/-/g,'.'),hd='[문학늬우�
  if(sec==='novel'){var N=D.novel;L.push(hd+'오늘의 소설 구절]','');if(N.quote_orig)L.push('“'+N.quote_orig+'”');L.push('“'+N.quote+'”','— '+N.writer+' 『'+N.title+'』('+N.year+')'+(N.translator?' · '+N.translator:''),'','■ 앞뒤 맥락',N.context,'','■ 문체와 인물',N.analysis)}
  if(sec==='writer'){var W=D.writer;L.push(hd+'오늘의 문인]','',W.name+(W.hanja?'('+W.hanja+')':'')+' '+(W.life||''),'',W.bio,'','대표작: '+(W.works||[]).join(', '));if(W.link)L.push('',W.link)}
  if(sec==='puzzle'){var Z=D.puzzle;L.push(hd+'낱말 퍼즐]','');['across','down'].forEach(function(d){L.push(d==='across'?'■ 가로':'■ 세로');Z.words.filter(function(w){return w.dir===d}).sort(function(a,b){return a.n-b.n}).forEach(function(w){L.push(w.n+'. '+w.clue+' ('+w.a.length+'글자)')});L.push('')});L.push('칸에 직접 풀어 보세요 👇')}
+ if(sec==='day'){var md=D.date.slice(5).split('-');L.push(hd+'그날의 문학 · '+(+md[0])+'월 '+(+md[1])+'일]','');(D.onthisday||[]).forEach(function(y){L.push('■ '+y.year+' — '+y.title,y.body,'')})}
  if(sec==='trivia'){L.push(hd+'문학 상식 OX]','');(D.trivia||[]).forEach(function(t,i){L.push('Q'+(i+1)+'. '+t.q,'   정답 '+t.a+' — '+t.why,'')});if(D.calendar)L.push('오늘의 문학 달력 — '+D.calendar)}
- if(sec==='classic'){var C=D.classic;L.push(hd+'1분 고전]','','「'+C.title+'」 '+C.writer+' ('+C.year+')',C.oneline||'','');(C.story||[]).forEach(function(p){L.push(p,'')});(C.lines||[]).forEach(function(l,i){L.push((i+1)+'. '+l)});L.push('','■ 결말(스포일러)',C.ending||'','','■ 왜 읽을 만한가',C.why||'')}
+ if(sec==='classic'){var C=D.classic;L.push(hd+(CLmode==5&&C.story_long?'5분':'1분')+' 고전]','','「'+C.title+'」 '+C.writer+' ('+C.year+')',C.oneline||'','');((CLmode==5&&C.story_long)?C.story_long:(C.story||[])).forEach(function(p){L.push(p,'')});(C.lines||[]).forEach(function(l,i){L.push((i+1)+'. '+l)});L.push('','■ 결말(스포일러)',C.ending||'','','■ 왜 읽을 만한가',C.why||'')}
  if(sec==='rx'){if(RXcur){L.push(hd+'기분 처방전]','','증상: '+RXcur._m.label+' — '+RXcur._m.symptom,'','“'+RXcur.text+'”');if(RXcur.orig)L.push(RXcur.orig);L.push('— '+RXcur.writer+' 「'+RXcur.work+'」'+(RXcur.year?' ('+RXcur.year+')':'')+(RXcur.translator?' · '+RXcur.translator:''),'','복용법: '+RXcur.dose)}else{L.push(hd+'기분 처방전]','','오늘 기분을 고르면 문장 한 알을 지어 드립니다.')}}
  L.push('','금로동 기자 · 문학늬우스',shareUrl(D,sec));return L.join('\n').replace(/\n{3,}/g,'\n\n')}
 var h2c=null;function loadH2C(){if(window.html2canvas)return Promise.resolve();if(h2c)return h2c;h2c=new Promise(function(ok,no){var s=document.createElement('script');s.src='vendor/html2canvas.min.js';s.onload=ok;s.onerror=no;document.head.appendChild(s)});return h2c}
