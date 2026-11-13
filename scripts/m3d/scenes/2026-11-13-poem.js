@@ -45,7 +45,7 @@ export default function (K) {
     blooms.forEach((m, i) => { m.position.y += Math.sin(ph * 2 + i) * 0.002; m.scale.setScalar(1 + 0.08 * Math.sin(ph * 2 + i)); });
     const blow = K.win(ph, 0.1, 0.55, 0.12);
     P.pose({ headPitch: 0.18 - 0.2 * blow, headYaw: -0.15 + 0.1 * Math.sin(ph), torsoYaw: 0.04 * Math.sin(ph),
-      armL: { fwd: 0.6 + 1.5 * blow, out: -0.15 - 0.15 * blow, elbow: -1.0 - 1.1 * blow }, armR: { fwd: 0.6 + 1.5 * blow, out: -0.15 - 0.15 * blow, elbow: -1.0 - 1.1 * blow },
+      armL: { fwd: 0.5 + 0.7 * blow, out: -0.2 - 0.15 * blow, elbow: 1.0 + 1.2 * blow }, armR: { fwd: 0.5 + 0.7 * blow, out: -0.2 - 0.15 * blow, elbow: 1.0 + 1.2 * blow },
       bob: Math.sin(ph * 2) * 0.01 });
   };
 }
