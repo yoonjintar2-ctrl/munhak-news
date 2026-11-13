@@ -14,7 +14,7 @@
 <link rel="icon" href="favicon-16.png" sizes="16x16" type="image/png">
 <link rel="shortcut icon" href="favicon.ico">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-<meta name="theme-color" content="#1a1a1a"><rect width='64' height='64' fill='%231A1A1A'/><text x='32' y='45' font-size='38' text-anchor='middle' fill='%23EDEDED' font-family='serif' font-weight='900'>文</text></svg>">
+<meta name="theme-color" content="#1a1a1a">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;500;600;700;900&family=IBM+Plex+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
@@ -39,7 +39,7 @@ button,select{font:inherit}
 .mast .l{font-family:var(--mono);font-size:.74rem;color:var(--muted);line-height:1.6}
 .mast .l b{font-family:var(--serif);color:var(--ink)}
 .mast .c{text-align:center}
-.mast h1{font-weight:900;font-size:4.2rem;line-height:1;letter-spacing:-.03em;color:#111}
+.mast h1{font-weight:900;font-size:3.3rem;line-height:1;letter-spacing:-.03em;color:#111}
 .mast h1 small{font-size:.32em;font-weight:700;letter-spacing:.05em;vertical-align:.9em;margin-left:.2em;color:var(--red)}
 .slogan{font-size:.86rem;color:var(--muted);margin-top:6px;letter-spacing:.02em}
 .mast .r{display:flex;flex-direction:column;align-items:flex-end;gap:6px}
@@ -183,6 +183,7 @@ button,select{font:inherit}
 @media (max-width:620px){.tools button span{display:none}.tools button{padding:3px 5px}}
 .toast{position:fixed;left:50%;bottom:26px;transform:translate(-50%,20px);opacity:0;background:var(--ink);color:var(--paper);font-size:.84rem;font-weight:700;padding:9px 16px;transition:.25s;z-index:50;pointer-events:none;max-width:90vw;text-align:center}
 .toast.on{opacity:1;transform:translate(-50%,0)}
+.capturing *,.capturing *::before,.capturing *::after{animation:none!important;transition:none!important}
 .capturing .tools,.capturing .pz-entry,.capturing .tv .ox,.capturing .tv summary{visibility:hidden}
 .flash{animation:flash 1.6s ease-out}
 @keyframes flash{0%{background:#f3ead0}100%{background:transparent}}
@@ -206,7 +207,9 @@ button,select{font:inherit}
 .cl-end summary em{font-style:normal;color:var(--faint);font-weight:400;font-size:.78rem}
 .cl-end p{margin-top:8px;font-size:.93rem;line-height:1.7}
 .rx-bag{--g:#2E7D4F;position:relative;max-width:520px;margin:6px auto 0;background:#fbf6f6;border:1px solid #cdbfbf;padding:30px 26px 18px;box-shadow:0 1px 0 #fff inset,6px 8px 0 rgba(0,0,0,.08)}
-.rx-bag::before{content:"";position:absolute;left:-1px;right:-1px;top:-1px;height:14px;background:linear-gradient(#f1e9e9,#fbf6f6);border-bottom:1px solid #e3d7d7}
+#s-rx{display:flex;flex-direction:column}
+#s-rx>.rx-bag{margin:auto;width:100%}
+@media (max-width:860px){#s-rx>.rx-bag{margin:14px auto 0}}
 .rx-top{display:flex;align-items:center;gap:12px;margin-top:6px}
 .rx-cross{position:relative;width:60px;height:60px;flex:none}
 .rx-cross::before,.rx-cross::after{content:"";position:absolute;background:var(--g)}
@@ -286,7 +289,7 @@ button,select{font:inherit}
     <div>mnews.jintar.co.kr</div>
   </div>
   <div class="c">
-    <h1>문학늬우스<small>文</small></h1>
+    <h1>문학늬우스</h1>
     <p class="slogan">밑줄 긋고 싶은 문장, 매일 아침 한 숟갈씩 떠-먹여 드려요.</p>
   </div>
   <div class="r">
@@ -461,6 +464,8 @@ function render(D){
     $('poem-tag').textContent=P.origin+' · '+P.year;
     $('poem-lines').innerHTML=(P.public_domain&&P.lines?P.lines:[]).map(function(l){return l?'<p>'+esc(l)+'</p>':'<br>'}).join('');
     $('poem-note').textContent=P.note||'';
+    // 전문을 싣지 못하는 시: 삽화를 왼쪽(제목 아래)으로 옮겨 빈칸이 생기지 않게
+    if(!(P.public_domain&&P.lines&&P.lines.length)){var fg=document.querySelector('#s-poem .fig'),lc=$('poem-note').parentNode;if(fg&&fg.parentNode!==lc){lc.appendChild(fg);fg.style.marginTop='14px'}}
     $('poem-img').src=P.img;$('poem-img').alt=P.alt||'';$('poem-cap').textContent=P.alt||'';
     $('poem-analysis').innerHTML=paras(P.analysis);
     $('poem-oneline').innerHTML='<b>금로동의 한 줄</b>'+esc(P.oneline||'');hideIf('poem-oneline',!P.oneline);
@@ -575,11 +580,15 @@ function secText(D,sec){var L=[],dt=D.date.replace(/-/g,'.'),hd='[문학늬우�
  L.push('','금로동 기자 · 문학늬우스',shareUrl(D,sec));return L.join('\n').replace(/\n{3,}/g,'\n\n')}
 var h2c=null;function loadH2C(){if(window.html2canvas)return Promise.resolve();if(h2c)return h2c;h2c=new Promise(function(ok,no){var s=document.createElement('script');s.src='vendor/html2canvas.min.js';s.onload=ok;s.onerror=no;document.head.appendChild(s)});return h2c}
 function secImage(el,D,sec){
+  var tgt=sec==='rx'?$('rx-bag'):el;
   var blobP=loadH2C().then(function(){el.classList.add('capturing');
-    var top=el.getBoundingClientRect().top,hh=0;[].slice.call(el.children).forEach(function(c){if(c.offsetParent!==null)hh=Math.max(hh,c.getBoundingClientRect().bottom-top)});
-    return html2canvas(el,{height:Math.ceil(hh)+6,backgroundColor:'#EDEDED',scale:Math.min(2,window.devicePixelRatio||1)+0.5,useCORS:true,logging:false,
-      onclone:function(doc){[].slice.call(doc.querySelectorAll('video')).forEach(function(v){var i=doc.createElement('img');i.src=v.getAttribute('poster');i.style.cssText='display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover';v.replaceWith(i)})}})})
+    // 애니메이션이 멈추고 글꼴이 다 그려진 뒤에 찍어야 글이 흐려지지 않음
+    return Promise.all([document.fonts&&document.fonts.ready,new Promise(function(r){requestAnimationFrame(function(){requestAnimationFrame(function(){setTimeout(r,120)})})})])}).then(function(){
+    var hh;if(tgt!==el){hh=tgt.offsetHeight}else{var top=el.getBoundingClientRect().top;hh=0;[].slice.call(el.children).forEach(function(c){if(c.offsetParent!==null)hh=Math.max(hh,c.getBoundingClientRect().bottom-top)});hh+=6}
+    var op={height:Math.ceil(hh),backgroundColor:'#EDEDED',scale:Math.min(2,window.devicePixelRatio||1)+0.5,useCORS:true,logging:false,
+      onclone:function(doc){var st=doc.createElement('style');st.textContent='*,*::before,*::after{animation:none!important;transition:none!important}';doc.head.appendChild(st);[].slice.call(doc.querySelectorAll('video')).forEach(function(v){var i=doc.createElement('img');i.src=v.getAttribute('poster');i.style.cssText='display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover';v.replaceWith(i)})}};if(tgt!==el){op.width=tgt.offsetWidth;op.backgroundColor='#fbf6f6'}return html2canvas(tgt,op)})
    .then(function(c){el.classList.remove('capturing');
+     if(tgt!==el)return new Promise(function(ok){c.toBlob(ok,'image/png')}); // 약봉투는 봉투만 딱 잘라서
      // 아래쪽 띠: 출처 표기
      var o=document.createElement('canvas'),pad=Math.round(c.width*0.03),fh=Math.round(Math.max(c.width*0.035,44));o.width=c.width+pad*2;o.height=c.height+pad*2+fh*2;var g=o.getContext('2d');g.fillStyle='#EDEDED';g.fillRect(0,0,o.width,o.height);g.drawImage(c,pad,pad);
      g.fillStyle='#1A1A1A';g.fillRect(pad,c.height+pad+fh*0.4,o.width-pad*2,2);g.font='700 '+Math.round(fh*0.62)+'px "Noto Serif KR",serif';g.textBaseline='middle';g.fillText('문학늬우스 · '+D.date.replace(/-/g,'.'),pad,c.height+pad+fh*1.25);g.textAlign='right';g.fillText('mnews.jintar.co.kr',o.width-pad,c.height+pad+fh*1.25);

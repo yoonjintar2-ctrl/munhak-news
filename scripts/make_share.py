@@ -35,7 +35,7 @@ def content(D, sec):
                 "“" + "<br>".join(esc(b) for b in (S.get("big") or [S["text"]])) + "”", esc(clip(S["meaning"], 90)), S.get("img"), f"{esc(S['writer'])} 「{esc(S['work'])}」 {S['year']}")
     if sec == "poem":
         P = D["poem"]
-        first = (P.get("lines") or [""])[0]
+        first = (P.get("lines") or [""])[0] if P.get("public_domain") else (P.get("book") or "")
         return (f"오늘의 시 · {P['writer']} 「{P['title']}」", clip(first + " " + P.get("analysis", ""), 110),
                 f"「{esc(P['title'])}」", esc(clip(first, 70)), P.get("img"), f"{esc(P['writer'])} · {P['year']}")
     if sec == "novel":
