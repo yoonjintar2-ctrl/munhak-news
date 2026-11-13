@@ -165,6 +165,24 @@ button,select{font:inherit}
 .pub b{color:var(--ink)}
 .copy{font-size:.7rem;color:var(--faint);margin-top:6px;grid-column:1/-1}
 .empty{padding:40px 0;text-align:center;color:var(--muted)}
+
+/* 공유 단추 */
+.anc{position:relative;top:-12px;display:block;height:0}
+.kick{align-items:center}
+.kick .rt{display:flex;align-items:center;gap:8px;min-width:0}
+.tools{display:inline-flex;gap:3px;flex:none}
+.tools button{display:inline-grid;place-items:center;width:24px;height:22px;padding:0;border:1px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer;position:relative}
+.tools button svg{width:13px;height:13px}
+.tools button:hover,.tools button.ok{background:var(--ink);color:var(--paper)}
+.tools button[data-tip]:hover::after{content:attr(data-tip);position:absolute;top:calc(100% + 4px);right:0;white-space:nowrap;font-size:.68rem;font-weight:700;background:var(--ink);color:var(--paper);padding:2px 6px;z-index:5}
+.toast{position:fixed;left:50%;bottom:26px;transform:translate(-50%,20px);opacity:0;background:var(--ink);color:var(--paper);font-size:.84rem;font-weight:700;padding:9px 16px;transition:.25s;z-index:50;pointer-events:none;max-width:90vw;text-align:center}
+.toast.on{opacity:1;transform:translate(-50%,0)}
+.capturing .tools,.capturing .pz-entry,.capturing .tv .ox,.capturing .tv summary{visibility:hidden}
+.flash{animation:flash 1.6s ease-out}
+@keyframes flash{0%{background:#f3ead0}100%{background:transparent}}
+/* 삽화 영상: 눌러도 확대·전체화면 안 되게 */
+.fig video{pointer-events:none;-webkit-user-select:none;user-select:none}
+.fig{-webkit-touch-callout:none}
 /* 반응형 */
 @media (max-width:1100px){.row3{grid-template-columns:1fr 1fr}.row3>.sec:nth-child(2){grid-column:1/-1;order:3;border-left:0;padding-left:0;margin:24px 0 0;border-top:0}.poem-wrap{grid-template-columns:1fr}}
 @media (max-width:860px){
@@ -201,9 +219,10 @@ button,select{font:inherit}
 <div class="ticker"><b>오늘의 문학</b><div class="tw"><div class="track" id="ticker"></div></div></div>
 
 <main id="paper">
+  <article class="sec-wrap" id="sentence" data-sec="sentence" data-name="오늘의 문장">
   <section class="hero sec" id="s-sentence">
     <div>
-      <div class="kick"><h2><i>①</i>오늘의 문장</h2><span id="sen-tag"></span></div>
+      <div class="kick"><h2><i>①</i>오늘의 문장</h2><span class="rt"><span id="sen-tag"></span></span></div><a class="anc" id="s1"></a>
       <p class="quote-big" id="sen-big"></p>
       <p class="quote-full" id="sen-full"></p>
       <p class="quote-from" id="sen-from"></p>
@@ -216,9 +235,10 @@ button,select{font:inherit}
     <div><h3><em>02</em>누가, 어느 장면에서</h3><p id="sen-context"></p></div>
     <div><h3><em>03</em>작가가 노린 것</h3><p id="sen-craft"></p><p class="src" id="sen-src"></p></div>
   </div>
+  </article>
 
   <div class="row2">
-    <section class="sec" id="s-poem">
+    <section class="sec" id="s-poem" data-sec="poem" data-name="오늘의 시"><a class="anc" id="poem"></a>
       <div class="kick"><h2><i>②</i>오늘의 시</h2><span id="poem-tag"></span></div>
       <div class="poem-wrap">
         <div>
@@ -236,7 +256,7 @@ button,select{font:inherit}
       <p class="oneline" id="poem-oneline"></p>
       <p class="src" id="poem-src"></p>
     </section>
-    <section class="sec" id="s-novel">
+    <section class="sec" id="s-novel" data-sec="novel" data-name="오늘의 소설 구절"><a class="anc" id="novel"></a>
       <div class="kick"><h2><i>③</i>오늘의 소설 구절</h2><span id="novel-tag"></span></div>
       <figure class="fig"><span class="tag">AI 삽화</span><img id="novel-img" alt=""><figcaption id="novel-cap"></figcaption></figure>
       <div class="nq"><p class="orig" id="novel-orig"></p><p class="ko" id="novel-ko"></p><p class="tr" id="novel-tr"></p></div>
@@ -249,7 +269,7 @@ button,select{font:inherit}
   </div>
 
   <div class="row3">
-    <section class="sec" id="s-writer">
+    <section class="sec" id="s-writer" data-sec="writer" data-name="오늘의 문인"><a class="anc" id="writer"></a>
       <div class="kick"><h2><i>④</i>오늘의 문인</h2><span>문인 열전</span></div>
       <div class="writer-top"><img id="w-img" alt=""><div><p class="wn" id="w-name"></p><p class="wm" id="w-meta"></p></div></div>
       <div class="body" style="margin-top:10px"><p id="w-bio"></p></div>
@@ -257,7 +277,7 @@ button,select{font:inherit}
       <p class="link" id="w-link"></p>
       <p class="src" id="w-src"></p>
     </section>
-    <section class="sec" id="s-puzzle">
+    <section class="sec" id="s-puzzle" data-sec="puzzle" data-name="낱말 퍼즐"><a class="anc" id="puzzle"></a>
       <div class="kick"><h2><i>⑤</i>낱말 퍼즐</h2><span>칸이나 단서를 누르고 답을 넣으세요</span></div>
       <div class="puz">
         <div>
@@ -271,7 +291,7 @@ button,select{font:inherit}
         <div class="pz-clues"><h3>가로</h3><ol id="pz-across"></ol><h3>세로</h3><ol id="pz-down"></ol></div>
       </div>
     </section>
-    <section class="sec" id="s-trivia">
+    <section class="sec" id="s-trivia" data-sec="trivia" data-name="문학 상식"><a class="anc" id="trivia"></a>
       <div class="kick"><h2><i>⑥</i>문학 상식</h2><span>O · X</span></div>
       <ol class="tv" id="tv"></ol>
       <p class="cal" id="cal" hidden><b>오늘의 문학 달력</b><span></span></p>
@@ -312,7 +332,7 @@ function render(D){
   if(D.novel)tk.push('오늘의 소설 구절 · '+D.novel.writer+' 『'+D.novel.title+'』');
   if(D.writer)tk.push('오늘의 문인 · '+D.writer.name);
   var h=tk.map(function(t){return'<span>'+esc(t)+'</span>'}).join('');$('ticker').innerHTML=h+h;
-  var S=D.sentence;hideIf('s-sentence',!S);hideIf('s-sentence-x',!S);
+  var S=D.sentence;hideIf('sentence',!S);
   if(S){
     var big=S.big&&S.big.length?S.big:[S.text];
     $('sen-big').innerHTML='<span class="qm">“</span>'+big.map(function(b){return'<span>'+esc(b)+'</span>'}).join('').replace(/<\/span>$/,'<span class="qm" style="display:inline">”</span></span>');
@@ -361,6 +381,7 @@ function render(D){
   hideIf('s-puzzle',!(D.puzzle&&D.puzzle.words&&D.puzzle.words.length));
   if(D.puzzle&&D.puzzle.words)puzzle(D.puzzle,D.date);
   vidUp(D);
+  tools(D);
 }
 
 /* 낱말 퍼즐: 한 칸 한 음절, 단서를 고르고 단어 단위로 입력(한글 조합 입력에 안전) */
@@ -392,6 +413,57 @@ function puzzle(P,date){
   paint();sel(P.words.filter(function(w){return w.dir==='across'}).sort(function(a,b){return a.n-b.n})[0]||P.words[0]);
 }
 
+
+/* 코너별 공유: 텍스트 복사 · 이미지 복사 · 링크 복사(카톡 미리보기용 공유 페이지 s/<날짜>-<코너>.html) */
+var SITE='https://mnews.jintar.co.kr/';
+var ICON={
+ text:'<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 3.5h10M3 6.5h10M3 9.5h10M3 12.5h6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>',
+ img:'<svg viewBox="0 0 16 16" aria-hidden="true"><rect x="2" y="3" width="12" height="10" rx="1" fill="none" stroke="currentColor" stroke-width="1.4"/><circle cx="6" cy="6.6" r="1.2" fill="currentColor"/><path d="M3 12l3.6-3.4 2.4 2.2 1.8-1.6L13 11.4" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>',
+ link:'<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6.6 9.4a2.6 2.6 0 0 0 3.7 0l2.4-2.4a2.6 2.6 0 0 0-3.7-3.7l-.9.9M9.4 6.6a2.6 2.6 0 0 0-3.7 0L3.3 9a2.6 2.6 0 0 0 3.7 3.7l.9-.9" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>'};
+function toast(m){var t=document.querySelector('.toast');if(!t){t=document.createElement('div');t.className='toast';document.body.appendChild(t)}t.textContent=m;t.classList.add('on');clearTimeout(t._h);t._h=setTimeout(function(){t.classList.remove('on')},2200)}
+function shareUrl(D,sec){return SITE+'s/'+D.date+'-'+sec+'.html'}
+function copyText(txt){if(navigator.clipboard&&window.isSecureContext)return navigator.clipboard.writeText(txt);return new Promise(function(ok,no){var a=document.createElement('textarea');a.value=txt;a.style.position='fixed';a.style.opacity='0';document.body.appendChild(a);a.select();try{document.execCommand('copy')?ok():no()}catch(e){no(e)}a.remove()})}
+function secText(D,sec){var L=[],dt=D.date.replace(/-/g,'.'),hd='[문학늬우스 '+dt+' · ';
+ if(sec==='sentence'){var S=D.sentence;L.push(hd+'오늘의 문장]','','“'+S.text+'”','— '+S.writer+' 「'+S.work+'」('+S.year+')','','■ 이 문장이 품은 뜻',S.meaning,'','■ 누가, 어느 장면에서',S.context,'','■ 작가가 노린 것',S.craft)}
+ if(sec==='poem'){var P=D.poem;L.push(hd+'오늘의 시]','','「'+P.title+'」 '+P.writer+(P.book?' · '+P.book:''),'');(P.lines||[]).forEach(function(l){L.push(l)});L.push('','■ 읽기',P.analysis);if(P.oneline)L.push('','금로동의 한 줄 — '+P.oneline)}
+ if(sec==='novel'){var N=D.novel;L.push(hd+'오늘의 소설 구절]','');if(N.quote_orig)L.push('“'+N.quote_orig+'”');L.push('“'+N.quote+'”','— '+N.writer+' 『'+N.title+'』('+N.year+')'+(N.translator?' · '+N.translator:''),'','■ 앞뒤 맥락',N.context,'','■ 문체와 인물',N.analysis)}
+ if(sec==='writer'){var W=D.writer;L.push(hd+'오늘의 문인]','',W.name+(W.hanja?'('+W.hanja+')':'')+' '+(W.life||''),'',W.bio,'','대표작: '+(W.works||[]).join(', '));if(W.link)L.push('',W.link)}
+ if(sec==='puzzle'){var Z=D.puzzle;L.push(hd+'낱말 퍼즐]','');['across','down'].forEach(function(d){L.push(d==='across'?'■ 가로':'■ 세로');Z.words.filter(function(w){return w.dir===d}).sort(function(a,b){return a.n-b.n}).forEach(function(w){L.push(w.n+'. '+w.clue+' ('+w.a.length+'글자)')});L.push('')});L.push('칸에 직접 풀어 보세요 👇')}
+ if(sec==='trivia'){L.push(hd+'문학 상식 OX]','');(D.trivia||[]).forEach(function(t,i){L.push('Q'+(i+1)+'. '+t.q,'   정답 '+t.a+' — '+t.why,'')});if(D.calendar)L.push('오늘의 문학 달력 — '+D.calendar)}
+ L.push('','금로동 기자 · 문학늬우스',shareUrl(D,sec));return L.join('\n').replace(/\n{3,}/g,'\n\n')}
+var h2c=null;function loadH2C(){if(window.html2canvas)return Promise.resolve();if(h2c)return h2c;h2c=new Promise(function(ok,no){var s=document.createElement('script');s.src='vendor/html2canvas.min.js';s.onload=ok;s.onerror=no;document.head.appendChild(s)});return h2c}
+function secImage(el,D,sec){
+  var blobP=loadH2C().then(function(){el.classList.add('capturing');
+    var top=el.getBoundingClientRect().top,hh=0;[].slice.call(el.children).forEach(function(c){if(c.offsetParent!==null)hh=Math.max(hh,c.getBoundingClientRect().bottom-top)});
+    return html2canvas(el,{height:Math.ceil(hh)+6,backgroundColor:'#EDEDED',scale:Math.min(2,window.devicePixelRatio||1)+0.5,useCORS:true,logging:false,
+      onclone:function(doc){[].slice.call(doc.querySelectorAll('video')).forEach(function(v){var i=doc.createElement('img');i.src=v.getAttribute('poster');i.style.cssText='display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover';v.replaceWith(i)})}})})
+   .then(function(c){el.classList.remove('capturing');
+     // 아래쪽 띠: 출처 표기
+     var o=document.createElement('canvas'),pad=Math.round(c.width*0.03),fh=Math.round(Math.max(c.width*0.035,44));o.width=c.width+pad*2;o.height=c.height+pad*2+fh*2;var g=o.getContext('2d');g.fillStyle='#EDEDED';g.fillRect(0,0,o.width,o.height);g.drawImage(c,pad,pad);
+     g.fillStyle='#1A1A1A';g.fillRect(pad,c.height+pad+fh*0.4,o.width-pad*2,2);g.font='700 '+Math.round(fh*0.62)+'px "Noto Serif KR",serif';g.textBaseline='middle';g.fillText('문학늬우스 · '+D.date.replace(/-/g,'.'),pad,c.height+pad+fh*1.25);g.textAlign='right';g.fillText('mnews.jintar.co.kr',o.width-pad,c.height+pad+fh*1.25);
+     return new Promise(function(ok){o.toBlob(ok,'image/png')})},function(e){el.classList.remove('capturing');throw e});
+  var name='문학늬우스-'+D.date+'-'+sec+'.png';
+  if(navigator.clipboard&&window.ClipboardItem&&window.isSecureContext){
+    return navigator.clipboard.write([new ClipboardItem({'image/png':blobP})]).then(function(){return'copied'},function(){return blobP.then(function(b){dl(b,name);return'saved'})})}
+  return blobP.then(function(b){dl(b,name);return'saved'});
+  function dl(b,n){var a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=n;document.body.appendChild(a);a.click();setTimeout(function(){URL.revokeObjectURL(a.href);a.remove()},1500)}
+}
+function tools(D){
+  [].slice.call(document.querySelectorAll('[data-sec]')).forEach(function(el){
+    var sec=el.getAttribute('data-sec'),name=el.getAttribute('data-name'),k=el.querySelector('.kick');if(!k||k.querySelector('.tools'))return;
+    var rt=k.querySelector('.rt');if(!rt){rt=document.createElement('span');rt.className='rt';var sp=k.querySelector(':scope>span');if(sp)rt.appendChild(sp);k.appendChild(rt)}
+    var t=document.createElement('span');t.className='tools';
+    t.innerHTML='<button type="button" data-act="text" data-tip="글로 복사" aria-label="'+name+' 글로 복사">'+ICON.text+'</button><button type="button" data-act="img" data-tip="이미지로 복사" aria-label="'+name+' 이미지로 복사">'+ICON.img+'</button><button type="button" data-act="link" data-tip="링크 복사" aria-label="'+name+' 링크 복사">'+ICON.link+'</button>';
+    rt.appendChild(t);
+    t.onclick=function(e){var b=e.target.closest('button');if(!b)return;var act=b.getAttribute('data-act');
+      var done=function(m){b.classList.add('ok');toast(m);setTimeout(function(){b.classList.remove('ok')},1400)},fail=function(){toast('복사하지 못했어요. 다시 눌러 주세요.')};
+      if(act==='link')copyText(shareUrl(D,sec)).then(function(){done(name+' 링크를 복사했어요')},fail);
+      if(act==='text')copyText(secText(D,sec)).then(function(){done(name+' 글을 복사했어요')},fail);
+      if(act==='img'){toast('이미지를 만드는 중…');secImage(el,D,sec).then(function(r){done(r==='copied'?name+' 이미지를 복사했어요':name+' 이미지를 저장했어요')},fail)}};
+  });
+  var h=(location.hash||'').slice(1);if(h){var tg=document.getElementById(h);if(tg)setTimeout(function(){tg.scrollIntoView({behavior:'smooth',block:'start'});var box=tg.closest('[data-sec]')||tg;box.classList.add('flash')},350)}
+}
+
 /* 3초 반복 삽화: img와 video가 같이 있으면 그림 자리를 소리 없는 반복 영상으로 (데이터 절약·동작 줄이기면 그림 유지) */
 function vidUp(D){
   var low=false;try{low=(navigator.connection&&navigator.connection.saveData)||matchMedia('(prefers-reduced-motion: reduce)').matches}catch(e){}
@@ -400,7 +472,7 @@ function vidUp(D){
     if(typeof o.img==='string'&&typeof o.video==='string')map[o.img]=o.video;for(var k in o)if(o.hasOwnProperty(k)&&typeof o[k]==='object')walk(o[k],d+1)})(D,0);
   var io='IntersectionObserver' in window?new IntersectionObserver(function(es){es.forEach(function(e){var v=e.target;if(e.isIntersecting){var p=v.play();if(p&&p.catch)p.catch(function(){})}else v.pause()})},{rootMargin:'100px'}):null;
   [].slice.call(document.images).forEach(function(im){var vs=map[im.getAttribute('src')];if(!vs||im.__vid)return;im.__vid=1;
-    var v=document.createElement('video');v.muted=true;v.loop=true;v.playsInline=true;v.setAttribute('muted','');v.setAttribute('playsinline','');v.preload='metadata';
+    var v=document.createElement('video');v.muted=true;v.loop=true;v.playsInline=true;v.setAttribute('muted','');v.setAttribute('playsinline','');v.preload='metadata';v.disablePictureInPicture=true;v.setAttribute('disablepictureinpicture','');v.setAttribute('controlslist','nodownload nofullscreen noremoteplayback');v.setAttribute('x-webkit-airplay','deny');v.setAttribute('tabindex','-1');
     v.poster=im.getAttribute('src');v.src=vs;v.setAttribute('aria-label',im.alt||'');v.title=im.alt||'';im.replaceWith(v);if(io)io.observe(v);else v.autoplay=true});
 }
 })();

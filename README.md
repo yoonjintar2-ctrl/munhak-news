@@ -8,6 +8,8 @@
 - `img/<날짜>-sentence|poem|novel.mp4/.jpg` — 3초 반복 3D 삽화와 포스터, `img/<날짜>-writer.png` — 문인 실루엣.
 - `scripts/m3d/` — 3D 삽화 키트(광고늬우스에서 가져옴). `NODE_PATH=$(npm root -g) node scripts/m3d/render.cjs scenes/<날짜>-poem.js img/<날짜>-poem.mp4 [--still 1.2]`
 - `scripts/build_puzzle.py <날짜>` — `data/words-<날짜>.json`([[답, 단서], …], 문학 용어+그날 작품 낱말 60~90개)으로 13×13 낱말 퍼즐을 만들어 today.json에 넣는다.
+- `scripts/make_share.py [날짜]` — 코너별 공유 페이지 `s/<날짜>-<코너>.html`(카톡 미리보기용 og 태그, 사람은 `?d=날짜#코너`로 이동)와 1200×630 카드 `s/<날짜>-<코너>.jpg`. 지면의 링크 복사 단추가 이 주소를 복사한다. 발행 때마다 돌린다.
+- 코너마다 [글로 복사][이미지로 복사][링크 복사] 단추. 이미지는 `vendor/html2canvas.min.js`로 그 코너만 찍는다.
 - `docs/PROMPT.md` — 처음 만들기(A)와 매일 발행 예약 작업(B) 프롬프트.
 
 ## 지면 순서
