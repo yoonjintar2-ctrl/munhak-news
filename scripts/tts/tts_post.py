@@ -9,6 +9,9 @@ import numpy as np, soundfile as sf, librosa
 from resemblyzer import VoiceEncoder, preprocess_wav
 
 SR = 24000
+# 11/14 발행인 지시 "샌디스크 올인처럼 차분한 톤": 생성 설정은 그대로, 후처리로 차분하게.
+#  배속 1.05→1.0, 문장 안 긴 쉼 0.34→0.40초, 문장 사이 0.4→0.6초, 음높이는 샌디스크 쇼츠 테이크 중앙값(약 193Hz)에 가까운 테이크를 고름.
+TEMPO, PAUSE, GAP, CALM_F0 = 1.0, 0.40, 0.60, 193.0
 
 
 def load(p):
@@ -44,7 +47,7 @@ def squeeze(w, text):
     out = [w[: s[0][1]]]
     for (a0, b0), (a1, b1) in zip(s, s[1:]):
         gap = (a1 - b0) / SR
-        keep = gap if gap <= 0.45 else (0.5 if "…" in text else 0.34)
+        keep = gap if gap <= 0.45 else (0.55 if "…" in text else PAUSE)
         out += [np.zeros(int(keep * SR), np.float32), w[a1:b1]]
     return np.concatenate(out + [np.zeros(int(0.05 * SR), np.float32)])
 
@@ -85,13 +88,13 @@ def main(qtts, date, outdir):
             if not ps: print("빠진 문장", sec, i, text); continue
             dmed = np.median([info[p]["dur"] for p in ps])
             ok = [p for p in ps if info[p]["dur"] < 1.6 * dmed and not (abs(12 * np.log2(info[p]["f0"] / allf0)) > 1.5 if info[p]["f0"] == info[p]["f0"] else False) and info[p]["low"] > info[p]["full"] - 0.12]
-            best = max(ok or ps, key=lambda p: (info[p]["full"] + info[p]["low"]) / 2)
+            best = max(ok or ps, key=lambda p: (info[p]["full"] + info[p]["low"]) / 2 - (0.03 * max(0.0, 12 * np.log2(info[p]["f0"] / CALM_F0)) if info[p]["f0"] == info[p]["f0"] else 0))   # 높은 톤일수록 감점(반음당 0.03)
             if not ok: print("통과 테이크 없음(가장 나은 것 사용)", sec, i, text)
-            parts += [squeeze(info[best]["w"], text), np.zeros(int(0.4 * SR), np.float32)]
+            parts += [squeeze(info[best]["w"], text), np.zeros(int(GAP * SR), np.float32)]
         if not parts: continue
         wav = os.path.join(outdir, f"{date}-{sec}.wav")
         sf.write(wav, np.concatenate(parts), SR)
-        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", wav, "-af", "atempo=1.05,loudnorm=I=-16:TP=-1.5", "-ac", "1", "-b:a", "64k", wav[:-4] + ".mp3"], check=True)
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", wav, "-af", ("atempo=%.2f," % TEMPO if TEMPO != 1.0 else "") + "loudnorm=I=-16:TP=-1.5", "-ac", "1", "-b:a", "64k", wav[:-4] + ".mp3"], check=True)
         os.remove(wav)
         print("mp3:", wav[:-4] + ".mp3")
 
