@@ -462,10 +462,24 @@ function render(D){
   if(P){
     $('poem-title').textContent=P.title;$('poem-meta').textContent=P.writer+' · '+(P.book||P.year)+(P.translator?' · '+P.translator:'');
     $('poem-tag').textContent=P.origin+' · '+P.year;
-    var PL=((P.public_domain||P.permission)&&P.lines&&P.lines.length)?P.lines:[];$('poem-lines').innerHTML=PL.map(function(l){return l?'<p>'+esc(l)+'</p>':'<br>'}).join('');
-    $('poem-note').textContent=(PL.length&&P.permission)?P.permission:(P.note||'');
-    // 전문을 싣지 못하는 시: 삽화를 왼쪽(제목 아래)으로 옮겨 빈칸이 생기지 않게
-    if(!PL.length){var fg=document.querySelector('#s-poem .fig'),lc=$('poem-note').parentNode;if(fg&&fg.parentNode!==lc){lc.appendChild(fg);fg.style.marginTop='14px'}}
+    // 허락받은 시는 전문을 poems/<날짜>.txt(붙여 넣은 그대로)에서 읽어 온다
+    var poemFig=document.querySelector('#s-poem .fig'),poemFigHome=poemFig&&poemFig.parentNode;
+    function drawPoem(L){
+      var PL=((P.public_domain||P.permission)&&L&&L.length)?L:[],st=[],cur=[];
+      PL.forEach(function(l){if(l)cur.push(esc(l));else if(cur.length){st.push(cur);cur=[]}});if(cur.length)st.push(cur);
+      $('poem-lines').innerHTML=st.map(function(c){return '<p>'+c.join('<br>')+'</p>'}).join('');
+      $('poem-note').textContent=(PL.length&&P.permission)?P.permission:(P.note||'');
+      var lc=$('poem-note').parentNode;
+      if(!PL.length){if(poemFig&&poemFig.parentNode!==lc){lc.appendChild(poemFig);poemFig.style.marginTop='14px'}}
+      else if(poemFig&&poemFig.parentNode!==poemFigHome){poemFigHome.insertBefore(poemFig,poemFigHome.firstChild);poemFig.style.marginTop=''}
+    }
+    drawPoem(P.lines);
+    if(P.permission&&P.text_file&&!(P.lines&&P.lines.length))fetch(P.text_file+'?t='+Date.now()).then(function(r){return r.ok?r.text():''}).then(function(t){
+      if(!t)return;var L=t.replace(/[\u200B-\u200D\uFEFF\u00A0]/g,' ').split(/\r?\n/).map(function(x){return x.trim()});
+      while(L.length&&!L[0])L.shift();
+      if(L.length&&L[0].replace(/\s/g,'').indexOf(P.title.replace(/\s/g,''))===0){L.shift();while(L.length&&!L[0])L.shift()}
+      var o=[];L.forEach(function(x){if(x||(o.length&&o[o.length-1]))o.push(x)});while(o.length&&!o[o.length-1])o.pop();
+      if(o.length){P.lines=o;drawPoem(o)}}).catch(function(){});
     $('poem-img').src=P.img;$('poem-img').alt=P.alt||'';$('poem-cap').textContent=P.alt||'';
     $('poem-analysis').innerHTML=paras(P.analysis);
     $('poem-oneline').innerHTML='<b>금로동의 한 줄</b>'+esc(P.oneline||'');hideIf('poem-oneline',!P.oneline);
