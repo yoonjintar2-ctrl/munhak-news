@@ -200,6 +200,7 @@ button,select{font:inherit}
 .ss-tip{font-size:.85rem;color:var(--muted);text-align:center;margin:0}
 .ss-btns{display:flex;gap:8px}.ss-btns button{flex:1;font:inherit;font-weight:900;font-size:.95rem;padding:12px;border:2px solid var(--ink);background:var(--paper);color:var(--ink)}
 .ss-btns .ss-save{background:var(--ink);color:var(--paper)}
+.cl-fig{margin:4px 0 14px}
 .cl-mode{display:flex;align-items:center;gap:6px;margin:2px 0 12px}
 .cl-mode button{font:inherit;font-size:.82rem;font-weight:900;padding:6px 12px;border:1.5px solid var(--ink);background:var(--paper);color:var(--ink);cursor:pointer;box-shadow:2px 2px 0 var(--ink);transition:transform .08s}
 .cl-mode button:active{transform:translate(2px,2px);box-shadow:none}
@@ -421,6 +422,7 @@ button,select{font:inherit}
       <p class="cl-title" id="cl-title"></p>
       <p class="cl-meta" id="cl-meta"></p>
       <p class="cl-one" id="cl-one"></p>
+      <figure class="fig cl-fig" id="cl-fig"><span class="tag">AI 삽화</span><img id="cl-img" alt=""></figure>
       <div class="cl-story body" id="cl-story"></div><ol class="cl-lines" id="cl-lines"></ol>
       <details class="cl-end"><summary>결말 보기 <em>(스포일러)</em></summary><p id="cl-ending"></p></details>
       <p class="sub-h">왜 읽을 만한가</p>
@@ -432,6 +434,7 @@ button,select{font:inherit}
       <p class="cl-title" id="md-title"></p>
       <p class="cl-meta" id="md-meta"></p>
       <p class="cl-one" id="md-one"></p>
+      <figure class="fig cl-fig" id="md-fig"><span class="tag">AI 삽화</span><img id="md-img" alt=""></figure>
       <div class="cl-story body" id="md-story"></div><ol class="cl-lines" id="md-lines"></ol>
       <details class="cl-end"><summary>결말 보기 <em>(스포일러)</em></summary><p id="md-ending"></p></details>
       <p class="sub-h">왜 읽을 만한가</p>
@@ -613,7 +616,7 @@ function oneMin(C,pre,sid){hideIf(sid,!C);if(!C)return;
   $(pre+'title').textContent=C.title;$(pre+'meta').textContent=C.writer+' · '+(C.where||C.year)+(C.origin?' · '+C.origin:'');
   $(pre+'one').textContent=C.oneline||'';var st=C.story||[];$(pre+'story').innerHTML=st.map(function(p){return'<p>'+esc(p)+'</p>'}).join('');hideIf(pre+'story',!st.length);
   $(pre+'lines').innerHTML=(C.lines||[]).map(function(l){return'<li><span>'+esc(l)+'</span></li>'}).join('');hideIf(pre+'lines',!(C.lines&&C.lines.length));
-  $(pre+'ending').textContent=C.ending||'';$(pre+'why').textContent=C.why||'';$(pre+'src').innerHTML=srcs(C.sources)}
+  if(C.img){$(pre+'img').src=C.img;$(pre+'img').alt=C.alt||C.title}hideIf(pre+'fig',!C.img);$(pre+'ending').textContent=C.ending||'';$(pre+'why').textContent=C.why||'';$(pre+'src').innerHTML=srcs(C.sources)}
 function classic(C){oneMin(C,'cl-','s-classic')}
 /* 기분 처방전: data/rx.json 묶음에서 기분별로 한 알 */
 var RX=null,RXcur=null;
