@@ -199,6 +199,91 @@
     "https://walden.org/quotation-category/time/page/7"
    ],
    "added": "2026-11-13"
+  },
+  {
+   "mood": "tired",
+   "text": "두 손은 함뿍 적셔도 좋으련. / 하이얀 모시 수건을 마련해 두렴.",
+   "writer": "이육사",
+   "work": "청포도",
+   "year": 1939,
+   "kind": "시",
+   "dose": "따뜻한 물에 두 손을 한참 담갔다가 마른 수건으로 닦고 복용하세요. 고달픈 몸으로 온 손님에겐 그게 첫 대접입니다.",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%9C%A1%EC%82%AC",
+    "https://namu.wiki/w/%EC%B2%AD%ED%8F%AC%EB%8F%84(%EC%8B%9C)"
+   ],
+   "added": "2026-11-14"
+  },
+  {
+   "mood": "blue",
+   "text": "나는 아직 기다리고 있을 테요, 찬란한 슬픔의 봄을",
+   "writer": "김영랑",
+   "work": "모란이 피기까지는",
+   "year": 1934,
+   "kind": "시",
+   "dose": "슬픔 앞에 '찬란한'을 붙여 소리 내 한 번 읽으세요. 기다리는 동안도 계절은 계절입니다.",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%9E%80%EC%9D%B4_%ED%94%BC%EA%B8%B0%EA%B9%8C%EC%A7%80%EB%8A%94"
+   ],
+   "added": "2026-11-14"
+  },
+  {
+   "mood": "flutter",
+   "text": "푸른 하늘 푸른 들이 맞붙은 곳으로 / 가르마 같은 논길을 따라 꿈 속을 가듯 걸어만 간다.",
+   "writer": "이상화",
+   "work": "빼앗긴 들에도 봄은 오는가",
+   "year": "",
+   "kind": "시",
+   "dose": "약속 장소 한 정거장 전에 내려 걸어가며 복용하세요. 발끝이 먼저 설렙니다.",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EB%B9%BC%EC%95%97%EA%B8%B4_%EB%93%A4%EC%97%90%EB%8F%84_%EB%B4%84%EC%9D%80_%EC%98%A4%EB%8A%94%EA%B0%80"
+   ],
+   "added": "2026-11-14"
+  },
+  {
+   "mood": "anxious",
+   "text": "우리를 겁주는 것이 실제로 짓누르는 것보다 많고, 우리는 현실보다 생각 때문에 더 자주 괴롭다.",
+   "orig": "Plura sunt, Lucili, quae nos terrent quam quae premunt, et saepius opinione quam re laboramus.",
+   "translator": "금로동 옮김",
+   "writer": "세네카",
+   "work": "루킬리우스에게 보내는 편지 13",
+   "year": "",
+   "kind": "산문",
+   "dose": "걱정을 종이에 다 적은 뒤, 오늘 실제로 일어난 것에만 동그라미를 치세요. 대개 동그라미가 모자랍니다.",
+   "sources": [
+    "https://www.thelatinlibrary.com/sen/seneca.ep2.shtml"
+   ],
+   "added": "2026-11-14"
+  },
+  {
+   "mood": "angry",
+   "text": "화가 나면 넷을 세라. 몹시 화가 나면, 욕을 해라.",
+   "orig": "When angry, count four; when very angry, swear.",
+   "translator": "금로동 옮김",
+   "writer": "마크 트웨인",
+   "work": "얼간이 윌슨(10장 '얼간이 윌슨의 달력')",
+   "year": 1894,
+   "kind": "소설",
+   "dose": "넷까지 세는 동안 대부분은 가라앉습니다. 남은 분량은 베개에 대고만 복용하세요.",
+   "sources": [
+    "https://www.gutenberg.org/files/102/102-h/102-h.htm"
+   ],
+   "added": "2026-11-14"
+  },
+  {
+   "mood": "blank",
+   "text": "사람의 모든 불행은 단 하나에서 온다. 제 방에 조용히 머물 줄 모른다는 것.",
+   "orig": "…all the unhappiness of men arises from one single fact, that they cannot stay quietly in their own chamber.",
+   "translator": "금로동 옮김(영역본에서)",
+   "writer": "블레즈 파스칼",
+   "work": "팡세 139",
+   "year": "",
+   "kind": "산문",
+   "dose": "멍한 게 아니라 방에 머무는 연습 중입니다. 휴대폰을 엎어 두고 10분 복용하세요.",
+   "sources": [
+    "https://www.gutenberg.org/files/18269/18269-h/18269-h.htm"
+   ],
+   "added": "2026-11-14"
   }
  ]
 }
