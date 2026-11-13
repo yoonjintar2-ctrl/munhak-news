@@ -498,7 +498,7 @@ var esc=function(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){re
 var paras=function(s){return String(s||'').split(/\n+/).filter(Boolean).map(function(p){return'<p>'+esc(p)+'</p>'}).join('')};
 var srcs=function(a){return(a&&a.length)?'출처 · '+a.map(function(u,i){return'<a href="'+esc(u)+'" target="_blank" rel="noopener">'+(i+1)+'</a>'}).join(' '):''};
 var WD=['일','월','화','수','목','금','토'];
-function fmtDate(d){var t=new Date(d+'T00:00:00+09:00');return t.getFullYear()+'년 '+(t.getMonth()+1)+'월 '+t.getDate()+'일 '+WD[t.getDay()]+'요일'}
+function fmtDate(d){var a=d.split('-').map(Number),t=new Date(Date.UTC(a[0],a[1]-1,a[2]));return a[0]+'년 '+a[1]+'월 '+a[2]+'일 '+WD[t.getUTCDay()]+'요일'}
 function hideIf(id,cond){var e=$(id);if(e)e.hidden=!!cond}
 var q=new URLSearchParams(location.search).get('d');
 var url=q&&/^\d{4}-\d{2}-\d{2}$/.test(q)?'archive/'+q+'.json':'today.json';
