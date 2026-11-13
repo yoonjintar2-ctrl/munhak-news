@@ -105,6 +105,7 @@ def page(key, title, desc, image, target, sig):
 <meta name="twitter:title" content="{esc(title)}">
 <meta name="twitter:description" content="{esc(desc)}">
 <meta name="twitter:image" content="{esc(image)}">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
 <script>location.replace("../{target}")</script>
 <style>body{{font-family:"Noto Serif KR",serif;background:#EDEDED;color:#1A1A1A;margin:0;display:grid;place-items:center;min-height:100vh;text-align:center;padding:24px}}a{{color:inherit}}</style>
 </head><body><p><b>문학늬우스</b><br>{esc(title)}<br><br><a href="../{target}">지면에서 보기 →</a></p></body></html>

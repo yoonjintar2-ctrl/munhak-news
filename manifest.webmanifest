@@ -1,0 +1,14 @@
+{
+  "name": "문학늬우스",
+  "short_name": "문학늬우스",
+  "description": "매일 아침 문장 하나를 배달하는 흑백 문학 신문",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#EDEDED",
+  "theme_color": "#1a1a1a",
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"}
+  ]
+}
