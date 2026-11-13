@@ -57,8 +57,8 @@ def content(D, sec):
                 "O일까, X일까?", esc(clip(T[0]["q"], 70)) if T else "", None, f"{len(T)}문항 · 정답과 해설은 지면에서")
     if sec == "classic":
         C = D["classic"]
-        return (f"1분 고전 · {C['writer']} 「{C['title']}」", clip(C.get("oneline", "") + " " + " ".join(C.get("lines", [])), 110),
-                f"「{esc(C['title'])}」", esc(clip(C.get("oneline"), 80)), None, f"{esc(C['writer'])} · {C['year']} · 다섯 문장 요약")
+        return (f"1분 고전 · {C['writer']} 「{C['title']}」", clip(C.get("oneline", "") + " " + " ".join(C.get("story") or C.get("lines", [])), 110),
+                f"「{esc(C['title'])}」", esc(clip(C.get("oneline"), 80)), None, f"{esc(C['writer'])} · {C['year']} · 1분이면 읽는 줄거리")
     if sec == "rx":
         return ("기분 처방전 · 오늘 기분에 맞는 문장 한 알", "지쳤어요·울적해요·불안해요·화나요·설레요·멍해요 — 기분을 고르면 금로동 약사가 문장 한 알을 지어 드립니다.",
                 "오늘 기분에<br>문장 한 알", "기분을 고르면 출처가 분명한 문장을 처방해 드려요.", None, "문학 약국 · 금로동 약사")
@@ -152,7 +152,7 @@ def main(dates):
                 lw = 740
             elif sec in ("rx", "classic"):
                 lbl = "文學<br>藥局" if sec == "rx" else "1分<br>古典"
-                right = f'<div class="r" style="width:300px;top:120px"><div style="width:280px;height:330px;margin-left:auto;background:#f9f8f3;border:3px solid #1A1A1A;box-shadow:10px 10px 0 #1A1A1A;position:relative;padding:22px"><div style="font-size:30px;font-weight:900;border-bottom:4px double #1A1A1A;padding-bottom:8px">{"문학 약국" if sec=="rx" else "1분 고전"}</div><div style="font-size:18px;color:#A01E1E;font-weight:700;margin-top:10px">{"처방전 · 內服藥" if sec=="rx" else "다섯 문장 요약"}</div><div style="position:absolute;right:24px;bottom:28px;width:110px;height:110px;border:5px solid #A01E1E;border-radius:50%;color:#A01E1E;font-size:26px;font-weight:900;line-height:1.15;display:grid;place-items:center;text-align:center;transform:rotate(-14deg)">{lbl}</div></div></div>'
+                right = f'<div class="r" style="width:300px;top:120px"><div style="width:280px;height:330px;margin-left:auto;background:#f9f8f3;border:3px solid #1A1A1A;box-shadow:10px 10px 0 #1A1A1A;position:relative;padding:22px"><div style="font-size:30px;font-weight:900;border-bottom:4px double #1A1A1A;padding-bottom:8px">{"문학 약국" if sec=="rx" else "1분 고전"}</div><div style="font-size:18px;color:#A01E1E;font-weight:700;margin-top:10px">{"처방전 · 內服藥" if sec=="rx" else "1분이면 읽는 줄거리"}</div><div style="position:absolute;right:24px;bottom:28px;width:110px;height:110px;border:5px solid #A01E1E;border-radius:50%;color:#A01E1E;font-size:26px;font-weight:900;line-height:1.15;display:grid;place-items:center;text-align:center;transform:rotate(-14deg)">{lbl}</div></div></div>'
                 lw = 760
             elif img and os.path.exists(img):
                 wr = sec == "writer"

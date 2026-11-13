@@ -199,6 +199,8 @@ button,select{font:inherit}
 .cl-lines{margin:0;padding:0;list-style:none;counter-reset:c;border-top:1px solid var(--ink)}
 .cl-lines li{counter-increment:c;display:grid;grid-template-columns:2.2em 1fr;gap:6px;padding:8px 0;border-bottom:1px solid var(--rule-soft);font-size:.95rem;line-height:1.65}
 .cl-lines li::before{content:counter(c,decimal-leading-zero);font-family:var(--mono);font-size:.78rem;color:var(--red);padding-top:.25em}
+.cl-story{border-top:1px solid var(--ink);padding-top:10px}
+.cl-story p{text-indent:.6em}
 .cl-end{margin-top:12px;border:1px dashed var(--ink);padding:8px 12px;background:var(--paper2)}
 .cl-end summary{cursor:pointer;font-weight:900;font-size:.88rem}
 .cl-end summary em{font-style:normal;color:var(--faint);font-weight:400;font-size:.78rem}
@@ -379,7 +381,7 @@ button,select{font:inherit}
       <p class="cl-title" id="cl-title"></p>
       <p class="cl-meta" id="cl-meta"></p>
       <p class="cl-one" id="cl-one"></p>
-      <ol class="cl-lines" id="cl-lines"></ol>
+      <div class="cl-story body" id="cl-story"></div><ol class="cl-lines" id="cl-lines"></ol>
       <details class="cl-end"><summary>결말 보기 <em>(스포일러)</em></summary><p id="cl-ending"></p></details>
       <p class="sub-h">왜 읽을 만한가</p>
       <div class="body"><p id="cl-why"></p></div>
@@ -530,7 +532,8 @@ function puzzle(P,date){
 /* 1분 고전 */
 function classic(C){hideIf('s-classic',!C);if(!C)return;
   $('cl-title').textContent=C.title;$('cl-meta').textContent=C.writer+' · '+(C.where||C.year)+(C.origin?' · '+C.origin:'');
-  $('cl-one').textContent=C.oneline||'';$('cl-lines').innerHTML=(C.lines||[]).map(function(l){return'<li><span>'+esc(l)+'</span></li>'}).join('');
+  $('cl-one').textContent=C.oneline||'';$('cl-story').innerHTML=(C.story||[]).map(function(p){return'<p>'+esc(p)+'</p>'}).join('');hideIf('cl-story',!(C.story&&C.story.length));
+  $('cl-lines').innerHTML=(C.lines||[]).map(function(l){return'<li><span>'+esc(l)+'</span></li>'}).join('');hideIf('cl-lines',!(C.lines&&C.lines.length));
   $('cl-ending').textContent=C.ending||'';$('cl-why').textContent=C.why||'';$('cl-src').innerHTML=srcs(C.sources)}
 /* 기분 처방전: data/rx.json 묶음에서 기분별로 한 알 */
 var RX=null,RXcur=null;
@@ -567,7 +570,7 @@ function secText(D,sec){var L=[],dt=D.date.replace(/-/g,'.'),hd='[문학늬우�
  if(sec==='writer'){var W=D.writer;L.push(hd+'오늘의 문인]','',W.name+(W.hanja?'('+W.hanja+')':'')+' '+(W.life||''),'',W.bio,'','대표작: '+(W.works||[]).join(', '));if(W.link)L.push('',W.link)}
  if(sec==='puzzle'){var Z=D.puzzle;L.push(hd+'낱말 퍼즐]','');['across','down'].forEach(function(d){L.push(d==='across'?'■ 가로':'■ 세로');Z.words.filter(function(w){return w.dir===d}).sort(function(a,b){return a.n-b.n}).forEach(function(w){L.push(w.n+'. '+w.clue+' ('+w.a.length+'글자)')});L.push('')});L.push('칸에 직접 풀어 보세요 👇')}
  if(sec==='trivia'){L.push(hd+'문학 상식 OX]','');(D.trivia||[]).forEach(function(t,i){L.push('Q'+(i+1)+'. '+t.q,'   정답 '+t.a+' — '+t.why,'')});if(D.calendar)L.push('오늘의 문학 달력 — '+D.calendar)}
- if(sec==='classic'){var C=D.classic;L.push(hd+'1분 고전]','','「'+C.title+'」 '+C.writer+' ('+C.year+')',C.oneline||'','');(C.lines||[]).forEach(function(l,i){L.push((i+1)+'. '+l)});L.push('','■ 결말(스포일러)',C.ending||'','','■ 왜 읽을 만한가',C.why||'')}
+ if(sec==='classic'){var C=D.classic;L.push(hd+'1분 고전]','','「'+C.title+'」 '+C.writer+' ('+C.year+')',C.oneline||'','');(C.story||[]).forEach(function(p){L.push(p,'')});(C.lines||[]).forEach(function(l,i){L.push((i+1)+'. '+l)});L.push('','■ 결말(스포일러)',C.ending||'','','■ 왜 읽을 만한가',C.why||'')}
  if(sec==='rx'){if(RXcur){L.push(hd+'기분 처방전]','','증상: '+RXcur._m.label+' — '+RXcur._m.symptom,'','“'+RXcur.text+'”');if(RXcur.orig)L.push(RXcur.orig);L.push('— '+RXcur.writer+' 「'+RXcur.work+'」'+(RXcur.year?' ('+RXcur.year+')':'')+(RXcur.translator?' · '+RXcur.translator:''),'','복용법: '+RXcur.dose)}else{L.push(hd+'기분 처방전]','','오늘 기분을 고르면 문장 한 알을 지어 드립니다.')}}
  L.push('','금로동 기자 · 문학늬우스',shareUrl(D,sec));return L.join('\n').replace(/\n{3,}/g,'\n\n')}
 var h2c=null;function loadH2C(){if(window.html2canvas)return Promise.resolve();if(h2c)return h2c;h2c=new Promise(function(ok,no){var s=document.createElement('script');s.src='vendor/html2canvas.min.js';s.onload=ok;s.onerror=no;document.head.appendChild(s)});return h2c}
