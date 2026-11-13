@@ -4,7 +4,7 @@
 import * as THREE from './vendor/three.module.min.js';
 export { THREE };
 
-export function setup({ w = 960, h = 640, bg = 0x6e6e6e, fog = [0x7a7a7a, 35, 110], fov = 50 } = {}) {
+export function setup({ w = 960, h = 640, bg = 0x6e6e6e, fog = [0x7a7a7a, 35, 110], fov = 50, color = false } = {}) {
   const R = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
   R.setPixelRatio(1); R.setSize(w, h); document.body.appendChild(R.domElement);
   const scene = new THREE.Scene(); scene.background = new THREE.Color(bg);
@@ -31,7 +31,9 @@ export function setup({ w = 960, h = 640, bg = 0x6e6e6e, fog = [0x7a7a7a, 35, 11
   gl_FragColor=vec4(mix(vec3(.957,.945,.918),vec3(.09),clamp(ink,0.,1.)),1.);}`
   });
   const pscene = new THREE.Scene(); pscene.add(new THREE.Mesh(new THREE.PlaneGeometry(2, 2), post)); const pcam = new THREE.Camera();
-  const render = () => { R.setRenderTarget(rt); R.render(scene, cam); R.setRenderTarget(null); R.render(pscene, pcam); };
+  // color:true → 흑백 먹 후처리 없이 컬러 그대로(유튜브용 마스코트 등)
+  if (color) { R.outputColorSpace = THREE.SRGBColorSpace; scene.add(new THREE.HemisphereLight(0xffffff, 0xf3dfb4, 1.1)); }
+  const render = color ? () => { R.setRenderTarget(null); R.render(scene, cam); } : () => { R.setRenderTarget(rt); R.render(scene, cam); R.setRenderTarget(null); R.render(pscene, pcam); };
   return { R, scene, cam, render, post, w, h };
 }
 
