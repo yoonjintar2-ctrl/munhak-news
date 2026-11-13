@@ -3,6 +3,7 @@
 import json, sys, hashlib, random, os
 sys.path.insert(0, os.path.dirname(__file__))
 import make_puzzle as M
+M.N = int(os.environ.get('PZ_N', '11'))  # 격자 한 변(지면 높이에 맞춰 11)
 date = sys.argv[1]
 bank = [{"a": a, "c": c} for a, c in json.load(open(f"data/words-{date}.json", encoding="utf-8")) if 2 <= len(a) <= 5]
 best = None
@@ -11,7 +12,9 @@ for k in range(60):
     words = [w for w in words if not any(o is not w and w["a"] in o["a"] for o in words)]
     placed, grid = M.build(words, date + str(k), beam=120)
     rs = [r for r, _ in grid]; cs = [c for _, c in grid]
-    sc = len(placed) * 10 - (max(rs) - min(rs) + 1) * (max(cs) - min(cs) + 1) * 0.05
+    n = len(placed); area = (max(rs) - min(rs) + 1) * (max(cs) - min(cs) + 1)
+    # 지면 높이에 맞게 16~20단어, 작은 격자를 선호
+    sc = -abs(n - 18) * 10 - area * 0.4 - (100 if n > 20 else 0)
     if not best or sc > best[0]: best = (sc, placed, grid)
 _, placed, grid = best
 rs = [r for r, _ in grid]; cs = [c for _, c in grid]; r0, c0 = min(rs), min(cs)

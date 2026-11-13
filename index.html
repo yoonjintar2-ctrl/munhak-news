@@ -203,31 +203,45 @@ button,select{font:inherit}
 .cl-end summary{cursor:pointer;font-weight:900;font-size:.88rem}
 .cl-end summary em{font-style:normal;color:var(--faint);font-weight:400;font-size:.78rem}
 .cl-end p{margin-top:8px;font-size:.93rem;line-height:1.7}
-.rx-ask{font-size:.92rem;margin-bottom:10px}
-.rx-moods{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
-.rx-moods button{font-family:var(--serif);font-weight:700;font-size:.86rem;padding:6px 13px;border:1px solid var(--ink);border-radius:999px;background:var(--paper);color:var(--ink);cursor:pointer}
-.rx-moods button:hover{background:var(--paper2)}
-.rx-moods button.on{background:var(--ink);color:var(--paper)}
-.rx-bag{position:relative;background:#f9f8f3;border:1.5px solid var(--ink);padding:26px 22px 16px;margin-top:6px;box-shadow:4px 4px 0 var(--ink)}
-.rx-bag::before{content:"";position:absolute;left:-1.5px;right:-1.5px;top:-10px;height:10px;background:linear-gradient(135deg,transparent 50%,#f9f8f3 50%) 0 0/12px 10px repeat-x,linear-gradient(225deg,transparent 50%,#f9f8f3 50%) 6px 0/12px 10px repeat-x}
-.rx-bag::after{content:"";position:absolute;left:0;right:0;top:12px;border-top:1px dashed var(--rule)}
-.rx-hd{display:flex;justify-content:space-between;align-items:baseline;border-bottom:3px double var(--ink);padding:6px 0 6px}
-.rx-hd b{font-size:1.5rem;font-weight:900;letter-spacing:.06em}
-.rx-hd span{font-size:.8rem;font-weight:700;color:var(--red)}
-.rx-info{display:grid;grid-template-columns:repeat(4,auto);gap:4px 16px;margin:10px 0 0;font-size:.8rem;padding-right:72px;min-height:58px;align-content:center}
-.rx-info div{display:flex;gap:6px}.rx-info dt{color:var(--faint);white-space:nowrap;flex:none}.rx-info dd{margin:0;font-weight:700}
-.rx-pill{min-height:150px;display:flex;flex-direction:column;justify-content:center;margin:14px 0 8px;padding:18px 16px;border:1px solid var(--rule-soft);background:var(--paper)}
-.rx-empty{text-align:center;color:var(--faint);font-size:.9rem}
-.rx-q{font-size:1.3rem;font-weight:900;line-height:1.55;letter-spacing:-.01em;white-space:pre-line}
-.rx-orig{font-family:Georgia,"Times New Roman",serif;font-style:italic;color:var(--muted);font-size:.86rem;margin-top:8px}
-.rx-by{font-size:.84rem;margin-top:10px;text-align:right}.rx-by b{font-weight:900}
-.rx-dose{display:flex;gap:10px;align-items:flex-start;font-size:.88rem;line-height:1.6;background:var(--paper2);padding:8px 10px;border-left:3px solid var(--red)}
-.rx-dose b{flex:none;color:var(--red)}
-.rx-ft{font-size:.7rem;color:var(--faint);margin-top:10px;text-align:center}
-.rx-stamp{position:absolute;right:14px;top:66px;width:58px;height:58px;border:2.5px solid var(--red);border-radius:50%;color:var(--red);font-weight:900;font-size:.72rem;line-height:1.15;display:grid;place-items:center;text-align:center;transform:rotate(-14deg);opacity:0;transition:.3s}
-.rx-bag.on .rx-stamp{opacity:.85}
+.rx-bag{--g:#2E7D4F;position:relative;max-width:520px;margin:6px auto 0;background:#fbf6f6;border:1px solid #cdbfbf;padding:30px 26px 18px;box-shadow:0 1px 0 #fff inset,6px 8px 0 rgba(0,0,0,.08)}
+.rx-bag::before{content:"";position:absolute;left:-1px;right:-1px;top:-1px;height:14px;background:linear-gradient(#f1e9e9,#fbf6f6);border-bottom:1px solid #e3d7d7}
+.rx-top{display:flex;align-items:center;gap:12px;margin-top:6px}
+.rx-cross{position:relative;width:60px;height:60px;flex:none}
+.rx-cross::before,.rx-cross::after{content:"";position:absolute;background:var(--g)}
+.rx-cross::before{left:18px;right:18px;top:0;bottom:0}
+.rx-cross::after{top:18px;bottom:18px;left:0;right:0}
+.rx-cross b{position:absolute;inset:0;display:grid;place-items:center;color:#fff;font-size:1.55rem;font-weight:900;z-index:1;font-family:var(--sans)}
+.rx-title{flex:1;border:2px solid var(--g);background:#e7f0ea;color:var(--g);font-family:var(--sans);font-weight:700;font-size:1.7rem;letter-spacing:.4em;text-align:center;padding:4px 0 4px .4em}
+.rx-to{text-align:right;color:var(--g);font-family:var(--sans);font-weight:700;font-size:1rem;margin:10px 0 12px;border-bottom:1.5px solid var(--g);padding-bottom:4px}
+.rx-to span{color:var(--ink);font-family:var(--serif);margin-right:6px}
+.rx-panel{border:2.5px double var(--g);padding:12px 14px 12px;background:#fffdfd}
+.rx-ph{width:150px;margin:-2px auto 10px;text-align:center;border:1.5px solid var(--g);color:var(--g);font-family:var(--sans);font-weight:700;letter-spacing:.6em;padding:2px 0 2px .6em;font-size:.9rem}
+.rx-ask{font-family:var(--sans);font-size:.8rem;color:var(--g);text-align:center;margin-bottom:8px}
+.rx-moods{display:grid;grid-template-columns:repeat(3,1fr);gap:6px 10px;margin-bottom:12px}
+.rx-moods button{display:flex;align-items:center;gap:6px;font-family:var(--sans);font-weight:500;font-size:.88rem;padding:5px 6px;border:0;border-bottom:1px dotted #b9cbbf;background:transparent;color:var(--ink);cursor:pointer;text-align:left}
+.rx-moods button::before{content:"";width:15px;height:15px;border:1.5px solid var(--g);flex:none;display:grid;place-items:center;font-size:.8rem;line-height:1;color:var(--g);font-weight:900}
+.rx-moods button.on::before{content:"✓";background:#e7f0ea}
+.rx-moods button.on{font-weight:700;color:var(--g)}
+.rx-moods button:hover{background:#f3f8f5}
+.rx-pill{min-height:140px;display:flex;flex-direction:column;justify-content:center;border-top:1px solid var(--g);border-bottom:1px solid var(--g);padding:16px 6px;margin-bottom:10px}
+.rx-empty{text-align:center;color:var(--faint);font-size:.88rem}
+.rx-q{font-size:1.22rem;font-weight:900;line-height:1.6;letter-spacing:-.01em;white-space:pre-line}
+.rx-orig{font-family:Georgia,"Times New Roman",serif;font-style:italic;color:var(--muted);font-size:.84rem;margin-top:8px}
+.rx-by{font-size:.82rem;margin-top:10px;text-align:right}.rx-by b{font-weight:900}
+.rx-dose{display:flex;gap:10px;align-items:flex-start;font-size:.86rem;line-height:1.6;margin-bottom:8px}
+.rx-dose b{flex:none;color:var(--g);font-family:var(--sans);border:1px solid var(--g);padding:0 5px;font-size:.76rem;margin-top:2px}
+.rx-date{display:flex;gap:8px;align-items:baseline;font-family:var(--sans);font-size:.78rem;color:var(--g);border-top:1px dotted #b9cbbf;padding-top:6px}
+.rx-date b{color:var(--ink);font-family:var(--serif);font-weight:700;margin-right:10px}
+.rx-new{display:inline-block;font-family:var(--sans);font-size:.66rem;font-weight:700;color:#fff;background:var(--g);padding:1px 6px;margin-bottom:6px;align-self:flex-start}
+.rx-ft{font-size:.68rem;color:var(--faint);margin-top:10px;text-align:center;font-family:var(--sans)}
+.rx-stamp{position:absolute;right:34px;bottom:38px;width:62px;height:62px;border:2.5px solid var(--red);border-radius:50%;color:var(--red);font-weight:900;font-size:.74rem;line-height:1.15;display:grid;place-items:center;text-align:center;transform:rotate(-14deg);opacity:0;transition:.3s;pointer-events:none}
+.rx-bag.on .rx-stamp{opacity:.8}
 .rx-bag.pop .rx-pill{animation:pop .45s ease-out}
 @keyframes pop{0%{opacity:0;transform:translateY(8px)}100%{opacity:1;transform:none}}
+.kick h2{white-space:nowrap}
+.row3 .rt>span:not(.tools){display:none}
+.row3 .tools button span{display:none}
+.row3 .tools button{padding:3px 5px}
 /* 반응형 */
 @media (max-width:1100px){.row3{grid-template-columns:1fr 1fr}.row3>.sec:nth-child(2){grid-column:1/-1;order:3;border-left:0;padding-left:0;margin:44px 0 0;border-top:0}.poem-wrap{grid-template-columns:1fr}}
 @media (max-width:860px){
@@ -237,7 +251,8 @@ button,select{font:inherit}
   .hero,.row2,.row3,.row4,.three,.puz{grid-template-columns:1fr}
   .row4>.sec+.sec{border-left:0;padding-left:0;margin:48px 0 0}
   .row4{margin-top:48px}
-  .rx-info{grid-template-columns:repeat(2,auto)}
+  .rx-moods{grid-template-columns:repeat(2,1fr)}
+  .rx-title{font-size:1.35rem;letter-spacing:.25em}
   .hero .fig{order:-1}
   .three>div{padding:10px 0!important;border-left:0!important}.three>div+div{border-top:1px solid var(--rule-soft)}
   .row2>.sec+.sec,.row3>.sec+.sec{border-left:0;padding-left:0;margin:44px 0 0}
@@ -359,19 +374,21 @@ button,select{font:inherit}
     </section>
     <section class="sec" id="s-rx" data-sec="rx" data-name="기분 처방전"><a class="anc" id="rx"></a>
       <div class="kick"><h2><i>⑧</i>기분 처방전</h2><span>문학 약국 · 금로동 약사</span></div>
-      <p class="rx-ask">오늘 기분이 어떠세요? 고르시면 문장 한 알 지어 드립니다.</p>
-      <div class="rx-moods" id="rx-moods"></div>
       <div class="rx-bag" id="rx-bag">
-        <div class="rx-hd"><b>문학 약국</b><span>처방전 · 內服藥</span></div>
-        <dl class="rx-info">
-          <div><dt>성명</dt><dd>독자님</dd></div>
-          <div><dt>증상</dt><dd id="rx-sym">—</dd></div>
-          <div><dt>조제일</dt><dd id="rx-date">—</dd></div>
-          <div><dt>약사</dt><dd>금로동</dd></div>
-        </dl>
-        <div class="rx-pill" id="rx-pill"><p class="rx-empty">위에서 기분을 골라 주세요.</p></div>
-        <div class="rx-dose" id="rx-dose" hidden><b>복용법</b><span></span></div>
-        <p class="rx-ft">1일 1회, 필요할 때마다 복용 · 부작용: 책을 사고 싶어질 수 있음</p>
+        <div class="rx-top">
+          <span class="rx-cross"><b>약</b></span>
+          <span class="rx-title">내 복 약</span>
+        </div>
+        <p class="rx-to"><span>독자님</span> 귀하</p>
+        <div class="rx-panel">
+          <p class="rx-ph">용 법</p>
+          <p class="rx-ask">오늘 증상에 ✓ 하세요</p>
+          <div class="rx-moods" id="rx-moods"></div>
+          <div class="rx-pill" id="rx-pill"><p class="rx-empty">증상을 고르시면 문장 한 알을 지어 드립니다.</p></div>
+          <p class="rx-dose" id="rx-dose" hidden><b>복용</b><span></span></p>
+          <p class="rx-date"><span>서기</span><b id="rx-date">—</b><span>조제</span><b>금로동 약사</b></p>
+        </div>
+        <p class="rx-ft">문학 약국 · 1일 1회, 필요할 때마다 · 부작용: 책을 사고 싶어질 수 있음</p>
         <span class="rx-stamp">文學<br>藥局</span>
       </div>
       <p class="src" id="rx-src"></p>
@@ -508,14 +525,14 @@ function rx(D){fetch('data/rx.json?v='+Date.now()).then(function(r){return r.jso
   $('rx-moods').innerHTML=R.moods.map(function(m){return'<button type="button" data-m="'+m.key+'">'+esc(m.label)+'</button>'}).join('');
   $('rx-moods').onclick=function(e){var b=e.target.closest('button');if(!b)return;var k=b.getAttribute('data-m');
     [].slice.call($('rx-moods').children).forEach(function(x){x.classList.toggle('on',x===b)});
-    var pool=R.items.filter(function(i){return i.mood===k}),c=pool.filter(function(i){return i!==RXcur});var it=(c.length?c:pool)[Math.floor(Math.random()*(c.length?c:pool).length)];
+    var pool=R.items.filter(function(i){return i.mood===k}),fresh=pool.filter(function(i){return i.added===D.date&&!i._seen}),c=pool.filter(function(i){return i!==RXcur});
+    var it=fresh.length?fresh[0]:(c.length?c:pool)[Math.floor(Math.random()*(c.length?c:pool).length)];it._seen=1;
     var m=R.moods.filter(function(x){return x.key===k})[0];RXcur=it;RXcur._m=m;showRx(D)};
   var q=new URLSearchParams(location.search).get('m');if(q){var bb=$('rx-moods').querySelector('[data-m="'+q+'"]');if(bb)bb.click()}
  }).catch(function(){hideIf('s-rx',1)})}
 function showRx(D){var it=RXcur,bag=$('rx-bag');
-  $('rx-sym').textContent=it._m.label+' — '+it._m.symptom;
-  var t=new Date(),ds=t.getFullYear()+'.'+(t.getMonth()+1)+'.'+t.getDate();$('rx-date').textContent=ds;
-  $('rx-pill').innerHTML='<p class="rx-q">“'+esc(it.text).replace(/ \/ /g,'\n')+'”</p>'+(it.orig?'<p class="rx-orig">'+esc(it.orig)+'</p>':'')+'<p class="rx-by">— '+esc(it.writer)+' 「'+esc(it.work)+'」'+(it.year?' ('+esc(it.year)+')':'')+(it.translator?' · '+esc(it.translator):'')+'</p>';
+  var t=new Date();$('rx-date').textContent=t.getFullYear()+'년 '+(t.getMonth()+1)+'월 '+t.getDate()+'일';
+  $('rx-pill').innerHTML=(it.added===D.date?'<span class="rx-new">오늘 들어온 약</span>':'')+'<p class="rx-q">“'+esc(it.text).replace(/ \/ /g,'\n')+'”</p>'+(it.orig?'<p class="rx-orig">'+esc(it.orig)+'</p>':'')+'<p class="rx-by">— '+esc(it.writer)+' 「'+esc(it.work)+'」'+(it.year?' ('+esc(it.year)+')':'')+(it.translator?' · '+esc(it.translator):'')+'</p>';
   var d=$('rx-dose');d.hidden=false;d.querySelector('span').textContent=it.dose;
   $('rx-src').innerHTML=srcs(it.sources);
   bag.classList.remove('pop');void bag.offsetWidth;bag.classList.add('pop','on')}
