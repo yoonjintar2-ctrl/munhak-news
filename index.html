@@ -462,10 +462,10 @@ function render(D){
   if(P){
     $('poem-title').textContent=P.title;$('poem-meta').textContent=P.writer+' · '+(P.book||P.year)+(P.translator?' · '+P.translator:'');
     $('poem-tag').textContent=P.origin+' · '+P.year;
-    $('poem-lines').innerHTML=(P.public_domain&&P.lines?P.lines:[]).map(function(l){return l?'<p>'+esc(l)+'</p>':'<br>'}).join('');
-    $('poem-note').textContent=P.note||'';
+    var PL=((P.public_domain||P.permission)&&P.lines&&P.lines.length)?P.lines:[];$('poem-lines').innerHTML=PL.map(function(l){return l?'<p>'+esc(l)+'</p>':'<br>'}).join('');
+    $('poem-note').textContent=(PL.length&&P.permission)?P.permission:(P.note||'');
     // 전문을 싣지 못하는 시: 삽화를 왼쪽(제목 아래)으로 옮겨 빈칸이 생기지 않게
-    if(!(P.public_domain&&P.lines&&P.lines.length)){var fg=document.querySelector('#s-poem .fig'),lc=$('poem-note').parentNode;if(fg&&fg.parentNode!==lc){lc.appendChild(fg);fg.style.marginTop='14px'}}
+    if(!PL.length){var fg=document.querySelector('#s-poem .fig'),lc=$('poem-note').parentNode;if(fg&&fg.parentNode!==lc){lc.appendChild(fg);fg.style.marginTop='14px'}}
     $('poem-img').src=P.img;$('poem-img').alt=P.alt||'';$('poem-cap').textContent=P.alt||'';
     $('poem-analysis').innerHTML=paras(P.analysis);
     $('poem-oneline').innerHTML='<b>금로동의 한 줄</b>'+esc(P.oneline||'');hideIf('poem-oneline',!P.oneline);
