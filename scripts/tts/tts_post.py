@@ -2,7 +2,7 @@
 
   python3 tts_post.py <qtts 폴더(예: ~/Downloads/qtts)> <날짜> <mp3 출력 폴더>
 테이크 고르기: 기준 음성과 화자 유사도(resemblyzer, 전체 + 1.5초 창 0.5초 간격 최저값), 음높이 중앙값이 전체 중앙값과 1.5반음 넘게 다르면 버림,
-같은 문장 테이크 길이 중앙값의 1.6배 이상이면 버림. 후처리: 끝 '음' 꼬리 자르기, 0.45초 넘는 쉼 → 0.34초, 문장 사이 0.4초, atempo 1.05(피치 유지).
+같은 문장 테이크 길이 중앙값의 1.6배 이상이면 버림. 후처리: 끝 '음' 꼬리 자르기(마지막 0.6초 이하 덩어리, 앞 쉼 0.3초 이상), 0.45초 넘는 쉼 → 0.34초, 문장 사이 0.4초, atempo 1.05(피치 유지).
 """
 import glob, json, os, re, subprocess, sys
 import numpy as np, soundfile as sf, librosa
@@ -33,7 +33,7 @@ def trim_tail(w):
     s = segs(w)
     if len(s) >= 2:
         a, b = s[-1]; pa, pb = s[-2]
-        if (b - a) / SR <= 0.6 and (a - pb) / SR >= 0.45:
+        if (b - a) / SR <= 0.6 and (a - pb) / SR >= 0.3:   # 11/14: 0.45초면 '음' 앞 쉼이 0.41초인 테이크에서 꼬리가 남음
             return w[:pb + int(0.08 * SR)]
     return w
 
