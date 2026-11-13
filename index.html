@@ -233,6 +233,12 @@ button,select{font:inherit}
 .rowm{display:grid;grid-template-columns:1.15fr 1fr;gap:0;margin-top:52px}
 .rowm>*+*{border-left:1px solid var(--rule);padding-left:28px;margin-left:28px}
 .rowm .col>.sec+.sec{margin-top:52px}
+.rowx{margin-top:52px}
+.rowx>#s-rx>.rx-bag{max-width:560px}
+.rowm>#s-day{margin-top:0}
+.rowm .day-list{grid-template-columns:1fr}
+.rowm .day-list li+li{border-left:0;padding-left:0;margin-left:0;border-top:1px solid var(--rule-soft);margin-top:10px;padding-top:14px}
+@media (max-width:860px){.rowx{margin-top:48px}.rowm>#s-day{margin-top:48px}}
 .rowc{display:grid;grid-template-columns:1fr 1fr;gap:0;margin-top:52px}
 .rowc>.sec+.sec{border-left:1px solid var(--rule);padding-left:28px;margin-left:28px}
 .rowe{display:grid;grid-template-columns:1.5fr 1fr;gap:0;margin-top:52px}
@@ -381,7 +387,6 @@ button,select{font:inherit}
   </div>
 
   <div class="rowm">
-    <div class="col">
     <section class="sec" id="s-writer" data-sec="writer" data-name="오늘의 문인"><a class="anc" id="writer"></a>
       <div class="kick"><h2><i>④</i>오늘의 문인</h2><span>문인 열전</span></div>
       <div class="writer-top"><img id="w-img" alt=""><div><p class="wn" id="w-name"></p><p class="wm" id="w-meta"></p></div></div>
@@ -390,30 +395,11 @@ button,select{font:inherit}
       <p class="link" id="w-link"></p>
       <p class="src" id="w-src"></p>
     </section>
-    
-    
-    </div>
-    <section class="sec" id="s-rx" data-sec="rx" data-name="기분 처방전"><a class="anc" id="rx"></a>
-      <div class="kick"><h2><i>⑤</i>기분 처방전</h2><span>문학 약국 · 금로동 약사</span></div>
-      <div class="rx-bag" id="rx-bag">
-        <div class="rx-top">
-          <span class="rx-cross"><b>약</b></span>
-          <span class="rx-title">내 복 약</span>
-        </div>
-        <p class="rx-to"><span>독자님</span> 귀하</p>
-        <div class="rx-panel">
-          <p class="rx-ph">용 법</p>
-          <p class="rx-ask"><i>👇</i> 오늘 내 증상을 눌러 주세요</p>
-          <div class="rx-moods" id="rx-moods"></div>
-          <div class="rx-pill" id="rx-pill"><p class="rx-empty">위에서 증상 하나를 누르면<br>금로동 약사가 문장 한 알을 지어 드려요.</p></div>
-          <p class="rx-dose" id="rx-dose" hidden><b>복용</b><span></span></p>
-          <p class="rx-date"><span>서기</span><b id="rx-date">—</b><span>조제</span><b>금로동 약사</b></p>
-        </div>
-        <p class="rx-ft">문학 약국 · 1일 1회, 필요할 때마다 · 부작용: 책을 사고 싶어질 수 있음</p>
-        <span class="rx-stamp">文學<br>藥局</span>
-      </div>
-      <p class="src" id="rx-src"></p>
-    </section>
+    <section class="sec" id="s-day" data-sec="day" data-name="그날의 문학"><a class="anc" id="day"></a>
+    <div class="kick"><h2><i>⑤</i>그날의 문학</h2><span id="day-tag"></span></div>
+    <ol class="day-list" id="day-list"></ol>
+    <p class="src" id="day-src"></p>
+  </section>
   </div>
 
   <div class="rowc">
@@ -443,15 +429,11 @@ button,select{font:inherit}
     </section>
   </div>
 
-  <section class="sec" id="s-day" data-sec="day" data-name="그날의 문학"><a class="anc" id="day"></a>
-    <div class="kick"><h2><i>⑧</i>그날의 문학</h2><span id="day-tag"></span></div>
-    <ol class="day-list" id="day-list"></ol>
-    <p class="src" id="day-src"></p>
-  </section>
+  
 
   <div class="rowe">
     <section class="sec" id="s-puzzle" data-sec="puzzle" data-name="낱말 퍼즐"><a class="anc" id="puzzle"></a>
-      <div class="kick"><h2><i>⑨</i>낱말 퍼즐</h2><span>칸이나 단서를 누르고 답을 넣으세요</span></div>
+      <div class="kick"><h2><i>⑧</i>낱말 퍼즐</h2><span>칸이나 단서를 누르고 답을 넣으세요</span></div>
       <div class="puz">
         <div>
           <div class="pz-grid" id="pz-grid"></div>
@@ -465,11 +447,36 @@ button,select{font:inherit}
       </div>
     </section>
     <section class="sec" id="s-trivia" data-sec="trivia" data-name="문학 상식"><a class="anc" id="trivia"></a>
-      <div class="kick"><h2><i>⑩</i>문학 상식</h2><span>O · X</span></div>
+      <div class="kick"><h2><i>⑨</i>문학 상식</h2><span>O · X</span></div>
       <ol class="tv" id="tv"></ol>
       <p class="cal" id="cal" hidden><b>오늘의 문학 달력</b><span></span></p>
     </section>
   </div>
+
+  <div class="rowx">
+    <section class="sec" id="s-rx" data-sec="rx" data-name="기분 처방전"><a class="anc" id="rx"></a>
+      <div class="kick"><h2><i>⑩</i>기분 처방전</h2><span>문학 약국 · 금로동 약사</span></div>
+      <div class="rx-bag" id="rx-bag">
+        <div class="rx-top">
+          <span class="rx-cross"><b>약</b></span>
+          <span class="rx-title">내 복 약</span>
+        </div>
+        <p class="rx-to"><span>독자님</span> 귀하</p>
+        <div class="rx-panel">
+          <p class="rx-ph">용 법</p>
+          <p class="rx-ask"><i>👇</i> 오늘 내 증상을 눌러 주세요</p>
+          <div class="rx-moods" id="rx-moods"></div>
+          <div class="rx-pill" id="rx-pill"><p class="rx-empty">위에서 증상 하나를 누르면<br>금로동 약사가 문장 한 알을 지어 드려요.</p></div>
+          <p class="rx-dose" id="rx-dose" hidden><b>복용</b><span></span></p>
+          <p class="rx-date"><span>서기</span><b id="rx-date">—</b><span>조제</span><b>금로동 약사</b></p>
+        </div>
+        <p class="rx-ft">문학 약국 · 1일 1회, 필요할 때마다 · 부작용: 책을 사고 싶어질 수 있음</p>
+        <span class="rx-stamp">文學<br>藥局</span>
+      </div>
+      <p class="src" id="rx-src"></p>
+    </section>
+  </div>
+
 </main>
 
 <footer class="colophon">
