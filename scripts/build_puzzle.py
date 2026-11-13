@@ -22,6 +22,8 @@ for p in placed: p["r"] -= r0; p["c"] -= c0
 starts = sorted({(p["r"], p["c"]) for p in placed}); num = {s: i + 1 for i, s in enumerate(starts)}
 out = sorted([{"n": num[(p["r"], p["c"])], "dir": p["dir"], "r": p["r"], "c": p["c"], "a": p["a"], "clue": p["clue"]} for p in placed], key=lambda p: (p["dir"], p["n"]))
 pz = {"size": [max(rs) - r0 + 1, max(cs) - c0 + 1], "words": out}
-T = json.load(open("today.json", encoding="utf-8")); T["puzzle"] = pz
-json.dump(T, open("today.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+tgt = f"drafts/{date}.json" if os.path.exists(f"drafts/{date}.json") else "today.json"  # 전날 초안이 있으면 거기에
+T = json.load(open(tgt, encoding="utf-8")); T["puzzle"] = pz
+json.dump(T, open(tgt, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+print("puzzle →", tgt)
 print("puzzle", len(out), "words", pz["size"])
