@@ -395,5 +395,193 @@
     "clue": "작품이 놓인 때"
    }
   ]
- }
+ },
+ "go": {
+  "title": "「신의 한 수」 백78",
+  "game": "구글 딥마인드 챌린지 매치 제4국",
+  "date": "2016-03-13",
+  "black": "알파고",
+  "white": "이세돌 9단",
+  "result": "백 180수 불계승",
+  "moves": "pd dp cd qp op oq nq pq cn fq mp po iq ec hd cg ed cj dc bp nc qi ep eo dk fp ck dj ej ei fi eh fh bj fk fg gg ff gf mc md lc nb id hc jg pj pi oj oi ni nh mh ng mg mi nj mf li ne nd mj lf mk me nf lh qj kk ik ji gh hj ge he fd fc ki",
+  "from": 71,
+  "to": 78,
+  "key": 78,
+  "key_label": "L11",
+  "lead": "세 판을 내리 진 뒤의 넷째 판. 이세돌 9단(백)이 중앙의 흑돌 사이로 돌 하나를 끼워 넣었다.",
+  "body": [
+   "흑이 두텁게 감싼 중앙에서 백은 살 길이 좁아 보였다. 백78은 흑돌과 흑돌 사이, 비좁은 틈을 파고든 끼움이다. 중국의 구리 9단과 바둑TV 해설자는 이 수를 '신의 한 수'라 불렀다.",
+   "정작 이 9단은 대국 뒤 그 장면에서 다른 수는 보이지 않았다며, 어쩔 수 없이 둔 수인데 칭찬을 받아 어리둥절하다고 했다. 데미스 하사비스 딥마인드 CEO는 78수에 알파고가 혼란을 겪었고 87수 무렵 승률이 50% 아래로 떨어졌다고 밝혔다.",
+   "그 뒤 알파고는 엉뚱한 수를 잇달아 두다 180수 만에 돌을 던졌다. 다섯 판 가운데 인간이 거둔 단 한 번의 승리였다."
+  ],
+  "lit": "길이 없어 보일 때 낸 한 수가 길이 된다 — 오늘 띠별 문장의 루쉰 「고향」과 같이 읽어 보세요.",
+  "sources": [
+   "https://www.ddaily.co.kr/page/view/2016031319285325443",
+   "https://www.dailian.co.kr/news/view/561589/",
+   "https://www.mt.co.kr/tech/2016/03/13/2016031318005929728",
+   "https://github.com/yenw/computer-go-dataset (기보: AI/AlphaGo/LS vs AG - G4)"
+  ]
+ },
+ "zodiac": [
+  {
+   "key": "rat",
+   "animal": "쥐",
+   "text": "어제도 가고 오늘도 갈 / 나의 길 새로운 길",
+   "writer": "윤동주",
+   "work": "새로운 길",
+   "year": 1938,
+   "note": "늘 다니던 길도 오늘 처음 걷는 길이라 여겨 보세요. 익숙한 일에서 새것이 보입니다.",
+   "sources": [
+    "https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000011134992"
+   ]
+  },
+  {
+   "key": "ox",
+   "animal": "소",
+   "text": "사람은 파멸할 수는 있어도 패배하지는 않는다.",
+   "orig": "A man can be destroyed but not defeated.",
+   "translator": "금로동 옮김",
+   "writer": "어니스트 헤밍웨이",
+   "work": "노인과 바다",
+   "year": 1952,
+   "note": "더딘 하루여도 놓지 않으면 진 것이 아닙니다. 끝까지 버티는 쪽이 오늘의 주인공.",
+   "sources": [
+    "https://en.wikiquote.org/wiki/Ernest_Hemingway"
+   ]
+  },
+  {
+   "key": "tiger",
+   "animal": "범",
+   "text": "지금 눈 나리고 / 매화 향기 홀로 아득하니 / 내 여기 가난한 노래의 씨를 뿌려라",
+   "writer": "이육사",
+   "work": "광야",
+   "year": 1945,
+   "note": "아직 아무도 몰라주는 일이라도 오늘 씨를 뿌려 두면 됩니다.",
+   "sources": [
+    "https://kbmaeil.com/article/202002100270908"
+   ]
+  },
+  {
+   "key": "rabbit",
+   "animal": "토끼",
+   "text": "얼굴 하나야 / 손바닥 둘로 / 폭 가리지만, // 보고 싶은 마음 / 호수만 하니 / 눈 감을밖에.",
+   "writer": "정지용",
+   "work": "호수 1",
+   "year": 1930,
+   "note": "보고 싶은 사람이 있다면 오늘은 먼저 연락해 보세요. 마음은 손바닥으로 가려지지 않으니까요.",
+   "sources": [
+    "https://brunch.co.kr/@doyeol/10"
+   ]
+  },
+  {
+   "key": "dragon",
+   "animal": "용",
+   "text": "인간은 애쓰는 한 방황하는 법이다.",
+   "orig": "Es irrt der Mensch, solang er strebt.",
+   "translator": "금로동 옮김",
+   "writer": "요한 볼프강 폰 괴테",
+   "work": "파우스트",
+   "year": 1808,
+   "note": "헤매고 있다면 애쓰고 있다는 뜻. 오늘의 갈팡질팡은 앞으로 가는 중이라는 증거입니다.",
+   "sources": [
+    "https://en.wikiquote.org/wiki/Johann_Wolfgang_von_Goethe"
+   ]
+  },
+  {
+   "key": "snake",
+   "animal": "뱀",
+   "text": "그렇게 우리는 물결을 거스르는 배처럼, 쉼 없이 과거 쪽으로 떠밀리면서도 앞으로 나아간다.",
+   "orig": "So we beat on, boats against the current, borne back ceaselessly into the past.",
+   "translator": "금로동 옮김",
+   "writer": "F. 스콧 피츠제럴드",
+   "work": "위대한 개츠비",
+   "year": 1925,
+   "note": "지난 일이 자꾸 발목을 잡아도 노는 계속 저으세요. 조금씩은 나아가고 있습니다.",
+   "sources": [
+    "https://en.wikiquote.org/wiki/The_Great_Gatsby"
+   ]
+  },
+  {
+   "key": "horse",
+   "animal": "말",
+   "text": "본래 땅 위에는 길이 없다. 걷는 사람이 많아지면 그것이 곧 길이 된다.",
+   "orig": "其实地上本没有路，走的人多了，也便成了路。",
+   "translator": "금로동 옮김",
+   "writer": "루쉰",
+   "work": "고향",
+   "year": 1921,
+   "note": "남이 안 가 본 길이라 망설여진다면, 오늘 내가 첫 발자국이 되면 됩니다.",
+   "sources": [
+    "https://www.thepaper.cn/newsDetail_forward_14975397"
+   ]
+  },
+  {
+   "key": "sheep",
+   "animal": "양",
+   "text": "별 하나에 추억과 / 별 하나에 사랑과 / 별 하나에 쓸쓸함과",
+   "writer": "윤동주",
+   "work": "별 헤는 밤",
+   "year": 1941,
+   "note": "오늘 밤 하늘을 한 번 올려다보세요. 고마운 이름 하나쯤 떠오를 겁니다.",
+   "sources": [
+    "https://ko.wikisource.org/wiki/별_헤는_밤"
+   ]
+  },
+  {
+   "key": "monkey",
+   "animal": "원숭이",
+   "text": "온 세상은 무대이고, 모든 남자와 여자는 배우일 뿐.",
+   "orig": "All the world's a stage, / And all the men and women merely players",
+   "translator": "금로동 옮김",
+   "writer": "윌리엄 셰익스피어",
+   "work": "뜻대로 하세요",
+   "year": 1599,
+   "note": "오늘 맡은 역이 마음에 안 들어도 괜찮아요. 막은 바뀌고, 배우는 여러 역을 합니다.",
+   "sources": [
+    "https://en.wikiquote.org/wiki/As_You_Like_It"
+   ]
+  },
+  {
+   "key": "rooster",
+   "animal": "닭",
+   "text": "우리가 깨어 있는 날만이 밝아 온다.",
+   "orig": "Only that day dawns to which we are awake.",
+   "translator": "금로동 옮김",
+   "writer": "헨리 데이비드 소로",
+   "work": "월든",
+   "year": 1854,
+   "note": "새벽은 시계가 아니라 내가 눈을 뜰 때 옵니다. 오늘 하나만 또렷하게 깨어 있어 보세요.",
+   "sources": [
+    "https://gutenberg.org/cache/epub/205/pg205-images.html"
+   ]
+  },
+  {
+   "key": "dog",
+   "animal": "개",
+   "text": "나는 폭풍이 무섭지 않아. 내 배를 모는 법을 배우는 중이니까.",
+   "orig": "I'm not afraid of storms, for I'm learning how to sail my ship.",
+   "translator": "금로동 옮김",
+   "writer": "루이자 메이 올컷",
+   "work": "작은 아씨들",
+   "year": 1869,
+   "note": "바람이 세게 부는 날일수록 키를 잡는 손이 단단해집니다.",
+   "sources": [
+    "https://www.goodreads.com/work/quotes/3244642"
+   ]
+  },
+  {
+   "key": "pig",
+   "animal": "돼지",
+   "text": "새는 알을 깨고 나오려고 싸운다. 알은 세계다.",
+   "orig": "Der Vogel kämpft sich aus dem Ei. Das Ei ist die Welt.",
+   "translator": "금로동 옮김",
+   "writer": "헤르만 헤세",
+   "work": "데미안",
+   "year": 1919,
+   "note": "답답한 껍질이 느껴진다면 깨고 나올 때가 된 겁니다. 오늘 작은 금 하나부터.",
+   "sources": [
+    "https://www.gutenberg.org/ebooks/41907"
+   ]
+  }
+ ]
 }

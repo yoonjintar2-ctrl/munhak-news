@@ -84,3 +84,17 @@
 - `after` = `story` 문단 번호(0부터). 지면에서는 그 문단 바로 아래에 '장면' 영상이 나온다(대표 영상 `img`/`video` 는 코너 맨 위 그대로).
 - 장면 파일은 `scripts/m3d/scenes/<날짜>-classic-s1.js` … 로 만들고 960×640 3초로 렌더, 포스터는 `--still 0.4`.
 - 같은 영상을 쇼츠(`shorts/scripts/<날짜>.json` 의 `scenes`)에서도 그 대목 배경으로 쓴다.
+
+
+## go — ⑪ 오늘의 한 수 (바둑 기보 한 장, 발행인 11/15)
+```json
+"go": {"title":"「신의 한 수」 백78","game":"대회·판","date":"YYYY-MM-DD","black":"흑 대국자","white":"백 대국자","result":"백 180수 불계승",
+ "moves":"pd dp cd …(SGF 좌표, 첫 수부터 to 수까지 공백으로)","from":71,"to":78,"key":78,"key_label":"L11",
+ "lead":"한 문장","body":["2~3문단, 합쳐 250~400자"],"lit":"(선택) 오늘 지면 다른 코너와 잇는 한 줄","sources":["기사 URL","기보 출처(저장소 경로)"]}
+```
+- 화면은 처음부터 to 수까지 두어 보며(따낸 돌 자동 제거) from~to 수에 번호를 달고 key 수에 동그라미. 좌표 표기는 A~T(I 없음)·1~19(아래가 1).
+- 기보는 **실제 SGF 파일**에서만 가져온다(지어내기 금지): github.com/yenw/computer-go-dataset(Professional·AI 폴더), homepages.cwi.nl/~aeb/go/games(일본 프로 기보) 등. 소개하는 수 번호·좌표는 기사·해설과 대조해 맞는지 확인.
+- colors(선택): 접바둑·놓고 시작하는 판처럼 흑백이 번갈아 두지 않을 때 수마다 "B"/"W" 배열.
+
+## zodiac — ⑫ 띠별 오늘의 문장 (발행인 11/15)
+`"zodiac": [{"key":"rat|ox|tiger|rabbit|dragon|snake|horse|sheep|monkey|rooster|dog|pig","animal":"쥐","text":"문장(시는 / 로 줄바꿈)","orig":"(외국어면 원문)","translator":"금로동 옮김","writer":"","work":"","year":1938,"note":"오늘 참고할 한두 문장(40~60자, 운세 말투 말고 다정한 권유)","sources":["원문 확인 URL"]}]` — 12개, 쥐부터 돼지 순. 띠 그림은 img/zodiac/<key>.png(Noto Emoji 흑백, OFL). 출생 연도는 화면이 자동 계산.
