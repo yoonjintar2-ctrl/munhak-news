@@ -322,7 +322,22 @@ button,select{font:inherit}
   .pz-grid{max-width:100%}
   .colophon{grid-template-columns:1fr}.pub{text-align:left}
 }
+/* 글자 크기 플로팅 메뉴 (발행인 11/14) */
+.fz{position:fixed;right:max(14px,env(safe-area-inset-right));bottom:max(18px,env(safe-area-inset-bottom));z-index:40;display:flex;flex-direction:column;align-items:flex-end;gap:8px;font-size:15px}
+.fz-btn{width:50px;height:50px;border-radius:50%;border:2px solid var(--ink);background:var(--paper);color:var(--ink);box-shadow:3px 3px 0 var(--ink);cursor:pointer;display:flex;align-items:baseline;justify-content:center;padding-top:12px;font-family:var(--serif);font-weight:900;line-height:1;-webkit-tap-highlight-color:transparent;transition:transform .08s,box-shadow .08s}
+.fz-btn small{font-size:12px}.fz-btn b{font-size:20px}
+.fz-btn:active{transform:translate(3px,3px);box-shadow:none}
+.fz.open .fz-btn{background:var(--ink);color:var(--paper)}
+.fz-pan{display:none;align-items:center;gap:0;background:var(--paper);border:2px solid var(--ink);box-shadow:3px 3px 0 var(--ink);font-family:var(--serif)}
+.fz.open .fz-pan{display:flex}
+.fz-pan button{width:44px;height:44px;border:0;background:transparent;color:var(--ink);font-family:var(--serif);font-weight:900;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.fz-pan button:disabled{color:var(--rule)}
+.fz-pan button:not(:disabled):active{background:var(--ink);color:var(--paper)}
+.fz-pan .m{font-size:14px}.fz-pan .p{font-size:19px;width:52px}
+.fz-pan span{min-width:58px;text-align:center;font-size:13px;font-weight:700;border-left:1px solid var(--rule-soft);border-right:1px solid var(--rule-soft);line-height:44px;cursor:pointer}
+@media print{.fz{display:none}}
 </style>
+<script>(function(){try{var z=parseFloat(localStorage.getItem('mnews-fz'));if(z>0)document.documentElement.style.fontSize=(15*z)+'px'}catch(e){}})()</script>
 </head>
 <body>
 <div class="wrap">
@@ -755,6 +770,28 @@ function vidUp(D){
     var v=document.createElement('video');v.muted=true;v.loop=true;v.playsInline=true;v.setAttribute('muted','');v.setAttribute('playsinline','');v.preload='metadata';v.disablePictureInPicture=true;v.setAttribute('disablepictureinpicture','');v.setAttribute('controlslist','nodownload nofullscreen noremoteplayback');v.setAttribute('x-webkit-airplay','deny');v.setAttribute('tabindex','-1');
     v.poster=im.getAttribute('src');v.src=vs;v.setAttribute('aria-label',im.alt||'');v.title=im.alt||'';im.replaceWith(v);if(io)io.observe(v);else v.autoplay=true});
 }
+})();
+</script>
+<div class="fz" id="fz">
+  <div class="fz-pan" role="group" aria-label="글자 크기">
+    <button type="button" class="m" id="fz-m" aria-label="글자 작게">가−</button>
+    <span id="fz-v" title="기본 크기로" role="button" tabindex="0">보통</span>
+    <button type="button" class="p" id="fz-p" aria-label="글자 크게">가+</button>
+  </div>
+  <button type="button" class="fz-btn" id="fz-btn" aria-label="글자 크기 조절" aria-expanded="false"><small>가</small><b>가</b></button>
+</div>
+<script>
+(function(){
+  var L=[0.88,1,1.13,1.27,1.42],N=['작게','보통','크게','더 크게','아주 크게'],K='mnews-fz',i=1;
+  try{var z=parseFloat(localStorage.getItem(K));var j=L.indexOf(z);if(j>=0)i=j}catch(e){}
+  var box=document.getElementById('fz'),btn=document.getElementById('fz-btn'),m=document.getElementById('fz-m'),p=document.getElementById('fz-p'),v=document.getElementById('fz-v');
+  function set(k,save){i=Math.max(0,Math.min(L.length-1,k));document.documentElement.style.fontSize=(15*L[i])+'px';v.textContent=N[i];m.disabled=i===0;p.disabled=i===L.length-1;if(save){try{localStorage.setItem(K,String(L[i]))}catch(e){}}}
+  set(i,false);
+  btn.onclick=function(e){e.stopPropagation();var o=box.classList.toggle('open');btn.setAttribute('aria-expanded',o)};
+  m.onclick=function(e){e.stopPropagation();set(i-1,true)};
+  p.onclick=function(e){e.stopPropagation();set(i+1,true)};
+  v.onclick=function(e){e.stopPropagation();set(1,true)};
+  document.addEventListener('click',function(e){if(!box.contains(e.target)){box.classList.remove('open');btn.setAttribute('aria-expanded','false')}});
 })();
 </script>
 </body>
