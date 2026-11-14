@@ -51,3 +51,21 @@ export function makePencil(K, { x = 0, y = 0, z = 0, s = 1 } = {}) {
     },
   };
 }
+
+// 무대: 기본은 크림 바탕 + 둥근 바닥(사이트용 원래 모습).
+// --stage grad (쇼츠용, 발행인 11/14 "단색 그라데이션 톤, 바닥과 배경이 어딘지만 살짝 느껴지게"):
+//   한 가지 색(따뜻한 크림)의 위→아래 그라데이션 벽 + 같은 색 바닥, 안개로 바닥 끝을 벽에 녹여 경계만 은은하게, 발밑엔 옅은 그림자.
+export function stage(K) {
+  const { THREE, scene } = K;
+  if (K.stage !== 'grad') {
+    const fl = new THREE.Mesh(new THREE.CircleGeometry(4.5, 48), K.lam(0xf3dfb4)); fl.rotation.x = -Math.PI / 2; fl.position.y = 0.01; scene.add(fl); return;
+  }
+  const c = document.createElement('canvas'); c.width = 4; c.height = 512; const g = c.getContext('2d');
+  const gr = g.createLinearGradient(0, 0, 0, 512); gr.addColorStop(0, '#fbf4e4'); gr.addColorStop(0.3, '#f6ead1'); gr.addColorStop(0.42, '#f1e1bf'); gr.addColorStop(1, '#f1e1bf');   // 지평선 근처부터는 안개색과 같게(경계가 칼선처럼 보이지 않게)
+  g.fillStyle = gr; g.fillRect(0, 0, 4, 512);
+  const tex = new THREE.CanvasTexture(c); tex.colorSpace = THREE.SRGBColorSpace; scene.background = tex;
+  scene.fog = new THREE.Fog(0xf1e1bf, 15, 36);
+  const fl = new THREE.Mesh(new THREE.PlaneGeometry(200, 200), new THREE.MeshLambertMaterial({ color: 0xecd8ad })); fl.rotation.x = -Math.PI / 2; scene.add(fl);
+  const sh = new THREE.Mesh(new THREE.CircleGeometry(1.15, 40), new THREE.MeshBasicMaterial({ color: 0x8a6a3a, transparent: true, opacity: 0.16, depthWrite: false }));
+  sh.rotation.x = -Math.PI / 2; sh.position.y = 0.02; sh.scale.set(1, 0.7, 1); scene.add(sh);
+}

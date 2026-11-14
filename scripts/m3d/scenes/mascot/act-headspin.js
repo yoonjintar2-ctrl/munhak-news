@@ -1,10 +1,10 @@
 // 마스코트 연필이 — headspin: 물구나무 헤드스핀하며 연필심으로 바닥에 동그라미 글씨
-import { makePencil } from './pencil.js';
+import { makePencil, stage } from './pencil.js';
 export const secs = 3;
 export const opts = { bg: 0xfdf3dc, fog: null, color: true };
 export default function (K) {
   const { cam, scene, THREE } = K;
-  const fl = new THREE.Mesh(new THREE.CircleGeometry(4.5, 48), K.lam(0xf3dfb4)); fl.rotation.x = -Math.PI / 2; fl.position.y = 0.01; scene.add(fl);
+  stage(K);
   const paper = K.box(3.6, 0.03, 3.6, 0xffffff, 0, 0.03, 0, scene);
   const M = makePencil(K, { x: 0, z: 0 });
   const spin = new THREE.Group(); scene.add(spin); spin.add(M.root);

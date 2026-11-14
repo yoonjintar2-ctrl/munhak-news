@@ -4,8 +4,11 @@ import * as K from './kit.js';
 const q=new URLSearchParams(location.search);
 const mod=await import('./'+q.get('scene'));
 const opts=Object.assign({w:+(q.get('w')||960),h:+(q.get('h')||640)},mod.opts||{});
-const S=K.setup(opts); const ctx=Object.assign({},K,S);
+const S=K.setup(opts); const ctx=Object.assign({},K,S,{stage:q.get('stage')||''});
 const upd=await mod.default(ctx);
+if(q.get('fov')){S.cam.fov=+q.get('fov');}
+if(q.get('oy')){S.cam.setViewOffset(opts.w,opts.h,0,(+q.get('oy'))*opts.h,opts.w,opts.h);}
+S.cam.updateProjectionMatrix();
 window.SECS=mod.secs||3;
 window.frame=t=>{const ph=t/window.SECS*Math.PI*2;upd(t,ph);S.render();return S.R.domElement.toDataURL('image/jpeg',0.93)};
 await new Promise(r=>{const c=()=>K.K_waits.every(f=>f())?r():setTimeout(c,50);c()});
