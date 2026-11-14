@@ -177,7 +177,7 @@ def dry_audio(keys, sr=24000):
     for key, ko in keys:
         parts = [p for p in re.split(r'[,.?!]\s*', ko) if p.strip()]; w = []; segs = []; pos = 0
         for p in parts:
-            n = int(sr * len(re.sub(r'[^가-힣]', '', p)) / 6.8); w += [np.random.default_rng(1).normal(0, 0.02, n).astype(np.float32), np.zeros(int(sr * 0.3), np.float32)]
+            n = int(sr * len(re.sub(r'[^가-힣]', '', p)) / 6.8); w += [np.zeros(n, np.float32), np.zeros(int(sr * 0.3), np.float32)]
             segs.append([pos, pos + n]); pos += n + int(sr * 0.3)
         out.append((np.concatenate(w), segs))
     return out, sr
@@ -220,7 +220,7 @@ def main(script, kind, qdir, repo, out):
     cache = {}
     ff = subprocess.Popen(['ffmpeg', '-v', 'error', '-y', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}', '-r', str(FPS), '-i', '-',
                            '-i', narr, '-stream_loop', '-1', '-i', os.path.join(HERE, 'bgm', 'munhak-bgm-a.mp3'),
-                           '-filter_complex', '[1:a]aresample=44100,volume=1.0[n];[2:a]volume=0.13,afade=t=out:st=%.2f:d=1.2[m];[n][m]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-15:TP=-1.5[a]' % (total - 1.3),
+                           '-filter_complex', ('[1:a]aresample=44100,volume=1.0[n];[2:a]volume=0.13,afade=t=out:st=%.2f:d=1.2[m];[n][m]amix=inputs=2:duration=first:normalize=0' + ('' if os.environ.get('DRY') else ',loudnorm=I=-15:TP=-1.5') + '[a]') % (total - 1.3),
                            '-map', '0:v', '-map', '[a]', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '20', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '160k', '-shortest', '-movflags', '+faststart', out], stdin=subprocess.PIPE)
     nf = int(total * FPS)
     for fi in range(nf):
