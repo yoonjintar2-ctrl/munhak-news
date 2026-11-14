@@ -1,4 +1,4 @@
-// 11/14 1분 현대문학 장면① 간병사 캐시: 들판 사이 시골길을 작은 차로 달린다(차는 그대로, 전봇대·나무가 스쳐 지나감)
+// 11/14 1분 현대문학 장면① 간병사 캐시: 들판 사이 시골길을 작은 차로 달린다(차는 그대로, 전봇대·나무가 스쳐 지나감) — 진행 방향 +x(배경이 오른쪽→왼쪽으로 흐름), 운전자 rot -π/2
 export const secs = 3;
 export const opts = { bg: 0xc6c6c2, fog: [0xc2c2be, 30, 110] };
 export default function (K) {
@@ -14,7 +14,7 @@ export default function (K) {
   const car = new THREE.Group(); car.position.set(0, 0, 0.6); scene.add(car);
   K.box(4.0, 0.9, 1.8, 0x5f5f5b, 0, 0.75, 0, car); K.box(2.2, 0.9, 1.6, new THREE.MeshLambertMaterial({ color: 0xdedcd6, transparent: true, opacity: 0.28, depthWrite: false }), -0.2, 1.65, 0, car);   // 유리창(속이 보이게)
   const wheels = [[-1.3, 0.9], [1.3, 0.9], [-1.3, -0.9], [1.3, -0.9]].map(([x, z]) => { const w = K.cyl(0.38, 0.38, 0.22, 0x222222, x, 0.38, z, car, 14); w.rotation.x = Math.PI / 2; return w; });
-  const P = K.person(scene, { x: 0, z: 0, rot: Math.PI / 2, coat: 0xd5d2ca, pants: 0x55554f, hair: 'long', scale: 0.55 });
+  const P = K.person(scene, { x: 0, z: 0, rot: -Math.PI / 2, coat: 0xd5d2ca, pants: 0x55554f, hair: 'long', scale: 0.55 });
   car.add(P.root); P.root.position.set(0.1, 0.2, 0.15);
   cam.position.set(1.0, 2.8, 10); cam.lookAt(0, 1.4, -2);
   return (t, ph) => {

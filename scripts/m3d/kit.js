@@ -23,11 +23,12 @@ export function setup({ w = 960, h = 640, bg = 0x6e6e6e, fog = [0x7a7a7a, 35, 11
  float D(vec2 o){return lin(texture2D(tD,v+o/res).r);}
  void main(){float l=L(vec2(0));
   // 망점·해칭은 움직일 때 무늬가 일렁여 어지럽다(발행인 11/13) → 먹 농담 4단(부드러운 경계)으로
-  float t=1.-l; float k=t*3.; float ink=(floor(k)+smoothstep(.35,.65,fract(k)))/3.; ink=pow(ink,1.15)*.82;
+  // 11/14 발행인 "배경이 다 회색이니 밝게" → 중간 회색은 밝게 끌어올리고(곡선) 어두운 인물·사물과 윤곽선은 그대로 진하게
+  float t=pow(1.-l,1.6); float k=t*3.; float ink=(floor(k)+smoothstep(.35,.65,fract(k)))/3.; ink=pow(ink,1.15)*.82;
   float d0=D(vec2(0));
   float lap=abs(D(vec2(1.5,0))+D(vec2(-1.5,0))+D(vec2(0,1.5))+D(vec2(0,-1.5))-4.*d0)/d0;
   ink=max(ink,smoothstep(.015,.04,lap));
-  if(l>.86) ink*=.2;
+  if(l>.8) ink*=.2;
   gl_FragColor=vec4(mix(vec3(.957,.945,.918),vec3(.09),clamp(ink,0.,1.)),1.);}`
   });
   const pscene = new THREE.Scene(); pscene.add(new THREE.Mesh(new THREE.PlaneGeometry(2, 2), post)); const pcam = new THREE.Camera();
@@ -53,7 +54,7 @@ export function line(points, parent) { const l = new THREE.Line(new THREE.Buffer
 export function win(ph, a, b, soft = 0.08) { const u = ((ph / (Math.PI * 2)) % 1 + 1) % 1; const s = x => Math.min(1, Math.max(0, x)); const e = x => x * x * (3 - 2 * x); return e(s((u - a) / soft)) * e(s((b - u) / soft)); }
 
 // ---------- 배경 ----------
-export function ground(scene, { color = '#b8b8b2', line = '#9a9a95', tiles = 8, repeat = 10 } = {}) {
+export function ground(scene, { color = '#d2d2cc', line = '#b0b0aa', tiles = 8, repeat = 10 } = {}) {
   const t = canvasTex(1024, 1024, (g, w, h) => { g.fillStyle = color; g.fillRect(0, 0, w, h); g.strokeStyle = line; g.lineWidth = 2; for (let i = 0; i <= tiles; i++) { g.beginPath(); g.moveTo(i * w / tiles, 0); g.lineTo(i * w / tiles, h); g.stroke(); g.beginPath(); g.moveTo(0, i * h / tiles); g.lineTo(w, i * h / tiles); g.stroke(); } });
   t.wrapS = t.wrapT = THREE.RepeatWrapping; t.repeat.set(repeat, repeat);
   const m = new THREE.Mesh(new THREE.PlaneGeometry(200, 200), new THREE.MeshLambertMaterial({ map: t })); m.rotation.x = -Math.PI / 2; scene.add(m); return m;

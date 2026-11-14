@@ -100,6 +100,7 @@ button,select{font:inherit}
 .row2{display:grid;grid-template-columns:1fr 1fr;gap:0;margin-top:52px}
 .row2>.sec+.sec{border-left:1px solid var(--rule);padding-left:30px;margin-left:30px}
 .poem-wrap{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+#s-poem .poem-fig{margin:0 0 16px}
 .poem-title{font-size:1.5rem;font-weight:900;letter-spacing:-.02em}
 .poem-meta{font-size:.8rem;color:var(--muted);margin:2px 0 12px}
 .poem-lines{font-size:1rem;line-height:1.95}
@@ -302,7 +303,7 @@ button,select{font:inherit}
 .row3 .tools button span{display:none}
 .row3 .tools button{padding:3px 5px}
 /* 반응형 */
-@media (max-width:1100px){.row3{grid-template-columns:1fr 1fr}.row3>.sec:nth-child(2){grid-column:1/-1;order:3;border-left:0;padding-left:0;margin:44px 0 0;border-top:0}.poem-wrap{display:flex;flex-direction:column;gap:0}.poem-wrap>div{display:contents}.poem-wrap .fig{order:-1;margin:0 0 14px!important}}
+@media (max-width:1100px){.row3{grid-template-columns:1fr 1fr}.row3>.sec:nth-child(2){grid-column:1/-1;order:3;border-left:0;padding-left:0;margin:44px 0 0;border-top:0}.poem-wrap{display:flex;flex-direction:column;gap:0}.poem-wrap>div{display:contents}}
 @media (max-width:860px){
   body{padding:0 14px 28px}
   .mast{grid-template-columns:1fr;text-align:center;gap:6px}.mast .l{display:none}.mast .r{align-items:center}
@@ -380,6 +381,7 @@ button,select{font:inherit}
   <div class="row2">
     <section class="sec" id="s-poem" data-sec="poem" data-name="오늘의 시"><a class="anc" id="poem"></a>
       <div class="kick"><h2><i>②</i>오늘의 시</h2><span id="poem-tag"></span></div>
+      <figure class="fig poem-fig"><span class="tag">AI 삽화</span><img id="poem-img" alt=""><figcaption id="poem-cap"></figcaption></figure>
       <div class="poem-wrap">
         <div>
           <h3 class="poem-title" id="poem-title"></h3>
@@ -388,7 +390,6 @@ button,select{font:inherit}
           <p class="note" id="poem-note"></p>
         </div>
         <div>
-          <figure class="fig"><span class="tag">AI 삽화</span><img id="poem-img" alt=""><figcaption id="poem-cap"></figcaption></figure>
           <p class="sub-h">읽기</p>
           <div class="body" id="poem-analysis"></div>
         </div>
@@ -551,15 +552,12 @@ function render(D){
     $('poem-title').textContent=P.title;$('poem-meta').textContent=P.writer+' · '+(P.book||P.year)+(P.translator?' · '+P.translator:'');
     $('poem-tag').textContent=P.origin+' · '+P.year;
     // 허락받은 시는 전문을 poems/<날짜>.txt(붙여 넣은 그대로)에서 읽어 온다
-    var poemFig=document.querySelector('#s-poem .fig'),poemFigHome=poemFig&&poemFig.parentNode;
     function drawPoem(L){
       var PL=((P.public_domain||P.permission)&&L&&L.length)?L:[],st=[],cur=[];
       PL.forEach(function(l){if(l)cur.push(esc(l));else if(cur.length){st.push(cur);cur=[]}});if(cur.length)st.push(cur);
       $('poem-lines').innerHTML=st.map(function(c){return '<p>'+c.join('<br>')+'</p>'}).join('');
       $('poem-note').textContent=(PL.length&&P.permission)?P.permission:(P.note||'');
-      var lc=$('poem-note').parentNode;
-      if(!PL.length){if(poemFig&&poemFig.parentNode!==lc){lc.appendChild(poemFig);poemFig.style.marginTop='14px'}}
-      else if(poemFig&&poemFig.parentNode!==poemFigHome){poemFigHome.insertBefore(poemFig,poemFigHome.firstChild);poemFig.style.marginTop=''}
+      // 11/14 발행인: 시 삽화는 늘 코너 맨 위(화면 크기·전문 유무와 상관없이)
     }
     drawPoem(P.lines);
     if(P.permission&&P.text_file&&!(P.lines&&P.lines.length))fetch(P.text_file+'?t='+Date.now()).then(function(r){return r.ok?r.text():''}).then(function(t){
