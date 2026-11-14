@@ -217,9 +217,9 @@ button,select{font:inherit}
 .day-list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:1px solid var(--ink)}
 .day-list li{padding:14px 0 6px}
 .day-list li+li{border-left:1px solid var(--rule);padding-left:24px;margin-left:24px}
-.day-ago{font-size:1.45rem;font-weight:900;letter-spacing:-.02em;line-height:1.2}
-.day-y{font-family:var(--mono);font-size:.8rem;color:var(--red);font-weight:700}
-.day-h{font-size:1.08rem;font-weight:900;line-height:1.4;margin:4px 0 8px;letter-spacing:-.01em}
+.day-ago{font-size:.88rem;font-weight:700;letter-spacing:-.01em;line-height:1.3;color:var(--muted)}
+.day-y{font-family:var(--mono);font-size:.82rem;color:var(--red);font-weight:700}
+.day-h{font-size:1.38rem;font-weight:900;line-height:1.35;margin:6px 0 10px;letter-spacing:-.02em}
 .day-b{font-size:.93rem;line-height:1.75;color:#2a2a2a}
 #s-day{margin-top:52px}
 @media (max-width:860px){.day-list{grid-template-columns:1fr}.day-list li+li{border-left:0;padding-left:0;margin-left:0;border-top:1px solid var(--rule-soft);margin-top:10px;padding-top:14px}#s-day{margin-top:48px}}
@@ -688,7 +688,7 @@ function puzzle(P,date){
 /* 1분 고전 */
 function day(D){var Y=D.onthisday;hideIf('s-day',!(Y&&Y.length));if(!Y||!Y.length)return;
   var md=D.date.slice(5).split('-');$('day-tag').textContent=(+md[0])+'월 '+(+md[1])+'일, 그해에는';
-  $('day-list').innerHTML=Y.map(function(y){return'<li><div class="day-ago">'+(+D.date.slice(0,4)-(+y.year))+'년 전 오늘</div><div class="day-y">'+esc(y.year)+'년</div><p class="day-h">'+esc(y.title)+'</p><p class="day-b">'+esc(y.body)+'</p></li>'}).join('');
+  $('day-list').innerHTML=Y.map(function(y){return'<li><div class="day-ago"><span class="day-y">'+esc(y.year)+'년</span> · '+(+D.date.slice(0,4)-(+y.year))+'년 전 오늘</div><p class="day-h">'+esc(y.title)+'</p><p class="day-b">'+esc(y.body)+'</p></li>'}).join('');
   var all=[];Y.forEach(function(y){(y.sources||[]).forEach(function(u){if(all.indexOf(u)<0)all.push(u)})});$('day-src').innerHTML=srcs(all)}
 function oneMin(C,pre,sid){hideIf(sid,!C);if(!C)return;
   $(pre+'title').textContent=C.title;$(pre+'meta').textContent=C.writer+' · '+(C.where||C.year)+(C.origin?' · '+C.origin:'');
