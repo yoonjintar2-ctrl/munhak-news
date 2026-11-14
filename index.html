@@ -230,6 +230,7 @@ button,select{font:inherit}
 .cl-lines li::before{content:counter(c,decimal-leading-zero);font-family:var(--mono);font-size:.78rem;color:var(--red);padding-top:.25em}
 .cl-story{border-top:1px solid var(--ink);padding-top:10px}
 .cl-story p{text-indent:.6em}
+.cl-story .sc-fig{margin:10px 0 14px}
 .cl-end{margin-top:12px;border:1px dashed var(--ink);padding:8px 12px;background:var(--paper2)}
 .cl-end summary{cursor:pointer;font-weight:900;font-size:.88rem}
 .cl-end summary em{font-style:normal;color:var(--faint);font-weight:400;font-size:.78rem}
@@ -628,7 +629,9 @@ function day(D){var Y=D.onthisday;hideIf('s-day',!(Y&&Y.length));if(!Y||!Y.lengt
   var all=[];Y.forEach(function(y){(y.sources||[]).forEach(function(u){if(all.indexOf(u)<0)all.push(u)})});$('day-src').innerHTML=srcs(all)}
 function oneMin(C,pre,sid){hideIf(sid,!C);if(!C)return;
   $(pre+'title').textContent=C.title;$(pre+'meta').textContent=C.writer+' · '+(C.where||C.year)+(C.origin?' · '+C.origin:'');
-  $(pre+'one').textContent=C.oneline||'';var st=C.story||[];$(pre+'story').innerHTML=st.map(function(p){return'<p>'+esc(p)+'</p>'}).join('');hideIf(pre+'story',!st.length);
+  $(pre+'one').textContent=C.oneline||'';var st=C.story||[],SC=C.scenes||[];
+  /* 11/14 장면 삽화: scenes[{after:문단번호, img, video, alt}] → 그 문단 바로 아래에 3초 장면 영상 */
+  $(pre+'story').innerHTML=st.map(function(p,i){return'<p>'+esc(p)+'</p>'+SC.filter(function(c){return c.after===i&&c.img}).map(function(c){return'<figure class="fig sc-fig"><span class="tag">장면</span><img src="'+esc(c.img)+'" alt="'+esc(c.alt||'')+'" loading="lazy"></figure>'}).join('')}).join('');hideIf(pre+'story',!st.length);
   $(pre+'lines').innerHTML=(C.lines||[]).map(function(l){return'<li><span>'+esc(l)+'</span></li>'}).join('');hideIf(pre+'lines',!(C.lines&&C.lines.length));
   if(C.img){$(pre+'img').src=C.img;$(pre+'img').alt=C.alt||C.title}hideIf(pre+'fig',!C.img);$(pre+'ending').textContent=C.ending||'';$(pre+'why').textContent=C.why||'';$(pre+'src').innerHTML=srcs(C.sources)}
 function classic(C){oneMin(C,'cl-','s-classic')}

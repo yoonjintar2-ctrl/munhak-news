@@ -176,6 +176,32 @@
    "https://weekly.khan.co.kr/article/12737",
    "https://m.seoul.co.kr/news/2002/08/29/20020829015003",
    "https://library.ltikorea.or.kr/ebooks/300049"
+  ],
+  "scenes": [
+   {
+    "after": 0,
+    "img": "img/2026-11-14-classic-s1.jpg",
+    "video": "img/2026-11-14-classic-s1.mp4",
+    "alt": "파장 무렵 봉평 장터, 좌판을 거두는 허 생원과 짐을 묶는 조 선달, 매여 있는 나귀"
+   },
+   {
+    "after": 2,
+    "img": "img/2026-11-14-classic-s2.jpg",
+    "video": "img/2026-11-14-classic-s2.mp4",
+    "alt": "충줏집 앞, 허 생원이 손가락질하며 젊은 동이를 나무라고 동이는 고개를 숙인다"
+   },
+   {
+    "after": 4,
+    "img": "img/2026-11-14-classic-s3.jpg",
+    "video": "img/2026-11-14-classic-s3.mp4",
+    "alt": "달밤에 돌아가는 물레방아와 방앗간 — 허 생원이 평생 꺼내 보는 그 밤의 자리"
+   },
+   {
+    "after": 6,
+    "img": "img/2026-11-14-classic-s4.jpg",
+    "video": "img/2026-11-14-classic-s4.mp4",
+    "alt": "달빛 아래 개울, 동이가 물에 빠진 허 생원을 업고 건너고 조 선달과 나귀가 지켜본다"
+   }
   ]
  },
  "modern": {
@@ -203,6 +229,32 @@
    "https://en.wikipedia.org/wiki/Never_Let_Me_Go_(novel)",
    "https://ko.wikipedia.org/wiki/%EA%B0%80%EC%A6%88%EC%98%A4_%EC%9D%B4%EC%8B%9C%EA%B5%AC%EB%A1%9C",
    "https://www.sparknotes.com/lit/never-let-me-go/summary/"
+  ],
+  "scenes": [
+   {
+    "after": 0,
+    "img": "img/2026-11-14-modern-s1.jpg",
+    "video": "img/2026-11-14-modern-s1.mp4",
+    "alt": "들판 사이 시골길을 작은 차로 달리는 간병사 캐시"
+   },
+   {
+    "after": 1,
+    "img": "img/2026-11-14-modern-s2.jpg",
+    "video": "img/2026-11-14-modern-s2.mp4",
+    "alt": "헤일셤의 미술 시간, 이젤 앞에서 그림을 그리는 아이들과 문가에서 지켜보는 마담"
+   },
+   {
+    "after": 3,
+    "img": "img/2026-11-14-modern-s3.jpg",
+    "video": "img/2026-11-14-modern-s3.mp4",
+    "alt": "비 오는 교실, 진실을 말하는 루시 선생님과 놀라 서로를 돌아보는 아이들"
+   },
+   {
+    "after": 6,
+    "img": "img/2026-11-14-modern-s4.jpg",
+    "video": "img/2026-11-14-modern-s4.mp4",
+    "alt": "마담의 집 현관, 문을 두드리는 토미와 그의 팔을 잡은 캐시, 흩날리는 낙엽"
+   }
   ]
  },
  "onthisday": [

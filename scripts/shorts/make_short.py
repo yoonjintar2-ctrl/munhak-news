@@ -213,11 +213,31 @@ def main(script, kind, qdir, repo, out):
     segs_t['intro'][0] = 0; segs_t['outro'][1] = total
     outro_lines = [l for l in lines if l[0] == 'outro']
     masc = {k: frame_files(os.path.join(repo, 'img', 'mascot', 'shorts', f'{k}.mp4')) for k in ('hello', 'think', 'bow')}
-    ill = frames_of(os.path.join(repo, C['video']))
-    bgs = [im.resize((int(im.width * H / im.height), H), Image.BICUBIC).crop(((int(im.width * H / im.height) - W) // 2, 0, (int(im.width * H / im.height) - W) // 2 + W, H)).filter(ImageFilter.GaussianBlur(28)) for im in ill]
-    bgs = [Image.blend(b, Image.new('RGB', (W, H), (40, 40, 40)), 0.35) for b in bgs]
-    FW = 830; FH = int(FW * ill[0].height / ill[0].width); FX, FY = SAFE_L, 400       # 오른쪽 버튼 열(940~) 피함
-    fgs = [im.resize((FW, FH), Image.LANCZOS) for im in ill]
+    # 11/14 장면 삽화: 본문 문장 번호(from)부터 그 장면 영상으로 — scenes 가 없으면 대표 영상 하나
+    SCN = sorted(C.get('scenes') or [{'from': 0, 'video': C['video']}], key=lambda x: x['from'])
+    body_rng = []; bi = 0
+    for sec, line, a, b in lines:
+        if sec == 'body': body_rng.append((a, b, bi)); bi += 1
+    FW = 830; FH = int(FW * 640 / 960); FX, FY = SAFE_L, 400       # 오른쪽 버튼 열(940~) 피함
+    cur_vid = {'path': None}
+
+    def scene_frames(path):
+        if cur_vid['path'] != path:                                  # 지금 장면만 메모리에(배경은 작게 흐려 두고 그릴 때 키움)
+            ill = frames_of(os.path.join(repo, path))
+            sw = int(ill[0].width * 640 / ill[0].height)
+            bg = [Image.blend(im.resize((sw, 640), Image.BICUBIC).crop(((sw - 360) // 2, 0, (sw - 360) // 2 + 360, 640)).filter(ImageFilter.GaussianBlur(9)), Image.new('RGB', (360, 640), (40, 40, 40)), 0.35) for im in ill]
+            fg = [im.resize((FW, FH), Image.LANCZOS) for im in ill]
+            cur_vid.update(path=path, bg=bg, fg=fg)
+        return cur_vid['bg'], cur_vid['fg']
+
+    def scene_at(tt):
+        b_i = 0
+        for a, b, i in body_rng:
+            if tt >= a: b_i = i
+        v = SCN[0]['video']
+        for sc in SCN:
+            if sc['from'] <= b_i: v = sc['video']
+        return v
     hdr = header(kind, C['title'], C['writer'])
     cache = {}
     ff = subprocess.Popen(['ffmpeg', '-v', 'error', '-y', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}', '-r', str(FPS), '-i', '-',
@@ -229,7 +249,7 @@ def main(script, kind, qdir, repo, out):
         tt = fi / FPS
         sec = 'intro' if tt < segs_t['intro'][1] else ('body' if tt < segs_t['body'][1] else 'outro')
         if sec == 'body':
-            k = fi % len(ill); fr = bgs[k].copy()
+            bgs, fgs = scene_frames(scene_at(tt)); k = fi % len(fgs); fr = bgs[k].resize((W, H), Image.BILINEAR)
             frame_box = Image.new('RGB', (FW + 12, FH + 12), (20, 20, 20)); frame_box.paste(fgs[k], (6, 6)); fr.paste(frame_box, (FX - 6, FY - 6))
         else:
             if sec == 'intro': mv = 'hello'

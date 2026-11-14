@@ -71,3 +71,16 @@
 - `poem.permission` / `poem.text_file`: 저작권자 허락을 받은 시. 전문은 발행인이 직접 `poems/<날짜>.txt`에 붙여 넣고, 페이지가 읽어 연 단위로 보여 줍니다(기자는 전문을 옮겨 적지 않음).
 - `classic` / `modern`: 1분 고전·1분 현대문학. 같은 형식 {title, writer, year, origin, where, oneline, story[문단], ending(스포일러 접기), why, sources}.
 - `onthisday`: [{year, title, body, sources[]}] — 「그날의 문학」, 오늘 날짜의 과거 문학 사건 2~3개. 화면에는 발행 연도 − year로 'N년 전 오늘'이 크게 붙습니다.
+
+
+## 1분 고전·1분 현대문학 장면 삽화 `scenes` (2026-11-14~)
+`classic`·`modern` 에 이야기 국면이 바뀌는 대목마다 3초 장면 영상 3~4개:
+```json
+"scenes": [
+  {"after": 0, "img": "img/2026-11-15-classic-s1.jpg", "video": "img/2026-11-15-classic-s1.mp4", "alt": "장면 설명"},
+  {"after": 2, "img": "…-s2.jpg", "video": "…-s2.mp4", "alt": "…"}
+]
+```
+- `after` = `story` 문단 번호(0부터). 지면에서는 그 문단 바로 아래에 '장면' 영상이 나온다(대표 영상 `img`/`video` 는 코너 맨 위 그대로).
+- 장면 파일은 `scripts/m3d/scenes/<날짜>-classic-s1.js` … 로 만들고 960×640 3초로 렌더, 포스터는 `--still 0.4`.
+- 같은 영상을 쇼츠(`shorts/scripts/<날짜>.json` 의 `scenes`)에서도 그 대목 배경으로 쓴다.

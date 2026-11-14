@@ -30,6 +30,32 @@
    "그리고 어둠 속에서 봐요. / 동이가 / 왼손잡이라는 걸. / 허 생원도 왼손잡이거든요.",
    "소설은 아무것도 / 단정하지 않아요. / 그 왼손 하나에 / 모든 걸 맡겨 두죠.",
    "줄거리는 한 줄이지만, / 문장은 한 폭의 그림. / 오늘 밤엔 / 원문으로 읽어 보세요."
+  ],
+  "scenes": [
+   {
+    "from": 0,
+    "video": "img/2026-11-14-classic-s1.mp4"
+   },
+   {
+    "from": 3,
+    "video": "img/2026-11-14-classic-s2.mp4"
+   },
+   {
+    "from": 6,
+    "video": "img/2026-11-14-classic.mp4"
+   },
+   {
+    "from": 8,
+    "video": "img/2026-11-14-classic-s3.mp4"
+   },
+   {
+    "from": 11,
+    "video": "img/2026-11-14-classic.mp4"
+   },
+   {
+    "from": 13,
+    "video": "img/2026-11-14-classic-s4.mp4"
+   }
   ]
  },
  "modern": {
@@ -58,6 +84,32 @@
   "outro": [
    "그 문 앞에서 / 두 사람이 들은 대답은, / 오늘의 문학늬우스에서 / 확인하세요.",
    "이 소설이 묻는 건 하나예요. / 주어진 시간이 짧다면, / 우리는 / 어떻게 사랑할까."
+  ],
+  "scenes": [
+   {
+    "from": 0,
+    "video": "img/2026-11-14-modern-s1.mp4"
+   },
+   {
+    "from": 2,
+    "video": "img/2026-11-14-modern-s2.mp4"
+   },
+   {
+    "from": 6,
+    "video": "img/2026-11-14-modern-s3.mp4"
+   },
+   {
+    "from": 8,
+    "video": "img/2026-11-14-modern.mp4"
+   },
+   {
+    "from": 10,
+    "video": "img/2026-11-14-modern-s1.mp4"
+   },
+   {
+    "from": 12,
+    "video": "img/2026-11-14-modern-s4.mp4"
+   }
   ]
  }
 }
