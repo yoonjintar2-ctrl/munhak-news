@@ -284,6 +284,93 @@
     "https://www.gutenberg.org/files/18269/18269-h/18269-h.htm"
    ],
    "added": "2026-11-14"
+  },
+  {
+   "mood": "tired",
+   "text": "엄마야 누나야 강변 살자 / 뜰에는 반짝이는 금모래빛",
+   "writer": "김소월",
+   "work": "엄마야 누나야",
+   "year": 1922,
+   "kind": "시",
+   "dose": "모니터 불빛 대신 금모래빛을 떠올리며, 눈 감고 두 줄을 천천히 소리 내어 한 번. 강변 이사는 처방에 포함되지 않습니다.",
+   "sources": [
+    "https://www.kairnews.com/news/410122",
+    "http://www.ppss.kr/news/articleView.html?idxno=231471"
+   ],
+   "added": "2026-11-15"
+  },
+  {
+   "mood": "blue",
+   "text": "오늘 밤에도 별이 바람에 스치운다.",
+   "writer": "윤동주",
+   "work": "서시",
+   "year": 1941,
+   "kind": "시",
+   "dose": "잠들기 전 창문을 한 뼘 열고 이 한 줄을 읽은 뒤 별 하나만 찾아보세요. 흐린 날은 마음속 별로 대체 가능합니다.",
+   "sources": [
+    "https://www.korean.go.kr/nkview/nknews/200401/66_8.html"
+   ],
+   "added": "2026-11-15"
+  },
+  {
+   "mood": "blank",
+   "text": "왜 사냐건 / 웃지요.",
+   "writer": "김상용",
+   "work": "남으로 창을 내겠소",
+   "year": 1934,
+   "kind": "시",
+   "dose": "누가 요즘 뭐 하고 사냐고 물으면, 설명 대신 이 처방대로 웃어 두세요. 부작용 없음.",
+   "sources": [
+    "https://encykorea.aks.ac.kr/Article/E0012085"
+   ],
+   "added": "2026-11-15"
+  },
+  {
+   "mood": "anxious",
+   "text": "다 괜찮아질 거예요. 다 괜찮아질 거예요. 모든 것이, 하나도 빠짐없이 괜찮아질 거예요.",
+   "orig": "al shal be wel & al shal be wel & al manner of thyng shal be wele",
+   "translator": "금로동 옮김",
+   "writer": "노리치의 줄리언",
+   "work": "하느님 사랑의 계시 27장",
+   "year": "14세기",
+   "kind": "산문",
+   "dose": "같은 말을 세 번 하는 데는 이유가 있습니다. 소리 내어 세 번, 숨을 길게 쉬며 복용하세요.",
+   "sources": [
+    "https://milnepublishing.geneseo.edu/revelations/?p=35",
+    "https://d.lib.rochester.edu/teams/text/the-shewings-of-julian-of-norwich-part-2.html"
+   ],
+   "added": "2026-11-15"
+  },
+  {
+   "mood": "angry",
+   "text": "노여움을 남에게 옮기지 않았고, 같은 잘못을 두 번 하지 않았다.",
+   "orig": "不遷怒，不貳過。",
+   "translator": "금로동 옮김",
+   "writer": "공자(제자 안회를 두고)",
+   "work": "논어 옹야편",
+   "year": "",
+   "kind": "고전",
+   "dose": "엉뚱한 사람에게 화풀이하기 전, 이 여섯 글자 不遷怒 不貳過를 손바닥에 한 번 써 보세요. 쓰는 사이 반은 식습니다.",
+   "sources": [
+    "https://lawlec.korea.ac.kr/?p=2016",
+    "https://en.5000yan.com/the-analects/yong-ye/mastery-self-reluctance-repeat-errors.html"
+   ],
+   "added": "2026-11-15"
+  },
+  {
+   "mood": "flutter",
+   "text": "당신이 내 영혼을 꿰뚫는군요. 나는 반은 괴로움, 반은 희망입니다.",
+   "orig": "You pierce my soul. I am half agony, half hope.",
+   "translator": "금로동 옮김",
+   "writer": "제인 오스틴",
+   "work": "설득(23장, 웬트워스 대령의 편지)",
+   "year": 1817,
+   "kind": "소설",
+   "dose": "답장을 기다리며 두근거리는 날, 반은 괴로움 반은 희망인 게 정상이라는 확인용으로 한 번. 이백 년 전에도 그랬습니다.",
+   "sources": [
+    "https://literaturepage.com/read/persuasion-209.html"
+   ],
+   "added": "2026-11-15"
   }
  ]
 }

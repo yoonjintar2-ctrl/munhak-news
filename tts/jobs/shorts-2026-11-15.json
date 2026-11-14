@@ -1,0 +1,910 @@
+{
+ "name": "shorts-2026-11-15",
+ "mode": "clone",
+ "ref_audio": "out/casual1/E_think.wav",
+ "ref_text": "음… 그럼 데이터센터는 이제 못 짓는 건가?",
+ "gen": {
+  "temperature": 0.75,
+  "top_p": 0.9
+ },
+ "reload_every": 4,
+ "retries": 4,
+ "items": [
+  {
+   "id": "open_00_t0",
+   "text": "일 분 만에 떠먹여 주는, 일 분 문학! 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "open_00_t1",
+   "text": "일 분 만에 떠먹여 주는, 일 분 문학! 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_00_t0",
+   "text": "천구백오 년, 오 헨리. 십일 월에 꼭 읽어야 할 담쟁이 잎 한 장 이야기예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_00_t1",
+   "text": "천구백오 년, 오 헨리. 십일 월에 꼭 읽어야 할 담쟁이 잎 한 장 이야기예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_01_t0",
+   "text": "뉴욕 워싱턴 스퀘어 서쪽, 길이 제멋대로 구부러진 동네 그리니치빌리지. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_01_t1",
+   "text": "뉴욕 워싱턴 스퀘어 서쪽, 길이 제멋대로 구부러진 동네 그리니치빌리지. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_02_t0",
+   "text": "가난한 화가들이 모여드는 이곳의 나지막한 삼층 벽돌집 꼭대기에 수와 존시가 작업실을 차렸습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_02_t1",
+   "text": "가난한 화가들이 모여드는 이곳의 나지막한 삼층 벽돌집 꼭대기에 수와 존시가 작업실을 차렸습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_03_t0",
+   "text": "한 사람은 메인에서, 한 사람은 캘리포니아에서 온 젊은 화가. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_03_t1",
+   "text": "한 사람은 메인에서, 한 사람은 캘리포니아에서 온 젊은 화가. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_04_t0",
+   "text": "둘은 오 월에 팔 번가의 싼 식당에서 처음 만나 취향이 꼭 맞는다는 걸 알고 함께 살기로 했지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_04_t1",
+   "text": "둘은 오 월에 팔 번가의 싼 식당에서 처음 만나 취향이 꼭 맞는다는 걸 알고 함께 살기로 했지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_05_t0",
+   "text": "그해 십일 월, 차갑고 눈에 보이지 않는 손님이 동네를 휩쓸고 다닙니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_05_t1",
+   "text": "그해 십일 월, 차갑고 눈에 보이지 않는 손님이 동네를 휩쓸고 다닙니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_06_t0",
+   "text": "폐렴이었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_06_t1",
+   "text": "폐렴이었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_07_t0",
+   "text": "그 손님은 따뜻한 캘리포니아에서 온 몸 약한 존시를 쓰러뜨립니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_07_t1",
+   "text": "그 손님은 따뜻한 캘리포니아에서 온 몸 약한 존시를 쓰러뜨립니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_08_t0",
+   "text": "존시는 침대에 누워 꼼짝도 하지 않고, 작은 창 너머 맞은편 집의 텅 빈 벽돌담만 바라봅니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_08_t1",
+   "text": "존시는 침대에 누워 꼼짝도 하지 않고, 작은 창 너머 맞은편 집의 텅 빈 벽돌담만 바라봅니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_09_t0",
+   "text": "의사는 복도에서 수에게 낮은 목소리로 말합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_09_t1",
+   "text": "의사는 복도에서 수에게 낮은 목소리로 말합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_10_t0",
+   "text": "살 가망은 열에 하나쯤이고, 그것도 본인이 살고 싶어 해야 한다고요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_10_t1",
+   "text": "살 가망은 열에 하나쯤이고, 그것도 본인이 살고 싶어 해야 한다고요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_11_t0",
+   "text": "그런데 존시는 벌써 마음을 놓아 버린 것 같습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_11_t1",
+   "text": "그런데 존시는 벌써 마음을 놓아 버린 것 같습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_12_t0",
+   "text": "수는 혼자 실컷 울고 나서, 아무렇지 않은 얼굴로 화판을 들고 존시 곁에 앉습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_12_t1",
+   "text": "수는 혼자 실컷 울고 나서, 아무렇지 않은 얼굴로 화판을 들고 존시 곁에 앉습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_13_t0",
+   "text": "잡지에 실을 삽화를 그려야 했거든요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_13_t1",
+   "text": "잡지에 실을 삽화를 그려야 했거든요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_14_t0",
+   "text": "그때 존시가 무언가를 거꾸로 세는 소리가 들립니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_14_t1",
+   "text": "그때 존시가 무언가를 거꾸로 세는 소리가 들립니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_15_t0",
+   "text": "여섯, 다섯… . 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_15_t1",
+   "text": "여섯, 다섯… . 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_16_t0",
+   "text": "창밖 벽돌담을 타고 오른 늙은 담쟁이덩굴의 잎이었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_16_t1",
+   "text": "창밖 벽돌담을 타고 오른 늙은 담쟁이덩굴의 잎이었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_17_t0",
+   "text": "사흘 전엔 백 장 가까이 붙어 있던 잎이 이제 몇 장 남지 않았다고, 마지막 잎이 떨어지면 자기도 가게 될 거라고 존시는 담담하게 말합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_17_t1",
+   "text": "사흘 전엔 백 장 가까이 붙어 있던 잎이 이제 몇 장 남지 않았다고, 마지막 잎이 떨어지면 자기도 가게 될 거라고 존시는 담담하게 말합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_18_t0",
+   "text": "수는 그런 바보 같은 소리가 어디 있냐며 달래 보지만 소용이 없습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_18_t1",
+   "text": "수는 그런 바보 같은 소리가 어디 있냐며 달래 보지만 소용이 없습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_19_t0",
+   "text": "수는 아래층에 사는 늙은 화가 베어먼을 찾아갑니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_19_t1",
+   "text": "수는 아래층에 사는 늙은 화가 베어먼을 찾아갑니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_20_t0",
+   "text": "예순이 넘은 베어먼은 사십 년 동안 붓을 들었지만 한 번도 성공하지 못했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_20_t1",
+   "text": "예순이 넘은 베어먼은 사십 년 동안 붓을 들었지만 한 번도 성공하지 못했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_21_t0",
+   "text": "언젠가 걸작을 그리겠다고 입버릇처럼 말하면서도, 이젤 위 빈 캔버스는 이십오 년째 그대로였지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_21_t1",
+   "text": "언젠가 걸작을 그리겠다고 입버릇처럼 말하면서도, 이젤 위 빈 캔버스는 이십오 년째 그대로였지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_22_t0",
+   "text": "술을 좋아하고 퉁명스럽지만, 위층 두 아가씨를 지키는 경비견이라도 된 양 여기는 사람이었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_22_t1",
+   "text": "술을 좋아하고 퉁명스럽지만, 위층 두 아가씨를 지키는 경비견이라도 된 양 여기는 사람이었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_23_t0",
+   "text": "수가 늙은 광부 그림의 모델을 서 달라고 부탁하며 존시 이야기를 꺼내자, 베어먼은 잎이 떨어진다고 죽는 바보가 어디 있냐며 버럭 소리를 지릅니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_23_t1",
+   "text": "수가 늙은 광부 그림의 모델을 서 달라고 부탁하며 존시 이야기를 꺼내자, 베어먼은 잎이 떨어진다고 죽는 바보가 어디 있냐며 버럭 소리를 지릅니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_24_t0",
+   "text": "그래도 결국 따라 올라옵니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_24_t1",
+   "text": "그래도 결국 따라 올라옵니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_25_t0",
+   "text": "두 사람은 말없이 창밖의 담쟁이를 바라봅니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_25_t1",
+   "text": "두 사람은 말없이 창밖의 담쟁이를 바라봅니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_26_t0",
+   "text": "그날 밤, 진눈깨비 섞인 찬비가 밤새도록 쏟아졌습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_26_t1",
+   "text": "그날 밤, 진눈깨비 섞인 찬비가 밤새도록 쏟아졌습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_27_t0",
+   "text": "아침이 되자 존시가 블라인드를 올려 달라고 합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_27_t1",
+   "text": "아침이 되자 존시가 블라인드를 올려 달라고 합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_28_t0",
+   "text": "밤새 비바람이 몰아쳤는데도 벽에는 잎 한 장이 붙어 있었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_28_t1",
+   "text": "밤새 비바람이 몰아쳤는데도 벽에는 잎 한 장이 붙어 있었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_29_t0",
+   "text": "줄기 쪽은 짙은 초록, 가장자리는 누렇게 물든 마지막 잎새. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_29_t1",
+   "text": "줄기 쪽은 짙은 초록, 가장자리는 누렇게 물든 마지막 잎새. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_30_t0",
+   "text": "존시는 오늘은 저것도 떨어질 거라고 말합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_30_t1",
+   "text": "존시는 오늘은 저것도 떨어질 거라고 말합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_31_t0",
+   "text": "그날 밤에도 바람이 울고 비가 창을 때렸습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_31_t1",
+   "text": "그날 밤에도 바람이 울고 비가 창을 때렸습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_32_t0",
+   "text": "그리고 다음 날 아침, 잎은 여전히 그 자리에 있었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_32_t1",
+   "text": "그리고 다음 날 아침, 잎은 여전히 그 자리에 있었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_33_t0",
+   "text": "다음 날 아침에도 잎은 그 자리에 있었어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_33_t1",
+   "text": "다음 날 아침에도 잎은 그 자리에 있었어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_34_t0",
+   "text": "그 잎이 왜 떨어지지 않았는지는, 오늘의 문학늬우스 일 분 고전에서 확인하세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_34_t1",
+   "text": "그 잎이 왜 떨어지지 않았는지는, 오늘의 문학늬우스 일 분 고전에서 확인하세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_35_t0",
+   "text": "반전보다 오래 남는 건 사람이에요. 창밖 잎 하나 오늘은 한번 바라봐 주세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_35_t1",
+   "text": "반전보다 오래 남는 건 사람이에요. 창밖 잎 하나 오늘은 한번 바라봐 주세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_00_t0",
+   "text": "천구백팔십칠 년, 이문열. 한 교실의 왕, 급장 엄석대 이야기예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_00_t1",
+   "text": "천구백팔십칠 년, 이문열. 한 교실의 왕, 급장 엄석대 이야기예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_01_t0",
+   "text": "어른이 된 나 한병태가 오래전 초등학교 시절을 돌아보며 이야기를 시작합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_01_t1",
+   "text": "어른이 된 나 한병태가 오래전 초등학교 시절을 돌아보며 이야기를 시작합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_02_t0",
+   "text": "서울의 이름난 학교에 다니던 병태는 오학년 때 집안 사정으로 작은 읍의 시골 학교로 전학을 갑니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_02_t1",
+   "text": "서울의 이름난 학교에 다니던 병태는 오학년 때 집안 사정으로 작은 읍의 시골 학교로 전학을 갑니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_03_t0",
+   "text": "서울에서 배운 대로라면 급장은 선거로 뽑는 심부름꾼이고, 억울한 일은 선생님께 말씀드리면 풀리는 것이었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_03_t1",
+   "text": "서울에서 배운 대로라면 급장은 선거로 뽑는 심부름꾼이고, 억울한 일은 선생님께 말씀드리면 풀리는 것이었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_04_t0",
+   "text": "그런데 새 반에는 낯선 질서가 있었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_04_t1",
+   "text": "그런데 새 반에는 낯선 질서가 있었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_05_t0",
+   "text": "급장 엄석대. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_05_t1",
+   "text": "급장 엄석대. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_06_t0",
+   "text": "그는 담임 선생님의 두터운 신임을 등에 업고 반을 다스렸습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_06_t1",
+   "text": "그는 담임 선생님의 두터운 신임을 등에 업고 반을 다스렸습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_07_t0",
+   "text": "누가 어디에 앉을지, 누가 물을 떠 올지, 누가 벌을 받을지 모두 석대가 정했지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_07_t1",
+   "text": "누가 어디에 앉을지, 누가 물을 떠 올지, 누가 벌을 받을지 모두 석대가 정했지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_08_t0",
+   "text": "선생님이 자리를 비워도 교실은 석대의 눈짓 하나로 조용히 굴러갔습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_08_t1",
+   "text": "선생님이 자리를 비워도 교실은 석대의 눈짓 하나로 조용히 굴러갔습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_09_t0",
+   "text": "아이들은 군말 없이 따랐고, 운동 시합이든 청소든 성적이든 반은 겉보기에 흠잡을 데 없이 반듯했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_09_t1",
+   "text": "아이들은 군말 없이 따랐고, 운동 시합이든 청소든 성적이든 반은 겉보기에 흠잡을 데 없이 반듯했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_10_t0",
+   "text": "병태는 그 질서가 못마땅했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_10_t1",
+   "text": "병태는 그 질서가 못마땅했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_11_t0",
+   "text": "석대가 정해 준 자리를 거부하고, 물 당번 심부름도 거절했지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_11_t1",
+   "text": "석대가 정해 준 자리를 거부하고, 물 당번 심부름도 거절했지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_12_t0",
+   "text": "석대의 잘못을 담임에게 알렸지만 선생님은 못 들은 체했고, 반 아이들 누구도 병태 편에 서지 않았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_12_t1",
+   "text": "석대의 잘못을 담임에게 알렸지만 선생님은 못 들은 체했고, 반 아이들 누구도 병태 편에 서지 않았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_13_t0",
+   "text": "오히려 병태가 만화 가게에 들른 일이 고발돼 벌을 받고, 싸움에서도 번번이 지고, 함께 놀아 주는 친구도 하나둘 사라졌습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_13_t1",
+   "text": "오히려 병태가 만화 가게에 들른 일이 고발돼 벌을 받고, 싸움에서도 번번이 지고, 함께 놀아 주는 친구도 하나둘 사라졌습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_14_t0",
+   "text": "서울에서 배운 정의는 이 교실에서 아무 힘이 없었고, 병태는 철저히 혼자가 됩니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_14_t1",
+   "text": "서울에서 배운 정의는 이 교실에서 아무 힘이 없었고, 병태는 철저히 혼자가 됩니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_15_t0",
+   "text": "한 학기를 버틴 끝에 병태는 무너집니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_15_t1",
+   "text": "한 학기를 버틴 끝에 병태는 무너집니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_16_t0",
+   "text": "석대 앞에 고개를 숙이던 날, 그는 굴욕의 눈물을 흘렸습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_16_t1",
+   "text": "석대 앞에 고개를 숙이던 날, 그는 굴욕의 눈물을 흘렸습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_17_t0",
+   "text": "그런데 이상하게도 그다음부터 세상이 편해졌습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_17_t1",
+   "text": "그런데 이상하게도 그다음부터 세상이 편해졌습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_18_t0",
+   "text": "석대는 병태를 너그럽게 받아 주었고, 성적도 싸움 서열도 제자리를 찾았지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_18_t1",
+   "text": "석대는 병태를 너그럽게 받아 주었고, 성적도 싸움 서열도 제자리를 찾았지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_19_t0",
+   "text": "병태는 어느새 석대 다음가는 자리에 앉아, 그 질서가 주는 단맛을 누리는 쪽이 됩니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_19_t1",
+   "text": "병태는 어느새 석대 다음가는 자리에 앉아, 그 질서가 주는 단맛을 누리는 쪽이 됩니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_20_t0",
+   "text": "자존심을 내려놓은 값으로 얻은 평화였지만, 병태는 그 거래가 썩 나쁘지 않다고 느끼기 시작합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_20_t1",
+   "text": "자존심을 내려놓은 값으로 얻은 평화였지만, 병태는 그 거래가 썩 나쁘지 않다고 느끼기 시작합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_21_t0",
+   "text": "육학년이 되자 새 담임 선생님이 옵니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_21_t1",
+   "text": "육학년이 되자 새 담임 선생님이 옵니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_22_t0",
+   "text": "선생님은 급장 선거에서 석대가 거의 몰표를 받는 것도, 석대의 성적이 유난히 좋은 것도 수상하게 여겼습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_22_t1",
+   "text": "선생님은 급장 선거에서 석대가 거의 몰표를 받는 것도, 석대의 성적이 유난히 좋은 것도 수상하게 여겼습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_23_t0",
+   "text": "그리고 병태를 따로 불러, 석대가 어떤 아이인지 털어놓으라고 설득하지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_23_t1",
+   "text": "그리고 병태를 따로 불러, 석대가 어떤 아이인지 털어놓으라고 설득하지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_24_t0",
+   "text": "한때 그 질서에 맞섰다가 이제는 그 안에서 편안해진 병태 앞에, 오래 굳어 있던 교실의 질서가 처음으로 흔들리기 시작합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_24_t1",
+   "text": "한때 그 질서에 맞섰다가 이제는 그 안에서 편안해진 병태 앞에, 오래 굳어 있던 교실의 질서가 처음으로 흔들리기 시작합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_25_t0",
+   "text": "굳어 있던 교실의 질서는 어떻게 무너질까요. 결말은 오늘의 문학늬우스에서 확인하세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_25_t1",
+   "text": "굳어 있던 교실의 질서는 어떻게 무너질까요. 결말은 오늘의 문학늬우스에서 확인하세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_26_t0",
+   "text": "작은 교실 이야기지만, 우리는 왜 부당한 힘에 기대게 되는지 오래 생각하게 하는 소설이에요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_26_t1",
+   "text": "작은 교실 이야기지만, 우리는 왜 부당한 힘에 기대게 되는지 오래 생각하게 하는 소설이에요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  }
+ ]
+}
