@@ -191,7 +191,7 @@ def frames_of(mp4, w=None, h=None):
 
 def frame_files(mp4):
     """큰 마스코트 영상은 메모리 대신 jpg 프레임 파일로 풀어 두고 그때그때 연다."""
-    d = os.path.join('/tmp', 'mascot_frames', os.path.basename(os.path.dirname(mp4)) + '-' + os.path.splitext(os.path.basename(mp4))[0])
+    d = os.path.join('/tmp', 'mascot_frames', os.path.basename(os.path.dirname(mp4)) + '-' + os.path.splitext(os.path.basename(mp4))[0] + '-' + str(int(os.path.getmtime(mp4))))   # 다시 렌더하면 새로 풂
     if not os.path.isdir(d) or not os.listdir(d):
         os.makedirs(d, exist_ok=True); subprocess.run(['ffmpeg', '-v', 'error', '-i', mp4, '-q:v', '2', os.path.join(d, '%03d.jpg')], check=True)
     return sorted(glob.glob(os.path.join(d, '*.jpg')))

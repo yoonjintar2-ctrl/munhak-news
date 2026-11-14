@@ -1,21 +1,25 @@
 // 문학늬우스 마스코트 '연필이': 육각 연필 몸통(뾰족한 심이 머리), 몸통에 눈, 가는 팔다리
-export function makePencil(K, { x = 0, y = 0, z = 0, s = 1 } = {}) {
+export function makePencil(K, { x = 0, y = 0, z = 0, s = 1, line = 0.028 } = {}) {
   const { THREE, scene } = K;
+  // 11/14 발행인 "선이 너무 얇다, 살짝만 두껍게": WebGL 선은 1px 라 화면이 커질수록 가늘어 보임 → 뒷면만 그리는 살짝 큰 검은 껍데기(외곽선)를 덧씌운다
+  const hullMat = new THREE.MeshBasicMaterial({ color: 0x1c1c1c, side: THREE.BackSide });
+  const hull = (mesh, t = line) => { mesh.geometry.computeBoundingBox(); const b = mesh.geometry.boundingBox, sz = new THREE.Vector3(); b.getSize(sz);
+    const h = new THREE.Mesh(mesh.geometry, hullMat); h.scale.set((sz.x + 2 * t) / sz.x, (sz.y + 2 * t) / sz.y, (sz.z + 2 * t) / sz.z); mesh.add(h); return mesh; };
   const root = new THREE.Group(); root.position.set(x, y, z); root.scale.setScalar(s); scene.add(root);
   const hip = new THREE.Group(); hip.position.y = 1.5; root.add(hip);          // 다리 위(몸 전체 회전·통통 튀기 기준)
   const body = new THREE.Group(); hip.add(body);
   // 몸통: 지우개(아래) → 쇠 띠 → 육각 몸통 → 깎인 나무 → 심(위)
-  K.cyl(0.62, 0.62, 0.55, 0xf29aa6, 0, 0.27, 0, body, 24);                     // 지우개(분홍)
-  K.cyl(0.66, 0.66, 0.42, 0xc9ccd1, 0, 0.75, 0, body, 24);                     // 쇠 띠
+  hull(K.cyl(0.62, 0.62, 0.55, 0xf29aa6, 0, 0.27, 0, body, 24));               // 지우개(분홍)
+  hull(K.cyl(0.66, 0.66, 0.42, 0xc9ccd1, 0, 0.75, 0, body, 24));               // 쇠 띠
   [0.62, 0.88].forEach(y2 => K.cyl(0.675, 0.675, 0.05, 0x6f6f6b, 0, y2, 0, body, 24));
-  const hex = K.cyl(0.68, 0.68, 3.4, 0xf7c325, 0, 2.66, 0, body, 6); hex.rotation.y = Math.PI / 6;
-  const wood = new THREE.Mesh(new THREE.ConeGeometry(0.68, 1.2, 6, 1, true), K.lam(0xe8c9a0, { side: THREE.DoubleSide })); wood.position.y = 4.96; wood.rotation.y = Math.PI / 6; body.add(K.inked(wood));
+  const hex = hull(K.cyl(0.68, 0.68, 3.4, 0xf7c325, 0, 2.66, 0, body, 6)); hex.rotation.y = Math.PI / 6;
+  const wood = new THREE.Mesh(new THREE.ConeGeometry(0.68, 1.2, 6, 1, true), K.lam(0xe8c9a0, { side: THREE.DoubleSide })); wood.position.y = 4.96; wood.rotation.y = Math.PI / 6; body.add(hull(K.inked(wood)));
   const lead = new THREE.Mesh(new THREE.ConeGeometry(0.2, 0.42, 12), K.lam(0x2a2a2a)); lead.position.y = 5.42; body.add(lead);
   // 눈(무광, 작은 흰 반사점 하나)
   const eyes = new THREE.Group(); eyes.position.set(0, 3.55, 0.62); body.add(eyes);
   const lids = [];
   [-0.26, 0.26].forEach(ex => {
-    const w = new THREE.Mesh(new THREE.SphereGeometry(0.22, 20, 14), K.lam(0xffffff)); w.scale.set(1, 1.25, 0.45); w.position.x = ex; eyes.add(w);
+    const w = new THREE.Mesh(new THREE.SphereGeometry(0.22, 20, 14), K.lam(0xffffff)); w.scale.set(1, 1.25, 0.45); w.position.x = ex; eyes.add(hull(w, 0.02));
     const p = new THREE.Mesh(new THREE.SphereGeometry(0.11, 16, 12), K.flat(0x111111)); p.scale.set(1, 1.2, 0.5); p.position.set(ex, -0.02, 0.09); eyes.add(p);
     const hl = new THREE.Mesh(new THREE.SphereGeometry(0.03, 8, 6), K.flat(0xffffff)); hl.position.set(ex + 0.04, 0.05, 0.14); eyes.add(hl);
     const lid = new THREE.Mesh(new THREE.SphereGeometry(0.235, 20, 10, 0, Math.PI * 2, 0, Math.PI / 2), K.lam(0xf7c325)); lid.scale.set(1, 1.25, 0.5); lid.position.set(ex, 0, 0.005); lid.visible = false; eyes.add(lid); lids.push(lid);
@@ -24,18 +28,18 @@ export function makePencil(K, { x = 0, y = 0, z = 0, s = 1 } = {}) {
   // 팔: 어깨 → 위팔 → 팔꿈치 → 아래팔 → 손
   const arm = (sd) => {
     const sp = new THREE.Group(); sp.position.set(sd * 0.7, 2.75, 0); body.add(sp);
-    K.cyl(0.05, 0.05, 1.0, 0x2b2b2b, 0, -0.5, 0, sp, 8);
+    K.cyl(0.063, 0.063, 1.0, 0x2b2b2b, 0, -0.5, 0, sp, 8);
     const el = new THREE.Group(); el.position.y = -1.0; sp.add(el);
-    K.cyl(0.05, 0.05, 0.9, 0x2b2b2b, 0, -0.45, 0, el, 8);
-    const hand = new THREE.Mesh(new THREE.SphereGeometry(0.14, 14, 10), K.lam(0xffffff)); hand.position.y = -0.95; el.add(K.inked(hand));
+    K.cyl(0.063, 0.063, 0.9, 0x2b2b2b, 0, -0.45, 0, el, 8);
+    const hand = new THREE.Mesh(new THREE.SphereGeometry(0.14, 14, 10), K.lam(0xffffff)); hand.position.y = -0.95; el.add(hull(K.inked(hand), 0.022));
     return { sp, el, sd };
   };
   const A = { L: arm(-1), R: arm(1) };
   // 다리
   const leg = (sd) => {
     const g = new THREE.Group(); g.position.set(sd * 0.3, 1.5, 0); root.add(g);
-    K.cyl(0.055, 0.055, 1.4, 0x2b2b2b, 0, -0.7, 0, g, 8);
-    const f = new THREE.Mesh(new THREE.SphereGeometry(0.2, 14, 10), K.lam(0xffffff)); f.scale.set(1, 0.55, 1.5); f.position.set(0, -1.42, 0.12); g.add(K.inked(f));
+    K.cyl(0.07, 0.07, 1.4, 0x2b2b2b, 0, -0.7, 0, g, 8);
+    const f = new THREE.Mesh(new THREE.SphereGeometry(0.2, 14, 10), K.lam(0xffffff)); f.scale.set(1, 0.55, 1.5); f.position.set(0, -1.42, 0.12); g.add(hull(K.inked(f), 0.022));
     return g;
   };
   const Lg = { L: leg(-1), R: leg(1) };
