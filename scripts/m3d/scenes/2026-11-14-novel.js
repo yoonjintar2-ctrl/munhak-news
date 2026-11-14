@@ -1,16 +1,17 @@
 // 11/14 오늘의 소설 구절 — 생텍쥐페리 『어린 왕자』: 바람 부는 밀밭 언덕, 목도리를 두른 아이와 여우가 마주 본다
 export const secs = 3;
-export const opts = { bg: 0xcfcec8, fog: [0xcbcac4, 30, 110] };
+export const opts = { bg: 0xeceae4, fog: [0xe6e4de, 40, 140] };
 export default function (K) {
   const { THREE, scene, cam } = K;
-  K.ground(scene, { color: '#bdbbb2', line: '#b8b6ad', tiles: 2, repeat: 4 });
+  K.ground(scene, { color: '#d6d3c8', line: '#c6c3b8', tiles: 2, repeat: 4 });
+  K.backdrop(scene, { kind: 'country', seed: 4 });
   // 밀 단: 큰 덩어리 몇 개(바람에 흔들림)
   const wheat = []; [[-9, -7], [-5.5, -9], [-2, -8], [3.5, -9], [7, -7.5], [10, -10], [-12, -10]].forEach(([x, z], i) => { const g = new THREE.Group(); g.position.set(x, 0, z); scene.add(g);
     const c = K.inked(new THREE.Mesh(new THREE.SphereGeometry(1, 14, 10), K.lam(0xd8d2ba)), 70); c.scale.set(0.8, 1.3, 0.8); c.position.y = 1.1; g.add(c); wheat.push({ g, o: i * 0.8 }); });
   // 낮은 언덕
   const hill = new THREE.Mesh(new THREE.SphereGeometry(30, 32, 12, 0, Math.PI * 2, 0, 0.25), K.lam(0xadaba2)); hill.position.set(0, -29, -30); scene.add(hill);
   // 아이(목도리)
-  const P = K.person(scene, { x: -1.4, z: 1.5, rot: -Math.PI / 2 - 0.6, coat: 0xdcd9d0, pants: 0xcac7be, hair: 'short', hairC: 0xa8a59c, scale: 0.6 });
+  const P = K.person(scene, { x: -1.4, z: 1.5, rot: -Math.PI / 2 - 0.6, coat: 0x6a6862, pants: 0x3a3936, hair: 'short', hairC: 0xe6d8a8, scale: 0.6, scarf: 0xf2f0ea });
   const scarf = new THREE.Group(); scarf.position.set(0.15, 1.45, 0.62); P.torso.add(scarf);
   const sc1 = K.box(0.22, 0.9, 0.06, 0x77756f, 0, -0.45, 0, scarf);
   // 여우

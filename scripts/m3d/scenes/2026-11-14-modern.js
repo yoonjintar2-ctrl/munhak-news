@@ -1,9 +1,10 @@
 // 11/14 1분 현대문학 — 이시구로 『나를 보내지 마』: 바람 부는 빈 들판의 철조망 앞, 두 사람이 나란히 서서 펄럭이는 비닐 조각을 바라본다
 export const secs = 3;
-export const opts = { bg: 0xc8c8c4, fog: [0xc4c4c0, 30, 110] };
+export const opts = { bg: 0xeceae4, fog: [0xe6e4de, 40, 140] };
 export default function (K) {
   const { THREE, scene, cam } = K;
-  K.ground(scene, { color: '#adaca5', line: '#aaa9a2', tiles: 2, repeat: 4 });
+  K.ground(scene, { color: '#d6d3c8', line: '#c6c3b8', tiles: 3, repeat: 4 });
+  K.backdrop(scene, { kind: 'country', seed: 12 });
   // 철조망 울타리: 말뚝 + 철사 3줄
   const posts = []; for (let i = 0; i < 9; i++) { const x = -14 + i * 3.5; K.cyl(0.1, 0.12, 2.0, 0x4a4a46, x, 1.0, -4, scene, 6); posts.push(x); }
   [0.7, 1.2, 1.7].forEach(y => K.line([[-14, y, -4], [14, y, -4]], scene));

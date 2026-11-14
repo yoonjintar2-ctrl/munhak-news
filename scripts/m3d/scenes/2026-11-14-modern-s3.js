@@ -1,9 +1,10 @@
 // 11/14 1분 현대문학 장면③ 루시 선생님의 말: 선생님이 두 팔을 펴고 말하고, 줄지어 선 아이들이 놀라 서로를 돌아본다. 창밖엔 비
 export const secs = 3;
-export const opts = { bg: 0x8e8e8a, fog: [0x8a8a86, 26, 80] };
+export const opts = { bg: 0xeceae4, fog: [0xe6e4de, 40, 140] };
 export default function (K) {
   const { THREE, scene, cam } = K;
-  K.ground(scene, { color: '#7f7e79', line: '#7b7a75', tiles: 4, repeat: 4 });
+  K.ground(scene, { color: '#d6d3c8', line: '#c6c3b8', tiles: 3, repeat: 4 });
+  K.backdrop(scene, { kind: 'country', seed: 28 });
   K.box(18, 6, 0.4, 0x6c6b66, 0, 3, -6, scene);
   const win = new THREE.Mesh(new THREE.PlaneGeometry(4, 2.6), K.lam(0xb9b9b4)); win.position.set(-4, 3.4, -5.75); scene.add(win);
   K.box(4.2, 0.12, 0.15, 0x3a3a38, -4, 2.05, -5.7, scene); K.box(4.2, 0.12, 0.15, 0x3a3a38, -4, 4.75, -5.7, scene);

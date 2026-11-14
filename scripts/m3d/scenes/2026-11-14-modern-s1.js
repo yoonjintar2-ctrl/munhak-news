@@ -1,9 +1,10 @@
 // 11/14 1분 현대문학 장면① 간병사 캐시: 들판 사이 시골길을 작은 차로 달린다(차는 그대로, 전봇대·나무가 스쳐 지나감) — 진행 방향 +x(배경이 오른쪽→왼쪽으로 흐름), 운전자 rot -π/2
 export const secs = 3;
-export const opts = { bg: 0xc6c6c2, fog: [0xc2c2be, 30, 110] };
+export const opts = { bg: 0xeceae4, fog: [0xe6e4de, 40, 140] };
 export default function (K) {
   const { THREE, scene, cam } = K;
-  K.ground(scene, { color: '#adaca5', line: '#aaa9a2', tiles: 2, repeat: 4 });
+  K.ground(scene, { color: '#d6d3c8', line: '#c6c3b8', tiles: 3, repeat: 4 });
+  K.backdrop(scene, { kind: 'country', seed: 2, near: false });
   const road = new THREE.Mesh(new THREE.PlaneGeometry(120, 4), K.lam(0x6f6e6a)); road.rotation.x = -Math.PI / 2; road.position.set(0, 0.02, 0.5); scene.add(road);
   const dash = []; for (let i = 0; i < 10; i++) { const d = new THREE.Mesh(new THREE.PlaneGeometry(1.6, 0.12), K.flat(0xe8e8e2)); d.rotation.x = -Math.PI / 2; scene.add(d); dash.push({ d, k: i / 10 }); }
   // 지나가는 것들: 전봇대·나무(멀리 천천히), 앞 울타리 말뚝(빨리)

@@ -1,9 +1,10 @@
 // 11/14 1분 현대문학 장면② 헤일셤: 아이들이 이젤 앞에서 그림을 그리고, 문가의 마담이 화첩을 끼고 지켜본다
 export const secs = 3;
-export const opts = { bg: 0xb9b8b3, fog: [0xb5b4af, 26, 80] };
+export const opts = { bg: 0xeceae4, fog: [0xe6e4de, 40, 140] };
 export default function (K) {
   const { THREE, scene, cam } = K;
-  K.ground(scene, { color: '#9e9d97', line: '#9a9993', tiles: 4, repeat: 4 });
+  K.ground(scene, { color: '#d6d3c8', line: '#c6c3b8', tiles: 3, repeat: 4 });
+  K.backdrop(scene, { kind: 'room', seed: 41 });
   K.box(18, 6, 0.4, 0xcfcdc7, 0, 3, -6, scene);                      // 뒷벽
   const winT = K.canvasTex(128, 192, (g, w, h) => { g.fillStyle = '#efefe9'; g.fillRect(0, 0, w, h); g.strokeStyle = '#3a3a38'; g.lineWidth = 8; g.strokeRect(4, 4, w - 8, h - 8); g.beginPath(); g.moveTo(w / 2, 0); g.lineTo(w / 2, h); g.moveTo(0, h / 2); g.lineTo(w, h / 2); g.stroke(); });
   [-5.5, -1.5, 2.5].forEach(x => { const m = new THREE.Mesh(new THREE.PlaneGeometry(2, 3), new THREE.MeshLambertMaterial({ map: winT })); m.position.set(x, 3.3, -5.75); scene.add(m); });

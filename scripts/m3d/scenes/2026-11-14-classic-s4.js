@@ -4,6 +4,7 @@ export const opts = { bg: 0x80807b, fog: [0x7c7c77, 28, 90] };
 export default function (K) {
   const { THREE, scene, cam } = K;
   K.ground(scene, { color: '#7d7c77', line: '#7a7974', tiles: 2, repeat: 3 });
+  K.backdrop(scene, { kind: 'country', seed: 22, night: true });
   // 개울(가로로 흐름) + 물결 줄
   const wt = new THREE.Mesh(new THREE.PlaneGeometry(60, 5), K.lam(0x5b5b58)); wt.rotation.x = -Math.PI / 2; wt.position.set(0, 0.03, 0.5); scene.add(wt);
   const rip = []; for (let i = 0; i < 16; i++) { const r = new THREE.Mesh(new THREE.PlaneGeometry(1.2, 0.07), K.flat(0xe3e3dd)); r.rotation.x = -Math.PI / 2; scene.add(r); rip.push({ r, k: i / 16, z: -1.5 + (i % 5) * 0.95 }); }

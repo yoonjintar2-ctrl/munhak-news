@@ -1,4 +1,4 @@
-<!doctype html><html><head><meta charset="utf-8"><style>html,body{margin:0;background:#f4f1ea}canvas{display:block}</style></head><body>
+<!doctype html><html><head><meta charset="utf-8"><style>html,body{margin:0;background:#f4f1ea}canvas{display:block;width:10px;height:10px}</style></head><body>
 <script type="module">
 import * as K from './kit.js';
 const q=new URLSearchParams(location.search);
@@ -10,7 +10,8 @@ if(q.get('fov')){S.cam.fov=+q.get('fov');}
 if(q.get('oy')||q.get('ox')){S.cam.setViewOffset(opts.w,opts.h,(+(q.get('ox')||0))*opts.w,(+(q.get('oy')||0))*opts.h,opts.w,opts.h);}
 S.cam.updateProjectionMatrix();
 window.SECS=mod.secs||3;
-window.frame=t=>{const ph=t/window.SECS*Math.PI*2;upd(t,ph);S.render();return S.R.domElement.toDataURL('image/jpeg',0.93)};
+const OC=document.createElement('canvas');OC.width=opts.w;OC.height=opts.h;const OX=OC.getContext('2d');OX.imageSmoothingEnabled=true;OX.imageSmoothingQuality='high';
+window.frame=t=>{const ph=t/window.SECS*Math.PI*2;upd(t,ph);S.render();OX.drawImage(S.R.domElement,0,0,opts.w,opts.h);return OC.toDataURL('image/jpeg',0.93)};
 await new Promise(r=>{const c=()=>K.K_waits.every(f=>f())?r():setTimeout(c,50);c()});
 window.ready=true;
 </script></body></html>

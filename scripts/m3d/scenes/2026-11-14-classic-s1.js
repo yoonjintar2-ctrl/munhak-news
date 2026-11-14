@@ -1,9 +1,10 @@
 // 11/14 1분 고전 장면① 파장: 봉평 장이 파하는 오후, 허 생원이 전(좌판)을 거두고 조 선달은 짐을 묶는다, 나귀는 매여 있다
 export const secs = 3;
-export const opts = { bg: 0xb4b3ae, fog: [0xb0afaa, 28, 90] };
+export const opts = { bg: 0xeceae4, fog: [0xe6e4de, 40, 140] };
 export default function (K) {
   const { THREE, scene, cam } = K;
-  K.ground(scene, { color: '#a9a8a2', line: '#a4a39d', tiles: 3, repeat: 4 });
+  K.ground(scene, { color: '#d6d3c8', line: '#c6c3b8', tiles: 3, repeat: 4 });
+  K.backdrop(scene, { kind: 'town', seed: 10 });
   // 좌판 둘 + 차양(천막) — 차양 천이 바람에 들썩
   const awn = [];
   [[-3.2, -1.5], [3.6, -2.5]].forEach(([x, z], i) => {

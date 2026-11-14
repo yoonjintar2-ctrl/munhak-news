@@ -4,6 +4,7 @@ export const opts = { bg: 0x8c8c88, fog: [0x8c8c88, 30, 90] };
 export default function (K) {
   const { THREE, scene, cam } = K;
   K.ground(scene, { color: '#7d7c77', line: '#7a7974', tiles: 2, repeat: 3 });
+  K.backdrop(scene, { kind: 'country', seed: 7, night: true });
   // 산허리(비탈) + 메밀꽃(흩뿌린 흰 점, 성기게)
   const slope = new THREE.Mesh(new THREE.PlaneGeometry(80, 26), K.lam(0x6f6e69)); slope.rotation.x = -Math.PI / 2 + 0.35; slope.position.set(0, 3.5, -16); scene.add(slope);
   const fm = K.flat(0xf4f4ef); let s = 7; const r = () => (s = (s * 16807) % 2147483647) / 2147483647;

@@ -1,9 +1,10 @@
 // 11/14 오늘의 시 — 정지용 「향수」: 해 질 녘 실개천이 휘도는 들판, 얼룩소가 고개 들어 울고, 누이 머리칼이 날리고, 아내는 이삭을 줍고, 까마귀가 지나간다
 export const secs = 3;
-export const opts = { bg: 0xc9c8c2, fog: [0xc4c3bd, 30, 100] };
+export const opts = { bg: 0xeceae4, fog: [0xe6e4de, 40, 140] };
 export default function (K) {
   const { THREE, scene, cam } = K;
-  K.ground(scene, { color: '#b5b3aa', line: '#b0aea5', tiles: 2, repeat: 4 });
+  K.ground(scene, { color: '#d6d3c8', line: '#c6c3b8', tiles: 3, repeat: 4 });
+  K.backdrop(scene, { kind: 'country', seed: 14 });
   // 실개천: 휘도는 띠
   const pts = []; for (let i = 0; i <= 40; i++) { const z = 6 - i * 1.6; pts.push(new THREE.Vector3(5 + Math.sin(i * 0.25) * 4, 0.02, z)); }
   const curve = new THREE.CatmullRomCurve3(pts);

@@ -1,9 +1,10 @@
 // 11/14 1분 고전 장면② 충줏집: 주막 앞에서 허 생원이 젊은 동이를 나무라고(손가락질), 동이는 고개를 숙인다. 처마 등이 흔들린다
 export const secs = 3;
-export const opts = { bg: 0x9a9995, fog: [0x96958f, 26, 80] };
+export const opts = { bg: 0xeceae4, fog: [0xe6e4de, 40, 140] };
 export default function (K) {
   const { THREE, scene, cam } = K;
-  K.ground(scene, { color: '#8e8d87', line: '#8a8983', tiles: 3, repeat: 4 });
+  K.ground(scene, { color: '#d6d3c8', line: '#c6c3b8', tiles: 3, repeat: 4 });
+  K.backdrop(scene, { kind: 'town', seed: 32 });
   // 주막 건물: 벽 + 미닫이 문살 + 처마
   K.box(14, 4.2, 0.6, 0x5f5e5a, 0, 2.1, -4.5, scene);
   const lat = K.canvasTex(256, 256, (g, w, h) => { g.fillStyle = '#d8d6d0'; g.fillRect(0, 0, w, h); g.strokeStyle = '#3a3a38'; g.lineWidth = 6; for (let i = 0; i <= 4; i++) { g.beginPath(); g.moveTo(i * w / 4, 0); g.lineTo(i * w / 4, h); g.stroke(); g.beginPath(); g.moveTo(0, i * h / 4); g.lineTo(w, i * h / 4); g.stroke(); } });

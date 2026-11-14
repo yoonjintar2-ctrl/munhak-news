@@ -1,9 +1,10 @@
 // 11/14 1분 현대문학 장면④ 마담의 집: 캐시와 토미가 현관 앞에 서고, 토미가 문을 두드린다. 처마 등이 흔들리고 낙엽이 진다
 export const secs = 3;
-export const opts = { bg: 0x7a7a76, fog: [0x767672, 26, 80] };
+export const opts = { bg: 0xeceae4, fog: [0xe6e4de, 40, 140] };
 export default function (K) {
   const { THREE, scene, cam } = K;
-  K.ground(scene, { color: '#73726d', line: '#6f6e69', tiles: 3, repeat: 4 });
+  K.ground(scene, { color: '#d6d3c8', line: '#c6c3b8', tiles: 3, repeat: 4 });
+  K.backdrop(scene, { kind: 'town', seed: 12 });
   K.box(12, 6.5, 0.5, 0xb3b1ab, 0, 3.25, -4.5, scene);                // 집 정면
   K.box(2.0, 3.4, 0.2, 0x3b3b39, 0.6, 1.7, -4.15, scene);             // 문
   const knob = new THREE.Mesh(new THREE.SphereGeometry(0.08, 8, 6), K.flat(0xe0e0da)); knob.position.set(1.3, 1.7, -4.0); scene.add(knob);

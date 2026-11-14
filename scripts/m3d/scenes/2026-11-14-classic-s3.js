@@ -4,6 +4,7 @@ export const opts = { bg: 0x6f6f6b, fog: [0x6c6c68, 26, 80] };
 export default function (K) {
   const { THREE, scene, cam } = K;
   K.ground(scene, { color: '#6a6965', line: '#666561', tiles: 2, repeat: 3 });
+  K.backdrop(scene, { kind: 'country', seed: 35, night: true });
   // 방앗간 집 + 초가 지붕
   K.box(5.5, 3.2, 4, 0x8c8b86, 2.6, 1.6, -3, scene);
   const rf = new THREE.Mesh(new THREE.ConeGeometry(4.4, 2.2, 4), K.lam(0x5a5955)); rf.position.set(2.6, 4.3, -3); rf.rotation.y = Math.PI / 4; rf.scale.set(1, 1, 0.85); scene.add(K.inked(rf));

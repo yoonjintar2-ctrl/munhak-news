@@ -2,7 +2,7 @@
 //  저장소 루트에서 실행. 같은 이름의 .jpg(첫 장면 포스터)도 만든다. --still t 를 주면 그 순간 한 장만 out.jpg로 저장(검수용)
 const {chromium}=require('playwright');const fs=require('fs'),path=require('path'),http=require('http'),{execFileSync}=require('child_process');
 const a=process.argv.slice(2);const arg=(k,d)=>{const i=a.indexOf('--'+k);return i>=0?a[i+1]:d};
-const scene=a[0],out=a[1],W=+arg('w',960),H=+arg('h',640),still=arg('still',null),stage=arg('stage',''),crf=arg('crf','31'),fov=arg('fov',''),oy=arg('oy',''),ox=arg('ox','');
+const scene=a[0],out=a[1],W=+arg('w',960),H=+arg('h',640),still=arg('still',null),stage=arg('stage',''),crf=arg('crf','24'),fov=arg('fov',''),oy=arg('oy',''),ox=arg('ox','');
 const root=path.resolve(__dirname);const types={'.js':'text/javascript','.html':'text/html','.jpg':'image/jpeg','.png':'image/png','.webp':'image/webp'};
 const repo=path.resolve(__dirname,'../..');
 const srv=http.createServer((q,r)=>{let u=decodeURIComponent(q.url.split('?')[0]);let f=u.startsWith('/repo/')?path.join(repo,u.slice(6)):path.join(root,u);
