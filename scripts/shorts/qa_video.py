@@ -79,7 +79,7 @@ def main(script, kind, video, repo='.'):
     its = tl['items']
     for k, it in enumerate(its):
         d = it['b'] - it['a']; n = len(re.sub(r'\s', '', it['txt']))
-        if d < 0.35: bad.append(f'자막 너무 짧음 {d:.2f}s 「{it["txt"]}」')
+        if d < 0.3 or (d < 0.35 and n > 2): bad.append(f'자막 너무 짧음 {d:.2f}s 「{it["txt"]}」')
         elif n / d > 14: bad.append(f'자막 너무 빠름 {n / d:.1f}자/초 「{it["txt"]}」 — 대본에서 마디를 나누거나 합쳐 다시')
         elif n / d > 10: warn.append(f'자막 빠름 {n / d:.1f}자/초 「{it["txt"]}」')
         if len(it['txt']) > 18: warn.append(f'자막 마디 김({len(it["txt"])}자) 「{it["txt"]}」')
