@@ -5,6 +5,8 @@ export function makePencil(K, { x = 0, y = 0, z = 0, s = 1, line = 0.028 } = {})
   const hullMat = new THREE.MeshBasicMaterial({ color: 0x1c1c1c, side: THREE.BackSide });
   const hull = (mesh, t = line) => { mesh.geometry.computeBoundingBox(); const b = mesh.geometry.boundingBox, sz = new THREE.Vector3(); b.getSize(sz);
     const h = new THREE.Mesh(mesh.geometry, hullMat); h.scale.set((sz.x + 2 * t) / sz.x, (sz.y + 2 * t) / sz.y, (sz.z + 2 * t) / sz.z); mesh.add(h); return mesh; };
+  // 11/14 발행인 "내부 선이 뚝뚝 끊긴다": 면 위에 딱 붙은 1px 선이 면과 깊이를 다투며 점선처럼 보임 → 면을 아주 살짝 뒤로 밀어(polygonOffset) 선이 끊기지 않게
+  const solidLines = (root) => root.traverse(o => { if (o.isMesh && o.material && !o.material.side !== undefined && o.material !== hullMat) { o.material.polygonOffset = true; o.material.polygonOffsetFactor = 1; o.material.polygonOffsetUnits = 2; } });
   const root = new THREE.Group(); root.position.set(x, y, z); root.scale.setScalar(s); scene.add(root);
   const hip = new THREE.Group(); hip.position.y = 1.5; root.add(hip);          // 다리 위(몸 전체 회전·통통 튀기 기준)
   const body = new THREE.Group(); hip.add(body);
@@ -35,6 +37,7 @@ export function makePencil(K, { x = 0, y = 0, z = 0, s = 1, line = 0.028 } = {})
     return { sp, el, sd };
   };
   const A = { L: arm(-1), R: arm(1) };
+  solidLines(body);
   // 다리
   const leg = (sd) => {
     const g = new THREE.Group(); g.position.set(sd * 0.3, 1.5, 0); root.add(g);
@@ -43,6 +46,7 @@ export function makePencil(K, { x = 0, y = 0, z = 0, s = 1, line = 0.028 } = {})
     return g;
   };
   const Lg = { L: leg(-1), R: leg(1) };
+  solidLines(root);
   const setArm = (a, o = {}) => { a.sp.rotation.x = -(o.fwd || 0); a.sp.rotation.z = a.sd * (0.35 + (o.out || 0)); a.el.rotation.x = -Math.abs(o.elbow || 0); a.sp.rotation.y = a.sd * (o.twist || 0); };
   return {
     root, body, hip,
