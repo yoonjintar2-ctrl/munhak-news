@@ -189,6 +189,8 @@ def main(script, kind, qdir, repo, out):
     S = json.load(open(script, encoding='utf-8')); C = S[kind]; D = S['date']
     lines = [('intro', l) for l in C['intro']] + [('body', l) for l in C['body']] + [('outro', l) for l in C['outro']]
     keys = [(f'{kind}_{i:02d}', J.ko(l.replace(' / ', ' '))) for i, (_, l) in enumerate(lines)]
+    if S.get('opener'):          # 11/14 발행인: 맨 처음에 컨셉 소개("1분 만에 떠먹여 주는, 1분 문학!") — 두 편 공통, 나레이션 id open_00
+        lines = [('intro', S['opener'])] + lines; keys = [('open_00', J.ko(S['opener'].replace(' / ', ' ')))] + keys
     clips, sr = dry_audio(keys) if os.environ.get('DRY') else build_audio(qdir, f'shorts-{D}', keys, repo)
     # 타임라인
     t = 0.35; items = []; audio = [np.zeros(int(sr * 0.35), np.float32)]
