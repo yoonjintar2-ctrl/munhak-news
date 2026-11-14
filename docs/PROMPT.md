@@ -82,3 +82,14 @@ m3d/README.md 방식: three.js 장면 → 먹 농담 후처리(망점 쓰지 않
 - 당일 05:10 「맥 TTS 거두기」(맥 필요): out/mnews-<날짜>/ 의 wav 를 받아 `scripts/tts/tts_post.py` 로 테이크 고르기·후처리 → audio/<날짜>-<코너>.mp3 커밋.
 - 당일 06:40 「발행」: `python3 scripts/publish_draft.py <날짜>` → make_share → 확인. 초안이 없으면 예전처럼 그 자리에서 다 쓴다.
 - '듣기'는 최근 3개 호만(publish_draft.py 가 오래된 mp3 를 지움). 늦게 도착한 음성은 `publish_draft.py --audio <날짜>`.
+- '듣기' 톤: 발행인 11/14 "샌디스크 올인처럼 차분한 톤, 이 톤으로 쭉 유지" — `tts_post.py` 기본값(배속 1.0, 쉼 0.40초, 문장 사이 0.6초, 낮은 톤 테이크 우선)을 바꾸지 않는다.
+
+## 전날 밤 초안에 꼭 넣을 것 (발행인 2026-11-14 지시 — 초안 작업은 위 일정의 '초안' 단계에서 아래도 함께 한다)
+1. **장면 삽화** — "국면이 변하거나 스토리를 설명하기 좋은 장면들을 3초 영상으로 여러 개, 사이트 글 중간중간 그 장면 내용이 나올 때마다":
+   1분 고전·1분 현대문학 각각, 대표 영상과 겹치지 않는 국면 전환 장면 **3~4개**를 `scripts/m3d/scenes/<내일>-classic-s1.js` … `<내일>-modern-s4.js` 로 만들고 대표 영상과 같은 방식으로 정지 컷 검수 → 본 렌더(`img/<내일>-classic-s1.mp4` + `--still 0.4` 로 `.jpg`).
+   각 코너에 `scenes: [{after: 그 장면이 나오는 story 문단 번호(0부터), img, video, alt}]` (DATA-FORMAT.md 맨 아래). 지면은 그 문단 바로 아래에 '장면' 영상을 띄운다.
+   주의: `K.box(…)` 는 마지막 인자로 부모(scene 등)를 꼭 넘긴다(안 넘기면 화면에 안 나옴). 업힘·문 두드림처럼 겹치는 동작은 카메라를 비스듬히 두고 옷 색을 달리한다. 본보기: `scripts/m3d/scenes/2026-11-14-classic-s1~s4.js`, `2026-11-14-modern-s1~s4.js`.
+2. **쇼츠 대본** — 1분 문학 쇼츠 2편(유튜브 문학늬우스 채널): `scripts/shorts/README.md` 형식대로 `shorts/scripts/<내일>.json`
+   (opener 는 "1분 만에 떠먹여 주는, / 1분 문학!" 그대로 · 각 편 intro 1문장(연도·작가로 시작) · body 12~16문장(지면 story 를 따라 내용에 충실하게 — '1분'은 컨셉, 길이는 80~130초 안팎) · outro 2문장(연필이가 정리·인사) · scenes [{from: 본문 문장 번호, video}] 로 위 장면·대표 영상을 국면에 맞게 · 문장마다 ` / ` 로 자막 마디 표시 · 해요체 · 저작권 작품은 원문 인용 없이 내 말로).
+   그다음 `python3 scripts/shorts/shorts_job.py shorts/scripts/<내일>.json tts/jobs 2` → `tts/jobs/shorts-<내일>.json` (맥 TTS 넣기 때 함께 들어감). 확인: `DRY=1 python3 scripts/shorts/make_short.py shorts/scripts/<내일>.json classic /tmp/q . /tmp/dry.mp4` 가 오류 없이 도는지.
+3. 초안 화면 확인 때 1분 코너 문단 사이 장면 영상 자리도 본다. 보고에 장면 영상 수와 쇼츠 대본 길이도 적는다.
