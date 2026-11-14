@@ -79,7 +79,7 @@ m3d/README.md 방식: three.js 장면 → 먹 농담 후처리(망점 쓰지 않
 ## 발행 일정 (2026-11-14부터)
 - 전날 20:40 「초안」: 내일 날짜 호를 drafts/<내일>.json 으로 쓴다(삽화 영상·퍼즐·처방 포함, today.json·archive는 건드리지 않음). 그리고 `python3 scripts/tts/tts_jobs.py drafts/<내일>.json tts/jobs 2` 로 '듣기' 작업 파일을 만든다.
 - 전날 22:10 「맥 TTS 넣기」(맥 필요): tts/jobs/mnews-<내일>.json 과 (있으면) tts/jobs/shorts-<내일>.json 을 맥 ~/Downloads/qtts/jobs/ 에 넣는다 → 작업대기기가 밤새 Qwen3-TTS(마스코트 목소리 복제)로 생성.
-- 당일 05:10 「맥 TTS 거두기」(맥 필요): out/mnews-<날짜>/ 의 wav 를 받아 `scripts/tts/tts_post.py` 로 테이크 고르기·후처리 → audio/<날짜>-<코너>.mp3 커밋.
+- 당일 05:10 「맥 TTS 거두기」(맥 필요): out/mnews-<날짜>/ 의 wav 를 받아 `scripts/tts/tts_post.py` 로 테이크 고르기·후처리 → audio/<날짜>-<코너>.mp3 커밋. **1분 고전·1분 현대문학 '듣기'는 쇼츠 나레이션 본문을 그대로 씀**(발행인 11/14): out/shorts-<날짜>/ 도 받아 `python3 scripts/shorts/site_audio.py shorts/scripts/<날짜>.json /tmp/q audio` → audio/<날짜>-classic.mp3·-modern.mp3. (그래서 shorts_job.py 가 mnews 작업에서 1분 코너를 뺀다)
 - 당일 06:40 「발행」: `python3 scripts/publish_draft.py <날짜>` → make_share → 확인. 초안이 없으면 예전처럼 그 자리에서 다 쓴다.
 - '듣기'는 최근 3개 호만(publish_draft.py 가 오래된 mp3 를 지움). 늦게 도착한 음성은 `publish_draft.py --audio <날짜>`.
 - '듣기' 톤: 발행인 11/14 "샌디스크 올인처럼 차분한 톤, 이 톤으로 쭉 유지" — `tts_post.py` 기본값(배속 1.0, 쉼 0.40초, 문장 사이 0.6초, 낮은 톤 테이크 우선)을 바꾸지 않는다.
