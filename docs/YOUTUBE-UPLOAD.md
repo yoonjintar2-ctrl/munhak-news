@@ -8,7 +8,7 @@
 2. 가져오기: 맥에서 `cd ~/mnt/qtts/out && tar czf <tts_name>.tgz <tts_name> casual1/E_think.wav` → stage → `/tmp/q/out/` 에 풂.
 3. 지면 '듣기'(06:30 전 push): `python3 scripts/shorts/site_audio.py shorts/scripts/D.json /tmp/q audio` → `audio/D-classic.mp3`, `audio/D-modern.mp3` 커밋.
 4. 영상: `python3 scripts/shorts/make_short.py shorts/scripts/D.json classic /tmp/q . /tmp/v/D-classic.mp4` (modern 도; 한 편 5~8분).
-5. **검수**: `python3 scripts/shorts/qa_video.py shorts/scripts/D.json classic /tmp/v/D-classic.mp4 .` → ❌ 가 하나라도 있으면 고치고 다시 만든다(본문≠지면 → fill_body 다시, 자막 너무 빠름 → 대본 마디 손보기, 무음 → 테이크 확인). 그리고 `.qa.png` 를 Read 로 직접 보고: 자막·말풍선 잘림/겹침, 연필이 동작, 장면이 줄거리와 맞는지, 인서트 원 위치. 나레이션 첫 문장·마지막 문장 테이크를 들어 볼 수 없으니 `tts_post` 기준(화자 유사도·음높이)을 믿되, 길이가 1.6배 넘는 테이크가 골라졌으면 다시 본다. **통과 못 하면 올리지 않고 보고**.
+5. **검수**: `python3 scripts/shorts/qa_video.py shorts/scripts/D.json classic /tmp/v/D-classic.mp4 .` → ❌ 가 하나라도 있으면 고치고 다시 만든다(본문≠지면 → fill_body 다시, 자막 너무 빠름 → 대본 마디 손보기, 무음 → 테이크 확인). 그리고 `.qa.png` 를 Read 로 직접 보고: 자막·말풍선 잘림/겹침, 연필이 동작, 장면이 줄거리와 맞는지, **장면 속 방향**(차·수레·배가 앞으로 가는지, 탄 사람이 진행 방향을 보는지 — 11/14 운전 장면 실수. 이상하면 그 장면을 고쳐 다시 렌더하고 사이트 영상도 같이 교체), 인서트 원 위치. 나레이션 첫 문장·마지막 문장 테이크를 들어 볼 수 없으니 `tts_post` 기준(화자 유사도·음높이)을 믿되, 길이가 1.6배 넘는 테이크가 골라졌으면 다시 본다. **통과 못 하면 올리지 않고 보고**.
 6. 썸네일: 대본 `C.yt.thumb`(두 줄) → `python3 scripts/shorts/make_thumb.py shorts/scripts/D.json classic /tmp/v/D-classic-thumb.jpg .` → Read 로 확인.
 7. 파일 옮기기(크롬 file_upload 는 3.8MB 까지라 우회): 임시 고아 브랜치 `video-upload` 에 mp4·thumb 만 넣어 force-push
    (`git init /tmp/vup && cd /tmp/vup && git checkout --orphan video-upload && cp … && git add . && git commit -m "업로드용 D" && git push -f https://github.com/yoonjintar2-ctrl/munhak-news video-upload`, 원격·인증은 저장소와 같게).
