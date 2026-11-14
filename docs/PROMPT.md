@@ -92,6 +92,7 @@ m3d/README.md 방식: three.js 장면 → 먹 농담 후처리(망점 쓰지 않
 2. **1분 문학 영상 대본** — 매일 2편(유튜브 문학늬우스 채널). 발행인 11/14: "1분 많이 넘으면 숏츠 말고 그냥 영상으로", "사람들이 틀어두고 문학을 들을 수 있는 영상" → **가로 16:9 일반 영상**(`format: landscape`, 3분 안쪽 세로 영상은 유튜브가 쇼츠로 분류하므로), 본문 동안 오른쪽 아래 원형 인서트에 연필이가 말하는 모습(수어 통역 화면처럼). **본문은 지면 줄거리(story)를 한 글자도 바꾸지 않고 전부 읽는다**(발행인 11/14: "쇼츠 나레이션이 사이트 작품 요약 텍스트를 전부 다 읽게").
    `shorts/scripts/<내일>.json` 에 사람이 쓰는 건 opener("1분 만에 떠먹여 주는, / 1분 문학!" 그대로)와 각 편 intro 1문장(연도·작가로 시작) · outro 2~4문장(연필이가 정리·인사, 줄거리 되풀이 금지, 결말은 지면 ending 범위 안에서)뿐 — `body`·`scenes` 는
    `python3 scripts/shorts/fill_body.py shorts/scripts/<내일>.json drafts/<내일>.json` 이 지면 story 문장 그대로 채우고(자막 마디 ` / ` 자동), 문단마다 그 문단 장면(scenes.after) 영상을 배경으로 잡는다.
+   각 편에 `yt: {"thumb": ["썸네일 첫 줄", "둘째 줄"](각 8자 안팎, 내용 한 방), "title": "유튜브 제목(100자 안, 첫 낱말에 작품·작가, 끝에 | 1분 문학 #해시태그 3~4개)"}` 도 쓴다(docs/YOUTUBE-UPLOAD.md — 아침에 영상을 만들고 검수해 자동 업로드).
    **길이**: 가로 일반 영상이라 길이 제한 없음 — story 는 원래 규칙대로 1,000~1,600자(영상 약 2분 30초~4분).
    그다음 `python3 scripts/shorts/shorts_job.py shorts/scripts/<내일>.json tts/jobs 2` → `tts/jobs/shorts-<내일>.json` (맥 TTS 넣기 때 함께 들어감, 같은 날 mnews 작업에서 1분 코너는 자동으로 빠짐). 확인: `DRY=1 python3 scripts/shorts/make_short.py shorts/scripts/<내일>.json classic /tmp/q . /tmp/dry.mp4` 가 오류 없이 도는지.
 3. 초안 화면 확인 때 1분 코너 문단 사이 장면 영상 자리도 본다. 보고에 장면 영상 수와 쇼츠 대본 길이도 적는다.
