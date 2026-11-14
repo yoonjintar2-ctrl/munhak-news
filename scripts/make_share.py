@@ -9,8 +9,8 @@ import hashlib, html, json, os, re, sys, glob
 
 SITE = "https://mnews.jintar.co.kr/"
 OUT = "s"
-SECS = ["sentence", "poem", "novel", "writer", "puzzle", "trivia", "classic", "rx", "day", "modern"]
-NAME = {"sentence": "오늘의 문장", "poem": "오늘의 시", "novel": "오늘의 소설 구절", "writer": "오늘의 문인", "puzzle": "낱말 퍼즐", "trivia": "문학 상식 OX", "classic": "1분 고전", "rx": "기분 처방전", "day": "그날의 문학", "modern": "1분 현대문학"}
+SECS = ["sentence", "poem", "novel", "writer", "puzzle", "trivia", "classic", "rx", "day", "modern", "go", "zodiac"]
+NAME = {"sentence": "오늘의 문장", "poem": "오늘의 시", "novel": "오늘의 소설 구절", "writer": "오늘의 문인", "puzzle": "낱말 퍼즐", "trivia": "문학 상식 OX", "classic": "1분 고전", "rx": "기분 처방전", "day": "그날의 문학", "modern": "1분 현대문학", "go": "오늘의 한 수", "zodiac": "띠별 오늘의 문장"}
 
 
 def esc(x):
@@ -57,17 +57,78 @@ def content(D, sec):
                 "O일까, X일까?", esc(clip(T[0]["q"], 70)) if T else "", None, f"{len(T)}문항 · 정답과 해설은 지면에서")
     if sec in ("classic", "modern"):
         C = D[sec]
-        return (f"{NAME[sec]} · {C['writer']} 「{C['title']}」", clip(C.get("oneline", "") + " " + " ".join(C.get("story") or C.get("lines", [])), 110),
-                f"「{esc(C['title'])}」", esc(clip(C.get("oneline"), 80)), None, f"{esc(C['writer'])} · {C['year']} · 1분이면 읽는 줄거리")
+        sc = (C.get("scenes") or [])
+        img = (sc[0].get("img") if sc and sc[0].get("img") else None) or C.get("img")
+        return (f"{NAME[sec]} · {C['writer']} 「{C['title']}」 — {clip(C.get('oneline', ''), 50)}", clip(" ".join(C.get("story") or C.get("lines", [])), 110),
+                f"「{esc(C['title'])}」", esc(clip(C.get("oneline"), 80)), img, f"{esc(C['writer'])} · {C['year']} · 1분이면 읽는 줄거리")
+    if sec == "go":
+        G = D["go"]
+        return (f"오늘의 한 수 · {G['title']} — {G['white'] if G['key'] % 2 == 0 else G['black']}, {G['game']}", clip(G.get("lead", "") + " " + " ".join(G.get("body") or []), 110),
+                esc(G["title"]), esc(clip(G.get("lead"), 90)), None, f"{esc(G['game'])} · {G['date'].replace('-', '.')} · 흑 {esc(G['black'])} · 백 {esc(G['white'])}")
+    if sec == "zodiac":
+        Z = D["zodiac"]
+        return (f"띠별 오늘의 문장 · {Z[0]['animal']}띠 「{Z[0]['work']}」 외 {len(Z) - 1}편 — 운세 대신 문장 한 줄", " / ".join(f"{z['animal']}띠 “{clip(z['text'].replace(' / ', ' '), 22)}”" for z in Z[:5])[:110],
+                "띠별<br>오늘의 문장", esc(" · ".join(f"{z['animal']}띠 「{z['work']}」" for z in Z[:4])) + " …", None, "운세 대신 문장 한 줄 · 열두 띠")
     if sec == "day":
         Y = D.get("onthisday") or []
         m, dd = D["date"][5:].split("-")
         return (f"그날의 문학 · {int(m)}월 {int(dd)}일 — {clip(Y[0]['title'], 40)}" if Y else "그날의 문학", " / ".join(y["year"] + " " + y["title"] for y in Y)[:110],
-                f"{int(m)}월 {int(dd)}일,<br>그해에는", esc(clip(Y[0]["year"] + " · " + Y[0]["title"], 80)) if Y else "", None, " · ".join(y["year"] for y in Y))
+                esc(clip(Y[0]["title"], 40)) if Y else f"{int(m)}월 {int(dd)}일", esc(clip(Y[0].get("body") or "", 90)) if Y else "", None, " · ".join(f"{y['year']} {clip(y['title'], 18)}" for y in Y[1:3]) or "오늘 날짜의 문학사")
     if sec == "rx":
+        try:
+            N = [i for i in json.load(open("data/rx.json", encoding="utf-8"))["items"] if i.get("added") == D["date"]]
+        except Exception:
+            N = []
+        if N:
+            x = N[0]
+            return (f"기분 처방전 · 오늘 들어온 약 “{clip(x['text'], 40)}” — {x['writer']} 「{x['work']}」", clip(x.get("dose", "") + " · 오늘 들어온 약 " + str(len(N)) + "알: " + ", ".join(f"{i['writer']} 「{i['work']}」" for i in N[1:]), 110),
+                    "“" + esc(clip(x["text"].replace(" / ", " "), 50)) + "”", esc(clip(x.get("dose"), 80)), None, f"{esc(x['writer'])} 「{esc(x['work'])}」 · 오늘 들어온 약 {len(N)}알")
         return ("기분 처방전 · 오늘 기분에 맞는 문장 한 알", "지쳤어요·울적해요·불안해요·화나요·설레요·멍해요 — 기분을 고르면 금로동 약사가 문장 한 알을 지어 드립니다.",
                 "오늘 기분에<br>문장 한 알", "기분을 고르면 출처가 분명한 문장을 처방해 드려요.", None, "문학 약국 · 금로동 약사")
     raise KeyError(sec)
+
+
+def go_svg(G, px):
+    """오늘의 한 수 기보(지면 goBoard 와 같은 규칙: 처음부터 to 수까지 두며 따낸 돌 제거, from~to 번호, key 동그라미)"""
+    N = 19; b = {}; num = {}; mv = G["moves"].split()
+    def nb(x, y): return [(a, c) for a, c in ((x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)) if 0 <= a < N and 0 <= c < N]
+    def grp(x, y):
+        c = b[(x, y)]; seen = {(x, y)}; st = [(x, y)]; libs = 0; g = []
+        while st:
+            p = st.pop(); g.append(p)
+            for q in nb(*p):
+                if q in seen: continue
+                if q not in b: seen.add(q); libs += 1
+                elif b[q] == c: seen.add(q); st.append(q)
+        return g, libs
+    for i, m in enumerate(mv[:G["to"]]):
+        if len(m) < 2: continue
+        x, y = ord(m[0]) - 97, ord(m[1]) - 97; c = (G.get("colors") or [None] * 999)[i] or ("W" if i % 2 else "B")
+        b[(x, y)] = c
+        if i + 1 >= G["from"]: num[(x, y)] = i + 1
+        for q in nb(x, y):
+            if q in b and b[q] != c:
+                g, l = grp(*q)
+                if not l:
+                    for p in g: b.pop(p, None); num.pop(p, None)
+    S, O = 30, 20; W = O * 2 + S * (N - 1)
+    # 카드는 작으니 핵심 수 주변 11줄만 크게(번호가 읽히게)
+    km = mv[G["key"] - 1]; kx, ky = ord(km[0]) - 97, ord(km[1]) - 97
+    x0 = min(max(kx - 5, 0), N - 11); y0 = min(max(ky - 5, 0), N - 11)
+    vb = f"{O + (x0 - .6) * S} {O + (y0 - .6) * S} {11.2 * S - S} {11.2 * S - S}"
+    o = [f'<svg viewBox="{vb}" width="{px}" height="{px}" xmlns="http://www.w3.org/2000/svg" style="background:#f4f3ee;border:3px solid #1A1A1A;display:block">']
+    for i in range(N):
+        sw = 1.6 if i in (0, N - 1) else .8
+        o.append(f'<line x1="{O}" y1="{O + i * S}" x2="{O + (N - 1) * S}" y2="{O + i * S}" stroke="#1a1a1a" stroke-width="{sw}"/><line x1="{O + i * S}" y1="{O}" x2="{O + i * S}" y2="{O + (N - 1) * S}" stroke="#1a1a1a" stroke-width="{sw}"/>')
+    for a in (3, 9, 15):
+        for c in (3, 9, 15): o.append(f'<circle cx="{O + a * S}" cy="{O + c * S}" r="3.4" fill="#1a1a1a"/>')
+    for (x, y), c in b.items():
+        cx, cy = O + x * S, O + y * S; blk = c == "B"; n = num.get((x, y))
+        o.append(f'<circle cx="{cx}" cy="{cy}" r="13.6" fill="{"#1a1a1a" if blk else "#fbfaf6"}" stroke="#1a1a1a" stroke-width="1.3"/>')
+        if n: o.append(f'<text x="{cx}" y="{cy + 4.6}" font-size="{11 if n > 99 else 13}" font-weight="{900 if n == G["key"] else 700}" text-anchor="middle" fill="{"#fbfaf6" if blk else "#1a1a1a"}">{n}</text>')
+        if n == G["key"]: o.append(f'<circle cx="{cx}" cy="{cy}" r="18.5" fill="none" stroke="#A01E1E" stroke-width="3"/>')
+    o.append("</svg>")
+    return "".join(o)
 
 
 CARD = """<!doctype html><html><head><meta charset="utf-8">
@@ -203,7 +264,18 @@ def main(dates):
             elif sec == "trivia":
                 right = '<div class="r" style="width:330px;display:flex;gap:22px;top:150px"><b style="width:150px;height:150px;border:5px solid #1A1A1A;display:grid;place-items:center;font-size:110px;font-weight:900;line-height:1">O</b><b style="width:150px;height:150px;border:5px solid #1A1A1A;display:grid;place-items:center;font-size:110px;font-weight:900;line-height:1;background:#1A1A1A;color:#EDEDED">X</b></div>'
                 lw = 740
-            elif sec in ("rx", "classic", "day", "modern"):
+            elif sec == "go":
+                right = '<div class="r" style="width:450px;top:96px">' + go_svg(D["go"], 418) + '<div class="cap">기보 일부 · 붉은 동그라미가 오늘의 한 수</div></div>'
+                lw = 600
+            elif sec == "zodiac":
+                ic = "".join(f'<div style="text-align:center"><img src="file://{os.path.abspath("img/zodiac/" + z["key"] + ".png")}" style="width:72px;height:72px;border:2.5px solid #1A1A1A;border-radius:50%;padding:9px;background:#f4f3ee;display:block;margin:0 auto"><div style="font-size:17px;font-weight:900;margin-top:4px">{esc(z["animal"])}</div></div>' for z in D["zodiac"])
+                right = f'<div class="r" style="width:470px;top:104px;display:grid;grid-template-columns:repeat(4,1fr);gap:12px 8px">{ic}</div>'
+                lw = 600
+            elif sec == "day":
+                Y = D.get("onthisday") or []; m_, d_ = d[5:].split("-")
+                right = f'<div class="r" style="width:300px;top:110px"><div style="width:270px;margin-left:auto;background:#f9f8f3;border:3px solid #1A1A1A;box-shadow:10px 10px 0 #1A1A1A;text-align:center"><div style="background:#A01E1E;color:#fff;font-size:28px;font-weight:900;padding:8px">{int(m_)}월</div><div style="font-size:150px;font-weight:900;line-height:1.15">{int(d_)}</div><div style="font-size:26px;font-weight:900;border-top:2px solid #1A1A1A;padding:10px">{esc(Y[0]["year"]) if Y else ""}년</div></div></div>'
+                lw = 760
+            elif sec in ("rx",):
                 lbl = {"rx": "文學<br>藥局", "classic": "1分<br>古典", "day": "今日<br>文學", "modern": "1分<br>現代"}[sec]
                 right = f'<div class="r" style="width:300px;top:120px"><div style="width:280px;height:330px;margin-left:auto;background:#f9f8f3;border:3px solid #1A1A1A;box-shadow:10px 10px 0 #1A1A1A;position:relative;padding:22px"><div style="font-size:30px;font-weight:900;border-bottom:4px double #1A1A1A;padding-bottom:8px">{ {"rx":"문학 약국","classic":"1분 고전","day":"그날의 문학","modern":"1분 현대문학"}[sec] }</div><div style="font-size:18px;color:#A01E1E;font-weight:700;margin-top:10px">{ {"rx":"처방전 · 內服藥","classic":"1분이면 읽는 줄거리","day":"오늘 날짜의 문학사","modern":"요즘 소설 1분 요약"}[sec] }</div><div style="position:absolute;right:24px;bottom:28px;width:110px;height:110px;border:5px solid #A01E1E;border-radius:50%;color:#A01E1E;font-size:26px;font-weight:900;line-height:1.15;display:grid;place-items:center;text-align:center;transform:rotate(-14deg)">{lbl}</div></div></div>'
                 lw = 760
