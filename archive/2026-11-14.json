@@ -442,5 +442,14 @@
     "clue": "사람 아닌 것을 사람처럼 그리는 표현"
    }
   ]
+ },
+ "audio": {
+  "classic": "audio/2026-11-14-classic.mp3",
+  "day": "audio/2026-11-14-day.mp3",
+  "modern": "audio/2026-11-14-modern.mp3",
+  "novel": "audio/2026-11-14-novel.mp3",
+  "poem": "audio/2026-11-14-poem.mp3",
+  "sentence": "audio/2026-11-14-sentence.mp3",
+  "writer": "audio/2026-11-14-writer.mp3"
  }
 }
