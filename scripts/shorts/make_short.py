@@ -31,6 +31,20 @@ def ensure_fonts():
     for n in ('ExtraBold', 'SemiBold'): shutil.copy(os.path.join(tmp, 'package/dist/public/static', f'Pretendard-{n}.otf'), FONTS)
 SAFE_L, SAFE_R = 90, 930           # 글자 가로 범위(오른쪽 버튼 열 피함)
 CX = (SAFE_L + SAFE_R) // 2
+# 화면 틀: 대본의 "format" — landscape(기본, 11/14 발행인 "1분 많이 넘으면 숏츠 말고 그냥 영상으로": 3분 안쪽 세로 영상은 유튜브가 쇼츠로 분류하므로 가로 16:9 일반 영상) | portrait(쇼츠)
+LAYOUTS = {
+    'portrait': dict(W=1080, H=1920, SAFE_L=90, SAFE_R=930, sub_y=1215, sub_size=76, hdr_y=190, frame=(830, 90, 400), masc='shorts',
+                     bub=dict(cx=510, top=300, tail='down')),
+    'landscape': dict(W=1920, H=1080, SAFE_L=150, SAFE_R=1560, sub_y=968, sub_size=64, hdr_y=30, frame=(1140, 390, 110), masc='video',
+                      bub=dict(left=820, cy=330, tail='left', maxw=950),
+                      inset=dict(d=310, x=1580, y=690)),     # 11/14 발행인: 가로 영상이면 수어 통역 화면처럼 오른쪽 아래 동그라미에 연필이가 말하는 모습(본문 동안)
+}
+LY = LAYOUTS['portrait']
+
+
+def set_layout(fmt):
+    global W, H, SAFE_L, SAFE_R, CX, LY
+    LY = LAYOUTS[fmt]; W, H, SAFE_L, SAFE_R = LY['W'], LY['H'], LY['SAFE_L'], LY['SAFE_R']; CX = (SAFE_L + SAFE_R) // 2
 LABEL = {'classic': '1분 고전', 'modern': '1분 현대문학'}
 
 
@@ -123,24 +137,28 @@ def text_img(txt, f, fill, stroke=0, stroke_fill=(0, 0, 0)):
 
 
 def bubble(txt):
-    """흰 말풍선(색 없음), 글자 가로·세로 정중앙, 덜 꽉 차게."""
-    size = 66
+    """흰 말풍선(색 없음), 글자 가로·세로 정중앙, 덜 꽉 차게. 꼬리: 세로=아래(연필이 머리 쪽), 가로=왼쪽(연필이 쪽)."""
+    B = LY['bub']; maxw = B.get('maxw', SAFE_R - SAFE_L); size = 66
     while True:                                            # 긴 마디는 글자를 줄여 안전 영역 안에
         f = font(FONT_B, size); t = text_img(txt, f, (25, 25, 25))
-        if t.width + 2 * 56 <= SAFE_R - SAFE_L or size <= 44: break
+        if t.width + 2 * 56 <= maxw or size <= 44: break
         size -= 3
-    pw, ph = 70 if t.width + 140 <= SAFE_R - SAFE_L else 56, 44; bw = min(SAFE_R - SAFE_L, t.width + pw * 2); bh = t.height + ph * 2
-    im = Image.new('RGBA', (bw + 20, bh + 50), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
-    sh = Image.new('RGBA', im.size, (0, 0, 0, 0)); ImageDraw.Draw(sh).rounded_rectangle((10, 16, bw + 10, bh + 16), 46, fill=(90, 60, 20, 60))
+    pw, ph = (70 if t.width + 140 <= maxw else 56), 44; bw = min(maxw, t.width + pw * 2); bh = t.height + ph * 2
+    L = 44 if B['tail'] == 'left' else 0                   # 왼쪽 꼬리 자리
+    im = Image.new('RGBA', (bw + 20 + L, bh + 50), (0, 0, 0, 0))
+    sh = Image.new('RGBA', im.size, (0, 0, 0, 0)); ImageDraw.Draw(sh).rounded_rectangle((10 + L, 16, bw + 10 + L, bh + 16), 46, fill=(90, 60, 20, 60))
     im = Image.alpha_composite(im, sh.filter(ImageFilter.GaussianBlur(10))); d = ImageDraw.Draw(im)
-    d.rounded_rectangle((10, 6, bw + 10, bh + 6), 46, fill=(255, 255, 255, 255))
-    tx = bw // 2 + 10; d.polygon([(tx - 26, bh + 4), (tx + 26, bh + 4), (tx, bh + 40)], fill=(255, 255, 255, 255))
-    im.alpha_composite(t, (10 + (bw - t.width) // 2, 6 + (bh - t.height) // 2))
+    d.rounded_rectangle((10 + L, 6, bw + 10 + L, bh + 6), 46, fill=(255, 255, 255, 255))
+    if B['tail'] == 'left':
+        ty = 6 + bh // 2 + 10; d.polygon([(L + 14, ty - 24), (L + 14, ty + 24), (2, ty + 34)], fill=(255, 255, 255, 255))
+    else:
+        tx = bw // 2 + 10; d.polygon([(tx - 26, bh + 4), (tx + 26, bh + 4), (tx, bh + 40)], fill=(255, 255, 255, 255))
+    im.alpha_composite(t, (10 + L + (bw - t.width) // 2, 6 + (bh - t.height) // 2))
     return im
 
 
 def subtitle(txt):
-    size = 76
+    size = LY['sub_size']
     while True:                                            # 긴 마디는 글자를 줄여 안전 영역(가로 840) 안에
         im = text_img(txt, font(FONT_B, size), (255, 255, 255), stroke=max(6, size // 8), stroke_fill=(18, 18, 18))
         if im.width <= SAFE_R - SAFE_L or size <= 48: return im
@@ -173,7 +191,7 @@ def frames_of(mp4, w=None, h=None):
 
 def frame_files(mp4):
     """큰 마스코트 영상은 메모리 대신 jpg 프레임 파일로 풀어 두고 그때그때 연다."""
-    d = os.path.join('/tmp', 'mascot_frames', os.path.splitext(os.path.basename(mp4))[0])
+    d = os.path.join('/tmp', 'mascot_frames', os.path.basename(os.path.dirname(mp4)) + '-' + os.path.splitext(os.path.basename(mp4))[0])
     if not os.path.isdir(d) or not os.listdir(d):
         os.makedirs(d, exist_ok=True); subprocess.run(['ffmpeg', '-v', 'error', '-i', mp4, '-q:v', '2', os.path.join(d, '%03d.jpg')], check=True)
     return sorted(glob.glob(os.path.join(d, '*.jpg')))
@@ -193,6 +211,7 @@ def dry_audio(keys, sr=24000):
 
 def main(script, kind, qdir, repo, out):
     ensure_fonts()
+    set_layout(json.load(open(script, encoding='utf-8')).get('format', 'landscape'))
     sys.path.insert(0, os.path.join(repo, 'scripts', 'tts')); import tts_jobs as J
     S = json.load(open(script, encoding='utf-8')); C = S[kind]; D = S['date']
     lines = [('intro', l) for l in C['intro']] + [('body', l) for l in C['body']] + [('outro', l) for l in C['outro']]
@@ -220,20 +239,21 @@ def main(script, kind, qdir, repo, out):
     for sec, line, a, b in lines: segs_t.setdefault(sec, [a, b]); segs_t[sec][1] = b
     segs_t['intro'][0] = 0; segs_t['outro'][1] = total
     outro_lines = [l for l in lines if l[0] == 'outro']
-    masc = {k: frame_files(os.path.join(repo, 'img', 'mascot', 'shorts', f'{k}.mp4')) for k in ('hello', 'think', 'bow')}
+    masc = {k: frame_files(os.path.join(repo, 'img', 'mascot', LY['masc'], f'{k}.mp4')) for k in ('hello', 'think', 'bow')}
     # 11/14 장면 삽화: 본문 문장 번호(from)부터 그 장면 영상으로 — scenes 가 없으면 대표 영상 하나
     SCN = sorted(C.get('scenes') or [{'from': 0, 'video': C['video']}], key=lambda x: x['from'])
     body_rng = []; bi = 0
     for sec, line, a, b in lines:
         if sec == 'body': body_rng.append((a, b, bi)); bi += 1
-    FW = 830; FH = int(FW * 640 / 960); FX, FY = SAFE_L, 400       # 오른쪽 버튼 열(940~) 피함
+    FW, FX, FY = LY['frame']; FH = int(FW * 640 / 960)       # 세로: 오른쪽 버튼 열(940~) 피함 / 가로: 가운데 큰 액자
     cur_vid = {'path': None}
 
     def scene_frames(path):
         if cur_vid['path'] != path:                                  # 지금 장면만 메모리에(배경은 작게 흐려 두고 그릴 때 키움)
             ill = frames_of(os.path.join(repo, path))
-            sw = int(ill[0].width * 640 / ill[0].height)
-            bg = [Image.blend(im.resize((sw, 640), Image.BICUBIC).crop(((sw - 360) // 2, 0, (sw - 360) // 2 + 360, 640)).filter(ImageFilter.GaussianBlur(9)), Image.new('RGB', (360, 640), (40, 40, 40)), 0.35) for im in ill]
+            bw_, bh_ = (360, 640) if H > W else (640, 360)          # 배경은 작게 흐려 두고 그릴 때 키움
+            sc_ = max(bw_ / ill[0].width, bh_ / ill[0].height); rw, rh = int(ill[0].width * sc_ + 1), int(ill[0].height * sc_ + 1)
+            bg = [Image.blend(im.resize((rw, rh), Image.BICUBIC).crop(((rw - bw_) // 2, (rh - bh_) // 2, (rw - bw_) // 2 + bw_, (rh - bh_) // 2 + bh_)).filter(ImageFilter.GaussianBlur(9)), Image.new('RGB', (bw_, bh_), (40, 40, 40)), 0.35) for im in ill]
             fg = [im.resize((FW, FH), Image.LANCZOS) for im in ill]
             cur_vid.update(path=path, bg=bg, fg=fg)
         return cur_vid['bg'], cur_vid['fg']
@@ -248,6 +268,13 @@ def main(script, kind, qdir, repo, out):
         return v
     hdr = header(kind, C['title'], C['writer'])
     cache = {}
+    ins = None
+    if LY.get('inset'):                                           # 원형 인서트(연필이 talk) — 흰 테두리 + 옅은 그림자
+        I = LY['inset']; d = I['d']; tf = frame_files(os.path.join(repo, 'img', 'mascot', 'video', 'talk.mp4'))
+        mask = Image.new('L', (d, d), 0); ImageDraw.Draw(mask).ellipse((0, 0, d - 1, d - 1), fill=255)
+        ring = Image.new('RGBA', (d + 40, d + 40), (0, 0, 0, 0)); ImageDraw.Draw(ring).ellipse((14, 18, d + 26, d + 30), fill=(0, 0, 0, 90)); ring = ring.filter(ImageFilter.GaussianBlur(8))
+        ImageDraw.Draw(ring).ellipse((12, 12, d + 27, d + 27), fill=(255, 255, 255, 255))
+        ins = dict(I=I, tf=tf, mask=mask, ring=ring)
     ff = subprocess.Popen(['ffmpeg', '-v', 'error', '-y', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}', '-r', str(FPS), '-i', '-',
                            '-i', narr, '-stream_loop', '-1', '-i', os.path.join(HERE, 'bgm', 'munhak-bgm-a.mp3'),
                            '-filter_complex', ('[1:a]aresample=44100,volume=1.0[n];[2:a]volume=0.13,afade=t=out:st=%.2f:d=1.2[m];[n][m]amix=inputs=2:duration=first:normalize=0' + ('' if os.environ.get('DRY') else ',loudnorm=I=-15:TP=-1.5') + '[a]') % (total - 1.3),
@@ -264,15 +291,19 @@ def main(script, kind, qdir, repo, out):
             else: mv = 'think' if tt < outro_lines[-1][2] else 'bow'
             fs = masc[mv]; fr = Image.open(fs[fi % len(fs)]).convert('RGB')
         fr = fr.convert('RGBA')
-        fr.alpha_composite(hdr, ((W - hdr.width) // 2 - 20, 190))
+        if ins and sec == 'body':
+            I = ins['I']; d = I['d']; fr.alpha_composite(ins['ring'], (I['x'] - 20, I['y'] - 20))
+            face = Image.open(ins['tf'][fi % len(ins['tf'])]).convert('RGB').resize((d, d), Image.LANCZOS); fr.paste(face, (I['x'], I['y']), ins['mask'])
+        fr.alpha_composite(hdr, ((W - hdr.width) // 2 - (20 if H > W else 0), LY['hdr_y']))
         cur = [it for it in items if it['a'] <= tt < it['b']]
         if cur:
             it = cur[-1]; key = (it['sec'] == 'body', it['txt'])
             if key not in cache: cache[key] = subtitle(it['txt']) if key[0] else bubble(it['txt'])
             im = cache[key]; age = tt - it['a']; sc = 0.9 + 0.1 * min(1, age / 0.12)       # 짧게 톡 튀어나옴
             if sc < 1: im = im.resize((max(1, int(im.width * sc)), max(1, int(im.height * sc))), Image.BICUBIC)
-            if key[0]: x, y = CX - im.width // 2, 1215 - im.height // 2
-            else: x, y = CX - im.width // 2, 300 + int((1 - sc) * 60)
+            if key[0]: x, y = CX - im.width // 2, LY['sub_y'] - im.height // 2
+            elif LY['bub']['tail'] == 'left': x, y = LY['bub']['left'] + int((1 - sc) * 30), LY['bub']['cy'] - im.height // 2
+            else: x, y = LY['bub']['cx'] - im.width // 2, LY['bub']['top'] + int((1 - sc) * 60)
             fr.alpha_composite(im, (x, y))
         ff.stdin.write(fr.convert('RGB').tobytes())
     ff.stdin.close(); ff.wait()
