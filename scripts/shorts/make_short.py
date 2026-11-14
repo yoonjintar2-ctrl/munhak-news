@@ -124,8 +124,12 @@ def text_img(txt, f, fill, stroke=0, stroke_fill=(0, 0, 0)):
 
 def bubble(txt):
     """흰 말풍선(색 없음), 글자 가로·세로 정중앙, 덜 꽉 차게."""
-    f = font(FONT_B, 66); t = text_img(txt, f, (25, 25, 25))
-    pw, ph = 70, 44; bw = min(SAFE_R - SAFE_L, t.width + pw * 2); bh = t.height + ph * 2
+    size = 66
+    while True:                                            # 긴 마디는 글자를 줄여 안전 영역 안에
+        f = font(FONT_B, size); t = text_img(txt, f, (25, 25, 25))
+        if t.width + 2 * 56 <= SAFE_R - SAFE_L or size <= 44: break
+        size -= 3
+    pw, ph = 70 if t.width + 140 <= SAFE_R - SAFE_L else 56, 44; bw = min(SAFE_R - SAFE_L, t.width + pw * 2); bh = t.height + ph * 2
     im = Image.new('RGBA', (bw + 20, bh + 50), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
     sh = Image.new('RGBA', im.size, (0, 0, 0, 0)); ImageDraw.Draw(sh).rounded_rectangle((10, 16, bw + 10, bh + 16), 46, fill=(90, 60, 20, 60))
     im = Image.alpha_composite(im, sh.filter(ImageFilter.GaussianBlur(10))); d = ImageDraw.Draw(im)
@@ -136,7 +140,11 @@ def bubble(txt):
 
 
 def subtitle(txt):
-    f = font(FONT_B, 76); return text_img(txt, f, (255, 255, 255), stroke=9, stroke_fill=(18, 18, 18))
+    size = 76
+    while True:                                            # 긴 마디는 글자를 줄여 안전 영역(가로 840) 안에
+        im = text_img(txt, font(FONT_B, size), (255, 255, 255), stroke=max(6, size // 8), stroke_fill=(18, 18, 18))
+        if im.width <= SAFE_R - SAFE_L or size <= 48: return im
+        size -= 4
 
 
 def header(kind, title, writer):
@@ -191,7 +199,7 @@ def main(script, kind, qdir, repo, out):
     keys = [(f'{kind}_{i:02d}', J.ko(l.replace(' / ', ' '))) for i, (_, l) in enumerate(lines)]
     if S.get('opener'):          # 11/14 발행인: 맨 처음에 컨셉 소개("1분 만에 떠먹여 주는, 1분 문학!") — 두 편 공통, 나레이션 id open_00
         lines = [('intro', S['opener'])] + lines; keys = [('open_00', J.ko(S['opener'].replace(' / ', ' ')))] + keys
-    clips, sr = dry_audio(keys) if os.environ.get('DRY') else build_audio(qdir, f'shorts-{D}', keys, repo)
+    clips, sr = dry_audio(keys) if os.environ.get('DRY') else build_audio(qdir, S.get('tts_name') or f'shorts-{D}', keys, repo)
     # 타임라인
     t = 0.35; items = []; audio = [np.zeros(int(sr * 0.35), np.float32)]
     for i, ((sec, line), (w, segs)) in enumerate(zip(lines, clips)):

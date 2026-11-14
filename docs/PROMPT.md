@@ -89,7 +89,9 @@ m3d/README.md 방식: three.js 장면 → 먹 농담 후처리(망점 쓰지 않
    1분 고전·1분 현대문학 각각, 대표 영상과 겹치지 않는 국면 전환 장면 **3~4개**를 `scripts/m3d/scenes/<내일>-classic-s1.js` … `<내일>-modern-s4.js` 로 만들고 대표 영상과 같은 방식으로 정지 컷 검수 → 본 렌더(`img/<내일>-classic-s1.mp4` + `--still 0.4` 로 `.jpg`).
    각 코너에 `scenes: [{after: 그 장면이 나오는 story 문단 번호(0부터), img, video, alt}]` (DATA-FORMAT.md 맨 아래). 지면은 그 문단 바로 아래에 '장면' 영상을 띄운다.
    주의: `K.box(…)` 는 마지막 인자로 부모(scene 등)를 꼭 넘긴다(안 넘기면 화면에 안 나옴). 업힘·문 두드림처럼 겹치는 동작은 카메라를 비스듬히 두고 옷 색을 달리한다. 본보기: `scripts/m3d/scenes/2026-11-14-classic-s1~s4.js`, `2026-11-14-modern-s1~s4.js`.
-2. **쇼츠 대본** — 1분 문학 쇼츠 2편(유튜브 문학늬우스 채널): `scripts/shorts/README.md` 형식대로 `shorts/scripts/<내일>.json`
-   (opener 는 "1분 만에 떠먹여 주는, / 1분 문학!" 그대로 · 각 편 intro 1문장(연도·작가로 시작) · body 12~16문장(지면 story 를 따라 내용에 충실하게 — '1분'은 컨셉, 길이는 80~130초 안팎) · outro 2문장(연필이가 정리·인사) · scenes [{from: 본문 문장 번호, video}] 로 위 장면·대표 영상을 국면에 맞게 · 문장마다 ` / ` 로 자막 마디 표시 · 해요체 · 저작권 작품은 원문 인용 없이 내 말로).
-   그다음 `python3 scripts/shorts/shorts_job.py shorts/scripts/<내일>.json tts/jobs 2` → `tts/jobs/shorts-<내일>.json` (맥 TTS 넣기 때 함께 들어감). 확인: `DRY=1 python3 scripts/shorts/make_short.py shorts/scripts/<내일>.json classic /tmp/q . /tmp/dry.mp4` 가 오류 없이 도는지.
+2. **쇼츠 대본** — 1분 문학 쇼츠 2편(유튜브 문학늬우스 채널). **본문은 지면 줄거리(story)를 한 글자도 바꾸지 않고 전부 읽는다**(발행인 11/14: "쇼츠 나레이션이 사이트 작품 요약 텍스트를 전부 다 읽게").
+   `shorts/scripts/<내일>.json` 에 사람이 쓰는 건 opener("1분 만에 떠먹여 주는, / 1분 문학!" 그대로)와 각 편 intro 1문장(연도·작가로 시작) · outro 2~4문장(연필이가 정리·인사, 줄거리 되풀이 금지, 결말은 지면 ending 범위 안에서)뿐 — `body`·`scenes` 는
+   `python3 scripts/shorts/fill_body.py shorts/scripts/<내일>.json drafts/<내일>.json` 이 지면 story 문장 그대로 채우고(자막 마디 ` / ` 자동), 문단마다 그 문단 장면(scenes.after) 영상을 배경으로 잡는다.
+   **길이**: 유튜브 쇼츠 한도가 3분이라 1분 고전·1분 현대문학 story 는 **1,000~1,150자**로 쓴다(위 원고 규칙의 1,600자 상한 대신). 쇼츠 전체 약 2분 30초~2분 50초.
+   그다음 `python3 scripts/shorts/shorts_job.py shorts/scripts/<내일>.json tts/jobs 2` → `tts/jobs/shorts-<내일>.json` (맥 TTS 넣기 때 함께 들어감, 같은 날 mnews 작업에서 1분 코너는 자동으로 빠짐). 확인: `DRY=1 python3 scripts/shorts/make_short.py shorts/scripts/<내일>.json classic /tmp/q . /tmp/dry.mp4` 가 오류 없이 돌고 길이가 175초 이하인지.
 3. 초안 화면 확인 때 1분 코너 문단 사이 장면 영상 자리도 본다. 보고에 장면 영상 수와 쇼츠 대본 길이도 적는다.

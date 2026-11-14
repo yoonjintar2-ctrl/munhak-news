@@ -15,7 +15,7 @@ def main(script, qdir, outdir='audio'):
         if k not in S: continue
         C = S[k]; n0 = len(C['intro'])
         keys = [(f'{k}_{n0 + i:02d}', J.ko(l.replace(' / ', ' '))) for i, l in enumerate(C['body'])]
-        clips, sr = M.build_audio(qdir, f'shorts-{D}', keys, REPO)
+        clips, sr = M.build_audio(qdir, S.get('tts_name') or f'shorts-{D}', keys, REPO)
         parts = []
         for w, _ in clips: parts += [w.astype(np.float32), np.zeros(int(sr * T.GAP), np.float32)]
         wav = os.path.join(outdir, f'{D}-{k}.wav'); sf.write(wav, np.concatenate(parts), sr)

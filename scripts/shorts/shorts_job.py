@@ -14,8 +14,9 @@ def main(src, outdir='tts/jobs', takes=2):
     for k in ('classic', 'modern'):
         if k not in S: continue
         for i, l in enumerate(S[k]['intro'] + S[k]['body'] + S[k]['outro']): add(f'{k}_{i:02d}', l)
-    job = {"name": f"shorts-{D}", "mode": "clone", **J.REF, "gen": {"temperature": 0.75, "top_p": 0.9}, "reload_every": 4, "retries": 4, "items": items}
-    os.makedirs(outdir, exist_ok=True); out = os.path.join(outdir, f'shorts-{D}.json')
+    NAME = S.get("tts_name") or f"shorts-{D}"
+    job = {"name": NAME, "mode": "clone", **J.REF, "gen": {"temperature": 0.75, "top_p": 0.9}, "reload_every": 4, "retries": 4, "items": items}
+    os.makedirs(outdir, exist_ok=True); out = os.path.join(outdir, f'{NAME}.json')
     json.dump(job, open(out, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print(f'{out}: 테이크 {len(items)}개 (약 {len(items) * 55 // 60}분)')
     # 11/14 발행인: 1분 고전·현대문학 '듣기'는 쇼츠 나레이션 본문을 그대로 씀 → mnews 작업에서 그 코너를 뺀다
