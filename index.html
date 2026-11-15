@@ -379,6 +379,10 @@ button,select{font:inherit}
 .man-q{font-family:var(--serif);font-weight:700;font-size:1.05rem;border-left:4px solid var(--ink);padding:2px 0 2px 12px;margin:14px 0 0}
 #s-man{margin-top:52px}
 @media (max-width:760px){.man-wrap{grid-template-columns:1fr}.man-wrap img{max-width:340px}}
+/* 11/15 발행인: 1분 고전 → 다른 코너들 → 1분 현대문학 → 퍼즐·OX 맨 끝 */
+.rowc1{grid-template-columns:minmax(0,820px)!important;justify-content:center}
+.rowc1>.sec{border:0!important;padding-left:0!important;margin-left:0!important}
+#s-man,.rowg,.rowx,.rowe{margin-top:52px}
 </style>
 <script>(function(){try{var z=parseFloat(localStorage.getItem('mnews-fz'));if(z>0)document.documentElement.style.fontSize=(15*z)+'px'}catch(e){}})()</script>
 </head>
@@ -467,7 +471,7 @@ button,select{font:inherit}
   </section>
   </div>
 
-  <div class="rowc">
+  <div class="rowc rowc1">
     <section class="sec" id="s-classic" data-sec="classic" data-name="1분 고전"><a class="anc" id="classic"></a>
       <div class="kick"><h2><i>⑥</i>1분 고전</h2><span>그래서 결말이 뭔데?</span></div>
       <p class="cl-title" id="cl-title"></p>
@@ -480,55 +484,18 @@ button,select{font:inherit}
       <div class="body"><p id="cl-why"></p></div>
       <p class="src" id="cl-src"></p>
     </section>
-    <section class="sec" id="s-modern" data-sec="modern" data-name="1분 현대문학"><a class="anc" id="modern"></a>
-      <div class="kick"><h2><i>⑦</i>1분 현대문학</h2><span>요즘 소설, 1분 요약</span></div>
-      <p class="cl-title" id="md-title"></p>
-      <p class="cl-meta" id="md-meta"></p>
-      <p class="cl-one" id="md-one"></p>
-      <figure class="fig cl-fig" id="md-fig"><span class="tag">AI 삽화</span><img id="md-img" alt=""></figure>
-      <div class="cl-story body" id="md-story"></div><ol class="cl-lines" id="md-lines"></ol>
-      <details class="cl-end"><summary>결말 보기 <em>(스포일러)</em></summary><p id="md-ending"></p></details>
-      <p class="sub-h">왜 읽을 만한가</p>
-      <div class="body"><p id="md-why"></p></div>
-      <p class="src" id="md-src"></p>
-    </section>
   </div>
-
-  
-
-  <div class="rowe">
-    <section class="sec" id="s-puzzle" data-sec="puzzle" data-name="낱말 퍼즐"><a class="anc" id="puzzle"></a>
-      <div class="kick"><h2><i>⑧</i>낱말 퍼즐</h2><span>칸이나 단서를 누르고 답을 넣으세요</span></div>
-      <div class="puz">
-        <div>
-          <div class="pz-grid" id="pz-grid"></div>
-          <div class="pz-entry"><label id="pz-label">단서를 고르세요.</label>
-            <div class="pz-row"><input id="pz-in" autocomplete="off" placeholder="정답 입력"><button id="pz-put">넣기</button></div>
-            <div class="pz-btns"><button id="pz-check">맞혀 보기</button><button id="pz-hint">한 글자 힌트</button><button id="pz-show">정답 보기</button><button id="pz-reset">지우기</button></div>
-            <p class="pz-msg" id="pz-msg"></p>
-          </div>
-        </div>
-        <div class="pz-clues"><h3>가로</h3><ol id="pz-across"></ol><h3>세로</h3><ol id="pz-down"></ol></div>
-      </div>
-    </section>
-    <section class="sec" id="s-trivia" data-sec="trivia" data-name="문학 상식"><a class="anc" id="trivia"></a>
-      <div class="kick"><h2><i>⑨</i>문학 상식</h2><span>O · X</span></div>
-      <ol class="tv" id="tv"></ol>
-      <p class="cal" id="cal" hidden><b>오늘의 문학 달력</b><span></span></p>
-    </section>
-  </div>
-
-
 
   <section class="sec" id="s-man" data-sec="man" data-name="오늘의 사나이" hidden><a class="anc" id="man"></a>
-    <div class="kick"><h2><i>⑬</i>오늘의 사나이</h2><span id="man-kind">특수부대 · 격투가 · 운동선수 열전</span></div>
+    <div class="kick"><h2><i>⑦</i>오늘의 사나이</h2><span id="man-kind">특수부대 · 격투가 · 운동선수 열전</span></div>
     <div class="man-wrap"><figure style="margin:0"><img id="man-img" alt=""><figcaption class="cap" id="man-cap" style="font-size:.72rem;color:var(--faint);margin-top:4px">얼굴 없는 실루엣 펜화</figcaption></figure>
       <div><p class="man-name" id="man-name"></p><p class="man-sub" id="man-sub"></p><div class="body"><p id="man-bio"></p></div>
       <ol class="man-feats" id="man-feats"></ol><p class="man-q" id="man-q" hidden></p><p class="src" id="man-src"></p></div></div>
   </section>
+
   <div class="rowg">
     <section class="sec" id="s-go" data-sec="go" data-name="오늘의 한 수" hidden><a class="anc" id="go"></a>
-      <div class="kick"><h2><i>⑪</i>오늘의 한 수</h2><span>바둑 · 기보 한 장</span></div>
+      <div class="kick"><h2><i>⑧</i>오늘의 한 수</h2><span>바둑 · 기보 한 장</span></div>
       <p class="go-head" id="go-title"></p>
       <p class="go-meta" id="go-meta"></p>
       <div class="go-board" id="go-board"></div>
@@ -538,7 +505,7 @@ button,select{font:inherit}
       <p class="src" id="go-src"></p>
     </section>
     <section class="sec" id="s-zd" data-sec="zodiac" data-name="띠별 오늘의 문장" hidden><a class="anc" id="zodiac"></a>
-      <div class="kick"><h2><i>⑫</i>띠별 오늘의 문장</h2><span>운세 대신 문장 한 줄</span></div>
+      <div class="kick"><h2><i>⑨</i>띠별 오늘의 문장</h2><span>운세 대신 문장 한 줄</span></div>
       <p class="zd-pick">내 띠 <select id="zd-sel" aria-label="내 띠 고르기"><option value="">고르기</option></select> <span>— 고르면 맨 위로 올려 드려요(이 기기에 기억)</span></p>
       <ol class="zd-list" id="zd-list"></ol>
       <p class="src" id="zd-src"></p>
@@ -565,6 +532,43 @@ button,select{font:inherit}
         <span class="rx-stamp">文學<br>藥局</span>
       </div>
       <p class="src" id="rx-src"></p>
+    </section>
+  </div>
+
+  <div class="rowc rowc1">
+    <section class="sec" id="s-modern" data-sec="modern" data-name="1분 현대문학"><a class="anc" id="modern"></a>
+      <div class="kick"><h2><i>⑪</i>1분 현대문학</h2><span>요즘 소설, 1분 요약</span></div>
+      <p class="cl-title" id="md-title"></p>
+      <p class="cl-meta" id="md-meta"></p>
+      <p class="cl-one" id="md-one"></p>
+      <figure class="fig cl-fig" id="md-fig"><span class="tag">AI 삽화</span><img id="md-img" alt=""></figure>
+      <div class="cl-story body" id="md-story"></div><ol class="cl-lines" id="md-lines"></ol>
+      <details class="cl-end"><summary>결말 보기 <em>(스포일러)</em></summary><p id="md-ending"></p></details>
+      <p class="sub-h">왜 읽을 만한가</p>
+      <div class="body"><p id="md-why"></p></div>
+      <p class="src" id="md-src"></p>
+    </section>
+  </div>
+
+  <div class="rowe">
+    <section class="sec" id="s-puzzle" data-sec="puzzle" data-name="낱말 퍼즐"><a class="anc" id="puzzle"></a>
+      <div class="kick"><h2><i>⑫</i>낱말 퍼즐</h2><span>칸이나 단서를 누르고 답을 넣으세요</span></div>
+      <div class="puz">
+        <div>
+          <div class="pz-grid" id="pz-grid"></div>
+          <div class="pz-entry"><label id="pz-label">단서를 고르세요.</label>
+            <div class="pz-row"><input id="pz-in" autocomplete="off" placeholder="정답 입력"><button id="pz-put">넣기</button></div>
+            <div class="pz-btns"><button id="pz-check">맞혀 보기</button><button id="pz-hint">한 글자 힌트</button><button id="pz-show">정답 보기</button><button id="pz-reset">지우기</button></div>
+            <p class="pz-msg" id="pz-msg"></p>
+          </div>
+        </div>
+        <div class="pz-clues"><h3>가로</h3><ol id="pz-across"></ol><h3>세로</h3><ol id="pz-down"></ol></div>
+      </div>
+    </section>
+    <section class="sec" id="s-trivia" data-sec="trivia" data-name="문학 상식"><a class="anc" id="trivia"></a>
+      <div class="kick"><h2><i>⑬</i>문학 상식</h2><span>O · X</span></div>
+      <ol class="tv" id="tv"></ol>
+      <p class="cal" id="cal" hidden><b>오늘의 문학 달력</b><span></span></p>
     </section>
   </div>
 
