@@ -139,10 +139,9 @@ export function person(scene, { x = 0, z = 0, rot = 0, coat = 0x5e5e5e, pants = 
   // 머리카락: 정수리 + 뒤통수만 덮고 얼굴(-z)은 비워 둔다 → 고개를 돌리면 옆얼굴이 보인다
   const cap = new THREE.Mesh(new THREE.SphereGeometry(0.43, 22, 14, 0, Math.PI * 2, 0, Math.PI * 0.3), hm); cap.position.y = 0.32; headG.add(cap);
   const back = new THREE.Mesh(new THREE.SphereGeometry(0.43, 22, 14, -0.15, Math.PI + 0.3, 0, Math.PI * 0.72), hm); back.position.y = 0.32; headG.add(back);
-  [-1, 1].forEach(sd => { const ey = new THREE.Mesh(new THREE.SphereGeometry(0.06, 10, 8), flat(0x111111)); ey.position.set(sd * 0.15, 0.36, -0.36); headG.add(ey);
-    const br = new THREE.Mesh(new THREE.BoxGeometry(0.15, 0.04, 0.03), flat(0x111111)); br.position.set(sd * 0.15, 0.45, -0.37); headG.add(br); });
+  [-1, 1].forEach(sd => { const ey = new THREE.Mesh(new THREE.SphereGeometry(0.036, 10, 8), flat(0x111111)); ey.scale.z = 0.5; ey.position.set(sd * 0.17, 0.35, -0.385); headG.add(ey); // 11/15 발행인 "선글라스 낀 것 같다" → 작은 점 눈, 눈썹과 띄움
+    const br = new THREE.Mesh(new THREE.BoxGeometry(0.11, 0.018, 0.02), flat(0x2a2a2a)); br.position.set(sd * 0.18, 0.49, -0.37); br.rotation.z = sd * -0.12; headG.add(br); });
   const mouth = new THREE.Mesh(new THREE.BoxGeometry(0.12, 0.025, 0.03), flat(0x333333)); mouth.position.set(0, 0.13, -0.38); headG.add(mouth);
-  [-1, 1].forEach(sd => { const ear = new THREE.Mesh(new THREE.SphereGeometry(0.1, 8, 6), lam(skin)); ear.scale.set(0.45, 1, 0.7); ear.position.set(sd * 0.4, 0.3, 0.02); headG.add(ear); });
   if (detail) { // 옷 세부: 깃·단추줄·허리띠·소매끝 — 멀리서도 '옷 입은 사람'으로 읽히게
     const col = new THREE.Mesh(new THREE.TorusGeometry(0.22, 0.07, 6, 16), lam(trim)); col.rotation.x = Math.PI / 2; col.position.y = 1.45; torso.add(col);
     box(0.06, 1.0, 0.05, trim, 0, 0.75, -0.6, torso);
@@ -150,7 +149,7 @@ export function person(scene, { x = 0, z = 0, rot = 0, coat = 0x5e5e5e, pants = 
     const belt = new THREE.Mesh(new THREE.CylinderGeometry(0.62, 0.62, 0.12, 18), lam(0x1c1c1c)); belt.position.y = 0.12; torso.add(belt);
   }
   if (scarf != null) { const sc = new THREE.Mesh(new THREE.TorusGeometry(0.25, 0.11, 8, 16), lam(scarf)); sc.rotation.x = Math.PI / 2; sc.position.y = 1.47; torso.add(sc); }
-  if (hair === 'long') { const l = new THREE.Mesh(new THREE.CylinderGeometry(0.44, 0.56, 1.0, 18, 1, true, -Math.PI * 0.85, Math.PI * 1.7), new THREE.MeshLambertMaterial({ color: hairC, side: THREE.DoubleSide })); l.position.set(0, -0.05, 0.05); headG.add(l); }
+  if (hair === 'long') { const l = new THREE.Mesh(new THREE.CylinderGeometry(0.46, 0.56, 1.0, 18, 1, true, -Math.PI * 0.68, Math.PI * 1.36), new THREE.MeshLambertMaterial({ color: hairC, side: THREE.DoubleSide })); l.position.set(0, -0.05, 0.05); headG.add(l); }
   if (hair === 'bun') { const b = new THREE.Mesh(new THREE.SphereGeometry(0.2, 12, 10), hm); b.position.set(0, 0.62, 0.25); headG.add(b); }
   if (hair === 'cap') { const c = cyl(0.45, 0.45, 0.22, 0x333333, 0, 0.55, 0, headG); const bill = box(0.6, 0.05, 0.4, 0x333333, 0, 0.47, -0.45, headG); }
   if (backpack) { box(1.0, 1.25, 0.5, 0x4a4a4a, 0, 0.8, 0.6, torso); box(1.04, 0.42, 0.56, 0x333333, 0, 1.3, 0.62, torso); }
