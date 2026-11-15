@@ -371,6 +371,86 @@
     "https://literaturepage.com/read/persuasion-209.html"
    ],
    "added": "2026-11-15"
+  },
+  {
+   "mood": "tired",
+   "text": "살어리 살어리랏다 청산에 살어리랏다",
+   "writer": "작자 미상(고려가요)",
+   "work": "청산별곡",
+   "year": null,
+   "kind": "고려가요",
+   "dose": "모니터 앞에서 산으로 가고 싶어질 때 소리 내어 두 번. 실제로 가지 않아도 반쯤은 다녀온 기분이 듭니다.",
+   "sources": [
+    "https://encykorea.aks.ac.kr/Article/E0056472"
+   ],
+   "added": "2026-11-16"
+  },
+  {
+   "mood": "blue",
+   "text": "모가지가 길어서 슬픈 짐승이여",
+   "writer": "노천명",
+   "work": "사슴",
+   "year": 1938,
+   "kind": "시",
+   "dose": "괜히 목이 길게 빠지도록 누군가를 기다리는 날, 슬픔에도 품위가 있다는 걸 떠올리며 한 줄.",
+   "sources": [
+    "https://encykorea.aks.ac.kr/Article/E0025764"
+   ],
+   "added": "2026-11-16"
+  },
+  {
+   "mood": "anxious",
+   "text": "당신 마음속에서 아직 풀리지 않은 모든 것에 인내를 가지세요.",
+   "orig": "Geduld zu haben gegen alles Ungelöste in Ihrem Herzen",
+   "translator": "금로동 옮김",
+   "writer": "라이너 마리아 릴케",
+   "work": "젊은 시인에게 보내는 편지",
+   "year": 1929,
+   "kind": "편지",
+   "dose": "답이 안 나오는 문제를 붙들고 잠 못 들 때, 오늘은 풀지 말고 덮어 두라는 처방으로 한 번.",
+   "sources": [
+    "https://carmenbutcher.com/blog/?p=1429"
+   ],
+   "added": "2026-11-16"
+  },
+  {
+   "mood": "angry",
+   "text": "거룩한 분노는 / 종교보다도 깊고",
+   "writer": "변영로",
+   "work": "논개",
+   "year": 1924,
+   "kind": "시",
+   "dose": "화가 날 때 이 분노가 '거룩한' 쪽인지 그냥 배고픈 쪽인지 먼저 따져 보는 용도로. 대개는 밥부터입니다.",
+   "sources": [
+    "https://www.jjan.kr/article/20240402580005"
+   ],
+   "added": "2026-11-16"
+  },
+  {
+   "mood": "flutter",
+   "text": "다정도 병인 양하여 잠 못 들어 하노라",
+   "writer": "이조년",
+   "work": "이화에 월백하고(시조)",
+   "year": null,
+   "kind": "시조",
+   "dose": "설레서 잠이 안 오는 밤, 칠백 년 전 사람도 똑같았다는 확인용으로 한 줄. 병명은 '다정'입니다.",
+   "sources": [
+    "https://cagibilit.com/in-translation-pear-flowers-illume-moon-white/"
+   ],
+   "added": "2026-11-16"
+  },
+  {
+   "mood": "blank",
+   "text": "산천은 의구하되 인걸은 간데없네",
+   "writer": "길재",
+   "work": "오백 년 도읍지를(회고가)",
+   "year": null,
+   "kind": "시조",
+   "dose": "창밖을 멍하니 보다 시간이 훌쩍 간 날, 그 멍함에도 오래된 족보가 있다는 걸 알려 드리는 한 알.",
+   "sources": [
+    "https://www.imaeil.com/page/view/2015110401113138836"
+   ],
+   "added": "2026-11-16"
   }
  ]
 }

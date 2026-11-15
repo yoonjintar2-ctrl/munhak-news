@@ -1,0 +1,630 @@
+{
+ "date": "2026-11-16",
+ "no": 4,
+ "publisher": {
+  "name": "윤진탈",
+  "org": "지구별"
+ },
+ "author": {
+  "name": "금로동",
+  "title": "기자"
+ },
+ "lead": "월요일 아침, 한 세기 전 귀국 열차에서 터져 나온 외침과 봄 고양이 한 마리, 그리고 개울가 조약돌 하나를 배달합니다. 날은 추워도 시만큼은 봄으로 골랐습니다.",
+ "sentence": {
+  "text": "무덤이다! 구더기가 끓는 무덤이다!",
+  "big": [
+   "무덤이다!",
+   "구더기가 끓는 무덤이다!"
+  ],
+  "speaker": "주인공 이인화",
+  "work": "만세전",
+  "writer": "염상섭",
+  "year": 1924,
+  "origin": "국내",
+  "book": "『시대일보』 1924년 연재(첫 연재 제목 「묘지」, 『신생활』 1922)",
+  "meaning": "식민지 조선을 통째로 산 사람들의 무덤에 빗댄 말입니다. 숨은 쉬지만 아무도 살아 있지 않은 땅, 그 위에서 썩어 가는 것들까지 한 문장에 담았지요.",
+  "context": "도쿄 유학생 이인화가 아내가 위독하다는 전보를 받고 귀국하는 길. 자정 넘어 닿은 눈 덮인 대전역에서 헌병 보조원이 승객 얼굴을 하나하나 훑고, 사람들은 겁에 질려 있습니다. 찻간으로 돌아오며 그는 속으로 이렇게 외칩니다.",
+  "craft": "같은 말을 두 번 하되 두 번째에 '구더기가 끓는'을 얹어 혐오를 한 단계 끌어올립니다. 감상 대신 냉정한 관찰로 버티던 화자가 처음 감정을 터뜨리는 대목이라 더 세게 들리지요.",
+  "img": "img/2026-11-16-sentence.jpg",
+  "video": "img/2026-11-16-sentence.mp4",
+  "alt": "눈 내리는 한밤 기차역 승강장, 외투 차림 청년이 객차 문 앞에서 돌아서 어두운 역 마당을 바라본다. 증기가 피어오르고 등불이 흔들린다",
+  "sources": [
+   "https://www.hankookilbo.com/news/article/201902131059726736",
+   "https://m.joongdo.co.kr/view.php?key=20240915010004489",
+   "https://encykorea.aks.ac.kr/Article/E0017636"
+  ]
+ },
+ "poem": {
+  "title": "봄은 고양이로다",
+  "writer": "이장희",
+  "year": 1924,
+  "origin": "국내",
+  "book": "『금성』 3호(1924년 5월)",
+  "public_domain": true,
+  "translator": null,
+  "lines": [
+   "꽃가루와 같이 부드러운 고양이의 털에",
+   "고운 봄의 향기가 어리우도다.",
+   "",
+   "금방울과 같이 호동그란 고양이의 눈에",
+   "미친 봄의 불길이 흐르도다.",
+   "",
+   "고요히 다물은 고양이의 입술에",
+   "포근한 봄 졸음이 떠돌아라.",
+   "",
+   "날카롭게 쭉 뻗은 고양이의 수염에",
+   "푸른 봄의 생기가 뛰놀아라."
+  ],
+  "note": "오늘 맞춤법에 가까운 통용본으로 실었습니다. 첫 발표 때 표기는 '고흔 봄', '밋친 봄'입니다.",
+  "img": "img/2026-11-16-poem.jpg",
+  "video": "img/2026-11-16-poem.mp4",
+  "alt": "봄볕 드는 툇마루에 고양이가 웅크려 꼬리를 살랑이고, 마당의 꽃나무 아래로 나비가 맴돈다",
+  "analysis": "네 연이 털·눈·입술·수염 순으로 고양이를 훑으며 봄의 향기·불길·졸음·생기를 하나씩 붙입니다. '~의 ~에 / ~봄의 ~가'라는 같은 틀을 네 번 되풀이해, 짧은 시 안에 촉각·시각·나른함·날렵함이 다 들어가지요. 감정을 말하지 않고 감각만으로 계절을 그린 점이 당대 시로서는 새로웠습니다. 동인지 『금성』 3호에 다른 시 네 편과 함께 실렸습니다.",
+  "oneline": "11월 중순에 봄 시라니 싶지만, 무릎 위 고양이 한 마리면 이 시가 그대로 재현됩니다.",
+  "sources": [
+   "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4035314",
+   "https://encykorea.aks.ac.kr/Article/E0023782",
+   "https://encykorea.aks.ac.kr/Article/E0045714"
+  ]
+ },
+ "novel": {
+  "title": "변신",
+  "title_orig": "Die Verwandlung",
+  "writer": "프란츠 카프카",
+  "year": 1915,
+  "origin": "국외",
+  "where": "『디 바이센 블레터』 1915년 10월호 · 쿠르트 볼프 출판사 단행본 1915",
+  "quote_orig": "Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich in seinem Bett zu einem ungeheueren Ungeziefer verwandelt.",
+  "quote": "어느 날 아침 그레고르 잠자는 뒤숭숭한 꿈에서 깨어나, 침대 속에서 자신이 한 마리 끔찍한 해충으로 변해 있음을 알았다.",
+  "translator": "금로동 옮김",
+  "img": "img/2026-11-16-novel.jpg",
+  "video": "img/2026-11-16-novel.mp4",
+  "alt": "새벽빛 드는 좁은 하숙방, 이불이 크게 불룩 솟은 침대 옆으로 자명종이 떨고 커튼이 흔들린다. 벽에는 작은 액자 하나",
+  "context": "첫 문장입니다. 외판원 그레고르의 방 벽엔 잡지에서 오려 금빛 액자에 넣은 모피 차림 여인 그림이 걸려 있고, 시계는 벌써 여섯 시 반. 다섯 시 기차는 이미 떠났습니다.",
+  "analysis": "왜 벌레가 됐는지는 끝까지 설명하지 않습니다. 대신 그레고르는 몸보다 출근을 먼저 걱정하지요. 끔찍한 일을 사무 보고서처럼 담담하게 적는 이 어긋남이 카프카의 웃기고도 서늘한 맛입니다. 원문 'Ungeziefer'는 특정 곤충이 아니라 쓸모없고 귀찮은 '해충' 전반을 뜻해, 무엇으로 상상할지는 독자 몫으로 남습니다.",
+  "sources": [
+   "https://projekt-gutenberg.org/authors/franz-kafka/books/die-verwandlung/chapter/2",
+   "https://www.deutsche-digitale-bibliothek.de/item/BEUKGHQPHW2F4VZPPCWMSCS3DKOGCXSY",
+   "https://ipfs.ssi.eecc.de/ipns/en.wikipedia-on-ipfs.org/wiki/The_Metamorphosis"
+  ]
+ },
+ "writer": {
+  "name": "염상섭",
+  "pen": "횡보(橫步)",
+  "life": "1897–1963",
+  "bio": "1897년 서울에서 태어나 1912년 일본으로 유학했습니다. 1921년 『개벽』에 「표본실의 청개구리」를 연재하며 문단에 나섰고, 1924년 「만세전」, 1931년 『조선일보』 연재 『삼대』로 식민지 서울 사람들의 속사정을 냉정하게 그렸습니다. 1963년 3월 14일 서울 성북동에서 세상을 떠났습니다.",
+  "works": [
+   "표본실의 청개구리 (1921)",
+   "만세전 (1924)",
+   "삼대 (1931)"
+  ],
+  "link": "오늘의 문장을 쓴 사람입니다. 「만세전」은 연재가 끊긴 「묘지」를 2년 뒤 제목을 바꿔 다시 써서 완성한 소설이지요.",
+  "img": "img/2026-11-16-writer.png",
+  "alt": "얼굴 세부 없이 그린 문인 실루엣 펜화",
+  "sources": [
+   "https://www.korean.go.kr/nkview/nklife/2007_2/2007_0214.pdf",
+   "https://www.seoul.co.kr/news/2011/09/26/20110926021002",
+   "https://encykorea.aks.ac.kr/Article/E0060243",
+   "https://wiki.riteme.site/wiki/Yom_Sang-seop"
+  ]
+ },
+ "trivia": [
+  {
+   "q": "카프카는 「변신」 책 표지에 벌레를 그리지 말라고 출판사에 당부했다.",
+   "a": "O",
+   "why": "1915년 10월 편지에서 \"벌레 자체는 그려선 안 된다. 멀리서라도 보여선 안 된다\"고 썼습니다. 초판 표지엔 평범한 남자가 그려졌지요."
+  },
+  {
+   "q": "「만세전」은 처음부터 「만세전」이라는 제목으로 연재되었다.",
+   "a": "X",
+   "why": "1922년 『신생활』에 「묘지」로 연재하다 잡지가 폐간돼 멈췄고, 1924년 『시대일보』에 「만세전」으로 바꿔 다시 실었습니다."
+  },
+  {
+   "q": "황순원 「소나기」는 영국 잡지 단편 콩쿠르에 입상한 적이 있다.",
+   "a": "O",
+   "why": "1953년 『신문학』에 처음 발표된 뒤, 1959년 영국 『인카운터』지 단편 콩쿠르에 입상해 실렸습니다."
+  }
+ ],
+ "calendar": "1922년 11월 16일 — 『눈먼 자들의 도시』의 포르투갈 작가 주제 사라마구, 아지냐가에서 태어나다(1998년 노벨문학상)",
+ "onthisday": [
+  {
+   "year": "1964",
+   "title": "「날개」를 읽어 낸 평론가 최재서, 세상을 떠나다",
+   "body": "1907년 황해도 해주에서 태어난 평론가 최재서가 1964년 오늘 세상을 떠났습니다. 박태원 「천변풍경」과 이상 「날개」를 함께 다룬 평론 「리아리즘의 확대와 심화」로 잘 알려져 있지요.",
+   "sources": [
+    "https://encykorea.aks.ac.kr/Contents/Item/E0057618",
+    "https://remotecenter.postech.ac.kr/handle/2014.oak/36526"
+   ]
+  },
+  {
+   "year": "1930",
+   "title": "아프리카 문학의 아버지 치누아 아체베가 태어나다",
+   "body": "나이지리아 작가 치누아 아체베가 1930년 오늘 태어났습니다. 『모든 것이 산산이 무너지다』로 아프리카 사람의 눈으로 쓴 아프리카 소설의 길을 열었고, 2013년 세상을 떠났습니다.",
+   "sources": [
+    "https://www.newworldencyclopedia.org/entry/Chinua_Achebe"
+   ]
+  },
+  {
+   "year": "1807",
+   "title": "아이슬란드 시인 요나스 할그림손 탄생 — 오늘은 '아이슬란드어의 날'",
+   "body": "1807년 오늘 아이슬란드 북부에서 시인 요나스 할그림손이 태어났습니다. 아이슬란드는 그의 생일을 '아이슬란드어의 날'로 정해 해마다 모국어를 기립니다.",
+   "sources": [
+    "https://landsbokasafn.is/en/dagur-islenskrar-tungu/"
+   ]
+  }
+ ],
+ "classic": {
+  "title": "소나기",
+  "writer": "황순원",
+  "year": 1953,
+  "origin": "국내",
+  "where": "『신문학』 1953년 5월 · 단편집 『학』(1956)",
+  "oneline": "개울가 징검다리에서 만난 시골 소년과 윤 초시네 증손녀. 소나기 한 번이 지나간 가을의 이야기.",
+  "img": "img/2026-11-16-classic.jpg",
+  "video": "img/2026-11-16-classic.mp4",
+  "alt": "가을 개울 징검다리, 단발머리 소녀가 물에 손을 담그고 개울둑의 소년이 머뭇거리며 바라본다. 갈대와 물결이 흔들린다",
+  "story": [
+   "개울가 징검다리 한가운데서 한 소녀가 물장난을 하고 있습니다. 소년은 소녀가 윤 초시네 증손녀라는 걸 금세 알아봅니다. 그런데 말 한마디 붙이지 못하고, 소녀가 징검다리에서 비켜 주기만 기다리지요. 이 소설에서 두 아이의 이름은 끝내 나오지 않습니다. 그저 소년과 소녀입니다.",
+   "어느 날, 소녀가 물속에서 조약돌 하나를 집어 들더니 \"이 바보.\" 하고 소년 쪽으로 던지고는 달아납니다. 소년은 그 조약돌을 주워 주머니에 넣습니다. 그날부터 주머니 속 조약돌을 만지작거리는 버릇이 생깁니다. 말로는 하나도 못 한 마음이 작은 돌 하나에 고스란히 옮겨 간 셈이지요.",
+   "그러던 어느 날 소녀가 먼저 묻습니다. \"너 저 산 너머에 가 본 일이 있니?\" 둘은 들길을 따라 산 쪽으로 걸어갑니다. 밭에서 무를 뽑아 나눠 먹고, 허수아비를 흔들어 보고, 칡꽃을 땁니다. 소년은 코뚜레도 꿰지 않은 송아지 등에 올라타 보이며 으쓱해하지요. 소녀 앞에서 처음 해 보는 자랑입니다.",
+   "그때 하늘이 갑자기 어두워지더니 소나기가 쏟아집니다. 둘은 밭가의 원두막으로 뛰어들지만 비를 피할 수가 없습니다. 소년은 수숫단을 날라 와 덧세우고, 그 안에 소녀가 들어앉을 자리를 만들어 줍니다.",
+   "비가 그치고 돌아오는 길, 개울물이 불어 있습니다. 아까 건너온 징검다리가 보이지 않을 만큼입니다. 소년이 등을 내밀고, 소녀는 소년의 목을 그러안고 업혀 개울을 건넙니다. 그 뒤로 소녀는 한동안 개울가에 나타나지 않습니다. 소년은 날마다 개울가를 서성이며 주머니 속 조약돌만 만집니다.",
+   "오랜만에 나타난 소녀는 얼굴이 핼쑥합니다. 그동안 앓았다고 합니다. 소녀의 분홍 스웨터 앞자락에는 검붉은 물이 배어 있습니다. 그날 업혀서 개울을 건널 때 소년의 등에서 옮은 물이지요. 소녀는 소년에게 대추 한 줌을 건네며, 곧 이사를 간다고 말합니다.",
+   "소년은 소녀에게 줄 호두알을 주머니에 넣고 만지작거리며, 이사 가기 전에 한 번만 더 만날 수 있기를 바랍니다. 그리고 이사 가기 전날 밤, 마을에 다녀온 아버지가 어머니에게 무슨 이야기를 꺼냅니다. 잠자리에 든 소년의 귀에 그 말이 들려옵니다."
+  ],
+  "ending": "아버지가 전한 소식은 윤 초시네 증손녀가 죽었다는 것이었습니다. 그리고 그 아이가 죽기 전에 남긴 말. \"자기가 입던 옷을 꼭 그대로 입혀서 묻어 달라구….\" 소년의 등에서 물든 그 분홍 스웨터 그대로. 소설은 이 한마디에서 멈추고, 소년의 마음은 끝내 말하지 않습니다.",
+  "why": "고백 한 줄 없이 조약돌·대추·스웨터 얼룩 같은 사물로 첫 마음을 전부 말하는 소설입니다. 어른이 되어 다시 읽으면 마지막 한마디가 훨씬 깊게 내려앉습니다.",
+  "sources": [
+   "https://encykorea.aks.ac.kr/Article/E0029955",
+   "https://m.cafe.daum.net/hahaca/Qfge/389",
+   "https://v.daum.net/v/p5Z1h6YCcG",
+   "https://mobile.newsis.com/view/NISX20130913_0012358323"
+  ],
+  "scenes": [
+   {
+    "after": 1,
+    "img": "img/2026-11-16-classic-s1.jpg",
+    "video": "img/2026-11-16-classic-s1.mp4",
+    "alt": "징검다리 위 소녀가 팔을 휘둘러 조약돌을 던지고, 개울둑의 소년이 놀라 손을 든다"
+   },
+   {
+    "after": 3,
+    "img": "img/2026-11-16-classic-s2.jpg",
+    "video": "img/2026-11-16-classic-s2.mp4",
+    "alt": "소나기 쏟아지는 밭가 원두막, 소년이 수숫단을 안아 나르고 원두막 안의 소녀가 그 모습을 지켜본다"
+   },
+   {
+    "after": 4,
+    "img": "img/2026-11-16-classic-s3.jpg",
+    "video": "img/2026-11-16-classic-s3.mp4",
+    "alt": "물이 불어난 개울, 소년이 소녀를 업고 한 걸음씩 건넌다"
+   }
+  ]
+ },
+ "modern": {
+  "title": "엄마를 부탁해",
+  "writer": "신경숙",
+  "year": 2008,
+  "origin": "국내",
+  "where": "『창작과비평』 연재(2007–2008) · 창비 2008",
+  "oneline": "서울역 지하철에서 엄마가 사라졌다. 엄마를 찾는 동안 가족은 엄마를 하나도 몰랐다는 걸 알게 된다.",
+  "img": "img/2026-11-16-modern.jpg",
+  "video": "img/2026-11-16-modern.mp4",
+  "alt": "붐비는 지하철 승강장, 전동차 문 앞에서 노신사가 뒤를 돌아보고 인파 너머로 한 여인의 뒷모습이 멀어진다",
+  "story": [
+   "\"엄마를 잃어버린 지 일주일째다.\" 소설은 이렇게 시작합니다. 시골에 사는 예순아홉 살 엄마 박소녀는 남편과 함께 서울 자식들 집에 오던 길이었습니다. 서울역 지하철 승강장, 사람들에 떠밀리다 남편이 먼저 전철에 올랐고, 문이 닫힌 뒤에야 아내가 타지 못한 걸 압니다. 가방은 남편 손에 있었고, 엄마는 글을 읽지 못합니다.",
+   "자식들은 전단지를 만들어 거리로 나갑니다. 1장 「아무도 모른다」는 소설가인 큰딸의 이야기인데, 소설은 그녀를 '너'라고 부릅니다. 제목처럼, 엄마를 찾아 나선 가족은 정작 엄마에 대해 아는 것이 많지 않았다는 사실과 마주합니다.",
+   "2장은 큰아들 형철의 몫입니다. 그날 서울역에 엄마를 마중 나가기로 했던 사람이 형철이었지만, 그는 사우나에 가느라 나가지 않았습니다. 그 사소한 선택이 두고두고 그를 찌릅니다. 형철은 엄마가 지난가을 뇌졸중을 겪었다는 것도, 동생이 뇌 사진을 보여 주고서야 실감했지요.",
+   "전단지를 본 사람들의 제보가 들어옵니다. 삼십여 년 전 형철이 일하던 용산의 동사무소 근처에서, 파란 슬리퍼를 신고 발등이 곪은 여자를 봤다는 것. 아버지는 엄마가 베이지색 샌들을 신고 나왔다고 했지만, 형철은 압니다. 엄마가 발을 다친 뒤로 파란 슬리퍼를 신었다는 걸. 형철이 서울에 와 처음 살던 역촌동에서도 소식이 옵니다. 한 약사가 다친 여자의 상처를 닦아 주고 경찰에 전화하러 들어간 사이 여자가 사라졌다고요. 가족은 번번이 한발 늦습니다.",
+   "3장 「나, 왔네」는 남편의 장입니다. 소설은 그를 '당신'이라 부릅니다. 늘 곁에 있어 당연했던 아내를, 당신은 아내가 사라진 뒤에야 하나하나 떠올립니다. 소설은 그동안 아무도 묻지 않았던 질문을 남편에게 돌려줍니다. 아내는 어떤 사람이었는가.",
+   "그리고 4장 「또 다른 여인」에서 처음으로 엄마 자신이 말을 합니다. 내내 '엄마'로만 불리던 사람이 비로소 자기 목소리를 얻는 장입니다. 엄마의 넋은 부암동 막내딸의 집에 들러 눈 덮인 소나무를 바라보고, 곰소 바닷가에 사는 '그 사람'에게 가 보겠다고 합니다. 자식도 남편도 몰랐던, 엄마가 아닌 한 사람의 삶이 거기 있었습니다."
+  ],
+  "ending": "에필로그 「장미 묵주」. 엄마를 잃어버린 지 아홉 달째, 큰딸은 로마에 있습니다. 바티칸 성 베드로 대성당을 도는 단체 관광 중에 동생의 편지를 읽던 그녀는, 죽은 아들을 안은 성모상 피에타 앞에서 무너지듯 섭니다. 엄마는 끝내 돌아오지 않았고, 딸은 가장 성스러운 어머니의 모습 앞에서 자기 엄마를 생각합니다.",
+  "why": "엄마를 '너·당신·나'로 번갈아 부르며, 가족 모두가 저마다 놓친 엄마를 비춥니다. 2011년 맨 아시아 문학상(2012년 시상)을 받으며 세계에 읽혔습니다.",
+  "sources": [
+   "https://www.complete-review.com/reviews/korea/shinks.htm",
+   "https://pedia.watcha.com/en/contents/byK1LK4",
+   "https://brunch.co.kr/@seogak/74",
+   "https://www.supersummary.com/please-look-after-mom/chapter-2",
+   "https://www.supersummary.com/please-look-after-mom/chapter-4",
+   "https://supersummary.com/please-look-after-mom/epilogue",
+   "https://tribune.com.pk/story/235219/book-review-please-look-after-mom-have-you-seen-my-mom",
+   "https://theasianwriter.co.uk/2012/03/20/kyung-sook-shin-becomes-first-female-to-win-man-asian-prize/"
+  ],
+  "scenes": [
+   {
+    "after": 1,
+    "img": "img/2026-11-16-modern-s1.jpg",
+    "video": "img/2026-11-16-modern-s1.mp4",
+    "alt": "골목 담벼락에 전단지를 붙이는 딸과 지나가는 사람에게 전단지를 내미는 아들"
+   },
+   {
+    "after": 3,
+    "img": "img/2026-11-16-modern-s2.jpg",
+    "video": "img/2026-11-16-modern-s2.mp4",
+    "alt": "동네 약국 앞, 전단지를 든 아들이 약사의 이야기를 듣다 길 끝을 가리킨다"
+   },
+   {
+    "after": 5,
+    "img": "img/2026-11-16-modern-s3.jpg",
+    "video": "img/2026-11-16-modern-s3.mp4",
+    "alt": "눈 덮인 소나무가 보이는 집 마당에 파란 슬리퍼를 신은 여인의 뒷모습이 서 있고, 눈발이 흩날린다"
+   }
+  ]
+ },
+ "go": {
+  "title": "「1만분의 1」 흑37",
+  "game": "구글 딥마인드 챌린지 매치 제2국",
+  "date": "2016-03-10",
+  "black": "알파고",
+  "white": "이세돌 9단",
+  "result": "흑 211수 불계승",
+  "moves": "pd dp cd qp op oq nq pq cn fq mp qn ic dj po qo cp cq bq co bp bo do bn dq ep dr cm jp cg ed qf qe pf nd pi oj",
+  "from": 29,
+  "to": 37,
+  "key": 37,
+  "key_label": "P10",
+  "lead": "둘째 판 초반, 알파고(흑)가 오른쪽 변의 백돌 머리 위로 돌 하나를 툭 얹었다.",
+  "body": [
+   "흑37은 오른쪽 변 다섯째 줄에 놓은 '어깨짚기'다. 상대 돌 대각선 위에 붙여 머리를 누르는 수인데, 변에서는 보통 셋째·넷째 줄에 둔다. 다섯째 줄은 집을 짓기엔 너무 높아 보여 프로라면 잘 두지 않는 자리였다.",
+   "YTN 중계진은 \"지금까지 본 수 중에 가장 충격적인 수\"라 했고, 해설자들은 처음엔 실수라고 여겼다. 마침 자리를 비웠던 이세돌 9단은 돌아와 판을 본 뒤 15분 가까이 응수하지 못했다. 알파고와 대국했던 판후이 2단은 \"아름답다\"고 했다.",
+   "딥마인드의 데이비드 실버는 알파고가 사람이 이 자리에 둘 확률을 1만분의 1로 계산하고도 이 수를 골랐다고 밝혔다. 판은 211수 만에 흑의 불계승으로 끝났다."
+  ],
+  "lit": "사흘 뒤 이세돌 9단은 제4국 백78로 되갚았습니다 — 어제 지면 「신의 한 수」와 짝지어 보세요.",
+  "sources": [
+   "https://www.ytn.co.kr/_ln/0107_201603111805556567",
+   "https://www.mt.co.kr/culture/2016/03/11/2016031017283781740",
+   "https://hn.jakechampion.name/reader/https://www.wired.com/2016/03/two-moves-alphago-lee-sedol-redefined-future",
+   "https://gomagic.org/alphago-and-lee-sedol/",
+   "https://britgo.org/node/5458",
+   "https://github.com/yenw/computer-go-dataset (기보: AI/AlphaGo/LS vs AG - G2 - English.sgf)"
+  ]
+ },
+ "man": {
+  "kind": "운동선수",
+  "name": "손기정",
+  "sub": "마라톤 · 1912 평북 신의주 – 2002",
+  "img": "img/2026-11-16-man.png",
+  "alt": "결승선을 향해 달리는 마라토너의 실루엣",
+  "cap": "얼굴 없는 실루엣 펜화",
+  "bio": "평안북도 신의주에서 태어났습니다. 1936년 베를린 올림픽 마라톤에서 2시간 29분 19초 2, 올림픽 최고 기록으로 우승했지만 가슴에는 일장기를 달아야 했지요. 광복 뒤에는 후배를 길러 냈고, 2002년 11월 15일 세상을 떠나 국립대전현충원에 잠들었습니다. 어제가 그의 기일이었습니다.",
+  "feats": [
+   {
+    "when": "1936.8.9",
+    "text": "베를린 올림픽 마라톤 우승. 함께 뛴 남승룡은 2시간 31분 42초 2로 3위에 올랐습니다."
+   },
+   {
+    "when": "1936.8.25",
+    "text": "『동아일보』가 시상대 사진 속 그의 가슴에서 일장기를 지워 실었고, 신문은 무기정간을 당했습니다."
+   },
+   {
+    "when": "1947 · 1948",
+    "text": "보스턴 마라톤에서 코치로 서윤복의 우승(2시간 25분 39초)을 이끌었고, 이듬해 런던 올림픽 개회식에서 한국 선수단 기수를 맡았습니다."
+   },
+   {
+    "when": "1986 · 1988",
+    "text": "베를린 우승 부상이던 그리스 청동 투구를 50년 만에 돌려받았고(이듬해 보물 지정), 서울 올림픽 개회식에선 성화를 들고 경기장에 들어섰습니다."
+   }
+  ],
+  "sources": [
+   "https://encykorea.aks.ac.kr/Article/E0067205",
+   "https://theme.archives.go.kr/next/koreaOfRecord/marathone.do",
+   "https://encykorea.aks.ac.kr/Article/E0047311",
+   "https://www.olympedia.org/athletes/72608",
+   "https://encykorea.aks.ac.kr/Article/E0007327"
+  ]
+ },
+ "zodiac": [
+  {
+   "key": "rat",
+   "animal": "쥐",
+   "text": "태산이 높다 하되 하늘 아래 뫼이로다 / 오르고 또 오르면 못 오를 리 없건마는",
+   "writer": "양사언",
+   "work": "태산이 높다 하되(시조)",
+   "year": null,
+   "note": "높아 보이는 일도 한 걸음씩이면 됩니다. 오늘은 첫 계단만 밟아 보세요.",
+   "sources": [
+    "https://encykorea.aks.ac.kr/Article/E0035543"
+   ]
+  },
+  {
+   "key": "ox",
+   "animal": "소",
+   "text": "꽃은 무슨 일로 피면서 쉬이 지고 / 풀은 어이하야 푸르는 듯 누르나니",
+   "writer": "윤선도",
+   "work": "오우가",
+   "year": 1642,
+   "note": "빨리 피는 것보다 오래 가는 것이 있습니다. 묵묵한 오늘의 걸음을 믿어 보세요.",
+   "sources": [
+    "https://m.cafe.daum.net/ybjung/6u5L/1448"
+   ]
+  },
+  {
+   "key": "tiger",
+   "animal": "범",
+   "text": "나는 왕이로소이다.",
+   "writer": "홍사용",
+   "work": "나는 왕이로소이다",
+   "year": 1923,
+   "note": "오늘 하루쯤은 내 마음의 주인이 나라고 크게 말해도 괜찮습니다.",
+   "sources": [
+    "https://encykorea.aks.ac.kr/Article/E0011306",
+    "https://www.kyeongin.com/article/1625953"
+   ]
+  },
+  {
+   "key": "rabbit",
+   "animal": "토끼",
+   "text": "십 년을 경영하여 초가삼간 지어내니 / 나 한 칸 달 한 칸에 청풍 한 칸 맡겨 두고",
+   "writer": "송순",
+   "work": "십 년을 경영하여(시조)",
+   "year": null,
+   "note": "작은 방에도 달과 바람이 들 자리는 있습니다. 내 자리 한 칸을 정갈히 비워 보세요.",
+   "sources": [
+    "https://sgsg.hankyung.com/article/2024051754021"
+   ]
+  },
+  {
+   "key": "dragon",
+   "animal": "용",
+   "text": "그날이 오면 그날이 오며는 / 삼각산이 일어나 더덩실 춤이라도 추고",
+   "writer": "심훈",
+   "work": "그날이 오면",
+   "year": 1930,
+   "note": "기다리는 날을 또렷이 그려 두세요. 그리는 마음이 오늘을 버티게 합니다.",
+   "sources": [
+    "https://m.seoul.co.kr/news/2014/01/14/20140114031005"
+   ]
+  },
+  {
+   "key": "snake",
+   "animal": "뱀",
+   "text": "해가 그리워 눈물짓다 보면, 별도 놓치게 됩니다.",
+   "orig": "If you shed tears when you miss the sun, you also miss the stars.",
+   "translator": "금로동 옮김",
+   "writer": "라빈드라나트 타고르",
+   "work": "길 잃은 새들",
+   "year": 1916,
+   "note": "놓친 것에서 눈을 들어 지금 떠 있는 것을 보세요. 오늘 밤 별 하나쯤은 있습니다.",
+   "sources": [
+    "https://www.gutenberg.org/cache/epub/6524/pg6524-images.html"
+   ]
+  },
+  {
+   "key": "horse",
+   "animal": "말",
+   "text": "걸어서, 가벼운 마음으로 나는 열린 길에 나선다. / 건강하고 자유롭게, 세상을 앞에 두고",
+   "orig": "Afoot and light-hearted I take to the open road, / Healthy, free, the world before me,",
+   "translator": "금로동 옮김",
+   "writer": "월트 휘트먼",
+   "work": "열린 길의 노래",
+   "year": 1856,
+   "note": "오늘은 짐을 조금 덜고 나서 보세요. 가벼운 발이 멀리 갑니다.",
+   "sources": [
+    "https://rpo.library.utoronto.ca/poems/song-open-road"
+   ]
+  },
+  {
+   "key": "sheep",
+   "animal": "양",
+   "text": "아름다운 것은 영원한 기쁨. / 그 사랑스러움은 자라나, 결코 / 없음으로 사라지지 않으리니",
+   "orig": "A thing of beauty is a joy for ever: / Its loveliness increases; it will never / Pass into nothingness",
+   "translator": "금로동 옮김",
+   "writer": "존 키츠",
+   "work": "엔디미온",
+   "year": 1818,
+   "note": "오늘 본 예쁜 것 하나를 마음에 적어 두세요. 그런 것은 시간이 갈수록 자랍니다.",
+   "sources": [
+    "https://gutenberg.org/cache/epub/24280/pg24280-images.html"
+   ]
+  },
+  {
+   "key": "monkey",
+   "animal": "원숭이",
+   "text": "아뇨, 우리는 모두 시궁창에 있어요. 하지만 그중 몇은 별을 바라보고 있지요.",
+   "orig": "No, we are all in the gutter, but some of us are looking at the stars.",
+   "translator": "금로동 옮김",
+   "writer": "오스카 와일드",
+   "work": "윈더미어 부인의 부채",
+   "year": 1892,
+   "note": "형편은 다들 비슷합니다. 다른 건 고개를 어디로 드느냐뿐이에요.",
+   "sources": [
+    "https://literatpro.de/prosa/lady-windermeres-fan?page=15"
+   ]
+  },
+  {
+   "key": "rooster",
+   "animal": "닭",
+   "text": "너 자신을 믿어라. 모든 마음은 그 쇠줄에 맞춰 떨린다.",
+   "orig": "Trust thyself: every heart vibrates to that iron string.",
+   "translator": "금로동 옮김",
+   "writer": "랠프 월도 에머슨",
+   "work": "자기 신뢰",
+   "year": 1841,
+   "note": "남의 박자 말고 내 줄을 한 번 튕겨 보세요. 생각보다 맑은 소리가 납니다.",
+   "sources": [
+    "https://standardebooks.org/ebooks/ralph-waldo-emerson/essays/text/self-reliance"
+   ]
+  },
+  {
+   "key": "dog",
+   "animal": "개",
+   "text": "희망을 품고 길을 가는 것이 도착하는 것보다 낫다.",
+   "orig": "To travel hopefully is a better thing than to arrive",
+   "translator": "금로동 옮김",
+   "writer": "로버트 루이스 스티븐슨",
+   "work": "엘도라도",
+   "year": 1878,
+   "note": "아직 도착하지 못했다고 조급해하지 마세요. 가는 길도 하루치 삶입니다.",
+   "sources": [
+    "https://robert-louis-stevenson.org/?p=20262"
+   ]
+  },
+  {
+   "key": "pig",
+   "animal": "돼지",
+   "text": "다른 날들에서 구름이 떠와 내 삶에 든다. 이제 비를 뿌리거나 폭풍을 부르려 함이 아니라, 내 저녁 하늘에 빛깔을 더하려고.",
+   "orig": "Clouds come floating into my life from other days no longer to shed rain or usher storm but to give colour to my sunset sky.",
+   "translator": "금로동 옮김",
+   "writer": "라빈드라나트 타고르",
+   "work": "길 잃은 새들",
+   "year": 1916,
+   "note": "지난 일이 떠오르면 비구름 말고 노을빛으로 봐 주세요. 오늘 저녁 하늘이 조금 고와집니다.",
+   "sources": [
+    "https://www.gutenberg.org/cache/epub/6524/pg6524-images.html"
+   ]
+  }
+ ],
+ "puzzle": {
+  "size": [
+   11,
+   6
+  ],
+  "words": [
+   {
+    "n": 1,
+    "dir": "across",
+    "r": 0,
+    "c": 2,
+    "a": "소나기",
+    "clue": "징검다리와 조약돌의 소설"
+   },
+   {
+    "n": 3,
+    "dir": "across",
+    "r": 2,
+    "c": 0,
+    "a": "고려가요",
+    "clue": "「청산별곡」 같은 고려 시대 노래"
+   },
+   {
+    "n": 4,
+    "dir": "across",
+    "r": 4,
+    "c": 0,
+    "a": "이장희",
+    "clue": "「봄은 고양이로다」를 쓴 대구의 시인"
+   },
+   {
+    "n": 6,
+    "dir": "across",
+    "r": 4,
+    "c": 4,
+    "a": "반복",
+    "clue": "같은 말·구조를 되풀이하는 기법"
+   },
+   {
+    "n": 7,
+    "dir": "across",
+    "r": 5,
+    "c": 3,
+    "a": "시어",
+    "clue": "시에 쓰인 말"
+   },
+   {
+    "n": 8,
+    "dir": "across",
+    "r": 6,
+    "c": 1,
+    "a": "소설집",
+    "clue": "단편소설을 묶은 책"
+   },
+   {
+    "n": 9,
+    "dir": "across",
+    "r": 7,
+    "c": 0,
+    "a": "전설",
+    "clue": "예부터 전해 오는 이야기"
+   },
+   {
+    "n": 11,
+    "dir": "across",
+    "r": 9,
+    "c": 0,
+    "a": "지문",
+    "clue": "희곡에서 동작·무대를 지시하는 글"
+   },
+   {
+    "n": 13,
+    "dir": "across",
+    "r": 10,
+    "c": 1,
+    "a": "인공지능",
+    "clue": "알파고 같은 컴퓨터 지능"
+   },
+   {
+    "n": 1,
+    "dir": "down",
+    "r": 0,
+    "c": 2,
+    "a": "소설가",
+    "clue": "『엄마를 부탁해』 큰딸의 직업"
+   },
+   {
+    "n": 2,
+    "dir": "down",
+    "r": 0,
+    "c": 4,
+    "a": "기차",
+    "clue": "이인화가 타고 서울로 오던 탈것"
+   },
+   {
+    "n": 3,
+    "dir": "down",
+    "r": 2,
+    "c": 0,
+    "a": "고양이",
+    "clue": "이장희가 봄을 빗댄 동물"
+   },
+   {
+    "n": 5,
+    "dir": "down",
+    "r": 4,
+    "c": 1,
+    "a": "장편소설",
+    "clue": "『삼대』 같은 긴 소설"
+   },
+   {
+    "n": 6,
+    "dir": "down",
+    "r": 4,
+    "c": 4,
+    "a": "반어",
+    "clue": "속뜻과 반대로 말하기"
+   },
+   {
+    "n": 7,
+    "dir": "down",
+    "r": 5,
+    "c": 3,
+    "a": "시집",
+    "clue": "시를 묶어 낸 책"
+   },
+   {
+    "n": 9,
+    "dir": "down",
+    "r": 7,
+    "c": 0,
+    "a": "전단지",
+    "clue": "가족이 엄마를 찾으려 돌린 종이"
+   },
+   {
+    "n": 10,
+    "dir": "down",
+    "r": 8,
+    "c": 3,
+    "a": "송아지",
+    "clue": "소년이 올라타 보인 짐승"
+   },
+   {
+    "n": 12,
+    "dir": "down",
+    "r": 9,
+    "c": 1,
+    "a": "문인",
+    "clue": "글 쓰는 사람"
+   }
+  ]
+ }
+}
