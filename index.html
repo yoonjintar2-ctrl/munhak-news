@@ -383,6 +383,7 @@ button,select{font:inherit}
 .rowc1{grid-template-columns:minmax(0,820px)!important;justify-content:center}
 .rowc1>.sec{border:0!important;padding-left:0!important;margin-left:0!important}
 #s-man,.rowg,.rowx,.rowe{margin-top:52px}
+.req-tag{display:inline-block;margin-left:8px;padding:1px 7px;border:1.5px solid var(--red);color:var(--red);font-family:var(--sans);font-size:.62rem;font-weight:700;letter-spacing:0;vertical-align:middle;border-radius:2px;transform:rotate(-2deg)}
 </style>
 <script>(function(){try{var z=parseFloat(localStorage.getItem('mnews-fz'));if(z>0)document.documentElement.style.fontSize=(15*z)+'px'}catch(e){}})()</script>
 </head>
@@ -673,6 +674,8 @@ function render(D){
   day(D);
   rx(D);
   try{goRender(D)}catch(e){console.log(e)}
+  // 독자 신청작 꼬리표(발행인 11/16): 코너 데이터에 request 가 있으면 제목 옆에 표시
+  try{document.querySelectorAll('.req-tag').forEach(function(e){e.remove()});[['sentence','s-sentence'],['poem','s-poem'],['novel','s-novel'],['writer','s-writer'],['classic','s-classic'],['modern','s-modern']].forEach(function(p){var c=D[p[0]];if(!c||!c.request)return;var h=document.querySelector('#'+p[1]+' .kick h2');if(!h)return;var t=document.createElement('span');t.className='req-tag';t.textContent=typeof c.request==='string'?c.request:'독자 신청작';t.title='독자가 보내 주신 신청으로 실었어요';h.appendChild(t)})}catch(e){console.log(e)}
   try{manRender(D)}catch(e){console.log(e)}
   try{zdRender(D)}catch(e){console.log(e)}
   vidUp(D);
