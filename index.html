@@ -366,6 +366,19 @@ button,select{font:inherit}
 .zd-pick select{font:inherit;border:1px solid var(--ink);background:transparent;padding:2px 4px}
 @media (max-width:1100px){.rowg{grid-template-columns:1fr}.rowg>.sec+.sec{border-left:0;padding-left:0;margin:48px 0 0}}
 @media (max-width:560px){.zd-list{grid-template-columns:1fr}}
+/* ⑬ 오늘의 사나이 — 발행인 11/15 */
+.man-wrap{display:grid;grid-template-columns:300px minmax(0,1fr);gap:28px;align-items:start}
+.man-wrap>div{min-width:0;max-width:760px}
+.man-wrap img{width:100%;border:1px solid var(--ink);display:block;background:#f4f3ee}
+.man-name{font-family:var(--serif);font-weight:900;font-size:1.9rem;line-height:1.2;letter-spacing:-.02em;margin:0}
+.man-sub{font-family:var(--sans);font-size:.8rem;color:var(--muted);margin:4px 0 12px}
+.man-sub b{color:var(--red);font-weight:700}
+.man-feats{list-style:none;margin:14px 0 0;padding:0;border-top:1px solid var(--ink)}
+.man-feats li{display:grid;grid-template-columns:92px 1fr;gap:12px;padding:10px 0;border-bottom:1px solid var(--rule-soft);font-size:.93rem;line-height:1.6}
+.man-feats li b{font-family:var(--mono);font-size:.8rem;color:var(--red);padding-top:2px}
+.man-q{font-family:var(--serif);font-weight:700;font-size:1.05rem;border-left:4px solid var(--ink);padding:2px 0 2px 12px;margin:14px 0 0}
+#s-man{margin-top:52px}
+@media (max-width:760px){.man-wrap{grid-template-columns:1fr}.man-wrap img{max-width:340px}}
 </style>
 <script>(function(){try{var z=parseFloat(localStorage.getItem('mnews-fz'));if(z>0)document.documentElement.style.fontSize=(15*z)+'px'}catch(e){}})()</script>
 </head>
@@ -506,6 +519,13 @@ button,select{font:inherit}
   </div>
 
 
+
+  <section class="sec" id="s-man" data-sec="man" data-name="오늘의 사나이" hidden><a class="anc" id="man"></a>
+    <div class="kick"><h2><i>⑬</i>오늘의 사나이</h2><span id="man-kind">특수부대 · 격투가 · 운동선수 열전</span></div>
+    <div class="man-wrap"><figure style="margin:0"><img id="man-img" alt=""><figcaption class="cap" id="man-cap" style="font-size:.72rem;color:var(--faint);margin-top:4px">얼굴 없는 실루엣 펜화</figcaption></figure>
+      <div><p class="man-name" id="man-name"></p><p class="man-sub" id="man-sub"></p><div class="body"><p id="man-bio"></p></div>
+      <ol class="man-feats" id="man-feats"></ol><p class="man-q" id="man-q" hidden></p><p class="src" id="man-src"></p></div></div>
+  </section>
   <div class="rowg">
     <section class="sec" id="s-go" data-sec="go" data-name="오늘의 한 수" hidden><a class="anc" id="go"></a>
       <div class="kick"><h2><i>⑪</i>오늘의 한 수</h2><span>바둑 · 기보 한 장</span></div>
@@ -649,6 +669,7 @@ function render(D){
   day(D);
   rx(D);
   try{goRender(D)}catch(e){console.log(e)}
+  try{manRender(D)}catch(e){console.log(e)}
   try{zdRender(D)}catch(e){console.log(e)}
   vidUp(D);
   tools(D);
@@ -740,6 +761,16 @@ function zdRender(D){var Z=D.zodiac;hideIf('s-zd',!Z||!Z.length);if(!Z||!Z.lengt
   $('zd-sel').innerHTML='<option value="">고르기</option>'+Z.map(function(z){return'<option value="'+z.key+'"'+(z.key===me?' selected':'')+'>'+esc(z.animal)+'띠</option>'}).join('');
   $('zd-sel').onchange=function(){me=this.value;try{localStorage.setItem(KEY,me)}catch(e){}draw()};
   draw();var all=[];Z.forEach(function(z){(z.sources||[]).forEach(function(u){if(all.indexOf(u)<0)all.push(u)})});$('zd-src').innerHTML=srcs(all)}
+
+// ⑬ 오늘의 사나이
+function manRender(D){var M=D.man;hideIf('s-man',!M);if(!M)return;
+  $('man-kind').textContent=M.kind?M.kind+' 열전':'특수부대 · 격투가 · 운동선수 열전';
+  $('man-img').src=M.img||'';$('man-img').alt=M.alt||M.name;$('man-cap').textContent=M.cap||'얼굴 없는 실루엣 펜화';
+  $('man-name').textContent=M.name;$('man-sub').innerHTML=(M.kind?'<b>'+esc(M.kind)+'</b> · ':'')+esc(M.sub||'');
+  $('man-bio').textContent=M.bio||'';
+  $('man-feats').innerHTML=(M.feats||[]).map(function(f){return'<li><b>'+esc(f.when)+'</b><span>'+esc(f.text)+'</span></li>'}).join('');
+  $('man-q').textContent=M.quote?'“'+M.quote+'”'+(M.quote_by?' — '+M.quote_by:''):'';hideIf('man-q',!M.quote);
+  $('man-src').innerHTML=srcs(M.sources)}
 function rx(D){fetch('data/rx.json?v='+Date.now()).then(function(r){return r.json()}).then(function(R){RX=R;
   $('rx-moods').innerHTML=R.moods.map(function(m){return'<button type="button" data-m="'+m.key+'" aria-pressed="false"><b>'+esc(m.label)+'</b><small>'+esc(m.symptom)+'</small></button>'}).join('');
   $('rx-moods').onclick=function(e){var b=e.target.closest('button');if(!b)return;var k=b.getAttribute('data-m');
@@ -785,6 +816,7 @@ function secText(D,sec){var L=[],dt=D.date.replace(/-/g,'.'),hd='[문학늬우�
  if(sec==='trivia'){L.push(hd+'문학 상식 OX]','');(D.trivia||[]).forEach(function(t,i){L.push('Q'+(i+1)+'. '+t.q,'   정답 '+t.a+' — '+t.why,'')});if(D.calendar)L.push('오늘의 문학 달력 — '+D.calendar)}
  if(sec==='classic'){var C=D.classic;L.push(hd+'1분 고전]','','「'+C.title+'」 '+C.writer+' ('+C.year+')',C.oneline||'','');(C.story||[]).forEach(function(p){L.push(p,'')});(C.lines||[]).forEach(function(l,i){L.push((i+1)+'. '+l)});L.push('','■ 결말(스포일러)',C.ending||'','','■ 왜 읽을 만한가',C.why||'')}
  if(sec==='modern'){var C=D.modern;L.push(hd+'1분 현대문학]','','「'+C.title+'」 '+C.writer+' ('+C.year+')',C.oneline||'','');(C.story||[]).forEach(function(p){L.push(p,'')});(C.lines||[]).forEach(function(l,i){L.push((i+1)+'. '+l)});L.push('','■ 결말(스포일러)',C.ending||'','','■ 왜 읽을 만한가',C.why||'')}
+ if(sec==='man'){var M=D.man;L.push(hd+'오늘의 사나이]','',M.name+(M.kind?' ('+M.kind+')':''),M.sub||'','',M.bio||'','');(M.feats||[]).forEach(function(f){L.push('■ '+f.when+' — '+f.text)});if(M.quote)L.push('','“'+M.quote+'”'+(M.quote_by?' — '+M.quote_by:''))}
  if(sec==='go'){var G=D.go;L.push(hd+'오늘의 한 수]','',G.title,G.game+' · '+G.date.replace(/-/g,'.'),'흑 '+G.black+' · 백 '+G.white+' · '+G.result,'',G.lead||'','');(G.body||[]).forEach(function(t){L.push(t,'')});if(G.lit)L.push(G.lit)}
  if(sec==='zodiac'){L.push(hd+'띠별 오늘의 문장]','');(D.zodiac||[]).forEach(function(z){L.push('■ '+z.animal+'띠 — “'+z.text+'”','   '+z.writer+' 「'+z.work+'」'+(z.translator?' · '+z.translator:''),'   ☞ '+z.note,'')})}
  if(sec==='rx'){if(RXcur){L.push(hd+'기분 처방전]','','증상: '+RXcur._m.label+' — '+RXcur._m.symptom,'','“'+RXcur.text+'”');if(RXcur.orig)L.push(RXcur.orig);L.push('— '+RXcur.writer+' 「'+RXcur.work+'」'+(RXcur.year?' ('+RXcur.year+')':'')+(RXcur.translator?' · '+RXcur.translator:''),'','복용법: '+RXcur.dose)}else{L.push(hd+'기분 처방전]','','오늘 기분을 고르면 문장 한 알을 지어 드립니다.')}}

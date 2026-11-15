@@ -98,3 +98,7 @@
 
 ## zodiac — ⑫ 띠별 오늘의 문장 (발행인 11/15)
 `"zodiac": [{"key":"rat|ox|tiger|rabbit|dragon|snake|horse|sheep|monkey|rooster|dog|pig","animal":"쥐","text":"문장(시는 / 로 줄바꿈)","orig":"(외국어면 원문)","translator":"금로동 옮김","writer":"","work":"","year":1938,"note":"오늘 참고할 한두 문장(40~60자, 운세 말투 말고 다정한 권유)","sources":["원문 확인 URL"]}]` — 12개, 쥐부터 돼지 순. 띠 그림은 img/zodiac/<key>.png(Noto Emoji 흑백, OFL). 출생 연도는 화면이 자동 계산.
+
+
+## man — ⑬ 오늘의 사나이 (발행인 11/15)
+`"man": {"kind":"특수부대|격투가|운동선수","name":"이름(부대명이면 정식 명칭 + 약칭)","sub":"국적·소속·생몰/창설 한 줄","img":"img/<날짜>-man.png","alt":"","cap":"얼굴 없는 실루엣 펜화","bio":"120~180자","feats":[{"when":"연도·날짜 또는 짧은 꼬리표","text":"한두 문장"}] (3~4개),"quote":"(선택) 본인·부대의 말, 확인된 것만","quote_by":"","sources":[]}`

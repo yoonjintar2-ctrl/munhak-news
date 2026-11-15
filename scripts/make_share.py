@@ -9,8 +9,8 @@ import hashlib, html, json, os, re, sys, glob
 
 SITE = "https://mnews.jintar.co.kr/"
 OUT = "s"
-SECS = ["sentence", "poem", "novel", "writer", "puzzle", "trivia", "classic", "rx", "day", "modern", "go", "zodiac"]
-NAME = {"sentence": "오늘의 문장", "poem": "오늘의 시", "novel": "오늘의 소설 구절", "writer": "오늘의 문인", "puzzle": "낱말 퍼즐", "trivia": "문학 상식 OX", "classic": "1분 고전", "rx": "기분 처방전", "day": "그날의 문학", "modern": "1분 현대문학", "go": "오늘의 한 수", "zodiac": "띠별 오늘의 문장"}
+SECS = ["sentence", "poem", "novel", "writer", "puzzle", "trivia", "classic", "rx", "day", "modern", "go", "zodiac", "man"]
+NAME = {"sentence": "오늘의 문장", "poem": "오늘의 시", "novel": "오늘의 소설 구절", "writer": "오늘의 문인", "puzzle": "낱말 퍼즐", "trivia": "문학 상식 OX", "classic": "1분 고전", "rx": "기분 처방전", "day": "그날의 문학", "modern": "1분 현대문학", "go": "오늘의 한 수", "zodiac": "띠별 오늘의 문장", "man": "오늘의 사나이"}
 
 
 def esc(x):
@@ -65,6 +65,11 @@ def content(D, sec):
         G = D["go"]
         return (f"오늘의 한 수 · {G['title']} — {G['white'] if G['key'] % 2 == 0 else G['black']}, {G['game']}", clip(G.get("lead", "") + " " + " ".join(G.get("body") or []), 110),
                 esc(G["title"]), esc(clip(G.get("lead"), 90)), None, f"{esc(G['game'])} · {G['date'].replace('-', '.')} · 흑 {esc(G['black'])} · 백 {esc(G['white'])}")
+    if sec == "man":
+        M = D["man"]; f0 = (M.get("feats") or [{}])[0]
+        lead = next((f for f in M.get("feats") or [] if any(ch.isdigit() for ch in f.get("when", ""))), f0)
+        return (f"오늘의 사나이 · {M['name']} — {clip(lead.get('text', ''), 50)}", clip(M.get("bio", ""), 110),
+                esc(M["name"]).replace(" (", "<br><small>(").replace(")", ")</small>") if " (" in M["name"] else esc(M["name"]), esc(clip(lead.get("when", "") + " · " + lead.get("text", ""), 90)), M.get("img"), f"{esc(M.get('kind', ''))} · {esc(M.get('sub', ''))}")
     if sec == "zodiac":
         Z = D["zodiac"]
         return (f"띠별 오늘의 문장 · {Z[0]['animal']}띠 「{Z[0]['work']}」 외 {len(Z) - 1}편 — 운세 대신 문장 한 줄", " / ".join(f"{z['animal']}띠 “{clip(z['text'].replace(' / ', ' '), 22)}”" for z in Z[:5])[:110],
@@ -280,7 +285,7 @@ def main(dates):
                 right = f'<div class="r" style="width:300px;top:120px"><div style="width:280px;height:330px;margin-left:auto;background:#f9f8f3;border:3px solid #1A1A1A;box-shadow:10px 10px 0 #1A1A1A;position:relative;padding:22px"><div style="font-size:30px;font-weight:900;border-bottom:4px double #1A1A1A;padding-bottom:8px">{ {"rx":"문학 약국","classic":"1분 고전","day":"그날의 문학","modern":"1분 현대문학"}[sec] }</div><div style="font-size:18px;color:#A01E1E;font-weight:700;margin-top:10px">{ {"rx":"처방전 · 內服藥","classic":"1분이면 읽는 줄거리","day":"오늘 날짜의 문학사","modern":"요즘 소설 1분 요약"}[sec] }</div><div style="position:absolute;right:24px;bottom:28px;width:110px;height:110px;border:5px solid #A01E1E;border-radius:50%;color:#A01E1E;font-size:26px;font-weight:900;line-height:1.15;display:grid;place-items:center;text-align:center;transform:rotate(-14deg)">{lbl}</div></div></div>'
                 lw = 760
             elif img and os.path.exists(img):
-                wr = sec == "writer"
+                wr = sec in ("writer", "man")
                 right = f'<div class="r{" wr" if wr else ""}"><img src="file://{os.path.abspath(img)}"><div class="cap">{"얼굴 없는 실루엣 펜화" if wr else "AI 삽화"}</div></div>'
                 lw = 820 if wr else 580
             card = CARD.replace("__DATE__", kdate(d)).replace("__KICK__", NAME[sec]).replace("__HEAD__", head).replace("__LEDE__", lede).replace("__TAIL__", tail).replace("__RIGHT__", right).replace("__LW__", str(lw))

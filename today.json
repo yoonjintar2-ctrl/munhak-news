@@ -592,5 +592,35 @@
   "poem": "audio/2026-11-15-poem.mp3",
   "sentence": "audio/2026-11-15-sentence.mp3",
   "writer": "audio/2026-11-15-writer.mp3"
+ },
+ "man": {
+  "kind": "특수부대",
+  "name": "해군 특수전전단 (UDT/SEAL)",
+  "sub": "대한민국 해군 · 1955년 창설",
+  "img": "img/2026-11-15-man.png",
+  "alt": "고무보트를 젓는 대원 넷의 얼굴 없는 실루엣, 멀리 군함",
+  "cap": "얼굴 없는 실루엣 펜화",
+  "bio": "1955년 11월, 미국에서 수중파괴대(UDT) 교육을 마친 교관 7명과 기초과정 수료생들을 주축으로 해군 수중파괴대가 문을 연 것이 시작이다. 1968년 폭발물 처리, 1976년 전천후 타격(SEAL), 1993년 해상 대테러 임무가 차례로 더해져 바다·땅·하늘 어디서든 작전하는 부대가 됐다.",
+  "feats": [
+   {
+    "when": "기본훈련",
+    "text": "24주 동안 갯벌 훈련, 장거리 구보, 수영이 이어지고, 밤낮 없이 몰아치는 '지옥주'를 견뎌야 한다. 절반 넘게 중도에 떨어진다."
+   },
+   {
+    "when": "2011. 1. 21.",
+    "text": "아덴만 여명작전. 소말리아 해적에 납치된 화물선 삼호주얼리호에 새벽에 올라 선원 21명을 모두 살려 냈다."
+   },
+   {
+    "when": "2014. 4.",
+    "text": "세월호 침몰 현장에 투입돼 수중 수색·구조에 나섰다."
+   }
+  ],
+  "sources": [
+   "https://www.segye.com/newsView/20151104001231",
+   "https://www.segye.com/newsView/20110123001114",
+   "https://www.newdaily.co.kr/site/data/html/2011/01/23/2011012300041.html",
+   "https://www.segye.com/newsView/20110121004594",
+   "https://en.wikipedia.org/wiki/Republic_of_Korea_Navy_Special_Warfare_Flotilla"
+  ]
  }
 }
