@@ -22,9 +22,13 @@ def main(script, kind, timeline, repo='.'):
     if D and D.get(kind): C = {**D[kind], **C}
     T = json.load(open(timeline, encoding='utf-8'))['items']
     b = next(i['a'] for i in T if i['sec'] == 'body'); o = next(i['a'] for i in T if i['sec'] == 'outro')
+    e = None
+    if C.get('ending_from') is not None and C.get('story_n', 0) < len(C.get('body', [])):
+        ln = (1 if S.get('opener') else 0) + len(C['intro']) + C['ending_from']
+        e = next((i['a'] for i in T if i.get('ln') == ln), None)
     L = [f"1분 만에 떠먹여 주는, 1분 문학 — 오늘은 {C['writer']}의 「{C['title']}」({C.get('year', '')}).",
-         '틀어 두고 들으세요. 줄거리를 연필이가 처음부터 끝까지 읽어 드려요.', '',
-         f"⏱ 0:00 인트로 · {ts(b)} 줄거리 · {ts(o)} 연필이의 정리", '']
+         '틀어 두고 들으세요. 줄거리를 연필이가 처음부터 결말까지 읽어 드려요.', '',
+         f"⏱ 0:00 인트로 · {ts(b)} 줄거리" + (f" · {ts(e)} 결말" if e else '') + f" · {ts(o)} 연필이의 정리·오늘의 지면", '']
     if D:
         no = D.get('no'); md = f"{int(D0[5:7])}월 {int(D0[8:])}일"
         L.append(f"📰 오늘({md}, 제{no}호) 문학늬우스 지면에는")

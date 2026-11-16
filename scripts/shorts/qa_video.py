@@ -8,7 +8,7 @@ python3 scripts/shorts/qa_video.py shorts/scripts/<날짜>.json classic out-clas
  1) 파일: 1920×1080(가로) 또는 1080×1920(세로), h264 + aac, 길이 = 타임라인 total ±0.8초
  2) 소리: 통합 음량 -17~-13 LUFS, 최대 -0.5 dBTP 이하, 나레이션 안에 2.5초 넘는 무음 없음(빠진 문장 의심)
  3) 화면: 0.3초 넘는 검은 화면 없음
- 4) 본문 = 지면 줄거리(story) 문장 전부, 한 글자도 다르지 않게(띄어쓰기·자막 마디 기호 제외)
+ 4) 본문 = 지면 줄거리(story) 문장 전부 + 결말(ending, 발행인 11/17), 한 글자도 다르지 않게(띄어쓰기·자막 마디 기호 제외)
  5) 자막: 마디마다 0.35초 이상 떠 있고 초당 14글자 이하(10 넘으면 주의), 마디 사이 빈틈 1.6초 이하, 한 마디 18자 이하
  6) 장면 영상 파일이 모두 있고 장면이 2개 이상이면 실제로 바뀜
 """
@@ -22,6 +22,14 @@ def sh(cmd):
 
 def norm(s):
     return re.sub(r'\s+', '', s.replace(' / ', ' ').replace('/', ''))
+
+
+def end_of(repo, D, kind):
+    for p in (f'archive/{D}.json', f'drafts/{D}.json', 'today.json'):
+        fp = os.path.join(repo, p)
+        if os.path.exists(fp):
+            d = json.load(open(fp, encoding='utf-8'))
+            if d.get('date', D) == D and d.get(kind, {}).get('story'): return d[kind].get('ending')
 
 
 def story_of(repo, D, kind):
@@ -70,10 +78,14 @@ def main(script, kind, video, repo='.'):
     story, src = story_of(repo, D, kind)
     if story is None: warn.append('지면 story 를 못 찾아 본문 대조 생략')
     else:
-        want = norm(''.join(story)); got = norm(''.join(C['body']))
+        want = norm(''.join(story) + (end_of(repo, D, kind) or '')); got = norm(''.join(C['body']))
         if want != got:
             i = next((k for k in range(min(len(want), len(got))) if want[k] != got[k]), min(len(want), len(got)))
             bad.append(f'본문≠지면({src}) {i}번째 글자부터 다름: 지면 「{want[i:i+20]}」 / 영상 「{got[i:i+20]}」')
+
+    out = ' '.join(C.get('outro') or [])
+    if re.search(r'결말은|확인하세요', out): bad.append('outro 에 "결말은 지면에서 확인" 류 문장 — 이제 결말은 영상에서 읽음(11/17)')
+    if '문학늬우스' not in out: warn.append('outro 에 오늘 지면 다른 코너 소개가 없음')
 
     # 5) 자막 박자
     its = tl['items']

@@ -14,7 +14,7 @@ def main(script, qdir, outdir='audio'):
     for k in ('classic', 'modern'):
         if k not in S: continue
         C = S[k]; n0 = len(C['intro'])
-        keys = [(f'{k}_{n0 + i:02d}', J.ko(l.replace(' / ', ' '))) for i, l in enumerate(C['body'])]
+        keys = [(f'{k}_{n0 + i:02d}', J.ko(l.replace(' / ', ' '))) for i, l in enumerate(C['body'][:C.get('story_n', len(C['body']))])]   # 결말은 빼고(지면에선 '결말 보기'에 숨김)
         clips, sr = M.build_audio(qdir, S.get('tts_name') or f'shorts-{D}', keys, REPO)
         parts = []
         for w, _ in clips: parts += [w.astype(np.float32), np.zeros(int(sr * T.GAP), np.float32)]

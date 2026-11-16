@@ -2,7 +2,8 @@
   python3 scripts/shorts/fill_body.py shorts/scripts/<날짜>.json <호 JSON: drafts/<날짜>.json 또는 today.json>
 · classic·modern 의 body 를 지면 story 의 모든 문장으로 채우고(자막 마디 ' / ' 자동 표시),
 · scenes 를 지면 장면에 맞춰 다시 짠다: 문단 p 를 읽는 동안 = 그 문단 장면(scenes.after == p), 없으면 대표 영상.
-· intro·outro·opener 는 사람이 쓴 그대로 둔다(outro 에서 줄거리를 되풀이하지 않게).
+· 발행인 11/17: 본문 = story 전부 + ending(결말)까지. story_n·ending_from 에 경계를 남긴다(사이트 듣기는 story 만).
+· intro·outro·opener 는 사람이 쓴 그대로 둔다(outro 에서 줄거리를 되풀이하지 않게, 끝에 오늘 지면 다른 코너 소개).
 · tts_name 이 없으면 shorts-<날짜> 를 쓴다. 이미 같은 이름으로 다른 문장을 녹음 중이면 tts_name 을 새로 정해 넘길 것(--name).
 길이: 지면 story 1,000~1,150자면 쇼츠 전체 약 2분 30초~2분 50초(유튜브 쇼츠 한도 3분)."""
 import json, re, sys
@@ -77,9 +78,18 @@ def main(script, issue, name=None):
             v = sc_by_p.get(p, P.get('video') or C.get('video'))
             if not scenes or scenes[-1]['video'] != v: scenes.append({'from': len(body), 'video': v})
             body += [chunk(s) for s in split_sentences(par)]
+        C['story_n'] = len(body)          # 여기까지가 지면 story(사이트 '듣기'는 이 범위만 — 지면 결말은 '결말 보기' 안에 숨겨 둠)
+        if P.get('ending'):                # 발행인 11/17: "유튜브 영상은 결말까지 포함" — ending 을 이어서 끝까지 읽는다
+            v = sc_by_p.get('ending', scenes[-1]['video'] if scenes else C.get('video'))
+            if not scenes or scenes[-1]['video'] != v: scenes.append({'from': len(body), 'video': v})
+            body += [chunk(s) for s in split_sentences(P['ending'])]
+        C['ending_from'] = C['story_n']
+        out = ' '.join(C.get('outro') or [])
+        assert not re.search(r'결말은|결말이 궁금|확인하세요', out), f'{k} outro: 이제 결말은 영상에서 읽으니 "결말은 지면에서 확인" 류 문장을 빼세요 — {out[:80]}'
+        assert '문학늬우스' in out, f'{k} outro: 끝에 오늘 지면 다른 코너 소개(문학늬우스) 문장이 있어야 합니다'
         C['body'] = body; C['scenes'] = scenes; C['video'] = P.get('video') or C.get('video')
         C['title'] = P.get('title', C.get('title')); C['writer'] = P.get('writer', C.get('writer'))
-        print(k, f'본문 {len(body)}문장, 장면 전환 {len(scenes)}번')
+        print(k, f'본문 {len(body)}문장(그중 결말 {len(body) - C["story_n"]}문장), 장면 전환 {len(scenes)}번')
     if name: S['tts_name'] = name
     json.dump(S, open(script, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 

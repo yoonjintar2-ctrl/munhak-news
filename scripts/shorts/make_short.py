@@ -227,7 +227,7 @@ def main(script, kind, qdir, repo, out):
         gap = 0.55 if nxt == sec else (0.8 if nxt else 0.9)
         for j, c in enumerate(chs):
             a = t + st[j]; b = t + (st[j + 1] if j + 1 < len(chs) else d + gap * 0.6)
-            items.append(dict(sec=sec, txt=c, a=a, b=b))
+            items.append(dict(sec=sec, txt=c, a=a, b=b, ln=i))
         items_sec = (sec, t, t + d + gap)
         audio += [w.astype(np.float32), np.zeros(int(sr * gap), np.float32)]
         lines[i] = (sec, line, t, t + d + gap); t += d + gap
