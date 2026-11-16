@@ -451,6 +451,88 @@
     "https://www.imaeil.com/page/view/2015110401113138836"
    ],
    "added": "2026-11-16"
+  },
+  {
+   "mood": "tired",
+   "text": "근심의 엉킨 실타래를 풀어 짜 주는 잠, / 하루하루 삶의 죽음, 고된 노동의 목욕",
+   "orig": "Sleep that knits up the ravell'd sleeve of care, / The death of each day's life, sore labour's bath,",
+   "translator": "금로동 옮김",
+   "writer": "윌리엄 셰익스피어",
+   "work": "맥베스(2막 2장)",
+   "year": 1606,
+   "kind": "희곡",
+   "dose": "오늘은 처방보다 베개가 먼저입니다. 이 두 줄을 읽고 불을 끄세요.",
+   "sources": [
+    "https://web.mit.edu/shakespeare/TheMITTech/macbeth/macbeth.2.2.html"
+   ],
+   "added": "2026-11-17"
+  },
+  {
+   "mood": "blue",
+   "text": "우물 속에는 달이 밝고 구름이 흐르고 하늘이 / 펼치고 파아란 바람이 불고 가을이 있습니다.",
+   "writer": "윤동주",
+   "work": "자화상",
+   "year": 1939,
+   "kind": "시",
+   "dose": "울적한 날엔 들여다볼 우물 하나를 찾으세요. 거울도, 찻잔도, 창문도 됩니다.",
+   "sources": [
+    "https://www.korean.go.kr/nkview/nklife/1998_3/8-11.html"
+   ],
+   "added": "2026-11-17"
+  },
+  {
+   "mood": "anxious",
+   "text": "등불을 밝혀 어둠을 조금 내몰고, / 시대처럼 올 아침을 기다리는 최후의 나,",
+   "writer": "윤동주",
+   "work": "쉽게 씌어진 시",
+   "year": 1942,
+   "kind": "시",
+   "dose": "어둠을 다 걷으려 하지 말고, 스탠드 하나 켤 만큼만 내모세요. 아침은 옵니다.",
+   "sources": [
+    "https://v.daum.net/v/20160305112609068"
+   ],
+   "added": "2026-11-17"
+  },
+  {
+   "mood": "angry",
+   "text": "탐욕도 벗어놓고 성냄도 벗어놓고 / 물같이 바람같이 살다가 가라하네",
+   "writer": "나옹선사(전함)",
+   "work": "청산은 나를 보고",
+   "year": null,
+   "kind": "선시",
+   "dose": "화를 외투처럼 벗어 의자에 걸어 두세요. 다시 입을지는 차 한 잔 뒤에 정해도 늦지 않습니다.",
+   "sources": [
+    "https://www.jjan.kr/articleAmp/20170201602650"
+   ],
+   "added": "2026-11-17"
+  },
+  {
+   "mood": "flutter",
+   "text": "문 열자 선뜻! / 먼 산이 이마에 차라.",
+   "writer": "정지용",
+   "work": "춘설",
+   "year": 1939,
+   "kind": "시",
+   "dose": "두근거리면 창문을 열어 이마로 바람을 받으세요. 설렘이 한결 맑아집니다.",
+   "sources": [
+    "https://www.korean.go.kr/nkview/nklife/2006_1/2006_0109.pdf"
+   ],
+   "added": "2026-11-17"
+  },
+  {
+   "mood": "blank",
+   "text": "자주, 소파에 누워 / 멍하니 혹은 생각에 잠겨 있을 때면,",
+   "orig": "For oft, when on my couch I lie / In vacant or in pensive mood,",
+   "translator": "금로동 옮김",
+   "writer": "윌리엄 워즈워스",
+   "work": "나는 구름처럼 외로이 떠돌았네",
+   "year": 1807,
+   "kind": "시",
+   "dose": "멍한 시간은 시인이 수선화를 다시 꺼내 보던 시간입니다. 죄책감 없이 누워 계세요.",
+   "sources": [
+    "https://rpo.library.utoronto.ca/poems/i-wandered-lonely-cloud"
+   ],
+   "added": "2026-11-17"
   }
  ]
 }

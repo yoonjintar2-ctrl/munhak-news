@@ -105,6 +105,7 @@ button,select{font:inherit}
 .poem-meta{font-size:.8rem;color:var(--muted);margin:2px 0 12px}
 .poem-lines{font-size:1rem;line-height:1.95}
 .poem-lines p{margin:0 0 .9em}
+.orig-lines{font-family:Georgia,"Times New Roman",serif;font-style:italic;font-size:.92rem;color:var(--muted);margin-top:8px}
 .note{font-size:.7rem;color:var(--faint)}
 .oneline{margin-top:14px;padding:10px 12px;border:1px solid var(--ink);font-size:.9rem;background:var(--paper2)}
 .oneline b{color:var(--red);margin-right:6px}
@@ -434,6 +435,7 @@ button,select{font:inherit}
           <h3 class="poem-title" id="poem-title"></h3>
           <p class="poem-meta" id="poem-meta"></p>
           <div class="poem-lines" id="poem-lines"></div>
+          <details class="cl-end poem-orig" id="poem-orig" hidden><summary>원문 보기 <em id="poem-orig-lang"></em></summary><div class="poem-lines orig-lines" id="poem-orig-lines"></div></details>
           <p class="note" id="poem-note"></p>
         </div>
         <div>
@@ -633,6 +635,9 @@ function render(D){
       // 11/14 발행인: 시 삽화는 늘 코너 맨 위(화면 크기·전문 유무와 상관없이)
     }
     drawPoem(P.lines);
+    // 외국 시 원문 병기(독자 요청 11/16): poem.lines_orig 가 있으면 '원문 보기'
+    (function(){var O=P.lines_orig||[],st=[],cur=[];O.forEach(function(l){if(l)cur.push(esc(l));else if(cur.length){st.push(cur);cur=[]}});if(cur.length)st.push(cur);
+      $('poem-orig-lines').innerHTML=st.map(function(c){return '<p>'+c.join('<br>')+'</p>'}).join('');$('poem-orig-lang').textContent=P.orig_lang?'('+P.orig_lang+')':'';hideIf('poem-orig',!O.length)})();
     if(P.permission&&P.text_file&&!(P.lines&&P.lines.length))fetch(P.text_file+'?t='+Date.now()).then(function(r){return r.ok?r.text():''}).then(function(t){
       if(!t)return;var L=t.replace(/[\u200B-\u200D\uFEFF\u00A0]/g,' ').split(/\r?\n/).map(function(x){return x.trim()});
       while(L.length&&!L[0])L.shift();

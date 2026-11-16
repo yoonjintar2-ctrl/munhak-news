@@ -1,0 +1,686 @@
+{
+ "date": "2026-11-17",
+ "no": 5,
+ "publisher": {
+  "name": "윤진탈",
+  "org": "지구별"
+ },
+ "author": {
+  "name": "금로동",
+  "title": "기자"
+ },
+ "lead": "화요일 아침, 독자 신청작 두 편이 도착했습니다. 560여 년 전 파리 시인이 묻는 '지난해의 눈'과, 외투 한 벌에 모든 걸 건 페테르부르크 하급 관리. 둘 다 이 계절에 읽기 좋은 이야기입니다.",
+ "sentence": {
+  "text": "레디메이드 인생이 비로소 겨우 임자를 만나 팔리었구나.",
+  "big": [
+   "레디메이드 인생이",
+   "비로소 겨우 임자를 만나 팔리었구나."
+  ],
+  "speaker": "주인공 P",
+  "work": "레디메이드 인생",
+  "writer": "채만식",
+  "year": 1934,
+  "origin": "국내",
+  "book": "『신동아』 1934년 5~7월",
+  "meaning": "만들어 놓았지만 사 가는 사람 없는 기성품, 곧 일자리 없는 지식인 자신을 비웃는 말입니다. 자식을 견습공으로 보내고서야 '팔렸다'고 셈하는 씁쓸한 장부지요.",
+  "context": "대학을 나오고도 일자리가 없는 P는 신문사 사장에게 거절당하고, 아들 창선을 학교 대신 인쇄소 견습공으로 보내기로 합니다. 이튿날 아침 아들을 맡기고 돌아서며 혼자 중얼거린 말이 소설의 마지막 문장입니다.",
+  "craft": "'팔리었구나'라는 장사꾼의 말로 아들을 보내는 아픔을 감춥니다. 울음 대신 냉소를 고른 이 반어가 채만식 풍자의 핵심이고, 영어 '레디메이드'를 제목에 박은 것도 1930년대 경성의 공기 그대로입니다.",
+  "img": "img/2026-11-17-sentence.jpg",
+  "video": "img/2026-11-17-sentence.mp4",
+  "alt": "이른 아침 인쇄소 문 앞, 아버지가 아들을 남겨 두고 돌아서다 고개를 돌려 보고, 문 앞의 아들이 손을 든다. 처마 간판이 흔들리고 굴뚝 연기가 오른다",
+  "sources": [
+   "https://encykorea.aks.ac.kr/Article/E0017242",
+   "https://googeo.kr/entry/ready-made-life",
+   "https://www.khan.co.kr/article/201406062056595"
+  ]
+ },
+ "poem": {
+  "title": "지난날의 여인들의 발라드",
+  "title_orig": "Ballade des dames du temps jadis",
+  "writer": "프랑수아 비용",
+  "year": 1461,
+  "origin": "국외",
+  "book": "『유언집』(Le Testament) 1461년경",
+  "public_domain": true,
+  "translator": "금로동 옮김",
+  "request": "독자 신청작",
+  "lines": [
+   "말해 다오, 어디에, 어느 나라에 있는지",
+   "로마의 미인 플로라,",
+   "아르키피아다, 그리고 타이스,",
+   "그와 사촌 자매였다는 그이,",
+   "강물 위 연못 위에서 누가 소리 내면",
+   "말을 되받아 주던 에코,",
+   "사람의 것을 훨씬 넘는 아름다움을 지녔던 그이.",
+   "하지만 지난해 내린 눈은 어디 있는가?",
+   "",
+   "어디 있는가, 그토록 지혜롭던 엘로이즈,",
+   "그 여인 때문에 거세당하고 수도사가 된",
+   "생드니의 피에르 아벨라르.",
+   "그녀를 사랑한 탓에 그 고초를 겪었지.",
+   "마찬가지로 어디 있는가, 그 왕비는,",
+   "뷔리당을 자루에 담아",
+   "센강에 던지라 명했다던 그 왕비는?",
+   "하지만 지난해 내린 눈은 어디 있는가?",
+   "",
+   "백합처럼 흰 블랑슈 왕비,",
+   "세이렌의 목소리로 노래하던 그이,",
+   "발 큰 베르트, 비에트리스, 알리스,",
+   "멘 땅을 다스린 아랑뷔르지스,",
+   "그리고 잉글랜드 사람들이 루앙에서 불태운",
+   "로렌의 착한 잔,",
+   "그들은 어디, 어디 있나요, 성모님?",
+   "하지만 지난해 내린 눈은 어디 있는가?",
+   "",
+   "왕자여, 이번 주에도 올해에도",
+   "그 여인들 있는 곳은 묻지 마시라,",
+   "물으면 이 후렴으로 돌아올 뿐이니.",
+   "하지만 지난해 내린 눈은 어디 있는가?"
+  ],
+  "lines_orig": [
+   "Dictes moy où, n'en quel pays,",
+   "Est Flora, la belle Romaine;",
+   "Archipiada, ne Thaïs,",
+   "Qui fut sa cousine germaine;",
+   "Echo, parlant quand bruyt on maine",
+   "Dessus rivière ou sus estan,",
+   "Qui beauté eut trop plus qu'humaine?",
+   "Mais où sont les neiges d'antan!",
+   "",
+   "Où est la très sage Heloïs,",
+   "Pour qui fut chastré et puis moyne",
+   "Pierre Esbaillart à Sainct-Denys?",
+   "Pour son amour eut cest essoyne.",
+   "Semblablement, où est la royne",
+   "Qui commanda que Buridan",
+   "Fust jetté en ung sac en Seine?",
+   "Mais où sont les neiges d'antan!",
+   "",
+   "La royne Blanche comme ung lys,",
+   "Qui chantoit à voix de sereine;",
+   "Berthe au grand pied, Bietris, Allys;",
+   "Harembourges qui tint le Mayne,",
+   "Et Jehanne, la bonne Lorraine,",
+   "Qu'Anglois bruslerent à Rouen;",
+   "Où sont-ilz, Vierge souveraine?",
+   "Mais où sont les neiges d'antan!",
+   "",
+   "Prince, n'enquerez de sepmaine",
+   "Où elles sont, ne de cest an,",
+   "Qu'à ce refrain ne vous remaine:",
+   "Mais où sont les neiges d'antan!"
+  ],
+  "orig_lang": "중세 프랑스어, 1533년 마로 판",
+  "note": "원문은 클레망 마로가 1533년에 펴낸 판을 따랐습니다. 아르키피아다는 중세에 여인으로 잘못 알려진 알키비아데스로 보이고, 뷔리당을 센강에 던졌다는 왕비 이야기는 전설입니다.",
+  "img": "img/2026-11-17-poem.jpg",
+  "video": "img/2026-11-17-poem.mp4",
+  "alt": "눈 내리는 강가, 긴 망토의 여인이 고개를 들어 떨어지는 눈을 손바닥으로 받는다. 강 건너 옛 성탑, 버드나무 가지가 흔들린다",
+  "analysis": "전설의 미녀 플로라부터 엘로이즈, 잔 다르크까지 이름을 줄줄이 불러 놓고 매번 같은 물음으로 닫습니다. 지난해의 눈은 어디 있느냐. 답은 이미 들어 있지요. 녹아서, 없다. 후렴은 네 번 돌아옵니다. 비용은 도둑질로 교수형 선고까지 받았다가 1463년 파리에서 추방된 뒤 행방이 끊긴 시인이고, 영국 시인 로세티가 1870년 시집에서 이 후렴을 'Where are the snows of yesteryear?'로 옮겨 널리 알렸지요.",
+  "oneline": "첫눈 소식을 기다리며 읽기 좋은 시. 작년 눈을 묻는 사람은 결국 올해 눈을 기다리는 사람이니까요.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ballade_des_dames_du_temps_jadis",
+   "https://fr.wikipedia.org/wiki/Ballade_des_dames_du_temps_jadis",
+   "https://en.wikipedia.org/wiki/François_Villon",
+   "https://en.wikipedia.org/wiki/Le_Testament"
+  ]
+ },
+ "novel": {
+  "title": "벙어리 삼룡이",
+  "writer": "나도향",
+  "year": 1925,
+  "origin": "국내",
+  "where": "『여명』 1925년 7월",
+  "quote": "그의 울분은 그 불과 함께 사라졌을는지! 평화롭고 행복스러운 웃음이 그의 입 가장자리에 엷게 나타났을 뿐이다.",
+  "translator": null,
+  "img": "img/2026-11-17-novel.jpg",
+  "video": "img/2026-11-17-novel.mp4",
+  "alt": "불빛이 일렁이는 밤, 기와지붕 마루 위에 한 사내가 앉아 무릎에 뉜 여인을 내려다본다. 아래에서 연기와 불티가 피어오른다",
+  "context": "주인집 아들에게 매를 맞고 쫓겨난 벙어리 하인 삼룡. 그날 밤 주인집에 불이 나자 그는 불 속으로 뛰어들어 주인을 구하고, 학대받던 새아씨를 찾아 안고 지붕 위로 오릅니다. 소설의 마지막 문장입니다.",
+  "analysis": "삼룡이는 말을 못 합니다. 그래서 나도향은 그의 마음을 몸짓과 불로 말하게 하지요. 평생 억눌려 온 울분이 집을 태우는 불과 함께 사라지고, 남은 것은 엷은 웃음 하나. 죽음의 장면에 '행복스러운'을 붙이는 역설이 이 단편을 비극이면서 구원의 이야기로 만듭니다. 감탄 부호 하나(사라졌을는지!)에 화자의 떨림까지 실렸습니다. 작가는 이듬해 결핵으로 스물넷 남짓한 나이에 세상을 떠났습니다.",
+  "sources": [
+   "https://encykorea.aks.ac.kr/Article/E0022791",
+   "https://www.millie.co.kr/v4/book/93dddefc21e14a53",
+   "https://encykorea.aks.ac.kr/Article/E0011314"
+  ]
+ },
+ "writer": {
+  "name": "채만식",
+  "pen": "백릉(白菱)",
+  "life": "1902–1950",
+  "bio": "1902년 7월 21일 전북 옥구(지금의 군산)에서 태어났습니다. 1924년 『조선문단』에 「새길로」를 내며 등단했고, 『탁류』, 『태평천하』 같은 풍자로 이름을 얻었습니다. 일제 말 친일 글을 쓴 일은 해방 뒤 「민족의 죄인」에서 스스로 돌아봤지요. 1950년 6월 11일 이리에서 폐결핵으로 세상을 떠났습니다.",
+  "works": [
+   "레디메이드 인생 (1934)",
+   "탁류 (1937)",
+   "태평천하 (1938)"
+  ],
+  "link": "오늘의 문장을 쓴 사람입니다. 일자리 없는 지식인을 '기성품'이라 부른 그 냉소가 『태평천하』의 윤 직원 영감까지 이어집니다.",
+  "img": "img/2026-11-17-writer.png",
+  "alt": "얼굴 세부 없이 그린 문인 실루엣 펜화, 옆에 원고지 뭉치와 붉은 펜",
+  "sources": [
+   "https://encykorea.aks.ac.kr/Article/E0055587",
+   "https://encykorea.aks.ac.kr/Article/E0020267",
+   "https://encykorea.aks.ac.kr/Article/E0017242"
+  ]
+ },
+ "trivia": [
+  {
+   "q": "\"우리는 모두 고골의 「외투」에서 나왔다\"는 도스토옙스키가 직접 글로 남긴 말이다.",
+   "a": "X",
+   "why": "프랑스 비평가 보귀에가 1885~86년 '어느 러시아 작가'의 말이라며 소개한 것이 처음입니다. 도스토옙스키의 글에선 확인되지 않아요."
+  },
+  {
+   "q": "영어 낱말 'yesteryear(지난해)'는 비용의 시를 옮긴 번역 덕분에 널리 퍼졌다.",
+   "a": "O",
+   "why": "로세티가 1870년 시집에 실은 번역에서 후렴을 'Where are the snows of yesteryear?'로 옮기며 널리 쓰이게 됐습니다."
+  },
+  {
+   "q": "채만식 『태평천하』는 처음 잡지에 실릴 때 제목이 달랐다.",
+   "a": "O",
+   "why": "1938년 『조광』에 「천하태평춘」으로 실었고, 1948년 단행본에서 『태평천하』로 바꿨습니다."
+  }
+ ],
+ "calendar": "1587년 11월 17일 — 네덜란드 황금시대의 시인·극작가 요스트 판 덴 폰덜 태어나다",
+ "onthisday": [
+  {
+   "year": "1905",
+   "title": "을사조약 강제 체결 — 사흘 뒤 「시일야방성대곡」",
+   "body": "1905년 오늘 일제가 고종과 대신들을 위협해 을사조약을 강제로 맺었습니다. 사흘 뒤 『황성신문』에 장지연의 논설 「시일야방성대곡」이 실렸지요. '이날을 목 놓아 통곡한다'는 뜻입니다.",
+   "sources": [
+    "https://encykorea.aks.ac.kr/Article/E0042959"
+   ]
+  },
+  {
+   "year": "2013",
+   "title": "『금색 공책』의 도리스 레싱, 세상을 떠나다",
+   "body": "2007년 노벨문학상을 받은 영국 작가 도리스 레싱이 2013년 오늘 런던에서 세상을 떠났습니다. 1962년작 『금색 공책』으로 잘 알려져 있지요.",
+   "sources": [
+    "https://www.britannica.com/biography/Doris-Lessing"
+   ]
+  },
+  {
+   "year": "1968",
+   "title": "『고먼가스트』의 머빈 피크 별세",
+   "body": "거대한 성 고먼가스트를 무대로 한 판타지 연작을 쓰고, 시와 삽화까지 손수 그린 영국 작가 머빈 피크가 1968년 오늘 세상을 떠났습니다.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/November_17"
+   ]
+  }
+ ],
+ "classic": {
+  "title": "외투",
+  "title_orig": "Шинель",
+  "writer": "니콜라이 고골",
+  "year": 1842,
+  "origin": "국외",
+  "where": "『고골 작품집』 제3권(1842)",
+  "request": "독자 신청작",
+  "oneline": "평생 서류를 베껴 쓴 가난한 하급 관리가 새 외투 한 벌에 모든 것을 건다.",
+  "img": "img/2026-11-17-classic.jpg",
+  "video": "img/2026-11-17-classic.mp4",
+  "alt": "관청 사무실, 낡은 외투 차림의 관리가 책상에 몸을 숙여 서류를 베껴 쓰고, 뒤쪽 젊은 동료 둘이 그를 가리키며 수군댄다. 갓등이 흔들리고 종이가 날린다",
+  "story": [
+   "페테르부르크의 어느 관청에 아카키 아카키예비치 바시마치킨이라는 하급 관리가 있습니다. 만년 9등관, 하는 일은 서류를 깨끗하게 베껴 쓰는 것. 그는 이 일을 진심으로 사랑합니다. 남들 눈엔 하찮은 일이지만, 그에게 베껴 쓰기는 하루의 즐거움이자 세상 전부입니다.",
+   "젊은 동료들은 그를 놀림감으로 삼습니다. 그는 대꾸 없이 베끼기만 하다가, 장난이 너무 심해 일을 할 수 없을 때에야 이렇게 말하지요. \"날 좀 내버려 두세요. 왜 나를 괴롭히십니까?\" 그 목소리가 이상하게 마음에 걸린 한 젊은 관리는, 그 말 속에서 '나는 당신의 형제입니다'라는 울림을 듣고 오래 잊지 못합니다.",
+   "문제는 페테르부르크의 혹독한 겨울입니다. 아카키의 외투는 닳고 닳아 천이 비칠 지경이라, 동료들은 그걸 외투라 부르지도 않고 '실내복'이라 놀립니다. 찬바람이 등을 파고들자 그는 외투를 들고 애꾸눈 재봉사 페트로비치를 찾아갑니다. 그런데 페트로비치는 고개를 젓습니다. 천이 삭아서 더는 기울 수 없으니 새로 지어야 한다고요. 부른 값은 150루블. 아카키에겐 하늘이 무너지는 소리입니다.",
+   "아카키에게는 모아 둔 돈이 절반쯤 있었습니다. 나머지를 채우려고 그는 저녁 차를 끊고, 밤에는 촛불을 켜지 않고, 구두 밑창이 닳지 않게 발끝으로 살금살금 걷고, 빨래도 덜 맡깁니다. 배는 고팠지만 머릿속의 새 외투를 생각하며 견딥니다. 마침 명절 상여금이 기대보다 많은 60루블이나 나오고, 둘은 함께 천을 사러 갑니다. 담비 털 깃은 너무 비싸서, 멀리서 보면 담비로 보일 만한 고양이 털로 대신합니다.",
+   "새 외투를 입고 출근한 날, 관청이 들썩입니다. 다들 몰려와 축하하더니, 한 상관이 그날 밤 자기 명명일 파티에 그를 초대합니다. 아카키는 오랜만에 밤거리로 나가 남의 집 잔치에 끼고, 늦은 밤이 되어서야 집으로 향합니다.",
+   "돌아가는 길, 끝이 보이지 않는 텅 빈 광장 한가운데서 두 사내가 다가와 외투를 빼앗아 갑니다. 눈밭에 쓰러졌다 일어났을 때 외투는 없습니다. 경찰은 도움이 되지 않고, 동료의 권유로 그는 '높은 양반'이라 불리는 장군을 찾아갑니다. 그런데 장군은 절차도 모르고 찾아왔다며 그를 호되게 꾸짖습니다. 아카키는 거의 쓰러질 듯 그 방을 나와 찬바람 부는 거리를 걸어 집으로 돌아갑니다."
+  ],
+  "ending": "그날부터 열이 끓어오른 아카키는 헛소리 속에 장군에게 용서를 빌다 끝내 욕을 퍼붓고 숨을 거둡니다. 관청은 장례가 끝나고 나흘째에야 빈자리를 알아차립니다. 얼마 뒤 칼린킨 다리 근처에 밤마다 외투를 벗겨 가는 유령이 나타나고, 마침내 그 장군의 외투를 붙잡아 말합니다. \"바로 네 외투가 필요하다!\" 그 뒤로 유령은 나타나지 않습니다.",
+  "why": "가장 작은 사람의 가장 작은 소원을 이토록 크게 다룬 소설은 드뭅니다. 웃기게 시작해 서늘하게 끝나며, 러시아 소설이 '작은 사람'을 품기 시작한 출발점으로 꼽힙니다.",
+  "sources": [
+   "https://www.culture.ru/materials/258153/kak-chitat-shinel-nikolaya-gogolya",
+   "https://ast.ru/news/shinel-kratkoe-soderzhanie-istoriya-sozdaniya-kontekst/",
+   "https://www.cyclowiki.org/wiki/Шинель_(повесть)",
+   "https://americanliterature.com/author/nikolai-vasilievich-gogol/short-story/the-overcoat",
+   "https://en.wikipedia.org/wiki/The_Overcoat",
+   "https://fehu.philology.nsc.ru/journals/kis/pdf/CS_10/cs10beltrame.pdf",
+   "https://www.culture.ru/s/vopros/krylatye-vyrazheniya"
+  ],
+  "scenes": [
+   {
+    "after": 2,
+    "img": "img/2026-11-17-classic-s1.jpg",
+    "video": "img/2026-11-17-classic-s1.mp4",
+    "alt": "재봉사의 좁은 방, 탁자에 낡은 외투를 펼친 재봉사가 고개를 젓고, 모자를 쥔 아카키가 마주 서서 고개를 숙인다"
+   },
+   {
+    "after": 4,
+    "img": "img/2026-11-17-classic-s2.jpg",
+    "video": "img/2026-11-17-classic-s2.mp4",
+    "alt": "털 깃 달린 새 외투를 입은 아카키를 동료들이 둘러싸고 손뼉 치며 깃을 가리킨다"
+   },
+   {
+    "after": 5,
+    "img": "img/2026-11-17-classic-s3.jpg",
+    "video": "img/2026-11-17-classic-s3.mp4",
+    "alt": "눈 내리는 한밤의 텅 빈 광장, 외투를 잃은 아카키가 눈밭에 주저앉아 어깨를 감싸고 멀어지는 두 사내를 돌아본다"
+   }
+  ]
+ },
+ "modern": {
+  "title": "아홉 살 인생",
+  "writer": "위기철",
+  "year": 1991,
+  "origin": "국내",
+  "where": "장편소설 1991년 첫 출간",
+  "oneline": "산꼭대기 판잣집에 이사 온 아홉 살 여민. 그해 그는 우정과 첫사랑과 이별을 한꺼번에 배운다.",
+  "img": "img/2026-11-17-modern.jpg",
+  "video": "img/2026-11-17-modern.mp4",
+  "alt": "산동네 꼭대기, 판잣집들 앞에서 소년이 먼 곳을 가리키고 옆의 단짝이 두 팔을 벌려 허풍을 떤다. 하늘에 연이 난다",
+  "story": [
+   "서울 변두리 산동네 맨 꼭대기 판잣집으로 아홉 살 백여민네 가족이 이사 옵니다. 부산에서 올라와 남의 집에 얹혀살고 셋방을 떠돌던 끝이라, 여민은 '남의 눈치 안 봐도 되는 우리 집'이 생긴 게 뿌듯합니다. 아버지는 젊은 시절 부산에서 주먹 좀 썼다지만 지금은 의리 있고 다정한 가장이고, 어머니는 공장에서 일하다 화공약품이 튀어 한쪽 눈을 잃었습니다. 다섯 살 여동생 여운이까지 네 식구입니다.",
+   "이사 인사를 다니던 날, 여민은 한 아이와 주먹다짐을 합니다. 그 아이가 어머니의 눈을 놀렸거든요. 그런데 알고 보니 신기종은 부모 없이 공장 다니는 누나와 단둘이 사는 아이였습니다. 둘은 곧 단짝이 됩니다. 기종은 허풍과 거짓말을 밥 먹듯 하지만, 악의라곤 하나도 없는 상상력 넘치는 친구입니다.",
+   "산동네엔 별난 이웃이 많습니다. 골방에 틀어박혀 고시 공부를 한다면서 꿈이 수시로 바뀌는 '골방철학자', 전쟁에 나간 아들을 기다리며 홀로 사는 토굴할매, 동네 아이들의 대장인 5학년 '검은 제비', 그리고 무허가 집 여러 채로 월세를 받으며 그 사실을 숨기는 집주인 풍뎅이 영감. 산 아래 파란 대문 집엔 피아노를 가르치는 윤희 누나가 삽니다. 골방철학자는 그 누나를 짝사랑해 여민에게 편지 심부름을 시키지만, 보기 좋게 거절당하지요.",
+   "학교도 녹록지 않습니다. 별명이 '월급기계'인 담임은 가난한 아이를 차별하고 때립니다. 그래도 2학기, 여민에게 설레는 일이 생깁니다. 새침하고 자존심 센 부잣집 아이 장우림과 짝이 된 것. 여민은 금세 우림을 좋아하게 됩니다. 얼마 뒤엔 여민의 그림이 전국 미술대회 최우수상을 받아 학교의 스타가 됩니다. 원래 제목은 '꾸물대는 아이'였는데 '꿈을 따는 아이'로 잘못 적힌 채로요. 우쭐해진 사이 기종과는 조금씩 멀어집니다.",
+   "그 사이 산동네 사람들이 하나둘 떠납니다. 토굴할매가 아무도 모르게 홀로 숨지고, 여민의 아버지가 장례를 치러 줍니다. 아버지는 죽음이 슬픈 건 떠난 사람에게 더는 아무것도 해 줄 수 없어서라고 말해 줍니다. 술주정뱅이 아버지를 잃은 검은 제비는 공장으로 떠나고, 골방철학자도 숲에서 세상을 떠납니다.",
+   "기종도 누나를 따라 산동네를 떠납니다. 여민을 '노란 네모'라 부르며 쏘아붙이던 기종은 떠나는 날 \"잘 있어라, 노란 네모!\" 하고 외치며, 너는 훌륭한 화가가 될 거라고 말해 줍니다. 단짝을 잃은 여민은 우림과도 사소한 일로 크게 다투고, 학교를 빼먹은 채 숲속 아지트에 혼자 숨어 지내기 시작합니다."
+  ],
+  "ending": "숲에서 혼자 지내 본 여민은 두 가지를 깨닫습니다. 혼자 사는 건 어리석다는 것, 그리고 슬픔과 고통은 피할수록 더 커진다는 것. 떠난 사람은 떠나고 남은 사람은 남은 채, 겨울방학과 새해가 오며 여민의 아홉 살이 끝납니다. 영화(2004)는 우림이 떠나는 결말로 바꿨지만, 소설은 이 조용한 깨달음에서 멈춥니다.",
+  "why": "가난과 죽음을 아이 눈높이에서, 그러나 아이답지 않게 정확하게 봅니다. 「외투」가 한 사람의 고독이라면 이 소설은 이웃들이 어깨를 겯는 산동네의 온기입니다.",
+  "sources": [
+   "https://ko.wikipedia.org/wiki/%EC%95%84%ED%99%89%EC%82%B4_%EC%9D%B8%EC%83%9D_(%EC%86%8C%EC%84%A4)",
+   "https://bigpigmon.com/entry/%EC%9C%84%EA%B8%B0%EC%B2%A0%EC%9D%98-%EC%95%84%ED%99%89%EC%82%B4%EC%9D%B8%EC%83%9D-%EC%A4%84%EA%B1%B0%EB%A6%AC-%EB%93%B1%EC%9E%A5%EC%9D%B8%EB%AC%BC-%ED%95%B4%EC%84%9D-%EA%B0%80%EB%82%9C%ED%95%9C-%EC%82%B0%EB%8F%99%EB%84%A4%EC%9D%98-%EC%8A%AC%ED%94%94%EA%B3%BC-%EC%A0%88%EB%A7%9D",
+   "https://brunch.co.kr/@6fe5671e95844e0/385",
+   "https://www.inhapress.com/news/articleView.html?idxno=8338",
+   "https://www.imaeil.com/page/view/2005052311561049721",
+   "https://m.cafe.daum.net/kangslbee/7bus/52",
+   "https://en.wikipedia.org/wiki/When_I_Turned_Nine"
+  ],
+  "scenes": [
+   {
+    "after": 1,
+    "img": "img/2026-11-17-modern-s1.jpg",
+    "video": "img/2026-11-17-modern-s1.mp4",
+    "alt": "이삿짐 보따리 옆 골목, 처음 만난 두 아이가 노려보며 삿대질하다 이윽고 서로 손을 내민다"
+   },
+   {
+    "after": 3,
+    "img": "img/2026-11-17-modern-s2.jpg",
+    "video": "img/2026-11-17-modern-s2.mp4",
+    "alt": "교실, 소년이 상 받은 그림을 들어 보이고 옆 책상의 짝이 고개를 돌려 바라본다. 뒤의 아이들이 손뼉 친다"
+   },
+   {
+    "after": 5,
+    "img": "img/2026-11-17-modern-s3.jpg",
+    "video": "img/2026-11-17-modern-s3.mp4",
+    "alt": "눈 날리는 산동네 비탈길, 보따리를 진 아이가 누나와 내려가며 뒤돌아 손을 흔들고, 언덕 위 소년이 두 팔을 흔들어 배웅한다"
+   }
+  ]
+ },
+ "go": {
+  "title": "「역전의 서막」 흑63",
+  "game": "제1회 응창기배 세계프로바둑선수권 결승 제5국",
+  "date": "1989-09-05",
+  "black": "조훈현 9단",
+  "white": "녜웨이핑 9단",
+  "result": "흑 145수 불계승",
+  "moves": "pd dp pq dd qo jp cn cl cq dq cp do bn em fc df ic nq lq lp kq kp jq iq mq mp nr np ir or hq ip ms oq ql jf ji gf li ok pm nl hi qk rk qj jg if kf ke le kd db cc lf id jc kc hd he gd rj cj bl dg ef cg cf ej dk fg ff cr",
+  "from": 63,
+  "to": 73,
+  "key": 63,
+  "key_label": "C10",
+  "lead": "1승 2패에서 2승 2패로 따라붙은 마지막 판, 조훈현(흑)이 백의 왼쪽 변으로 파고들었다.",
+  "body": [
+   "싱가포르 웨스틴 스탬퍼드 호텔 특별 대국장, 오전 10시. 1·3국을 내주고 4국을 1점 차로 이겨 겨우 균형을 맞춘 조훈현이 흑을 쥐었다. 우승 상금 40만 달러, 당시 바둑 대회 최고액이었다.",
+   "한국기원 해설은 흑35로 오른쪽 변을 차지한 데서 흑이 앞섰다고 보고, 흑47을 엷은 중앙을 보강한 좋은 맥점으로 꼽는다. 그리고 흑63부터 73까지 날렵하게 백의 왼쪽 변을 깨뜨리자 \"흑의 승세가 확연하다\"고 적었다.",
+   "백은 86에서 마지막 실수를 했고, 124로 승부수를 던졌지만 145수 만에 돌을 거뒀다. 조훈현은 3승 2패로 초대 챔피언이 됐고, 이튿날 김포공항에서 카퍼레이드가 열렸다."
+  ],
+  "lit": "비용이 지난해의 눈을 물었다면, 이 판은 37년이 지나도 녹지 않은 수순입니다.",
+  "sources": [
+   "https://goldengibo.baduk.or.kr/highlight/highlight_view5.asp",
+   "https://go4go.net/go/games/finals/1989",
+   "https://homepages.cwi.nl/~aeb/go/games/games/Ing/01/index.html",
+   "https://en.wikipedia.org/wiki/1st_Ing_Cup",
+   "https://www.asiae.co.kr/en/article/2023091209490321258",
+   "https://www.fnnews.com/news/202609021524175366",
+   "https://github.com/yenw/computer-go-dataset (기보: Professional/pro1940-1999, GN 1989-09-05a)"
+  ]
+ },
+ "man": {
+  "kind": "격투가",
+  "name": "홍수환",
+  "sub": "권투 · 1950 서울 –",
+  "img": "img/2026-11-17-man.png",
+  "alt": "두 팔을 번쩍 든 권투 선수의 실루엣",
+  "cap": "얼굴 없는 실루엣 펜화",
+  "bio": "1950년 5월 26일 서울 종로구 내수동에서 태어났습니다. 1974년 남아공 더반에서 WBA 밴텀급 챔피언에 올랐고, 1977년 파나마에서는 네 번 쓰러지고 다섯 번 일어나 두 번째 세계 타이틀을 땄습니다. '4전5기'라는 말이 여기서 나왔지요. 통산 41승(14KO) 5패 4무.",
+  "feats": [
+   {
+    "when": "1974.7.3",
+    "text": "더반에서 챔피언 아널드 테일러를 15회 판정으로 꺾고 WBA 밴텀급 세계 챔피언이 됐습니다."
+   },
+   {
+    "when": "1977.11.27",
+    "text": "파나마에서 열린 WBA 주니어페더급 초대 타이틀전. 2회에만 네 번 다운됐지만 3회 왼손 훅으로 KO승을 거뒀습니다."
+   },
+   {
+    "when": "1978.5.6",
+    "text": "서울에서 리카르도 카르도나에게 12회 TKO로 져 타이틀을 내줬습니다."
+   },
+   {
+    "when": "1980.12.19",
+    "text": "염동균과 10회 무승부로 마지막 경기를 치렀습니다."
+   }
+  ],
+  "quote": "엄마, 나 챔피언 먹었어!",
+  "quote_by": "1974년 더반에서 어머니와 나눈 국제전화. 어머니의 답은 \"대한 국민 만세다!\"",
+  "sources": [
+   "https://ko.wikipedia.org/wiki/홍수환",
+   "https://en.wikipedia.org/wiki/Soo-Hwan_Hong",
+   "https://bravo.etoday.co.kr/view/atc_view/6350",
+   "https://www.etoday.co.kr/news/view/971928",
+   "https://v.daum.net/v/20110326220007568"
+  ]
+ },
+ "zodiac": [
+  {
+   "key": "rat",
+   "animal": "쥐",
+   "text": "내가 사는 것은, 다만, / 잃은 것을 찾는 까닭입니다.",
+   "writer": "윤동주",
+   "work": "길",
+   "year": 1941,
+   "note": "잃어버린 것이 있다면 서두르지 말고, 찾으러 나서는 걸음 자체를 오늘의 할 일로 삼아 보세요.",
+   "sources": [
+    "https://v.daum.net/v/20160305112609068"
+   ]
+  },
+  {
+   "key": "ox",
+   "animal": "소",
+   "text": "고인도 날 못 보고 나도 고인 못 뵈 / 고인을 못 뵈어도 예던 길 앞에 있네",
+   "writer": "이황",
+   "work": "도산십이곡(9)",
+   "year": 1565,
+   "note": "막막한 날에도 앞서 걸어간 사람들의 길은 이미 눈앞에 있어요. 그 위에 한 발만 얹어 보세요.",
+   "sources": [
+    "https://weekly.khan.co.kr/article/201011301716541"
+   ]
+  },
+  {
+   "key": "tiger",
+   "animal": "호랑이",
+   "text": "나는 내 운명의 주인, / 내 영혼의 선장이다.",
+   "writer": "윌리엄 어니스트 헨리",
+   "work": "인빅투스",
+   "year": 1888,
+   "note": "누가 뭐라 해도 오늘의 키를 쥔 사람은 바로 나라는 걸, 출근길에 한 번쯤 떠올려 보세요.",
+   "sources": [
+    "https://www.poetryfoundation.org/poems/51642/invictus"
+   ],
+   "orig": "I am the master of my fate, / I am the captain of my soul.",
+   "translator": "금로동 옮김"
+  },
+  {
+   "key": "rabbit",
+   "animal": "토끼",
+   "text": "동창이 밝았느냐 노고지리 우지진다 / 소치는 아이는 상기 아니 일었느냐",
+   "writer": "남구만",
+   "work": "동창이 밝았느냐(시조)",
+   "year": null,
+   "note": "원래는 늦잠을 재촉하는 시조지만, 오늘은 창을 열고 새소리부터 천천히 들어 보세요.",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/남구만"
+   ]
+  },
+  {
+   "key": "dragon",
+   "animal": "용",
+   "text": "세월과 운명에 약해졌어도 의지만은 굳세어 / 애쓰고, 찾고, 발견하고, 굴하지 않으리.",
+   "writer": "앨프리드 테니슨",
+   "work": "율리시스",
+   "year": 1842,
+   "note": "몸이 지친 날에도 마음 한 귀퉁이의 의지는 남아 있어요. 오늘은 그것만으로 충분합니다.",
+   "sources": [
+    "https://rpo.library.utoronto.ca/poems/ulysses"
+   ],
+   "orig": "Made weak by time and fate, but strong in will / To strive, to seek, to find, and not to yield.",
+   "translator": "금로동 옮김"
+  },
+  {
+   "key": "snake",
+   "animal": "뱀",
+   "text": "동방은 하늘도 다 끝나고 / 비 한 방울 내리잖는 그때에도 / 오히려 꽃은 빨갛게 피지 않는가",
+   "writer": "이육사",
+   "work": "꽃",
+   "year": 1945,
+   "note": "메마르게 느껴지는 날일수록, 그 틈에서 작게 피어나는 것을 눈여겨보세요.",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/이육사"
+   ]
+  },
+  {
+   "key": "horse",
+   "animal": "말",
+   "text": "나 두 야 간다 / 나의 이 젊은 나이를 / 눈물로야 보낼거냐",
+   "writer": "박용철",
+   "work": "떠나가는 배",
+   "year": 1930,
+   "note": "오래 미뤄 둔 출발이 있다면, 오늘은 거창한 결심 대신 짐 하나만 꾸려 보세요.",
+   "sources": [
+    "https://encykorea.aks.ac.kr/Article/E0020977"
+   ]
+  },
+  {
+   "key": "sheep",
+   "animal": "양",
+   "text": "겨울이 오면, 봄이 어찌 멀리 있으랴?",
+   "writer": "퍼시 비시 셸리",
+   "work": "서풍의 노래",
+   "year": 1820,
+   "note": "추운 계절의 한가운데서도 다음 계절은 오고 있어요. 조금 미리 기다려 보세요.",
+   "sources": [
+    "https://www.poetryfoundation.org/poems/45134/ode-to-the-west-wind"
+   ],
+   "orig": "If Winter comes, can Spring be far behind?",
+   "translator": "금로동 옮김"
+  },
+  {
+   "key": "monkey",
+   "animal": "원숭이",
+   "text": "그러니 일어나 무엇이든 하자, / 어떤 운명에도 맞설 마음으로.",
+   "writer": "헨리 워즈워스 롱펠로",
+   "work": "인생 찬가",
+   "year": 1838,
+   "note": "거창한 계획 말고, 지금 손에 잡히는 작은 일 하나부터 기분 좋게 시작해 보세요.",
+   "sources": [
+    "https://www.poetryfoundation.org/poems/44644/a-psalm-of-life"
+   ],
+   "orig": "Let us, then, be up and doing, / With a heart for any fate;",
+   "translator": "금로동 옮김"
+  },
+  {
+   "key": "rooster",
+   "animal": "닭",
+   "text": "나는 새가 아니에요. 어떤 그물도 나를 옭아매지 못해요. 나는 독립된 의지를 지닌 자유로운 인간이에요.",
+   "writer": "샬럿 브론테",
+   "work": "제인 에어",
+   "year": 1847,
+   "note": "남의 기대와 내 마음이 엇갈린다면, 오늘은 내 마음 쪽에 한 표를 던져 보세요.",
+   "sources": [
+    "https://vqa.dickinson.edu/node/102"
+   ],
+   "orig": "I am no bird; and no net ensnares me; I am a free human being with an independent will",
+   "translator": "금로동 옮김"
+  },
+  {
+   "key": "dog",
+   "animal": "개",
+   "text": "나는 우리나라가 세계에서 가장 아름다운 나라가 되기를 원한다.",
+   "writer": "김구",
+   "work": "나의 소원",
+   "year": 1947,
+   "note": "아름다운 나라는 아름다운 하루들로 지어지지요. 오늘 하루를 곱게 지어 보세요.",
+   "sources": [
+    "https://www.korea.kr/news/policyNewsView.do?newsId=148967696"
+   ]
+  },
+  {
+   "key": "pig",
+   "animal": "돼지",
+   "text": "하느님은 하늘에 계시고 / 세상은 다 괜찮다!",
+   "writer": "로버트 브라우닝",
+   "work": "피파가 지나간다",
+   "year": 1841,
+   "note": "걱정은 잠시 서랍에 넣어 두고, 차가운 아침 공기를 크게 한 번 들이마셔 보세요.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Pippa_Passes"
+   ],
+   "orig": "God's in his heaven— / All's right with the world!",
+   "translator": "금로동 옮김"
+  }
+ ],
+ "puzzle": {
+  "size": [
+   7,
+   11
+  ],
+  "words": [
+   {
+    "n": 1,
+    "dir": "across",
+    "r": 0,
+    "c": 1,
+    "a": "서정시",
+    "clue": "느낌과 정서를 노래한 시"
+   },
+   {
+    "n": 4,
+    "dir": "across",
+    "r": 1,
+    "c": 0,
+    "a": "대사",
+    "clue": "희곡·영화에서 인물이 하는 말"
+   },
+   {
+    "n": 5,
+    "dir": "across",
+    "r": 1,
+    "c": 3,
+    "a": "인쇄소",
+    "clue": "P가 아들 창선을 견습공으로 맡긴 곳"
+   },
+   {
+    "n": 7,
+    "dir": "across",
+    "r": 1,
+    "c": 7,
+    "a": "인텔리",
+    "clue": "「레디메이드 인생」의 P 같은 지식인을 이르던 말"
+   },
+   {
+    "n": 9,
+    "dir": "across",
+    "r": 2,
+    "c": 1,
+    "a": "시조",
+    "clue": "초장·중장·종장 세 줄 우리 정형시"
+   },
+   {
+    "n": 10,
+    "dir": "across",
+    "r": 2,
+    "c": 5,
+    "a": "설의법",
+    "clue": "답이 뻔한 것을 일부러 물어 뜻을 강조하는 표현법"
+   },
+   {
+    "n": 11,
+    "dir": "across",
+    "r": 3,
+    "c": 4,
+    "a": "시집",
+    "clue": "시를 묶어 낸 책"
+   },
+   {
+    "n": 12,
+    "dir": "across",
+    "r": 3,
+    "c": 9,
+    "a": "리듬",
+    "clue": "말소리의 박자감"
+   },
+   {
+    "n": 13,
+    "dir": "across",
+    "r": 4,
+    "c": 3,
+    "a": "반어",
+    "clue": "속뜻과 반대로 말하기"
+   },
+   {
+    "n": 14,
+    "dir": "across",
+    "r": 5,
+    "c": 2,
+    "a": "고전",
+    "clue": "오래도록 읽히는 명작"
+   },
+   {
+    "n": 1,
+    "dir": "down",
+    "r": 0,
+    "c": 1,
+    "a": "서사시",
+    "clue": "영웅이나 역사의 이야기를 길게 읊은 시"
+   },
+   {
+    "n": 2,
+    "dir": "down",
+    "r": 0,
+    "c": 3,
+    "a": "시인",
+    "clue": "시를 쓰는 사람"
+   },
+   {
+    "n": 3,
+    "dir": "down",
+    "r": 0,
+    "c": 7,
+    "a": "의인법",
+    "clue": "사람 아닌 것을 사람처럼 그리는 수사"
+   },
+   {
+    "n": 6,
+    "dir": "down",
+    "r": 1,
+    "c": 5,
+    "a": "소설집",
+    "clue": "단편소설을 묶은 책"
+   },
+   {
+    "n": 8,
+    "dir": "down",
+    "r": 1,
+    "c": 9,
+    "a": "리얼리즘",
+    "clue": "현실을 있는 그대로 그리려는 사조"
+   },
+   {
+    "n": 11,
+    "dir": "down",
+    "r": 3,
+    "c": 4,
+    "a": "시어",
+    "clue": "시에 쓰인 말"
+   },
+   {
+    "n": 13,
+    "dir": "down",
+    "r": 4,
+    "c": 3,
+    "a": "반전",
+    "clue": "이야기의 흐름이 뒤집힘"
+   },
+   {
+    "n": 14,
+    "dir": "down",
+    "r": 5,
+    "c": 2,
+    "a": "고골",
+    "clue": "「외투」와 「코」를 쓴 러시아 작가"
+   }
+  ]
+ }
+}
