@@ -533,6 +533,95 @@
     "https://rpo.library.utoronto.ca/poems/i-wandered-lonely-cloud"
    ],
    "added": "2026-11-17"
+  },
+  {
+   "mood": "tired",
+   "text": "나처럼 길을 찾아온 이들 모두에게 누울 침대가 있을까요? / 그럼요, 오는 이 누구에게나 침대가 있지요.",
+   "orig": "Will there be beds for me and all who seek? / Yea, beds for all who come.",
+   "translator": "금로동 옮김",
+   "writer": "크리스티나 로세티",
+   "work": "오르막길(Up-Hill)",
+   "year": 1861,
+   "kind": "시",
+   "dose": "오르막 끝에는 여관이 있다고 시인이 장담했습니다. 오늘은 조금 일찍 체크인하세요.",
+   "sources": [
+    "https://poetryoutloud.org/poem/up-hill",
+    "https://rpo.library.utoronto.ca/poems/hill"
+   ],
+   "added": "2026-11-18"
+  },
+  {
+   "mood": "blue",
+   "text": "나는 그믐달을 몹시 사랑한다.",
+   "writer": "나도향",
+   "work": "그믐달",
+   "year": 1925,
+   "kind": "산문",
+   "dose": "가장 가늘어진 달을 가장 아낀 작가가 있었습니다. 오늘 밤 기운이 그믐달만큼만 남았어도 충분합니다.",
+   "sources": [
+    "https://thewiki.kr/w/그믐달"
+   ],
+   "added": "2026-11-18"
+  },
+  {
+   "mood": "anxious",
+   "text": "돌담에 속삭이는 햇발같이 / 풀 아래 웃음 짓는 샘물같이 / 내 마음 고요히 고운 봄 길 위에 / 오늘 하루 하늘을 우러르고 싶다",
+   "writer": "김영랑",
+   "work": "돌담에 속삭이는 햇발",
+   "year": 1930,
+   "kind": "시",
+   "dose": "시인의 소원은 딱 '오늘 하루'만큼이었습니다. 내일 걱정은 접어 두고 고개 들어 하늘 한 번 보세요.",
+   "sources": [
+    "https://brunch.co.kr/@doyeol/14",
+    "https://www.youthassembly.kr/news/967153"
+   ],
+   "added": "2026-11-18"
+  },
+  {
+   "mood": "angry",
+   "text": "친구에게 화가 났다. / 화났다고 말했더니, 화가 끝났다.",
+   "orig": "I was angry with my friend; / I told my wrath, my wrath did end.",
+   "translator": "금로동 옮김",
+   "writer": "윌리엄 블레이크",
+   "work": "독나무(A Poison Tree)",
+   "year": 1794,
+   "kind": "시",
+   "dose": "속에 묻어 둔 화는 독나무로 자란다고 블레이크가 일러두었습니다. 오늘은 차분한 한 문장으로 꺼내 보세요.",
+   "sources": [
+    "https://www.poetryfoundation.org/poems/45952/a-poison-tree",
+    "https://rpo.library.utoronto.ca/poems/poison-tree"
+   ],
+   "added": "2026-11-18"
+  },
+  {
+   "mood": "flutter",
+   "text": "내 마음은 바다처럼 끝이 없고, / 내 사랑도 그만큼 깊어요. 당신께 줄수록 / 내게 더 많아져요, 둘 다 끝이 없으니까요.",
+   "orig": "My bounty is as boundless as the sea, / My love as deep; the more I give to thee, / The more I have, for both are infinite.",
+   "translator": "금로동 옮김",
+   "writer": "윌리엄 셰익스피어",
+   "work": "로미오와 줄리엣(2막 2장)",
+   "year": 1597,
+   "kind": "희곡",
+   "dose": "주면 줄수록 늘어난다는 건 줄리엣이 발코니에서 확인했습니다. 설렘은 아끼지 말고 쓰셔도 됩니다.",
+   "sources": [
+    "https://web.mit.edu/shakespeare/TheMITTech/romeo_juliet/romeo_juliet.2.2.html",
+    "https://en.wikisource.org/wiki/The_Tragedy_of_Romeo_and_Juliet_(Dowden)/Act_2/Scene_2"
+   ],
+   "added": "2026-11-18"
+  },
+  {
+   "mood": "blank",
+   "text": "낙엽타는 냄새같이 좋은 것이 있을까? 갓 볶아낸 커피의 냄새가 난다.",
+   "writer": "이효석",
+   "work": "낙엽을 태우면서",
+   "year": 1938,
+   "kind": "산문",
+   "dose": "머리가 하얄 때는 코가 먼저 깨어납니다. 커피 볶는 냄새든 낙엽 냄새든, 한 번 깊이 맡아 보세요.",
+   "sources": [
+    "https://ridibooks.com/books/5493000042",
+    "https://www.yeongnam.com/web/view.php?key=20211022010002125"
+   ],
+   "added": "2026-11-18"
   }
  ]
 }

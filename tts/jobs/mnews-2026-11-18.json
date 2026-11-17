@@ -1,0 +1,882 @@
+{
+ "name": "mnews-2026-11-18",
+ "mode": "clone",
+ "ref_audio": "out/casual1/E_think.wav",
+ "ref_text": "음… 그럼 데이터센터는 이제 못 짓는 건가?",
+ "gen": {
+  "temperature": 0.75,
+  "top_p": 0.9
+ },
+ "reload_every": 4,
+ "retries": 4,
+ "items": [
+  {
+   "id": "sentence_00_t0",
+   "text": "오늘의 문장, 조세희의 난장이가 쏘아올린 작은 공. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_00_t1",
+   "text": "오늘의 문장, 조세희의 난장이가 쏘아올린 작은 공. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_01_t0",
+   "text": "사람들은 아버지를 난장이라고 불렀다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_01_t1",
+   "text": "사람들은 아버지를 난장이라고 불렀다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_02_t0",
+   "text": "사람들은 옳게 보았다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_02_t1",
+   "text": "사람들은 옳게 보았다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_03_t0",
+   "text": "이 문장이 품은 뜻. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_03_t1",
+   "text": "이 문장이 품은 뜻. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_04_t0",
+   "text": "세상이 아버지에게 붙인 이름을 아들이 그대로 받아 적습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_04_t1",
+   "text": "세상이 아버지에게 붙인 이름을 아들이 그대로 받아 적습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_05_t0",
+   "text": "옳게 보았다고 인정하는 순간, 작은 몸이라는 사실 너머 그 이름에 묻은 멸시까지 함께 드러나지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_05_t1",
+   "text": "옳게 보았다고 인정하는 순간, 작은 몸이라는 사실 너머 그 이름에 묻은 멸시까지 함께 드러나지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_06_t0",
+   "text": "누가, 어느 장면에서. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_06_t1",
+   "text": "누가, 어느 장면에서. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_07_t0",
+   "text": "천구백칠십 년대 서울 낙원구 행복동. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_07_t1",
+   "text": "천구백칠십 년대 서울 낙원구 행복동. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_08_t0",
+   "text": "철거 계고장을 받아 든 난장이 가족의 맏아들 영수가 이야기를 시작하며 꺼내는 첫 문장입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_08_t1",
+   "text": "철거 계고장을 받아 든 난장이 가족의 맏아들 영수가 이야기를 시작하며 꺼내는 첫 문장입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_09_t0",
+   "text": "연작 열두 편 가운데 표제작이지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_09_t1",
+   "text": "연작 열두 편 가운데 표제작이지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_10_t0",
+   "text": "작가가 노린 것. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_10_t1",
+   "text": "작가가 노린 것. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_11_t0",
+   "text": "짧은 평서문 두 개, 꾸밈말 하나 없습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_11_t1",
+   "text": "짧은 평서문 두 개, 꾸밈말 하나 없습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_12_t0",
+   "text": "감정을 빼고 사실만 놓으니 아파하는 일은 독자 몫이 되지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_12_t1",
+   "text": "감정을 빼고 사실만 놓으니 아파하는 일은 독자 몫이 되지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_13_t0",
+   "text": "이 건조하고 맑은 문장이 산업화 시대의 그늘을 동화처럼 비춥니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_13_t1",
+   "text": "이 건조하고 맑은 문장이 산업화 시대의 그늘을 동화처럼 비춥니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_00_t0",
+   "text": "오늘의 시, 한용운의 나룻배와 행인. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_00_t1",
+   "text": "오늘의 시, 한용운의 나룻배와 행인. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_01_t0",
+   "text": "나는 나룻배. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_01_t1",
+   "text": "나는 나룻배. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_02_t0",
+   "text": "당신은 행인. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_02_t1",
+   "text": "당신은 행인. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_03_t0",
+   "text": "당신은 흙발로 나를 짓밟습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_03_t1",
+   "text": "당신은 흙발로 나를 짓밟습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_04_t0",
+   "text": "나는 당신을 안고 물을 건너갑니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_04_t1",
+   "text": "나는 당신을 안고 물을 건너갑니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_05_t0",
+   "text": "나는 당신을 안으면 깊으나 옅으나 급한 여울이나 건너갑니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_05_t1",
+   "text": "나는 당신을 안으면 깊으나 옅으나 급한 여울이나 건너갑니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_06_t0",
+   "text": "만일 당신이 아니 오시면 나는 바람을 쐬고 눈비를 맞으며 밤에서 낮까지 당신을 기다립니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_06_t1",
+   "text": "만일 당신이 아니 오시면 나는 바람을 쐬고 눈비를 맞으며 밤에서 낮까지 당신을 기다립니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_07_t0",
+   "text": "당신은 물만 건너면 나를 돌아 보지도 않고 가십니다 그려. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_07_t1",
+   "text": "당신은 물만 건너면 나를 돌아 보지도 않고 가십니다 그려. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_08_t0",
+   "text": "그러나 당신이 언제든지 오실 줄만은 알아요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_08_t1",
+   "text": "그러나 당신이 언제든지 오실 줄만은 알아요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_09_t0",
+   "text": "나는 당신을 기다리면서 날마다 날마다 낡아 갑니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_09_t1",
+   "text": "나는 당신을 기다리면서 날마다 날마다 낡아 갑니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_10_t0",
+   "text": "나는 나룻배. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_10_t1",
+   "text": "나는 나룻배. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_11_t0",
+   "text": "당신은 행인. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_11_t1",
+   "text": "당신은 행인. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_12_t0",
+   "text": "읽기. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_12_t1",
+   "text": "읽기. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_13_t0",
+   "text": "나는 나룻배, 당신은 행인. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_13_t1",
+   "text": "나는 나룻배, 당신은 행인. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_14_t0",
+   "text": "흙발로 짓밟고 돌아보지도 않고 가는 당신을, 나는 바람과 눈비 속에서 날마다 기다립니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_14_t1",
+   "text": "흙발로 짓밟고 돌아보지도 않고 가는 당신을, 나는 바람과 눈비 속에서 날마다 기다립니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_15_t0",
+   "text": "만해의 님은 연인으로도, 빼앗긴 조국으로도, 진리로도 읽혀 왔지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_15_t1",
+   "text": "만해의 님은 연인으로도, 빼앗긴 조국으로도, 진리로도 읽혀 왔지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_16_t0",
+   "text": "첫 연과 끝 연이 똑같이 되풀이되어, 강을 오가는 배처럼 시가 제자리로 돌아옵니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_16_t1",
+   "text": "첫 연과 끝 연이 똑같이 되풀이되어, 강을 오가는 배처럼 시가 제자리로 돌아옵니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_17_t0",
+   "text": "~습니다의 경어체가 기다림을 원망이 아닌 다짐으로 바꿔 놓고요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_17_t1",
+   "text": "~습니다의 경어체가 기다림을 원망이 아닌 다짐으로 바꿔 놓고요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_00_t0",
+   "text": "오늘의 소설 구절, 볼프강 보르헤르트의 빵. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_00_t1",
+   "text": "오늘의 소설 구절, 볼프강 보르헤르트의 빵. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_01_t0",
+   "text": "당신은 마음 놓고 네 쪽 드세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_01_t1",
+   "text": "당신은 마음 놓고 네 쪽 드세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_02_t0",
+   "text": "(… 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_02_t1",
+   "text": "(… 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_03_t0",
+   "text": ") 나는 이 빵이 잘 안 받아요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_03_t1",
+   "text": ") 나는 이 빵이 잘 안 받아요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_04_t0",
+   "text": "앞뒤 맥락. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_04_t1",
+   "text": "앞뒤 맥락. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_05_t0",
+   "text": "새벽 두 시 반, 부엌에서 난 소리에 깬 아내는 식탁의 칼과 빵 부스러기를 보고 남편이 몰래 빵을 잘라 먹었음을 압니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_05_t1",
+   "text": "새벽 두 시 반, 부엌에서 난 소리에 깬 아내는 식탁의 칼과 빵 부스러기를 보고 남편이 몰래 빵을 잘라 먹었음을 압니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_06_t0",
+   "text": "그녀는 모른 척하고, 이튿날 저녁 자기 몫의 빵을 남편 접시에 얹어 줍니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_06_t1",
+   "text": "그녀는 모른 척하고, 이튿날 저녁 자기 몫의 빵을 남편 접시에 얹어 줍니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_07_t0",
+   "text": "문체와 인물. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_07_t1",
+   "text": "문체와 인물. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_08_t0",
+   "text": "전쟁이 끝난 이듬해 독일, 먹을 것이 모자라던 때입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_08_t1",
+   "text": "전쟁이 끝난 이듬해 독일, 먹을 것이 모자라던 때입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_09_t0",
+   "text": "오래 함께 산 부부가 빵 한 쪽 앞에서 서로를 속입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_09_t1",
+   "text": "오래 함께 산 부부가 빵 한 쪽 앞에서 서로를 속입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_10_t0",
+   "text": "남편은 무슨 소리가 난 것 같아서, 아내는 저녁엔 빵이 잘 안 받는다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_10_t1",
+   "text": "남편은 무슨 소리가 난 것 같아서, 아내는 저녁엔 빵이 잘 안 받는다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_11_t0",
+   "text": "보르헤르트는 짧은 문장과 되풀이되는 말로 그 거짓말을 사랑으로 바꿔 놓지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_11_t1",
+   "text": "보르헤르트는 짧은 문장과 되풀이되는 말로 그 거짓말을 사랑으로 바꿔 놓지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_12_t0",
+   "text": "전쟁에서 병을 얻은 작가는 이듬해 스물여섯 살로 세상을 떠났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_12_t1",
+   "text": "전쟁에서 병을 얻은 작가는 이듬해 스물여섯 살로 세상을 떠났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "writer_00_t0",
+   "text": "오늘의 문인, 한용운. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "writer_00_t1",
+   "text": "오늘의 문인, 한용운. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "writer_01_t0",
+   "text": "천팔백칠십구 년 충남 홍성에서 태어났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "writer_01_t1",
+   "text": "천팔백칠십구 년 충남 홍성에서 태어났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "writer_02_t0",
+   "text": "천구백오 년 백담사에서 출가한 승려이자, 천구백십구 년 삼, 일 독립선언서에 이름을 올린 민족대표 삼십삼인 가운데 한 사람이지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "writer_02_t1",
+   "text": "천구백오 년 백담사에서 출가한 승려이자, 천구백십구 년 삼, 일 독립선언서에 이름을 올린 민족대표 삼십삼인 가운데 한 사람이지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "writer_03_t0",
+   "text": "천구백이십육 년 시집 님의 침묵을 냈고, 총독부를 등지려 북향으로 앉혔다는 성북동 심우장에 살다 천구백사십사 년 해방을 한 해 앞두고 눈을 감았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "writer_03_t1",
+   "text": "천구백이십육 년 시집 님의 침묵을 냈고, 총독부를 등지려 북향으로 앉혔다는 성북동 심우장에 살다 천구백사십사 년 해방을 한 해 앞두고 눈을 감았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_00_t0",
+   "text": "그날의 문학. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_00_t1",
+   "text": "그날의 문학. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_01_t0",
+   "text": "백사 년 전 오늘. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_01_t1",
+   "text": "백사 년 전 오늘. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_02_t0",
+   "text": "마르셀 프루스트, 긴 시간을 마치다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_02_t1",
+   "text": "마르셀 프루스트, 긴 시간을 마치다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_03_t0",
+   "text": "잃어버린 시간을 찾아서의 마르셀 프루스트가 천구백이십이 년 오늘 파리에서 세상을 떠났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_03_t1",
+   "text": "잃어버린 시간을 찾아서의 마르셀 프루스트가 천구백이십이 년 오늘 파리에서 세상을 떠났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_04_t0",
+   "text": "일곱 권짜리 대작의 마지막 세 권은 그가 떠난 뒤에야 책으로 나왔지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_04_t1",
+   "text": "일곱 권짜리 대작의 마지막 세 권은 그가 떠난 뒤에야 책으로 나왔지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_05_t0",
+   "text": "팔십칠 년 전 오늘. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_05_t1",
+   "text": "팔십칠 년 전 오늘. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_06_t0",
+   "text": "시녀 이야기의 마거릿 애트우드 태어나다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_06_t1",
+   "text": "시녀 이야기의 마거릿 애트우드 태어나다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_07_t0",
+   "text": "캐나다 작가 마거릿 애트우드가 천구백삼십구 년 오늘 오타와에서 태어났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_07_t1",
+   "text": "캐나다 작가 마거릿 애트우드가 천구백삼십구 년 오늘 오타와에서 태어났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_08_t0",
+   "text": "눈먼 암살자(이천)와 증언들(이천십구)로 부커상을 두 번 받았지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_08_t1",
+   "text": "눈먼 암살자(이천)와 증언들(이천십구)로 부커상을 두 번 받았지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_09_t0",
+   "text": "칠십사 년 전 오늘. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_09_t1",
+   "text": "칠십사 년 전 오늘. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_10_t0",
+   "text": "자유의 시인 폴 엘뤼아르 눈감다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_10_t1",
+   "text": "자유의 시인 폴 엘뤼아르 눈감다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_11_t0",
+   "text": "초현실주의를 함께 연 프랑스 시인 폴 엘뤼아르가 천구백오십이 년 오늘 세상을 떠났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_11_t1",
+   "text": "초현실주의를 함께 연 프랑스 시인 폴 엘뤼아르가 천구백오십이 년 오늘 세상을 떠났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_12_t0",
+   "text": "점령기에 쓴 자유는 비행기로 뿌려질 만큼 널리 읽혔습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_12_t1",
+   "text": "점령기에 쓴 자유는 비행기로 뿌려질 만큼 널리 읽혔습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  }
+ ]
+}
