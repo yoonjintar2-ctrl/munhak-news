@@ -301,6 +301,8 @@ button,select{font:inherit}
 @keyframes pop{0%{opacity:0;transform:translateY(8px)}100%{opacity:1;transform:none}}
 .kick h2{white-space:nowrap}
 .row3 .rt>span:not(.tools){display:none}
+.kick .rt>span:not(.tools){white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+@media(max-width:600px){.kick:has(.req-tag) .rt>span:not(.tools){display:none}}
 .row3 .tools button span{display:none}
 .row3 .tools button{padding:3px 5px}
 /* 반응형 */
