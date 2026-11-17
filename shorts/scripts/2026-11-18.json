@@ -61,6 +61,26 @@
    {
     "from": 0,
     "video": "img/2026-11-18-classic.mp4"
+   },
+   {
+    "from": 4,
+    "video": "img/2026-11-18-classic-s1.mp4"
+   },
+   {
+    "from": 9,
+    "video": "img/2026-11-18-classic.mp4"
+   },
+   {
+    "from": 15,
+    "video": "img/2026-11-18-classic-s2.mp4"
+   },
+   {
+    "from": 18,
+    "video": "img/2026-11-18-classic.mp4"
+   },
+   {
+    "from": 21,
+    "video": "img/2026-11-18-classic-s3.mp4"
    }
   ]
  },
@@ -126,6 +146,22 @@
    {
     "from": 0,
     "video": "img/2026-11-18-modern.mp4"
+   },
+   {
+    "from": 12,
+    "video": "img/2026-11-18-modern-s1.mp4"
+   },
+   {
+    "from": 16,
+    "video": "img/2026-11-18-modern-s2.mp4"
+   },
+   {
+    "from": 22,
+    "video": "img/2026-11-18-modern.mp4"
+   },
+   {
+    "from": 27,
+    "video": "img/2026-11-18-modern-s3.mp4"
    }
   ]
  }

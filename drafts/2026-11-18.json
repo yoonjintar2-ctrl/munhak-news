@@ -185,6 +185,26 @@
    "https://en.wikipedia.org/wiki/The_Necklace",
    "https://fr.wikipedia.org/wiki/La_Parure",
    "https://www.schoolmouv.fr/fiches-de-lecture/la-parure-guy-de-maupassant/fiche-de-lecture"
+  ],
+  "scenes": [
+   {
+    "after": 1,
+    "img": "img/2026-11-18-classic-s1.jpg",
+    "video": "img/2026-11-18-classic-s1.mp4",
+    "alt": "소박한 거실, 남편이 흰 봉투를 내밀고 마틸드는 두 손으로 얼굴을 감싸며 고개를 숙인다"
+   },
+   {
+    "after": 4,
+    "img": "img/2026-11-18-classic-s2.jpg",
+    "video": "img/2026-11-18-classic-s2.mp4",
+    "alt": "무도회에서 돌아온 밤, 마틸드가 두 손으로 빈 목을 더듬으며 굳어 서 있고 남편이 돌아보며 문 쪽을 가리킨다"
+   },
+   {
+    "after": 6,
+    "img": "img/2026-11-18-classic-s3.jpg",
+    "video": "img/2026-11-18-classic-s3.mp4",
+    "alt": "허름한 뒷마당 우물가, 마틸드가 빨래통 앞에서 빨래를 비틀어 짜고 빨랫줄의 빨래가 흔들린다"
+   }
   ]
  },
  "modern": {
@@ -211,6 +231,26 @@
    "https://namu.wiki/w/%EB%91%90%EA%B7%BC%EB%91%90%EA%B7%BC%20%EB%82%B4%20%EC%9D%B8%EC%83%9D",
    "https://www.khan.co.kr/article/201108072119295",
    "https://pressian.com/pages/articles/66579"
+  ],
+  "scenes": [
+   {
+    "after": 2,
+    "img": "img/2026-11-18-modern-s1.jpg",
+    "video": "img/2026-11-18-modern-s1.mp4",
+    "alt": "거실 소파에 나란히 앉은 세 식구를 삼각대 카메라와 조명이 비추고, PD가 손짓으로 신호를 준다. 가운데 작은 아름이가 손을 흔든다"
+   },
+   {
+    "after": 3,
+    "img": "img/2026-11-18-modern-s2.jpg",
+    "video": "img/2026-11-18-modern-s2.mp4",
+    "alt": "밤의 아름이 방, 작은 아름이가 컴퓨터 화면 앞에 바짝 앉아 자판을 두드리다 고개를 갸웃한다. 창밖 별이 깜박인다"
+   },
+   {
+    "after": 5,
+    "img": "img/2026-11-18-modern-s3.jpg",
+    "video": "img/2026-11-18-modern-s3.mp4",
+    "alt": "병실, 침대 곁 의자에 앉은 엄마가 공책을 펼쳐 읽어 주고 곁에 선 아빠가 몸을 기울여 함께 듣는다"
+   }
   ]
  },
  "go": {
