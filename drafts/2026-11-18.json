@@ -79,8 +79,8 @@
   "origin": "국외",
   "where": "1946년 씀, 전쟁 직후 함부르크",
   "request": "독자 신청작",
-  "quote": "\"당신은 마음 놓고 네 쪽 드세요.\" (…) \"나는 이 빵이 잘 안 받아요.\"",
-  "orig": "\"Du kannst ruhig vier essen\" (…) \"Ich kann dieses Brot nicht so recht vertragen.\"",
+  "quote": "당신은 마음 놓고 네 쪽 드세요. (…) 나는 이 빵이 잘 안 받아요.",
+  "orig": "Du kannst ruhig vier essen (…) Ich kann dieses Brot nicht so recht vertragen.",
   "translator": "금로동 옮김",
   "img": "img/2026-11-18-novel.jpg",
   "video": "img/2026-11-18-novel.mp4",
@@ -635,5 +635,51 @@
     "clue": "작품 속에 나오는 사람"
    }
   ]
+ },
+ "food": {
+  "name": "빵",
+  "hanja": null,
+  "work": "빵",
+  "writer": "볼프강 보르헤르트",
+  "year": "1946",
+  "where": "전쟁 직후 독일의 어느 부엌, 새벽 두 시 반",
+  "img": "img/2026-11-18-food.jpg",
+  "video": "img/2026-11-18-food.mp4",
+  "alt": "식탁 위 나무 도마에 올린 거무스름한 빵 한 덩이와 썰어 둔 두 쪽, 빵칼. 창밖에 바람이 불고 전등이 흔들린다",
+  "quote": "여기 뭐가 있는 줄 알았지.",
+  "orig": "Ich dachte, hier wäre was.",
+  "translator": "금로동 옮김",
+  "quote_by": "새벽 부엌에서 아내와 마주친 남편",
+  "body": [
+   "보르헤르트의 「빵」에는 빵이 몇 쪽 나오지 않습니다. 남편이 새벽에 몰래 잘라 먹은 한 쪽, 그리고 이튿날 저녁 아내가 '저녁엔 빵이 잘 안 받는다'며 건넨 한 쪽. 이 소설에서 빵은 음식이라기보다 서로에게 내줄 수 있는 마지막 몫입니다.",
+   "소설이 쓰인 1946년 무렵 독일에서는 먹을거리를 배급표로 나눠 받았습니다. 1946년 겨울부터 이듬해까지 이어진 혹독한 추위와 식량난을 독일 사람들은 지금도 '굶주림의 겨울(Hungerwinter)'이라 부르지요. 그 시절 빵 한 쪽은 하루 끼니의 셈이 걸린 물건이었습니다.",
+   "독일은 지금 이름난 빵의 나라입니다. 호밀과 밀을 섞은 묵직한 빵이 많고, 등록된 빵 종류만 수천 가지라고 하지요. 2014년에는 '독일 빵 문화'가 독일의 국가 무형문화유산 목록에 올랐습니다. 빵 한 덩이를 사서 며칠에 걸쳐 얇게 썰어 먹는 것이 독일식 식탁입니다.",
+   "그래서 이 소설의 빵칼 소리는 더 크게 들립니다. 얇게 썰어 오래 나눠 먹어야 하는 빵을, 늙은 남편은 배고픔을 못 이겨 몰래 썰었고, 아내는 그 거짓말을 덮어 주려 제 몫을 내밀었지요. 빵이 모자란 시절에도 다정함은 모자라지 않았다는 이야기입니다."
+  ],
+  "try": "오늘 빵을 썰 때는 한 쪽을 먼저 옆 사람 접시에 놓아 보세요. 소설 한 편이 식탁에 올라옵니다.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/The_Bread",
+   "https://www.oebv.at/internal/d9bbe35b-bdba-4de0-b1ce-ae1e00feed37",
+   "https://deutsche-digitale-bibliothek.de/content/galerien/der-hungerwinter-1946-1947",
+   "https://www.planet-wissen.de/geschichte/deutsche_geschichte/nachkriegszeit/falscher-honig-100.html",
+   "https://deutschland.de/en/topic/life/german-bread-and-bread-culture"
+  ],
+  "short": {
+   "hook": "보르헤르트의 소설 「빵」, 새벽 두 시 반 부엌에서 빵 한 쪽이 사라졌어요.",
+   "lines": [
+    "범인은 배고픔을 못 이긴 늙은 남편이었죠.",
+    "부엌에서 마주친 남편은 무슨 소리가 난 것 같아서 나와 봤다고 둘러댑니다.",
+    "아내는 식탁의 빵칼과 부스러기를 보고도 모른 척하고, 같이 자러 들어가요.",
+    "전쟁이 끝난 이듬해 독일, 먹을거리를 배급표로 나눠 받던 때였어요.",
+    "다음 날 저녁, 아내는 제 몫의 빵 한 쪽을 남편 접시에 얹어 줍니다. 저녁엔 빵이 잘 안 받는다는, 다정한 거짓말과 함께요.",
+    "작가 보르헤르트는 이 소설을 쓴 이듬해, 스물여섯 살로 세상을 떠났어요."
+   ],
+   "outro": "오늘 문학늬우스에서 이 짧은 소설과 빵 이야기를 더 만나 보세요.",
+   "thumb": [
+    "사라진",
+    "빵 한 쪽"
+   ],
+   "title": "보르헤르트 「빵」 속 빵 한 쪽, 전쟁 뒤 부부의 다정한 거짓말 | 문학 한술 #빵 #보르헤르트 #독일문학 #shorts"
+  }
  }
 }

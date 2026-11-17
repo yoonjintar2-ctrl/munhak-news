@@ -1,0 +1,126 @@
+{
+ "name": "food-2026-11-18",
+ "mode": "clone",
+ "ref_audio": "out/casual1/E_think.wav",
+ "ref_text": "음… 그럼 데이터센터는 이제 못 짓는 건가?",
+ "gen": {
+  "temperature": 0.75,
+  "top_p": 0.9
+ },
+ "reload_every": 4,
+ "retries": 4,
+ "items": [
+  {
+   "id": "food_00_t0",
+   "text": "보르헤르트의 소설 빵, 새벽 두 시 반 부엌에서 빵 한 쪽이 사라졌어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_00_t1",
+   "text": "보르헤르트의 소설 빵, 새벽 두 시 반 부엌에서 빵 한 쪽이 사라졌어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_01_t0",
+   "text": "범인은 배고픔을 못 이긴 늙은 남편이었죠. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_01_t1",
+   "text": "범인은 배고픔을 못 이긴 늙은 남편이었죠. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_02_t0",
+   "text": "부엌에서 마주친 남편은 무슨 소리가 난 것 같아서 나와 봤다고 둘러댑니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_02_t1",
+   "text": "부엌에서 마주친 남편은 무슨 소리가 난 것 같아서 나와 봤다고 둘러댑니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_03_t0",
+   "text": "아내는 식탁의 빵칼과 부스러기를 보고도 모른 척하고, 같이 자러 들어가요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_03_t1",
+   "text": "아내는 식탁의 빵칼과 부스러기를 보고도 모른 척하고, 같이 자러 들어가요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_04_t0",
+   "text": "전쟁이 끝난 이듬해 독일, 먹을거리를 배급표로 나눠 받던 때였어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_04_t1",
+   "text": "전쟁이 끝난 이듬해 독일, 먹을거리를 배급표로 나눠 받던 때였어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_05_t0",
+   "text": "다음 날 저녁, 아내는 제 몫의 빵 한 쪽을 남편 접시에 얹어 줍니다. 저녁엔 빵이 잘 안 받는다는, 다정한 거짓말과 함께요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_05_t1",
+   "text": "다음 날 저녁, 아내는 제 몫의 빵 한 쪽을 남편 접시에 얹어 줍니다. 저녁엔 빵이 잘 안 받는다는, 다정한 거짓말과 함께요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_06_t0",
+   "text": "작가 보르헤르트는 이 소설을 쓴 이듬해, 스물여섯 살로 세상을 떠났어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_06_t1",
+   "text": "작가 보르헤르트는 이 소설을 쓴 이듬해, 스물여섯 살로 세상을 떠났어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_07_t0",
+   "text": "오늘 문학늬우스에서 이 짧은 소설과 빵 이야기를 더 만나 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_07_t1",
+   "text": "오늘 문학늬우스에서 이 짧은 소설과 빵 이야기를 더 만나 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  }
+ ]
+}
