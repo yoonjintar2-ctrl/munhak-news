@@ -4,14 +4,16 @@ import * as K from './kit.js';
 const q=new URLSearchParams(location.search);
 const mod=await import('./'+q.get('scene'));
 const opts=Object.assign({w:+(q.get('w')||960),h:+(q.get('h')||640)},mod.opts||{});
-const S=K.setup(opts); const ctx=Object.assign({},K,S,{stage:q.get('stage')||''});
+const INK=q.get('look')==='ink'; if(INK){opts.color=true;}
+const S=K.setup(opts);
+let RD=null; if(INK){const {Redraw}=await import('./vendor/lemo/redraw.js'); RD=new Redraw(opts.w*2,opts.h*2);} const ctx=Object.assign({},K,S,{stage:q.get('stage')||''});
 const upd=await mod.default(ctx);
 if(q.get('fov')){S.cam.fov=+q.get('fov');}
 if(q.get('oy')||q.get('ox')){S.cam.setViewOffset(opts.w,opts.h,(+(q.get('ox')||0))*opts.w,(+(q.get('oy')||0))*opts.h,opts.w,opts.h);}
 S.cam.updateProjectionMatrix();
 window.SECS=mod.secs||3;
 const OC=document.createElement('canvas');OC.width=opts.w;OC.height=opts.h;const OX=OC.getContext('2d');OX.imageSmoothingEnabled=true;OX.imageSmoothingQuality='high';
-window.frame=t=>{const ph=t/window.SECS*Math.PI*2;upd(t,ph);S.render();OX.drawImage(S.R.domElement,0,0,opts.w,opts.h);return OC.toDataURL('image/jpeg',0.93)};
+window.frame=t=>{const ph=t/window.SECS*Math.PI*2;upd(t,ph);S.render();const src=RD?RD.render(S.R.domElement,{frame:Math.round(t*30),gap:7,sigma:1.4,levels:5,washDark:.38}):S.R.domElement;OX.drawImage(src,0,0,opts.w,opts.h);return OC.toDataURL('image/jpeg',0.93)};
 await new Promise(r=>{const c=()=>K.K_waits.every(f=>f())?r():setTimeout(c,50);c()});
 window.ready=true;
 </script></body></html>

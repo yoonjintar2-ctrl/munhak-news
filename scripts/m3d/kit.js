@@ -160,10 +160,14 @@ export function person(scene, { x = 0, z = 0, rot = 0, coat = 0x5e5e5e, pants = 
     const cuff = new THREE.Mesh(new THREE.CylinderGeometry(0.17, 0.17, 0.1, 10), lam(trim)); cuff.position.y = -0.66; el.add(cuff);
     const hand = new THREE.Mesh(new THREE.SphereGeometry(0.15, 10, 8), lam(skin)); hand.position.y = -0.8; el.add(hand);
     const finger = new THREE.Mesh(new THREE.CapsuleGeometry(0.04, 0.24, 3, 6), lam(skin)); finger.position.y = -1.0; finger.visible = false; el.add(finger);
-    return { sp, el, finger }; };
+    const grip = new THREE.Group(); grip.position.y = -0.85; el.add(grip); // 손 안쪽 — 소품은 여기 붙인다(K.person().hold)
+    return { sp, el, finger, grip }; };
   const A = { L: arm(-1), R: arm(1) };
   function setArm(a, o = {}, sd) { a.sp.rotation.x = o.fwd || 0; a.sp.rotation.z = sd * (0.1 + (o.out || 0)); a.el.rotation.x = Math.abs(o.elbow || 0); /* 팔꿈치는 늘 앞으로만 굽는다(부호 무시) */ a.finger.visible = !!o.point; }
-  return { root, torso, headG,
+  return { root, torso, headG, hands: { L: A.L.grip, R: A.R.grip },
+    // 11/18 발행인 "봉투가 공중에 떠 있다" → 소품은 월드 좌표로 놓지 말고 손에 붙인다.
+    // hold('R', mesh, { at:[x,y,z], rot:[rx,ry,rz] }) — at 은 손 기준(아래 -y = 손끝 방향). 팔을 움직이면 소품도 따라온다.
+    hold(side, obj, { at = [0, -0.12, 0], rot = [0, 0, 0] } = {}) { const g = A[side].grip; if (obj.parent) obj.parent.remove(obj); g.add(obj); obj.position.set(...at); obj.rotation.set(...rot); return obj; },
     pose(o = {}) { headG.rotation.y = o.headYaw || 0; headG.rotation.x = o.headPitch || 0; headG.rotation.z = o.headTilt || 0;
       torso.rotation.y = o.torsoYaw || 0; torso.rotation.x = o.lean || 0; root.position.y = o.bob || 0;
       setArm(A.L, o.armL, -1); setArm(A.R, o.armR, 1); } };

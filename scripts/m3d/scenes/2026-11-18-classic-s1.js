@@ -13,12 +13,11 @@ export default function (K) {
   const fl = K.inked(new THREE.Mesh(new THREE.ConeGeometry(0.06, 0.2, 8), K.flat(0xffffff)), 1); fl.position.set(0.5, 2.18, -4.6); scene.add(fl);
   const M = K.person(scene, { x: -1.3, z: -2.6, rot: -Math.PI / 2 - 0.35, coat: 0x45443f, pants: 0x2a2a28, hair: 'bun', scale: 0.92 });
   const H = K.person(scene, { x: 1.4, z: -2.8, rot: Math.PI / 2 + 0.35, coat: 0x8a8782, pants: 0x3a3936, hair: 'short', scale: 0.98 });
-  const env = K.box(0.7, 0.45, 0.04, 0xffffff, 0, 0, 0, scene);
+  const env = K.box(0.7, 0.45, 0.04, 0xffffff, 0, 0, 0, scene); H.hold('R', env, { at: [0, -0.08, -0.2], rot: [Math.PI / 2, 1.1, 0] }); // 봉투는 남편 오른손에 쥐여 있다
   cam.position.set(0.2, 3.3, 5.0); cam.lookAt(0, 2.1, -3.0);
   return (t, ph) => {
     const give = K.win(ph, 0.05, 0.6, 0.12), cry = K.win(ph, 0.35, 0.95, 0.12);
     H.pose({ headPitch: 0.1, lean: 0.05, armR: { fwd: 0.4 + 1.0 * give, out: 0.05, elbow: 0.3 }, armL: { fwd: 0.1, elbow: 0.4 } });
-    env.position.set(0.55 - 0.2 * (1 - give), 1.9 + 0.55 * give, -2.55); env.rotation.y = 0.3;
     M.pose({ headPitch: 0.1 - 0.6 * cry, headYaw: 0.1, lean: 0.15 * cry, armL: { fwd: 0.3 + 0.9 * cry, elbow: 0.6 + 1.3 * cry }, armR: { fwd: 0.3 + 0.9 * cry, elbow: 0.6 + 1.3 * cry } });
     pend.rotation.z = 0.35 * Math.sin(ph * 2); fl.scale.y = 1 + 0.25 * Math.sin(ph * 9);
   };
