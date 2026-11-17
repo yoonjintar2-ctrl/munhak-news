@@ -290,7 +290,7 @@ def main(dates):
                 lw = 760
             elif img and os.path.exists(img):
                 wr = sec in ("writer", "man")
-                right = f'<div class="r{" wr" if wr else ""}"><img src="file://{os.path.abspath(img)}"><div class="cap">{"얼굴 없는 실루엣 펜화" if wr else "AI 삽화"}</div></div>'
+                right = f'<div class="r{" wr" if wr else ""}"><img src="file://{os.path.abspath(img)}"><div class="cap">{(D.get(sec) or {}).get("cap") if sec == "man" and (D.get(sec) or {}).get("cap") else ("얼굴 없는 실루엣 펜화" if wr else "3D 삽화")}</div></div>'
                 lw = 820 if wr else 580
             card = CARD.replace("__DATE__", kdate(d)).replace("__KICK__", NAME[sec]).replace("__HEAD__", head).replace("__LEDE__", lede).replace("__TAIL__", tail).replace("__RIGHT__", right).replace("__LW__", str(lw))
             jobs.append((card, f"{OUT}/{key}.jpg"))
