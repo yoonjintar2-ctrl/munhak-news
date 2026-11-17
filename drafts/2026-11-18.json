@@ -283,9 +283,9 @@
   "kind": "특수부대",
   "name": "영국 육군 특수공수부대 (SAS)",
   "sub": "영국 · 1941 북아프리카 창설 · 헤리퍼드",
-  "img": "img/2026-11-18-man.png",
-  "alt": "큰 배낭을 메고 비탈을 오르는 군인의 실루엣",
-  "cap": "얼굴 없는 실루엣 펜화",
+  "img": "img/2026-11-18-man.jpg",
+  "alt": "비 내리는 능선 길을 무거운 배낭을 메고 오르는 대원 둘",
+  "cap": "3D 삽화",
   "bio": "1941년 북아프리카 사막에서 젊은 장교 데이비드 스털링이 장병 67명으로 꾸린 'L 분견대'에서 시작했습니다. 1945년 해체됐다가 다시 일어나 오늘의 22 SAS 연대로 이어졌고, 1960년부터 잉글랜드 헤리퍼드에 자리 잡았습니다. 표어는 스털링이 직접 고른 'Who Dares Wins'.",
   "feats": [
    {
@@ -311,7 +311,8 @@
    "https://en.wikipedia.org/wiki/Special_Air_Service",
    "https://en.wikipedia.org/wiki/Iranian_Embassy_siege",
    "https://www.nam.ac.uk/explore/David-Stirling"
-  ]
+  ],
+  "video": "img/2026-11-18-man.mp4"
  },
  "zodiac": [
   {

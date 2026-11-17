@@ -236,3 +236,76 @@ export function backdrop(scene, { kind = 'country', seed = 1, night = false, cx 
   }
   return G;
 }
+
+// ---------- 오늘의 사나이 전용 인물 (11/17 발행인 "쫄라맨도 아니고 … 그림 퀄리티를 많이 올려야") ----------
+// K.athlete(scene, {x,z,rot,scale, kind:'boxer'|'soldier'|'fighter'|'runner'|'judoka', skin, top, bottom, gear})
+// 어깨·가슴·허벅지·종아리가 있는 몸, 무릎·팔꿈치 관절, 종목별 장비(글러브·트렁크·헬멧·방탄조끼·배낭·도복·러닝화).
+// pose({armL:{fwd,out,elbow}, armR, legL:{fwd,knee}, legR, lean, torsoYaw, headYaw, headPitch, bob})
+export function athlete(scene, { x = 0, z = 0, rot = 0, scale = 1, kind = 'boxer', skin = 0xd9d2c8, top = null, bottom = null, gear = 0x1e1e1e, hairC = 0x1c1c1c } = {}) {
+  const bare = kind === 'boxer' || kind === 'fighter';
+  top = top ?? ({ soldier: 0x6f6b62, judoka: 0xf2f0ea, runner: 0x3a3a3a }[kind] ?? skin);
+  bottom = bottom ?? ({ boxer: 0x262626, fighter: 0x2a2a2a, soldier: 0x5a574f, judoka: 0xeeece6, runner: 0x2a2a2a }[kind]);
+  const L = (c) => lam(c);
+  const root = new THREE.Group(); root.position.set(x, 0, z); root.rotation.y = rot; root.scale.setScalar(scale); scene.add(root);
+  const hip = new THREE.Group(); hip.position.y = 2.35; root.add(hip);
+  // 다리: 허벅지 → 무릎 → 종아리 → 신발
+  const leg = sd => { const h = new THREE.Group(); h.position.set(sd * 0.28, 0, 0); hip.add(h);
+    const th = inked(new THREE.Mesh(new THREE.CapsuleGeometry(0.23, 0.78, 5, 12), L(bare ? skin : bottom)), 40); th.position.y = -0.56; h.add(th);
+    const kn = new THREE.Group(); kn.position.y = -1.14; h.add(kn);
+    const ca = inked(new THREE.Mesh(new THREE.CapsuleGeometry(0.18, 0.74, 5, 12), L(bare ? skin : bottom)), 40); ca.position.y = -0.52; kn.add(ca);
+    const shoe = inked(new THREE.Mesh(new THREE.BoxGeometry(0.34, 0.24, 0.62), L(kind === 'judoka' ? skin : 0x1a1a1a)), 30); shoe.position.set(0, -1.06, -0.1); kn.add(shoe);
+    if (kind === 'boxer') { const sock = new THREE.Mesh(new THREE.CylinderGeometry(0.2, 0.2, 0.32, 12), L(0x1a1a1a)); sock.position.y = -0.86; kn.add(sock); }
+    if (kind === 'soldier') { const boot = new THREE.Mesh(new THREE.CylinderGeometry(0.22, 0.22, 0.38, 12), L(0x1a1a1a)); boot.position.y = -0.88; kn.add(boot); }
+    return { h, kn }; };
+  const LG = { L: leg(-1), R: leg(1) };
+  // 골반·트렁크/바지
+  const pel = inked(new THREE.Mesh(new THREE.CylinderGeometry(0.56, 0.5, 0.55, 18), L(bottom)), 40); pel.position.y = -0.05; hip.add(pel);
+  if (kind === 'boxer') { const band = new THREE.Mesh(new THREE.CylinderGeometry(0.585, 0.585, 0.16, 18), L(0xf0eee8)); band.position.y = 0.2; hip.add(band);
+    [-1, 1].forEach(sd => { const t = inked(new THREE.Mesh(new THREE.CylinderGeometry(0.29, 0.33, 0.42, 12), L(bottom)), 40); t.position.set(sd * 0.28, -0.32, 0); hip.add(t); }); }
+  // 몸통: 허리 → 가슴(넓게) → 어깨 근육
+  const torso = new THREE.Group(); torso.position.y = 0.2; hip.add(torso);
+  const waist = inked(new THREE.Mesh(new THREE.CylinderGeometry(0.52, 0.47, 0.62, 18), L(top)), 40); waist.position.y = 0.34; torso.add(waist);
+  const chest = inked(new THREE.Mesh(new THREE.SphereGeometry(0.72, 22, 16), L(top)), 40); chest.scale.set(1.12, 0.78, 0.66); chest.position.y = 1.02; torso.add(chest);
+  if (bare) { [-1, 1].forEach(sd => { const pc = new THREE.Mesh(new THREE.SphereGeometry(0.3, 14, 10), L(top)); pc.scale.set(1, 0.62, 0.42); pc.position.set(sd * 0.3, 1.0, -0.38); torso.add(pc); });
+    line([[0, 0.55, -0.47], [0, 1.1, -0.46]], torso); [0.45, 0.62].forEach(y => line([[-0.18, y, -0.49], [0.18, y, -0.49]], torso)); }
+  if (kind === 'soldier') { // 방탄조끼 + 탄입대 + 무전기 안테나 대신 배낭
+    const v = inked(new THREE.Mesh(new THREE.BoxGeometry(1.25, 1.05, 0.9), L(0x3e3c37)), 30); v.position.y = 0.88; torso.add(v);
+    [-0.38, 0, 0.38].forEach(px => box(0.3, 0.32, 0.16, 0x2e2c28, px, 0.62, -0.5, torso));
+    box(1.15, 1.45, 0.62, 0x4a4842, 0, 1.0, 0.72, torso); box(1.2, 0.38, 0.66, 0x34322e, 0, 1.78, 0.74, torso); cyl(0.2, 0.2, 1.2, 0x2a2926, 0, 1.6, 0.95, torso, 10).rotation.z = Math.PI / 2;
+  }
+  if (kind === 'judoka') { line([[-0.35, 1.45, -0.42], [0.2, 0.25, -0.52]], torso); line([[0.35, 1.45, -0.42], [-0.05, 0.6, -0.5]], torso);
+    const belt = new THREE.Mesh(new THREE.CylinderGeometry(0.57, 0.57, 0.14, 18), L(0x1a1a1a)); belt.position.y = 0.05; torso.add(belt); }
+  // 목·머리
+  const neck = new THREE.Mesh(new THREE.CylinderGeometry(0.19, 0.24, 0.3, 12), L(skin)); neck.position.y = 1.55; torso.add(neck);
+  const headG = new THREE.Group(); headG.position.y = 1.72; torso.add(headG);
+  const head = inked(new THREE.Mesh(new THREE.SphereGeometry(0.4, 22, 16), L(skin)), 60); head.scale.set(0.95, 1.08, 1); head.position.y = 0.32; headG.add(head);
+  const jaw = new THREE.Mesh(new THREE.SphereGeometry(0.26, 14, 10), L(skin)); jaw.scale.set(1.0, 0.7, 0.9); jaw.position.set(0, 0.16, -0.1); headG.add(jaw);
+  const nose = new THREE.Mesh(new THREE.ConeGeometry(0.07, 0.17, 8), L(skin)); nose.rotation.x = -Math.PI / 2; nose.position.set(0, 0.3, -0.43); headG.add(nose);
+  [-1, 1].forEach(sd => { const e = new THREE.Mesh(new THREE.SphereGeometry(0.09, 8, 6), L(skin)); e.scale.set(0.5, 1, 0.8); e.position.set(sd * 0.39, 0.3, 0.02); headG.add(e);
+    const ey = new THREE.Mesh(new THREE.SphereGeometry(0.034, 10, 8), flat(0x111111)); ey.scale.z = 0.5; ey.position.set(sd * 0.16, 0.38, -0.39); headG.add(ey);
+    const br = new THREE.Mesh(new THREE.BoxGeometry(0.13, 0.03, 0.02), flat(0x222222)); br.position.set(sd * 0.17, 0.5, -0.38); br.rotation.z = sd * -0.18; headG.add(br); });
+  const mouth = new THREE.Mesh(new THREE.BoxGeometry(0.14, 0.025, 0.03), flat(0x333333)); mouth.position.set(0, 0.15, -0.39); headG.add(mouth);
+  const hm = L(hairC);
+  if (kind === 'soldier') { const hel = inked(new THREE.Mesh(new THREE.SphereGeometry(0.47, 20, 12, 0, Math.PI * 2, 0, Math.PI * 0.55), L(0x4a4842)), 40); hel.position.y = 0.36; headG.add(hel);
+    const rim = new THREE.Mesh(new THREE.TorusGeometry(0.46, 0.04, 6, 24), L(0x3a3934)); rim.rotation.x = Math.PI / 2; rim.position.y = 0.4; headG.add(rim); }
+  else { const cap = new THREE.Mesh(new THREE.SphereGeometry(0.42, 22, 14, 0, Math.PI * 2, 0, Math.PI * 0.32), hm); cap.position.y = 0.36; headG.add(cap);
+    const back = new THREE.Mesh(new THREE.SphereGeometry(0.42, 22, 14, -0.1, Math.PI + 0.2, 0, Math.PI * 0.62), hm); back.position.y = 0.36; headG.add(back); }
+  // 팔: 어깨 근육 → 위팔 → 팔꿈치 → 아래팔 → 손/글러브
+  const arm = sd => { const sp = new THREE.Group(); sp.position.set(sd * 0.88, 1.28, 0); torso.add(sp);
+    const del = inked(new THREE.Mesh(new THREE.SphereGeometry(0.3, 14, 10), L(bare ? skin : top)), 40); del.scale.set(1, 0.9, 1); sp.add(del);
+    const up = inked(new THREE.Mesh(new THREE.CapsuleGeometry(0.2, 0.55, 5, 12), L(bare ? skin : top)), 40); up.position.y = -0.42; sp.add(up);
+    const el = new THREE.Group(); el.position.y = -0.82; sp.add(el);
+    const fo = inked(new THREE.Mesh(new THREE.CapsuleGeometry(0.17, 0.5, 5, 12), L(bare || kind === 'runner' ? skin : top)), 40); fo.position.y = -0.36; el.add(fo);
+    let hand;
+    if (kind === 'boxer') { hand = inked(new THREE.Mesh(new THREE.SphereGeometry(0.3, 16, 12), L(gear)), 40); hand.scale.set(0.95, 1.15, 1.05); hand.position.y = -0.82;
+      const cuff = new THREE.Mesh(new THREE.CylinderGeometry(0.2, 0.22, 0.26, 12), L(0xf0eee8)); cuff.position.y = -0.58; el.add(cuff); }
+    else if (kind === 'fighter') { hand = inked(new THREE.Mesh(new THREE.SphereGeometry(0.21, 12, 10), L(gear)), 40); hand.position.y = -0.74; }
+    else { hand = new THREE.Mesh(new THREE.SphereGeometry(0.15, 10, 8), L(kind === 'soldier' ? 0x2a2926 : skin)); hand.position.y = -0.72; }
+    el.add(hand); return { sp, el }; };
+  const A = { L: arm(-1), R: arm(1) };
+  const setArm = (a, o = {}, sd) => { a.sp.rotation.x = o.fwd || 0; a.sp.rotation.z = sd * (0.12 + (o.out || 0)); a.el.rotation.x = Math.abs(o.elbow || 0); };
+  const setLeg = (l, o = {}) => { l.h.rotation.x = o.fwd || 0; l.h.rotation.z = o.side || 0; l.kn.rotation.x = -Math.abs(o.knee || 0); };
+  return { root, torso, headG, hip,
+    pose(o = {}) { headG.rotation.y = o.headYaw || 0; headG.rotation.x = o.headPitch || 0; torso.rotation.y = o.torsoYaw || 0; torso.rotation.x = o.lean || 0;
+      hip.position.y = 2.35 + (o.bob || 0); setArm(A.L, o.armL, -1); setArm(A.R, o.armR, 1); setLeg(LG.L, o.legL); setLeg(LG.R, o.legR); } };
+}
