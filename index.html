@@ -385,6 +385,40 @@ button,select{font:inherit}
 .rowc1>.sec{border:0!important;padding-left:0!important;margin-left:0!important}
 #s-man,.rowg,.rowx,.rowe{margin-top:52px}
 .req-tag{display:inline-block;margin-left:8px;padding:1px 7px;border:1.5px solid var(--red);color:var(--red);font-family:var(--sans);font-size:.62rem;font-weight:700;letter-spacing:0;vertical-align:middle;border-radius:2px;transform:rotate(-2deg)}
+
+/* ⑧ 문학 한술 (11/17) */
+.food-fig{margin:0 0 10px}.food-fig img,.food-fig video{width:100%;display:block;border:1px solid var(--ink);background:#f4f3ee}
+.food-name{font-family:var(--serif);font-weight:900;font-size:2rem;line-height:1.15;margin:6px 0 2px;letter-spacing:-.02em}
+.food-name small{font-size:.95rem;font-weight:700;color:var(--muted);margin-left:6px}
+.food-from{font-family:var(--sans);font-size:.8rem;color:var(--muted);margin:0 0 10px}
+.food-q{margin:0 0 12px;padding:8px 12px;border-left:3px solid var(--ink);font-family:var(--serif);font-weight:700;font-size:1.02rem;line-height:1.6;background:#F1F0EA}
+.food-q cite{display:block;font-style:normal;font-family:var(--sans);font-weight:400;font-size:.72rem;color:var(--muted);margin-top:4px}
+.food-try{font-size:.86rem;border-top:1px dotted var(--rule);padding-top:8px;margin-top:10px}.food-try::before{content:"오늘 한술 ▸ ";font-family:var(--sans);font-weight:700}
+@media (min-width:1101px){.rowg{grid-template-columns:1fr 1fr}}
+.rowz{margin-top:52px}
+.rowz .zd-list{grid-template-columns:1fr 1fr 1fr}
+.zd-more{display:none;margin:12px auto 0;font-family:var(--sans);font-size:.82rem;border:1px solid var(--ink);background:transparent;padding:6px 14px;cursor:pointer}
+@media (max-width:1100px){.rowz .zd-list{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.rowz .zd-list{grid-template-columns:1fr}}
+@media (max-width:760px){.zd-list li.fold{display:none}.zd-list.open li.fold{display:grid}.zd-more{display:block}.zd-more[hidden]{display:none}}
+/* 약봉지 모바일에서 낮게(발행인 11/17 "모바일에선 너무 길어") */
+@media (max-width:600px){
+  .rx-bag{padding:16px 10px 10px}
+  .rx-top{gap:8px;margin-top:0}.rx-cross{width:40px;height:40px}.rx-cross::before{left:12px;right:12px}.rx-cross::after{top:12px;bottom:12px}.rx-cross b{font-size:1.05rem}
+  .rx-title{font-size:1.1rem;padding:2px 0 2px .25em}
+  .rx-to{margin:6px 0 8px;font-size:.88rem}
+  .rx-panel{padding:8px 8px}
+  .rx-ph{margin:-2px auto 6px;font-size:.78rem}
+  .rx-ask{margin-bottom:6px;font-size:.8rem}
+  .rx-moods{grid-template-columns:repeat(3,1fr);gap:6px;margin-bottom:8px}
+  .rx-moods button{min-height:40px;padding:5px 3px;border-radius:8px;box-shadow:0 2px 0 var(--g)}
+  .rx-moods button small{display:none}
+  .rx-moods button b{font-size:.86rem}
+  .rx-pill{min-height:72px;padding:10px 4px;margin-bottom:6px}
+  .rx-q{font-size:1.06rem;line-height:1.5}
+  .rx-ft{margin-top:6px;font-size:.62rem}
+  .rx-stamp{width:48px;height:48px;right:16px;bottom:26px;font-size:.62rem}
+}
 </style>
 <script>(function(){try{var z=parseFloat(localStorage.getItem('mnews-fz'));if(z>0)document.documentElement.style.fontSize=(15*z)+'px'}catch(e){}})()</script>
 </head>
@@ -497,8 +531,18 @@ button,select{font:inherit}
   </section>
 
   <div class="rowg">
+    <section class="sec" id="s-food" data-sec="food" data-name="문학 한술" hidden><a class="anc" id="food"></a>
+      <div class="kick"><h2><i>⑧</i>문학 한술</h2><span>작품 속 음식 한 그릇</span></div>
+      <figure class="fig food-fig" id="food-fig"><span class="tag">3D 삽화</span><img id="food-img" alt=""></figure>
+      <p class="food-name" id="food-name"></p>
+      <p class="food-from" id="food-from"></p>
+      <blockquote class="food-q" id="food-q" hidden></blockquote>
+      <div class="body" id="food-body"></div>
+      <p class="food-try" id="food-try" hidden></p>
+      <p class="src" id="food-src"></p>
+    </section>
     <section class="sec" id="s-go" data-sec="go" data-name="오늘의 한 수" hidden><a class="anc" id="go"></a>
-      <div class="kick"><h2><i>⑧</i>오늘의 한 수</h2><span>바둑 · 기보 한 장</span></div>
+      <div class="kick"><h2><i>⑨</i>오늘의 한 수</h2><span>바둑 · 기보 한 장</span></div>
       <p class="go-head" id="go-title"></p>
       <p class="go-meta" id="go-meta"></p>
       <div class="go-board" id="go-board"></div>
@@ -506,12 +550,6 @@ button,select{font:inherit}
       <div class="body"><p class="go-lead" id="go-lead"></p><div id="go-body"></div></div>
       <p class="go-lit" id="go-lit" hidden></p>
       <p class="src" id="go-src"></p>
-    </section>
-    <section class="sec" id="s-zd" data-sec="zodiac" data-name="띠별 오늘의 문장" hidden><a class="anc" id="zodiac"></a>
-      <div class="kick"><h2><i>⑨</i>띠별 오늘의 문장</h2><span>운세 대신 문장 한 줄</span></div>
-      <p class="zd-pick">내 띠 <select id="zd-sel" aria-label="내 띠 고르기"><option value="">고르기</option></select> <span>— 고르면 맨 위로 올려 드려요(이 기기에 기억)</span></p>
-      <ol class="zd-list" id="zd-list"></ol>
-      <p class="src" id="zd-src"></p>
     </section>
   </div>
   <div class="rowx">
@@ -572,6 +610,16 @@ button,select{font:inherit}
       <div class="kick"><h2><i>⑬</i>문학 상식</h2><span>O · X</span></div>
       <ol class="tv" id="tv"></ol>
       <p class="cal" id="cal" hidden><b>오늘의 문학 달력</b><span></span></p>
+    </section>
+  </div>
+
+  <div class="rowz">
+    <section class="sec" id="s-zd" data-sec="zodiac" data-name="띠별 오늘의 문장" hidden><a class="anc" id="zodiac"></a>
+      <div class="kick"><h2><i>⑭</i>띠별 오늘의 문장</h2><span>운세 대신 문장 한 줄</span></div>
+      <p class="zd-pick">내 띠 <select id="zd-sel" aria-label="내 띠 고르기"><option value="">고르기</option></select> <span>— 고르면 맨 위로 올려 드려요(이 기기에 기억)</span></p>
+      <ol class="zd-list" id="zd-list"></ol>
+      <button type="button" class="zd-more" id="zd-more" hidden>나머지 띠 모두 보기 ▾</button>
+      <p class="src" id="zd-src"></p>
     </section>
   </div>
 
@@ -683,6 +731,7 @@ function render(D){
   try{document.querySelectorAll('.req-tag').forEach(function(e){e.remove()});[['sentence','s-sentence'],['poem','s-poem'],['novel','s-novel'],['writer','s-writer'],['classic','s-classic'],['modern','s-modern']].forEach(function(p){var c=D[p[0]];if(!c||!c.request)return;var h=document.querySelector('#'+p[1]+' .kick h2');if(!h)return;var t=document.createElement('span');t.className='req-tag';t.textContent=typeof c.request==='string'?c.request:'독자 신청작';t.title='독자가 보내 주신 신청으로 실었어요';h.appendChild(t)})}catch(e){console.log(e)}
   try{manRender(D)}catch(e){console.log(e)}
   try{zdRender(D)}catch(e){console.log(e)}
+  try{foodRender(D)}catch(e){console.log(e)}
   vidUp(D);
   tools(D);
 }
@@ -769,12 +818,21 @@ function zdRender(D){var Z=D.zodiac;hideIf('s-zd',!Z||!Z.length);if(!Z||!Z.lengt
   try{me=localStorage.getItem(KEY)||''}catch(e){}
   function yrs(k){var i=ord.indexOf(k),r=[];for(var y=yNow-1;y>=yNow-85;y--)if(((y-4)%12+12)%12===i)r.push(y);return r.slice(0,6).reverse().map(function(y){return String(y).slice(2)}).join('·')+'년생'}
   function draw(){var L=Z.slice().sort(function(a,b){return(b.key===me)-(a.key===me)||ord.indexOf(a.key)-ord.indexOf(b.key)});
-    $('zd-list').innerHTML=L.map(function(z){return'<li'+(z.key===me?' class="me"':'')+'><div class="zd-ic"><span><img src="img/zodiac/'+z.key+'.png" alt=""></span><b>'+esc(z.animal)+'띠</b></div><div><p class="zd-yr">'+yrs(z.key)+'</p><p class="zd-q">“'+esc(z.text)+'”</p>'+(z.orig?'<p class="zd-o">'+esc(z.orig)+'</p>':'')+'<p class="zd-w">'+esc(z.writer)+' 「'+esc(z.work)+'」 '+(z.year||'')+(z.translator?' · '+esc(z.translator):'')+'</p><p class="zd-n">'+esc(z.note)+'</p></div></li>'}).join('')}
+    $('zd-list').innerHTML=L.map(function(z,i){var c=[];if(z.key===me)c.push('me');if(i>=(me?3:4))c.push('fold');return'<li'+(c.length?' class="'+c.join(' ')+'"':'')+'><div class="zd-ic"><span><img src="img/zodiac/'+z.key+'.png" alt=""></span><b>'+esc(z.animal)+'띠</b></div><div><p class="zd-yr">'+yrs(z.key)+'</p><p class="zd-q">“'+esc(z.text)+'”</p>'+(z.orig?'<p class="zd-o">'+esc(z.orig)+'</p>':'')+'<p class="zd-w">'+esc(z.writer)+' 「'+esc(z.work)+'」 '+(z.year||'')+(z.translator?' · '+esc(z.translator):'')+'</p><p class="zd-n">'+esc(z.note)+'</p></div></li>'}).join('')}
+    var mb=$('zd-more');mb.hidden=$('zd-list').classList.contains('open');mb.onclick=function(){$('zd-list').classList.add('open');mb.hidden=true}
   $('zd-sel').innerHTML='<option value="">고르기</option>'+Z.map(function(z){return'<option value="'+z.key+'"'+(z.key===me?' selected':'')+'>'+esc(z.animal)+'띠</option>'}).join('');
   $('zd-sel').onchange=function(){me=this.value;try{localStorage.setItem(KEY,me)}catch(e){}draw()};
   draw();var all=[];Z.forEach(function(z){(z.sources||[]).forEach(function(u){if(all.indexOf(u)<0)all.push(u)})});$('zd-src').innerHTML=srcs(all)}
 
-// ⑬ 오늘의 사나이
+// ⑧ 문학 한술 — 작품 속 음식(발행인 11/17)
+function foodRender(D){var F=D.food;hideIf('s-food',!F);if(!F)return;
+  $('food-img').src=F.img||'';$('food-img').alt=F.alt||F.name;
+  $('food-name').innerHTML=esc(F.name)+(F.hanja?'<small>'+esc(F.hanja)+'</small>':'');
+  $('food-from').innerHTML=esc(F.writer)+' 「'+esc(F.work)+'」'+(F.year?' ('+esc(F.year)+')':'')+(F.where?' · '+esc(F.where):'');
+  $('food-q').innerHTML=F.quote?'“'+esc(F.quote)+'”'+(F.quote_by?'<cite>'+esc(F.quote_by)+'</cite>':''):'';hideIf('food-q',!F.quote);
+  $('food-body').innerHTML=(F.body||[]).map(function(t){return'<p>'+esc(t)+'</p>'}).join('');
+  $('food-try').textContent=F.try||'';hideIf('food-try',!F.try);$('food-src').innerHTML=srcs(F.sources)}
+// ⑦ 오늘의 사나이
 function manRender(D){var M=D.man;hideIf('s-man',!M);if(!M)return;
   $('man-kind').textContent=M.kind?M.kind+' 열전':'특수부대 · 격투가 · 운동선수 열전';
   $('man-img').src=M.img||'';$('man-img').alt=M.alt||M.name;$('man-cap').textContent=M.cap||'얼굴 없는 실루엣 펜화';
@@ -828,6 +886,7 @@ function secText(D,sec){var L=[],dt=D.date.replace(/-/g,'.'),hd='[문학늬우�
  if(sec==='trivia'){L.push(hd+'문학 상식 OX]','');(D.trivia||[]).forEach(function(t,i){L.push('Q'+(i+1)+'. '+t.q,'   정답 '+t.a+' — '+t.why,'')});if(D.calendar)L.push('오늘의 문학 달력 — '+D.calendar)}
  if(sec==='classic'){var C=D.classic;L.push(hd+'1분 고전]','','「'+C.title+'」 '+C.writer+' ('+C.year+')',C.oneline||'','');(C.story||[]).forEach(function(p){L.push(p,'')});(C.lines||[]).forEach(function(l,i){L.push((i+1)+'. '+l)});L.push('','■ 결말(스포일러)',C.ending||'','','■ 왜 읽을 만한가',C.why||'')}
  if(sec==='modern'){var C=D.modern;L.push(hd+'1분 현대문학]','','「'+C.title+'」 '+C.writer+' ('+C.year+')',C.oneline||'','');(C.story||[]).forEach(function(p){L.push(p,'')});(C.lines||[]).forEach(function(l,i){L.push((i+1)+'. '+l)});L.push('','■ 결말(스포일러)',C.ending||'','','■ 왜 읽을 만한가',C.why||'')}
+ if(sec==='food'){var F=D.food;L.push(hd+'문학 한술]','',F.name+' — '+F.writer+' 「'+F.work+'」'+(F.year?' ('+F.year+')':''),'');if(F.quote)L.push('“'+F.quote+'”','');(F.body||[]).forEach(function(t){L.push(t,'')});if(F.try)L.push('오늘 한술: '+F.try)}
  if(sec==='man'){var M=D.man;L.push(hd+'오늘의 사나이]','',M.name+(M.kind?' ('+M.kind+')':''),M.sub||'','',M.bio||'','');(M.feats||[]).forEach(function(f){L.push('■ '+f.when+' — '+f.text)});if(M.quote)L.push('','“'+M.quote+'”'+(M.quote_by?' — '+M.quote_by:''))}
  if(sec==='go'){var G=D.go;L.push(hd+'오늘의 한 수]','',G.title,G.game+' · '+G.date.replace(/-/g,'.'),'흑 '+G.black+' · 백 '+G.white+' · '+G.result,'',G.lead||'','');(G.body||[]).forEach(function(t){L.push(t,'')});if(G.lit)L.push(G.lit)}
  if(sec==='zodiac'){L.push(hd+'띠별 오늘의 문장]','');(D.zodiac||[]).forEach(function(z){L.push('■ '+z.animal+'띠 — “'+z.text+'”','   '+z.writer+' 「'+z.work+'」'+(z.translator?' · '+z.translator:''),'   ☞ '+z.note,'')})}

@@ -9,8 +9,8 @@ import hashlib, html, json, os, re, sys, glob
 
 SITE = "https://mnews.jintar.co.kr/"
 OUT = "s"
-SECS = ["sentence", "poem", "novel", "writer", "puzzle", "trivia", "classic", "rx", "day", "modern", "go", "zodiac", "man"]
-NAME = {"sentence": "오늘의 문장", "poem": "오늘의 시", "novel": "오늘의 소설 구절", "writer": "오늘의 문인", "puzzle": "낱말 퍼즐", "trivia": "문학 상식 OX", "classic": "1분 고전", "rx": "기분 처방전", "day": "그날의 문학", "modern": "1분 현대문학", "go": "오늘의 한 수", "zodiac": "띠별 오늘의 문장", "man": "오늘의 사나이"}
+SECS = ["sentence", "poem", "novel", "writer", "puzzle", "trivia", "classic", "rx", "day", "modern", "go", "zodiac", "man", "food"]
+NAME = {"sentence": "오늘의 문장", "poem": "오늘의 시", "novel": "오늘의 소설 구절", "writer": "오늘의 문인", "puzzle": "낱말 퍼즐", "trivia": "문학 상식 OX", "classic": "1분 고전", "rx": "기분 처방전", "day": "그날의 문학", "modern": "1분 현대문학", "go": "오늘의 한 수", "zodiac": "띠별 오늘의 문장", "man": "오늘의 사나이", "food": "문학 한술"}
 
 
 def esc(x):
@@ -70,6 +70,10 @@ def content(D, sec):
         lead = next((f for f in M.get("feats") or [] if any(ch.isdigit() for ch in f.get("when", ""))), f0)
         return (f"오늘의 사나이 · {M['name']} — {clip(lead.get('text', ''), 50)}", clip(M.get("bio", ""), 110),
                 esc(M["name"]).replace(" (", "<br><small>(").replace(")", ")</small>") if " (" in M["name"] else esc(M["name"]), esc(clip(lead.get("when", "") + " · " + lead.get("text", ""), 90)), M.get("img"), f"{esc(M.get('kind', ''))} · {esc(M.get('sub', ''))}")
+    if sec == "food":
+        F = D["food"]
+        return (f"문학 한술 · {F['writer']} 「{F['work']}」 속 {F['name']}", clip(" ".join(F.get("body") or []), 110),
+                esc(F["name"]), esc(clip("“" + F["quote"] + "”" if F.get("quote") else (F.get("body") or [""])[0], 80)), F.get("img"), f"{esc(F['writer'])} 「{esc(F['work'])}」 {esc(F.get('year', ''))} · 작품 속 음식 한 그릇")
     if sec == "zodiac":
         Z = D["zodiac"]
         return (f"띠별 오늘의 문장 · {Z[0]['animal']}띠 「{Z[0]['work']}」 외 {len(Z) - 1}편 — 운세 대신 문장 한 줄", " / ".join(f"{z['animal']}띠 “{clip(z['text'].replace(' / ', ' '), 22)}”" for z in Z[:5])[:110],

@@ -11,7 +11,7 @@ def main(src, outdir='tts/jobs', takes=2):
     S = json.load(open(src, encoding='utf-8')); D = S['date']; items = []
     add = lambda key, line: items.extend({"id": f"{key}_t{k}", "text": J.ko(line.replace(' / ', ' ').replace('/', ' ')) + " 음.", "gen": {"non_streaming_mode": True}} for k in range(int(takes)))
     if S.get('opener'): add('open_00', S['opener'])
-    for k in ('classic', 'modern'):
+    for k in ('classic', 'modern', 'food'):
         if k not in S: continue
         for i, l in enumerate(S[k]['intro'] + S[k]['body'] + S[k]['outro']): add(f'{k}_{i:02d}', l)
     NAME = S.get("tts_name") or f"shorts-{D}"

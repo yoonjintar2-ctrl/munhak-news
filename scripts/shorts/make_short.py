@@ -45,7 +45,7 @@ LY = LAYOUTS['portrait']
 def set_layout(fmt):
     global W, H, SAFE_L, SAFE_R, CX, LY
     LY = LAYOUTS[fmt]; W, H, SAFE_L, SAFE_R = LY['W'], LY['H'], LY['SAFE_L'], LY['SAFE_R']; CX = (SAFE_L + SAFE_R) // 2
-LABEL = {'classic': '1분 고전', 'modern': '1분 현대문학'}
+LABEL = {'classic': '1분 고전', 'modern': '1분 현대문학', 'food': '문학 한술'}
 
 
 def font(p, s): return ImageFont.truetype(p, s)
@@ -66,13 +66,15 @@ def build_audio(qdir, name, sc_lines, repo):
             if len(c) > 8000: win.append(float(np.dot(enc.embed_utterance(c), ref)))
         info[os.path.basename(p)[:-4]] = dict(w=w, full=full, low=min(win) if win else full, f0=T.f0_med(w), dur=len(w) / T.SR)
     allf0 = np.nanmedian([v['f0'] for v in info.values()])
+    import prosody_qa as PQ                     # 11/17 발행인: 음높이·글자 길이 미세 어색함 → 테이크끼리 대조한 점수로 감점
+    pen = PQ.penalties(qdir, name)
     out = []
     for key, text in sc_lines:
         ps = [k for k in info if k.rsplit('_t', 1)[0] == key]
         if not ps: raise SystemExit(f'테이크 없음: {key}')
         dmed = np.median([info[p]['dur'] for p in ps])
         ok = [p for p in ps if info[p]['dur'] < 1.6 * dmed and not (abs(12 * np.log2(info[p]['f0'] / allf0)) > 1.5 if info[p]['f0'] == info[p]['f0'] else False) and info[p]['low'] > info[p]['full'] - 0.12]
-        best = max(ok or ps, key=lambda p: (info[p]['full'] + info[p]['low']) / 2 - (0.03 * max(0.0, 12 * np.log2(info[p]['f0'] / T.CALM_F0)) if info[p]['f0'] == info[p]['f0'] else 0))
+        best = max(ok or ps, key=lambda p: (info[p]['full'] + info[p]['low']) / 2 - (0.03 * max(0.0, 12 * np.log2(info[p]['f0'] / T.CALM_F0)) if info[p]['f0'] == info[p]['f0'] else 0) - 0.3 * pen.get(p, 0))
         w = T.squeeze(info[best]['w'], text)
         out.append((w, T.segs(w)))
     return out, T.SR
