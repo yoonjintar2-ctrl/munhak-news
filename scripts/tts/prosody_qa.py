@@ -113,7 +113,7 @@ def score_line(paths):
     return R
 
 
-def main(qdir, name, prefixes='classic,modern,open'):
+def main(qdir, name, prefixes='classic,modern,open,food'):
     qdir = os.path.expanduser(qdir); od = os.path.join(qdir, 'out', name)
     pre = tuple(prefixes.split(','))
     groups = {}
