@@ -370,7 +370,9 @@ button,select{font:inherit}
 /* ⑬ 오늘의 사나이 — 발행인 11/15 */
 .man-wrap{display:grid;grid-template-columns:300px minmax(0,1fr);gap:28px;align-items:start}
 .man-wrap>div{min-width:0;max-width:760px}
-.man-wrap img{width:100%;border:1px solid var(--ink);display:block;background:#f4f3ee}
+.man-wrap img,.man-wrap video{width:100%;max-width:100%;height:auto;border:1px solid var(--ink);display:block;background:#f4f3ee}
+.man-wrap figure{min-width:0}
+.sec video,.sec img{max-width:100%}
 .man-name{font-family:var(--serif);font-weight:900;font-size:1.9rem;line-height:1.2;letter-spacing:-.02em;margin:0}
 .man-sub{font-family:var(--sans);font-size:.8rem;color:var(--muted);margin:4px 0 12px}
 .man-sub b{color:var(--red);font-weight:700}
@@ -379,7 +381,7 @@ button,select{font:inherit}
 .man-feats li b{font-family:var(--mono);font-size:.8rem;color:var(--red);padding-top:2px}
 .man-q{font-family:var(--serif);font-weight:700;font-size:1.05rem;border-left:4px solid var(--ink);padding:2px 0 2px 12px;margin:14px 0 0}
 #s-man{margin-top:52px}
-@media (max-width:760px){.man-wrap{grid-template-columns:1fr}.man-wrap img{max-width:340px}}
+@media (max-width:760px){.man-wrap{grid-template-columns:minmax(0,1fr)}.man-wrap img,.man-wrap video{max-width:340px}}
 /* 11/15 발행인: 1분 고전 → 다른 코너들 → 1분 현대문학 → 퍼즐·OX 맨 끝 */
 .rowc1{grid-template-columns:minmax(0,820px)!important;justify-content:center}
 .rowc1>.sec{border:0!important;padding-left:0!important;margin-left:0!important}
