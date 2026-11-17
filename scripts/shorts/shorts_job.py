@@ -5,6 +5,7 @@ id: open_00(맨 앞 컨셉 소개), <코너>_<번호 두 자리>  — make_short
 import json, os, sys
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'tts'))
 import tts_jobs as J
+TEASER_OUT = '뒷이야기와 결말까지, / 전체 영상에서 이어서 들어 보세요.'
 
 
 def main(src, outdir='tts/jobs', takes=2):
@@ -14,6 +15,7 @@ def main(src, outdir='tts/jobs', takes=2):
     for k in ('classic', 'modern', 'food'):
         if k not in S: continue
         for i, l in enumerate(S[k]['intro'] + S[k]['body'] + S[k]['outro']): add(f'{k}_{i:02d}', l)
+        if k in ('classic', 'modern'): add(f'{k}_tz', TEASER_OUT)     # 11/17 예고 쇼츠 마무리 한 줄
     NAME = S.get("tts_name") or f"shorts-{D}"
     job = {"name": NAME, "mode": "clone", **J.REF, "gen": {"temperature": 0.75, "top_p": 0.9}, "reload_every": 4, "retries": 4, "items": items}
     os.makedirs(outdir, exist_ok=True); out = os.path.join(outdir, f'{NAME}.json')
