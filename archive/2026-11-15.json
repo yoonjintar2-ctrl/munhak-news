@@ -584,15 +584,6 @@
    ]
   }
  ],
- "audio": {
-  "classic": "audio/2026-11-15-classic.mp3",
-  "day": "audio/2026-11-15-day.mp3",
-  "modern": "audio/2026-11-15-modern.mp3",
-  "novel": "audio/2026-11-15-novel.mp3",
-  "poem": "audio/2026-11-15-poem.mp3",
-  "sentence": "audio/2026-11-15-sentence.mp3",
-  "writer": "audio/2026-11-15-writer.mp3"
- },
  "man": {
   "kind": "특수부대",
   "name": "해군 특수전전단 (UDT/SEAL)",
