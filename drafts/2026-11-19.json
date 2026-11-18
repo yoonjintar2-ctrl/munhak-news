@@ -1,0 +1,617 @@
+{
+ "date": "2026-11-19",
+ "no": 7,
+ "publisher": {
+  "name": "윤진탈",
+  "org": "지구별"
+ },
+ "author": {
+  "name": "금로동",
+  "title": "기자"
+ },
+ "lead": "목요일 아침입니다. 연꽃 사이로 연밥 하나를 던지고 한나절 얼굴을 붉힌 조선의 시인, '안 하는 편을 택하겠다'는 월가의 필경사, 그리고 삶은 달걀을 사이에 둔 사랑방 아저씨와 어머니. 버려진 섬에 핀 꽃 한 문장으로 문을 엽니다.",
+ "sentence": {
+  "text": "버려진 섬마다 꽃이 피었다.",
+  "big": [
+   "버려진 섬마다",
+   "꽃이 피었다."
+  ],
+  "speaker": "이순신('나')",
+  "work": "칼의 노래",
+  "writer": "김훈",
+  "year": 2001,
+  "origin": "국내",
+  "book": "장편소설, 2001년 첫 출간",
+  "meaning": "전쟁이 휩쓸고 간 남해의 섬들, 사람은 떠났어도 봄은 어김없이 왔습니다. '버려진'과 '꽃이 피었다'가 한 문장 안에서 부딪히며, 사람의 일과 상관없이 흘러가는 자연의 시간을 보여 줍니다.",
+  "context": "임진왜란 끝 무렵, 이순신이 '나'가 되어 들려주는 장편소설의 첫 문장입니다. 텅 빈 섬들을 말없이 바라보는 늙은 장수의 눈으로 긴 이야기가 열리지요.",
+  "craft": "김훈은 '꽃은 피었다'와 '꽃이 피었다'를 두고 오래 고민했다고 밝힌 적이 있습니다. '은'이 생각을 말한다면 '이'는 사실만 적지요. 조사 하나로 감정을 걷어 내니 문장이 더 쓸쓸해집니다.",
+  "img": "img/2026-11-19-sentence.jpg",
+  "video": "img/2026-11-19-sentence.mp4",
+  "alt": "썰물 진 바닷가, 갑옷 차림의 장수가 등을 보이고 서서 건너편 빈 섬을 바라본다. 발치의 들꽃이 바람에 흔들리고 물결이 밀려온다",
+  "sources": [
+   "https://www.journalist.or.kr/m/m_article.html?no=38890",
+   "https://hangyo.com/mobile/article.html?no=86207",
+   "https://newstomato.com/ReadNews.aspx?no=703819"
+  ]
+ },
+ "poem": {
+  "title": "채련곡(采蓮曲)",
+  "writer": "허난설헌",
+  "year": "16세기",
+  "origin": "국내",
+  "book": "『난설헌집』 · 칠언절구",
+  "public_domain": true,
+  "translator": "금로동 옮김",
+  "orig_lang": "한문",
+  "lines": [
+   "가을 맑은 긴 호수에 푸른 옥 같은 물 흐르고",
+   "연꽃 깊은 곳에 목란 배를 매어 두었네",
+   "",
+   "님을 만나 물 건너로 연밥을 던졌다가",
+   "행여 누가 보았을까, 한나절 얼굴 붉혔네"
+  ],
+  "lines_orig": [
+   "秋淨長湖碧玉流",
+   "荷花深處繫蘭舟",
+   "",
+   "逢郎隔水投蓮子",
+   "或被人知半日羞"
+  ],
+  "img": "img/2026-11-19-poem.jpg",
+  "video": "img/2026-11-19-poem.mp4",
+  "alt": "연꽃 우거진 가을 호수, 작은 배에 앉은 여인이 물 건너 둑 위의 선비 쪽으로 연밥을 던지고 소매로 얼굴을 가린다. 연잎이 흔들리고 물결이 번진다",
+  "analysis": "칠언절구 네 줄입니다. 가을 호수, 연꽃 사이에 매어 둔 작은 배, 그리고 물 건너의 님. 연밥(蓮子)은 중국어 소리로 '그대를 어여삐 여긴다(憐子)'와 통해 옛 시에서 사랑 고백의 신호로 쓰였지요. 던지고 나서야 남의 눈이 걱정돼 한나절을 붉어지는 마지막 줄이 이 시의 숨입니다. 규방에 갇혔던 조선 여성의 시가 이토록 생기 있다는 게 반갑습니다.",
+  "oneline": "고백은 던지는 순간보다, 던지고 난 한나절이 더 깁니다.",
+  "sources": [
+   "https://ko.wikisource.org/wiki/%ED%95%B4%EB%8F%99%EC%97%BC%EC%82%AC/%ED%97%88%EB%82%9C%EC%84%A4%ED%97%8C",
+   "https://poetrytalks.org/E516",
+   "https://www.hangyo.com/mobile/article.html?no=73563"
+  ]
+ },
+ "novel": {
+  "title": "필경사 바틀비",
+  "title_orig": "Bartleby, the Scrivener",
+  "writer": "허먼 멜빌",
+  "year": 1853,
+  "origin": "국외",
+  "where": "『퍼트넘스 먼슬리』 1853년 11·12월호",
+  "quote": "안 하는 편을 택하겠습니다.",
+  "quote_orig": "I would prefer not to.",
+  "translator": "금로동 옮김",
+  "img": "img/2026-11-19-novel.jpg",
+  "video": "img/2026-11-19-novel.mp4",
+  "alt": "창 하나 달린 법률 사무소, 칸막이 뒤 책상의 필경사가 고개도 들지 않고 앉아 있고, 서류를 든 변호사가 그 앞에서 어정쩡하게 팔을 내민다. 벽시계 추가 흔들린다",
+  "context": "뉴욕 월가의 법률 사무소. 새로 들인 필경사 바틀비는 처음엔 밤낮없이 베껴 씁니다. 그런데 사흘째, 사장인 '나'가 서류 대조를 부탁하자 칸막이 뒤에서 조용히 이 말을 꺼냅니다.",
+  "analysis": "화를 내지도, 이유를 대지도 않습니다. '싫다'가 아니라 '안 하는 편을 택하겠다'는 공손한 말씨가 오히려 상대를 꼼짝 못 하게 하지요. 바틀비는 이 한 문장만 되풀이하다 끝내 일도, 사무실을 떠나는 것도 마다합니다. 이야기를 들려주는 변호사의 당황과 연민이 우습고도 서글픕니다. 발표 당시엔 주목받지 못했지만, 오늘날 멜빌의 작품 가운데 가장 많이 읽히는 단편이 됐습니다.",
+  "sources": [
+   "https://www.wikipedia.org/wiki/Bartleby",
+   "https://britannica.com/topic/Bartleby-the-Scrivener",
+   "https://www.sparknotes.com/short-stories/bartleby-the-scrivener"
+  ]
+ },
+ "writer": {
+  "name": "허난설헌",
+  "pen": "난설헌(蘭雪軒)",
+  "life": "1563–1589",
+  "bio": "강릉의 문장가 집안 허엽의 딸로, 본명은 초희(楚姬). 『홍길동전』의 허균이 동생입니다. 여덟 살에 「광한전백옥루상량문」을 지었다고 전하지요. 열다섯 무렵 혼인했으나 쓸쓸했고, 두 아이를 잃은 뒤 스물일곱에 눈을 감았습니다. 동생이 엮은 시가 명나라 사신 주지번의 손을 거쳐 1606년 중국에서 책으로 나왔습니다.",
+  "works": [
+   "광한전백옥루상량문",
+   "곡자(哭子)",
+   "채련곡(采蓮曲)"
+  ],
+  "link": "오늘의 시 「채련곡」을 쓴 사람입니다. 조선 여성의 시가 바다 건너에서 먼저 이름을 얻은 드문 경우지요.",
+  "img": "img/2026-11-19-writer.png",
+  "alt": "얼굴 세부 없이 그린 쪽진 머리 여인의 옆모습 실루엣 펜화, 곁에 붓과 연꽃 한 송이",
+  "sources": [
+   "https://library.ltikorea.or.kr/node/43129",
+   "https://www.ytn.co.kr/_ln/0101_201911051319163952",
+   "https://www.doc.surf/wiki/ho-nansorhon"
+  ]
+ },
+ "trivia": [
+  {
+   "q": "허먼 멜빌의 『모비 딕』은 1851년 출간되자마자 베스트셀러가 됐다.",
+   "a": "X",
+   "why": "생전엔 거의 팔리지 않았습니다. 20세기 들어서야 다시 읽히며 미국 문학의 고전 자리에 올랐지요."
+  },
+  {
+   "q": "『홍길동전』의 지은이로 알려진 허균은 허난설헌의 동생이다.",
+   "a": "O",
+   "why": "허엽의 자녀인 허성·허봉·허난설헌·허균 가운데 막내가 허균입니다. 누이의 시를 모아 세상에 알린 사람도 그였지요."
+  },
+  {
+   "q": "프루스트의 '마들렌' 장면은 초고에서도 처음부터 마들렌이었다.",
+   "a": "X",
+   "why": "2015년 공개된 초고를 보면 처음엔 꿀 바른 구운 빵, 다음엔 러스크(비스코트)였습니다. 마들렌은 나중에 들어왔지요."
+  }
+ ],
+ "calendar": "1711년 11월 19일 — 러시아어 시의 운율을 다듬은 시인이자 과학자 미하일 로모노소프, 북쪽 바닷가 마을에서 태어나다",
+ "onthisday": [
+  {
+   "year": "1850",
+   "title": "테니슨, 영국 계관시인이 되다",
+   "body": "앨프리드 테니슨이 1850년 오늘 워즈워스의 뒤를 이어 영국 계관시인에 올랐습니다. 1892년 세상을 떠날 때까지 40년 넘게 그 자리를 지켰지요.",
+   "sources": [
+    "https://cottagecapers.com/tag/poet-laureate",
+    "https://www.english.cam.ac.uk/cambridgeauthors/?p=449",
+    "https://en.wikipedia.org/wiki/Alfred,_Lord_Tennyson"
+   ]
+  },
+  {
+   "year": "1863",
+   "title": "링컨의 게티즈버그 연설, 2분짜리 고전",
+   "body": "링컨이 1863년 오늘 게티즈버그 국립묘지 봉헌식에서 2분 남짓 연설했습니다. 300단어도 안 되는 이 글의 '국민의, 국민에 의한, 국민을 위한'은 영어 산문의 고전이 됐지요.",
+   "sources": [
+    "https://www.history.co.uk/this-day-in-history/19-november/lincoln-delivers-gettysburg-address",
+    "https://www.britannica.com/print/article/232225"
+   ]
+  },
+  {
+   "year": "1942",
+   "title": "미국 시인 샤론 올즈 태어나다",
+   "body": "미국 시인 샤론 올즈가 1942년 오늘 샌프란시스코에서 태어났습니다. 오랜 결혼의 끝을 담은 시집 『수사슴의 도약』으로 2013년 퓰리처상을 받았지요.",
+   "sources": [
+    "https://poets.org/poet/sharon-olds",
+    "https://www.encyclopedia.com/arts/educational-magazines/olds-sharon-1942"
+   ]
+  }
+ ],
+ "classic": {
+  "title": "사랑손님과 어머니",
+  "writer": "주요섭",
+  "year": 1935,
+  "origin": "국내",
+  "where": "잡지 『조광』 1935년 11월 창간호",
+  "oneline": "여섯 살 옥희의 눈으로 본, 어른들의 말 못 한 마음.",
+  "img": "img/2026-11-19-classic.jpg",
+  "video": "img/2026-11-19-classic.mp4",
+  "alt": "기와집 마당, 사랑방 툇마루에 앉은 아저씨가 무릎의 어린 옥희에게 그림책을 펼쳐 주고, 안채 문간의 어머니가 달걀 바구니를 든 채 그쪽을 바라본다. 감나무 잎이 흔들린다",
+  "ai": "Two people and a child: a young widow in a white hanbok holds a basket of eggs at a doorway, looking toward a man in a 1930s suit sitting on a wooden veranda with a six-year-old girl on his lap reading a picture book. Korean tiled-roof house courtyard, persimmon tree, autumn.",
+  "story": [
+   "옥희는 여섯 살, 어머니와 단둘이 삽니다. 아버지는 옥희가 태어나기도 전에 세상을 떠났지요. 어머니는 스물넷의 젊은 과부입니다. 어느 날 큰외삼촌이 손님 한 분을 데리고 옵니다. 돌아가신 아버지의 옛 친구로, 이 고을 학교에 선생님으로 왔다는 아저씨. 집 앞쪽 사랑방이 비어 있었으니, 아저씨는 그 방에 하숙을 들게 됩니다.",
+   "옥희는 금세 아저씨와 친해집니다. 사랑방에 놀러 가면 아저씨는 그림책을 보여 주고 무릎에 앉혀 줍니다. 아저씨가 삶은 달걀을 좋아한다는 걸 안 뒤로, 어머니는 달걀 장수가 올 때마다 달걀을 넉넉히 삽니다. 옥희도 덩달아 달걀을 실컷 먹지요. 아저씨가 옥희에게 아버지 이야기를 묻고 어머니 이야기를 물으면, 옥희는 아는 대로 다 대답합니다.",
+   "어느 날 옥희는 유치원에서 꽃 한 묶음을 얻어 옵니다. 어머니가 좋아할 얼굴을 떠올리다, 옥희는 장난처럼 말해 버립니다. 사랑 아저씨가 엄마 갖다 드리라고 했다고요. 그러자 어머니 얼굴이 새빨개집니다. 어머니는 아무에게도 그런 말 하지 말라고 이르고, 그 꽃을 꽃병에 꽂았다가 나중엔 찬송가 책 사이에 꼭꼭 끼워 말립니다.",
+   "그날 밤, 어머니는 아버지가 돌아가신 뒤 덮어 두었던 풍금 뚜껑을 엽니다. 오랫동안 울리지 않던 풍금 소리가 방 안에 퍼지고, 연주를 마친 어머니는 옥희를 꼭 안고 웁니다. 그러고는 몇 번이고 되뇝니다. 엄마는 옥희 하나만 있으면 그만이라고. 옥희는 영문도 모르고 따라 웁니다.",
+   "예배당에서도 일이 생깁니다. 옥희가 남자들 자리에 앉은 아저씨를 찾아내 자꾸 그쪽을 돌아보자, 어머니는 얼굴을 붉히며 고개를 푹 숙이고 옥희를 끌어당깁니다. 옥희는 왜 그러는지 모릅니다. 하지만 그때는 과부가 다시 시집가는 것을 큰 흉으로 여기던 시절이었지요.",
+   "얼마 뒤 아저씨가 옥희 손에 하얀 봉투 하나를 쥐여 줍니다. 어머니께 갖다 드리라고, 이번 달 밥값이라고요. 봉투를 열어 본 어머니의 손이 떨리고 얼굴이 하얘졌다 빨개졌다 합니다. 그 안에는 돈 말고 편지 한 장이 더 들어 있었습니다. 어머니는 며칠을 말없이 지내더니, 옥희에게 아저씨 손수건이라며 접은 손수건 하나를 사랑방에 돌려주라고 합니다. 그리고 얼마 뒤, 아저씨가 이 동네를 떠난다는 소식이 들려옵니다."
+  ],
+  "ending": "아저씨가 떠나는 날, 어머니는 옥희 손을 잡고 뒷동산에 오릅니다. 멀리 정거장에서 기차가 기적을 울리며 떠나는 것을 둘은 한참 바라보지요. 집에 돌아온 어머니는 풍금 뚜껑을 닫고, 찬송가 책 사이에 말려 두었던 꽃을 꺼내 옥희에게 내다 버리라고 합니다. 그리고 달걀 장수가 오자, 이제 달걀은 사지 않는다고 말합니다.",
+  "why": "모든 것을 보고도 아무것도 모르는 여섯 살 화자. 아이가 천진하게 전하는 장면 사이로 어른들의 떨림과 체념이 고스란히 비칩니다. 말하지 않아서 더 크게 들리는 사랑 이야기입니다.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/The_Houseguest_and_My_Mother",
+   "https://encykorea.aks.ac.kr/Article/E0025495",
+   "https://sgsg.hankyung.com/article/2017050468251"
+  ],
+  "scenes": [
+   {
+    "after": 1,
+    "img": "img/2026-11-19-classic-s1.jpg",
+    "video": "img/2026-11-19-classic-s1.mp4",
+    "alt": "사립문 앞, 달걀 장수가 지게를 내려놓고 달걀 바구니를 내밀고, 어머니가 두 손으로 달걀을 받는다. 곁에서 옥희가 발돋움한다",
+    "ai": "Two people and a child: an egg peddler with an A-frame carrier offers a basket of eggs; a young woman in white hanbok receives eggs with both hands; a small girl stands on tiptoe beside her. Korean rural gate, 1930s, autumn."
+   },
+   {
+    "after": 2,
+    "img": "img/2026-11-19-classic-s2.jpg",
+    "video": "img/2026-11-19-classic-s2.mp4",
+    "alt": "안방, 옥희가 두 팔로 꽃묶음을 내밀고 어머니가 고개를 돌리며 얼굴을 손으로 가린다. 창호지 문으로 바람이 들고 꽃잎이 흔들린다",
+    "ai": "A little girl holds up a bouquet of flowers with both hands to her young mother in white hanbok, who turns her face away shyly, covering her cheek with one hand. Traditional Korean room, paper sliding door, 1930s."
+   },
+   {
+    "after": 3,
+    "img": "img/2026-11-19-classic-s3.jpg",
+    "video": "img/2026-11-19-classic-s3.mp4",
+    "alt": "등잔불 켜진 밤 방, 어머니가 풍금 앞에 앉아 건반을 누르고 곁에 앉은 옥희가 어머니 옷자락을 잡는다. 등잔불이 일렁인다",
+    "ai": "At night, a young woman in white hanbok plays a small pump organ by oil lamp light; a little girl sits beside her holding her sleeve. Traditional Korean room, 1930s, quiet and sad mood."
+   },
+   {
+    "after": "ending",
+    "img": "img/2026-11-19-classic-s4.jpg",
+    "video": "img/2026-11-19-classic-s4.mp4",
+    "alt": "뒷동산 언덕, 어머니와 옥희가 손을 잡고 서서 멀리 들판을 가로지르는 기차를 바라본다. 기차 연기가 흐르고 억새가 흔들린다",
+    "ai": "Back view: a young woman in white hanbok and a small girl hold hands on a grassy hill, watching a distant steam train crossing fields, smoke trailing. Korean countryside, 1930s, autumn evening."
+   }
+  ]
+ },
+ "modern": {
+  "title": "완득이",
+  "writer": "김려령",
+  "year": 2008,
+  "origin": "국내",
+  "where": "장편소설, 2008년 창비 (제1회 창비청소년문학상)",
+  "oneline": "기도 제목은 '담임 똥주를 죽여 주세요'. 열일곱 완득이의 한판.",
+  "img": "img/2026-11-19-modern.jpg",
+  "video": "img/2026-11-19-modern.mp4",
+  "alt": "달동네 옥상, 교복 차림의 소년이 옥탑방 앞에서 뒤돌아보고, 건너편 옥상의 담임 선생님이 손나발을 하고 소리친다. 빨랫줄의 빨래가 펄럭인다",
+  "ai": "Two people on neighboring rooftops: a teenage boy in a school uniform turns back annoyed in front of a small rooftop room; across the alley a messy-haired male teacher in a cardigan shouts with hands cupped around his mouth. Seoul hillside neighborhood, laundry lines.",
+  "story": [
+   "도완득은 열일곱 살 고등학생입니다. 싸움은 곧잘 하지만 공부엔 관심이 없고, 말수도 적지요. 아버지는 키가 아주 작은 장애인으로 카바레에서 춤을 추며 살아왔고, 말을 더듬는 민구 삼촌이 그 곁을 지킵니다. 피는 안 섞였어도 아버지가 거둔 식구이지요. 카바레가 문을 닫자 두 사람은 장터를 떠돌며 춤을 춥니다. 집에는 완득이 혼자 남는 날이 많습니다.",
+   "그런 완득이에게 담임 이동주는 눈엣가시입니다. 별명은 '똥주'. 하필 완득이네 옥탑방 건너편 옥탑에 살아서, 밤이고 낮이고 옥상 너머로 \"완득아!\" 하고 불러 댑니다. 나라에서 나온 완득이네 즉석밥까지 넉살 좋게 가져다 먹지요. 참다못한 완득이는 교회에 가서 기도합니다. 제발 똥주 좀 죽여 달라고요.",
+   "그런데 똥주는 완득이도 모르던 사실을 툭 꺼냅니다. 얼굴도 모르고 자란 어머니가 살아 있다고, 그것도 가까이에 있다고요. 어머니는 베트남에서 온 사람이었습니다. 생각해 본 적도 없는 얼굴이 하루아침에 생긴 셈입니다. 완득이는 어머니를 어떻게 불러야 할지, 마주 앉아 무슨 말을 해야 할지 몰라 쭈뼛거립니다.",
+   "주먹 쓸 데를 찾던 완득이는 동네 킥복싱 체육관 문을 두드립니다. 처음으로 무언가를 제대로 배우고 싶어진 것이지요. 땀을 쏟으며 샌드백을 차는 동안 마음속 응어리도 조금씩 풀립니다. 반에서 늘 1등을 하는 정윤하가 그런 완득이 곁에 슬며시 다가오고, 무뚝뚝한 완득이도 어쩐지 그 아이가 싫지 않습니다. 공부 잘하는 모범생인 줄만 알았던 윤하에게도 저만의 고민이 있었거든요.",
+   "알고 보니 똥주에게도 사정이 있었습니다. 동네 이주노동자들의 처지를 외면하지 못해 이리 뛰고 저리 뛰는, 괴짜지만 속 깊은 어른이었던 것이지요. 그사이 어머니는 조심조심 완득이의 일상으로 들어옵니다. 서툰 우리말로 아들의 밥을 챙기고, 완득이도 차츰 그 손길에 익숙해집니다. 아버지도 굳은 얼굴을 조금씩 풉니다.",
+   "그리고 마침내 완득이가 기다리던 날이 옵니다. 체육관 관장님이 첫 정식 시합에 나가 보라고 한 것이지요. 아버지와 삼촌, 어머니, 윤하가 각자 마음을 졸이는 가운데, 완득이는 글러브를 끼고 링 위로 올라갑니다."
+  ],
+  "ending": "결과는 패배였습니다. 그 뒤로도 완득이는 지고 또 지지만, 글러브를 벗지 않습니다. 이기려고만 하는 게 아니라 버텨 보려고 하는 것이니까요. 아버지와 민구 삼촌은 떠돌이 공연을 접고 춤을 가르칠 자리를 찾고, 어머니와 완득이 사이에도 조금씩 말이 늘어 갑니다. 그토록 미웠던 똥주의 목소리도, 이제는 완득이의 하루를 깨우는 소리가 됐습니다.",
+  "why": "가난, 장애, 이주민 가족 같은 무거운 낱말들이 이 소설에선 시끌벅적한 웃음으로 굴러갑니다. 불쌍히 여기지 않고 함께 웃는 법을 알려 주는, 2008년의 청춘 소설입니다.",
+  "sources": [
+   "https://weekly.khan.co.kr/article/201110051103201",
+   "https://v.daum.net/v/tYcWQfd8Mh",
+   "https://pedia.watcha.com/en/contents/b9xQPe4/book_description"
+  ],
+  "scenes": [
+   {
+    "after": 1,
+    "img": "img/2026-11-19-modern-s1.jpg",
+    "video": "img/2026-11-19-modern-s1.mp4",
+    "alt": "밤 교회, 완득이가 맨 뒷자리 긴 의자에 앉아 두 손을 모으고 고개를 숙인다. 앞쪽 촛불이 일렁인다",
+    "ai": "Back view: a teenage boy in a school uniform sits alone on the last pew of a small neighborhood church at night, hands clasped, head bowed. Candles flicker at the front, simple cross shape, wooden pews."
+   },
+   {
+    "after": 3,
+    "img": "img/2026-11-19-modern-s2.jpg",
+    "video": "img/2026-11-19-modern-s2.mp4",
+    "alt": "허름한 동네 체육관, 완득이가 글러브를 끼고 샌드백을 발로 차고, 관장이 팔짱 끼고 지켜본다. 샌드백이 흔들린다",
+    "ai": "Two people in a shabby neighborhood gym: a teenage boy in boxing gloves and shorts kicks a heavy bag; a middle-aged coach in a tracksuit watches with arms crossed. Ropes, posters without text, fluorescent lights."
+   },
+   {
+    "after": 4,
+    "img": "img/2026-11-19-modern-s3.jpg",
+    "video": "img/2026-11-19-modern-s3.mp4",
+    "alt": "작은 부엌 식탁, 어머니가 국그릇을 내려놓고 완득이는 수저를 든 채 쭈뼛 고개를 든다. 냄비에서 김이 오른다",
+    "ai": "Two people at a small kitchen table: a Southeast Asian woman in her forties gently places a bowl of soup; a teenage boy in a school uniform holds a spoon, looking up awkwardly. Small Korean apartment kitchen, steam."
+   }
+  ]
+ },
+ "man": {
+  "kind": "격투가",
+  "name": "하형주",
+  "sub": "대한민국 · 유도 · 1984 로스앤젤레스 올림픽 95kg급 금메달",
+  "img": "img/2026-11-19-man.jpg",
+  "video": "img/2026-11-19-man.mp4",
+  "alt": "올림픽 유도장 매트 위, 흰 도복의 두 선수가 서로 깃을 잡고 맞붙어 있다. 관중석과 조명이 비친다",
+  "cap": "3D 삽화",
+  "ai": "Two judo athletes in white judogi grip each other's collars on a tatami mat in a large arena, seen from a distance, back and side views, spotlights and crowd silhouettes. No faces visible.",
+  "bio": "동아대학교에서 유도를 한 선수입니다. 1984년 로스앤젤레스 올림픽 유도 95kg급에 나서 결승에서 브라질의 두글라스 비에이라를 꺾고 금메달을 땄습니다. 같은 대회 71kg급 안병근과 함께 한국 유도에 첫 올림픽 금메달 두 개를 안겼지요. 은퇴 뒤엔 모교 교수로 후배들을 가르쳤습니다.",
+  "feats": [
+   {
+    "when": "1984.8",
+    "text": "로스앤젤레스 올림픽 유도 95kg급 결승에서 브라질의 두글라스 비에이라를 이기고 금메달을 목에 걸었습니다."
+   },
+   {
+    "when": "같은 대회",
+    "text": "71kg급 안병근도 금메달을 따, 한국 유도가 올림픽에서 처음으로 금메달 두 개를 가져왔습니다."
+   },
+   {
+    "when": "은퇴 뒤",
+    "text": "모교 동아대학교에서 교수로 일하며 유도와 체육을 가르쳤습니다."
+   }
+  ],
+  "sources": [
+   "https://www.wikipedia.org/wiki/Ha_Hyeong-ju",
+   "https://sports.khan.co.kr/article/200712162221023",
+   "https://olympics.com/en/olympic-games/los-angeles-1984/results/judo/86-95kg-halfheavyweight-men",
+   "https://www.olympedia.org/athletes/33808"
+  ]
+ },
+ "food": {
+  "name": "마들렌",
+  "hanja": null,
+  "work": "스완네 집 쪽으로",
+  "writer": "마르셀 프루스트",
+  "year": "1913",
+  "where": "『잃어버린 시간을 찾아서』 제1권, 프랑스 시골 마을 콩브레의 기억",
+  "img": "img/2026-11-19-food.jpg",
+  "video": "img/2026-11-19-food.mp4",
+  "alt": "창가 탁자 위 흰 접시에 조가비 모양 마들렌 두 개, 찻잔에서 김이 오르고 숟가락에 적신 마들렌 한 조각. 창밖에 눈발이 날리고 커튼이 흔들린다",
+  "ai": "Close-up still life: two shell-shaped madeleine cakes on a white saucer next to a steaming cup of tea, a teaspoon holding a soaked piece of madeleine. Old French window with falling snow, lace curtain, early 1900s.",
+  "quote": "그리고 갑자기 기억이 떠올랐다. 그 맛은 콩브레에서 일요일 아침마다 맛보던 마들렌 한 조각의 맛이었다.",
+  "orig": "Et tout d'un coup le souvenir m'est apparu. Ce goût c'était celui du petit morceau de madeleine que le dimanche matin à Combray…",
+  "translator": "금로동 옮김",
+  "quote_by": "추운 겨울날, 홍차에 적신 마들렌을 맛본 화자",
+  "body": [
+   "추운 겨울날, 어른이 된 화자는 어머니가 내준 홍차에 마들렌 한 조각을 적셔 입에 넣습니다. 그 순간 까닭 모를 기쁨이 온몸에 번지지요. 한참을 애쓴 끝에 떠오른 것은 어린 시절 콩브레, 일요일 아침마다 레오니 고모가 차에 적셔 주던 마들렌이었습니다. 그리고 찻잔 하나에서 마을 전체가 피어오릅니다.",
+   "마들렌은 버터와 달걀, 설탕, 밀가루로 만든 작은 구움과자입니다. 가리비 껍데기처럼 홈이 팬 틀에 구워 한쪽은 조가비 무늬, 다른 쪽은 볼록하게 부풀지요. 프랑스 동쪽 로렌 지방의 작은 도시 코메르시가 고향으로 꼽히고, 지금도 그곳에선 마들렌 축제가 열립니다.",
+   "이름의 유래는 여러 설이 있습니다. 가장 널리 알려진 이야기는 18세기 중엽, 로렌 공작이던 옛 폴란드 왕 스타니스와프가 코메르시 성에 머물 때 마들렌이라는 하녀가 구운 과자를 맛보고 그 이름을 붙였다는 것이지요. 다만 사실인지 확인할 길은 없어, 전설로 전해집니다.",
+   "재미있게도 프루스트의 초고에서 이 과자는 처음부터 마들렌이 아니었습니다. 2015년 공개된 원고를 보면 꿀 바른 구운 빵이었다가 러스크로 바뀌고, 마지막에야 마들렌이 됐지요. 소박한 빵 한 쪽이 조가비 모양 과자로 바뀌는 사이, 문학사에서 가장 유명한 한 입이 태어났습니다."
+  ],
+  "try": "오늘 차 한 잔을 마실 때, 과자 한 조각을 살짝 적셔 보세요. 어떤 일요일 아침이 떠오를지 모릅니다.",
+  "sources": [
+   "https://www.thelocal.fr/20151028/prousts-madeleine-cakes-began-life-as-toast/",
+   "https://www.finebooksmagazine.com/node/20267",
+   "https://en.wikipedia.org/wiki/Madeleine_(cake)",
+   "https://www.festivalenfrance.com/es/festival/fete-de-la-madeleine-de-commercy",
+   "https://connexionfrance.com/magazine/why-madeleines-have-enduring-appeal-in-france/701998"
+  ],
+  "short": {
+   "hook": "프루스트의 『잃어버린 시간을 찾아서』, 홍차에 적신 마들렌 한 조각이 소설 한 권을 열었어요.",
+   "lines": [
+    "추운 겨울날, 어른이 된 주인공은 홍차에 마들렌을 적셔 한 입 먹습니다.",
+    "그 순간 까닭 모를 기쁨이 밀려오고, 어린 시절 일요일 아침 고모가 차에 적셔 주던 마들렌이 떠오르죠.",
+    "그리고 찻잔 하나에서 고향 마을 전체가 피어오릅니다.",
+    "마들렌은 가리비 껍데기 모양 틀에 굽는 작은 과자예요. 프랑스 로렌 지방의 코메르시가 고향으로 꼽힙니다.",
+    "그런데 프루스트의 초고에선 이 과자가 처음엔 꿀 바른 구운 빵이었대요. 고치고 또 고친 끝에 마들렌이 된 거죠."
+   ],
+   "outro": "오늘 문학늬우스에서 마들렌 이야기를 더 만나 보세요.",
+   "thumb": [
+    "홍차에 적신",
+    "마들렌 한 입"
+   ],
+   "title": "프루스트 「잃어버린 시간을 찾아서」 마들렌, 처음엔 구운 빵이었다? | 문학 한술 #마들렌 #프루스트 #프랑스문학 #shorts"
+  }
+ },
+ "zodiac": [
+  {
+   "key": "rat",
+   "animal": "쥐",
+   "text": "정말이지, 그냥 배를 타고 빈둥거리는 것만큼 해 볼 만한 일은 없다네. 절대로, 아무것도.",
+   "orig": "there is nothing—absolute nothing—half so much worth doing as simply messing about in boats.",
+   "translator": "금로동 옮김",
+   "writer": "케네스 그레이엄",
+   "work": "버드나무에 부는 바람",
+   "year": 1908,
+   "note": "물쥐처럼 하루쯤은 목적 없이 노닥거려도 좋아요. 쓸모없는 시간이 마음을 띄워 줍니다.",
+   "sources": [
+    "https://en.wikisource.org/wiki/The_Wind_in_the_Willows_(1908)/Chapter_1",
+    "https://en.wikipedia.org/wiki/Messabout"
+   ]
+  },
+  {
+   "key": "ox",
+   "animal": "소",
+   "text": "한 손에 막대 잡고 또 한 손에 가시 쥐고 / 늙는 길 가시로 막고 오는 백발 막대로 치렸더니 / 백발이 제 먼저 알고 지름길로 오더라",
+   "writer": "우탁",
+   "work": "탄로가(歎老歌)",
+   "year": "고려 말",
+   "note": "세월을 막으려 애쓰기보다 웃으며 맞아 주세요. 소처럼 느긋한 하루가 더 젊습니다.",
+   "sources": [
+    "https://encykorea.aks.ac.kr/Article/E0058777",
+    "https://www.wikipedia.com/wiki/U_Tak"
+   ]
+  },
+  {
+   "key": "tiger",
+   "animal": "범",
+   "text": "이러매 눈 감아 생각해 볼밖에 / 겨울은 강철로 된 무지갠가 보다.",
+   "writer": "이육사",
+   "work": "절정",
+   "year": 1940,
+   "note": "몰아치는 날에도 눈을 감고 한 번 숨을 고르세요. 단단한 겨울 끝에도 무지개는 걸립니다.",
+   "sources": [
+    "https://encykorea.aks.ac.kr/Article/E0049814",
+    "https://segye.com/newsView/20220107511431"
+   ]
+  },
+  {
+   "key": "rabbit",
+   "animal": "토끼",
+   "text": "남들은 자유를 사랑한다지마는 나는 복종을 좋아하여요.",
+   "writer": "한용운",
+   "work": "복종",
+   "year": 1926,
+   "note": "내가 고른 마음에 기꺼이 따르는 것도 자유예요. 오늘 하나쯤 마음 가는 쪽을 따라 보세요.",
+   "sources": [
+    "https://www.kyeonggi.com/article/200306240121044",
+    "https://encykorea.aks.ac.kr/Article/E0071110"
+   ]
+  },
+  {
+   "key": "dragon",
+   "animal": "용",
+   "text": "최고의 시절이었고, 최악의 시절이었다.",
+   "orig": "It was the best of times, it was the worst of times,",
+   "translator": "금로동 옮김",
+   "writer": "찰스 디킨스",
+   "work": "두 도시 이야기",
+   "year": 1859,
+   "note": "좋은 일과 궂은일은 늘 한 문장 안에 같이 옵니다. 오늘의 좋은 쪽을 먼저 적어 두세요.",
+   "sources": [
+    "https://historythroughfiction.com/blog/a-tale-of-two-cities",
+    "https://www.k12reader.com/literature/a_tale_of_two_cities_the_beginning.pdf"
+   ]
+  },
+  {
+   "key": "snake",
+   "animal": "뱀",
+   "text": "호레이쇼, 하늘과 땅 사이에는 / 자네 철학이 꿈꾸는 것보다 더 많은 일이 있다네.",
+   "orig": "There are more things in heaven and earth, Horatio, / Than are dreamt of in your philosophy.",
+   "translator": "금로동 옮김",
+   "writer": "윌리엄 셰익스피어",
+   "work": "햄릿(1막 5장)",
+   "year": 1603,
+   "note": "다 안다고 생각한 일에서 오늘 새로운 구석을 찾아보세요. 세상은 생각보다 넓어요.",
+   "sources": [
+    "https://shakespeare.mit.edu/hamlet/hamlet.1.5.html",
+    "https://www.folger.edu/explore/shakespeares-works/hamlet/act-1-scene-5/"
+   ]
+  },
+  {
+   "key": "horse",
+   "animal": "말",
+   "text": "가난한 내가 / 아름다운 나타샤를 사랑해서 / 오늘밤은 푹푹 눈이 나린다",
+   "writer": "백석",
+   "work": "나와 나타샤와 흰 당나귀",
+   "year": 1938,
+   "note": "가진 게 적어도 사랑하는 마음은 넉넉할 수 있어요. 오늘 누군가를 따뜻하게 떠올려 보세요.",
+   "sources": [
+    "https://www.seoul.co.kr/news/2021/12/06/20211206022021",
+    "https://brunch.co.kr/@habincoco/2"
+   ]
+  },
+  {
+   "key": "sheep",
+   "animal": "양",
+   "text": "고향에 고향에 돌아와도 / 그리던 고향은 아니러뇨.",
+   "writer": "정지용",
+   "work": "고향",
+   "year": 1932,
+   "note": "그리운 곳이 달라졌대도 그리움은 그대로예요. 옛 친구에게 짧은 안부 한 줄 보내 보세요.",
+   "sources": [
+    "https://www.korean.go.kr/nkview/nklife/2007_2/2007_0210.pdf",
+    "https://www.imaeil.com/page/view/2023100509440592167"
+   ]
+  },
+  {
+   "key": "monkey",
+   "animal": "원숭이",
+   "text": "우리 영혼이 무엇으로 만들어졌든, 그의 영혼과 내 영혼은 같아.",
+   "orig": "Whatever our souls are made of, his and mine are the same.",
+   "translator": "금로동 옮김",
+   "writer": "에밀리 브론테",
+   "work": "폭풍의 언덕",
+   "year": 1847,
+   "note": "말하지 않아도 통하는 사람이 있다는 건 큰 복이에요. 그 사람에게 오늘 고맙다고 해 보세요.",
+   "sources": [
+    "https://shmoop.com/study-guides/wuthering-heights/chapter-9-full-text-6.html",
+    "https://www.litcharts.com/lit/wuthering-heights/quotes"
+   ]
+  },
+  {
+   "key": "rooster",
+   "animal": "닭",
+   "text": "가자 가자 가자 / 숲으로 가자 / 달조각을 주우러 / 숲으로 가자.",
+   "writer": "윤동주",
+   "work": "반딧불",
+   "year": "",
+   "note": "오늘 저녁엔 하늘을 한 번 올려다보세요. 작은 빛을 주우러 가는 마음이면 충분해요.",
+   "sources": [
+    "https://ko.wikisource.org/wiki/%EC%A0%80%EC%9E%90:%EC%9C%A4%EB%8F%99%EC%A3%BC",
+    "https://klwave.or.kr/klw/magazines/1038/articleView.do"
+   ]
+  },
+  {
+   "key": "dog",
+   "animal": "개",
+   "text": "무리의 힘은 늑대 하나하나에 있고, 늑대의 힘은 무리에 있다.",
+   "orig": "For the strength of the Pack is the Wolf, and the strength of the Wolf is the Pack.",
+   "translator": "금로동 옮김",
+   "writer": "러디어드 키플링",
+   "work": "정글의 법칙(『두 번째 정글북』)",
+   "year": 1895,
+   "note": "혼자 잘해도 좋지만 함께라서 더 힘이 나는 날이에요. 동료에게 먼저 손 내밀어 보세요.",
+   "sources": [
+    "https://en.wikisource.org/wiki/The_Second_Jungle_Book/The_Law_of_the_Jungle",
+    "https://en.wikipedia.org/wiki/Law_of_the_jungle"
+   ]
+  },
+  {
+   "key": "pig",
+   "animal": "돼지",
+   "text": "모든 동물은 평등하다. 그러나 어떤 동물은 더 평등하다.",
+   "orig": "All animals are equal, but some animals are more equal than others.",
+   "translator": "금로동 옮김",
+   "writer": "조지 오웰",
+   "work": "동물농장",
+   "year": 1945,
+   "note": "당연한 말 속에 숨은 이상한 구석을 찾아보세요. 오늘은 한 번쯤 '정말?' 하고 물어도 좋아요.",
+   "sources": [
+    "https://en.wikiquote.org/wiki/Animal_Farm",
+    "https://www.sparknotes.com/lit/animalfarm/section10/"
+   ]
+  }
+ ],
+ "puzzle": {
+  "size": [
+   6,
+   8
+  ],
+  "words": [
+   {
+    "n": 1,
+    "dir": "across",
+    "r": 0,
+    "c": 1,
+    "a": "기행문",
+    "clue": "여행하며 겪은 일을 적은 글"
+   },
+   {
+    "n": 3,
+    "dir": "across",
+    "r": 0,
+    "c": 6,
+    "a": "전쟁",
+    "clue": "『칼의 노래』의 배경, 남해를 휩쓴 것"
+   },
+   {
+    "n": 4,
+    "dir": "across",
+    "r": 1,
+    "c": 3,
+    "a": "장편소설",
+    "clue": "『완득이』·『칼의 노래』 같은 긴 소설"
+   },
+   {
+    "n": 6,
+    "dir": "across",
+    "r": 2,
+    "c": 0,
+    "a": "고전",
+    "clue": "오래도록 읽히는 명작, '1분 ○○'"
+   },
+   {
+    "n": 7,
+    "dir": "across",
+    "r": 3,
+    "c": 4,
+    "a": "시집",
+    "clue": "허균이 누이의 시를 모아 엮은 것"
+   },
+   {
+    "n": 8,
+    "dir": "across",
+    "r": 4,
+    "c": 3,
+    "a": "문인",
+    "clue": "오늘의 ○○ 허난설헌처럼 글 쓰는 사람"
+   },
+   {
+    "n": 1,
+    "dir": "down",
+    "r": 0,
+    "c": 1,
+    "a": "기승전결",
+    "clue": "한시에서 온 네 단계 짜임"
+   },
+   {
+    "n": 2,
+    "dir": "down",
+    "r": 0,
+    "c": 3,
+    "a": "문장",
+    "clue": "김훈이 조사 하나로 고민한 글의 단위"
+   },
+   {
+    "n": 3,
+    "dir": "down",
+    "r": 0,
+    "c": 6,
+    "a": "전설",
+    "clue": "마들렌 이름 유래처럼 예부터 전해 오는 이야기"
+   },
+   {
+    "n": 5,
+    "dir": "down",
+    "r": 1,
+    "c": 5,
+    "a": "소설집",
+    "clue": "단편소설을 묶은 책"
+   },
+   {
+    "n": 7,
+    "dir": "down",
+    "r": 3,
+    "c": 4,
+    "a": "시인",
+    "clue": "시를 쓰는 사람"
+   },
+   {
+    "n": 8,
+    "dir": "down",
+    "r": 4,
+    "c": 3,
+    "a": "문학",
+    "clue": "말과 글로 된 예술"
+   }
+  ]
+ }
+}

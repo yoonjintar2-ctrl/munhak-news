@@ -622,6 +622,96 @@
     "https://www.yeongnam.com/web/view.php?key=20211022010002125"
    ],
    "added": "2026-11-18"
+  },
+  {
+   "mood": "tired",
+   "text": "강나루 건너서 / 밀밭 길을 // 구름에 달 가듯이 / 가는 나그네",
+   "writer": "박목월",
+   "work": "나그네",
+   "year": 1946,
+   "kind": "시(한두 줄)",
+   "dose": "서두르지 않아도 길은 이어집니다. 오늘은 구름에 달 가듯 한 걸음씩만 가세요.",
+   "sources": [
+    "https://sgsg.hankyung.com/article/2024030864911",
+    "https://weekly.khan.co.kr/article/201505051404341"
+   ],
+   "added": "2026-11-19"
+  },
+  {
+   "mood": "blue",
+   "text": "지금 그 사람 이름은 잊었지만 / 그 눈동자 입술은 / 내 가슴에 있네",
+   "writer": "박인환",
+   "work": "세월이 가면",
+   "year": 1956,
+   "kind": "시",
+   "dose": "잊힌 것보다 남은 것을 세어 보세요. 가슴에 남은 것들이 오늘의 나를 데워 줍니다.",
+   "sources": [
+    "https://sgsg.hankyung.com/article/2023110315701",
+    "https://www.ajunews.com/view/20180327102638821"
+   ],
+   "added": "2026-11-19"
+  },
+  {
+   "mood": "anxious",
+   "text": "사람을 흔드는 것은 일 자체가 아니라, 그 일에 대한 생각이다.",
+   "orig": "Ταράσσει τοὺς ἀνθρώπους οὐ τὰ πράγματα, ἀλλὰ τὰ περὶ τῶν πραγμάτων δόγματα.",
+   "translator": "금로동 옮김",
+   "writer": "에픽테토스",
+   "work": "엥케이리디온 5",
+   "year": "2세기",
+   "kind": "잠언",
+   "dose": "걱정이 일어나면 '일'과 '내 생각'을 종이 두 칸에 나눠 적어 보세요. 한 칸은 생각보다 작습니다.",
+   "sources": [
+    "https://cts.perseids.org/read/greekLit/tlg0557/tlg002/perseus-eng3/5",
+    "https://www.hermitary.com/solitude/epictetus_enchiridion.html"
+   ],
+   "added": "2026-11-19"
+  },
+  {
+   "mood": "angry",
+   "text": "말하기 좋다 하고 남의 말을 말을 것이 / 남의 말 내 하면 남도 내 말 하는 것이 / 말로써 말이 많으니 말 말을까 하노라",
+   "writer": "작자 미상",
+   "work": "말하기 좋다 하고(시조)",
+   "year": "조선",
+   "kind": "시조",
+   "dose": "화가 날 땐 말 한마디를 하루 뒤로 미뤄 보세요. 말 말을까 하는 마음이 약입니다.",
+   "sources": [
+    "https://www.imaeil.com/page/view/2014041714333823586",
+    "https://m.cafe.daum.net/maranada91/Osob/130"
+   ],
+   "added": "2026-11-19"
+  },
+  {
+   "mood": "flutter",
+   "text": "그대를 여름날에 견주어 볼까? / 그대는 더 사랑스럽고 더 온화한걸.",
+   "orig": "Shall I compare thee to a summer's day? / Thou art more lovely and more temperate:",
+   "translator": "금로동 옮김",
+   "writer": "윌리엄 셰익스피어",
+   "work": "소네트 18",
+   "year": 1609,
+   "kind": "시",
+   "dose": "설레는 사람을 무엇에 견줄지 하루 종일 골라 보세요. 비유를 찾는 동안 마음이 더 환해집니다.",
+   "sources": [
+    "https://rpo.library.utoronto.ca/poems/shakespeares-sonnets-shall-i-compare-thee-summers-day",
+    "https://www.litcharts.com/poetry/william-shakespeare/sonnet-18-shall-i-compare-thee-to-a-summer-s-day"
+   ],
+   "added": "2026-11-19"
+  },
+  {
+   "mood": "blank",
+   "text": "오래된 연못 / 개구리 뛰어드는 / 물소리",
+   "orig": "古池や蛙飛びこむ水の音",
+   "translator": "금로동 옮김",
+   "writer": "마쓰오 바쇼",
+   "work": "오래된 연못(하이쿠)",
+   "year": 1686,
+   "kind": "하이쿠",
+   "dose": "머리가 텅 빌 땐 귀를 열어 보세요. 작은 물소리 하나가 하루를 깨웁니다.",
+   "sources": [
+    "https://takase.com/JapaneseCalligraphy/basho-the-old-pond-a-frog-jumps-in-the-sound-of-water",
+    "https://www.wikiwand.com/en/articles/Basho"
+   ],
+   "added": "2026-11-19"
   }
  ]
 }

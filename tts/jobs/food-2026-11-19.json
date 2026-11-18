@@ -1,0 +1,112 @@
+{
+ "name": "food-2026-11-19",
+ "mode": "clone",
+ "ref_audio": "out/casual1/E_think.wav",
+ "ref_text": "음… 그럼 데이터센터는 이제 못 짓는 건가?",
+ "gen": {
+  "temperature": 0.75,
+  "top_p": 0.9
+ },
+ "reload_every": 4,
+ "retries": 4,
+ "items": [
+  {
+   "id": "food_00_t0",
+   "text": "프루스트의 잃어버린 시간을 찾아서, 홍차에 적신 마들렌 한 조각이 소설 한 권을 열었어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_00_t1",
+   "text": "프루스트의 잃어버린 시간을 찾아서, 홍차에 적신 마들렌 한 조각이 소설 한 권을 열었어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_01_t0",
+   "text": "추운 겨울날, 어른이 된 주인공은 홍차에 마들렌을 적셔 한 입 먹습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_01_t1",
+   "text": "추운 겨울날, 어른이 된 주인공은 홍차에 마들렌을 적셔 한 입 먹습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_02_t0",
+   "text": "그 순간 까닭 모를 기쁨이 밀려오고, 어린 시절 일요일 아침 고모가 차에 적셔 주던 마들렌이 떠오르죠. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_02_t1",
+   "text": "그 순간 까닭 모를 기쁨이 밀려오고, 어린 시절 일요일 아침 고모가 차에 적셔 주던 마들렌이 떠오르죠. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_03_t0",
+   "text": "그리고 찻잔 하나에서 고향 마을 전체가 피어오릅니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_03_t1",
+   "text": "그리고 찻잔 하나에서 고향 마을 전체가 피어오릅니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_04_t0",
+   "text": "마들렌은 가리비 껍데기 모양 틀에 굽는 작은 과자예요. 프랑스 로렌 지방의 코메르시가 고향으로 꼽힙니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_04_t1",
+   "text": "마들렌은 가리비 껍데기 모양 틀에 굽는 작은 과자예요. 프랑스 로렌 지방의 코메르시가 고향으로 꼽힙니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_05_t0",
+   "text": "그런데 프루스트의 초고에선 이 과자가 처음엔 꿀 바른 구운 빵이었대요. 고치고 또 고친 끝에 마들렌이 된 거죠. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_05_t1",
+   "text": "그런데 프루스트의 초고에선 이 과자가 처음엔 꿀 바른 구운 빵이었대요. 고치고 또 고친 끝에 마들렌이 된 거죠. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_06_t0",
+   "text": "오늘 문학늬우스에서 마들렌 이야기를 더 만나 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_06_t1",
+   "text": "오늘 문학늬우스에서 마들렌 이야기를 더 만나 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  }
+ ]
+}
