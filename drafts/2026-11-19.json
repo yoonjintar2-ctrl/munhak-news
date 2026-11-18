@@ -222,7 +222,7 @@
   "oneline": "기도 제목은 '담임 똥주를 죽여 주세요'. 열일곱 완득이의 한판.",
   "img": "img/2026-11-19-modern.jpg",
   "video": "img/2026-11-19-modern.mp4",
-  "alt": "달동네 옥상, 교복 차림의 소년이 옥탑방 앞에서 뒤돌아보고, 건너편 옥상의 담임 선생님이 손나발을 하고 소리친다. 빨랫줄의 빨래가 펄럭인다",
+  "alt": "달동네 옥상, 안경 쓴 남자가 손짓하고 건너편 계단참에 소년이 웅크려 앉아 있다. 지붕들이 겹겹이 이어진다(AI 펜화)",
   "ai": "Two people on neighboring rooftops: a teenage boy in a school uniform turns back annoyed in front of a small rooftop room; across the alley a messy-haired male teacher in a cardigan shouts with hands cupped around his mouth. Seoul hillside neighborhood, laundry lines.",
   "story": [
    "도완득은 열일곱 살 고등학생입니다. 싸움은 곧잘 하지만 공부엔 관심이 없고, 말수도 적지요. 아버지는 키가 아주 작은 장애인으로 카바레에서 춤을 추며 살아왔고, 말을 더듬는 민구 삼촌이 그 곁을 지킵니다. 피는 안 섞였어도 아버지가 거둔 식구이지요. 카바레가 문을 닫자 두 사람은 장터를 떠돌며 춤을 춥니다. 집에는 완득이 혼자 남는 날이 많습니다.",
@@ -244,21 +244,21 @@
     "after": 1,
     "img": "img/2026-11-19-modern-s1.jpg",
     "video": "img/2026-11-19-modern-s1.mp4",
-    "alt": "밤 교회, 완득이가 맨 뒷자리 긴 의자에 앉아 두 손을 모으고 고개를 숙인다. 앞쪽 촛불이 일렁인다",
+    "alt": "밤 교회, 소년이 긴 의자에 혼자 앉아 고개를 숙이고 앞쪽 촛불이 켜져 있다(AI 펜화)",
     "ai": "Back view: a teenage boy in a school uniform sits alone on the last pew of a small neighborhood church at night, hands clasped, head bowed. Candles flicker at the front, simple cross shape, wooden pews."
    },
    {
     "after": 3,
     "img": "img/2026-11-19-modern-s2.jpg",
     "video": "img/2026-11-19-modern-s2.mp4",
-    "alt": "허름한 동네 체육관, 완득이가 글러브를 끼고 샌드백을 발로 차고, 관장이 팔짱 끼고 지켜본다. 샌드백이 흔들린다",
+    "alt": "허름한 체육관, 글러브를 낀 두 소년이 마주 서서 자세를 잡는다(AI 펜화)",
     "ai": "Two people in a shabby neighborhood gym: a teenage boy in boxing gloves and shorts kicks a heavy bag; a middle-aged coach in a tracksuit watches with arms crossed. Ropes, posters without text, fluorescent lights."
    },
    {
     "after": 4,
     "img": "img/2026-11-19-modern-s3.jpg",
     "video": "img/2026-11-19-modern-s3.mp4",
-    "alt": "작은 부엌 식탁, 어머니가 국그릇을 내려놓고 완득이는 수저를 든 채 쭈뼛 고개를 든다. 냄비에서 김이 오른다",
+    "alt": "작은 부엌 식탁, 어머니와 아들이 나란히 앉아 그릇을 내려다본다(AI 펜화)",
     "ai": "Two people at a small kitchen table: a Southeast Asian woman in her forties gently places a bowl of soup; a teenage boy in a school uniform holds a spoon, looking up awkwardly. Small Korean apartment kitchen, steam."
    }
   ]
@@ -269,8 +269,8 @@
   "sub": "대한민국 · 유도 · 1984 로스앤젤레스 올림픽 95kg급 금메달",
   "img": "img/2026-11-19-man.jpg",
   "video": "img/2026-11-19-man.mp4",
-  "alt": "올림픽 유도장 매트 위, 흰 도복의 두 선수가 서로 깃을 잡고 맞붙어 있다. 관중석과 조명이 비친다",
-  "cap": "3D 삽화",
+  "alt": "유도장, 흰 도복의 두 선수가 깃을 잡고 맞붙고 뒤로 선수들이 줄지어 지켜본다(AI 펜화, 실제 인물 아님)",
+  "cap": "AI 삽화",
   "ai": "Two judo athletes in white judogi grip each other's collars on a tatami mat in a large arena, seen from a distance, back and side views, spotlights and crowd silhouettes. No faces visible.",
   "bio": "동아대학교에서 유도를 한 선수입니다. 1984년 로스앤젤레스 올림픽 유도 95kg급에 나서 결승에서 브라질의 두글라스 비에이라를 꺾고 금메달을 땄습니다. 같은 대회 71kg급 안병근과 함께 한국 유도에 첫 올림픽 금메달 두 개를 안겼지요. 은퇴 뒤엔 모교 교수로 후배들을 가르쳤습니다.",
   "feats": [
@@ -303,7 +303,7 @@
   "where": "『잃어버린 시간을 찾아서』 제1권, 프랑스 시골 마을 콩브레의 기억",
   "img": "img/2026-11-19-food.jpg",
   "video": "img/2026-11-19-food.mp4",
-  "alt": "창가 탁자 위 흰 접시에 조가비 모양 마들렌 두 개, 찻잔에서 김이 오르고 숟가락에 적신 마들렌 한 조각. 창밖에 눈발이 날리고 커튼이 흔들린다",
+  "alt": "찻잔 두 개 사이 접시에 조가비 무늬 과자가 놓인 탁자(AI 펜화)",
   "ai": "Close-up still life: two shell-shaped madeleine cakes on a white saucer next to a steaming cup of tea, a teaspoon holding a soaked piece of madeleine. Old French window with falling snow, lace curtain, early 1900s.",
   "quote": "그리고 갑자기 기억이 떠올랐다. 그 맛은 콩브레에서 일요일 아침마다 맛보던 마들렌 한 조각의 맛이었다.",
   "orig": "Et tout d'un coup le souvenir m'est apparu. Ce goût c'était celui du petit morceau de madeleine que le dimanche matin à Combray…",
