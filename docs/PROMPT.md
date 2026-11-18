@@ -78,6 +78,15 @@ m3d/README.md 방식: three.js 장면 → 먹 농담 후처리(망점 쓰지 않
 ### (선택) ChatGPT 그림으로 바꾸기
 맥 크롬이 연결된 대화에서만 됩니다. gpt/README 순서로 그림을 만들어 캡처하고 이어 붙인 뒤 img를 교체합니다. 영상(video)이 있으면 그 그림은 동작 줄이기를 켠 독자용으로만 보입니다.
 
+### AI 삽화(11/18~ 발행인 "코드 그림은 AI 대비 너무 별로 — 완전히 자동화")
+- 장면 삽화·대표 그림은 **맥 SDXL-Lightning(무료, 맥 qtts 대기기 안 img_worker.py)** 으로 그린다. 3D(m3d)는 AI 그림이 실패한 날의 예비.
+- 초안을 쓸 때 각 그림 자리(classic·modern 의 대표 `img`, `scenes[]`, man, food)에 **`ai`: 영어 프롬프트** 를 함께 쓴다.
+  - 60단어 이내(CLIP 77토큰에서 뒤가 잘림). 중요한 것부터: 인물 수·누가 무엇을 들고 있는지·표정 → 장소·시대 → 소품 몇 개. 화풍 문구는 img_job.py 가 붙이니 쓰지 않는다.
+  - 두 사람 이상은 "Two people: a … and a …" 처럼 시작해야 둘 다 나온다. 손에 든 물건은 "holds X in his right hand" 로 분명히.
+  - 실존 인물 얼굴·유명 캐릭터·브랜드 금지(오늘의 사나이는 뒷모습·실루엣·먼 거리).
+- 22:10 맥 TTS 넣기 때 `python3 scripts/img/img_job.py drafts/D.json tts/jobs` → `tts/jobs/img-D.json` 을 TTS 작업들 **뒤에** 맥 jobs/ 에 넣는다(장당 6~9분, 씨앗 2개씩).
+- 05:10 거둘 때 out/img-D/*.png 도 받아, 자리마다 두 씨앗을 Read 로 보고 손·얼굴이 덜 망가지고 장면이 맞는 쪽을 고른다 → `python3 scripts/img/animate.py <png> img/D-classic-s1.mp4 --move push|pull|left|right` (같은 이름 .jpg 도 생김). 둘 다 엉망이면 3D 그대로 둔다.
+
 ## 발행 일정 (2026-11-14부터)
 - 전날 20:40 「초안」: 내일 날짜 호를 drafts/<내일>.json 으로 쓴다(삽화 영상·퍼즐·처방 포함, today.json·archive는 건드리지 않음). 그리고 `python3 scripts/tts/tts_jobs.py drafts/<내일>.json tts/jobs 2` 로 '듣기' 작업 파일을 만든다.
 - 전날 22:10 「맥 TTS 넣기」(맥 필요): tts/jobs/mnews-<내일>.json 과 (있으면) tts/jobs/shorts-<내일>.json 을 맥 ~/Downloads/qtts/jobs/ 에 넣는다 → 작업대기기가 밤새 Qwen3-TTS(마스코트 목소리 복제)로 생성.
