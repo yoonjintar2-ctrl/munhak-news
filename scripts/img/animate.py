@@ -27,7 +27,7 @@ def main():
         cw, ch = W * 2 / z, H * 2 / z; cx = W + dx * W * 2; cy = H
         fr = im.transform((W, H), Image.EXTENT, (cx - cw / 2, cy - ch / 2, cx + cw / 2, cy + ch / 2), Image.BICUBIC)
         arr = np.asarray(fr, np.float32)
-        arr = arr * (1 + 0.012 * np.sin(i * 0.9) * np.sin(i * 0.37)) + grain * 4 * (1 if i % 2 else -1) * 0.5
+        arr = arr * (1 + 0.012 * np.sin(i * 0.9) * np.sin(i * 0.37)) + grain * 2.0  # 정지 결(깜박이는 결은 용량이 커져 GitHub 100MB 넘음, 11/19)
         arr = np.clip(arr, 0, 255).astype(np.uint8); ff.stdin.write(arr.tobytes())
         if still is None and i >= int(0.4 * o.fps): still = arr
     ff.stdin.close(); ff.wait()
