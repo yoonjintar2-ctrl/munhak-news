@@ -626,14 +626,5 @@
     "clue": "글 쓰는 사람"
    }
   ]
- },
- "audio": {
-  "classic": "audio/2026-11-16-classic.mp3",
-  "day": "audio/2026-11-16-day.mp3",
-  "modern": "audio/2026-11-16-modern.mp3",
-  "novel": "audio/2026-11-16-novel.mp3",
-  "poem": "audio/2026-11-16-poem.mp3",
-  "sentence": "audio/2026-11-16-sentence.mp3",
-  "writer": "audio/2026-11-16-writer.mp3"
  }
 }
