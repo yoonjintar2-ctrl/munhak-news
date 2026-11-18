@@ -1,9 +1,9 @@
 """초안 → 맥 그림 작업 파일 (11/18 발행인 "완전히 자동화": 삽화는 맥 SDXL-Lightning 으로)
-  python3 scripts/img/img_job.py drafts/<날짜>.json tts/jobs   → tts/jobs/img-<날짜>.json  (맥 qtts/jobs/ 에 넣으면 대기기가 그린다)
+  python3 scripts/img/img_job.py drafts/<날짜>.json tts/jobs   → tts/jobs/zz-img-<날짜>.json  (맥 qtts/jobs/ 에 넣으면 대기기가 그린다)
 각 그림 자리(classic·modern 대표 img, scenes[].img, man, food)에 ai 필드(영어 프롬프트, 60단어 이내 — CLIP 77토큰에서 잘림)가 있으면 그 자리를 그린다.
-ai 가 없는 자리는 3D(m3d) 그대로. 씨앗 2개씩 그려 아침에 눈으로 더 나은 쪽을 고른다(scripts/img/pick.py)."""
+ai 가 없는 자리는 3D(m3d) 그대로. 대표 그림은 씨앗 2개, 장면은 1개(맥 M2 8GB 에서 장당 6~9분, 05:10 전에 끝나게) 그려 아침에 눈으로 더 나은 쪽을 고른다(scripts/img/pick.py)."""
 import json, sys, os, re
-STYLE = 'engraving illustration, black and white pen and ink, fine cross-hatching, light grey wash, 19th century newspaper style'
+STYLE = 'black and white pen and ink engraving illustration, cross-hatching'  # 맨 앞에(77토큰 넘으면 뒤가 잘림)
 NEG = 'color, text, letters, signature, watermark, deformed hands, extra fingers, extra limbs, distorted face, lowres, blurry, cartoon, 3d render, photo'
 
 def slots(D):
@@ -20,10 +20,10 @@ def main(draft, outdir):
     for img, ai in slots(D):
         n = len(ai.split())
         if n > 60: print(f'⚠️ {img}: 프롬프트 {n}단어 — 60단어 넘으면 뒤가 잘림')
-        items.append({'id': os.path.splitext(os.path.basename(img))[0], 'prompt': f'{ai}. {STYLE}', 'neg': NEG, 'seeds': [11, 22], 'w': 1344, 'h': 768})
+        items.append({'id': os.path.splitext(os.path.basename(img))[0], 'prompt': f'{STYLE}. {ai}', 'neg': NEG, 'seeds': [11, 22] if '-s' not in os.path.basename(img) else [11], 'w': 1344, 'h': 768})
     if not items: print('ai 프롬프트가 있는 자리 없음 — 작업 안 만듦'); return
-    out = os.path.join(outdir, f'img-{date}.json')
+    out = os.path.join(outdir, f'zz-img-{date}.json')  # 파일 이름 zz- : 대기기가 이름순으로 돌므로 TTS 다음에
     json.dump({'kind': 'image', 'name': f'img-{date}', 'items': items}, open(out, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-    print(out, f'{len(items)}자리 × 씨앗 2 (장당 약 6분, 맥 M2 8GB)')
+    print(out, f'{len(items)}자리, 그림 {sum(len(i["seeds"]) for i in items)}장 (장당 6~9분)')
 
 if __name__ == '__main__': main(*sys.argv[1:3])
