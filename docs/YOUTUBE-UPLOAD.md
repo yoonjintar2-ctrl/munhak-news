@@ -1,5 +1,7 @@
 # 1분 문학 영상 — 매일 만들기·검수·업로드 (발행인 2026-11-14: "내일부터는 알아서 검수한 다음 올려")
 
+> **11/18 변경(발행인)**: 05:40 예약 메시지에 남아 있는 "예고 쇼츠(teaser.py, 앞부분)"는 아래 4-2 **결말까지 쇼츠(`teaser.py ... --full`)** 로 바꿔 읽는다. 예고 쇼츠는 더 만들지 않는다.
+
 채널: 유튜브 **문학늬우스** (@munhaknews, 채널 ID `UCC6rvGkmmC-HgWYxdJ6KP-g`, Google 계정 yoonjintar2). 맥 크롬은 평소 **샌디스크 올인**(yoonjintar4 계정) 상태 → 올릴 때만 바꾸고 **끝나면 반드시 되돌린다**. 연 탭은 닫는다.
 첫 업로드(본보기): 「메밀꽃 필 무렵」 https://youtu.be/sOBinuRuldw · 「나를 보내지 마」 https://youtu.be/mD5u_w7Azt8
 
@@ -12,7 +14,7 @@
 3. 지면 '듣기'(06:30 전 push): `python3 scripts/shorts/site_audio.py shorts/scripts/D.json /tmp/q audio` → `audio/D-classic.mp3`, `audio/D-modern.mp3` 커밋.
 4. 영상: `python3 scripts/shorts/make_short.py shorts/scripts/D.json classic /tmp/q . /tmp/v/D-classic.mp4` (modern 도; 한 편 5~8분).
 4-1. **문학 한술 쇼츠(세로, 11/18~)**: `python3 scripts/shorts/make_short.py shorts/scripts/D-food.json food /tmp/q . /tmp/v/D-food.mp4` → qa_video 같은 방식(본문 대조 경고는 무시, 60초 안인지 확인).
-4-2. **예고 쇼츠(세로, 11/18~)**: `python3 scripts/shorts/teaser.py shorts/scripts/D.json classic` (modern 도) → `make_short.py shorts/scripts/D-classic-tz.json classic /tmp/q . /tmp/v/D-classic-tz.mp4` — 본편 앞 40초 + "뒷이야기와 결말까지, 전체 영상에서"(테이크 <코너>_tz). 업로드 때 쇼츠 '관련 동영상'에 그 본편을 건다. 하루 업로드: 본편 2 + 예고 2 + 문학 한술 1.
+4-2. **결말까지 쇼츠(세로, 11/19~ — 11/18 발행인 "예고 쇼츠는 너무 짧아 궁금하지도 않다, 길어지더라도 결말까지 쭉")**: `python3 scripts/shorts/teaser.py shorts/scripts/D.json classic --full` (modern 도) → `make_short.py shorts/scripts/D-classic-full.json classic /tmp/q . /tmp/v/D-classic-full.mp4` — 본편과 같은 테이크로 인트로+본문 전체(결말 포함)+마무리. **쇼츠 한도 3분**: ffprobe 로 179초가 넘으면 대본의 outro 를 첫 줄만 남기고(keys 도 맞춰) 다시 만든다. 제목은 '(결말까지)'. 예고(앞 40초) 쇼츠는 더 만들지 않는다. 하루 업로드: 본편 2 + 결말까지 쇼츠 2 + 문학 한술 1.
 5. **검수**: `python3 scripts/shorts/qa_video.py shorts/scripts/D.json classic /tmp/v/D-classic.mp4 .` → ❌ 가 하나라도 있으면 고치고 다시 만든다(본문≠지면 → fill_body 다시, 자막 너무 빠름 → 대본 마디 손보기, 무음 → 테이크 확인). 그리고 `.qa.png` 를 Read 로 직접 보고: 자막·말풍선 잘림/겹침, 연필이 동작, 장면이 줄거리와 맞는지, **장면 속 방향**(차·수레·배가 앞으로 가는지, 탄 사람이 진행 방향을 보는지 — 11/14 운전 장면 실수. 이상하면 그 장면을 고쳐 다시 렌더하고 사이트 영상도 같이 교체), 인서트 원 위치. 나레이션 첫 문장·마지막 문장 테이크를 들어 볼 수 없으니 `tts_post` 기준(화자 유사도·음높이)을 믿되, 길이가 1.6배 넘는 테이크가 골라졌으면 다시 본다. **통과 못 하면 올리지 않고 보고**.
 6. 썸네일: 대본 `C.yt.thumb`(두 줄) → `python3 scripts/shorts/make_thumb.py shorts/scripts/D.json classic /tmp/v/D-classic-thumb.jpg .` → Read 로 확인.
 7. 파일 옮기기(크롬 file_upload 는 3.8MB 까지라 우회): 임시 고아 브랜치 `video-upload` 에 mp4·thumb 만 넣어 force-push
