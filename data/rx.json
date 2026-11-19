@@ -712,6 +712,96 @@
     "https://www.wikiwand.com/en/articles/Basho"
    ],
    "added": "2026-11-19"
+  },
+  {
+   "mood": "tired",
+   "text": "청산리 벽계수야 수이 감을 자랑 마라 / 일도창해하면 다시 오기 어려우니 / 명월이 만공산하니 쉬어 간들 어떠리",
+   "writer": "황진이",
+   "work": "청산리 벽계수야(시조)",
+   "year": "16세기",
+   "kind": "시조",
+   "dose": "쉬지 않고 흘러가기만 하면 다시 돌아오기 어려워요. 달 밝은 오늘 밤엔 잠시 쉬어 가세요.",
+   "sources": [
+    "https://ppss.kr/archives/55981",
+    "https://gwangjunewsgic.com/arts-culture/korean-poetry/a-sijo-by-hwang-jini/"
+   ],
+   "added": "2026-11-20"
+  },
+  {
+   "mood": "blue",
+   "text": "유리에 차고 슬픈 것이 어른거린다.",
+   "writer": "정지용",
+   "work": "유리창 1",
+   "year": 1930,
+   "kind": "시",
+   "dose": "슬픔을 유리창 너머로 잠시 바라보세요. 입김을 불었다 지우듯, 조금씩 옅어집니다.",
+   "sources": [
+    "https://www.korean.go.kr/nkview/nknews/200107/36_8.html",
+    "https://encykorea.aks.ac.kr/Article/E0071117"
+   ],
+   "added": "2026-11-20"
+  },
+  {
+   "mood": "anxious",
+   "text": "그러므로 내일을 걱정하지 마라. 내일 일은 내일이 걱정할 것이다. 하루의 괴로움은 그날로 넉넉하다.",
+   "orig": "Take therefore no thought for the morrow: for the morrow shall take thought for the things of itself. Sufficient unto the day is the evil thereof.",
+   "translator": "금로동 옮김",
+   "writer": "『성경』",
+   "work": "마태복음 6장 34절",
+   "year": "1세기",
+   "kind": "경전",
+   "dose": "걱정은 오늘 몫만 챙기세요. 내일 몫은 내일의 내가 꽤 잘 해냅니다.",
+   "sources": [
+    "https://biblehub.com/parallel/matthew/6-34.htm",
+    "https://www.biblegateway.com/verse/en/Matthew%206:34"
+   ],
+   "added": "2026-11-20"
+  },
+  {
+   "mood": "angry",
+   "text": "분노를 다스리는 가장 좋은 약은 미루는 것이다.",
+   "orig": "Maximum remedium irae mora est.",
+   "translator": "금로동 옮김",
+   "writer": "세네카",
+   "work": "분노에 대하여(De Ira) 2권",
+   "year": "1세기",
+   "kind": "산문",
+   "dose": "화가 치밀면 답장은 내일로 미뤄 두세요. 하룻밤 재운 분노는 크기가 반으로 줍니다.",
+   "sources": [
+    "https://whatisstoicism.com/stoicism-resources/senecas-mental-remedies-for-anger/",
+    "https://universe.byu.edu/2021/08/16/opinion-the-greatest-remedy-for-anger-is-delay"
+   ],
+   "added": "2026-11-20"
+  },
+  {
+   "mood": "flutter",
+   "text": "내가 당신을 사랑하는 것은 까닭이 없는 것이 아닙니다.",
+   "writer": "한용운",
+   "work": "사랑하는 까닭",
+   "year": 1926,
+   "kind": "시",
+   "dose": "설레는 마음에도 까닭이 있어요. 그 사람이 좋은 이유 하나를 오늘 적어 두세요.",
+   "sources": [
+    "https://ebook-product.kyobobook.co.kr/dig/epd/sam/E000005472922",
+    "https://www.happycampus.com/report-doc/29484869"
+   ],
+   "added": "2026-11-20"
+  },
+  {
+   "mood": "blank",
+   "text": "어찌하여 푸른 산에 사느냐 묻기에 / 웃고 대답하지 않으니 마음 절로 한가롭다",
+   "orig": "問余何意棲碧山 / 笑而不答心自閑",
+   "translator": "금로동 옮김",
+   "writer": "이백",
+   "work": "산중문답(山中問答)",
+   "year": "8세기",
+   "kind": "한시",
+   "dose": "머리가 텅 빈 날엔 굳이 설명하지 않아도 괜찮아요. 웃음 한 번으로 대답을 대신해 보세요.",
+   "sources": [
+    "https://www.etoday.co.kr/news/view/2408339",
+    "https://en.wikiquote.org/wiki/Li_Bai"
+   ],
+   "added": "2026-11-20"
   }
  ]
 }
