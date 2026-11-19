@@ -84,6 +84,7 @@ m3d/README.md 방식: three.js 장면 → 먹 농담 후처리(망점 쓰지 않
   - 60단어 이내(CLIP 77토큰에서 뒤가 잘림). 중요한 것부터: 인물 수·누가 무엇을 들고 있는지·표정 → 장소·시대 → 소품 몇 개. 화풍 문구는 img_job.py 가 붙이니 쓰지 않는다.
   - 두 사람 이상은 "Two people: a … and a …" 처럼 시작해야 둘 다 나온다. 손에 든 물건은 "holds X in his right hand" 로 분명히.
   - 한국 배경 옛날 옷은 "Korean hanbok: short jeogori jacket and long full chima skirt, no sash" 처럼 생김새까지 적는다(11/19 「사랑손님과 어머니」가 그냥 hanbok 이라고만 써서 기모노풍으로 나와 못 씀). 국내 작품은 img_job.py 가 kimono·obi 를 부정어로 넣는다.
+  - 음식·소품은 생김새(모양·결·크기·색)를 구체적으로 쓰고, 고를 때 **실제 그 음식처럼 생겼는지** 따로 확인한다(11/19 마들렌이 조개·카카오 열매처럼 나와 발행인 "외계 음식 같다"). SDXL 이 모르는 음식은 4장을 다시 뽑아도 안 나오니, 그럴 땐 3D 그대로 둔다.
   - 실존 인물 얼굴·유명 캐릭터·브랜드 금지(오늘의 사나이는 뒷모습·실루엣·먼 거리).
 - 22:10 맥 TTS 넣기 때 `python3 scripts/img/img_job.py drafts/D.json tts/jobs` → `tts/jobs/zz-img-D.json`(맥 out 폴더 이름은 img-D) 을 TTS 작업들 **뒤에** 맥 jobs/ 에 넣는다(장당 6~9분, 대표 2장·장면 1장).
 - 05:10 거둘 때 out/img-D/*.png 도 받아, 자리마다 두 씨앗을 Read 로 보고 손·얼굴이 덜 망가지고 장면이 맞는 쪽을 고른다 → `python3 scripts/img/animate.py <png> img/D-classic-s1.mp4 --move push|pull|left|right`(8초 한 바퀴로 이음매 없이 도는 느린 움직임 — 11/19 발행인 "빠르고 줌인했다 갑자기 돌아가 에러 같다") (같은 이름 .jpg 도 생김). 둘 다 엉망이면 3D 그대로 둔다. 시대·나라에 맞지 않는 옷·건물(한국 작품에 기모노 등)도 엉망으로 친다. 고른 그림에 맞게 alt 를 고치고 끝에 '(AI 펜화)', 오늘의 사나이는 cap 'AI 삽화'·'실제 인물 아님'.
