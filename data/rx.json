@@ -802,6 +802,96 @@
     "https://en.wikiquote.org/wiki/Li_Bai"
    ],
    "added": "2026-11-20"
+  },
+  {
+   "mood": "tired",
+   "text": "잘 가노라 닫지 말며 못 가노라 쉬지 말라 / 부디 긋지 말고 촌음을 아껴 쓰라 / 가다가 중지 곧 하면 아니 감만 못하니라",
+   "writer": "김천택(전함)",
+   "work": "잘 가노라 닫지 말며(시조)",
+   "year": "18세기",
+   "kind": "시조",
+   "dose": "잘 간다고 뛰지도, 못 간다고 멈추지도 마세요. 오늘은 내 걸음 그대로 조금만 더.",
+   "sources": [
+    "https://ko.wikisource.org/wiki/%EB%B6%84%EB%A5%98:%EC%8B%9C%EC%A1%B0",
+    "https://m.cafe.daum.net/lovesisarang/H4dx/370"
+   ],
+   "added": "2026-11-21"
+  },
+  {
+   "mood": "blue",
+   "text": "못 잊어 생각이 나겠지요, / 그런대로 한세상 지내시구려,",
+   "writer": "김소월",
+   "work": "못 잊어",
+   "year": 1923,
+   "kind": "시",
+   "dose": "잊으려 애쓰지 않아도 괜찮아요. 생각나는 채로, 그런대로 오늘을 지내 보세요.",
+   "sources": [
+    "https://www.korean.go.kr/nkview/nknews/200207/48_8.html",
+    "https://poets.org/poem/i-would-forget"
+   ],
+   "added": "2026-11-21"
+  },
+  {
+   "mood": "anxious",
+   "text": "바람이 부는데 / 내 괴로움에는 이유가 없다.",
+   "writer": "윤동주",
+   "work": "바람이 불어",
+   "year": 1941,
+   "kind": "시",
+   "dose": "이유 없는 불안도 있어요. 까닭을 캐묻지 말고, 바람 지나가듯 잠시 흘려보내세요.",
+   "sources": [
+    "https://www.korean.go.kr/nkview/nknews/200401/66_8.html",
+    "https://ko.wikisource.org/wiki/%EC%A0%80%EC%9E%90:%EC%9C%A4%EB%8F%99%EC%A3%BC"
+   ],
+   "added": "2026-11-21"
+  },
+  {
+   "mood": "angry",
+   "text": "화로 시작한 일은 부끄러움으로 끝난다.",
+   "orig": "Whatever is begun in anger, ends in shame.",
+   "translator": "금로동 옮김",
+   "writer": "벤저민 프랭클린",
+   "work": "가난한 리처드의 달력(Poor Richard's Almanack)",
+   "year": 1734,
+   "kind": "잠언",
+   "dose": "화가 난 채로 시작하려던 일은 한 시간만 미뤄 두세요. 부끄러움을 아끼는 법입니다.",
+   "sources": [
+    "https://founders.archives.gov/documents/Franklin/01-01-02-0107",
+    "https://en.wikiquote.org/wiki/Poor_Richard%27s_Almanack"
+   ],
+   "added": "2026-11-21"
+  },
+  {
+   "mood": "flutter",
+   "text": "내가 당신을 얼마나 사랑하느냐고요? 하나씩 세어 볼게요.",
+   "orig": "How do I love thee? Let me count the ways.",
+   "translator": "금로동 옮김",
+   "writer": "엘리자베스 배럿 브라우닝",
+   "work": "포르투갈 소네트 43",
+   "year": 1850,
+   "kind": "시",
+   "dose": "설레는 이유를 하나씩 손꼽아 보세요. 셀수록 마음이 또렷해집니다.",
+   "sources": [
+    "https://www.poetryfoundation.org/poems-and-poets/poems/detail/43742",
+    "https://rpo.library.utoronto.ca/poems/sonnets-portuguese-43-how-do-i-love-thee"
+   ],
+   "added": "2026-11-21"
+  },
+  {
+   "mood": "blank",
+   "text": "난 아무도 아니에요! 당신은 누구죠? 당신도 아무도 아닌가요?",
+   "orig": "I'm Nobody! Who are you? / Are you – Nobody – too?",
+   "translator": "금로동 옮김",
+   "writer": "에밀리 디킨슨",
+   "work": "난 아무도 아니에요! 당신은 누구죠?(260)",
+   "year": "1861년 무렵",
+   "kind": "시",
+   "dose": "아무것도 아닌 기분인 날, 그건 아무도 아닐 자유이기도 해요. 오늘은 이름 없이 쉬세요.",
+   "sources": [
+    "https://poets.org/poem/im-nobody-who-are-you-260",
+    "https://emilydickinsonmuseum.org/roomitem/im-nobody-who-are-you"
+   ],
+   "added": "2026-11-21"
   }
  ]
 }

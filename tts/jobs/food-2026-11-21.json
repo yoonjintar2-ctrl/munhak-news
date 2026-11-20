@@ -1,0 +1,112 @@
+{
+ "name": "food-2026-11-21",
+ "mode": "clone",
+ "ref_audio": "out/casual1/E_think.wav",
+ "ref_text": "음… 그럼 데이터센터는 이제 못 짓는 건가?",
+ "gen": {
+  "temperature": 0.75,
+  "top_p": 0.9
+ },
+ "reload_every": 4,
+ "retries": 4,
+ "items": [
+  {
+   "id": "food_00_t0",
+   "text": "백석의 시 국수, 눈 오는 겨울밤 온 마을이 반긴 그 음식 이야기예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_00_t1",
+   "text": "백석의 시 국수, 눈 오는 겨울밤 온 마을이 반긴 그 음식 이야기예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_01_t0",
+   "text": "눈이 많이 내린 평안도 산골 마을, 시인은 묻습니다. 아, 이 반가운 것은 무엇인가. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_01_t1",
+   "text": "눈이 많이 내린 평안도 산골 마을, 시인은 묻습니다. 아, 이 반가운 것은 무엇인가. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_02_t0",
+   "text": "이름도 말하지 않고, 수수하고 심심한 그 맛을 마을과 이웃의 이야기로 그려 내죠. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_02_t1",
+   "text": "이름도 말하지 않고, 수수하고 심심한 그 맛을 마을과 이웃의 이야기로 그려 내죠. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_03_t0",
+   "text": "답은 제목에 있어요. 겨울밤 온 동네가 나눠 먹던 메밀국수. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_03_t1",
+   "text": "답은 제목에 있어요. 겨울밤 온 동네가 나눠 먹던 메밀국수. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_04_t0",
+   "text": "천팔백사십구 년 무렵의 동국세시기는 냉면을 십일 월 음식으로 적었어요. 메밀국수를 김치 국물에 말고 돼지고기를 얹는다고요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_04_t1",
+   "text": "천팔백사십구 년 무렵의 동국세시기는 냉면을 십일 월 음식으로 적었어요. 메밀국수를 김치 국물에 말고 돼지고기를 얹는다고요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_05_t0",
+   "text": "냉면은 원래 김칫독에 살얼음이 끼는 한겨울 음식이었던 거죠. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_05_t1",
+   "text": "냉면은 원래 김칫독에 살얼음이 끼는 한겨울 음식이었던 거죠. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_06_t0",
+   "text": "오늘 문학늬우스에서 국수 이야기를 더 만나 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_06_t1",
+   "text": "오늘 문학늬우스에서 국수 이야기를 더 만나 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  }
+ ]
+}
