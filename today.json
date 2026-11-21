@@ -304,35 +304,44 @@
   ]
  },
  "man": {
-  "kind": "특수부대",
-  "name": "대한민국 해군 특수전전단 (UDT/SEAL)",
-  "sub": "대한민국 해군 · 1955년 창설",
+  "kind": "격투가",
+  "name": "무하마드 알리",
+  "sub": "권투 · 미국 루이빌 1942 – 2016",
   "img": "img/2026-11-21-man.jpg",
   "video": "img/2026-11-21-man.mp4",
-  "alt": "새벽 바다, 잠수복 차림의 대원 둘이 고무보트를 타고 흰 물보라를 가르며 달린다. 하늘에는 갈매기가 난다(AI 삽화, 실제 인물 아님)",
+  "alt": "밤의 야외 경기장, 링 한가운데서 두 주먹을 번쩍 든 헤비급 권투 선수의 뒷모습. 양쪽에 조명이 빛나고 관중석이 가득하다(AI 삽화, 실제 인물 아님)",
   "cap": "AI 삽화",
-  "ai": "Two navy frogmen in dark wetsuits carry a black inflatable boat over their heads, running into breaking waves on a sandy beach at dawn, seen from behind at a distance. Seagulls, misty headland. No faces.",
-  "bio": "1955년 해군 수중파괴대(UDT)로 출발했습니다. 바다와 땅을 가리지 않는 특수 작전, 수중 폭발물 처리, 해난 구조를 함께 맡지요. 지원자는 24주에 걸친 기본 훈련을 거치는데, 이 과정에서 절반 이상이 떨어진다고 알려져 있습니다. 바다에서 사람을 구하는 일에 늘 가장 먼저 뛰어드는 부대입니다.",
+  "bio": "1942년 미국 켄터키주 루이빌에서 캐시어스 클레이로 태어나 열두 살에 권투를 시작했습니다. 1964년 스물두 살에 헤비급 챔피언이 된 뒤 이름을 무하마드 알리로 바꾸었지요. 빠른 발과 거침없는 입담으로 링 밖에서도 싸웠고, 헤비급 정상에 세 번 오른 첫 선수로 남았습니다.",
   "feats": [
    {
-    "when": "1955",
-    "text": "해군 수중파괴대로 창설돼 오늘의 특수전전단(UDT/SEAL)으로 이어졌습니다."
+    "when": "1960",
+    "text": "열여덟 살에 로마 올림픽 라이트헤비급 금메달을 따고, 그해 10월 프로로 데뷔했습니다."
    },
    {
-    "when": "2010.3",
-    "text": "천안함 실종자 수색에 나섰던 한주호 준위가 차가운 바다에서 작업하다 순직했습니다."
+    "when": "1964.2.25",
+    "text": "마이애미비치에서 8 대 1로 불리하다던 예상을 뒤집고 소니 리스턴을 꺾어 세계 헤비급 챔피언이 됐습니다."
    },
    {
-    "when": "2011.1",
-    "text": "'아덴만 여명 작전'으로 해적에게 붙잡힌 삼호주얼리호 선원 21명을 모두 구출했습니다."
+    "when": "1974.10.30",
+    "text": "자이르(지금의 콩고민주공화국) 킨샤사의 '정글의 혈투'. 로프에 기대 버티는 작전으로 무패의 조지 포먼을 8회에 눕히고 왕좌를 되찾았습니다."
+   },
+   {
+    "when": "1996",
+    "text": "애틀랜타 올림픽 개막식에서 성화대에 불을 붙였습니다."
    }
   ],
+  "quote": "나비처럼 날아서 벌처럼 쏜다.",
+  "quote_by": "1964년 리스턴과의 경기를 앞두고 외친 구호. 코너맨 드루 '번디니' 브라운이 함께 지었다고 전합니다(금로동 옮김)",
   "sources": [
-   "https://en.wikipedia.org/wiki/Republic_of_Korea_Navy_UDT/SEAL",
-   "https://www.newdaily.co.kr/site/data/html/2011/01/23/2011012300041.html",
-   "https://www.segye.com/newsView/20110123001114",
-   "https://www.newdaily.co.kr/site/data/html/2011/01/23/2011012300061.amp.html"
-  ]
+   "https://www.history.com/articles/muhammad-ali",
+   "https://www.biography.com/athlete/muhammad-ali",
+   "https://www.history.com/this-day-in-history/2/25",
+   "https://www.aol.com/articles/day-history-muhammad-ali-takes-105627016.html",
+   "https://www.history.com/topics/sports/muhammad-ali",
+   "https://en.wikipedia.org/wiki/Drew_Bundini_Brown",
+   "https://en.wikipedia.org/wiki/Muhammad_Ali"
+  ],
+  "ai": "A heavyweight boxer seen from behind raising both gloved fists in a night ring, crowd, ring lights. No faces."
  },
  "food": {
   "name": "메밀국수",
