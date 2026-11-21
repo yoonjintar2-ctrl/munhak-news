@@ -48,6 +48,10 @@ def main(date):
     src = f"drafts/{date}.json"
     if not os.path.exists(src):
         sys.exit(f"초안 없음: {src}")
+    # 11/21 발행인 "모든 코너 중복 절대 금지" — 발행 직전에 한 번 더 검사(겹치면 경고, 보고에 꼭 적을 것)
+    import subprocess
+    r = subprocess.run([sys.executable, "scripts/check_dupes.py", date], capture_output=True, text=True)
+    print(r.stdout.strip())
     D = attach_audio(load(src))
     save("today.json", D)
     save(f"archive/{date}.json", D)
