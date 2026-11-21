@@ -613,14 +613,5 @@
     "clue": "말과 글로 된 예술"
    }
   ]
- },
- "audio": {
-  "classic": "audio/2026-11-19-classic.mp3",
-  "day": "audio/2026-11-19-day.mp3",
-  "modern": "audio/2026-11-19-modern.mp3",
-  "novel": "audio/2026-11-19-novel.mp3",
-  "poem": "audio/2026-11-19-poem.mp3",
-  "sentence": "audio/2026-11-19-sentence.mp3",
-  "writer": "audio/2026-11-19-writer.mp3"
  }
 }
