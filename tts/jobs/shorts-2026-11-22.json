@@ -1,0 +1,1036 @@
+{
+ "name": "shorts-2026-11-22",
+ "mode": "clone",
+ "ref_audio": "out/casual1/E_think.wav",
+ "ref_text": "음… 그럼 데이터센터는 이제 못 짓는 건가?",
+ "gen": {
+  "temperature": 0.75,
+  "top_p": 0.9
+ },
+ "reload_every": 4,
+ "retries": 4,
+ "items": [
+  {
+   "id": "open_00_t0",
+   "text": "일 분 만에 떠먹여 주는, 일 분 문학! 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "open_00_t1",
+   "text": "일 분 만에 떠먹여 주는, 일 분 문학! 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_00_t0",
+   "text": "천구백삼십이 년, 김동인. 아이가 자기를 닮았다고 믿고 싶은 한 남자와 그 마음을 알아 버린 의사 친구의 이야기예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_00_t1",
+   "text": "천구백삼십이 년, 김동인. 아이가 자기를 닮았다고 믿고 싶은 한 남자와 그 마음을 알아 버린 의사 친구의 이야기예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_01_t0",
+   "text": "이야기를 들려주는 나는 의사입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_01_t1",
+   "text": "이야기를 들려주는 나는 의사입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_02_t0",
+   "text": "그에게는 M이라는 오랜 친구가 있지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_02_t1",
+   "text": "그에게는 M이라는 오랜 친구가 있지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_03_t0",
+   "text": "M은 서른둘이 되도록 장가를 들지 않은 노총각입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_03_t1",
+   "text": "M은 서른둘이 되도록 장가를 들지 않은 노총각입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_04_t0",
+   "text": "넉넉지 않은 월급쟁이로 근근이 살면서도, 젊은 시절부터 술집과 유곽을 떠돌며 방탕하게 지냈습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_04_t1",
+   "text": "넉넉지 않은 월급쟁이로 근근이 살면서도, 젊은 시절부터 술집과 유곽을 떠돌며 방탕하게 지냈습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_05_t0",
+   "text": "그 탓에 몹쓸 병도 여러 차례 앓았지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_05_t1",
+   "text": "그 탓에 몹쓸 병도 여러 차례 앓았지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_06_t0",
+   "text": "의사인 나는 그런 M의 몸을 누구보다 잘 압니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_06_t1",
+   "text": "의사인 나는 그런 M의 몸을 누구보다 잘 압니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_07_t0",
+   "text": "오랜 방탕과 병치레 끝에 M에게는 아이를 볼 능력이 거의 남아 있지 않으리라는 것을, 나는 의학의 눈으로 짐작하고 있었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_07_t1",
+   "text": "오랜 방탕과 병치레 끝에 M에게는 아이를 볼 능력이 거의 남아 있지 않으리라는 것을, 나는 의학의 눈으로 짐작하고 있었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_08_t0",
+   "text": "M 자신도 어렴풋이 눈치챘는지, 혼인 이야기만 나오면 이리저리 말을 돌렸지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_08_t1",
+   "text": "M 자신도 어렴풋이 눈치챘는지, 혼인 이야기만 나오면 이리저리 말을 돌렸지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_09_t0",
+   "text": "그런 M이 어느 날 불쑥 장가를 듭니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_09_t1",
+   "text": "그런 M이 어느 날 불쑥 장가를 듭니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_10_t0",
+   "text": "주변 사람들은 반가워했지만 나의 마음은 개운치 않았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_10_t1",
+   "text": "주변 사람들은 반가워했지만 나의 마음은 개운치 않았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_11_t0",
+   "text": "친구가 무엇을 알고, 무엇을 모른 척하며 이 결혼을 택했는지 나로서는 헤아릴 길이 없었기 때문이지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_11_t1",
+   "text": "친구가 무엇을 알고, 무엇을 모른 척하며 이 결혼을 택했는지 나로서는 헤아릴 길이 없었기 때문이지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_12_t0",
+   "text": "혼례 날 나는 축하 인사를 건네면서도, 신랑의 얼굴을 오래 살폈습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_12_t1",
+   "text": "혼례 날 나는 축하 인사를 건네면서도, 신랑의 얼굴을 오래 살폈습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_13_t0",
+   "text": "얼마 지나지 않아 M의 아내가 아이를 가졌다는 소식이 들려옵니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_13_t1",
+   "text": "얼마 지나지 않아 M의 아내가 아이를 가졌다는 소식이 들려옵니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_14_t0",
+   "text": "모두가 축하했지만 나는 마음이 무거웠습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_14_t1",
+   "text": "모두가 축하했지만 나는 마음이 무거웠습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_15_t0",
+   "text": "의사로서 아는 사실과 친구로서 바라는 마음이 서로 부딪쳤으니까요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_15_t1",
+   "text": "의사로서 아는 사실과 친구로서 바라는 마음이 서로 부딪쳤으니까요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_16_t0",
+   "text": "M 역시 기쁜 얼굴만은 아니었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_16_t1",
+   "text": "M 역시 기쁜 얼굴만은 아니었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_17_t0",
+   "text": "그는 자기 몸에 대해 무언가 묻고 싶어 하면서도, 끝내 정면으로 묻지 못한 채 나의 병원 문 앞을 서성였습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_17_t1",
+   "text": "그는 자기 몸에 대해 무언가 묻고 싶어 하면서도, 끝내 정면으로 묻지 못한 채 나의 병원 문 앞을 서성였습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_18_t0",
+   "text": "드디어 아이가 태어납니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_18_t1",
+   "text": "드디어 아이가 태어납니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_19_t0",
+   "text": "얼마 뒤 M은 갓난아이를 안고 나의 병원을 찾아오지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_19_t1",
+   "text": "얼마 뒤 M은 갓난아이를 안고 나의 병원을 찾아오지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_20_t0",
+   "text": "그의 얼굴에는 기쁨과 불안이 뒤섞여 있었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_20_t1",
+   "text": "그의 얼굴에는 기쁨과 불안이 뒤섞여 있었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_21_t0",
+   "text": "M은 아이의 작은 발을 내밀어 보이며, 이 아이가 자기를 닮았다고 말합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_21_t1",
+   "text": "M은 아이의 작은 발을 내밀어 보이며, 이 아이가 자기를 닮았다고 말합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_22_t0",
+   "text": "다른 데는 몰라도 발가락이 꼭 제 발가락이라는 것이지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_22_t1",
+   "text": "다른 데는 몰라도 발가락이 꼭 제 발가락이라는 것이지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_23_t0",
+   "text": "가운뎃발가락이 다른 발가락보다 긴 것까지 똑같다면서요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_23_t1",
+   "text": "가운뎃발가락이 다른 발가락보다 긴 것까지 똑같다면서요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_24_t0",
+   "text": "M은 나의 얼굴을 뚫어지게 바라봅니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_24_t1",
+   "text": "M은 나의 얼굴을 뚫어지게 바라봅니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_25_t0",
+   "text": "의사 친구의 입에서 그렇다는 한마디를 듣고 싶은 눈빛이었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_25_t1",
+   "text": "의사 친구의 입에서 그렇다는 한마디를 듣고 싶은 눈빛이었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_26_t0",
+   "text": "나는 그 눈빛에서 친구가 얼마나 오래 이 의심과 홀로 싸워 왔는지, 얼마나 간절히 이 아이를 제 아이로 믿고 싶어 하는지를 읽습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_26_t1",
+   "text": "나는 그 눈빛에서 친구가 얼마나 오래 이 의심과 홀로 싸워 왔는지, 얼마나 간절히 이 아이를 제 아이로 믿고 싶어 하는지를 읽습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_27_t0",
+   "text": "의학이 아는 사실과 친구가 붙잡은 희망 사이에서, 나는 무슨 말을 해야 할지 망설입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_27_t1",
+   "text": "의학이 아는 사실과 친구가 붙잡은 희망 사이에서, 나는 무슨 말을 해야 할지 망설입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_28_t0",
+   "text": "나는 M이 내민 아이의 발을 한참 들여다보다가, 발가락뿐 아니라 얼굴도 닮은 데가 있다고 말해 줍니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_28_t1",
+   "text": "나는 M이 내민 아이의 발을 한참 들여다보다가, 발가락뿐 아니라 얼굴도 닮은 데가 있다고 말해 줍니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_29_t0",
+   "text": "그러고는 M의 눈길을 슬며시 피하지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_29_t1",
+   "text": "그러고는 M의 눈길을 슬며시 피하지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_30_t0",
+   "text": "사실보다 친구의 마음을 지켜 주기로 한 것입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_30_t1",
+   "text": "사실보다 친구의 마음을 지켜 주기로 한 것입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_31_t0",
+   "text": "거짓인 줄 알면서 건넨 그 한마디로, 쓸쓸하고도 따뜻한 이야기는 막을 내립니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_31_t1",
+   "text": "거짓인 줄 알면서 건넨 그 한마디로, 쓸쓸하고도 따뜻한 이야기는 막을 내립니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_32_t0",
+   "text": "사실보다 마음을 지켜 준 거짓말 하나가, 오래도록 따뜻하게 남는 이야기였어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_32_t1",
+   "text": "사실보다 마음을 지켜 준 거짓말 하나가, 오래도록 따뜻하게 남는 이야기였어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_33_t0",
+   "text": "오늘 문학늬우스 지면에는 윤흥길 장마의 마지막 다섯 글자와 천구백팔 년 런던 올림픽에서 쓰러지고도 사랑받은 마라토너 이야기도 실려 있어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_33_t1",
+   "text": "오늘 문학늬우스 지면에는 윤흥길 장마의 마지막 다섯 글자와 천구백팔 년 런던 올림픽에서 쓰러지고도 사랑받은 마라토너 이야기도 실려 있어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_34_t0",
+   "text": "영상 아래 링크로 가볍게 놀러 오세요. 고맙습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_34_t1",
+   "text": "영상 아래 링크로 가볍게 놀러 오세요. 고맙습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_tz_t0",
+   "text": "뒷이야기와 결말까지, 전체 영상에서 이어서 들어 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_tz_t1",
+   "text": "뒷이야기와 결말까지, 전체 영상에서 이어서 들어 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_00_t0",
+   "text": "천구백구십이 년, 박완서. 싱아를 씹으며 자란 시골 아이가 작가가 되기로 마음먹기까지, 소설로 그린 자화상이에요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_00_t1",
+   "text": "천구백구십이 년, 박완서. 싱아를 씹으며 자란 시골 아이가 작가가 되기로 마음먹기까지, 소설로 그린 자화상이에요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_01_t0",
+   "text": "개성에서 멀지 않은 시골 마을 박적골. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_01_t1",
+   "text": "개성에서 멀지 않은 시골 마을 박적골. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_02_t0",
+   "text": "나는 할아버지, 할머니의 사랑을 받으며 산과 들을 쏘다니는 아이입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_02_t1",
+   "text": "나는 할아버지, 할머니의 사랑을 받으며 산과 들을 쏘다니는 아이입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_03_t0",
+   "text": "출출하면 들판에 지천인 싱아를 꺾어 껍질을 벗기고 새콤한 줄기를 씹었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_03_t1",
+   "text": "출출하면 들판에 지천인 싱아를 꺾어 껍질을 벗기고 새콤한 줄기를 씹었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_04_t0",
+   "text": "아버지는 나가 아주 어릴 때 병을 제때 고치지 못해 세상을 떠났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_04_t1",
+   "text": "아버지는 나가 아주 어릴 때 병을 제때 고치지 못해 세상을 떠났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_05_t0",
+   "text": "엄마는 시골에서는 아이들을 제대로 키울 수 없다고 믿습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_05_t1",
+   "text": "엄마는 시골에서는 아이들을 제대로 키울 수 없다고 믿습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_06_t0",
+   "text": "먼저 오빠를 데리고 서울로 올라간 엄마는 얼마 뒤 나마저 데려가지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_06_t1",
+   "text": "먼저 오빠를 데리고 서울로 올라간 엄마는 얼마 뒤 나마저 데려가지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_07_t0",
+   "text": "엄마의 꿈은 딸을 서울에서 공부시켜 신여성으로 만드는 것이었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_07_t1",
+   "text": "엄마의 꿈은 딸을 서울에서 공부시켜 신여성으로 만드는 것이었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_08_t0",
+   "text": "정든 박적골을 떠나던 날, 아이는 그것이 어떤 이별인지 다 알지 못했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_08_t1",
+   "text": "정든 박적골을 떠나던 날, 아이는 그것이 어떤 이별인지 다 알지 못했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_09_t0",
+   "text": "서울은 성문 밖 문밖과 성안 문안으로 나뉜 낯선 세계였습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_09_t1",
+   "text": "서울은 성문 밖 문밖과 성안 문안으로 나뉜 낯선 세계였습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_10_t0",
+   "text": "서울 살림은 고개 꼭대기 동네 현저동의 비좁은 셋방에서 시작됩니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_10_t1",
+   "text": "서울 살림은 고개 꼭대기 동네 현저동의 비좁은 셋방에서 시작됩니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_11_t0",
+   "text": "엄마는 바느질삯으로 살림을 꾸리고, 나는 문안의 학교까지 먼 길을 오갑니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_11_t1",
+   "text": "엄마는 바느질삯으로 살림을 꾸리고, 나는 문안의 학교까지 먼 길을 오갑니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_12_t0",
+   "text": "낯선 도시에서 아이는 고향 들판이 그리워 산비탈을 헤매며 싱아를 찾지만, 서울 어디에도 싱아는 없었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_12_t1",
+   "text": "낯선 도시에서 아이는 고향 들판이 그리워 산비탈을 헤매며 싱아를 찾지만, 서울 어디에도 싱아는 없었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_13_t0",
+   "text": "엄마는 딸이 언젠가 번듯한 문안 사람이 되기를 바라며 허리띠를 졸라맸습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_13_t1",
+   "text": "엄마는 딸이 언젠가 번듯한 문안 사람이 되기를 바라며 허리띠를 졸라맸습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_14_t0",
+   "text": "세월이 흘러 나는 숙명고녀에 들어가고 해방을 맞습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_14_t1",
+   "text": "세월이 흘러 나는 숙명고녀에 들어가고 해방을 맞습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_15_t0",
+   "text": "해방 뒤의 서울은 좌익과 우익으로 갈려 어수선했고, 오빠도 한때 좌익 운동에 몸담았다가 돌아섭니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_15_t1",
+   "text": "해방 뒤의 서울은 좌익과 우익으로 갈려 어수선했고, 오빠도 한때 좌익 운동에 몸담았다가 돌아섭니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_16_t0",
+   "text": "천구백오십 년, 나는 꿈에 그리던 서울대학교 국문과에 들어가지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_16_t1",
+   "text": "천구백오십 년, 나는 꿈에 그리던 서울대학교 국문과에 들어가지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_17_t0",
+   "text": "그러나 그 기쁨은 오래가지 못했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_17_t1",
+   "text": "그러나 그 기쁨은 오래가지 못했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_18_t0",
+   "text": "그해 육 월 전쟁이 터지고, 서울은 몇 번이고 주인이 바뀝니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_18_t1",
+   "text": "그해 육 월 전쟁이 터지고, 서울은 몇 번이고 주인이 바뀝니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_19_t0",
+   "text": "인민군이 들어왔을 때도, 국군이 돌아왔을 때도, 오빠의 지난 이력은 식구들의 목을 죄는 올가미가 되지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_19_t1",
+   "text": "인민군이 들어왔을 때도, 국군이 돌아왔을 때도, 오빠의 지난 이력은 식구들의 목을 죄는 올가미가 되지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_20_t0",
+   "text": "살아남기 위해 나는 이리저리 불려 다니며 모멸을 견딥니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_20_t1",
+   "text": "살아남기 위해 나는 이리저리 불려 다니며 모멸을 견딥니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_21_t0",
+   "text": "어제의 이웃이 오늘의 고발자가 되는 날들이었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_21_t1",
+   "text": "어제의 이웃이 오늘의 고발자가 되는 날들이었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_22_t0",
+   "text": "그 와중에 오빠는 크게 다쳐 몸을 제대로 움직이지 못하게 됩니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_22_t1",
+   "text": "그 와중에 오빠는 크게 다쳐 몸을 제대로 움직이지 못하게 됩니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_23_t0",
+   "text": "천구백오십일 년 일 월, 중공군이 내려온다는 소식에 서울 사람들은 앞다투어 남쪽으로 피난을 떠납니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_23_t1",
+   "text": "천구백오십일 년 일 월, 중공군이 내려온다는 소식에 서울 사람들은 앞다투어 남쪽으로 피난을 떠납니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_24_t0",
+   "text": "그러나 나의 식구들은 떠날 수가 없었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_24_t1",
+   "text": "그러나 나의 식구들은 떠날 수가 없었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_25_t0",
+   "text": "다친 오빠를 데리고는 먼 길을 갈 수 없었으니까요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_25_t1",
+   "text": "다친 오빠를 데리고는 먼 길을 갈 수 없었으니까요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_26_t0",
+   "text": "사람들이 하나둘 빠져나간 서울에, 그들만 남겨집니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_26_t1",
+   "text": "사람들이 하나둘 빠져나간 서울에, 그들만 남겨집니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_27_t0",
+   "text": "겨울바람만 골목을 휩쓸고 지나갔지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_27_t1",
+   "text": "겨울바람만 골목을 휩쓸고 지나갔지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_28_t0",
+   "text": "식구들은 사람이 모두 빠져나간 현저동 꼭대기의 빈집으로 숨어듭니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_28_t1",
+   "text": "식구들은 사람이 모두 빠져나간 현저동 꼭대기의 빈집으로 숨어듭니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_29_t0",
+   "text": "인적 끊긴 서울을 내려다보며 나는 무서울 만큼 텅 빈 도시 앞에서 이상한 예감에 사로잡히지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_29_t1",
+   "text": "인적 끊긴 서울을 내려다보며 나는 무서울 만큼 텅 빈 도시 앞에서 이상한 예감에 사로잡히지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_30_t0",
+   "text": "언젠가 이 모든 것을 증언해야 한다, 글로 쓰리라는 예감입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_30_t1",
+   "text": "언젠가 이 모든 것을 증언해야 한다, 글로 쓰리라는 예감입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_31_t0",
+   "text": "그 다짐이 훗날의 작가를 낳았다는 듯, 소설은 거기서 끝납니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_31_t1",
+   "text": "그 다짐이 훗날의 작가를 낳았다는 듯, 소설은 거기서 끝납니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_32_t0",
+   "text": "사라진 싱아처럼 사라진 고향과 시대를, 한 사람의 기억이 끝내 붙잡아 두었어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_32_t1",
+   "text": "사라진 싱아처럼 사라진 고향과 시대를, 한 사람의 기억이 끝내 붙잡아 두었어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_33_t0",
+   "text": "오늘 문학늬우스 지면에는 고려 시인 정지상의 대동강 이별 노래와 올리버 트위스트의 묽은 죽 한 그릇도 실려 있어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_33_t1",
+   "text": "오늘 문학늬우스 지면에는 고려 시인 정지상의 대동강 이별 노래와 올리버 트위스트의 묽은 죽 한 그릇도 실려 있어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_34_t0",
+   "text": "영상 아래 링크로 가볍게 놀러 오세요. 고맙습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_34_t1",
+   "text": "영상 아래 링크로 가볍게 놀러 오세요. 고맙습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_tz_t0",
+   "text": "뒷이야기와 결말까지, 전체 영상에서 이어서 들어 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_tz_t1",
+   "text": "뒷이야기와 결말까지, 전체 영상에서 이어서 들어 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  }
+ ]
+}
