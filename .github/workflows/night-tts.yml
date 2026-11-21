@@ -1,0 +1,134 @@
+# 맥 없이 밤사이 음성·삽화 만들기 (발행인 11/21 "맥북 없이도 작업 가능하도록, 음성 퀄리티는 최대한 유지")
+# 매일 22:20 KST(13:20 UTC) 자동 — 내일 호(D)의 tts/jobs/{shorts,food,mnews}-D.json 을 CPU 러너 여러 대로 나눠 만든 뒤
+# 결과(wav)를 고아 브랜치 tts-out 에 out/<작업 이름>/ 로 올린다. 05:10 수집 작업은 맥 대신 이 브랜치를 받는다.
+# 손으로: Actions → night-tts → Run workflow (date·jobs·shards 지정, 다시 읽기 fix 작업도 jobs 에 이름만 넣으면 됨)
+name: night-tts
+on:
+  schedule:
+    - cron: '20 13 * * *'
+  workflow_dispatch:
+    inputs:
+      date: {description: 'D (비우면 내일 KST)', required: false, default: ''}
+      jobs: {description: '작업 이름들(공백 구분, D 붙은 tts/jobs 파일 이름 앞부분)', required: false, default: 'shorts food mnews'}
+      shards: {description: '나눌 러너 수', required: false, default: '18'}
+      limit: {description: '러너당 최대 문장(시험용, 0=전부)', required: false, default: '0'}
+      images: {description: '삽화도 만들기(1/0)', required: false, default: '1'}
+permissions:
+  contents: write
+concurrency: {group: night-tts, cancel-in-progress: false}
+jobs:
+  prep:
+    runs-on: ubuntu-latest
+    outputs:
+      D: ${{ steps.p.outputs.D }}
+      shards: ${{ steps.p.outputs.shards }}
+      imgs: ${{ steps.p.outputs.imgs }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: p
+        run: |
+          D="${{ github.event.inputs.date }}"; [ -z "$D" ] && D=$(TZ=Asia/Seoul date -d tomorrow +%F)
+          JOBS="${{ github.event.inputs.jobs }}"; [ -z "$JOBS" ] && JOBS="shorts food mnews"
+          N="${{ github.event.inputs.shards }}"; [ -z "$N" ] && N=18
+          IM="${{ github.event.inputs.images }}"; [ -z "$IM" ] && IM=1
+          mkdir -p work
+          # 초안이 늦으면 최대 40분 기다림
+          for t in $(seq 1 40); do git pull -q origin main || true; [ -f tts/jobs/shorts-$D.json ] && break; sleep 60; done
+          python3 - "$D" $JOBS <<'PY'
+          import json, sys, os
+          D, names = sys.argv[1], sys.argv[2:]
+          for n in names:
+              p = n if n.endswith('.json') else f'tts/jobs/{n}-{D}.json'   # 다시 읽기: 'tts/jobs/shorts-D-fix.json' 처럼 경로째로
+              n = os.path.basename(p)[:-5].replace(f'-{D}', '')
+              if not os.path.exists(p): print('없음', p); continue
+              J = json.load(open(p, encoding='utf-8'))
+              if n == 'mnews':   # 1분 고전·현대는 shorts 작업이 같은 문장을 만든다(아침 site_audio 가 그걸 씀)
+                  J['items'] = [i for i in J['items'] if i['id'].split('_')[0] not in ('classic', 'modern')]
+              json.dump(J, open(f'work/{n}-{D}.json', 'w'), ensure_ascii=False)  # 결과 폴더는 J['name']
+              print(n, len(J['items']))
+          PY
+          IMGS='[]'
+          if [ "$IM" = "1" ] && [ -f drafts/$D.json ]; then
+            python3 scripts/img/img_job.py drafts/$D.json work >/dev/null 2>&1 || true
+            [ -f work/zz-img-$D.json ] && IMGS=$(python3 -c "import json;J=json.load(open('work/zz-img-$D.json'));print(json.dumps([i['id'] for i in J['items']]))")
+          fi
+          echo "D=$D" >> $GITHUB_OUTPUT
+          echo "shards=$(python3 -c "print(list(range($N)))")" >> $GITHUB_OUTPUT
+          echo "imgs=$IMGS" >> $GITHUB_OUTPUT
+      - uses: actions/upload-artifact@v4
+        with: {name: work, path: work/, retention-days: 2}
+
+  tts:
+    needs: prep
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    strategy:
+      fail-fast: false
+      matrix: {shard: '${{ fromJson(needs.prep.outputs.shards) }}'}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: {name: work, path: work}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - uses: actions/cache@v4
+        with: {path: ~/.cache/pip, key: pip-qtts-1}
+      - uses: actions/cache@v4
+        with: {path: ~/.cache/huggingface, key: hf-qwen3-tts-1.7b-base-1}
+      - run: |
+          sudo apt-get -qq update && sudo apt-get -qq install -y sox libsox-fmt-all >/dev/null || true
+          pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+          pip install -q qwen-tts==0.1.1 librosa soundfile
+      - run: |
+          ls work/*.json | grep -v zz-img > jl.txt || true
+          N=${{ strategy.job-total }}
+          python3 scripts/cloud/tts_run.py $(cat jl.txt) --shard ${{ matrix.shard }}/$N --out out --limit ${{ github.event.inputs.limit || 0 }}
+      - uses: actions/upload-artifact@v4
+        with: {name: 'out-${{ matrix.shard }}', path: out/, retention-days: 2, if-no-files-found: ignore}
+
+  img:
+    needs: prep
+    if: needs.prep.outputs.imgs != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      matrix: {id: '${{ fromJson(needs.prep.outputs.imgs) }}'}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: {name: work, path: work}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - uses: actions/cache@v4
+        with: {path: ~/.cache/pip, key: pip-img-1}
+      - uses: actions/cache@v4
+        with: {path: ~/.cache/huggingface, key: hf-sdxl-lightning-1}
+      - run: |
+          pip install -q torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -q diffusers==0.35.2 transformers accelerate safetensors
+      - run: python3 scripts/cloud/img_run.py work/zz-img-${{ needs.prep.outputs.D }}.json "${{ matrix.id }}" out
+      - uses: actions/upload-artifact@v4
+        with: {name: 'img-${{ strategy.job-index }}', path: out/, retention-days: 2, if-no-files-found: ignore}
+
+  merge:
+    needs: [prep, tts, img]
+    if: always() && needs.prep.result == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with: {path: art}
+      - run: |
+          D=${{ needs.prep.outputs.D }}
+          R="https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
+          # 같은 날짜 결과가 이미 있으면(다시 읽기 fix 등) 그 위에 보탠다
+          if git clone -q --depth 1 -b tts-out "$R" old 2>/dev/null && [ "$(cat old/DATE 2>/dev/null)" = "$D" ]; then mkdir -p tree && cp -r old/out tree/; fi
+          mkdir -p tree/out
+          for d in art/out-* art/img-*; do [ -d "$d" ] && cp -r "$d"/. tree/out/; done
+          for n in tree/out/*/; do date -u +%T > "$n/DONE"; done
+          mkdir -p tree/jobs && cp -r art/work/. tree/jobs/ 2>/dev/null || true
+          cd tree && git init -q && git checkout -q --orphan tts-out
+          echo "$D" > DATE
+          git add . && git -c user.name=night-tts -c user.email=night-tts@users.noreply.github.com commit -qm "night-tts $D"
+          git push -qf "$R" tts-out
+          find out -name '*.wav' | wc -l; find out -name '*.png' | wc -l
