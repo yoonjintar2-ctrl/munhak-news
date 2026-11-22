@@ -1,0 +1,980 @@
+{
+ "name": "shorts-2026-11-23",
+ "mode": "clone",
+ "ref_audio": "out/casual1/E_think.wav",
+ "ref_text": "음… 그럼 데이터센터는 이제 못 짓는 건가?",
+ "gen": {
+  "temperature": 0.75,
+  "top_p": 0.9
+ },
+ "reload_every": 4,
+ "retries": 4,
+ "items": [
+  {
+   "id": "open_00_t0",
+   "text": "일 분 만에 떠먹여 주는, 일 분 문학! 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "open_00_t1",
+   "text": "일 분 만에 떠먹여 주는, 일 분 문학! 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_00_t0",
+   "text": "천팔백구십구 년, 안톤 체호프. 사랑하는 사람의 생각을 제 생각처럼 품고 사는 여인, 올렌카의 이야기예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_00_t1",
+   "text": "천팔백구십구 년, 안톤 체호프. 사랑하는 사람의 생각을 제 생각처럼 품고 사는 여인, 올렌카의 이야기예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_01_t0",
+   "text": "러시아의 한 작은 도시에 올렌카라는 여인이 삽니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_01_t1",
+   "text": "러시아의 한 작은 도시에 올렌카라는 여인이 삽니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_02_t0",
+   "text": "퇴직한 관리의 딸로, 동그란 얼굴에 마음씨가 고와서 사람들은 그녀를 보면 저도 모르게 귀여운 사람! 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_02_t1",
+   "text": "퇴직한 관리의 딸로, 동그란 얼굴에 마음씨가 고와서 사람들은 그녀를 보면 저도 모르게 귀여운 사람! 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_03_t0",
+   "text": "하고 웃었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_03_t1",
+   "text": "하고 웃었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_04_t0",
+   "text": "다만 그녀에게는 한 가지 버릇이 있었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_04_t1",
+   "text": "다만 그녀에게는 한 가지 버릇이 있었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_05_t0",
+   "text": "누군가를 사랑하지 않고는 하루도 못 산다는 것이었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_05_t1",
+   "text": "누군가를 사랑하지 않고는 하루도 못 산다는 것이었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_06_t0",
+   "text": "첫사랑은 이웃에 사는 극장 주인 쿠킨이었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_06_t1",
+   "text": "첫사랑은 이웃에 사는 극장 주인 쿠킨이었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_07_t0",
+   "text": "그는 야외 유원지에서 공연을 올렸는데, 비만 오면 손님이 들지 않아 날마다 하늘을 원망했지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_07_t1",
+   "text": "그는 야외 유원지에서 공연을 올렸는데, 비만 오면 손님이 들지 않아 날마다 하늘을 원망했지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_08_t0",
+   "text": "올렌카는 그를 가엾게 여기다 사랑하게 되었고, 둘은 결혼합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_08_t1",
+   "text": "올렌카는 그를 가엾게 여기다 사랑하게 되었고, 둘은 결혼합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_09_t0",
+   "text": "그때부터 그녀의 입에서는 우리 극장, 관객들은 예술을 몰라요 같은 남편의 말이 그대로 흘러나왔습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_09_t1",
+   "text": "그때부터 그녀의 입에서는 우리 극장, 관객들은 예술을 몰라요 같은 남편의 말이 그대로 흘러나왔습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_10_t0",
+   "text": "그런데 쿠킨은 배우를 구하러 모스크바에 갔다가 갑자기 세상을 떠납니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_10_t1",
+   "text": "그런데 쿠킨은 배우를 구하러 모스크바에 갔다가 갑자기 세상을 떠납니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_11_t0",
+   "text": "올렌카는 몹시 울었지만, 얼마 뒤 성당에서 돌아오는 길에 목재상 관리인 푸스토발로프를 만나 다시 결혼하지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_11_t1",
+   "text": "올렌카는 몹시 울었지만, 얼마 뒤 성당에서 돌아오는 길에 목재상 관리인 푸스토발로프를 만나 다시 결혼하지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_12_t0",
+   "text": "이제 그녀는 연극 따위는 쓸데없다고 말하고, 하루 종일 목재값과 운임 이야기를 했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_12_t1",
+   "text": "이제 그녀는 연극 따위는 쓸데없다고 말하고, 하루 종일 목재값과 운임 이야기를 했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_13_t0",
+   "text": "남편의 생각이 곧 그녀의 생각이었으니까요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_13_t1",
+   "text": "남편의 생각이 곧 그녀의 생각이었으니까요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_14_t0",
+   "text": "여섯 해의 평온한 날 끝에 푸스토발로프도 병을 앓다 숨을 거둡니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_14_t1",
+   "text": "여섯 해의 평온한 날 끝에 푸스토발로프도 병을 앓다 숨을 거둡니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_15_t0",
+   "text": "홀로 남은 올렌카는 집에 세 든 수의사 스미르닌과 가까워지고, 이번에는 가축 병과 위생 검사 이야기를 입에 달고 살았지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_15_t1",
+   "text": "홀로 남은 올렌카는 집에 세 든 수의사 스미르닌과 가까워지고, 이번에는 가축 병과 위생 검사 이야기를 입에 달고 살았지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_16_t0",
+   "text": "그러나 그가 부대를 따라 멀리 떠나자, 올렌카에게는 정말 아무것도 남지 않았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_16_t1",
+   "text": "그러나 그가 부대를 따라 멀리 떠나자, 올렌카에게는 정말 아무것도 남지 않았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_17_t0",
+   "text": "무엇보다 괴로운 것은 아무 생각이 없다는 것이었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_17_t1",
+   "text": "무엇보다 괴로운 것은 아무 생각이 없다는 것이었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_18_t0",
+   "text": "누가 무엇을 물어도 할 말이 떠오르지 않았지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_18_t1",
+   "text": "누가 무엇을 물어도 할 말이 떠오르지 않았지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_19_t0",
+   "text": "마당에는 풀이 자라고 집은 낡아 갔으며, 그녀도 나이가 들고 야위어 갔습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_19_t1",
+   "text": "마당에는 풀이 자라고 집은 낡아 갔으며, 그녀도 나이가 들고 야위어 갔습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_20_t0",
+   "text": "몇 해 뒤 어느 여름 저녁, 문을 두드린 사람은 머리가 희끗해진 스미르닌이었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_20_t1",
+   "text": "몇 해 뒤 어느 여름 저녁, 문을 두드린 사람은 머리가 희끗해진 스미르닌이었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_21_t0",
+   "text": "그는 군을 그만두고 아내와 열 살 난 아들 사샤를 데리고 이 도시에 자리 잡겠다고 했지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_21_t1",
+   "text": "그는 군을 그만두고 아내와 열 살 난 아들 사샤를 데리고 이 도시에 자리 잡겠다고 했지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_22_t0",
+   "text": "올렌카는 기뻐하며 자기 집을 내주었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_22_t1",
+   "text": "올렌카는 기뻐하며 자기 집을 내주었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_23_t0",
+   "text": "얼마 뒤 사샤의 어머니는 다른 도시의 언니에게 가 버리고 아버지도 날마다 집을 비우자, 아이는 자연스레 올렌카의 차지가 됩니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_23_t1",
+   "text": "얼마 뒤 사샤의 어머니는 다른 도시의 언니에게 가 버리고 아버지도 날마다 집을 비우자, 아이는 자연스레 올렌카의 차지가 됩니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_24_t0",
+   "text": "그녀는 사샤에게 온 마음을 쏟았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_24_t1",
+   "text": "그녀는 사샤에게 온 마음을 쏟았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_25_t0",
+   "text": "이제 그녀의 입에서는 숙제와 선생님 이야기가 흘러나왔지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_25_t1",
+   "text": "이제 그녀의 입에서는 숙제와 선생님 이야기가 흘러나왔지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_26_t0",
+   "text": "밤마다 올렌카는 아이 어머니가 사샤를 데려갈까 봐 두려워합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_26_t1",
+   "text": "밤마다 올렌카는 아이 어머니가 사샤를 데려갈까 봐 두려워합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_27_t0",
+   "text": "어느 밤 대문 두드리는 소리에 전보가 왔나 싶어 떨지만, 클럽에서 돌아온 수의사일 뿐이었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_27_t1",
+   "text": "어느 밤 대문 두드리는 소리에 전보가 왔나 싶어 떨지만, 클럽에서 돌아온 수의사일 뿐이었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_28_t0",
+   "text": "안도한 그녀는 사샤 생각을 하며 다시 잠들고, 옆방의 사샤는 잠결에 중얼거립니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_28_t1",
+   "text": "안도한 그녀는 사샤 생각을 하며 다시 잠들고, 옆방의 사샤는 잠결에 중얼거립니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_29_t0",
+   "text": "혼내 줄 테다! 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_29_t1",
+   "text": "혼내 줄 테다! 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_30_t0",
+   "text": "저리 가! 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_30_t1",
+   "text": "저리 가! 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_31_t0",
+   "text": "덤비지 마! 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_31_t1",
+   "text": "덤비지 마! 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_32_t0",
+   "text": "사랑할 사람이 생긴 그녀의 하루는 그렇게 다시 가득 찹니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_32_t1",
+   "text": "사랑할 사람이 생긴 그녀의 하루는 그렇게 다시 가득 찹니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_33_t0",
+   "text": "누군가를 사랑할 때에만 온전해지는 사람, 그 쓸쓸함과 따뜻함이 오래 남는 이야기였어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_33_t1",
+   "text": "누군가를 사랑할 때에만 온전해지는 사람, 그 쓸쓸함과 따뜻함이 오래 남는 이야기였어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_34_t0",
+   "text": "오늘 문학늬우스 지면에는 편지를 찢은 소년 헉의 한마디와, 외나무다리를 건넌 고등어 한 마리 이야기도 실려 있어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_34_t1",
+   "text": "오늘 문학늬우스 지면에는 편지를 찢은 소년 헉의 한마디와, 외나무다리를 건넌 고등어 한 마리 이야기도 실려 있어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_35_t0",
+   "text": "영상 아래 링크로 가볍게 놀러 오세요. 고맙습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_35_t1",
+   "text": "영상 아래 링크로 가볍게 놀러 오세요. 고맙습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_tz_t0",
+   "text": "뒷이야기와 결말까지, 전체 영상에서 이어서 들어 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_tz_t1",
+   "text": "뒷이야기와 결말까지, 전체 영상에서 이어서 들어 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_00_t0",
+   "text": "이천십육 년, 조남주. 어느 날 남의 목소리로 말하기 시작한 한 여성과, 그녀가 지나온 평범한 날들의 이야기예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_00_t1",
+   "text": "이천십육 년, 조남주. 어느 날 남의 목소리로 말하기 시작한 한 여성과, 그녀가 지나온 평범한 날들의 이야기예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_01_t0",
+   "text": "이천십오 년 가을, 김지영 씨는 남편 정대현 씨, 돌이 지난 딸 지원이와 서울 변두리 아파트에서 삽니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_01_t1",
+   "text": "이천십오 년 가을, 김지영 씨는 남편 정대현 씨, 돌이 지난 딸 지원이와 서울 변두리 아파트에서 삽니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_02_t0",
+   "text": "그런데 어느 날부터 그녀가 이상한 말을 하기 시작하지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_02_t1",
+   "text": "그런데 어느 날부터 그녀가 이상한 말을 하기 시작하지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_03_t0",
+   "text": "친정어머니 말투로 남편을 부르고, 세상을 떠난 대학 선배처럼 말하기도 합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_03_t1",
+   "text": "친정어머니 말투로 남편을 부르고, 세상을 떠난 대학 선배처럼 말하기도 합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_04_t0",
+   "text": "명절에 찾은 시댁에서는 친정어머니가 된 듯 시부모 앞에서 딸 편을 들어 모두를 얼어붙게 했지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_04_t1",
+   "text": "명절에 찾은 시댁에서는 친정어머니가 된 듯 시부모 앞에서 딸 편을 들어 모두를 얼어붙게 했지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_05_t0",
+   "text": "놀란 남편은 아내를 정신과에 데려가고, 의사는 그녀가 지나온 날들을 차근차근 듣습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_05_t1",
+   "text": "놀란 남편은 아내를 정신과에 데려가고, 의사는 그녀가 지나온 날들을 차근차근 듣습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_06_t0",
+   "text": "이야기는 천구백팔십이 년으로 거슬러 올라가지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_06_t1",
+   "text": "이야기는 천구백팔십이 년으로 거슬러 올라가지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_07_t0",
+   "text": "김지영 씨는 서울에서 언니와 남동생 사이에 태어났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_07_t1",
+   "text": "김지영 씨는 서울에서 언니와 남동생 사이에 태어났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_08_t0",
+   "text": "집에서는 귀한 남동생의 몫이 언제나 먼저였고, 자매는 그것을 당연한 일로 알고 자랐지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_08_t1",
+   "text": "집에서는 귀한 남동생의 몫이 언제나 먼저였고, 자매는 그것을 당연한 일로 알고 자랐지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_09_t0",
+   "text": "어머니도 오래전 오빠들 뒷바라지를 하느라 자기 꿈을 접은 사람이었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_09_t1",
+   "text": "어머니도 오래전 오빠들 뒷바라지를 하느라 자기 꿈을 접은 사람이었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_10_t0",
+   "text": "학교에서도 비슷했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_10_t1",
+   "text": "학교에서도 비슷했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_11_t0",
+   "text": "짝꿍 남자아이가 괴롭혀도 선생님은 너를 좋아해서 그런다고 넘겼지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_11_t1",
+   "text": "짝꿍 남자아이가 괴롭혀도 선생님은 너를 좋아해서 그런다고 넘겼지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_12_t0",
+   "text": "고등학생 때는 학원에서 돌아오는 밤 버스에서 낯선 남학생이 따라 내려 겁에 질렸는데, 마중 나온 아버지는 오히려 딸의 늦은 귀가와 옷차림을 나무랐습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_12_t1",
+   "text": "고등학생 때는 학원에서 돌아오는 밤 버스에서 낯선 남학생이 따라 내려 겁에 질렸는데, 마중 나온 아버지는 오히려 딸의 늦은 귀가와 옷차림을 나무랐습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_13_t0",
+   "text": "대학을 마치고 숱하게 원서를 낸 끝에 그녀는 작은 홍보 회사에 들어갑니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_13_t1",
+   "text": "대학을 마치고 숱하게 원서를 낸 끝에 그녀는 작은 홍보 회사에 들어갑니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_14_t0",
+   "text": "누구보다 성실하게 일했지만, 중요한 일을 맡는 팀에는 남자 동기들이 먼저 뽑혔지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_14_t1",
+   "text": "누구보다 성실하게 일했지만, 중요한 일을 맡는 팀에는 남자 동기들이 먼저 뽑혔지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_15_t0",
+   "text": "회사가 오래 데려갈 사람은 결혼과 출산으로 그만두지 않을 사람이라는 말이 공공연했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_15_t1",
+   "text": "회사가 오래 데려갈 사람은 결혼과 출산으로 그만두지 않을 사람이라는 말이 공공연했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_16_t0",
+   "text": "결혼을 하고 아이를 갖자, 결국 일을 그만두는 쪽은 그녀였습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_16_t1",
+   "text": "결혼을 하고 아이를 갖자, 결국 일을 그만두는 쪽은 그녀였습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_17_t0",
+   "text": "남편은 육아를 많이 도와주겠다고 했지만, 그 말이 어쩐지 서운하게 들렸지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_17_t1",
+   "text": "남편은 육아를 많이 도와주겠다고 했지만, 그 말이 어쩐지 서운하게 들렸지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_18_t0",
+   "text": "아이를 키우는 하루하루는 바쁘고, 그녀의 이름은 점점 누구의 엄마로만 불렸습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_18_t1",
+   "text": "아이를 키우는 하루하루는 바쁘고, 그녀의 이름은 점점 누구의 엄마로만 불렸습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_19_t0",
+   "text": "친구들의 승진 소식이 들려올 때면, 그녀는 아이를 재우고 나서야 혼자 오래 앉아 있곤 했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_19_t1",
+   "text": "친구들의 승진 소식이 들려올 때면, 그녀는 아이를 재우고 나서야 혼자 오래 앉아 있곤 했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_20_t0",
+   "text": "그러던 어느 날, 아이를 유모차에 태우고 공원 벤치에서 커피 한 잔을 마시던 김지영 씨는 근처 직장인들이 자기를 두고 수군대는 말을 듣습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_20_t1",
+   "text": "그러던 어느 날, 아이를 유모차에 태우고 공원 벤치에서 커피 한 잔을 마시던 김지영 씨는 근처 직장인들이 자기를 두고 수군대는 말을 듣습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_21_t0",
+   "text": "남편 돈으로 커피나 마시며 논다는, 엄마들을 깎아내리는 말이었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_21_t1",
+   "text": "남편 돈으로 커피나 마시며 논다는, 엄마들을 깎아내리는 말이었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_22_t0",
+   "text": "그녀는 아이를 안고 서둘러 공원을 빠져나왔습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_22_t1",
+   "text": "그녀는 아이를 안고 서둘러 공원을 빠져나왔습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_23_t0",
+   "text": "소설의 마지막은 그녀를 상담한 의사의 기록입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_23_t1",
+   "text": "소설의 마지막은 그녀를 상담한 의사의 기록입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_24_t0",
+   "text": "그는 김지영 씨를 깊이 이해하게 되었다고 적습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_24_t1",
+   "text": "그는 김지영 씨를 깊이 이해하게 되었다고 적습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_25_t0",
+   "text": "그런데 바로 그 기록 끝에서, 아이 문제로 병원을 그만두게 된 여성 상담사를 떠올리며 다음에는 미혼인 사람을 뽑아야겠다고 생각하지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_25_t1",
+   "text": "그런데 바로 그 기록 끝에서, 아이 문제로 병원을 그만두게 된 여성 상담사를 떠올리며 다음에는 미혼인 사람을 뽑아야겠다고 생각하지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_26_t0",
+   "text": "이해한다는 사람조차 같은 벽을 세운다는 서늘한 결말입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_26_t1",
+   "text": "이해한다는 사람조차 같은 벽을 세운다는 서늘한 결말입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_27_t0",
+   "text": "특별할 것 없는 하루들이 모여 한 사람을 지치게 한다는 걸, 조용히 보여 준 소설이었어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_27_t1",
+   "text": "특별할 것 없는 하루들이 모여 한 사람을 지치게 한다는 걸, 조용히 보여 준 소설이었어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_28_t0",
+   "text": "오늘 문학늬우스 지면에는 백제 여인이 달에게 빈 정읍사와, 이범선 오발탄의 한 구절도 실려 있어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_28_t1",
+   "text": "오늘 문학늬우스 지면에는 백제 여인이 달에게 빈 정읍사와, 이범선 오발탄의 한 구절도 실려 있어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_29_t0",
+   "text": "영상 아래 링크로 가볍게 놀러 오세요. 고맙습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_29_t1",
+   "text": "영상 아래 링크로 가볍게 놀러 오세요. 고맙습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_tz_t0",
+   "text": "뒷이야기와 결말까지, 전체 영상에서 이어서 들어 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_tz_t1",
+   "text": "뒷이야기와 결말까지, 전체 영상에서 이어서 들어 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  }
+ ]
+}

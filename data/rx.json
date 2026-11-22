@@ -982,6 +982,96 @@
     "https://zh.wikisource.org/wiki/%E8%BC%9E%E5%B7%9D%E9%9B%86_(%E7%8E%8B%E7%B6%AD)"
    ],
    "added": "2026-11-22"
+  },
+  {
+   "mood": "tired",
+   "text": "대추 볼 붉은 골에 밤은 어이 듣드리며 / 벼 벤 그루에 게는 어이 내리는고 / 술 익자 체 장수 돌아가니 아니 먹고 어이리",
+   "writer": "황희",
+   "work": "대추 볼 붉은 골에(시조)",
+   "year": "15세기",
+   "kind": "시조",
+   "dose": "일이 끝난 저녁엔 차린 것이 있으면 그냥 드세요. 수고한 하루엔 그럴 자격이 있어요.",
+   "sources": [
+    "https://m.cafe.daum.net/gobangseyee/LYDs/1305",
+    "https://ko.wikisource.org/wiki/%EA%B8%80%EB%A1%9C%EB%B2%8C_%EC%84%B8%EA%B3%84_%EB%8C%80%EB%B0%B1%EA%B3%BC%EC%82%AC%EC%A0%84/%EC%96%B8%EC%96%B4I%C2%B7%ED%95%9C%EA%B5%AD%EB%AC%B8%ED%95%99%C2%B7%EB%85%BC%EC%88%A0/%EA%B3%A0%EB%A0%A4-%EC%A1%B0%EC%84%A0%EC%9D%98_%EB%AC%B8%ED%95%99/%EC%A1%B0%EC%84%A0_%EC%A0%84%EA%B8%B0_%EB%AC%B8%ED%95%99/%EC%8B%9C%EC%A1%B0_%EB%AC%B8%ED%95%99"
+   ],
+   "added": "2026-11-23"
+  },
+  {
+   "mood": "blue",
+   "text": "슬퍼하는 자는 복이 있나니 / 저희가 영원히 슬플 것이오.",
+   "writer": "윤동주",
+   "work": "팔복",
+   "year": "1940",
+   "kind": "시",
+   "dose": "슬픔을 서둘러 끝내려 하지 마세요. 오늘은 슬픈 채로 있어도 괜찮은 날입니다.",
+   "sources": [
+    "https://thewiki.kr/w/팔복",
+    "https://www.munhwa.com/article/11165036"
+   ],
+   "added": "2026-11-23"
+  },
+  {
+   "mood": "anxious",
+   "text": "세상에 좋은 것도 나쁜 것도 없네. 생각이 그렇게 만들 뿐이지.",
+   "orig": "there is nothing either good or bad, but thinking makes it so",
+   "translator": "금로동 옮김",
+   "writer": "윌리엄 셰익스피어",
+   "work": "햄릿(2막 2장)",
+   "year": "1600년경",
+   "kind": "희곡",
+   "dose": "불안이 커지면 지금 일어난 일과 머릿속에서 키운 일을 종이에 나눠 적어 보세요.",
+   "sources": [
+    "https://standardebooks.org/ebooks/william-shakespeare/hamlet/text/act-2",
+    "https://rsc.org.uk/hamlet/about-the-play/famous-quotes"
+   ],
+   "added": "2026-11-23"
+  },
+  {
+   "mood": "angry",
+   "text": "자비는 억지로 짜내는 것이 아니라 / 하늘에서 부드러운 비처럼 내리는 것",
+   "orig": "The quality of mercy is not strain'd, / It droppeth as the gentle rain from heaven",
+   "translator": "금로동 옮김",
+   "writer": "윌리엄 셰익스피어",
+   "work": "베니스의 상인(4막 1장)",
+   "year": "1598년경",
+   "kind": "희곡",
+   "dose": "화가 난 상대에게 오늘 다 갚아 주지 않아도 됩니다. 비 한 줄기만큼 너그러워져 보세요.",
+   "sources": [
+    "https://poets.org/poem/merchant-venice-act-iv-scene-i-quality-mercy-not-strained",
+    "https://wikipedia.com/wiki/The_quality_of_mercy"
+   ],
+   "added": "2026-11-23"
+  },
+  {
+   "mood": "flutter",
+   "text": "그녀는 아름답게 걷는다, 밤처럼 / 구름 없는 하늘, 별 가득한 밤처럼",
+   "orig": "She walks in beauty, like the night / Of cloudless climes and starry skies",
+   "translator": "금로동 옮김",
+   "writer": "조지 고든 바이런",
+   "work": "그녀는 아름답게 걷는다(She Walks in Beauty)",
+   "year": "1814",
+   "kind": "시",
+   "dose": "설레는 사람이 지나가면 오늘은 그 걸음을 별처럼 기억해 두세요.",
+   "sources": [
+    "https://en.Wikipedia.com/wiki/She_Walks_in_Beauty",
+    "https://www.sjsu.edu/faculty/harris/Eng149_Byron_She%20Walks%20in%20Beauty.pdf"
+   ],
+   "added": "2026-11-23"
+  },
+  {
+   "mood": "blank",
+   "text": "산수간 바위 아래 띠집을 짓노라 하니 / 그 모른 남들은 웃는다 한다마는 / 어리고 햐암의 뜻에는 내 분인가 하노라",
+   "writer": "윤선도",
+   "work": "만흥(漫興) 제1수",
+   "year": "1642년경",
+   "kind": "시조",
+   "dose": "남들이 웃어도 내 몫의 조용한 자리가 있습니다. 오늘은 그 띠집에 잠시 앉아 계세요.",
+   "sources": [
+    "https://www.koreadaily.com/article/20230504204823607",
+    "https://library.ltikorea.or.kr/node/35626"
+   ],
+   "added": "2026-11-23"
   }
  ]
 }
