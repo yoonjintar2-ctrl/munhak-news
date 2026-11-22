@@ -658,5 +658,32 @@
     "clue": "헉이 왓슨 아주머니에게 쓰다 찢은 것"
    }
   ]
+ },
+ "go": {
+  "title": "「원폭 대국」 백240",
+  "game": "제3기 혼인보전 도전기 제2국(원폭 대국)",
+  "date": "1945-08-06",
+  "black": "이와모토 가오루 7단",
+  "white": "하시모토 우타로 8단(혼인보)",
+  "result": "백 5집 승",
+  "moves": "qd oq od de dp cn fp qp dc mc ee ef ed dg ce cf be qj qh gf bf ch jq oj em lq rp pp ol ql ml ko mn pn co gp go hp fq ho hr km nj oi ni nh li mh jn kn kk gn fo il ik hk ij hj jl hl ih hi jg pf og of qf pg qg bo bp do cp cl on pc pd oc nd nc qc jc kd kc pk qk pj nk mk lf le kg jf lh pm qm ro rq np oo qn po qi rj jm ki nq iq ir jp kq lr no nr mr or mq kp kr gc ek dk gm ks jr lp ms hm fn hn ej ii kf mf ne pi ok mj nl lj lk kj ls eb db ld me jd ke bn bh bi bg ec dd ap aq ao bq rn nf ng ri qb rb pb gd hd ci cj di bj ge gb gg eh ff fi ra da ca ea cb dm df eg cg jh he lm id hc ns mm nm os op pq ei fh hh ie je ic pl fj fk gl fm gh hf jj jk gq gr si sh sj gk gj eo dn qa pa md lc ai aj ah ph pe dh fc fb fd mo if mp nn ln",
+  "from": 231,
+  "to": 240,
+  "key": 240,
+  "key_label": "M6",
+  "lead": "원자폭탄이 터진 날에도 두 기사는 판을 다시 차려 끝까지 두었다.",
+  "body": [
+   "1945년 8월 4일, 일본 바둑의 최고 타이틀 혼인보를 건 도전기 제2국이 히로시마에서 시작됐다. 공습이 잦자 대국장은 시내에서 떨어진 교외 이쓰카이치로 옮겨졌다. 셋째 날인 8월 6일 아침, 대국 도중 히로시마에 원자폭탄이 떨어졌다.",
+   "폭풍에 창이 깨지고 돌이 흩어졌지만, 두 기사는 판을 다시 차리고 점심 뒤 대국을 이어 갔다. 그림은 240수에 이른 이 판의 마지막 열 수다. 끝내기는 서로의 집 경계를 마저 긋는 단계로, 동그라미 친 백240이 이 판의 마지막 돌이다.",
+   "결과는 백 5집 승. 하시모토 우타로가 이겼다. 대국자들은 그 아침의 폭발이 무엇이었는지 나중에야 알았다고 전한다. 바둑사에서 가장 무거운 이름이 붙은 판이다."
+  ],
+  "lit": "폐허 뒤에도 하루를 이어 가야 했던 사람들, 오늘 「오발탄」의 철호와 「수난이대」의 부자처럼요.",
+  "sources": [
+   "https://www.Wikipedia.org/wiki/List_of_go_games",
+   "https://en.wikipedia.org/wiki/Utaro_Hashimoto",
+   "https://en.wikipedia.org/wiki/Kaoru_Iwamoto",
+   "https://homepages.cwi.nl/~aeb/go/games/games/Honinbo/03/index.html",
+   "https://github.com/yenw/computer-go-dataset (기보: Professional/pro1940-1999.zip → pro1940-1999.txt, GN 1945-08-04a)"
+  ]
  }
 }
