@@ -1,5 +1,5 @@
 {
- "date": "2026-11-23",
+ "date": "2026-11-24",
  "no": 11,
  "publisher": {
   "name": "윤진탈",
@@ -9,7 +9,7 @@
   "name": "금로동",
   "title": "기자"
  },
- "lead": "월요일 아침입니다. 편지를 찢은 소년 헉의 한마디로 한 주를 열고, 백제 여인이 달에게 빈 노래와 오발탄 사내의 긴 하루가 이어집니다. 1분 문학은 체호프의 귀여운 여인과 82년생 김지영, 문학 한술은 외나무다리를 건넌 고등어 한 마리입니다.",
+ "lead": "화요일 아침입니다. 편지를 찢은 소년 헉의 한마디로 문을 열고, 백제 여인이 달에게 빈 노래와 오발탄 사내의 긴 하루가 이어집니다. 1분 문학은 체호프의 귀여운 여인과 82년생 김지영, 문학 한술은 외나무다리를 건넌 고등어 한 마리입니다.",
  "sentence": {
   "text": "좋아, 그럼 지옥에 가지 뭐.",
   "big": [
@@ -143,28 +143,28 @@
   "https://en.wikipedia.org/wiki/The_Darling_(short_story)",
   "https://pedia.watcha.com/ko/contents/bopMERy"
  ],
- "calendar": "1920년 11월 23일 — 「죽음의 푸가」의 시인 파울 첼란, 체르노비츠(지금의 우크라이나 체르니우치)에서 태어나다",
+ "calendar": "1826년 11월 24일 — 『피노키오의 모험』의 카를로 콜로디(본명 카를로 로렌치니), 이탈리아 피렌체에서 태어나다",
  "calendar_sources": [
-  "https://en.wikipedia.org/wiki/Paul_Celan",
-  "https://www.suhrkamp.de/rights/nachricht/paul-celan-100th-birthday-on-23-november-2020-b-2960"
+  "https://www.britannica.com/biography/C-Collodi",
+  "https://en.wikipedia.org/wiki/Carlo_Collodi"
  ],
  "onthisday": [
   {
-   "year": "1644",
-   "title": "밀턴, 검열에 맞선 『아레오파기티카』를 펴내다",
-   "body": "『실낙원』의 존 밀턴이 1644년 오늘, 출판 전 허가제를 비판하는 산문 『아레오파기티카』를 내놓았습니다. 표현의 자유를 다룬 고전으로 지금도 읽히지요.",
+   "year": "1859",
+   "title": "다윈의 『종의 기원』, 서점에 나오다",
+   "body": "1859년 오늘, 찰스 다윈의 『종의 기원』이 런던에서 출간됐습니다. 과학책이지만 문장이 좋아 소설가와 시인들까지 붙들고 읽은, 세상을 바꾼 한 권이지요.",
    "sources": [
-    "https://www.britannica.com/topic/Areopagitica",
-    "https://Www.wikipedia.org/wiki/Areopagitica"
+    "https://www.history.com/this-day-in-history/november-24/origin-of-species-is-published",
+    "https://en.wikipedia.org/wiki/On_the_Origin_of_Species"
    ]
   },
   {
-   "year": "1990",
-   "title": "『찰리와 초콜릿 공장』의 로알드 달, 옥스퍼드에서 눈을 감다",
-   "body": "1990년 오늘, 영국 작가 로알드 달이 일흔넷으로 세상을 떠났습니다. 『마틸다』, 『멋진 여우 씨』처럼 짓궂고 다정한 이야기로 아이들을 웃게 한 작가였지요.",
+   "year": "1849",
+   "title": "『비밀의 화원』의 프랜시스 호지슨 버넷 태어나다",
+   "body": "1849년 오늘, 영국 맨체스터에서 프랜시스 호지슨 버넷이 태어났습니다. 『소공자』, 『소공녀』, 『비밀의 화원』으로 여러 세대 아이들의 책장을 채운 작가지요.",
    "sources": [
-    "https://www.britannica.com/biography/Roald-Dahl",
-    "https://EN.wikipedia.com/wiki/Roald_Dahl"
+    "https://www.britannica.com/biography/Frances-Hodgson-Burnett",
+    "https://en.wikipedia.org/wiki/Frances_Hodgson_Burnett"
    ]
   }
  ],

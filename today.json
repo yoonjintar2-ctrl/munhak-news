@@ -1,6 +1,6 @@
 {
- "date": "2026-11-22",
- "no": 10,
+ "date": "2026-11-24",
+ "no": 11,
  "publisher": {
   "name": "윤진탈",
   "org": "지구별"
@@ -9,526 +9,515 @@
   "name": "금로동",
   "title": "기자"
  },
- "lead": "일요일 아침입니다. 길고 눅눅했던 장마가 다섯 글자로 그치고, 대동강 나루의 이별 노래와 오스틴의 유명한 첫 문장이 이어집니다. 1분 문학은 김동인의 발가락 이야기와 박완서의 싱아, 문학 한술은 올리버 트위스트의 묽은 죽 한 그릇입니다.",
+ "lead": "화요일 아침입니다. 편지를 찢은 소년 헉의 한마디로 문을 열고, 백제 여인이 달에게 빈 노래와 오발탄 사내의 긴 하루가 이어집니다. 1분 문학은 체호프의 귀여운 여인과 82년생 김지영, 문학 한술은 외나무다리를 건넌 고등어 한 마리입니다.",
  "sentence": {
-  "text": "지루한 장마였다.",
+  "text": "좋아, 그럼 지옥에 가지 뭐.",
   "big": [
-   "지루한 장마였다."
+   "좋아, 그럼",
+   "지옥에 가지 뭐."
   ],
-  "speaker": "서술자 '나'(소년 동만)",
-  "work": "장마",
-  "writer": "윤흥길",
-  "year": 1973,
-  "origin": "국내",
-  "book": "중편소설, 1973년 『문학과지성』 발표 — 소설의 마지막 문장",
-  "meaning": "긴 비가 마침내 그쳤다는 한마디입니다. 그러나 이 비는 날씨만이 아니었지요. 한 집안을 둘로 갈라놓았던 전쟁의 시간, 원망과 슬픔의 계절이 다 지나갔다는 안도와 피로가 함께 담겨 있습니다.",
-  "context": "6·25 전쟁 중 한집에 사는 친할머니와 외할머니는 빨치산 아들과 국군 아들을 둔 탓에 원수처럼 갈라섭니다. 긴 반목 끝에 두 할머니가 화해하고, 소년 동만이 소설을 닫으며 남기는 문장이지요.",
-  "craft": "소설 전체를 적신 비를 다섯 글자로 닫습니다. 감정을 설명하지 않고 날씨만 말하는 담담함 덕에, 독자는 그 지루함이 얼마나 길고 아팠는지를 거꾸로 실감하지요. 장마는 처음부터 시대의 비유였습니다.",
-  "img": "img/2026-11-22-sentence.jpg",
-  "video": "img/2026-11-22-sentence.mp4",
-  "alt": "장대비 내리는 시골집 툇마루, 두 할머니가 서로 등을 돌리고 앉았고 그 사이의 소년이 한쪽을 돌아본다. 처마에서 빗물이 줄줄이 떨어진다",
-  "ai": "Rural Korean house porch in heavy summer rain, 1950s: two old women in white hanbok (short jeogori jacket, long full chima skirt) sit with backs turned to each other; a small boy between them looks at one. Rain pouring from tiled eaves, puddles, clay jars.",
+  "orig": "All right, then, I'll go to hell",
+  "translator": "금로동 옮김",
+  "speaker": "헉(허클베리 핀)",
+  "work": "허클베리 핀의 모험",
+  "writer": "마크 트웨인",
+  "year": 1884,
+  "origin": "국외",
+  "book": "장편소설, 1884년 영국에서 먼저 출간 — 제31장",
+  "meaning": "착한 아이가 되려면 친구를 고발해야 하고, 친구를 지키려면 지옥에 가야 한다고 믿는 소년의 선택입니다. 배운 도덕보다 몸으로 아는 우정을 택하는, 세상에서 가장 용감한 '나쁜 아이'의 말이지요.",
+  "context": "도망 노예 짐이 팔려 가자, 헉은 주인 왓슨 아주머니에게 짐이 있는 곳을 알리는 편지를 씁니다. 그러다 뗏목 위에서 함께한 짐을 떠올리고, 편지를 찢으며 이렇게 말하지요.",
+  "craft": "열네 살 소년의 투박한 말투 그대로 두어 오히려 크게 울립니다. 소년은 자기가 죄를 짓는다고 믿지만, 독자는 그 순간 그가 옳다는 걸 압니다. 말과 진실을 거꾸로 세운 반어의 정점이지요.",
+  "img": "img/2026-11-23-sentence.jpg",
+  "video": "img/2026-11-23-sentence.mp4",
+  "alt": "강 위 뗏목의 작은 거적 움막 앞, 맨발의 소년이 앉아 종이를 두 손으로 찢고 있다. 찢긴 종잇조각이 바람에 날리고 강가 나무와 물결이 흔들린다",
   "sources": [
-   "https://encykorea.aks.ac.kr/Article/E0071303",
-   "https://en.wikipedia.org/wiki/The_Rainy_Spell",
-   "https://brunch.co.kr/@livein3736/155",
-   "https://www.khan.co.kr/article/202307310300075"
+   "https://etc.usf.edu/lit2go/21/the-adventures-of-huckleberry-finn/206/chapter-31/",
+   "https://www.sparknotes.com/lit/huckfinn/quotes/page/3/",
+   "https://americanliterature.com/story-so-far/the-adventures-of-huckleberry-finn/chapter-31/"
   ]
  },
  "poem": {
-  "title": "송인",
-  "title_orig": "送人",
-  "writer": "정지상",
-  "year": "12세기 초",
+  "title": "정읍사",
+  "title_orig": "井邑詞",
+  "writer": "작자 미상(행상인의 아내)",
+  "year": "백제(연대 미상)",
   "origin": "국내",
-  "book": "고려 한시, 칠언절구",
+  "book": "백제 가요, 『악학궤범』(1493)에 실려 전함",
   "public_domain": true,
   "translator": "금로동 옮김",
-  "orig_lang": "한문",
+  "orig_lang": "옛한글",
   "lines": [
-   "비 갠 긴 둑에 풀빛 짙어 가는데",
-   "남포에서 그대 보내며 슬픈 노래 부르네.",
-   "대동강 물은 언제나 마르려나,",
-   "해마다 이별 눈물 푸른 물결에 보태는데."
+   "달님, 높이높이 돋으시어",
+   "어기야, 멀리멀리 비추어 주소서",
+   "어기야 어강도리",
+   "아으 다롱디리",
+   "저잣거리에 가 계신가요",
+   "어기야, 진 데를 디딜까 두렵습니다",
+   "어기야 어강도리",
+   "어디에든 다 내려놓으소서",
+   "어기야, 님 가시는 길 저물까 두렵습니다",
+   "어기야 어강도리",
+   "아으 다롱디리"
   ],
   "lines_orig": [
-   "雨歇長堤草色多",
-   "送君南浦動悲歌",
-   "大同江水何時盡",
-   "別淚年年添綠波"
+   "달하 노피곰 도ᄃᆞ샤",
+   "어긔야 머리곰 비취오시라",
+   "어긔야 어강됴리",
+   "아으 다롱디리",
+   "져재 녀러신고요",
+   "어긔야 즌 ᄃᆡ를 드ᄃᆡ욜셰라",
+   "어긔야 어강됴리",
+   "어느이다 노코시라",
+   "어긔야 내 가논 ᄃᆡ 졈그ᄅᆞᆯ셰라",
+   "어긔야 어강됴리",
+   "아으 다롱디리"
   ],
-  "img": "img/2026-11-22-poem.jpg",
-  "video": "img/2026-11-22-poem.mp4",
-  "alt": "비 갠 대동강 긴 둑, 버드나무 아래 선 사람이 손을 들어 강 위로 멀어지는 돛단배를 배웅한다. 물결이 일렁이고 버들가지가 흔들린다",
-  "analysis": "고려 시인 정지상이 서경(평양) 대동강의 나루 남포에서 벗을 떠나보내며 쓴 칠언절구입니다. 비가 그친 둑의 풀빛은 짙어 가는데 사람은 떠나지요. 셋째·넷째 구가 이 시의 자랑입니다. 대동강이 마르지 않는 까닭은 해마다 보태지는 이별 눈물 때문이라는 큰 과장이, 오히려 담담하게 들립니다. 천 년 가까이 이별시의 절창으로 불려 온 까닭이지요.",
-  "oneline": "강물이 마르지 않는 까닭을 이렇게 아름답게 둘러댄 시는 드뭅니다.",
+  "img": "img/2026-11-23-poem.jpg",
+  "video": "img/2026-11-23-poem.mp4",
+  "alt": "보름달 뜬 밤, 언덕 바위 위에 선 여인이 두 손을 모으고 달을 올려다본다. 아래 굽은 길에는 등불 하나가 흔들리고 풀잎이 바람에 눕는다",
+  "analysis": "장사를 나간 남편이 늦도록 돌아오지 않자, 아내가 언덕에 올라 달에게 비는 노래입니다. 지금 전하는 유일한 백제 노래로, 한글로 적힌 가장 오래된 노래의 하나지요. '어긔야 어강됴리'는 뜻보다 가락을 맞추는 후렴입니다. '즌 ᄃᆡ'(진 곳)가 밤길의 진창인지 다른 위험인지, 마지막 줄에서 저무는 길이 누구의 길인지는 해석이 갈립니다. 그 빈칸 덕에 기다림이 더 길게 들리지요.",
+  "oneline": "천오백 년 전에도 늦는 사람 걱정은 달에게 맡겼습니다.",
   "sources": [
-   "https://encykorea.aks.ac.kr/Article/E0014214",
-   "https://sgsg.hankyung.com/article/2023102026261",
-   "https://www.imaeil.com/page/view/2013070414372632417"
+   "https://encykorea.aks.ac.kr/Article/E0050735",
+   "https://www.korean.go.kr/nkview/nknews/200508/85_8.html",
+   "https://wikipedia.com/wiki/Jeongeupsa"
   ]
  },
  "novel": {
-  "title": "오만과 편견",
-  "title_orig": "Pride and Prejudice",
-  "writer": "제인 오스틴",
-  "year": 1813,
-  "origin": "국외",
-  "where": "제1장 첫 문장",
-  "quote": "재산깨나 있는 독신 남자라면 틀림없이 아내가 아쉬울 것이다. 이는 누구나 인정하는 진리다.",
-  "quote_orig": "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
-  "translator": "금로동 옮김",
-  "img": "img/2026-11-22-novel.jpg",
-  "video": "img/2026-11-22-novel.mp4",
-  "alt": "촛불 켜진 영국 시골 응접실, 베넷 부인이 몸을 기울여 신이 나서 말하고 안락의자의 베넷 씨는 신문을 든 채 고개만 돌린다. 창가의 딸들이 창밖을 내다보고 커튼이 흔들린다",
-  "context": "영국 시골 롱본, 딸만 다섯인 베넷 집안 근처에 부유한 청년 빙리가 이사 옵니다. 베넷 부인은 곧장 딸 하나를 시집보낼 궁리를 하지요. 소설은 이 첫 문장과 함께 그 소동으로 들어갑니다.",
-  "analysis": "'누구나 인정하는 진리'라고 거창하게 운을 떼지만, 실은 딸 가진 이웃들의 바람일 뿐입니다. 부자 총각이 아내를 원한다기보다, 동네가 그에게 아내를 쥐여 주고 싶어 하지요. 오스틴은 첫 문장부터 엄숙한 말투로 세상의 속셈을 살짝 비틉니다. 이 반어의 눈이 엘리자베스와 다아시의 오해와 화해를 끝까지 지켜보는 눈이기도 합니다.",
+  "title": "오발탄",
+  "writer": "이범선",
+  "year": 1959,
+  "origin": "국내",
+  "where": "단편소설, 1959년 『현대문학』 발표 — 마지막 장면",
+  "quote": "해야 할 구실이 너무 많구나.",
+  "translator": null,
+  "img": "img/2026-11-23-novel.jpg",
+  "video": "img/2026-11-23-novel.mp4",
+  "alt": "1950년대 서울의 밤거리, 낡은 외투의 사내가 가로등 아래 한 손을 머리에 얹고 고개를 숙인 채 서 있다. 가로등이 깜박이고 종잇조각이 바람에 굴러가며 멀리 택시 불빛이 지나간다",
+  "context": "계리사 사무실 서기 철호는 전쟁 뒤 해방촌 판잣집에서 '가자'만 되뇌는 어머니와 식구들을 건사합니다. 아내를 잃은 날, 앓던 이를 뽑고 택시에 오른 그가 혼자 중얼거리는 말이지요.",
+  "analysis": "아들, 남편, 아비, 형, 오빠, 서기. 철호는 맡은 '구실'을 하나씩 세다가 이 말로 고개를 떨굽니다. 피난민으로 내몰린 1950년대 서울에서 한 사람에게 지워진 짐의 목록이지요. 이범선은 감정을 터뜨리지 않고 피 흘리는 입과 갈 곳 모르는 택시로 보여 줍니다. 그는 끝내 자신을 '조물주의 오발탄'에 견주는데, 과녁 없이 날아가는 총알이라는 제목의 뜻이 이 마지막 장면에서 완성됩니다.",
   "sources": [
-   "https://www.npr.org/2017/07/25/538609475/the-enduring-legacy-of-jane-austens-truth-universally-acknowledged",
-   "https://nls.uk/exhibitions/pride-and-prejudice/first-page",
-   "https://standardebooks.org/ebooks/jane-austen/pride-and-prejudice/text/chapter-1",
-   "https://www.britannica.com/topic/Pride-and-Prejudice/Introduction"
+   "https://encykorea.aks.ac.kr/Article/E0044369",
+   "https://londonkoreanlinks.net/story/a-stray-bullet/",
+   "https://www.pressian.com/pages/articles/122124",
+   "https://thewiki.kr/w/이범선"
   ]
  },
  "writer": {
-  "name": "윤흥길",
-  "life": "1942–",
-  "bio": "1942년 전북 정읍에서 태어났습니다. 1968년 한국일보 신춘문예에 「회색 면류관의 계절」이 당선되며 등단했지요. 1973년 「장마」로 분단의 상처를 아이의 눈으로 그려 이름을 알렸고, 「아홉 켤레의 구두로 남은 사내」와 『완장』에서는 서민의 자존심과 권력의 우스꽝스러움을 맛깔난 전라도 말씨로 풀어냈습니다.",
+  "name": "이범선",
+  "life": "1920–1982",
+  "bio": "1920년 평안남도 신안주에서 태어나, 해방 뒤 월남했습니다. 1955년 『현대문학』에 「암표」·「일요일」이 추천되며 등단했지요. 「학마을 사람들」에서 전쟁에 휩쓸린 마을을 담담히 그렸고, 「오발탄」으로 전후 서울의 고단한 삶을 정면으로 보여 주었습니다. 교단에서 오래 학생을 가르치며 쓴, 조용하고 단정한 문장의 작가입니다.",
   "works": [
-   "장마",
-   "아홉 켤레의 구두로 남은 사내",
-   "완장"
+   "학마을 사람들",
+   "오발탄",
+   "피해자"
   ],
-  "link": "오늘의 문장, 「장마」의 마지막 다섯 글자를 쓴 사람입니다. 긴 비를 그렇게 짧게 닫을 줄 아는 작가지요.",
-  "img": "img/2026-11-22-writer.png",
-  "alt": "얼굴 세부 없이 그린, 안경 쓴 작가가 비 내리는 창가 책상에서 원고지를 내려다보는 옆모습 실루엣 펜화",
+  "link": "오늘의 소설 구절, 「오발탄」의 철호가 셈한 '구실'들을 쓴 사람입니다. 그 자신도 고향을 떠나온 피난민이었지요.",
+  "img": "img/2026-11-23-writer.png",
+  "alt": "얼굴 세부 없이 그린, 중절모를 손에 든 사내가 언덕에 서서 아래 판잣집 동네를 내려다보는 실루엣 펜화",
   "sources": [
-   "https://m.seoul.co.kr/news/1997/02/22/19970222011001",
-   "https://en.wikipedia.org/wiki/Yun_Heunggil",
-   "https://www.jjan.kr/articleAmp/20240417580196",
-   "https://klwave.or.kr/klw/authors/200233/authorsView.do"
+   "https://encykorea.aks.ac.kr/Article/E0044369",
+   "https://klwave.or.kr/klw/authors/201321/authorsView.do",
+   "https://londonkoreanlinks.net/authors/lee-beom-seon/"
   ]
  },
  "trivia": [
   {
-   "q": "제인 오스틴이 처음 붙인 『오만과 편견』의 제목은 『첫인상』이었다.",
+   "q": "「정읍사」는 오늘날까지 전하는 백제 노래 가운데 유일한 작품이다.",
    "a": "O",
-   "why": "1796~97년 무렵 『첫인상(First Impressions)』으로 썼다가 출판을 거절당했고, 고쳐 쓴 끝에 1813년 『오만과 편견』으로 냈습니다."
+   "why": "백제 노래로는 「정읍사」만 가사가 전합니다. 조선 성종 때 엮은 음악책 『악학궤범』에 실려 남았지요."
   },
   {
-   "q": "정지상 「송인」 속 이별의 나루 남포는 한강 가에 있다.",
+   "q": "톨스토이는 체호프의 「귀여운 여인」을 못마땅해해 혹평을 남겼다.",
    "a": "X",
-   "why": "서경(평양) 대동강 가의 나루입니다. 셋째 구에 대동강이 이름 그대로 나오지요."
+   "why": "오히려 몹시 아껴 여러 번 소리 내어 읽었고, 이 작품에 붙이는 후기까지 썼습니다."
   },
   {
-   "q": "윤흥길 「장마」에서 두 할머니가 화해하는 실마리는 집에 들어온 구렁이다.",
-   "a": "O",
-   "why": "외할머니가 구렁이를 삼촌 대하듯 달래 보내고, 그 일로 친할머니가 마음을 엽니다."
+   "q": "이범선의 「오발탄」은 아직 영화로 만들어진 적이 없다.",
+   "a": "X",
+   "why": "1961년 유현목 감독이 영화 「오발탄」으로 만들어, 한국 영화사의 손꼽히는 작품이 되었습니다."
   }
  ],
- "calendar": "1819년 11월 22일 — 『미들마치』·『사일러스 마너』의 조지 엘리엇(본명 메리 앤 에번스), 영국 워릭셔에서 태어나다",
+ "trivia_sources": [
+  "https://encykorea.aks.ac.kr/Article/E0050735",
+  "https://en.wikipedia.org/wiki/The_Darling_(short_story)",
+  "https://pedia.watcha.com/ko/contents/bopMERy"
+ ],
+ "calendar": "1826년 11월 24일 — 『피노키오의 모험』의 카를로 콜로디(본명 카를로 로렌치니), 이탈리아 피렌체에서 태어나다",
  "calendar_sources": [
-  "https://en.wikipedia.org/wiki/George_Eliot",
-  "https://www.warwickshire.gov.uk/georgeeliot"
+  "https://www.britannica.com/biography/C-Collodi",
+  "https://en.wikipedia.org/wiki/Carlo_Collodi"
  ],
  "onthisday": [
   {
-   "year": "1916",
-   "title": "『야성의 부름』의 잭 런던, 자기 농장에서 눈을 감다",
-   "body": "미국 작가 잭 런던이 1916년 오늘 캘리포니아 글렌엘런의 농장에서 마흔 살로 세상을 떠났습니다. 선원과 금광꾼으로 떠돌던 삶을 『야성의 부름』 같은 이야기로 옮긴 작가였지요.",
+   "year": "1859",
+   "title": "다윈의 『종의 기원』, 서점에 나오다",
+   "body": "1859년 오늘, 찰스 다윈의 『종의 기원』이 런던에서 출간됐습니다. 과학책이지만 문장이 좋아 소설가와 시인들까지 붙들고 읽은, 세상을 바꾼 한 권이지요.",
    "sources": [
-    "https://www.britannica.com/biography/Jack-London",
-    "https://en.wikipedia.org/wiki/Jack_London_State_Historic_Park"
+    "https://www.history.com/this-day-in-history/november-24/origin-of-species-is-published",
+    "https://en.wikipedia.org/wiki/On_the_Origin_of_Species"
    ]
   },
   {
-   "year": "1963",
-   "title": "루이스와 헉슬리, 같은 날 세상을 떠나다",
-   "body": "1963년 오늘, 『나니아 연대기』의 C. S. 루이스가 옥스퍼드에서, 『멋진 신세계』의 올더스 헉슬리가 로스앤젤레스에서 눈을 감았습니다. 같은 날 케네디가 암살돼 두 부고는 신문 귀퉁이로 밀려났지요.",
+   "year": "1849",
+   "title": "『비밀의 화원』의 프랜시스 호지슨 버넷 태어나다",
+   "body": "1849년 오늘, 영국 맨체스터에서 프랜시스 호지슨 버넷이 태어났습니다. 『소공자』, 『소공녀』, 『비밀의 화원』으로 여러 세대 아이들의 책장을 채운 작가지요.",
    "sources": [
-    "https://www.wgbh.org/news/local/2013-11-22/two-other-20th-century-titans-who-died-on-nov-22-1963",
-    "https://www.aljazeera.com/features/2013/11/22/remembering-huxley-and-lewis"
+    "https://www.britannica.com/biography/Frances-Hodgson-Burnett",
+    "https://en.wikipedia.org/wiki/Frances_Hodgson_Burnett"
    ]
   }
  ],
  "classic": {
-  "title": "발가락이 닮았다",
-  "writer": "김동인",
-  "year": 1932,
-  "origin": "국내",
-  "where": "단편소설, 1932년 『동광』 발표",
-  "oneline": "아이가 자기를 닮았다고 믿고 싶은 남자, 그리고 그 마음을 알아 버린 의사 친구.",
-  "img": "img/2026-11-22-classic.jpg",
-  "video": "img/2026-11-22-classic.mp4",
-  "alt": "1930년대 진찰실, 흰 가운의 의사가 책상에서 차트를 적고, 맞은편 의자에 앉은 친구 M이 고개를 숙인 채 말없이 기다린다. 큰 창과 약병 가득한 선반(AI 펜화)",
-  "ai": "Two men in a small 1930s Korean doctor's office: a doctor in a white coat sits at a desk with a stethoscope; across from him a thin man in a worn Western suit nervously holds his hat in both hands. Glass medicine bottles on shelves, rain on window.",
+  "title": "귀여운 여인",
+  "title_orig": "Душечка",
+  "writer": "안톤 체호프",
+  "year": 1899,
+  "origin": "국외",
+  "where": "단편소설, 1899년 러시아 잡지 『세미야(가족)』 발표",
+  "oneline": "사랑하는 사람의 생각을 제 생각처럼 품고 사는 여인, 올렌카의 일생.",
+  "img": "img/2026-11-23-classic.jpg",
+  "video": "img/2026-11-23-classic.mp4",
+  "alt": "러시아 시골집 창가, 동그란 얼굴에 머릿수건을 쓴 여인이 턱을 괴고 비 내리는 마당을 내다본다. 창밖 빗줄기와 커튼, 탁자 위 찻잔에서 김이 오른다",
   "story": [
-   "이야기를 들려주는 '나'는 의사입니다. 그에게는 M이라는 오랜 친구가 있지요. M은 서른둘이 되도록 장가를 들지 않은 노총각입니다. 넉넉지 않은 월급쟁이로 근근이 살면서도, 젊은 시절부터 술집과 유곽을 떠돌며 방탕하게 지냈습니다. 그 탓에 몹쓸 병도 여러 차례 앓았지요.",
-   "의사인 '나'는 그런 M의 몸을 누구보다 잘 압니다. 오랜 방탕과 병치레 끝에 M에게는 아이를 볼 능력이 거의 남아 있지 않으리라는 것을, '나'는 의학의 눈으로 짐작하고 있었습니다. M 자신도 어렴풋이 눈치챘는지, 혼인 이야기만 나오면 이리저리 말을 돌렸지요.",
-   "그런 M이 어느 날 불쑥 장가를 듭니다. 주변 사람들은 반가워했지만 '나'의 마음은 개운치 않았습니다. 친구가 무엇을 알고, 무엇을 모른 척하며 이 결혼을 택했는지 '나'로서는 헤아릴 길이 없었기 때문이지요. 혼례 날 '나'는 축하 인사를 건네면서도, 신랑의 얼굴을 오래 살폈습니다.",
-   "얼마 지나지 않아 M의 아내가 아이를 가졌다는 소식이 들려옵니다. 모두가 축하했지만 '나'는 마음이 무거웠습니다. 의사로서 아는 사실과 친구로서 바라는 마음이 서로 부딪쳤으니까요. M 역시 기쁜 얼굴만은 아니었습니다. 그는 자기 몸에 대해 무언가 묻고 싶어 하면서도, 끝내 정면으로 묻지 못한 채 '나'의 병원 문 앞을 서성였습니다.",
-   "드디어 아이가 태어납니다. 얼마 뒤 M은 갓난아이를 안고 '나'의 병원을 찾아오지요. 그의 얼굴에는 기쁨과 불안이 뒤섞여 있었습니다. M은 아이의 작은 발을 내밀어 보이며, 이 아이가 자기를 닮았다고 말합니다. 다른 데는 몰라도 발가락이 꼭 제 발가락이라는 것이지요. 가운뎃발가락이 다른 발가락보다 긴 것까지 똑같다면서요.",
-   "M은 '나'의 얼굴을 뚫어지게 바라봅니다. 의사 친구의 입에서 그렇다는 한마디를 듣고 싶은 눈빛이었지요. '나'는 그 눈빛에서 친구가 얼마나 오래 이 의심과 홀로 싸워 왔는지, 얼마나 간절히 이 아이를 제 아이로 믿고 싶어 하는지를 읽습니다. 의학이 아는 사실과 친구가 붙잡은 희망 사이에서, '나'는 무슨 말을 해야 할지 망설입니다."
+   "러시아의 한 작은 도시에 올렌카라는 여인이 삽니다. 퇴직한 관리의 딸로, 동그란 얼굴에 마음씨가 고와서 사람들은 그녀를 보면 저도 모르게 '귀여운 사람!' 하고 웃었지요. 다만 그녀에게는 한 가지 버릇이 있었습니다. 누군가를 사랑하지 않고는 하루도 못 산다는 것이었지요.",
+   "첫사랑은 이웃에 사는 극장 주인 쿠킨이었습니다. 그는 야외 유원지에서 공연을 올렸는데, 비만 오면 손님이 들지 않아 날마다 하늘을 원망했지요. 올렌카는 그를 가엾게 여기다 사랑하게 되었고, 둘은 결혼합니다. 그때부터 그녀의 입에서는 '우리 극장', '관객들은 예술을 몰라요' 같은 남편의 말이 그대로 흘러나왔습니다.",
+   "그런데 쿠킨은 배우를 구하러 모스크바에 갔다가 갑자기 세상을 떠납니다. 올렌카는 몹시 울었지만, 얼마 뒤 성당에서 돌아오는 길에 목재상 관리인 푸스토발로프를 만나 다시 결혼하지요. 이제 그녀는 연극 따위는 쓸데없다고 말하고, 하루 종일 목재값과 운임 이야기를 했습니다. 남편의 생각이 곧 그녀의 생각이었으니까요.",
+   "여섯 해의 평온한 날 끝에 푸스토발로프도 병을 앓다 숨을 거둡니다. 홀로 남은 올렌카는 집에 세 든 수의사 스미르닌과 가까워지고, 이번에는 가축 병과 위생 검사 이야기를 입에 달고 살았지요. 그러나 그가 부대를 따라 멀리 떠나자, 올렌카에게는 정말 아무것도 남지 않았습니다.",
+   "무엇보다 괴로운 것은 아무 생각이 없다는 것이었습니다. 누가 무엇을 물어도 할 말이 떠오르지 않았지요. 마당에는 풀이 자라고 집은 낡아 갔으며, 그녀도 나이가 들고 야위어 갔습니다.",
+   "몇 해 뒤 어느 여름 저녁, 문을 두드린 사람은 머리가 희끗해진 스미르닌이었습니다. 그는 군을 그만두고 아내와 열 살 난 아들 사샤를 데리고 이 도시에 자리 잡겠다고 했지요. 올렌카는 기뻐하며 자기 집을 내주었습니다. 얼마 뒤 사샤의 어머니는 다른 도시의 언니에게 가 버리고 아버지도 날마다 집을 비우자, 아이는 자연스레 올렌카의 차지가 됩니다. 그녀는 사샤에게 온 마음을 쏟았습니다. 이제 그녀의 입에서는 숙제와 선생님 이야기가 흘러나왔지요."
   ],
-  "ending": "'나'는 M이 내민 아이의 발을 한참 들여다보다가, 발가락뿐 아니라 얼굴도 닮은 데가 있다고 말해 줍니다. 그러고는 M의 눈길을 슬며시 피하지요. 사실보다 친구의 마음을 지켜 주기로 한 것입니다. 거짓인 줄 알면서 건넨 그 한마디로, 쓸쓸하고도 따뜻한 이야기는 막을 내립니다.",
-  "why": "냉정한 자연주의 작가로 알려진 김동인이, 의학의 사실과 친구를 향한 연민 사이의 거리를 짧은 단편에 담았습니다. 사실을 말하는 것만이 정직일까, 오래 곱씹게 하는 결말이지요.",
+  "ending": "밤마다 올렌카는 아이 어머니가 사샤를 데려갈까 봐 두려워합니다. 어느 밤 대문 두드리는 소리에 전보가 왔나 싶어 떨지만, 클럽에서 돌아온 수의사일 뿐이었지요. 안도한 그녀는 사샤 생각을 하며 다시 잠들고, 옆방의 사샤는 잠결에 중얼거립니다. '혼내 줄 테다! 저리 가! 덤비지 마!' 사랑할 사람이 생긴 그녀의 하루는 그렇게 다시 가득 찹니다.",
+  "why": "남의 말만 따라 한다고 웃어넘기기 쉬운 여인을, 체호프는 끝내 미워하지 않습니다. 사랑 없이는 텅 비는 사람의 쓸쓸함과 따뜻함을 함께 보여 준 단편이지요.",
   "sources": [
-   "https://ko.wikisource.org/wiki/%EB%B0%9C%EA%B0%80%EB%9D%BD%EC%9D%B4_%EB%8B%AE%EC%95%98%EB%8B%A4",
-   "https://ridibooks.com/books/1157000201"
-  ],
-  "scenes": [
-   {
-    "after": 0,
-    "img": "img/2026-11-22-classic-s1.jpg",
-    "video": "img/2026-11-22-classic-s1.mp4",
-    "alt": "밤의 술집 골목, 중절모를 삐딱하게 쓴 M이 비틀거리며 앞서 걷고 흰 목도리의 '나'가 뒤에서 그를 부르듯 손을 뻗는다. 처마 등불이 흔들린다",
-    "ai": "Two men in a 1930s Korean alley at night: a thin man in a crooked fedora staggers ahead; behind him a man in a coat and white scarf reaches out a hand to stop him. Paper lanterns, wooden tavern fronts."
-   },
-   {
-    "after": 3,
-    "img": "img/2026-11-22-classic-s2.jpg",
-    "video": "img/2026-11-22-classic-s2.mp4",
-    "alt": "비 오는 병원 앞, 우산을 든 M이 유리문 앞을 서성이고, 2층 창가에 선 흰 가운의 '나'가 그를 내려다본다. 빗줄기와 처마 물방울이 떨어진다",
-    "ai": "A thin man in a suit holding a black umbrella paces in front of a small 1930s clinic's glass door in the rain; a doctor in a white coat watches him from a window above."
-   },
-   {
-    "after": 4,
-    "img": "img/2026-11-22-classic-s3.jpg",
-    "video": "img/2026-11-22-classic-s3.mp4",
-    "alt": "진찰실, 포대기에 싼 갓난아이를 안은 M이 아기의 작은 발을 들어 보이고, 흰 가운의 '나'가 몸을 숙여 들여다본다. 탁상 등과 창밖 나뭇잎이 흔들린다",
-    "ai": "Two men in a 1930s doctor's office: a thin man in a suit holds a swaddled newborn baby and lifts its tiny bare foot; a doctor in a white coat leans in to look closely. Desk lamp, medicine shelves."
-   }
-  ]
- },
- "modern": {
-  "title": "그 많던 싱아는 누가 다 먹었을까",
-  "writer": "박완서",
-  "year": 1992,
-  "origin": "국내",
-  "where": "자전 장편소설, 1992년 출간(부제 '박완서 소설로 그린 자화상')",
-  "oneline": "싱아를 씹으며 자란 시골 아이가 서울과 전쟁을 지나 작가가 되기로 마음먹기까지.",
-  "img": "img/2026-11-22-modern.jpg",
-  "video": "img/2026-11-22-modern.mp4",
-  "alt": "초여름 박적골 들판, 단발머리 소녀가 개울가 풀숲에서 싱아 줄기를 꺾어 들고 입에 문다. 뒤로 초가와 먼 산, 풀잎이 바람에 흔들린다",
-  "ai": "A little Korean country girl with bob hair in 1930s hanbok (short jeogori jacket, long chima skirt) stands in a green field by a stream, biting a tall wild plant stalk. Thatched-roof houses and hills behind.",
-  "story": [
-   "개성에서 멀지 않은 시골 마을 박적골. '나'는 할아버지·할머니의 사랑을 받으며 산과 들을 쏘다니는 아이입니다. 출출하면 들판에 지천인 싱아를 꺾어 껍질을 벗기고 새콤한 줄기를 씹었지요. 아버지는 '나'가 아주 어릴 때 병을 제때 고치지 못해 세상을 떠났습니다.",
-   "엄마는 시골에서는 아이들을 제대로 키울 수 없다고 믿습니다. 먼저 오빠를 데리고 서울로 올라간 엄마는 얼마 뒤 '나'마저 데려가지요. 엄마의 꿈은 딸을 서울에서 공부시켜 '신여성'으로 만드는 것이었습니다. 정든 박적골을 떠나던 날, 아이는 그것이 어떤 이별인지 다 알지 못했습니다.",
-   "서울은 성문 밖 '문밖'과 성안 '문안'으로 나뉜 낯선 세계였습니다. 서울 살림은 고개 꼭대기 동네 현저동의 비좁은 셋방에서 시작됩니다. 엄마는 바느질삯으로 살림을 꾸리고, '나'는 문안의 학교까지 먼 길을 오갑니다. 낯선 도시에서 아이는 고향 들판이 그리워 산비탈을 헤매며 싱아를 찾지만, 서울 어디에도 싱아는 없었지요. 엄마는 딸이 언젠가 번듯한 문안 사람이 되기를 바라며 허리띠를 졸라맸습니다.",
-   "세월이 흘러 '나'는 숙명고녀에 들어가고 해방을 맞습니다. 해방 뒤의 서울은 좌익과 우익으로 갈려 어수선했고, 오빠도 한때 좌익 운동에 몸담았다가 돌아섭니다. 1950년, '나'는 꿈에 그리던 서울대학교 국문과에 들어가지요. 그러나 그 기쁨은 오래가지 못했습니다.",
-   "그해 6월 전쟁이 터지고, 서울은 몇 번이고 주인이 바뀝니다. 인민군이 들어왔을 때도, 국군이 돌아왔을 때도, 오빠의 지난 이력은 식구들의 목을 죄는 올가미가 되지요. 살아남기 위해 '나'는 이리저리 불려 다니며 모멸을 견딥니다. 어제의 이웃이 오늘의 고발자가 되는 날들이었지요. 그 와중에 오빠는 크게 다쳐 몸을 제대로 움직이지 못하게 됩니다.",
-   "1951년 1월, 중공군이 내려온다는 소식에 서울 사람들은 앞다투어 남쪽으로 피난을 떠납니다. 그러나 '나'의 식구들은 떠날 수가 없었습니다. 다친 오빠를 데리고는 먼 길을 갈 수 없었으니까요. 사람들이 하나둘 빠져나간 서울에, 그들만 남겨집니다. 겨울바람만 골목을 휩쓸고 지나갔지요."
-  ],
-  "ending": "식구들은 사람이 모두 빠져나간 현저동 꼭대기의 빈집으로 숨어듭니다. 인적 끊긴 서울을 내려다보며 '나'는 무서울 만큼 텅 빈 도시 앞에서 이상한 예감에 사로잡히지요. 언젠가 이 모든 것을 증언해야 한다, 글로 쓰리라는 예감입니다. 그 다짐이 훗날의 작가를 낳았다는 듯, 소설은 거기서 끝납니다.",
-  "why": "부제 그대로 '소설로 그린 자화상'입니다. 사라진 싱아처럼 사라진 고향과 시대를, 마흔 해가 지나 한 사람의 정직한 기억으로 되살려 낸 증언의 문학이지요.",
-  "sources": [
-   "https://www.seoul.co.kr/news/1992/10/08/19921008011001",
-   "https://weekly.khan.co.kr/article/201804301431451",
-   "https://m.seoul.co.kr/news/1996/04/20/19960420011001"
+   "https://en.wikipedia.org/wiki/The_Darling_(short_story)",
+   "https://www.gutenberg.org/ebooks/13416",
+   "https://www.gradesaver.com/the-darling/study-guide/summary--smirnin-and-sasha",
+   "https://ibiblio.org/eldritch/ac/jr/194.htm"
   ],
   "scenes": [
    {
     "after": 1,
-    "img": "img/2026-11-22-modern-s1.jpg",
-    "video": "img/2026-11-22-modern-s1.mp4",
-    "alt": "시골길, 짐 보따리를 인 엄마가 단발머리 딸의 손을 잡고 마을을 떠나 걷고, 아이는 고개를 돌려 초가 마을을 돌아본다. 길가 풀과 구름이 흐른다",
-    "ai": "Two people walking away on a country dirt road in 1930s Korea: a mother in hanbok (short jeogori, long chima) carries a cloth bundle on her head and holds the hand of a little bob-haired girl who looks back at a thatched village."
+    "img": "img/2026-11-23-classic-s1.jpg",
+    "video": "img/2026-11-23-classic-s1.mp4",
+    "alt": "비 내리는 야외 유원지 무대 앞, 텅 빈 나무 의자들 사이에서 극장 주인 쿠킨이 하늘을 향해 두 팔을 들어 올리고, 곁의 올렌카가 우산을 받쳐 든다. 무대 휘장이 바람에 흔들린다"
    },
    {
     "after": 2,
-    "img": "img/2026-11-22-modern-s2.jpg",
-    "video": "img/2026-11-22-modern-s2.mp4",
-    "alt": "비탈 동네 현저동의 좁은 셋방, 엄마가 등잔 아래 바느질을 하고 책보를 멘 딸이 문지방에서 엄마를 돌아본다. 등잔불이 흔들린다",
-    "ai": "Two people in a tiny rented room in a hillside Seoul neighborhood, 1930s: a mother in hanbok sews by an oil lamp; her school-age daughter with a cloth book bundle on her back stands at the door looking at her."
+    "img": "img/2026-11-23-classic-s2.jpg",
+    "video": "img/2026-11-23-classic-s2.mp4",
+    "alt": "목재 더미가 쌓인 마당, 조끼 차림의 푸스토발로프가 통나무를 가리키며 말하고 곁의 올렌카가 고개를 끄덕인다. 연기 오르는 굴뚝과 날아가는 새"
    },
    {
     "after": 5,
-    "img": "img/2026-11-22-modern-s3.jpg",
-    "video": "img/2026-11-22-modern-s3.mp4",
-    "alt": "한겨울, 눈 덮인 서울 비탈 동네 꼭대기에서 긴 외투의 여자가 홀로 아래 시가지를 내려다본다(AI 펜화)",
-    "ai": "A young Korean woman in a winter coat and scarf stands alone at the top of an empty hillside alley in snowy 1951 Seoul, looking down at a deserted city of tiled roofs. Snow falling, abandoned houses."
+    "img": "img/2026-11-23-classic-s3.jpg",
+    "video": "img/2026-11-23-classic-s3.mp4",
+    "alt": "아침 골목, 책가방을 멘 소년 사샤가 앞서 걷고 머릿수건의 올렌카가 뒤따르며 손을 흔든다. 담장 너머 나뭇잎이 흔들린다"
    }
   ]
  },
- "go": {
-  "title": "「10번기의 마지막 돌」 백350",
-  "game": "MLILY 이세돌·구리 10번기 제8국",
-  "date": "2014-09-28",
-  "black": "구리 9단",
-  "white": "이세돌 9단",
-  "result": "백 2집 반 승(중국식 계가 1¼점)",
-  "moves": "pd dd pq dp pk fq fc df jc qf qe pf nd qi rj nh ch cj eh cg bg bf fe po nq op oq qp ri qq kq qm pm bh nf qc re oc nc nb mb rb ob pb na nj pi fg bi ag hi rl oh og qn pn ql rm ng ph oi qj qh qk pg rd eg ec ed dc eb db bp cp bo bq cm iq ci bj ej dj br cq em ef ei ff ai rf aq kr jr lq jq mq hq lo cr dn dm hp ip io ir jo ko kn kp ln ho gp hn dr fo co bn go gn eo fp gq fn ep jn fr pl rk nl ll fb hf rg pe lr mr ks jm in gd hc hd id ie fd jd ic kd gf hh jf je gg gh ge kf jg kg jh kh ji ki jj ni of fh sf qd se od he nm ms nr oe pc le ke da ca ea cb mm ml nn pj oj om or ns on ok ol nk pp qo oo os np mo qr rr rs ps rq pr sr sp rp ro qs il ik hl lj kj mh mk kk kl mi if jl jk no nm om mn jl im hk jk sq so jl ih gl jk sk sl jl ls hm jk sn rn jl lm km kr qg js pd cs ar lk lc jk ii jm il ld md bs gs sj si fs is hr ks kc kb js hs gr ks fi fj js cn en ks la lb js sd sc ks ap ao js eq dq ks gi gj js ds es ks sh rh js ah bg ks lf mg js sb sa ks lr me pe kk dh di jk ee kk lp mp de ce dg pa pf oa nb pd jp sk iq js im km ks ds js ig ap hg mf as lg lh mj li",
-  "from": 341,
-  "to": 350,
-  "key": 350,
-  "key_label": "M11",
-  "lead": "5승 2패로 앞선 이세돌(백)이 350수 대장정 끝에 여덟 달의 10번기를 닫았다.",
-  "body": [
-   "2014년 1월 시작된 이세돌과 구리의 10번기. 열 판 가운데 먼저 여섯 판을 이기는 쪽이 상금을 모두 가져가는, 옛 일본 바둑계의 승부 방식을 되살린 대결이었다. 이세돌이 5승 2패로 앞선 채 구리의 고향에서 제8국이 열렸다.",
-   "그림은 350수에 이른 긴 판의 마지막 열 수다. 끝내기는 집의 경계를 마저 긋는 단계로, 여기서는 반 집, 한 집이 승패를 가른다. 동그라미 친 백350이 이 판이자 10번기 전체의 마지막 돌이다.",
-   "결과는 백 2집 반 승. 이세돌은 6승 2패로 10번기를 끝내고 상금 500만 위안을 혼자 차지했다. 한 달에 한 판씩 이어 온 승부가 이렇게 조용히 끝났다."
+ "modern": {
+  "title": "82년생 김지영",
+  "writer": "조남주",
+  "year": 2016,
+  "origin": "국내",
+  "where": "장편소설, 2016년 민음사 출간",
+  "oneline": "어느 날 남의 목소리로 말하기 시작한 서른 몇 살 여자, 그리고 그녀가 지나온 평범한 삶.",
+  "img": "img/2026-11-23-modern.jpg",
+  "video": "img/2026-11-23-modern.mp4",
+  "alt": "밝은 상담실, 단발머리 여인이 소파에 앉아 두 손을 무릎에 모으고 말하고, 맞은편 남자 의사가 수첩에 받아 적는다. 창가 화분 잎과 벽시계 추가 흔들린다",
+  "story": [
+   "2015년 가을, 김지영 씨는 남편 정대현 씨, 돌이 지난 딸 지원이와 서울 변두리 아파트에서 삽니다. 그런데 어느 날부터 그녀가 이상한 말을 하기 시작하지요. 친정어머니 말투로 남편을 부르고, 세상을 떠난 대학 선배처럼 말하기도 합니다. 명절에 찾은 시댁에서는 친정어머니가 된 듯 시부모 앞에서 딸 편을 들어 모두를 얼어붙게 했지요.",
+   "놀란 남편은 아내를 정신과에 데려가고, 의사는 그녀가 지나온 날들을 차근차근 듣습니다. 이야기는 1982년으로 거슬러 올라가지요. 김지영 씨는 서울에서 언니와 남동생 사이에 태어났습니다. 집에서는 귀한 남동생의 몫이 언제나 먼저였고, 자매는 그것을 당연한 일로 알고 자랐지요. 어머니도 오래전 오빠들 뒷바라지를 하느라 자기 꿈을 접은 사람이었습니다.",
+   "학교에서도 비슷했습니다. 짝꿍 남자아이가 괴롭혀도 선생님은 '너를 좋아해서 그런다'고 넘겼지요. 고등학생 때는 학원에서 돌아오는 밤 버스에서 낯선 남학생이 따라 내려 겁에 질렸는데, 마중 나온 아버지는 오히려 딸의 늦은 귀가와 옷차림을 나무랐습니다.",
+   "대학을 마치고 숱하게 원서를 낸 끝에 그녀는 작은 홍보 회사에 들어갑니다. 누구보다 성실하게 일했지만, 중요한 일을 맡는 팀에는 남자 동기들이 먼저 뽑혔지요. 회사가 오래 데려갈 사람은 결혼과 출산으로 그만두지 않을 사람이라는 말이 공공연했습니다.",
+   "결혼을 하고 아이를 갖자, 결국 일을 그만두는 쪽은 그녀였습니다. 남편은 육아를 많이 '도와주겠다'고 했지만, 그 말이 어쩐지 서운하게 들렸지요. 아이를 키우는 하루하루는 바쁘고, 그녀의 이름은 점점 누구의 엄마로만 불렸습니다. 친구들의 승진 소식이 들려올 때면, 그녀는 아이를 재우고 나서야 혼자 오래 앉아 있곤 했습니다.",
+   "그러던 어느 날, 아이를 유모차에 태우고 공원 벤치에서 커피 한 잔을 마시던 김지영 씨는 근처 직장인들이 자기를 두고 수군대는 말을 듣습니다. 남편 돈으로 커피나 마시며 논다는, 엄마들을 깎아내리는 말이었지요. 그녀는 아이를 안고 서둘러 공원을 빠져나왔습니다."
   ],
-  "lit": "여덟 달을 이어 온 승부도, 「장마」의 비처럼 어느 날 문득 그칩니다.",
+  "ending": "소설의 마지막은 그녀를 상담한 의사의 기록입니다. 그는 김지영 씨를 깊이 이해하게 되었다고 적습니다. 그런데 바로 그 기록 끝에서, 아이 문제로 병원을 그만두게 된 여성 상담사를 떠올리며 다음에는 미혼인 사람을 뽑아야겠다고 생각하지요. 이해한다는 사람조차 같은 벽을 세운다는 서늘한 결말입니다.",
+  "why": "특별한 사건 없이 한 여성의 평범한 서른몇 해를 보고서처럼 담담히 적어, 오히려 많은 독자가 자기 이야기라고 느꼈습니다. 2019년 영화로도 만들어졌지요.",
   "sources": [
-   "https://www.kukinews.com/article/view/kuk201409280063",
-   "https://www.usgo-archive.org/news/2014/09/lee-sedol-wins-historic-jubango-against-gu-li/",
-   "https://www.toutiao.com/zixun/7543811696557574154/",
-   "https://github.com/yenw/computer-go-dataset (기보: Professional/pro2000+.zip → pro2000+.txt, GN 2014-09-28a)"
+   "https://en.wikipedia.com/wiki/Kim_Ji-young,_Born_1982",
+   "https://pedia.watcha.com/ko/contents/bX9Rlop/book_description",
+   "https://www.munhwa.com/article/11155274",
+   "https://cine21.com/news/view?mag_id=94130"
+  ],
+  "scenes": [
+   {
+    "after": 0,
+    "img": "img/2026-11-23-modern-s1.jpg",
+    "video": "img/2026-11-23-modern-s1.mp4",
+    "alt": "명절 시댁 거실, 상 앞에 앉은 여인이 몸을 곧게 세우고 말하자 맞은편 시부모와 남편이 놀라 돌아본다. 상 위 송편 접시와 창가 커튼이 흔들린다"
+   },
+   {
+    "after": 3,
+    "img": "img/2026-11-23-modern-s2.jpg",
+    "video": "img/2026-11-23-modern-s2.mp4",
+    "alt": "홍보 회사 사무실, 여인이 모니터 앞에서 서류를 정리하고 뒤편 회의실 유리 너머로 남자 동료들이 모여 이야기한다. 선풍기가 돌고 서류가 펄럭인다"
+   },
+   {
+    "after": 5,
+    "img": "img/2026-11-23-modern-s3.jpg",
+    "video": "img/2026-11-23-modern-s3.mp4",
+    "alt": "가을 공원 벤치, 유모차 곁에 앉은 여인이 커피 잔을 든 채 고개를 돌리고, 멀리 정장 차림 두 사람이 이쪽을 보며 수군댄다. 낙엽이 떨어지고 유모차 바람개비가 돈다"
+   }
   ]
  },
  "man": {
-  "kind": "운동선수",
-  "name": "도란도 피에트리",
-  "sub": "마라톤 · 이탈리아 1885 – 1942",
-  "img": "img/2026-11-22-man.jpg",
-  "video": "img/2026-11-22-man.mp4",
-  "alt": "1908년 런던 올림픽 경기장 트랙, 흰 러닝셔츠의 마라토너가 비틀거리며 결승선 쪽으로 다가오고 곁의 심판이 팔을 뻗어 부축하려 한다. 관중석 깃발이 펄럭인다(3D 삽화, 실제 인물 아님)",
+  "kind": "격투가",
+  "name": "브루스 리(이소룡)",
+  "sub": "무술가·배우 · 미국·홍콩 1940 – 1973",
+  "img": "img/2026-11-23-man.jpg",
+  "video": "img/2026-11-23-man.mp4",
+  "alt": "나무 바닥 도장, 맨발의 무술가가 한쪽 다리를 높이 차올리고 두 손을 앞으로 세운다. 매달린 샌드백이 흔들리고 창으로 빛과 먼지가 든다(3D 삽화, 실제 인물 아님)",
   "cap": "3D 삽화",
-  "bio": "1885년 이탈리아 북부 시골에서 태어나 카르피의 제과점에서 일하며 달리기를 시작했습니다. 1908년 런던 올림픽 마라톤에서 가장 먼저 경기장에 들어섰지만 탈진해 몇 번이고 쓰러졌고, 심판의 부축을 받아 결승선을 넘은 탓에 실격됐지요. 메달은 잃었지만 그 비틀걸음으로 세계의 마음을 얻은 '숨은 사나이'입니다.",
+  "bio": "1940년 샌프란시스코에서 태어나 홍콩에서 자랐습니다. 열여덟에 미국으로 건너가 워싱턴 대학교에서 철학을 공부하며 무술을 가르쳤지요. 여러 무술의 군더더기를 덜어 낸 절권도를 세웠고, 홍콩 영화로 세계에 이름을 알렸습니다. 서른둘에 갑자기 세상을 떠났지만, 그 짧고 빠른 발차기는 지금도 무술 영화의 기준입니다.",
   "feats": [
    {
-    "when": "1908.7.24",
-    "text": "런던 올림픽 마라톤. 1위로 경기장에 들어섰으나 여러 번 쓰러졌고, 심판들의 부축으로 결승선을 넘었다가 미국 측 항의로 실격됐습니다."
+    "when": "1964",
+    "text": "롱비치 국제 가라테 선수권 시범에서 주먹을 거의 휘두르지 않고 상대를 밀어내는 '1인치 펀치'를 보여 주었습니다."
    },
    {
-    "when": "1908.7.25",
-    "text": "이튿날 알렉산드라 왕비가 그의 투혼을 기려 도금한 은잔을 직접 건넸습니다."
+    "when": "1967",
+    "text": "자신의 무술에 '상대의 주먹을 끊는 길'이라는 뜻의 절권도라는 이름을 붙였습니다."
    },
    {
-    "when": "1908",
-    "text": "경기를 취재한 『셜록 홈스』의 작가 아서 코넌 도일이 신문에 그를 위한 모금을 제안했습니다."
+    "when": "1971",
+    "text": "캐나다 「피에르 버턴 쇼」 인터뷰에서 '물이 되게, 친구'라는 말로 자기 무술의 철학을 설명했습니다."
    },
    {
-    "when": "1908.11",
-    "text": "뉴욕 매디슨 스퀘어 가든의 프로 맞대결에서 올림픽 우승자 조니 헤이스를 꺾었습니다."
+    "when": "1973",
+    "text": "할리우드와 함께 만든 「용쟁호투」의 개봉을 앞두고 7월 20일 홍콩에서 세상을 떠났습니다."
    }
   ],
+  "quote": "물이 되게, 친구.",
+  "quote_orig": "Be water, my friend.",
+  "quote_by": "1971년 「피에르 버턴 쇼」 인터뷰에서(금로동 옮김)",
   "sources": [
-   "https://en.wikipedia.org/wiki/Dorando_Pietri",
-   "https://olympics.com/en/news/marathon-man-pietri-wins-hearts-but-no-gold",
-   "https://www.britannica.com/biography/1908-Olympic-Games-Falling-at-the-Finish-1367949",
-   "https://publicdomainreview.org/2012/08/09/conan-doyles-olympic-crusade/",
-   "https://www.arthur-conan-doyle.com/wiki/To_Honour_Dorando"
-  ],
-  "ai": "An exhausted marathon runner in a white vest and dark shorts staggers on a stadium cinder track toward the finish, an official in a dark suit and straw hat reaching out to support him. 1908 crowd, flags. Seen from a distance, no face details."
+   "https://en.wikipedia.com/wiki/Bruce Lee",
+   "https://brucelee.com/bruce-lee",
+   "https://openculture.com/2011/02/bruce_lee_the_lost_tv_interview.html",
+   "https://en.wikipedia.org/wiki/The_Pierre_Berton_Show",
+   "https://www.criterion.com/current/posts/7019-water-and-vessel-the-kung-fu-movies-of-bruce-lee"
+  ]
  },
  "food": {
-  "name": "귀리죽(그루얼)",
+  "name": "고등어",
   "hanja": null,
-  "work": "올리버 트위스트",
-  "writer": "찰스 디킨스",
-  "year": "1838",
-  "where": "1830년대 영국의 구빈원(워크하우스) 식당",
-  "img": "img/2026-11-22-food.jpg",
-  "video": "img/2026-11-22-food.mp4",
-  "alt": "구빈원 부엌의 나무 식탁 위, 큰 양푼에 담긴 묽은 귀리죽과 옆에 놓인 국자. 선반에는 양철 주전자와 그릇이 늘어서 있고 창으로 잿빛 빛이 든다(AI 펜화)",
-  "ai": "Close-up: a small battered tin bowl of thin watery grey oatmeal gruel with a tin spoon on a long rough wooden table in a bleak Victorian workhouse dining hall; a huge copper cauldron with a ladle steaming behind, high narrow windows.",
-  "quote": "선생님, 죄송하지만 조금만 더 주세요.",
-  "quote_orig": "Please, sir, I want some more.",
-  "quote_by": "구빈원 식당에서 빈 그릇을 든 어린 올리버가, 죽을 퍼 주던 관리인에게(금로동 옮김)",
+  "work": "수난이대",
+  "writer": "하근찬",
+  "year": "1957",
+  "where": "6·25 전쟁 뒤 경상도 시골 장터와 외나무다리",
+  "img": "img/2026-11-23-food.jpg",
+  "video": "img/2026-11-23-food.mp4",
+  "alt": "시골 부엌 소반 위, 노릇하게 구운 고등어 한 마리가 접시에 놓였고 곁에 고봉밥 한 그릇과 수저가 있다. 석쇠에서 김이 오르고 창밖으로 외나무다리와 개울이 보인다",
+  "quote": "니는 앉아서 할 일 하고, 나는 돌아댕기면서 할 일 하고",
+  "quote_by": "외나무다리 앞에서 아버지 만도가 다리를 잃은 아들 진수에게",
   "body": [
-   "구빈원의 아이들은 하루 세 번 묽은 귀리죽을 한 그릇씩 받습니다. 일주일에 두 번 양파 한 알, 일요일엔 빵 반 쪽이 더해질 뿐이었지요. 몇 달을 굶주린 끝에 아이들은 제비를 뽑아 한 명이 죽을 더 달라고 하기로 합니다. 뽑힌 아이가 올리버였습니다. 그 한마디에 식당은 얼어붙고, 이사회는 이 '건방진' 아이를 데려갈 사람에게 5파운드를 주겠다고 내겁니다.",
-   "그루얼은 귀리 가루나 오트밀을 물에 넣고 오래 끓인 묽은 죽입니다. 값싸고 잠시나마 배를 채워 주어 가난한 이들과 환자의 음식으로 흔했지요. 1834년 개정 구빈법 뒤의 구빈원은 일부러 바깥보다 고되게 살도록 꾸려졌고, 묽은 죽 한 그릇은 그 엄격함을 상징하는 밥상이 됐습니다.",
-   "디킨스에게 이 장면은 남의 일이 아니었습니다. 열두 살 무렵 아버지가 빚 때문에 감옥에 갇히자 그는 학교 대신 구두약 공장에 나가 일했지요. 배고픈 아이의 마음을 몸으로 알았던 셈입니다. 'Please, sir, I want some more'는 지금도 영어권에서 '조금만 더'를 청할 때 웃으며 쓰는 말이 됐습니다.",
-   "다시 소설로 돌아가면, 올리버가 청한 것은 죽 한 국자였지만 실은 사람대접이었습니다. 빈 그릇 하나가 그 시대가 가난한 아이에게 무엇을 주지 않았는지를 보여 주지요. 오늘 따뜻한 죽 한 그릇 앞에 앉는다면, 넉넉히 떠서 드세요."
+   "아들 진수가 전쟁터에서 돌아온다는 소식에 아버지 만도는 정거장으로 가는 길, 장터에서 고등어를 삽니다. 아들에게 먹일 생각에 걸음이 가벼웠지요. 그러나 기차에서 내린 아들은 한쪽 다리를 잃은 채였습니다. 만도 자신도 일제 때 징용에 끌려가 한쪽 팔을 잃은 사람이었지요. 집으로 가는 외나무다리에서 아버지는 아들을 업고, 아들은 고등어를 받아 듭니다.",
+   "고등어는 가을이 제철이라 기름이 오른 것을 으뜸으로 칩니다. 값싸고 흔해서 '바다의 보리'라는 별명이 붙었지요. 다만 바다에서 먼 내륙에서는 쉽게 상했기에, 소금을 친 간고등어가 퍼졌습니다. 동해에서 잡은 고등어를 안동까지 지고 오는 동안 상하지 않게 소금을 쳤다는 이야기가 안동 간고등어의 유래로 전하지요.",
+   "정약전의 『자산어보』는 고등어를 등의 푸른 무늬를 따 '벽문어(碧紋魚)'라 적고, 흔히 고등어라 부른다고 덧붙였습니다. 어떤 생선이었는지 보여 주는 이름이지요. 장날 새끼줄에 꿰어 들고 오던 고등어는 오랫동안 시골 밥상의 귀한 반찬이었습니다.",
+   "다시 다리 위로 돌아가면, 팔 없는 아버지와 다리 없는 아들이 한 몸처럼 개울을 건너고, 고등어는 아들 손에서 달랑거립니다. 함께 살아갈 방법을 찾은 부자의 저녁상에 그 고등어가 올랐겠지요. 오늘 저녁엔 고등어 한 토막 구워 누군가와 나눠 보세요."
   ],
-  "try": "오늘 아침엔 오트밀에 따뜻한 우유를 붓고 꿀 한 숟갈을 얹어 보세요. 올리버의 죽보다 훨씬 진하게.",
+  "try": "소금 친 고등어를 석쇠나 팬에 껍질부터 바삭하게 구워, 따뜻한 밥 한 숟갈에 얹어 보세요.",
   "sources": [
-   "https://charlesdickenspage.com/twist-more.html",
-   "https://www.litcharts.com/lit/oliver-twist/chapter-2",
-   "https://etc.usf.edu/lit2go/50/oliver-twist/933/chapter-2-treats-of-oliver-twists-growth-education-and-board/",
-   "https://www.victorianweb.org/victorian/art/illustration/cruikshank/ot2.html",
-   "https://www.britannica.com/topic/Oliver-Twist-novel-by-Dickens"
+   "https://encykorea.aks.ac.kr/Article/E0031252",
+   "https://brunch.co.kr/@cs0408/14",
+   "https://m.seoul.co.kr/news/2020/01/03/20200103035005",
+   "https://seoul.co.kr/news/plan/kimjun_bada/2014/11/06/20141106018003",
+   "https://www.pressian.com/pages/articles/108953"
   ],
   "short": {
-   "hook": "찰스 디킨스의 『올리버 트위스트』, 빈 그릇을 든 소년이 청한 묽은 죽 한 그릇 이야기예요.",
+   "hook": "하근찬의 「수난이대」, 외나무다리를 건넌 고등어 한 마리 이야기예요.",
    "lines": [
-    "구빈원 아이들은 하루 세 번, 묽은 귀리죽 한 그릇씩만 받았어요.",
-    "배고픔을 못 견딘 아이들이 제비를 뽑았고, 뽑힌 아이가 올리버였죠.",
-    "빈 그릇을 들고 한마디. 선생님, 조금만 더 주세요.",
-    "식당은 얼어붙고, 어른들은 이 아이를 내보내려 현상금까지 걸어요.",
-    "묽은 귀리죽은 그 시절 구빈원의 엄격함을 상징하는 밥상이었어요.",
-    "디킨스도 열두 살에 구두약 공장에서 일했던 배고픈 아이였답니다."
+    "전쟁에서 돌아오는 아들을 마중 가는 길, 아버지 만도는 장터에서 고등어를 사요.",
+    "그런데 기차에서 내린 아들은 한쪽 다리를 잃었죠. 아버지도 징용으로 한쪽 팔을 잃은 사람이었어요.",
+    "외나무다리 앞에서 아버지는 아들을 업고, 아들은 고등어를 받아 들어요.",
+    "고등어는 값싸고 흔해 바다의 보리라고 불렸고, 내륙에서는 소금 친 간고등어로 먹었어요.",
+    "자산어보에는 등의 푸른 무늬를 따서 벽문어라고 적혀 있답니다."
    ],
-   "outro": "오늘 문학늬우스에서 그 죽 한 그릇 이야기를 더 만나 보세요.",
+   "outro": "오늘 문학늬우스에서 그 고등어 한 마리 이야기를 더 만나 보세요.",
    "thumb": [
-    "조금만",
-    "더 주세요"
+    "외나무다리",
+    "고등어 한 마리"
    ],
-   "title": "디킨스 『올리버 트위스트』 묽은 귀리죽 한 그릇, 그 유명한 한마디 | 문학 한술 #올리버트위스트 #디킨스 #그루얼 #shorts"
+   "title": "하근찬 「수난이대」 외나무다리 위 고등어 한 마리, 아버지와 아들 | 문학 한술 #수난이대 #하근찬 #고등어 #shorts"
   }
  },
  "zodiac": [
   {
    "key": "rat",
    "animal": "쥐",
-   "text": "이런들 어떠하리 저런들 어떠하리 / 만수산 드렁칡이 얽혀진들 어떠하리 / 우리도 이같이 얽혀져 백 년까지 누리리라",
-   "writer": "이방원",
-   "work": "하여가(시조)",
-   "year": "14세기 말",
-   "note": "오늘은 '이래도 저래도 괜찮다'는 마음으로 사람들 사이를 부드럽게 지나가 보세요.",
+   "text": "한산섬 달 밝은 밤에 수루에 혼자 앉아 / 큰 칼 옆에 차고 깊은 시름 하는 적에 / 어디서 일성호가는 남의 애를 끊나니",
+   "writer": "이순신",
+   "work": "한산섬 달 밝은 밤에(시조)",
+   "year": "16세기 말",
+   "note": "걱정이 깊은 밤에도 달은 밝습니다. 오늘은 혼자 짊어진 일을 잠깐 내려놓아 보세요.",
    "sources": [
-    "https://sgsg.hankyung.com/article/2008070396961",
-    "https://encykorea.aks.ac.kr/Article/E0060656"
+    "https://sgsg.hankyung.com/article/2024122093861",
+    "https://tilnote.io/pages/67cd941d2a14e2a1ab224e73.md"
    ]
   },
   {
    "key": "ox",
    "animal": "소",
-   "text": "강호에 봄이 드니 미친 흥이 절로 난다 / 탁료계변에 금린어 안주로다 / 이 몸이 한가하옴도 역군은이샷다",
-   "writer": "맹사성",
-   "work": "강호사시가(춘사)",
+   "text": "이 몸이 죽어 가서 무엇이 될꼬 하니 / 봉래산 제일봉에 낙락장송 되었다가 / 백설이 만건곤할 제 독야청청하리라",
+   "writer": "성삼문",
+   "work": "이 몸이 죽어 가서(시조)",
    "year": "15세기",
-   "note": "탁주 한 잔에 물고기 한 마리면 넉넉했던 사람처럼, 오늘은 작은 흥을 놓치지 마세요.",
+   "note": "눈이 덮여도 푸른 소나무처럼, 오늘 지키고 싶은 마음 하나를 꼭 쥐어 보세요.",
    "sources": [
-    "https://encykorea.aks.ac.kr/Article/E0001490",
-    "https://khan.co.kr/article/201903141406001"
+    "https://m.cafe.daum.net/lovesisarang/H4dx/370",
+    "https://ko.wikisource.org/wiki/%EB%B6%84%EB%A5%98:%EC%8B%9C%EC%A1%B0"
    ]
   },
   {
    "key": "tiger",
    "animal": "호랑이",
-   "text": "무엇보다 이것만은, 너 자신에게 진실하라.",
-   "orig": "This above all: to thine own self be true",
+   "text": "한 알의 모래에서 세계를 보고 / 한 송이 들꽃에서 천국을 보라",
+   "orig": "To see a World in a Grain of Sand / And a Heaven in a Wild Flower",
    "translator": "금로동 옮김",
-   "writer": "윌리엄 셰익스피어",
-   "work": "햄릿(1막 3장)",
-   "year": 1601,
-   "note": "남의 기대보다 내 마음의 소리를 한 번 더 들어 보세요. 거기서 하루가 단단해져요.",
+   "writer": "윌리엄 블레이크",
+   "work": "순수의 전조(Auguries of Innocence)",
+   "year": "1803년경",
+   "note": "오늘은 큰 그림보다 작은 것 하나를 오래 들여다보세요. 거기 세계가 다 있어요.",
    "sources": [
-    "https://www.folger.edu/explore/shakespeares-works/hamlet/act-1-scene-3/",
-    "https://web.mit.edu/shakespeare/TheMITTech/hamlet/hamlet.1.3.html"
+    "https://poets.org/poem/auguries-innocence",
+    "https://www.poetryfoundation.org/poems-and-poets/poems/detail/43650"
    ]
   },
   {
    "key": "rabbit",
    "animal": "토끼",
-   "text": "지난밤에 / 눈이 소복이 왔네 / 지붕이랑 / 길이랑 밭이랑 / 추워한다고 / 덮어주는 이불인가 봐",
-   "writer": "윤동주",
-   "work": "눈(동시)",
-   "year": 1936,
-   "note": "오늘은 누군가를 조용히 덮어 주는 이불 같은 말을 한마디 건네 보세요.",
+   "text": "하루라도 책을 읽지 않으면 입 안에 가시가 돋는다.",
+   "orig": "一日不讀書 口中生荊棘",
+   "translator": "금로동 옮김",
+   "writer": "안중근",
+   "work": "유묵 「일일부독서 구중생형극」",
+   "year": "1910",
+   "note": "오늘은 몇 쪽이라도 좋으니 책을 펼쳐 보세요. 입 안이 한결 부드러워질 거예요.",
    "sources": [
-    "https://sgsg.hankyung.com/article/2024041924081",
-    "https://jaypsong.blog/2012/12/24/snow-by-yun-dong-ju"
+    "https://weekly.khan.co.kr/article/202207291416501",
+    "https://m.seoul.co.kr/news/life/2009/10/21/20091021023008"
    ]
   },
   {
    "key": "dragon",
    "animal": "용",
-   "text": "흥망이 유수하니 만월대도 추초로다 / 오백 년 왕업이 목적에 부쳤으니 / 석양에 지나는 객이 눈물겨워 하노라",
-   "writer": "원천석",
-   "work": "회고가(시조)",
-   "year": "14세기 말",
-   "note": "크고 화려한 것도 언젠가 풀밭이 돼요. 오늘은 오래 남을 작은 일에 마음을 써 보세요.",
+   "text": "오늘을 붙잡게, 내일은 되도록 믿지 말고.",
+   "orig": "carpe diem, quam minimum credula postero",
+   "translator": "금로동 옮김",
+   "writer": "호라티우스",
+   "work": "송가 1권 11",
+   "year": "기원전 23년경",
+   "note": "미뤄 둔 즐거움이 있다면 오늘 한 조각만 꺼내 드세요. 오늘도 충분히 좋은 날이에요.",
    "sources": [
-    "https://ko.wikisource.org/wiki/%ED%9A%8C%EA%B3%A0%EA%B0%80_(%EC%9B%90%EC%B2%9C%EC%84%9D)",
-    "https://encykorea.aks.ac.kr/Article/E0040871"
+    "https://www.britannica.com/EBchecked/topic/96702/carpe-diem",
+    "https://en.wikiquote.org/wiki/Horace"
    ]
   },
   {
    "key": "snake",
    "animal": "뱀",
-   "text": "내 영혼은 겁쟁이가 아니다.",
-   "orig": "No coward soul is mine",
-   "translator": "금로동 옮김",
-   "writer": "에밀리 브론테",
-   "work": "겁 없는 영혼(No Coward Soul Is Mine)",
-   "year": 1846,
-   "note": "망설이던 일이 있다면 오늘은 반 걸음만 내디뎌 보세요. 생각보다 마음이 단단해요.",
+   "text": "마음이 어린 후니 하는 일이 다 어리다 / 만중운산에 어느 님 오리마는 / 지는 잎 부는 바람에 행여 긘가 하노라",
+   "writer": "서경덕",
+   "work": "마음이 어린 후니(시조)",
+   "year": "16세기",
+   "note": "기다리는 소식이 있다면, 바람 소리에 설레는 마음까지 오늘의 즐거움으로 두세요.",
    "sources": [
-    "https://rpo.library.utoronto.ca/poems/no-coward-soul-mine",
-    "https://openpress.usask.ca/victorianproseandpoetry/chapter/no-coward-soul-is-mine/"
+    "https://m.cafe.daum.net/skkydh/A17X/54",
+    "https://ko.wikisource.org/wiki/%EB%B6%84%EB%A5%98:%EC%8B%9C%EC%A1%B0"
    ]
   },
   {
    "key": "horse",
    "animal": "말",
-   "text": "사랑하고 잃는 것이 / 한 번도 사랑하지 않은 것보다 낫다.",
-   "orig": "'Tis better to have loved and lost / Than never to have loved at all.",
+   "text": "서서 기다리기만 하는 이들도 섬기는 것이다.",
+   "orig": "They also serve who only stand and wait.",
    "translator": "금로동 옮김",
-   "writer": "앨프리드 테니슨",
-   "work": "인 메모리엄 A.H.H.(27)",
-   "year": 1850,
-   "note": "지나간 인연을 아까워하기보다, 그만큼 사랑했던 자신을 오늘은 칭찬해 주세요.",
+   "writer": "존 밀턴",
+   "work": "소네트 19(눈이 멀어)",
+   "year": "1673년 출간",
+   "note": "달리지 못하는 날도 쓸모없는 날은 아니에요. 오늘은 기다리는 것도 일이라 여겨 보세요.",
    "sources": [
-    "https://rpo.library.utoronto.ca/poems/memoriam-h-h-obiit-mdcccxxxiii-27",
-    "https://www.poetryfoundation.org/poems-and-poets/poems/detail/45336"
+    "https://www.poetryfoundation.org/poems/44750/sonnet-19-when-i-consider-how-my-light-is-spent",
+    "https://en.wikipedia.org/wiki/When_I_Consider_How_My_Light_Is_Spent"
    ]
   },
   {
    "key": "sheep",
    "animal": "양",
-   "text": "반중 조홍감이 고와도 보이나다 / 유자 아니라도 품음 직도 하다마는 / 품어 가 반길 이 없을새 글로 설워하나이다",
-   "writer": "박인로",
-   "work": "조홍시가(시조)",
-   "year": 1601,
-   "note": "반겨 줄 사람이 곁에 있다면 오늘은 작은 과일 하나라도 품어 가 보세요.",
+   "text": "짚방석 내지 마라 낙엽엔들 못 앉으랴 / 솔불 혀지 마라 어제 진 달 돋아 온다 / 아희야 박주산채일망정 없다 말고 내어라",
+   "writer": "한호(한석봉)",
+   "work": "짚방석 내지 마라(시조)",
+   "year": "16세기",
+   "note": "갖춘 것이 모자라도 괜찮아요. 오늘은 있는 것으로 차린 작은 자리를 즐겨 보세요.",
    "sources": [
-    "https://ko.wikisource.org/wiki/%EC%A1%B0%ED%99%8D%EC%8B%9C%EA%B0%80",
-    "https://encykorea.aks.ac.kr/Article/E0052773"
+    "https://m.cafe.daum.net/skkydh/A17X/54",
+    "https://m.cafe.daum.net/jangdalsoo/kcfE/79"
    ]
   },
   {
    "key": "monkey",
    "animal": "원숭이",
-   "text": "잘못은 사람의 일, 용서는 신의 일.",
-   "orig": "To err is human, to forgive divine.",
+   "text": "배우고 때때로 익히면 또한 기쁘지 아니한가.",
+   "orig": "學而時習之 不亦說乎",
    "translator": "금로동 옮김",
-   "writer": "알렉산더 포프",
-   "work": "비평에 관한 시론(An Essay on Criticism)",
-   "year": 1711,
-   "note": "오늘 누군가의 실수를 보면, 나도 사람이라 실수한다는 걸 먼저 떠올려 보세요.",
+   "writer": "공자",
+   "work": "논어 학이편",
+   "year": "기원전 5세기",
+   "note": "어제 배운 것 하나를 오늘 다시 꺼내 보세요. 익숙해지는 기쁨이 생각보다 커요.",
    "sources": [
-    "https://en.wikipedia.org/wiki/An_Essay_on_Criticism",
-    "https://rpo.library.utoronto.ca/poems/essay-criticism-part-1"
+    "https://ko.wikisource.org/wiki/%EB%85%BC%EC%96%B4/%ED%95%99%EC%9D%B4%EC%A0%9C%EC%9D%BC"
    ]
   },
   {
    "key": "rooster",
    "animal": "닭",
-   "text": "이화우 흩뿌릴 제 울며 잡고 이별한 임 / 추풍낙엽에 저도 날 생각는가 / 천 리에 외로운 꿈만 오락가락 하노매",
-   "writer": "계랑(매창)",
-   "work": "이화우 흩뿌릴 제(시조)",
-   "year": "16세기 말",
-   "note": "멀리 있는 사람이 떠오르면 오늘은 짧은 안부라도 띄워 보세요. 꿈보다 빨리 닿아요.",
+   "text": "우리는 우리의 밭을 가꾸어야 합니다.",
+   "orig": "il faut cultiver notre jardin",
+   "translator": "금로동 옮김",
+   "writer": "볼테르",
+   "work": "캉디드(30장)",
+   "year": "1759",
+   "note": "세상일이 어지러운 날일수록 내 앞의 작은 밭 한 뙈기부터 돌봐 보세요.",
    "sources": [
-    "https://thewiki.kr/w/계랑",
-    "https://jjan.kr/article/20140220501282"
+    "https://www.dailymaverick.co.za/article/2021-04-07-voltaire-and-the-art-of-enlightened-gardening/",
+    "https://courses.lumenlearning.com/suny-oneonta-classicreadings/chapter/the-project-gutenberg-ebook-of-candide-by-voltaire-4/"
    ]
   },
   {
    "key": "dog",
    "animal": "개",
-   "text": "누구도 그 자체로 온전한 섬이 아니다.",
-   "orig": "No man is an island, entire of itself",
-   "translator": "금로동 옮김",
-   "writer": "존 던",
-   "work": "뜻밖의 일에 부치는 기도(명상 17)",
-   "year": 1624,
-   "note": "혼자 버티던 일이 있다면 오늘은 곁의 누군가에게 손을 내밀어 보세요.",
+   "text": "산촌에 눈이 오니 돌길이 묻혔어라 / 시비를 열지 마라 날 찾을 이 뉘 있으리 / 밤중만 일편명월이 긔 벗인가 하노라",
+   "writer": "신흠",
+   "work": "산촌에 눈이 오니(시조)",
+   "year": "17세기",
+   "note": "찾아오는 이 없는 날엔 달 하나를 벗 삼아도 넉넉해요. 오늘은 조용함을 즐겨 보세요.",
    "sources": [
-    "https://en.wikipedia.org/wiki/Devotions_upon_Emergent_Occasions",
-    "https://en.wikisource.org/wiki/Meditation_XVII"
+    "https://m.cafe.daum.net/skkydh/A17X/54",
+    "https://m.cafe.daum.net/vnip/6uai/132"
    ]
   },
   {
    "key": "pig",
    "animal": "돼지",
-   "text": "묏버들 가려 꺾어 보내노라 임의 손대 / 자시는 창밖에 심어 두고 보소서 / 밤비에 새잎 곧 나거든 날인가도 여기소서",
-   "writer": "홍랑",
-   "work": "묏버들 가려 꺾어(시조)",
-   "year": "16세기",
-   "note": "마음을 전할 땐 거창한 선물보다 버들가지 하나면 충분해요. 오늘 작은 정을 건네 보세요.",
+   "text": "기다려라, 그리고 희망하라!",
+   "orig": "Attendre et espérer!",
+   "translator": "금로동 옮김",
+   "writer": "알렉상드르 뒤마",
+   "work": "몽테크리스토 백작(117장)",
+   "year": "1844–1846",
+   "note": "아직 오지 않은 좋은 일이 있다면, 오늘은 조급함 대신 희망 쪽에 마음을 두세요.",
    "sources": [
-    "https://thewiki.kr/w/홍랑",
-    "https://m.cafe.daum.net/jangdalsoo/kcfE/79"
+    "https://fr.wikisource.org/wiki/Le_Comte_de_Monte-Cristo/Chapitre_117",
+    "https://www.sparknotes.com/lit/montecristo/quotes/page/5/"
    ]
   }
  ],
  "puzzle": {
   "size": [
-   11,
+   8,
    11
   ],
   "words": [
@@ -537,154 +526,172 @@
     "dir": "across",
     "r": 1,
     "c": 0,
-    "a": "시인",
-    "clue": "시를 짓는 사람"
+    "a": "수난이대",
+    "clue": "하근찬의 단편, 두 대에 걸친 수난"
    },
    {
     "n": 4,
     "dir": "across",
     "r": 2,
-    "c": 1,
-    "a": "생활",
-    "clue": "살림을 꾸려 살아감"
+    "c": 3,
+    "a": "화해",
+    "clue": "다툼을 풀고 사이좋게"
    },
    {
-    "n": 6,
+    "n": 7,
     "dir": "across",
     "r": 3,
-    "c": 2,
-    "a": "자연",
-    "clue": "청산과 녹수, 절로절로 흐르는 것"
+    "c": 4,
+    "a": "학생",
+    "clue": "학교에서 배우는 사람"
    },
    {
-    "n": 8,
+    "n": 9,
+    "dir": "across",
+    "r": 3,
+    "c": 9,
+    "a": "등단",
+    "clue": "작가로 문단에 나섬"
+   },
+   {
+    "n": 11,
     "dir": "across",
     "r": 4,
-    "c": 3,
-    "a": "가난",
-    "clue": "올리버와 박완서 가족이 겪은 것"
+    "c": 5,
+    "a": "활자",
+    "clue": "책을 찍는 글자 틀"
    },
    {
-    "n": 10,
+    "n": 13,
     "dir": "across",
     "r": 5,
-    "c": 4,
-    "a": "장면",
-    "clue": "이야기의 한 대목"
-   },
-   {
-    "n": 12,
-    "dir": "across",
-    "r": 7,
-    "c": 5,
-    "a": "관객",
-    "clue": "연극을 보는 사람"
-   },
-   {
-    "n": 14,
-    "dir": "across",
-    "r": 8,
     "c": 6,
-    "a": "주인공",
-    "clue": "이야기의 중심인물"
+    "a": "연가",
+    "clue": "사랑을 노래한 시"
    },
    {
-    "n": 16,
+    "n": 15,
     "dir": "across",
-    "r": 9,
-    "c": 8,
-    "a": "감자",
-    "clue": "김동인의 1925년 단편"
-   },
-   {
-    "n": 18,
-    "dir": "across",
-    "r": 10,
-    "c": 9,
-    "a": "전쟁",
-    "clue": "「장마」와 『싱아』의 그늘"
+    "r": 6,
+    "c": 7,
+    "a": "장편소설",
+    "clue": "긴 소설"
    },
    {
     "n": 1,
     "dir": "down",
     "r": 0,
+    "c": 1,
+    "a": "가난",
+    "clue": "철호네 판잣집의 살림"
+   },
+   {
+    "n": 2,
+    "dir": "down",
+    "r": 1,
     "c": 0,
-    "a": "한시",
-    "clue": "한자로 지은 시"
+    "a": "수필",
+    "clue": "붓 가는 대로 쓴 글"
    },
    {
     "n": 3,
     "dir": "down",
     "r": 1,
-    "c": 1,
-    "a": "인생",
-    "clue": "사람이 살아가는 한평생"
+    "c": 3,
+    "a": "대화",
+    "clue": "마주 보고 나누는 말"
    },
    {
     "n": 5,
     "dir": "down",
     "r": 2,
-    "c": 2,
-    "a": "활자",
-    "clue": "인쇄에 쓰는 글자 틀"
+    "c": 4,
+    "a": "해학",
+    "clue": "익살스럽고 너그러운 웃음"
    },
    {
-    "n": 7,
+    "n": 6,
+    "dir": "down",
+    "r": 2,
+    "c": 9,
+    "a": "갈등",
+    "clue": "인물 사이의 부딪침"
+   },
+   {
+    "n": 8,
     "dir": "down",
     "r": 3,
-    "c": 3,
-    "a": "연가",
-    "clue": "사랑을 노래한 시"
+    "c": 5,
+    "a": "생활",
+    "clue": "살림을 꾸려 살아감"
    },
    {
-    "n": 9,
+    "n": 10,
+    "dir": "down",
+    "r": 3,
+    "c": 10,
+    "a": "단편소설",
+    "clue": "짧은 소설"
+   },
+   {
+    "n": 12,
     "dir": "down",
     "r": 4,
-    "c": 4,
-    "a": "난장",
-    "clue": "뒤죽박죽 떠들썩한 판"
+    "c": 6,
+    "a": "자연",
+    "clue": "산과 물, 저절로 그러한 것"
    },
    {
-    "n": 11,
+    "n": 14,
     "dir": "down",
     "r": 5,
-    "c": 5,
-    "a": "면류관",
-    "clue": "윤흥길 등단작 「회색 ○○○의 계절」"
+    "c": 7,
+    "a": "가장",
+    "clue": "식구를 먹여 살리는 사람"
    },
    {
-    "n": 13,
+    "n": 16,
     "dir": "down",
-    "r": 7,
-    "c": 6,
-    "a": "객주",
-    "clue": "나그네를 묵게 하던 집"
-   },
-   {
-    "n": 15,
-    "dir": "down",
-    "r": 8,
+    "r": 6,
     "c": 8,
-    "a": "공감",
-    "clue": "남의 마음을 함께 느낌"
-   },
-   {
-    "n": 17,
-    "dir": "down",
-    "r": 9,
-    "c": 9,
-    "a": "자전",
-    "clue": "자기 삶을 스스로 적음"
+    "a": "편지",
+    "clue": "헉이 왓슨 아주머니에게 쓰다 찢은 것"
    }
   ]
  },
+ "go": {
+  "title": "「원폭 대국」 백240",
+  "game": "제3기 혼인보전 도전기 제2국(원폭 대국)",
+  "date": "1945-08-06",
+  "black": "이와모토 가오루 7단",
+  "white": "하시모토 우타로 8단(혼인보)",
+  "result": "백 5집 승",
+  "moves": "qd oq od de dp cn fp qp dc mc ee ef ed dg ce cf be qj qh gf bf ch jq oj em lq rp pp ol ql ml ko mn pn co gp go hp fq ho hr km nj oi ni nh li mh jn kn kk gn fo il ik hk ij hj jl hl ih hi jg pf og of qf pg qg bo bp do cp cl on pc pd oc nd nc qc jc kd kc pk qk pj nk mk lf le kg jf lh pm qm ro rq np oo qn po qi rj jm ki nq iq ir jp kq lr no nr mr or mq kp kr gc ek dk gm ks jr lp ms hm fn hn ej ii kf mf ne pi ok mj nl lj lk kj ls eb db ld me jd ke bn bh bi bg ec dd ap aq ao bq rn nf ng ri qb rb pb gd hd ci cj di bj ge gb gg eh ff fi ra da ca ea cb dm df eg cg jh he lm id hc ns mm nm os op pq ei fh hh ie je ic pl fj fk gl fm gh hf jj jk gq gr si sh sj gk gj eo dn qa pa md lc ai aj ah ph pe dh fc fb fd mo if mp nn ln",
+  "from": 231,
+  "to": 240,
+  "key": 240,
+  "key_label": "M6",
+  "lead": "원자폭탄이 터진 날에도 두 기사는 판을 다시 차려 끝까지 두었다.",
+  "body": [
+   "1945년 8월 4일, 일본 바둑의 최고 타이틀 혼인보를 건 도전기 제2국이 히로시마에서 시작됐다. 공습이 잦자 대국장은 시내에서 떨어진 교외 이쓰카이치로 옮겨졌다. 셋째 날인 8월 6일 아침, 대국 도중 히로시마에 원자폭탄이 떨어졌다.",
+   "폭풍에 창이 깨지고 돌이 흩어졌지만, 두 기사는 판을 다시 차리고 점심 뒤 대국을 이어 갔다. 그림은 240수에 이른 이 판의 마지막 열 수다. 끝내기는 서로의 집 경계를 마저 긋는 단계로, 동그라미 친 백240이 이 판의 마지막 돌이다.",
+   "결과는 백 5집 승. 하시모토 우타로가 이겼다. 대국자들은 그 아침의 폭발이 무엇이었는지 나중에야 알았다고 전한다. 바둑사에서 가장 무거운 이름이 붙은 판이다."
+  ],
+  "lit": "폐허 뒤에도 하루를 이어 가야 했던 사람들, 오늘 「오발탄」의 철호와 「수난이대」의 부자처럼요.",
+  "sources": [
+   "https://www.Wikipedia.org/wiki/List_of_go_games",
+   "https://en.wikipedia.org/wiki/Utaro_Hashimoto",
+   "https://en.wikipedia.org/wiki/Kaoru_Iwamoto",
+   "https://homepages.cwi.nl/~aeb/go/games/games/Honinbo/03/index.html",
+   "https://github.com/yenw/computer-go-dataset (기보: Professional/pro1940-1999.zip → pro1940-1999.txt, GN 1945-08-04a)"
+  ]
+ },
  "audio": {
-  "classic": "audio/2026-11-22-classic.mp3",
-  "day": "audio/2026-11-22-day.mp3",
-  "modern": "audio/2026-11-22-modern.mp3",
-  "novel": "audio/2026-11-22-novel.mp3",
-  "poem": "audio/2026-11-22-poem.mp3",
-  "sentence": "audio/2026-11-22-sentence.mp3",
-  "writer": "audio/2026-11-22-writer.mp3"
+  "classic": "audio/2026-11-24-classic.mp3",
+  "modern": "audio/2026-11-24-modern.mp3",
+  "novel": "audio/2026-11-24-novel.mp3",
+  "poem": "audio/2026-11-24-poem.mp3",
+  "sentence": "audio/2026-11-24-sentence.mp3",
+  "writer": "audio/2026-11-24-writer.mp3"
  }
 }
