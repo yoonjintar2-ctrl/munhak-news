@@ -725,14 +725,5 @@
     "clue": "생일에 주는 것"
    }
   ]
- },
- "audio": {
-  "classic": "audio/2026-11-21-classic.mp3",
-  "day": "audio/2026-11-21-day.mp3",
-  "modern": "audio/2026-11-21-modern.mp3",
-  "novel": "audio/2026-11-21-novel.mp3",
-  "poem": "audio/2026-11-21-poem.mp3",
-  "sentence": "audio/2026-11-21-sentence.mp3",
-  "writer": "audio/2026-11-21-writer.mp3"
  }
 }
