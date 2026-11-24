@@ -692,6 +692,11 @@
  },
  "audio": {
   "classic": "audio/2026-11-24-classic.mp3",
-  "modern": "audio/2026-11-24-modern.mp3"
+  "day": "audio/2026-11-24-day.mp3",
+  "modern": "audio/2026-11-24-modern.mp3",
+  "novel": "audio/2026-11-24-novel.mp3",
+  "poem": "audio/2026-11-24-poem.mp3",
+  "sentence": "audio/2026-11-24-sentence.mp3",
+  "writer": "audio/2026-11-24-writer.mp3"
  }
 }
