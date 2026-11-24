@@ -677,14 +677,5 @@
     "clue": "자기 삶을 스스로 적음"
    }
   ]
- },
- "audio": {
-  "classic": "audio/2026-11-22-classic.mp3",
-  "day": "audio/2026-11-22-day.mp3",
-  "modern": "audio/2026-11-22-modern.mp3",
-  "novel": "audio/2026-11-22-novel.mp3",
-  "poem": "audio/2026-11-22-poem.mp3",
-  "sentence": "audio/2026-11-22-sentence.mp3",
-  "writer": "audio/2026-11-22-writer.mp3"
  }
 }
