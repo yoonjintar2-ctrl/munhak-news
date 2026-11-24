@@ -333,13 +333,15 @@ button,select{font:inherit}
 .fz-btn small{font-size:12px}.fz-btn b{font-size:20px}
 .fz-btn:active{transform:translate(3px,3px);box-shadow:none}
 .fz.open .fz-btn{background:var(--ink);color:var(--paper)}
-.fz-pan{display:none;align-items:center;gap:0;background:var(--paper);border:2px solid var(--ink);box-shadow:3px 3px 0 var(--ink);font-family:var(--serif)}
+.fz-pan{display:flex;align-items:center;gap:0;background:var(--paper);border:2px solid var(--ink);box-shadow:3px 3px 0 var(--ink);font-family:var(--serif)}
 .fz.open .fz-pan{display:flex}
-.fz-pan button{width:44px;height:44px;border:0;background:transparent;color:var(--ink);font-family:var(--serif);font-weight:900;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.fz-pan button{width:50px;height:50px;border:0;background:transparent;color:var(--ink);font-family:var(--serif);font-weight:900;cursor:pointer;-webkit-tap-highlight-color:transparent}
 .fz-pan button:disabled{color:var(--rule)}
 .fz-pan button:not(:disabled):active{background:var(--ink);color:var(--paper)}
-.fz-pan .m{font-size:14px}.fz-pan .p{font-size:19px;width:52px}
+.fz-pan .m{font-size:17px}.fz-pan .p{font-size:22px}
 .fz-pan span{min-width:58px;text-align:center;font-size:13px;font-weight:700;border-left:1px solid var(--rule-soft);border-right:1px solid var(--rule-soft);line-height:44px;cursor:pointer}
+.fz-pan span{line-height:50px;min-width:64px;font-size:14px}
+.fz-btn{display:none}
 @media print{.fz{display:none}}
 /* ⑪ 오늘의 한 수(바둑 기보) · ⑫ 띠별 오늘의 문장 — 발행인 11/15 */
 .rowg{display:grid;grid-template-columns:1fr 1.25fr;gap:0;margin-top:52px}
@@ -976,7 +978,7 @@ function vidUp(D){
 <div class="fz" id="fz">
   <div class="fz-pan" role="group" aria-label="글자 크기">
     <button type="button" class="m" id="fz-m" aria-label="글자 작게">가−</button>
-    <span id="fz-v" title="기본 크기로" role="button" tabindex="0">보통</span>
+    <span id="fz-v" title="눌러서 기본 크기로" role="button" tabindex="0">보통</span>
     <button type="button" class="p" id="fz-p" aria-label="글자 크게">가+</button>
   </div>
   <button type="button" class="fz-btn" id="fz-btn" aria-label="글자 크기 조절" aria-expanded="false"><small>가</small><b>가</b></button>
