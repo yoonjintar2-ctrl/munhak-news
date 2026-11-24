@@ -46,3 +46,10 @@ export default function (K) {           // K = kit.js 전부 + {THREE, scene, ca
 
 - **소품은 손에 붙인다(11/18 발행인 "봉투가 공중에 떠 있다")**: 사람이 쥐는 물건(봉투·편지·잔·책·꽃)을 월드 좌표로 두지 말 것. `const P = K.person(...); P.hold('R', mesh, { at:[x,y,z], rot:[rx,ry,rz] })` — 손 기준으로 붙여서 팔을 따라 움직인다. 정지 컷 두 장(팔 내린 때·뻗은 때)으로 손에 물려 있는지 확인.
 - **잉크 재드로잉(선택)**: `render.cjs ... --look ink` → 컬러로 렌더한 뒤 Lemo-Opuscar redraw.js(XDoG 선·농담·해칭, MIT, vendor/lemo/)로 펜화처럼 다시 그린다.
+
+- **K.person 다양성(11/24 발행인 "캐릭터 의상·표정·눈이 다 똑같다, 특히 여자 치마가 맨날 똑같다")**: 치마를 손으로 원뿔 붙이지 말고 옵션으로 고른다. 한 장면 안에서도, 전날 장면과도 겹치지 않게 섞는다.
+  - `outfit`: 'coat'(기본·단추 외투) · 'suit'(양복·넥타이) · 'sweater'(목폴라·줄무늬) · 'apron'(앞치마) · 'jeogori'(한복 저고리·옷고름) · 'durumagi'(두루마기) · 'longcoat'(긴 외투) · 'vest'(셔츠+조끼, `sleeve` 로 소매색)
+  - `skirt`: 'a'(무릎 A라인) · 'long'(발목) · 'pleat'(주름) · 'pencil'(H라인) · 'tiered'(층층) · 'chima'(한복 치마, 가슴부터 바닥) + `skirtC`
+  - `hair`: short · long · bun · cap · bob · ponytail · braid · curly · bald · topknot(상투) · gat(갓) · fedora · beret · kerchief(머릿수건)
+  - 얼굴: `eyes` dot·oval·wide·smile·narrow·closed / `brows` flat·up·worried·stern·thick / `mouth` line·smile·open·frown·small / `beard` mustache·beard·goatee / `glasses:true`. 안 적으면 `seed`(없으면 위치)로 매번 다르게 고른다 — 장면 감정에 맞게 직접 정해 주는 게 더 좋다(슬픈 장면에 웃는 입 금지).
+  - 한국 근대 소설 여인 = jeogori+chima, 시골 아낙 = apron+long+kerchief, 서양 현대 = sweater/coat + pleat/pencil/a, 선비 = durumagi+gat 처럼 시대·인물에 맞게.
