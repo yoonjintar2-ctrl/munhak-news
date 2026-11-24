@@ -1164,6 +1164,94 @@
     "https://sgsg.hankyung.com/article/2024062125361"
    ],
    "added": "2026-11-24"
+  },
+  {
+   "mood": "tired",
+   "text": "이제 창을 열어 공기를 바꾸어 들여야 할 텐데",
+   "writer": "윤동주",
+   "work": "돌아와 보는 밤",
+   "year": 1941,
+   "kind": "시",
+   "dose": "지친 날엔 방 공기부터 바꿔 주세요. 창을 열고 깊은 숨 세 번이면 오늘 처방은 끝입니다.",
+   "sources": [
+    "https://www.hankyung.com/article/202505204351i",
+    "https://ko.wikisource.org/wiki/%EC%A0%80%EC%9E%90:%EC%9C%A4%EB%8F%99%EC%A3%BC"
+   ],
+   "added": "2026-11-25"
+  },
+  {
+   "mood": "blue",
+   "text": "자세히 보아야 예쁘다 / 오래 보아야 사랑스럽다 / 너도 그렇다",
+   "writer": "나태주",
+   "work": "풀꽃",
+   "year": "2000년대",
+   "kind": "시",
+   "dose": "울적한 날엔 나를 너무 멀리서 보지 마세요. 오늘 애쓴 일 하나를 가까이 들여다보고 칭찬해 주세요.",
+   "sources": [
+    "https://m.seoul.co.kr/news/2020/03/31/20200331022003",
+    "https://www.khan.co.kr/article/201707142152005"
+   ],
+   "added": "2026-11-25"
+  },
+  {
+   "mood": "anxious",
+   "text": "모든 일에는 정한 때가 있고, / 하늘 아래 모든 뜻에는 그 시기가 있다",
+   "orig": "To every thing there is a season, and a time to every purpose under the heaven",
+   "translator": "금로동 옮김(킹 제임스 영역본에서)",
+   "writer": "『성경』",
+   "work": "전도서 3장 1절",
+   "year": "기원전",
+   "kind": "경전",
+   "dose": "조급할 땐 오늘 할 일과 나중 할 일을 두 줄로 나눠 적어 보세요. 아래 줄은 때가 오면 됩니다.",
+   "sources": [
+    "https://biblehub.com/ecclesiastes/3-1.htm",
+    "https://www.jw.org/en/library/bible/king-james-version/books/ecclesiastes/3/"
+   ],
+   "added": "2026-11-25"
+  },
+  {
+   "mood": "angry",
+   "text": "화를 내는 일은 누구나 할 수 있고 쉽다. 그러나 마땅한 사람에게, 마땅한 만큼, 마땅한 때에 그리하기란 쉬운 일이 아니다.",
+   "orig": "anyone can get angry—that is easy— … but to do this to the right person, to the right extent, at the right time … that is not for every one, nor is it easy",
+   "translator": "금로동 옮김(W. D. 로스 영역본에서)",
+   "writer": "아리스토텔레스",
+   "work": "니코마코스 윤리학 2권 9장",
+   "year": "기원전 4세기",
+   "kind": "철학",
+   "dose": "화가 나면 '누구에게, 얼마나, 언제'를 한 줄씩 적어 보세요. 세 칸을 채우는 동안 불길이 한풀 꺾입니다.",
+   "sources": [
+    "https://pressbooks.ulib.csuohio.edu/nicomacheanethics/?p=64",
+    "https://www.psychologytoday.com/intl/blog/the-wisdom-of-anger/202303/the-wisdom-of-aristotle-on-anger-management"
+   ],
+   "added": "2026-11-25"
+  },
+  {
+   "mood": "flutter",
+   "text": "봄 가을 없이 밤마다 돋는 달도 / '예전엔 미처 몰랐어요.'",
+   "writer": "김소월",
+   "work": "예전엔 미처 몰랐어요",
+   "year": 1925,
+   "kind": "시",
+   "dose": "설레는 마음은 늘 보던 것을 새로 보이게 합니다. 오늘 밤 달 한 번 올려다보세요.",
+   "sources": [
+    "https://www.korean.go.kr/nkview/nknews/200206/47_8.html",
+    "https://m.cafe.daum.net/obh2004/Kjo/24"
+   ],
+   "added": "2026-11-25"
+  },
+  {
+   "mood": "blank",
+   "text": "오늘 저녁 이 좁다란 방의 흰 바람벽에 / 어쩐지 쓸쓸한 것만이 오고 간다",
+   "writer": "백석",
+   "work": "흰 바람벽이 있어",
+   "year": 1941,
+   "kind": "시",
+   "dose": "멍한 저녁엔 흰 벽을 화면 삼아 떠오르는 얼굴들을 그냥 지나가게 두세요. 붙잡지 않아도 괜찮습니다.",
+   "sources": [
+    "https://dh.aks.ac.kr/Edu/wiki/index.php/%ED%9D%B0_%EB%B0%94%EB%9E%8C%EB%B2%BD%EC%9D%B4_%EC%9E%88%EC%96%B4",
+    "https://brunch.co.kr/@poesy/645"
+   ],
+   "added": "2026-11-25"
   }
  ]
 }
