@@ -89,8 +89,11 @@ m3d/README.md 방식: three.js 장면 → 먹 농담 후처리(망점 쓰지 않
 - 22:10 맥 TTS 넣기 때 `python3 scripts/img/img_job.py drafts/D.json tts/jobs` → `tts/jobs/zz-img-D.json`(맥 out 폴더 이름은 img-D) 을 TTS 작업들 **뒤에** 맥 jobs/ 에 넣는다(장당 6~9분, 대표 2장·장면 1장).
 - 05:10 거둘 때 out/img-D/*.png 도 받아, 자리마다 두 씨앗을 Read 로 보고 손·얼굴이 덜 망가지고 장면이 맞는 쪽을 고른다 → `python3 scripts/img/animate.py <png> img/D-classic-s1.mp4 --move push|pull|left|right`(8초 한 바퀴로 이음매 없이 도는 느린 움직임 — 11/19 발행인 "빠르고 줌인했다 갑자기 돌아가 에러 같다") (같은 이름 .jpg 도 생김). 둘 다 엉망이면 3D 그대로 둔다. 시대·나라에 맞지 않는 옷·건물(한국 작품에 기모노 등)도 엉망으로 친다. 고른 그림에 맞게 alt 를 고치고 끝에 '(AI 펜화)', 오늘의 사나이는 cap 'AI 삽화'·'실제 인물 아님'.
 
+## ⛔ 기분 처방전 폐지 (발행인 2026-11-24 "기분 처방전 없애")
+지면에서 뺐다. data/rx.json 에 새 문장을 더하지 않고, 초안·보고에서도 '처방'을 쓰지 않는다(예약 작업 프롬프트에 남아 있어도 이 줄이 우선).
+
 ## 발행 일정 (2026-11-14부터)
-- 전날 20:40 「초안」: 내일 날짜 호를 drafts/<내일>.json 으로 쓴다(삽화 영상·퍼즐·처방 포함, today.json·archive는 건드리지 않음). 그리고 `python3 scripts/tts/tts_jobs.py drafts/<내일>.json tts/jobs 2` 로 '듣기' 작업 파일을 만든다.
+- 전날 20:40 「초안」: 내일 날짜 호를 drafts/<내일>.json 으로 쓴다(삽화 영상·퍼즐 포함, today.json·archive는 건드리지 않음). 그리고 `python3 scripts/tts/tts_jobs.py drafts/<내일>.json tts/jobs 2` 로 '듣기' 작업 파일을 만든다.
 - 전날 22:10 「맥 TTS 넣기」(맥 필요): tts/jobs/mnews-<내일>.json 과 (있으면) tts/jobs/shorts-<내일>.json 을 맥 ~/Downloads/qtts/jobs/ 에 넣는다 → 작업대기기가 밤새 Qwen3-TTS(마스코트 목소리 복제)로 생성.
 - 당일 05:10 「맥 TTS 거두기」(맥 필요): out/mnews-<날짜>/ 의 wav 를 받아 `scripts/tts/tts_post.py` 로 테이크 고르기·후처리 → audio/<날짜>-<코너>.mp3 커밋. **1분 고전·1분 현대문학 '듣기'는 쇼츠 나레이션 본문을 그대로 씀**(발행인 11/14): out/shorts-<날짜>/ 도 받아 `python3 scripts/shorts/site_audio.py shorts/scripts/<날짜>.json /tmp/q audio` → audio/<날짜>-classic.mp3·-modern.mp3. (그래서 shorts_job.py 가 mnews 작업에서 1분 코너를 뺀다)
 - 당일 06:40 「발행」: `python3 scripts/publish_draft.py <날짜>` → make_share → 확인. 초안이 없으면 예전처럼 그 자리에서 다 쓴다.

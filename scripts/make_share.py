@@ -9,7 +9,7 @@ import hashlib, html, json, os, re, sys, glob
 
 SITE = "https://mnews.jintar.co.kr/"
 OUT = "s"
-SECS = ["sentence", "poem", "novel", "writer", "puzzle", "trivia", "classic", "rx", "day", "modern", "go", "zodiac", "man", "food"]
+SECS = ["sentence", "poem", "novel", "writer", "puzzle", "trivia", "classic", "day", "modern", "go", "zodiac", "man", "food"]
 NAME = {"sentence": "오늘의 문장", "poem": "오늘의 시", "novel": "오늘의 소설 구절", "writer": "오늘의 문인", "puzzle": "낱말 퍼즐", "trivia": "문학 상식 OX", "classic": "1분 고전", "rx": "기분 처방전", "day": "그날의 문학", "modern": "1분 현대문학", "go": "오늘의 한 수", "zodiac": "띠별 오늘의 문장", "man": "오늘의 사나이", "food": "문학 한술"}
 
 

@@ -559,33 +559,11 @@ button,select{font:inherit}
       <p class="src" id="go-src"></p>
     </section>
   </div>
-  <div class="rowx">
-    <section class="sec" id="s-rx" data-sec="rx" data-name="기분 처방전"><a class="anc" id="rx"></a>
-      <div class="kick"><h2><i>⑩</i>기분 처방전</h2><span>문학 약국 · 금로동 약사</span></div>
-      <div class="rx-bag" id="rx-bag">
-        <div class="rx-top">
-          <span class="rx-cross"><b>약</b></span>
-          <span class="rx-title">내 복 약</span>
-        </div>
-        <p class="rx-to"><span>독자님</span> 귀하</p>
-        <div class="rx-panel">
-          <p class="rx-ph">용 법</p>
-          <p class="rx-ask"><i>👇</i> 오늘 내 증상을 눌러 주세요</p>
-          <div class="rx-moods" id="rx-moods"></div>
-          <div class="rx-pill" id="rx-pill"><p class="rx-empty">위에서 증상 하나를 누르면<br>금로동 약사가 문장 한 알을 지어 드려요.</p></div>
-          <p class="rx-dose" id="rx-dose" hidden><b>복용</b><span></span></p>
-          <p class="rx-date"><span>서기</span><b id="rx-date">—</b><span>조제</span><b>금로동 약사</b></p>
-        </div>
-        <p class="rx-ft">문학 약국 · 1일 1회, 필요할 때마다 · 부작용: 책을 사고 싶어질 수 있음</p>
-        <span class="rx-stamp">文學<br>藥局</span>
-      </div>
-      <p class="src" id="rx-src"></p>
-    </section>
-  </div>
+  <!-- 기분 처방전: 발행인 11/24 "기분 처방전 없애" → 지면에서 뺌 -->
 
   <div class="rowc rowc1">
     <section class="sec" id="s-modern" data-sec="modern" data-name="1분 현대문학"><a class="anc" id="modern"></a>
-      <div class="kick"><h2><i>⑪</i>1분 현대문학</h2><span>요즘 소설, 1분 요약</span></div>
+      <div class="kick"><h2><i>⑩</i>1분 현대문학</h2><span>요즘 소설, 1분 요약</span></div>
       <p class="cl-title" id="md-title"></p>
       <p class="cl-meta" id="md-meta"></p>
       <p class="cl-one" id="md-one"></p>
@@ -600,7 +578,7 @@ button,select{font:inherit}
 
   <div class="rowe">
     <section class="sec" id="s-puzzle" data-sec="puzzle" data-name="낱말 퍼즐"><a class="anc" id="puzzle"></a>
-      <div class="kick"><h2><i>⑫</i>낱말 퍼즐</h2><span>칸이나 단서를 누르고 답을 넣으세요</span></div>
+      <div class="kick"><h2><i>⑪</i>낱말 퍼즐</h2><span>칸이나 단서를 누르고 답을 넣으세요</span></div>
       <div class="puz">
         <div>
           <div class="pz-grid" id="pz-grid"></div>
@@ -614,7 +592,7 @@ button,select{font:inherit}
       </div>
     </section>
     <section class="sec" id="s-trivia" data-sec="trivia" data-name="문학 상식"><a class="anc" id="trivia"></a>
-      <div class="kick"><h2><i>⑬</i>문학 상식</h2><span>O · X</span></div>
+      <div class="kick"><h2><i>⑫</i>문학 상식</h2><span>O · X</span></div>
       <ol class="tv" id="tv"></ol>
       <p class="cal" id="cal" hidden><b>오늘의 문학 달력</b><span></span></p>
     </section>
@@ -622,7 +600,7 @@ button,select{font:inherit}
 
   <div class="rowz">
     <section class="sec" id="s-zd" data-sec="zodiac" data-name="띠별 오늘의 문장" hidden><a class="anc" id="zodiac"></a>
-      <div class="kick"><h2><i>⑭</i>띠별 오늘의 문장</h2><span>운세 대신 문장 한 줄</span></div>
+      <div class="kick"><h2><i>⑬</i>띠별 오늘의 문장</h2><span>운세 대신 문장 한 줄</span></div>
       <p class="zd-pick">내 띠 <select id="zd-sel" aria-label="내 띠 고르기"><option value="">고르기</option></select> <span>— 고르면 맨 위로 올려 드려요(이 기기에 기억)</span></p>
       <ol class="zd-list" id="zd-list"></ol>
       <button type="button" class="zd-more" id="zd-more" hidden>나머지 띠 모두 보기 ▾</button>
@@ -851,7 +829,7 @@ function manRender(D){var M=D.man;hideIf('s-man',!M);if(!M)return;
   $('man-feats').innerHTML=(M.feats||[]).map(function(f){return'<li><b>'+esc(f.when)+'</b><span>'+esc(f.text)+'</span></li>'}).join('');
   $('man-q').textContent=M.quote?'“'+M.quote+'”'+(M.quote_by?' — '+M.quote_by:''):'';hideIf('man-q',!M.quote);
   $('man-src').innerHTML=srcs(M.sources)}
-function rx(D){fetch('data/rx.json?v='+Date.now()).then(function(r){return r.json()}).then(function(R){RX=R;
+function rx(D){if(!document.getElementById('rx-moods'))return;fetch('data/rx.json?v='+Date.now()).then(function(r){return r.json()}).then(function(R){RX=R;
   $('rx-moods').innerHTML=R.moods.map(function(m){return'<button type="button" data-m="'+m.key+'" aria-pressed="false"><b>'+esc(m.label)+'</b><small>'+esc(m.symptom)+'</small></button>'}).join('');
   $('rx-moods').onclick=function(e){var b=e.target.closest('button');if(!b)return;var k=b.getAttribute('data-m');
     [].slice.call($('rx-moods').children).forEach(function(x){x.classList.toggle('on',x===b);x.setAttribute('aria-pressed',x===b?'true':'false')});$('rx-moods').classList.add('picked');
