@@ -178,6 +178,7 @@ button,select{font:inherit}
 .pub b{color:var(--ink)}
 .copy{font-size:.7rem;color:var(--faint);margin-top:6px;grid-column:1/-1}
 .empty{padding:40px 0;text-align:center;color:var(--muted)}
+.draftnote{margin:10px 0 14px;padding:8px 12px;border:1px dashed currentColor;text-align:center;font-size:.9em}
 
 /* 공유 단추 */
 .anc{position:relative;top:-12px;display:block;height:0}
@@ -647,8 +648,11 @@ function fmtDate(d){var a=d.split('-').map(Number),t=new Date(Date.UTC(a[0],a[1]
 function hideIf(id,cond){var e=$(id);if(e)e.hidden=!!cond}
 var q=new URLSearchParams(location.search).get('d');
 var url=q&&/^\d{4}-\d{2}-\d{2}$/.test(q)?'archive/'+q+'.json':'today.json';
-fetch(url+'?v='+Date.now()).then(function(r){if(!r.ok)throw 0;return r.json()}).then(render).catch(function(){$('paper').innerHTML='<p class="empty">이 날짜의 호를 찾지 못했습니다. <a href="./">오늘 호 보기</a></p>'});
-fetch('archive/index.json?v='+Date.now()).then(function(r){return r.json()}).then(function(L){var s=$('past');s.innerHTML='<option value="">날짜 고르기</option>'+L.map(function(x){return'<option value="'+x.date+'">'+x.date.replace(/-/g,'.')+' · 제'+x.no+'호 · '+esc(x.writer||'')+'</option>'}).join('');if(q)s.value=q;s.onchange=function(){if(s.value)location.search='?d='+s.value}}).catch(function(){$('past').innerHTML='<option>아직 없음</option>'});
+var isDraft=false;
+function getJ(u){return fetch(u+'?v='+Date.now()).then(function(r){if(!r.ok)throw 0;return r.json()})}
+(url==='today.json'?getJ(url):getJ(url).catch(function(){isDraft=true;return getJ('drafts/'+q+'.json')})).then(function(D){render(D);if(isDraft){var b=document.createElement('div');b.className='draftnote';b.textContent='📝 초안 미리 보기 — 아직 발행 전이라 내용이 바뀔 수 있어요(듣기는 발행 때 붙어요).';$('paper').insertBefore(b,$('paper').firstChild)}}).catch(function(){$('paper').innerHTML='<p class="empty">이 날짜의 호를 찾지 못했습니다. <a href="./">오늘 호 보기</a></p>'});
+function kst(n){var t=new Date(Date.now()+9*3600e3+n*864e5);return t.toISOString().slice(0,10)}
+fetch('archive/index.json?v='+Date.now()).then(function(r){return r.json()}).then(function(L){var s=$('past');var pub={};L.forEach(function(x){pub[x.date]=1});s.innerHTML='<option value="">날짜 고르기</option>'+L.map(function(x){return'<option value="'+x.date+'">'+x.date.replace(/-/g,'.')+' · 제'+x.no+'호 · '+esc(x.writer||'')+'</option>'}).join('');if(q)s.value=q;[1,2].map(kst).filter(function(d){return!pub[d]}).forEach(function(d){getJ('drafts/'+d+'.json').then(function(D){var o=document.createElement('option');o.value=d;o.textContent='📝 '+d.replace(/-/g,'.')+' · 제'+D.no+'호 · 초안 미리 보기';s.insertBefore(o,s.options[1]);if(q===d)s.value=d}).catch(function(){})});s.onchange=function(){if(s.value)location.search='?d='+s.value}}).catch(function(){$('past').innerHTML='<option>아직 없음</option>'});
 if(q)$('toToday').hidden=false;
 
 function render(D){
