@@ -1,0 +1,112 @@
+{
+ "name": "food-2026-11-26",
+ "mode": "clone",
+ "ref_audio": "out/casual1/E_think.wav",
+ "ref_text": "음… 그럼 데이터센터는 이제 못 짓는 건가?",
+ "gen": {
+  "temperature": 0.75,
+  "top_p": 0.9
+ },
+ "reload_every": 4,
+ "retries": 4,
+ "items": [
+  {
+   "id": "food_00_t0",
+   "text": "빨간 머리 앤에서 앤이 친구 다이애나에게 내준 산딸기 주스 이야기예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_00_t1",
+   "text": "빨간 머리 앤에서 앤이 친구 다이애나에게 내준 산딸기 주스 이야기예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_01_t0",
+   "text": "앤이 처음으로 다이애나를 초대해 차를 대접하던 날, 마릴라는 산딸기 주스를 마셔도 된다고 허락했어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_01_t1",
+   "text": "앤이 처음으로 다이애나를 초대해 차를 대접하던 날, 마릴라는 산딸기 주스를 마셔도 된다고 허락했어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_02_t0",
+   "text": "그런데 앤이 벽장에서 꺼낸 병은 주스가 아니라 마릴라가 담근 열매 술이었죠. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_02_t1",
+   "text": "그런데 앤이 벽장에서 꺼낸 병은 주스가 아니라 마릴라가 담근 열매 술이었죠. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_03_t0",
+   "text": "달콤하다며 세 잔을 비운 다이애나는 비틀비틀 집에 갔고, 둘은 한동안 만나지 못하게 됐어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_03_t1",
+   "text": "달콤하다며 세 잔을 비운 다이애나는 비틀비틀 집에 갔고, 둘은 한동안 만나지 못하게 됐어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_04_t0",
+   "text": "코디얼은 과일즙에 설탕을 넣어 만든 시럽을 물에 타 마시는 음료예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_04_t1",
+   "text": "코디얼은 과일즙에 설탕을 넣어 만든 시럽을 물에 타 마시는 음료예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_05_t0",
+   "text": "이름은 심장을 뜻하는 라틴어 코르에서 왔대요. 마음을 북돋우는 음료라는 뜻이죠. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_05_t1",
+   "text": "이름은 심장을 뜻하는 라틴어 코르에서 왔대요. 마음을 북돋우는 음료라는 뜻이죠. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_06_t0",
+   "text": "오늘 문학늬우스에서 앤의 산딸기 주스 이야기를 더 만나 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_06_t1",
+   "text": "오늘 문학늬우스에서 앤의 산딸기 주스 이야기를 더 만나 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  }
+ ]
+}
