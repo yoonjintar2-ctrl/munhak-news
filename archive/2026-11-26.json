@@ -1,0 +1,728 @@
+{
+ "date": "2026-11-26",
+ "no": 14,
+ "publisher": {
+  "name": "윤진탈",
+  "org": "지구별"
+ },
+ "author": {
+  "name": "금로동",
+  "title": "기자"
+ },
+ "lead": "목요일 아침입니다. 윤동주의 「서시」가 하늘을 우러르고, 변영로의 「논개」가 푸른 물결 위로 붉은 마음을 띄웁니다. 1분 문학은 최서해의 「탈출기」와 권정생의 『몽실 언니』, 문학 한술은 앤의 산딸기 주스입니다.",
+ "sentence": {
+  "text": "죽는 날까지 하늘을 우러러 한 점 부끄럼이 없기를,",
+  "big": [
+   "죽는 날까지 하늘을 우러러",
+   "한 점 부끄럼이 없기를"
+  ],
+  "speaker": "시의 화자",
+  "work": "서시",
+  "writer": "윤동주",
+  "year": 1941,
+  "origin": "국내",
+  "book": "1941년 11월 20일 씀, 유고 시집 『하늘과 바람과 별과 시』(1948) 맨 앞",
+  "meaning": "부끄럼이 하나도 없는 삶을 장담하는 말이 아니라, 그렇게 살고 싶다는 바람입니다. '없기를'이라는 끝맺음에 다짐과 기도가 함께 들어 있지요. 완벽하겠다는 선언보다, 끝까지 스스로를 비춰 보겠다는 약속에 가깝습니다.",
+  "context": "스물네 살 연희전문 졸업반 윤동주는 졸업 기념으로 시집을 내려 원고를 묶고, 그 맨 앞에 이 시를 놓았습니다. 시집은 끝내 나오지 못했고, 시인이 옥에서 세상을 떠난 뒤 1948년에야 책이 되었지요.",
+  "craft": "하늘·바람·별 같은 큰 것과 잎새·한 점 같은 작은 것을 나란히 둡니다. '하늘을 우러러'로 시선을 높이 올렸다가 '한 점'으로 좁혀, 큰 하늘 아래 작은 마음 하나를 또렷하게 비추지요.",
+  "img": "img/2026-11-26-sentence.jpg",
+  "video": "img/2026-11-26-sentence.mp4",
+  "alt": "늦가을 밤 언덕 위에 외투 차림의 청년이 서서 고개를 들어 별이 뜬 하늘을 올려다본다. 곁의 나뭇잎이 바람에 떨고 별빛이 깜박인다",
+  "sources": [
+   "https://www.korean.go.kr/nkview/nknews/200401/66_8.html",
+   "https://artsandculture.google.com/asset/manuscript-of-yoon-dongju-prelude-dongju-yoon/wgGM6Lcrb0nOdg?hl=ko",
+   "https://dh.aks.ac.kr/~dh_edu/wiki/index.php/%EC%9C%A4%EB%8F%99%EC%A3%BC",
+   "https://mediahub.seoul.go.kr/archives/1064018"
+  ]
+ },
+ "poem": {
+  "title": "논개",
+  "writer": "변영로",
+  "year": 1922,
+  "origin": "국내",
+  "book": "1922년 『신생활』 발표, 시집 『조선의 마음』(1924)에 실림",
+  "public_domain": true,
+  "translator": null,
+  "lines": [
+   "거룩한 분노는",
+   "종교보다도 깊고",
+   "불붙는 정열은",
+   "사랑보다도 강하다.",
+   "아, 강낭콩꽃보다도 더 푸른",
+   "그 물결 위에",
+   "양귀비꽃보다도 더 붉은",
+   "그 마음 흘러라.",
+   "",
+   "아리땁던 그 아미(蛾眉)",
+   "높게 흔들리우며",
+   "그 석류 속 같은 입술",
+   "죽음을 입맞추었네!",
+   "아, 강낭콩꽃보다도 더 푸른",
+   "그 물결 위에",
+   "양귀비꽃보다도 더 붉은",
+   "그 마음 흘러라.",
+   "",
+   "흐르는 강물은",
+   "길이길이 푸르리니",
+   "그대의 꽃다운 혼",
+   "어이 아니 붉으랴.",
+   "아, 강낭콩꽃보다도 더 푸른",
+   "그 물결 위에",
+   "양귀비꽃보다도 더 붉은",
+   "그 마음 흘러라."
+  ],
+  "img": "img/2026-11-26-poem.jpg",
+  "video": "img/2026-11-26-poem.mp4",
+  "alt": "성벽 아래 바위 곁으로 푸른 강물이 흐르고, 물결 위로 붉은 꽃잎들이 떠내려간다. 한복 치마 차림의 여인이 바위 위에서 강을 바라보고 옷자락이 바람에 날린다",
+  "analysis": "임진왜란 때 진주 남강에 몸을 던진 논개를 노래한 시입니다. 첫 연은 분노와 정열을 종교·사랑보다 깊고 강하다고 단언하며 시작하지요. 연마다 되풀이되는 후렴에서 강낭콩꽃의 푸름과 양귀비꽃의 붉음이 맞서, 흐르는 강물과 지지 않는 마음을 한 화면에 겹칩니다. 나라를 빼앗긴 1920년대에 쓰인 이 시에서, 강물은 길이 푸르고 그 혼은 붉으리라는 마지막 연은 그대로 독자를 향한 다짐이 되었습니다.",
+  "oneline": "푸른 물과 붉은 꽃, 두 빛깔만으로 한 사람의 마음을 영원히 흐르게 한 시.",
+  "sources": [
+   "https://ko.wikisource.org/wiki/%EB%85%BC%EA%B0%9C",
+   "https://encykorea.aks.ac.kr/Article/E0013010",
+   "https://knnews.co.kr/news/articleView.php?idxno=362663",
+   "https://mdwiki.org/wiki/Byeon_Yeong-ro"
+  ]
+ },
+ "novel": {
+  "title": "프랑켄슈타인",
+  "title_orig": "Frankenstein; or, The Modern Prometheus",
+  "writer": "메리 셸리",
+  "year": 1818,
+  "origin": "국외",
+  "where": "장편소설, 1818년 — 제20장(1831년판 기준)",
+  "quote": "조심하라. 나는 두려움이 없고, 그래서 강하다.",
+  "quote_orig": "Beware; for I am fearless, and therefore powerful.",
+  "translator": "금로동 옮김",
+  "img": "img/2026-11-26-novel.jpg",
+  "video": "img/2026-11-26-novel.mp4",
+  "alt": "외딴 섬 오두막의 촛불 켠 실험실, 창밖 어둠 속에 커다란 그림자가 서 있고 안의 젊은 과학자가 뒷걸음질 친다. 촛불이 흔들리고 파도가 바위에 부서진다",
+  "context": "스코틀랜드 외딴 섬, 빅터는 짝을 만들어 달라는 피조물의 부탁을 받아들였다가 마음을 바꿔 만들던 것을 부숴 버립니다. 창밖에서 그 모습을 본 피조물이 빅터를 찾아와 남긴 말이지요.",
+  "analysis": "이 소설에서 이름 없는 피조물은 처음부터 괴물이 아니었습니다. 버림받고 외면당한 끝에 그는 말이 거칠어지지요. '두려움이 없으니 강하다'는 말은 잃을 것이 없는 존재의 선언이라 더 무섭습니다. 셸리는 창조자와 피조물의 자리를 바꿔 놓아, 겁에 질린 쪽이 만든 사람이고 당당한 쪽이 만들어진 존재가 되게 하지요. 스무 살 무렵의 작가가 쓴, 책임에 관한 오래된 경고입니다.",
+  "sources": [
+   "https://www.gutenberg.org/files/84/84-h/84-h.htm",
+   "https://americanliterature.com/author/mary-shelley/book/frankenstein/chapter-20",
+   "https://Www.Wikipedia.org/wiki/Frankenstein"
+  ]
+ },
+ "writer": {
+  "name": "변영로",
+  "life": "1898–1961",
+  "bio": "호는 수주(樹州). 1898년 서울에서 태어났습니다. 영어에 뛰어나 3·1 운동 때 독립선언서를 영문으로 옮겼다고 전하지요. 1924년 시집 『조선의 마음』을 펴냈고, 미국 유학을 다녀와 교수·언론인으로 일했습니다. 술에 얽힌 일화를 모은 수필집 『명정 사십년』으로도 이름났고, 1961년 세상을 떠났습니다.",
+  "works": [
+   "논개",
+   "조선의 마음",
+   "명정 사십년"
+  ],
+  "link": "오늘의 시 「논개」를 쓴 시인입니다. 첫 시집 『조선의 마음』에 이 시를 실었지요.",
+  "img": "img/2026-11-26-writer.png",
+  "alt": "얼굴 세부 없이 그린, 양복 차림의 사내가 강가 바위에 서서 흐르는 물을 내려다보는 실루엣 펜화",
+  "sources": [
+   "https://encykorea.aks.ac.kr/Article/E0022940",
+   "https://Www.Wikipedia.org/wiki/Byeon_Yeong-ro",
+   "https://www.hankyung.com/article/202510100740i"
+  ]
+ },
+ "trivia": [
+  {
+   "q": "윤동주의 「서시」는 시인이 살아 있을 때 펴낸 시집의 맨 앞에 실렸다.",
+   "a": "X",
+   "why": "윤동주는 살아서 시집을 내지 못했습니다. 「서시」는 그가 세상을 떠난 뒤인 1948년에 나온 유고 시집 『하늘과 바람과 별과 시』 맨 앞에 실렸지요."
+  },
+  {
+   "q": "메리 셸리의 소설에서 '프랑켄슈타인'은 괴물의 이름이다.",
+   "a": "X",
+   "why": "프랑켄슈타인은 괴물을 만든 과학자 빅터의 성입니다. 피조물은 소설 끝까지 이름을 얻지 못하지요."
+  },
+  {
+   "q": "최서해의 「탈출기」는 주인공이 친구에게 보내는 편지 형식의 소설이다.",
+   "a": "O",
+   "why": "박군이 자신을 나무란 친구 김군에게, 집을 떠난 까닭을 털어놓는 편지로 이루어진 서간체 소설입니다."
+  }
+ ],
+ "trivia_sources": [
+  "https://www.korean.go.kr/nkview/nknews/200401/66_8.html",
+  "https://Www.Wikipedia.org/wiki/Frankenstein",
+  "https://encykorea.aks.ac.kr/Article/E0058808"
+ ],
+ "calendar": "1909년 11월 26일 — 「대머리 여가수」·「코뿔소」의 부조리극 작가 외젠 이오네스코, 루마니아 슬라티나에서 태어나다",
+ "calendar_sources": [
+  "https://www.britannica.com/biography/Eugene-Ionesco",
+  "https://en.wikipedia.org/wiki/Eug%C3%A8ne_Ionesco"
+ ],
+ "onthisday": [
+  {
+   "year": "1864",
+   "title": "루이스 캐럴, 손으로 쓴 『앨리스』를 앨리스에게 선물하다",
+   "body": "1864년 오늘, 루이스 캐럴이 직접 쓰고 그림까지 그린 원고 『땅속 나라의 앨리스』를 열두 살 앨리스 리델에게 크리스마스 선물로 보냈습니다. 이 이야기가 다듬어져 이듬해 『이상한 나라의 앨리스』가 되었지요.",
+   "sources": [
+    "https://www.history.com/this-day-in-history/november-26/alice-in-wonderland-manuscript-is-sent-as-a-christmas-present",
+    "https://library.tc.columbia.edu/blog/content/2024/november/today-in-history-gifting-alice-in-wonderland.php",
+    "https://interestingliterature.com/2015/11/november-26-in-literary-history-lewis-carroll-sends-alice-liddell-his-book/"
+   ]
+  },
+  {
+   "year": "1855",
+   "title": "폴란드의 국민 시인 미츠키에비치, 이스탄불에서 눈을 감다",
+   "body": "1855년 오늘, 서사시 『판 타데우시』를 쓴 폴란드 시인 아담 미츠키에비치가 콘스탄티노플(지금의 이스탄불)에서 세상을 떠났습니다. 나라 잃은 망명 시인으로 끝까지 조국을 노래했지요.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Adam_Mickiewicz",
+    "https://www.britannica.com/print/article/380179",
+    "https://www.lecturalia.com/autor/7260/adam-mickiewicz"
+   ]
+  }
+ ],
+ "classic": {
+  "title": "탈출기",
+  "writer": "최서해",
+  "year": 1925,
+  "origin": "국내",
+  "where": "단편소설, 1925년 『조선문단』 발표",
+  "oneline": "가족을 두고 떠난 사내가 친구에게 보내는, 가장 가난한 변명.",
+  "img": "img/2026-11-26-classic.jpg",
+  "video": "img/2026-11-26-classic.mp4",
+  "alt": "1920년대 간도 흙집 등잔불 아래, 무명 저고리 차림의 사내가 쪼그려 앉아 편지를 쓰고, 뒤편에서 아내와 노모가 맷돌을 돌린다. 등잔불이 흔들리고 창밖에 눈발이 날린다",
+  "ai": "Night in a poor 1920s mud-walled hut in Manchuria: a thin Korean man in white cotton jacket squats writing a letter by an oil lamp; behind him his wife in jeogori and long chima skirt and an old mother turn a stone hand mill grinding beans. Snow outside.",
+  "story": [
+   "박군은 친구 김군에게 긴 편지를 씁니다. 김군은 박군이 늙은 어머니와 아이 딸린 아내를 두고 집을 나가 '××단'에 들어갔다는 소식을 듣고, 식구를 버린 무정한 사람이라며 어서 돌아가라고 나무랐지요. 박군은 그 꾸지람이 옳다고 먼저 인정합니다. 그러고는 왜 집을 떠날 수밖에 없었는지, 지난 다섯 해를 하나하나 털어놓기 시작합니다.",
+   "다섯 해 전, 박군은 어머니와 아내를 데리고 고향을 떠나 간도로 건너갔습니다. 그곳에는 빈 땅이 많아 부지런히 일구기만 하면 배불리 먹고, 아이들에게 글도 가르치며 살 수 있으리라 믿었지요. 하지만 막상 가 보니 땅마다 이미 주인이 있었습니다. 남의 땅을 부치려 해도 얻을 길이 없었고, 세 식구는 낯선 땅에서 맨손이 되었습니다. 돌아갈 노자도, 기댈 친척도 없었지요.",
+   "박군은 닥치는 대로 일했습니다. 남의 집 구들을 고쳐 주고 삯을 받았고, 그마저 없는 날은 굶었지요. 아내는 아이를 가진 몸이었습니다. 어느 날 박군은 부엌에서 아내가 무언가를 몰래 먹다 얼른 감추는 것을 봅니다. 혼자 먹으려 했나 싶어 서운한 마음에 뒤져 보니, 길에 버려진 귤껍질이었지요. 배고픔을 참다못해 주워 먹던 것이었습니다. 박군은 아내를 의심한 자신이 부끄러워 소리 없이 울었습니다. 그날 밤 그는 아내에게 아무 말도 하지 못했습니다.",
+   "식구들은 두부 장사를 시작했습니다. 밤새 어머니와 아내가 맷돌을 돌려 콩을 갈고, 박군은 불을 때 두부를 앉혔지요. 그러나 두부가 잘못되어 쉬어 버리는 날이면 그날 양식이 통째로 사라졌습니다. 땔나무가 없어 산에 들어갔다가 붙잡혀 매를 맞는 일까지 겪었지요. 그 사이 아기가 태어났지만, 젖이 모자란 아기는 밤마다 울었습니다. 어머니의 허리는 날로 굽었고, 아내의 얼굴은 하루가 다르게 핼쑥해졌지요.",
+   "박군은 처음엔 이 모든 것이 자기가 못나고 게으른 탓이라 여겼습니다. 그래서 더 일찍 일어나고 더 늦게 잤지요. 그러나 아무리 성실하게 일해도 살림은 조금도 나아지지 않았습니다. 맷돌 소리와 아기 울음을 들으며 지새운 어느 밤, 박군은 처음으로 다른 물음을 품습니다. 이렇게 사는 것이 정말 내 탓일까. 우리를 이렇게 만든 것은 무엇일까."
+  ],
+  "ending": "박군은 마침내 깨닫습니다. 식구의 가난은 게으름 탓이 아니라, 가난한 사람을 짓누르는 세상의 틀 때문이라는 것을요. 그 틀을 그대로 둔 채로는 다 함께 굶을 뿐이라 여긴 그는 집을 나와 ××단에 들어갑니다. 편지 끝에서 그는 자신이 식구를 버린 게 아니라 더 큰 책임을 지러 나섰다고 말하며, 이 길에서 쓰러지더라도 원망하지 않겠다고 다짐합니다.",
+  "why": "작가 자신이 간도에서 겪은 밑바닥 가난이 고스란히 배어 있습니다. 귤껍질 한 조각으로 시대의 굶주림을 보여 준, 1920년대 '신경향파' 소설의 대표작이지요.",
+  "sources": [
+   "https://encykorea.aks.ac.kr/Article/E0058808",
+   "https://ko.wikisource.org/wiki/%ED%83%88%EC%B6%9C%EA%B8%B0",
+   "https://library.ltikorea.or.kr/node/382"
+  ],
+  "scenes": [
+   {
+    "after": 1,
+    "img": "img/2026-11-26-classic-s1.jpg",
+    "video": "img/2026-11-26-classic-s1.mp4",
+    "alt": "간도의 너른 벌판, 보따리를 진 사내와 노모, 아내가 언덕 위에 멈춰 서서 끝없는 땅을 바라본다. 마른 풀이 바람에 눕고 기러기 떼가 난다",
+    "ai": "A Korean family of three migrants in 1920s Manchuria: a man carrying a big cloth bundle on his back, his old mother and young wife in jeogori and chima, standing on a hill looking at a vast empty plain. Geese flying."
+   },
+   {
+    "after": 2,
+    "img": "img/2026-11-26-classic-s2.jpg",
+    "video": "img/2026-11-26-classic-s2.mp4",
+    "alt": "흙집 부엌 아궁이 곁, 아내가 등을 돌려 무언가를 감추고 남편이 문간에서 멈칫 바라본다. 아궁이 불이 일렁이고 바닥에 귤껍질이 떨어져 있다",
+    "ai": "Two people in a poor mud kitchen: a pregnant young Korean wife in jeogori and long chima crouches by the clay stove, hiding orange peels behind her back; her husband stands frozen in the doorway. Fire glows."
+   },
+   {
+    "after": 3,
+    "img": "img/2026-11-26-classic-s3.jpg",
+    "video": "img/2026-11-26-classic-s3.mp4",
+    "alt": "등잔불 켠 방 안, 노모와 아내가 마주 앉아 돌 맷돌을 돌리고, 사내는 가마솥에 불을 땐다. 맷돌이 돌고 솥에서 김이 오른다",
+    "ai": "Night inside a Korean hut: an old mother and a young wife sit facing each other turning a round stone hand mill, a man feeds firewood under a big iron cauldron with steam rising. Oil lamp."
+   }
+  ]
+ },
+ "modern": {
+  "title": "몽실 언니",
+  "writer": "권정생",
+  "year": 1984,
+  "origin": "국내",
+  "where": "장편 동화, 1984년 단행본 출간",
+  "oneline": "절룩이는 다리로 동생을 업고 전쟁을 건넌, 가장 작은 어른.",
+  "img": "img/2026-11-26-modern.jpg",
+  "video": "img/2026-11-26-modern.mp4",
+  "alt": "전쟁 무렵 시골 흙길, 다리를 저는 단발머리 소녀가 포대기로 아기를 업고 지팡이를 짚으며 걸어간다. 길가의 마른 풀이 흔들리고 멀리 피란 보따리를 진 사람들이 지나간다",
+  "ai": "A thin Korean girl with a short bob haircut, wearing a worn jeogori jacket and long dark skirt, carries a baby on her back wrapped in a quilted cloth, walking with a limp along a dusty country road in 1950s Korea. Refugees with bundles far behind.",
+  "story": [
+   "해방 직후, 가난한 시골 마을에 몽실이라는 여자아이가 살았습니다. 아버지 정씨가 돈을 벌러 집을 떠난 사이, 굶주림을 견디다 못한 어머니 밀양댁은 몽실이를 데리고 댓골의 김씨에게 새로 시집을 갑니다. 몽실이는 영문도 모른 채 어머니 손에 이끌려 낯선 집의 딸이 되었지요. 가난은 어린 몽실이에게 이미 너무 익숙한 것이었습니다.",
+   "새아버지 김씨네는 먹을 것은 넉넉했지만 몽실이를 반기지 않았습니다. 어머니가 동생 영득이를 낳자 구박은 더 심해졌지요. 그러다 김씨에게 떠밀려 넘어진 몽실이는 다리를 크게 다치고, 그 뒤로 평생 다리를 절게 됩니다. 몽실이는 원망보다 먼저 어머니의 처지를 헤아리는 아이였습니다.",
+   "고모의 손에 이끌려 몽실이는 친아버지에게 돌아갑니다. 아버지는 북촌댁이라는 새어머니를 맞았는데, 북촌댁은 몽실이를 친딸처럼 아껴 주었지요. 그 따뜻한 손길 덕분에 몽실이는 잠시나마 엄마 품을 다시 느꼈습니다. 하지만 몸이 약했던 북촌댁은 갓난 딸 난남이를 낳고 얼마 뒤 세상을 떠납니다. 어린 몽실이의 등에 핏덩이 동생이 남겨졌습니다.",
+   "곧 전쟁이 터졌습니다. 아버지는 군대에 나가고, 몽실이는 절룩이는 다리로 난남이를 업고 젖을 얻으러 이 집 저 집을 다닙니다. 피란과 굶주림 속에서도 몽실이는 동생을 놓지 않았지요. 업은 등은 늘 땀과 아기 울음으로 젖어 있었습니다. 국군이든 인민군이든 다 누군가의 아들이고 오빠라는 것을, 몽실이는 몸으로 배워 갑니다.",
+   "전쟁이 끝나 갈 무렵 아버지는 다리를 다친 채 돌아왔습니다. 일자리를 찾아 나서도 받아 주는 곳이 없어, 살림은 더 기울었지요. 몽실이는 아버지를 고치려 자선병원 앞에서 며칠씩 차례를 기다리지만, 아버지는 끝내 진료를 받지 못하고 숨을 거둡니다. 댓골의 어머니 밀양댁마저 세상을 떠나, 몽실이에게는 아버지가 다른 동생들과 어머니가 다른 동생만 남았지요.",
+   "몽실이는 남의 집 일을 하며 동생들을 거둡니다. 밥을 챙기고 빨래를 하며, 어린 몽실이는 어느새 집안의 어른이 되어 있었지요. 그러다 난남이를 잘 키워 주겠다는 넉넉한 집에 동생을 양녀로 보내기로 하지요. 업어 키운 동생을 떠나보내던 날, 몽실이는 한참을 울었습니다."
+  ],
+  "ending": "그로부터 삼십 년 가까운 세월이 흐릅니다. 몽실이는 등이 굽은 남편을 만나 두 아이의 엄마가 되었지요. 어느 날 몽실이는 병을 얻어 요양원에 있는 난남이를 만나러 갑니다. 여전히 절룩이는 걸음으로 동생을 찾아가는 몽실 언니의 뒷모습에서, 소설은 가난과 전쟁을 견뎌 낸 한 사람의 따뜻한 등을 보여 주며 끝납니다.",
+  "why": "전쟁을 어른의 영웅담이 아니라 아이의 맨발로 건너게 합니다. 누구도 미워하지 않으려 애쓴 몽실이의 마음이, 이 책을 오래 읽히는 고전으로 만들었지요.",
+  "sources": [
+   "https://kbmaeil.com/article/202005180278753",
+   "https://korea.inha.ac.kr/sites/inhakorea/upfiles/tb_kor_study/75/8.pdf",
+   "https://pedia.watcha.com/ko/contents/b42GRLo/book_description",
+   "https://library.ltikorea.or.kr/ebooks/404218"
+  ],
+  "scenes": [
+   {
+    "after": 1,
+    "img": "img/2026-11-26-modern-s1.jpg",
+    "video": "img/2026-11-26-modern-s1.mp4",
+    "alt": "시골 기와집 마당, 어린 소녀가 땅에 넘어져 다리를 감싸고, 처마 밑 어머니가 아기를 안은 채 놀라 손을 뻗는다. 닭이 푸드덕 날고 빨랫줄이 흔들린다",
+    "ai": "A small Korean girl in 1940s clothes has fallen on the dirt yard of a rural house holding her leg; her mother holding a baby reaches out in shock from the porch. Chickens flutter, laundry line."
+   },
+   {
+    "after": 3,
+    "img": "img/2026-11-26-modern-s2.jpg",
+    "video": "img/2026-11-26-modern-s2.mp4",
+    "alt": "피란길 흙길, 소녀가 아기를 업고 지팡이를 짚으며 마을 우물가의 아주머니에게 빈 그릇을 내민다. 우물 두레박이 흔들리고 피란민 행렬이 지나간다",
+    "ai": "A limping Korean girl carrying a baby on her back holds out an empty bowl to a village woman at a stone well, asking for milk; refugees with bundles pass in the background, 1950 Korea."
+   },
+   {
+    "after": 4,
+    "img": "img/2026-11-26-modern-s3.jpg",
+    "video": "img/2026-11-26-modern-s3.mp4",
+    "alt": "자선병원 앞 길게 늘어선 줄, 소녀가 지팡이를 짚은 채 다리를 다친 아버지를 부축해 차례를 기다린다. 병원 깃발이 펄럭이고 낙엽이 진다",
+    "ai": "A long line of poor people outside a charity hospital in 1950s Korea: a girl with a cane supports her injured father leaning on a crutch, waiting. Fallen leaves, flag fluttering."
+   }
+  ]
+ },
+ "man": {
+  "kind": "격투가",
+  "name": "김일",
+  "sub": "프로레슬링 · 한국 1929 – 2006",
+  "img": "img/2026-11-26-man.jpg",
+  "video": "img/2026-11-26-man.mp4",
+  "alt": "사각 링 위에서 레슬러가 상대의 어깨를 잡고 머리를 앞으로 숙여 박치기를 하려는 순간, 링 줄이 출렁이고 조명 아래 관중이 팔을 치켜든다(3D 삽화, 실제 인물 아님)",
+  "cap": "3D 삽화",
+  "ai": "Two professional wrestlers in a 1960s boxing-style ring under bright lights, one grabs the other's shoulders and lowers his head for a headbutt. Ropes, crowd raising arms in a dark arena. Seen from a distance, no faces.",
+  "bio": "전남 고흥에서 태어난 프로레슬러입니다. 1950년대 일본으로 건너가 역도산의 제자가 되었고, 머리로 들이받는 '박치기' 하나로 이름을 떨쳤지요. 1960~70년대 텔레비전이 귀하던 시절, 그의 경기가 있는 날이면 동네 사람들이 텔레비전 있는 집 앞에 모여 함께 소리쳤습니다.",
+  "feats": [
+   {
+    "when": "1950년대",
+    "text": "일본으로 건너가 역도산 문하에 들어가, 혹독한 훈련 끝에 프로레슬러로 링에 올랐습니다."
+   },
+   {
+    "when": "1967",
+    "text": "WWA 세계 헤비급 타이틀을 따내며 세계 챔피언에 올랐습니다."
+   },
+   {
+    "when": "박치기",
+    "text": "몸집 큰 외국 선수를 이마로 들이받아 쓰러뜨리는 모습은 고단한 시절 사람들에게 통쾌한 위로였습니다."
+   },
+   {
+    "when": "2006.10",
+    "text": "오랜 투병 끝에 세상을 떠났습니다. 2006년 봄 은퇴식에서 마지막으로 링에 인사했지요."
+   }
+  ],
+  "sources": [
+   "https://www.koreatimes.co.kr/amp/opinion/20240610/remembering-kim-il-pro-wrestler-hero-of-the-people",
+   "https://www.mt.co.kr/society/2016/10/26/2016102513412033131",
+   "https://wikipedia.com/wiki/Kim_Tae-sik",
+   "https://www.puroresu.com/personalities/kim_il/",
+   "https://m.seoul.co.kr/news/plan/2006/06/27/20060627016002"
+  ]
+ },
+ "go": {
+  "title": "「상하이 대첩」의 마지막 수 흑257",
+  "game": "제6회 농심신라면배 세계바둑최강전 최종국 (이창호-왕시)",
+  "date": "2005-02-26",
+  "black": "이창호 9단",
+  "white": "왕시 5단",
+  "result": "흑 257수 불계승",
+  "moves": "pd dp qp dd op qj qh qm pl ql pj pk ok qk pi ol nk om jc qc pc qd qe re rf qf pe rg pf qg pg qb rh sf fq cn dr fc cl cq fo gp ep en dq cp eo cr jq mm lp ci el em fl gm do cm fm fn gn mp pn qn mo kp co bo cs bq bl dl dk dm ej bs go lq lo kq mq mr np jr pm rp rq ro jn io in je iq hr jg kc kb kd lb ic id jd jb hd hg md nc lg lh eh fg ei fj if ig eg cc be ib hc pq gh gi mh li po on nr qo ri sh ho sg rd ff ee bj fh hh bi hn ko kn gq jo jp fa oo nn gb sp sn eb fb bb ac bd ad ab db dc ec da ea rj sj eb qr qq ea qi rk eb mc mb ea ce cd eb kg kh ea bc bf eb cj ck ea am ga bn fr mg mf ng hf gg rf si rm pb pr ai ah aj bh qa ra pa rb ao er eq ds or os nq oq cb ca or nf of oq es fs or rr ps oq sq so or qs sr oq ef df or ak bk oq ip hp or ph oh oq lr kr or nh og oq sm sl or",
+  "from": 248,
+  "to": 257,
+  "key": 257,
+  "key_label": "P2",
+  "lead": "한국 대표로 홀로 남은 이창호가 상하이에서 내리 이겨 우승을 결정지은 판.",
+  "body": [
+   "농심신라면배는 한·중·일이 다섯 명씩 나와, 진 사람이 빠지고 이긴 사람이 계속 두는 '연승전' 방식의 국가 대항전이다. 2005년 제6회 대회 막판, 한국은 이창호 한 사람만 남았다. 그는 상하이에서 남은 상대들을 차례로 꺾었고, 사람들은 이를 '상하이 대첩'이라 불렀다.",
+   "이 판은 그 마지막 대국이다. 흑을 쥔 이창호는 서두르지 않고 판을 두텁게 지켰다. 그림은 판이 거의 끝나 가는 무렵의 열 수로, 동그라미 친 흑257가 이 판의 마지막 수다. 이 수 뒤 백이 돌을 던지며(불계패, 계가 없이 항복) 한국의 우승이 확정되었다.",
+   "이 장면은 '돌부처' 이창호의 이름을 다시 한번 각인시켰고, 훗날 후배 신진서가 같은 대회에서 비슷한 연승을 거두었을 때도 사람들은 2005년 상하이를 떠올렸다."
+  ],
+  "lit": "「서시」의 '한 점 부끄럼'처럼, 한 수 한 수를 흐트러짐 없이 둔 판입니다.",
+  "sources": [
+   "https://sports.khan.co.kr/article/202402151152003",
+   "https://sports.khan.co.kr/article/202402231554003",
+   "https://m.etnews.com/200503190029",
+   "https://github.com/yenw/computer-go-dataset (기보: Professional/pro2000+.zip → pro2000+.txt, GN 2005-02-26a)"
+  ]
+ },
+ "food": {
+  "name": "산딸기 주스(라즈베리 코디얼)",
+  "hanja": null,
+  "work": "빨간 머리 앤",
+  "writer": "루시 모드 몽고메리",
+  "year": "1908",
+  "where": "캐나다 프린스에드워드섬, 초록 지붕 집",
+  "img": "img/2026-11-26-food.jpg",
+  "video": "img/2026-11-26-food.mp4",
+  "alt": "초록 지붕 집 부엌 식탁 위에 붉은 음료가 든 유리병과 작은 유리잔 둘, 과자 접시가 놓였다. 창밖으로 사과나무 가지가 흔들리고 잔 속 음료가 반짝인다",
+  "ai": "A farmhouse kitchen table in 1900s Prince Edward Island: a glass bottle of deep red raspberry cordial, two small glass tumblers half filled with red drink, a plate of round cookies, white lace tablecloth. Window with apple tree branches. No people.",
+  "quote": "거실 벽장 둘째 칸에 산딸기 주스가 반병 남아 있으니, 너하고 다이애나가 마셔도 된다.",
+  "quote_by": "제16장, 외출하던 마릴라가 앤에게 일러 준 말(금로동 옮김)",
+  "body": [
+   "열한 살 앤이 처음으로 친구 다이애나를 초대해 차를 대접하는 날. 마릴라는 산딸기 주스를 꺼내 마셔도 좋다고 허락하고 집을 나섭니다. 그런데 앤이 벽장에서 찾아낸 병은 산딸기 주스가 아니라 마릴라가 담가 둔 까치밥나무 열매 술이었지요. 달콤하다며 큰 잔으로 세 잔을 비운 다이애나는 비틀거리며 집에 돌아가고, 놀란 다이애나 어머니는 앤과 놀지 말라고 합니다.",
+   "코디얼은 과일즙에 설탕을 넣어 진하게 만든 시럽을 물에 타 마시는 음료입니다. 냉장고가 없던 시절, 여름에 딴 산딸기를 설탕에 재워 두면 오래 두고 손님상에 낼 수 있었지요. 술이 아닌 이 음료는 아이들과 부인들의 다과회에 잘 어울리는 귀한 대접이었습니다.",
+   "'코디얼(cordial)'이라는 말은 '심장'을 뜻하는 라틴어 '코르(cor)'에서 왔습니다. 본래 마음과 기운을 북돋운다는 약용 음료를 가리켰고, 그래서 '진심 어린'이라는 뜻도 함께 지니게 되었지요. 지금도 소설의 무대인 프린스에드워드섬에서는 앤의 산딸기 주스를 기념품처럼 판다고 합니다.",
+   "앤과 다이애나의 우정은 그 뒤 앤이 다이애나의 어린 동생을 위기에서 구해 내면서 다시 이어집니다. 잘못 따른 한 잔이 우정을 갈라놓았다가, 진심 어린 마음이 다시 둘을 묶은 셈이지요. 오늘은 붉은 과일 음료 한 잔을 친구와 나눠 보세요. 다행히 주스로요."
+  ],
+  "try": "산딸기나 라즈베리 잼 한 숟가락을 따뜻한 물이나 탄산수에 풀고 레몬즙을 몇 방울 떨어뜨리면 앤의 다과회 맛이 됩니다.",
+  "sources": [
+   "https://etc.usf.edu/lit2go/53/anne-of-green-gables/1022/chapter-16-diana-is-invited-to-tea-with-tragic-results/",
+   "https://www.litcharts.com/lit/anne-of-green-gables/chapter-16-diana-is-invited-to-tea-with-tragic-results",
+   "https://annemanuscript.ca/manuscript/chapter-16/cm-67-5-1_0509_r_ch16/",
+   "https://toriavey.com/anne-of-green-gables-raspberry-cordial/",
+   "https://assets.atlasobscura.com/foods/raspberry-cordial-anne-of-green-gables",
+   "https://artsandculture.google.com/asset/raspberry-cordial-green-gables-heritage-place-0097/vwEPM3fasG05ew"
+  ],
+  "short": {
+   "hook": "「빨간 머리 앤」에서 앤이 친구 다이애나에게 내준 산딸기 주스 이야기예요.",
+   "lines": [
+    "앤이 처음으로 다이애나를 초대해 차를 대접하던 날, 마릴라는 산딸기 주스를 마셔도 된다고 허락했어요.",
+    "그런데 앤이 벽장에서 꺼낸 병은 주스가 아니라 마릴라가 담근 열매 술이었죠.",
+    "달콤하다며 세 잔을 비운 다이애나는 비틀비틀 집에 갔고, 둘은 한동안 만나지 못하게 됐어요.",
+    "코디얼은 과일즙에 설탕을 넣어 만든 시럽을 물에 타 마시는 음료예요.",
+    "이름은 심장을 뜻하는 라틴어 코르에서 왔대요. 마음을 북돋우는 음료라는 뜻이죠."
+   ],
+   "outro": "오늘 문학늬우스에서 앤의 산딸기 주스 이야기를 더 만나 보세요.",
+   "thumb": [
+    "앤의",
+    "산딸기 주스"
+   ],
+   "title": "몽고메리 「빨간 머리 앤」 다이애나와 산딸기 주스 소동 | 문학 한술 #빨간머리앤 #산딸기주스 #앤 #shorts"
+  }
+ },
+ "zodiac": [
+  {
+   "key": "rat",
+   "animal": "쥐",
+   "text": "나는 온몸에 햇살을 받고 / 푸른 하늘 푸른 들이 맞붙은 곳으로",
+   "writer": "이상화",
+   "work": "빼앗긴 들에도 봄은 오는가",
+   "year": 1926,
+   "note": "햇살 드는 쪽으로 몇 걸음만 걸어 보세요. 몸이 먼저 봄을 기억해 낼 거예요.",
+   "sources": [
+    "https://encykorea.aks.ac.kr/Article/E0025323",
+    "https://m.seoul.co.kr/news/2004/11/11/20041111065001"
+   ]
+  },
+  {
+   "key": "ox",
+   "animal": "소",
+   "text": "동짓달 기나긴 밤을 한 허리를 베어 내어 / 춘풍 이불 아래 서리서리 넣었다가",
+   "writer": "황진이",
+   "work": "동짓달 기나긴 밤을(시조)",
+   "year": "16세기",
+   "note": "긴 밤도 아껴 두면 쓸 데가 있지요. 오늘 밤 한 시간은 보고 싶은 사람 몫으로 남겨 두세요.",
+   "sources": [
+    "https://koreascience.kr/article/JAKO201925454133727.pdf",
+    "https://www.wikipedia.com/wiki/Myeongwol"
+   ]
+  },
+  {
+   "key": "tiger",
+   "animal": "호랑이",
+   "text": "희망은 깃털 달린 것 / 영혼에 내려앉아",
+   "orig": "\"Hope\" is the thing with feathers - / That perches in the soul -",
+   "translator": "금로동 옮김",
+   "writer": "에밀리 디킨슨",
+   "work": "희망은 깃털 달린 것",
+   "year": 1891,
+   "note": "희망은 요란하지 않게 곁에 앉아 있곤 합니다. 오늘은 그 작은 노래에 귀 기울여 보세요.",
+   "sources": [
+    "https://rpo.library.utoronto.ca/content/hope-thing-feathers-254",
+    "https://www.poetryfoundation.org/poems/42889/hope-is-the-thing-with-feathers-314"
+   ]
+  },
+  {
+   "key": "rabbit",
+   "animal": "토끼",
+   "text": "오백 년 도읍지를 필마로 돌아드니 / 산천은 의구하되 인걸은 간 데 없다",
+   "writer": "길재",
+   "work": "오백 년 도읍지를(시조)",
+   "year": "14세기 말",
+   "note": "변하지 않는 것과 변한 것을 함께 보는 하루입니다. 오래된 장소에 잠깐 들러 보세요.",
+   "sources": [
+    "https://ko.wikisource.org/wiki/%ED%9A%8C%EA%B3%A0%EA%B0%80_(%EA%B8%B8%EC%9E%AC)",
+    "https://kbmaeil.com/article/202009130287782"
+   ]
+  },
+  {
+   "key": "dragon",
+   "animal": "용",
+   "text": "구름처럼 외로이 떠돌다가 / 문득 한 무리, 금빛 수선화 떼를 보았네",
+   "orig": "I wandered lonely as a Cloud / … / When all at once I saw a crowd, / A host of golden Daffodils;",
+   "translator": "금로동 옮김",
+   "writer": "윌리엄 워즈워스",
+   "work": "구름처럼 외로이 떠돌다(I Wandered Lonely as a Cloud)",
+   "year": 1807,
+   "note": "혼자 걷는 길에서 뜻밖의 풍경을 만나기도 합니다. 오늘은 고개를 들고 천천히 걸어 보세요.",
+   "sources": [
+    "https://rpo.library.utoronto.ca/poems/i-wandered-lonely-cloud",
+    "https://www.wordsworth.org.uk/daffodils.html"
+   ]
+  },
+  {
+   "key": "snake",
+   "animal": "뱀",
+   "text": "이화에 월백하고 은한이 삼경인 제 / 일지춘심을 자규야 알랴마는",
+   "writer": "이조년",
+   "work": "다정가(多情歌)",
+   "year": "고려 말",
+   "note": "잠 못 드는 밤도 마음이 깊다는 뜻이겠지요. 오늘은 그 마음을 짧은 글로 적어 두세요.",
+   "sources": [
+    "https://dh.aks.ac.kr/Encyves/wiki/index.php/%eb%8b%a4%ec%a0%95%ea%b0%80",
+    "https://www.korean.go.kr/nkview/nklife/2006_3/2006_0309.pdf"
+   ]
+  },
+  {
+   "key": "horse",
+   "animal": "말",
+   "text": "주여, 때가 되었습니다. 여름은 참으로 위대했습니다.",
+   "orig": "Herr: es ist Zeit. Der Sommer war sehr groß.",
+   "translator": "금로동 옮김",
+   "writer": "라이너 마리아 릴케",
+   "work": "가을날(Herbsttag)",
+   "year": 1902,
+   "note": "한 계절을 잘 보냈다면 이제 거둘 차례입니다. 올해 해낸 일 하나를 꼽아 스스로 칭찬해 주세요.",
+   "sources": [
+    "https://de.wikisource.org/wiki/Herbsttag",
+    "https://www.lieder.net/lieder/get_text.html?TextId=29796"
+   ]
+  },
+  {
+   "key": "sheep",
+   "animal": "양",
+   "text": "왜 사냐건 / 웃지요.",
+   "writer": "김상용",
+   "work": "남으로 창을 내겠소",
+   "year": 1934,
+   "note": "모든 물음에 긴 대답이 필요하진 않지요. 오늘은 미소 한 번으로 넘겨도 괜찮습니다.",
+   "sources": [
+    "https://encykorea.aks.ac.kr/Article/E0012085",
+    "https://weekly.khan.co.kr/article/202008211520411"
+   ]
+  },
+  {
+   "key": "monkey",
+   "animal": "원숭이",
+   "text": "삶이 너를 속이더라도 / 서러워 말고, 성내지 마라!",
+   "orig": "Если жизнь тебя обманет, / Не печалься, не сердись!",
+   "translator": "금로동 옮김",
+   "writer": "알렉산드르 푸시킨",
+   "work": "삶이 너를 속이더라도",
+   "year": 1825,
+   "note": "뜻대로 안 된 일은 잠시 내려놓아도 됩니다. 오늘은 따뜻한 것을 먹고 일찍 쉬세요.",
+   "sources": [
+    "https://ru.wikisource.org/wiki/%D0%95%D1%81%D0%BB%D0%B8_%D0%B6%D0%B8%D0%B7%D0%BD%D1%8C_%D1%82%D0%B5%D0%B1%D1%8F_%D0%BE%D0%B1%D0%BC%D0%B0%D0%BD%D0%B5%D1%82_(%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD)",
+    "https://ruverses.com/alexander-pushkin/if-by-life-you-were-deceived/13109"
+   ]
+  },
+  {
+   "key": "rooster",
+   "animal": "닭",
+   "text": "천만리 머나먼 길에 고운 님 여의옵고 / 내 마음 둘 데 없어 냇가에 앉았으니",
+   "writer": "왕방연",
+   "work": "천만리 머나먼 길에(시조)",
+   "year": "15세기",
+   "note": "마음 둘 데 없을 땐 물가처럼 흐르는 곳이 위로가 됩니다. 오늘은 잠깐 바깥 바람을 쐬세요.",
+   "sources": [
+    "https://www.imaeil.com/page/view/2009012914294363530",
+    "https://www.jjan.kr/article/20250507580349"
+   ]
+  },
+  {
+   "key": "dog",
+   "animal": "개",
+   "text": "오래된 연못 / 개구리 뛰어드는 / 물소리",
+   "orig": "古池や / 蛙飛びこむ / 水の音",
+   "translator": "금로동 옮김",
+   "writer": "마쓰오 바쇼",
+   "work": "오래된 연못(하이쿠)",
+   "year": 1686,
+   "note": "고요는 작은 소리가 날 때 더 또렷해지지요. 오늘은 한 가지 소리에만 귀 기울여 보세요.",
+   "sources": [
+    "https://ebsco.com/research-starters/history/old-pond-matsuo-basho",
+    "https://EN.wikipedia.com/wiki/Bash%C5%8D"
+   ]
+  },
+  {
+   "key": "pig",
+   "animal": "돼지",
+   "text": "동쪽 울타리 아래서 국화를 따다가 / 한가로이 남산을 바라보네",
+   "orig": "採菊東籬下 / 悠然見南山",
+   "translator": "금로동 옮김",
+   "writer": "도연명",
+   "work": "음주(飮酒) 제5수",
+   "year": "5세기",
+   "note": "바쁜 하루에도 먼 산 한 번 볼 틈은 있습니다. 창밖을 오래 바라보는 시간을 가져 보세요.",
+   "sources": [
+    "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_11.pdf",
+    "https://zh.wikisource.org/wiki/%E9%99%B6%E6%B7%B5%E6%98%8E%E9%9B%86/%E5%8D%B7%E4%B8%89"
+   ]
+  }
+ ],
+ "puzzle": {
+  "size": [
+   11,
+   11
+  ],
+  "words": [
+   {
+    "n": 2,
+    "dir": "across",
+    "r": 1,
+    "c": 0,
+    "a": "월광",
+    "clue": "달빛을 한자로 이르는 말"
+   },
+   {
+    "n": 4,
+    "dir": "across",
+    "r": 2,
+    "c": 1,
+    "a": "장미",
+    "clue": "가시 있는 꽃"
+   },
+   {
+    "n": 6,
+    "dir": "across",
+    "r": 3,
+    "c": 2,
+    "a": "소설",
+    "clue": "「탈출기」·『몽실 언니』 같은 꾸며 쓴 이야기"
+   },
+   {
+    "n": 8,
+    "dir": "across",
+    "r": 4,
+    "c": 3,
+    "a": "명시",
+    "clue": "이름난 시"
+   },
+   {
+    "n": 10,
+    "dir": "across",
+    "r": 5,
+    "c": 4,
+    "a": "인생",
+    "clue": "'삶이 너를 속이더라도'의 그 삶"
+   },
+   {
+    "n": 12,
+    "dir": "across",
+    "r": 6,
+    "c": 5,
+    "a": "명작",
+    "clue": "이름난 작품"
+   },
+   {
+    "n": 14,
+    "dir": "across",
+    "r": 7,
+    "c": 6,
+    "a": "가을",
+    "clue": "릴케 「○○날」의 계절"
+   },
+   {
+    "n": 16,
+    "dir": "across",
+    "r": 8,
+    "c": 7,
+    "a": "사설",
+    "clue": "신문의 주장 글"
+   },
+   {
+    "n": 18,
+    "dir": "across",
+    "r": 9,
+    "c": 8,
+    "a": "화가",
+    "clue": "그림 그리는 사람"
+   },
+   {
+    "n": 20,
+    "dir": "across",
+    "r": 10,
+    "c": 9,
+    "a": "사랑",
+    "clue": "'불붙는 정열은 ○○보다도 강하다'(「논개」)"
+   },
+   {
+    "n": 1,
+    "dir": "down",
+    "r": 0,
+    "c": 0,
+    "a": "정월",
+    "clue": "한 해의 첫 달"
+   },
+   {
+    "n": 3,
+    "dir": "down",
+    "r": 1,
+    "c": 1,
+    "a": "광장",
+    "clue": "최인훈의 소설 제목이기도 한 넓은 마당"
+   },
+   {
+    "n": 5,
+    "dir": "down",
+    "r": 2,
+    "c": 2,
+    "a": "미소",
+    "clue": "'왜 사냐건 / 웃지요'의 표정"
+   },
+   {
+    "n": 7,
+    "dir": "down",
+    "r": 3,
+    "c": 3,
+    "a": "설명",
+    "clue": "풀어 밝힘"
+   },
+   {
+    "n": 9,
+    "dir": "down",
+    "r": 4,
+    "c": 4,
+    "a": "시인",
+    "clue": "윤동주·변영로처럼 시를 쓰는 사람"
+   },
+   {
+    "n": 11,
+    "dir": "down",
+    "r": 5,
+    "c": 5,
+    "a": "생명",
+    "clue": "살아 있는 힘"
+   },
+   {
+    "n": 13,
+    "dir": "down",
+    "r": 6,
+    "c": 6,
+    "a": "작가",
+    "clue": "권정생·최서해처럼 글을 짓는 사람"
+   },
+   {
+    "n": 15,
+    "dir": "down",
+    "r": 7,
+    "c": 7,
+    "a": "을사",
+    "clue": "1905년 조약의 해"
+   },
+   {
+    "n": 17,
+    "dir": "down",
+    "r": 8,
+    "c": 8,
+    "a": "설화",
+    "clue": "입으로 전해진 이야기"
+   },
+   {
+    "n": 19,
+    "dir": "down",
+    "r": 9,
+    "c": 9,
+    "a": "가사",
+    "clue": "노래의 말"
+   }
+  ]
+ },
+ "audio": {
+  "classic": "audio/2026-11-26-classic.mp3",
+  "day": "audio/2026-11-26-day.mp3",
+  "modern": "audio/2026-11-26-modern.mp3",
+  "novel": "audio/2026-11-26-novel.mp3",
+  "poem": "audio/2026-11-26-poem.mp3",
+  "sentence": "audio/2026-11-26-sentence.mp3",
+  "writer": "audio/2026-11-26-writer.mp3"
+ }
+}

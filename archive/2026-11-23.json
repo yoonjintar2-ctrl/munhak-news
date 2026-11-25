@@ -685,14 +685,5 @@
    "https://homepages.cwi.nl/~aeb/go/games/games/Honinbo/03/index.html",
    "https://github.com/yenw/computer-go-dataset (기보: Professional/pro1940-1999.zip → pro1940-1999.txt, GN 1945-08-04a)"
   ]
- },
- "audio": {
-  "classic": "audio/2026-11-23-classic.mp3",
-  "day": "audio/2026-11-23-day.mp3",
-  "modern": "audio/2026-11-23-modern.mp3",
-  "novel": "audio/2026-11-23-novel.mp3",
-  "poem": "audio/2026-11-23-poem.mp3",
-  "sentence": "audio/2026-11-23-sentence.mp3",
-  "writer": "audio/2026-11-23-writer.mp3"
  }
 }
