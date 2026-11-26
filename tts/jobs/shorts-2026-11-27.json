@@ -1,0 +1,1064 @@
+{
+ "name": "shorts-2026-11-27",
+ "mode": "clone",
+ "ref_audio": "out/casual1/E_think.wav",
+ "ref_text": "음… 그럼 데이터센터는 이제 못 짓는 건가?",
+ "gen": {
+  "temperature": 0.75,
+  "top_p": 0.9
+ },
+ "reload_every": 4,
+ "retries": 4,
+ "items": [
+  {
+   "id": "open_00_t0",
+   "text": "일 분 만에 떠먹여 주는, 일 분 문학! 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "open_00_t1",
+   "text": "일 분 만에 떠먹여 주는, 일 분 문학! 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_00_t0",
+   "text": "천구백삼십오 년, 계용묵. 말 대신 아다다 소리만 내던 한 여인이 돈 앞에서 지키려 했던 것의 이야기예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_00_t1",
+   "text": "천구백삼십오 년, 계용묵. 말 대신 아다다 소리만 내던 한 여인이 돈 앞에서 지키려 했던 것의 이야기예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_01_t0",
+   "text": "아다다는 말을 하지 못하는 여자입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_01_t1",
+   "text": "아다다는 말을 하지 못하는 여자입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_02_t0",
+   "text": "무슨 말을 하려 해도 입에서는 아다, 아다다 소리만 새어 나와, 사람들은 본이름 대신 그를 아다다라고 불렀지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_02_t1",
+   "text": "무슨 말을 하려 해도 입에서는 아다, 아다다 소리만 새어 나와, 사람들은 본이름 대신 그를 아다다라고 불렀지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_03_t0",
+   "text": "넉넉한 집 딸이었지만 말을 못 한다는 까닭에 혼처가 나서지 않자, 부모는 땅을 지참금으로 얹어 그를 가난한 집에 시집보냈습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_03_t1",
+   "text": "넉넉한 집 딸이었지만 말을 못 한다는 까닭에 혼처가 나서지 않자, 부모는 땅을 지참금으로 얹어 그를 가난한 집에 시집보냈습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_04_t0",
+   "text": "시집에서 보낸 처음 몇 해는 아다다에게 가장 행복한 날들이었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_04_t1",
+   "text": "시집에서 보낸 처음 몇 해는 아다다에게 가장 행복한 날들이었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_05_t0",
+   "text": "가난하던 시집은 아다다가 가져온 땅 덕에 살림이 펴졌고, 아다다는 말 대신 몸으로 쉬지 않고 일했지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_05_t1",
+   "text": "가난하던 시집은 아다다가 가져온 땅 덕에 살림이 펴졌고, 아다다는 말 대신 몸으로 쉬지 않고 일했지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_06_t0",
+   "text": "남편도 시부모도 그런 며느리를 아껴 주었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_06_t1",
+   "text": "남편도 시부모도 그런 며느리를 아껴 주었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_07_t0",
+   "text": "아다다가 웃으면 시집 식구들도 따라 웃었고, 아다다는 그 웃음 하나로 말 못 하는 서러움을 잊었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_07_t1",
+   "text": "아다다가 웃으면 시집 식구들도 따라 웃었고, 아다다는 그 웃음 하나로 말 못 하는 서러움을 잊었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_08_t0",
+   "text": "그런데 살림이 넉넉해지고 남편이 돈을 만지게 되자 모든 것이 달라졌습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_08_t1",
+   "text": "그런데 살림이 넉넉해지고 남편이 돈을 만지게 되자 모든 것이 달라졌습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_09_t0",
+   "text": "남편은 말 못 하는 아내를 부끄러워하며 구박했고, 끝내 새 여자를 들였지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_09_t1",
+   "text": "남편은 말 못 하는 아내를 부끄러워하며 구박했고, 끝내 새 여자를 들였지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_10_t0",
+   "text": "아다다는 매를 맞으며 견디다 쫓겨나듯 친정으로 돌아왔습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_10_t1",
+   "text": "아다다는 매를 맞으며 견디다 쫓겨나듯 친정으로 돌아왔습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_11_t0",
+   "text": "아다다가 아다다, 아다다 하며 매달릴수록 남편의 발길은 더 매서워졌습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_11_t1",
+   "text": "아다다가 아다다, 아다다 하며 매달릴수록 남편의 발길은 더 매서워졌습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_12_t0",
+   "text": "친정도 아다다를 반기지 않았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_12_t1",
+   "text": "친정도 아다다를 반기지 않았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_13_t0",
+   "text": "어머니는 시집에서 쫓겨 온 딸이 보기 싫다며 날마다 나무라고 때렸지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_13_t1",
+   "text": "어머니는 시집에서 쫓겨 온 딸이 보기 싫다며 날마다 나무라고 때렸지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_14_t0",
+   "text": "아다다는 대꾸 한마디 못 한 채 부엌 구석에서 소리 없이 울었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_14_t1",
+   "text": "아다다는 대꾸 한마디 못 한 채 부엌 구석에서 소리 없이 울었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_15_t0",
+   "text": "시집도 친정도 그에게는 머물 곳이 아니었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_15_t1",
+   "text": "시집도 친정도 그에게는 머물 곳이 아니었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_16_t0",
+   "text": "그런 아다다를 오래 눈여겨본 사람이 있었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_16_t1",
+   "text": "그런 아다다를 오래 눈여겨본 사람이 있었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_17_t0",
+   "text": "마을의 가난한 노총각 수롱이였지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_17_t1",
+   "text": "마을의 가난한 노총각 수롱이였지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_18_t0",
+   "text": "수롱이는 남의 집 일을 하며 모아 둔 돈이 있다며, 멀리 가서 함께 살자고 아다다를 달랬습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_18_t1",
+   "text": "수롱이는 남의 집 일을 하며 모아 둔 돈이 있다며, 멀리 가서 함께 살자고 아다다를 달랬습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_19_t0",
+   "text": "아다다는 고개를 끄덕였고, 둘은 어느 밤 몰래 마을을 떠나 신미도라는 섬으로 건너갔습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_19_t1",
+   "text": "아다다는 고개를 끄덕였고, 둘은 어느 밤 몰래 마을을 떠나 신미도라는 섬으로 건너갔습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_20_t0",
+   "text": "섬에서 수롱이는 꿈에 부풀었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_20_t1",
+   "text": "섬에서 수롱이는 꿈에 부풀었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_21_t0",
+   "text": "품에 지닌 돈으로 땅을 사 농사를 짓고, 아다다와 오순도순 살겠다고 했지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_21_t1",
+   "text": "품에 지닌 돈으로 땅을 사 농사를 짓고, 아다다와 오순도순 살겠다고 했지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_22_t0",
+   "text": "그런데 수롱이가 돈 꾸러미를 꺼내 보이며 기뻐할수록 아다다의 얼굴은 어두워졌습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_22_t1",
+   "text": "그런데 수롱이가 돈 꾸러미를 꺼내 보이며 기뻐할수록 아다다의 얼굴은 어두워졌습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_23_t0",
+   "text": "돈이 생기자 자기를 내쫓던 첫 남편의 얼굴이 자꾸 떠올랐거든요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_23_t1",
+   "text": "돈이 생기자 자기를 내쫓던 첫 남편의 얼굴이 자꾸 떠올랐거든요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_24_t0",
+   "text": "수롱이가 땅 이야기를 할 때마다, 아다다는 고개를 끄덕이는 대신 조용히 바다만 바라보았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_24_t1",
+   "text": "수롱이가 땅 이야기를 할 때마다, 아다다는 고개를 끄덕이는 대신 조용히 바다만 바라보았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_25_t0",
+   "text": "아다다는 생각했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_25_t1",
+   "text": "아다다는 생각했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_26_t0",
+   "text": "이 돈만 없으면 수롱이는 변하지 않을 거라고. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_26_t1",
+   "text": "이 돈만 없으면 수롱이는 변하지 않을 거라고. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_27_t0",
+   "text": "이튿날 새벽, 아다다는 잠든 수롱이 곁에서 돈 꾸러미를 살며시 꺼내 들고 바닷가로 나갔습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_27_t1",
+   "text": "이튿날 새벽, 아다다는 잠든 수롱이 곁에서 돈 꾸러미를 살며시 꺼내 들고 바닷가로 나갔습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_28_t0",
+   "text": "아직 어둑한 바다 위로 물결만 하얗게 밀려왔다 밀려가고 있었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_28_t1",
+   "text": "아직 어둑한 바다 위로 물결만 하얗게 밀려왔다 밀려가고 있었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_29_t0",
+   "text": "아다다는 지폐를 한 장 한 장 바다에 흩뿌렸고, 돈은 물결을 타고 멀리 떠내려갔습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_29_t1",
+   "text": "아다다는 지폐를 한 장 한 장 바다에 흩뿌렸고, 돈은 물결을 타고 멀리 떠내려갔습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_30_t0",
+   "text": "뒤쫓아 나온 수롱이는 그 모습을 보고 눈이 뒤집혀 아다다를 바닷물로 떠밀어 버렸지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_30_t1",
+   "text": "뒤쫓아 나온 수롱이는 그 모습을 보고 눈이 뒤집혀 아다다를 바닷물로 떠밀어 버렸지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_31_t0",
+   "text": "아다다는 끝내 물 밖으로 나오지 못했고, 바다는 아무 일 없었다는 듯 다시 잔잔해졌습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_31_t1",
+   "text": "아다다는 끝내 물 밖으로 나오지 못했고, 바다는 아무 일 없었다는 듯 다시 잔잔해졌습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_32_t0",
+   "text": "아다다가 지키고 싶었던 것은 돈이 아니라 사람이었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_32_t1",
+   "text": "아다다가 지키고 싶었던 것은 돈이 아니라 사람이었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_33_t0",
+   "text": "돈이 사람을 바꾸는 걸 먼저 겪어 본 사람만이 그 돈을 바다에 버릴 수 있었겠지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_33_t1",
+   "text": "돈이 사람을 바꾸는 걸 먼저 겪어 본 사람만이 그 돈을 바다에 버릴 수 있었겠지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_34_t0",
+   "text": "오늘 문학늬우스 지면에는 노천명의 사슴과, 베를린의 육상 영웅 제시 오언스 이야기도 실려 있어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_34_t1",
+   "text": "오늘 문학늬우스 지면에는 노천명의 사슴과, 베를린의 육상 영웅 제시 오언스 이야기도 실려 있어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_35_t0",
+   "text": "영상 아래 링크로 가볍게 놀러 오세요. 고맙습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_35_t1",
+   "text": "영상 아래 링크로 가볍게 놀러 오세요. 고맙습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_tz_t0",
+   "text": "뒷이야기와 결말까지, 전체 영상에서 이어서 들어 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_tz_t1",
+   "text": "뒷이야기와 결말까지, 전체 영상에서 이어서 들어 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_00_t0",
+   "text": "이천 년, 황선미. 알 하나를 품고 싶어 양계장 철망을 나온 암탉 잎싹의 이야기예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_00_t1",
+   "text": "이천 년, 황선미. 알 하나를 품고 싶어 양계장 철망을 나온 암탉 잎싹의 이야기예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_01_t0",
+   "text": "양계장 철망 안에서 알만 낳던 암탉이 있었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_01_t1",
+   "text": "양계장 철망 안에서 알만 낳던 암탉이 있었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_02_t0",
+   "text": "암탉은 스스로에게 잎싹이라는 이름을 지어 주었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_02_t1",
+   "text": "암탉은 스스로에게 잎싹이라는 이름을 지어 주었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_03_t0",
+   "text": "바람과 햇빛을 받아 꽃을 피워 내는 아카시아 잎처럼 살고 싶었거든요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_03_t1",
+   "text": "바람과 햇빛을 받아 꽃을 피워 내는 아카시아 잎처럼 살고 싶었거든요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_04_t0",
+   "text": "잎싹의 꿈은 하나뿐이었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_04_t1",
+   "text": "잎싹의 꿈은 하나뿐이었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_05_t0",
+   "text": "마당으로 나가 알을 품어, 병아리가 태어나는 것을 보는 것. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_05_t1",
+   "text": "마당으로 나가 알을 품어, 병아리가 태어나는 것을 보는 것. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_06_t0",
+   "text": "철망 너머 마당에서는 암탉이 병아리를 데리고 다녔고, 잎싹은 날마다 그 모습을 바라보았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_06_t1",
+   "text": "철망 너머 마당에서는 암탉이 병아리를 데리고 다녔고, 잎싹은 날마다 그 모습을 바라보았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_07_t0",
+   "text": "더는 알을 낳지 못할 만큼 지친 잎싹은 폐계가 되어 구덩이에 버려집니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_07_t1",
+   "text": "더는 알을 낳지 못할 만큼 지친 잎싹은 폐계가 되어 구덩이에 버려집니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_08_t0",
+   "text": "족제비가 노리던 그곳에서 잎싹을 구해 준 것은 마당의 청둥오리 나그네였지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_08_t1",
+   "text": "족제비가 노리던 그곳에서 잎싹을 구해 준 것은 마당의 청둥오리 나그네였지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_09_t0",
+   "text": "하지만 마당의 닭과 오리들은 양계장에서 온 잎싹을 끝내 받아 주지 않았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_09_t1",
+   "text": "하지만 마당의 닭과 오리들은 양계장에서 온 잎싹을 끝내 받아 주지 않았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_10_t0",
+   "text": "잎싹은 헛간 둘레를 맴돌며 밤이슬을 맞았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_10_t1",
+   "text": "잎싹은 헛간 둘레를 맴돌며 밤이슬을 맞았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_11_t0",
+   "text": "갈 곳 없이 들판을 헤매던 잎싹은 덤불 속에서 주인 없는 알 하나를 발견합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_11_t1",
+   "text": "갈 곳 없이 들판을 헤매던 잎싹은 덤불 속에서 주인 없는 알 하나를 발견합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_12_t0",
+   "text": "잎싹은 날마다 그 알을 정성껏 품었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_12_t1",
+   "text": "잎싹은 날마다 그 알을 정성껏 품었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_13_t0",
+   "text": "그동안 나그네는 밤마다 둥지 곁을 지켜 주다가, 어느 밤 족제비에게 잡혀가고 맙니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_13_t1",
+   "text": "그동안 나그네는 밤마다 둥지 곁을 지켜 주다가, 어느 밤 족제비에게 잡혀가고 맙니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_14_t0",
+   "text": "그 알은 나그네가 남긴 알이었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_14_t1",
+   "text": "그 알은 나그네가 남긴 알이었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_15_t0",
+   "text": "잎싹은 나그네가 왜 그토록 자기 곁을 지켰는지 그제야 알게 되었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_15_t1",
+   "text": "잎싹은 나그네가 왜 그토록 자기 곁을 지켰는지 그제야 알게 되었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_16_t0",
+   "text": "알을 깨고 나온 것은 병아리가 아니라 아기 오리였습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_16_t1",
+   "text": "알을 깨고 나온 것은 병아리가 아니라 아기 오리였습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_17_t0",
+   "text": "잎싹은 조금도 개의치 않고 아이를 초록머리라 부르며 품었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_17_t1",
+   "text": "잎싹은 조금도 개의치 않고 아이를 초록머리라 부르며 품었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_18_t0",
+   "text": "함께 마당으로 돌아가 보았지만 그곳은 둘을 받아 주지 않았고, 엄마와 아이는 저수지로 떠났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_18_t1",
+   "text": "함께 마당으로 돌아가 보았지만 그곳은 둘을 받아 주지 않았고, 엄마와 아이는 저수지로 떠났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_19_t0",
+   "text": "그래도 잎싹은 아이가 꽥꽥 우는 소리만 들으면 세상 무엇도 부럽지 않았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_19_t1",
+   "text": "그래도 잎싹은 아이가 꽥꽥 우는 소리만 들으면 세상 무엇도 부럽지 않았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_20_t0",
+   "text": "저수지 생활은 고단했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_20_t1",
+   "text": "저수지 생활은 고단했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_21_t0",
+   "text": "족제비는 늘 둘을 노렸고, 잎싹은 잠을 줄여 가며 초록머리를 지켰지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_21_t1",
+   "text": "족제비는 늘 둘을 노렸고, 잎싹은 잠을 줄여 가며 초록머리를 지켰지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_22_t0",
+   "text": "초록머리는 헤엄치고 나는 법을 익히며 자랐지만, 자기와 다르게 생긴 엄마 때문에 놀림을 받기도 했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_22_t1",
+   "text": "초록머리는 헤엄치고 나는 법을 익히며 자랐지만, 자기와 다르게 생긴 엄마 때문에 놀림을 받기도 했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_23_t0",
+   "text": "그때마다 잎싹은 말했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_23_t1",
+   "text": "그때마다 잎싹은 말했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_24_t0",
+   "text": "생김새가 달라도 우리는 서로 사랑할 수 있다고. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_24_t1",
+   "text": "생김새가 달라도 우리는 서로 사랑할 수 있다고. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_25_t0",
+   "text": "겨울이 가까워지자 하늘에 청둥오리 떼가 날아들었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_25_t1",
+   "text": "겨울이 가까워지자 하늘에 청둥오리 떼가 날아들었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_26_t0",
+   "text": "무리를 올려다보는 초록머리의 눈빛을 보며, 잎싹은 아이가 제 무리를 찾아 떠나야 한다는 것을 알았지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_26_t1",
+   "text": "무리를 올려다보는 초록머리의 눈빛을 보며, 잎싹은 아이가 제 무리를 찾아 떠나야 한다는 것을 알았지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_27_t0",
+   "text": "초록머리가 무리와 함께 하늘로 날아오른 날, 잎싹은 붙잡지 않았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_27_t1",
+   "text": "초록머리가 무리와 함께 하늘로 날아오른 날, 잎싹은 붙잡지 않았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_28_t0",
+   "text": "잎싹은 하늘이 텅 빌 때까지 그 자리에 서 있었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_28_t1",
+   "text": "잎싹은 하늘이 텅 빌 때까지 그 자리에 서 있었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_29_t0",
+   "text": "홀로 남은 잎싹은 굶주린 족제비와 다시 마주칩니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_29_t1",
+   "text": "홀로 남은 잎싹은 굶주린 족제비와 다시 마주칩니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_30_t0",
+   "text": "그 족제비에게도 먹이를 기다리는 새끼들이 있다는 것을 안 잎싹은, 더는 도망치지 않고 눈을 감았지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_30_t1",
+   "text": "그 족제비에게도 먹이를 기다리는 새끼들이 있다는 것을 안 잎싹은, 더는 도망치지 않고 눈을 감았지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_31_t0",
+   "text": "그 순간 잎싹은 자신이 가볍게 하늘로 날아오르는 것을 느낍니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_31_t1",
+   "text": "그 순간 잎싹은 자신이 가볍게 하늘로 날아오르는 것을 느낍니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_32_t0",
+   "text": "마당을 나온 암탉은 그렇게, 평생 꿈꾸던 날개를 펼쳤습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_32_t1",
+   "text": "마당을 나온 암탉은 그렇게, 평생 꿈꾸던 날개를 펼쳤습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_33_t0",
+   "text": "나와 다르게 생긴 아이를 끝까지 사랑한 엄마는, 마지막에 가장 높이 날았어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_33_t1",
+   "text": "나와 다르게 생긴 아이를 끝까지 사랑한 엄마는, 마지막에 가장 높이 날았어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_34_t0",
+   "text": "오늘 문학늬우스 지면에는 김기림의 흰 나비와, 헨젤과 그레텔의 과자집 이야기도 실려 있어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_34_t1",
+   "text": "오늘 문학늬우스 지면에는 김기림의 흰 나비와, 헨젤과 그레텔의 과자집 이야기도 실려 있어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_35_t0",
+   "text": "영상 아래 링크로 놀러 오세요. 고맙습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_35_t1",
+   "text": "영상 아래 링크로 놀러 오세요. 고맙습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_tz_t0",
+   "text": "뒷이야기와 결말까지, 전체 영상에서 이어서 들어 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_tz_t1",
+   "text": "뒷이야기와 결말까지, 전체 영상에서 이어서 들어 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  }
+ ]
+}

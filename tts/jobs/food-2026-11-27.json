@@ -1,0 +1,126 @@
+{
+ "name": "food-2026-11-27",
+ "mode": "clone",
+ "ref_audio": "out/casual1/E_think.wav",
+ "ref_text": "음… 그럼 데이터센터는 이제 못 짓는 건가?",
+ "gen": {
+  "temperature": 0.75,
+  "top_p": 0.9
+ },
+ "reload_every": 4,
+ "retries": 4,
+ "items": [
+  {
+   "id": "food_00_t0",
+   "text": "그림 형제의 헨젤과 그레텔, 숲속의 과자집 이야기예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_00_t1",
+   "text": "그림 형제의 헨젤과 그레텔, 숲속의 과자집 이야기예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_01_t0",
+   "text": "흉년에 숲속에 버려진 남매는 사흘을 굶으며 헤매다 하얀 새를 따라갔어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_01_t1",
+   "text": "흉년에 숲속에 버려진 남매는 사흘을 굶으며 헤매다 하얀 새를 따라갔어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_02_t0",
+   "text": "그 끝에 빵으로 벽을 짓고 케이크로 지붕을 덮고, 설탕으로 창문을 낸 작은 집이 있었죠. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_02_t1",
+   "text": "그 끝에 빵으로 벽을 짓고 케이크로 지붕을 덮고, 설탕으로 창문을 낸 작은 집이 있었죠. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_03_t0",
+   "text": "하지만 그 집은 아이들을 꾀어 들이려는 마녀의 덫이었어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_03_t1",
+   "text": "하지만 그 집은 아이들을 꾀어 들이려는 마녀의 덫이었어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_04_t0",
+   "text": "독일에는 꿀과 향신료를 넣어 구운 생강과자 레프쿠헨이 있는데, 이 과자로 집을 짓는 풍습이 동화 덕분에 유행했다는 이야기가 전해요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_04_t1",
+   "text": "독일에는 꿀과 향신료를 넣어 구운 생강과자 레프쿠헨이 있는데, 이 과자로 집을 짓는 풍습이 동화 덕분에 유행했다는 이야기가 전해요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_05_t0",
+   "text": "물론 그 전부터 있었다는 설도 있답니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_05_t1",
+   "text": "물론 그 전부터 있었다는 설도 있답니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_06_t0",
+   "text": "오늘 밤 과자 한 조각을 집 모양으로 세워 보면, 숲속 남매의 마음이 조금은 느껴질 거예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_06_t1",
+   "text": "오늘 밤 과자 한 조각을 집 모양으로 세워 보면, 숲속 남매의 마음이 조금은 느껴질 거예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_07_t0",
+   "text": "오늘 문학늬우스에서 숲속 과자집 이야기를 더 만나 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_07_t1",
+   "text": "오늘 문학늬우스에서 숲속 과자집 이야기를 더 만나 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  }
+ ]
+}
