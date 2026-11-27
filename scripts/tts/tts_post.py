@@ -12,6 +12,8 @@ SR = 24000
 # 11/14 발행인 지시 "샌디스크 올인처럼 차분한 톤": 생성 설정은 그대로, 후처리로 차분하게.
 #  배속 1.05→1.0, 문장 안 긴 쉼 0.34→0.40초, 문장 사이 0.4→0.6초, 음높이는 샌디스크 쇼츠 테이크 중앙값(약 193Hz)에 가까운 테이크를 고름.
 TEMPO, PAUSE, GAP, CALM_F0 = 1.0, 0.40, 0.60, 193.0
+# 11/27 맥 없이: 타입캐스트 음성(테이크 1개, '음' 꼬리 없음, 기준 음성 없음)이면 TTS_ENGINE=typecast — 꼬리 자르기·화자 유사도 생략
+TC = os.environ.get('TTS_ENGINE', '') == 'typecast'
 
 
 def load(p):
@@ -33,6 +35,7 @@ def segs(w, thr_db=-38, hop=240):
 
 
 def trim_tail(w):
+    if TC: return w
     s = segs(w)
     if len(s) >= 2:
         a, b = s[-1]; pa, pb = s[-2]
@@ -62,8 +65,8 @@ def main(qtts, date, outdir):
     qtts = os.path.expanduser(qtts)
     name = f"mnews-{date}"
     sc = json.load(open(os.path.join(qtts, "jobs", name + ".script.json"), encoding="utf-8"))
-    enc = VoiceEncoder()
-    ref = enc.embed_utterance(preprocess_wav(os.path.join(qtts, "out/casual1/E_think.wav")))
+    enc = None if TC else VoiceEncoder()
+    ref = None if TC else enc.embed_utterance(preprocess_wav(os.path.join(qtts, "out/casual1/E_think.wav")))
     cand = {}
     for p in glob.glob(os.path.join(qtts, "out", name, "*.wav")):
         m = re.match(r"(.+)_(\d+)_t(\d+)\.wav$", os.path.basename(p))
@@ -72,6 +75,8 @@ def main(qtts, date, outdir):
     for key, ps in cand.items():
         for p in ps:
             w = trim_tail(load(p))
+            if TC:
+                info[p] = dict(w=w, full=0.0, low=0.0, f0=f0_med(w), dur=len(w) / SR); continue
             pw = preprocess_wav(w, source_sr=SR)
             full = float(np.dot(enc.embed_utterance(pw), ref))
             win = []
@@ -89,7 +94,7 @@ def main(qtts, date, outdir):
             dmed = np.median([info[p]["dur"] for p in ps])
             ok = [p for p in ps if info[p]["dur"] < 1.6 * dmed and not (abs(12 * np.log2(info[p]["f0"] / allf0)) > 1.5 if info[p]["f0"] == info[p]["f0"] else False) and info[p]["low"] > info[p]["full"] - 0.12]
             best = max(ok or ps, key=lambda p: (info[p]["full"] + info[p]["low"]) / 2 - (0.03 * max(0.0, 12 * np.log2(info[p]["f0"] / CALM_F0)) if info[p]["f0"] == info[p]["f0"] else 0))   # 높은 톤일수록 감점(반음당 0.03)
-            if not ok: print("통과 테이크 없음(가장 나은 것 사용)", sec, i, text)
+            if not ok and not TC: print("통과 테이크 없음(가장 나은 것 사용)", sec, i, text)
             parts += [squeeze(info[best]["w"], text), np.zeros(int(GAP * SR), np.float32)]
         if not parts: continue
         wav = os.path.join(outdir, f"{date}-{sec}.wav")

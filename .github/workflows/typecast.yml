@@ -1,0 +1,53 @@
+name: typecast-tts
+# (usstock-news 에서 가져옴 11/27) tts/typecast/*.json 이 올라오면 타입캐스트 API(목소리: 저장소 Variables TC_VOICE_NAME)로 음성을 만들어 tts-out 브랜치에 <name>.zip 으로 올린다. 맥 필요 없음.
+# 수동: Actions → typecast-tts → Run workflow (job 칸에 파일 경로, 비우면 목소리 목록만 갱신)
+on:
+  push:
+    paths: ['tts/typecast/*.json']
+  workflow_dispatch:
+    inputs:
+      job: {description: 'tts/typecast/<name>.json (비우면 목소리 목록만)', required: false}
+permissions:
+  contents: write
+concurrency: {group: typecast-tts, cancel-in-progress: false}
+jobs:
+  tts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      TYPECAST_API_KEY: ${{ secrets.TYPECAST_API_KEY }}
+      TC_VOICE_NAME: ${{ vars.TC_VOICE_NAME }}
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 30}
+      - name: 대상 찾기
+        id: pick
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then echo "jobs=${{ github.event.inputs.job }}" >> $GITHUB_OUTPUT; exit 0; fi
+          B="${{ github.event.before }}"; git cat-file -e "$B" 2>/dev/null || B=HEAD~1
+          J=$(git diff --name-only --diff-filter=AM $B HEAD -- 'tts/typecast/*.json' | tr '\n' ' ')
+          echo "jobs=$J" >> $GITHUB_OUTPUT
+      - name: 목소리 목록
+        if: steps.pick.outputs.jobs == '' || hashFiles('tts/typecast_voices.json') == ''
+        run: pip install -q requests && python3 scripts/tts/typecast_job.py voices
+      - name: 음성 만들기
+        if: steps.pick.outputs.jobs != ''
+        run: pip install -q requests && python3 scripts/tts/typecast_job.py run ${{ steps.pick.outputs.jobs }}
+      - name: 결과 올리기
+        if: always()
+        run: |
+          git config user.name "tts-bot"; git config user.email "tts-bot@users.noreply.github.com"
+          if [ -n "$(git status --porcelain tts/typecast_voices.json)" ]; then
+            git add tts/typecast_voices.json && git commit -qm "타입캐스트 목소리 목록" && for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 5; done
+          fi
+          ls out/*.zip >/dev/null 2>&1 || exit 0
+          mkdir -p /tmp/z && cp out/*.zip /tmp/z/
+          # tts-out: 고아 브랜치, 최근 4일치 zip 만 남기고 덮어쓴다(저장소 용량 관리)
+          mkdir -p /tmp/keep && cd /tmp/keep
+          git init -q && git remote add origin "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git"
+          git fetch -q --depth 1 origin tts-out 2>/dev/null && git checkout -q FETCH_HEAD -- . 2>/dev/null || true
+          cp /tmp/z/*.zip .
+          CUT=$(TZ=Asia/Seoul date -d '4 days ago' +%F)
+          for f in *.zip; do d=$(echo $f | grep -oE '[0-9]{4}-[0-9]{2}-[0-9]{2}' | head -1); [ -n "$d" ] && [[ "$d" < "$CUT" ]] && rm -f "$f"; done
+          git symbolic-ref HEAD refs/heads/tts-out && git add -A . && git -c user.name=tts-bot -c user.email=tts-bot@users.noreply.github.com commit -qm "타입캐스트 TTS $(ls /tmp/z | tr '\n' ' ')"
+          git push -qf origin tts-out

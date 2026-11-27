@@ -1,3 +1,5 @@
+> ⚠️ 2026-11-27~ **맥 크롬 업로드는 예전 방식**(맥북 쉼). 지금 업로드는 유튜브 API: scripts/daily/queue_all.sh → yt-queue 브랜치 → Actions yt-upload (docs/RUNBOOK_cloud_video.md, docs/NO_MAC_MIGRATION.md). 아래 크롬·Studio 절차는 기록용.
+
 # 🗓 2026-11-26 부터: 매일 작업은 docs/RUNBOOK_*.md 를 따른다 (예약 작업은 '이 문서를 따르라' 한 줄)
 - 20:37 초안(Opus) RUNBOOK_draft · 22:10 음성 넣기 RUNBOOK_tts_in · 05:00 영상 RUNBOOK_video · 05:10 수집 RUNBOOK_tts_collect · 06:40 발행 RUNBOOK_publish (Sonnet)
 - send_later 로 자기 자신을 다시 예약하는 알림 체인은 쓰지 않는다. 아래 '짧은 예약문'은 옛 기록.

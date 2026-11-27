@@ -1,7 +1,9 @@
 #!/bin/bash
 # 영상 5편 렌더·검수 (한 번에 하나씩 — CPU 2개). 결과 /tmp/v, 요약 /tmp/v/render-D.txt
 # 사용: bash scripts/daily/render_all.sh D   (맥 out 의 shorts-D·food-D 가 /tmp/q/out 에 풀려 있어야 함)
-D=$1; cd "$(dirname "$0")/../.."; mkdir -p /tmp/v; R=/tmp/v/render-$D.txt; : > $R
+D=$1; cd "$(dirname "$0")/../.."; mkdir -p /tmp/v
+[ -f /tmp/q/out/casual1/E_think.wav ] || export TTS_ENGINE=typecast   # 11/27~ 맥 없음: 타입캐스트 음성(테이크 1개)
+ R=/tmp/v/render-$D.txt; : > $R
 python3 scripts/tts/prosody_qa.py /tmp/q food-$D >/dev/null 2>&1; python3 scripts/tts/prosody_qa.py /tmp/q shorts-$D >/dev/null 2>&1
 mk(){ timeout 600 python3 scripts/shorts/make_short.py "$1" $2 /tmp/q . "$3" > "$3.log" 2>&1; tail -n1 "$3.log"; }
 dur(){ ffprobe -v error -show_entries format=duration -of csv=p=0 "$1" 2>/dev/null | cut -d. -f1; }
@@ -28,8 +30,5 @@ for k in ['classic','modern']:
   print(f'title {k}-full |',json.load(open(f'shorts/scripts/{D}-{k}-full.json'))[k]['yt']['title'])
   print(f'title {k} |',json.load(open(f'shorts/scripts/{D}.json'))[k]['yt']['title'],'| origin',d[k].get('origin',''))
 P
-# 업로드용 브랜치(video-upload, 고아·force-push)
-U=$(git remote get-url origin); W=/tmp/vup-$D; rm -rf $W; mkdir -p $W; cd $W; git init -q; git checkout -q --orphan up
-cp /tmp/v/$D-*.mp4 /tmp/v/$D-*.srt /tmp/v/desc-*.txt . 2>/dev/null; git add -A; git -c user.email=c@a -c user.name=c commit -qm up
-for i in 1 2 3 4 5; do git push -qf "$U" HEAD:video-upload 2>/dev/null; [ "$(git ls-remote "$U" video-upload|cut -f1)" = "$(git rev-parse HEAD)" ] && { echo "pushed video-upload" >> $R; break; }; sleep 15; done
+# 업로드: 11/27~ 맥 크롬 대신 유튜브 API — bash scripts/daily/queue_all.sh D (예전 video-upload 브랜치 방식은 docs/YOUTUBE-UPLOAD.md 예전 방식 절)
 cat $R

@@ -56,10 +56,14 @@ def build_audio(qdir, name, sc_lines, repo):
     sys.path.insert(0, os.path.join(repo, 'scripts', 'tts'))
     import tts_post as T
     from resemblyzer import VoiceEncoder, preprocess_wav
-    enc = VoiceEncoder(); ref = enc.embed_utterance(preprocess_wav(os.path.join(qdir, 'out/casual1/E_think.wav')))
+    enc = None if T.TC else VoiceEncoder()   # 11/27 타입캐스트(TTS_ENGINE=typecast)면 기준 음성 비교 생략
+    ref = None if T.TC else enc.embed_utterance(preprocess_wav(os.path.join(qdir, 'out/casual1/E_think.wav')))
     info = {}
     for p in glob.glob(os.path.join(qdir, 'out', name, '*.wav')):
-        w = T.trim_tail(T.load(p)); pw = preprocess_wav(w, source_sr=T.SR)
+        w = T.trim_tail(T.load(p))
+        if T.TC:
+            info[os.path.basename(p)[:-4]] = dict(w=w, full=0.0, low=0.0, f0=T.f0_med(w), dur=len(w) / T.SR); continue
+        pw = preprocess_wav(w, source_sr=T.SR)
         full = float(np.dot(enc.embed_utterance(pw), ref)); win = []
         for st in range(0, max(1, len(pw) - 24000), 8000):
             c = pw[st:st + 24000]

@@ -1,3 +1,5 @@
+> ⚠️ **예전 방식(맥)** — 2026-11-27 발행인 결정으로 맥북을 쉬게 하면서 「22:10 맥 음성 넣기」 예약 작업은 꺼 두었다. 지금은 docs/RUNBOOK_cloud_video.md (타입캐스트 + 유튜브 API, 맥 없음). 기록용으로 남겨 둔다.
+
 # RUNBOOK — 22:10 음성 넣기 (맥, Sonnet)
 D = 내일 날짜(Asia/Seoul). 한국어로 1줄 보고. 승인 요청을 만들지 않는다. 맥에서 아무것도 지우지 않는다.
 1. `cd /home/claude/munhak-news && git pull -q` (없으면 clone). `tts/jobs/{shorts,food,mnews}-D.json` 이 없으면 10분마다 pull, 최대 40분. 그래도 없으면 "초안 작업 파일 없음" 보고하고 끝.
