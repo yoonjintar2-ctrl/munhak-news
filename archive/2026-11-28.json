@@ -652,5 +652,14 @@
     "clue": "이름 없는 삶을 디킨슨이 바꿔 부른 것"
    }
   ]
+ },
+ "audio": {
+  "classic": "audio/2026-11-28-classic.mp3",
+  "day": "audio/2026-11-28-day.mp3",
+  "modern": "audio/2026-11-28-modern.mp3",
+  "novel": "audio/2026-11-28-novel.mp3",
+  "poem": "audio/2026-11-28-poem.mp3",
+  "sentence": "audio/2026-11-28-sentence.mp3",
+  "writer": "audio/2026-11-28-writer.mp3"
  }
 }
