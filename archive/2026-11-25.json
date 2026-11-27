@@ -700,14 +700,5 @@
     "clue": "배가 닿는 곳"
    }
   ]
- },
- "audio": {
-  "classic": "audio/2026-11-25-classic.mp3",
-  "day": "audio/2026-11-25-day.mp3",
-  "modern": "audio/2026-11-25-modern.mp3",
-  "novel": "audio/2026-11-25-novel.mp3",
-  "poem": "audio/2026-11-25-poem.mp3",
-  "sentence": "audio/2026-11-25-sentence.mp3",
-  "writer": "audio/2026-11-25-writer.mp3"
  }
 }
