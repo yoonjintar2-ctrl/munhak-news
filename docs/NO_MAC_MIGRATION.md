@@ -35,3 +35,5 @@
 - 목소리: 발행인 11/27 '미국주식과 같은 것' → 한영(워크플로 기본값). 샘플 고르기 생략.
 - 남은 것: 발행인 Secrets 4개 → 04:52 클라우드 예약 작업(RUNBOOK_cloud_video) 만들기.
 - 유튜브 쿼터: videos.insert 는 따로 하루 100회 칸, 나머지(자막 400×2, 재생목록 50×4)는 하루 1만 단위 중 약 1,000 — 미국주식과 같이 써도 넉넉.
+- 11/27 13:15: 유튜브 토큰 확인 — 문학늬우스 채널(UCC6rvGkmmC-HgWYxdJ6KP-g), 범위 upload+force-ssl, 재생목록 5개 보임. 타입캐스트 24kHz(to24k) 확인, 한영 기준 높이 194Hz(tts/voice_ref.json).
+  예약 작업 「문학늬우스 04:52 음성·영상 (클라우드, 맥 없음)」(Sonnet, RUNBOOK_cloud_video) 만듦. 발행인 미리듣기 승인 → tts/typecast_approved.txt 를 넣어야 실제로 올라감.
