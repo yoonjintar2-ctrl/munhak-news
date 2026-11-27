@@ -27,3 +27,9 @@
 ## 3. 옮긴 뒤
 - 맥 관련 문서(RUNBOOK_tts_in·tts_collect, YOUTUBE-UPLOAD 의 크롬 절)는 '예전 방식'으로 표시만 하고 지우지 않는다.
 - 새 예약 작업은 **컴퓨터 사용·브라우저 도구를 쓰지 않는 클라우드 작업**으로 만든다(맥에 묶지 않는다).
+
+## 진행 (11/27 오전)
+- 끝: typecast_job.py·typecast.yml(목소리 = 저장소 Variables TC_VOICE_NAME, tts-out 은 최근 4일치만 남기는 고아 브랜치), to_typecast.py(테이크 1개·'음' 꼬리 제거, 하루 약 4,700자),
+  tts_post/make_short 의 TTS_ENGINE=typecast 모드, collect_tc.sh, upload.py(+자막·재생목록·교육 카테고리), yt_queue.sh·yt_kick.sh·yt-upload.yml(video/kick.txt push 로 실행, 대기열은 고아 커밋으로 비움), queue_all.sh, RUNBOOK_cloud_video.md, 초안 런북 7단계.
+- 남은 것: 발행인 Secrets 4개 → 목소리 샘플(tts/typecast-samples) 돌려 고르기 → TC_VOICE_NAME → 04:52 클라우드 예약 작업(RUNBOOK_cloud_video) 만들기.
+- 유튜브 쿼터: videos.insert 는 따로 하루 100회 칸, 나머지(자막 400×2, 재생목록 50×4)는 하루 1만 단위 중 약 1,000 — 미국주식과 같이 써도 넉넉.
