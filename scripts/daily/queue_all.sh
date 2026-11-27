@@ -32,6 +32,9 @@ for key, kind, title, pl in jobs:
 P
 
 [ "$DRY" = 1 ] && { ls /tmp/v/spec; exit 0; }
+G=$(python3 scripts/tts/audio_guard.py video $D /tmp/q /tmp/v 2>/dev/null); echo "$G" | tail -8
+echo "$G" | grep -q "^GUARD OK" || { echo "❌ 영상 음성 확인 실패 — 올리지 않음(보고)"; exit 1; }
+[ -f tts/typecast_approved.txt ] || { echo "⏸ 발행인 미리듣기 승인 전 — 올리지 않음"; exit 1; }
 for s in /tmp/v/spec/[1-5]-*.json; do
   [ -f "$s" ] || continue
   k=$(basename $s .json); kind=${k#?-}

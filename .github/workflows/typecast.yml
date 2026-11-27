@@ -32,7 +32,7 @@ jobs:
         run: pip install -q requests && python3 scripts/tts/typecast_job.py voices
       - name: 음성 만들기
         if: steps.pick.outputs.jobs != ''
-        run: pip install -q requests && python3 scripts/tts/typecast_job.py run ${{ steps.pick.outputs.jobs }}
+        run: pip install -q requests numpy scipy && python3 scripts/tts/typecast_job.py run ${{ steps.pick.outputs.jobs }}
       - name: 결과 올리기
         if: always()
         run: |

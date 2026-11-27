@@ -93,12 +93,24 @@ def main(mp4, thumb, spec, publish_at=None, key=None):
 
 def check():
     """업로드 없이 토큰 확인: 어느 채널인지·재생목록 이름을 video/yt_check.json 에 적는다(쿼터 2단위)."""
-    H = {'Authorization': f'Bearer {token()}'}
+    out = {'at': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())}
+    try:
+        r = requests.post(TOK, data={'client_id': os.environ.get('YT_CLIENT_ID', ''), 'client_secret': os.environ.get('YT_CLIENT_SECRET', ''),
+                                     'refresh_token': os.environ.get('YT_REFRESH_TOKEN', ''), 'grant_type': 'refresh_token'}, timeout=30)
+        if r.status_code != 200:
+            out.update(token_status=r.status_code, token_error=r.json().get('error', '') + ' ' + r.json().get('error_description', ''),
+                       secrets_set={k: bool(os.environ.get(k)) for k in ('YT_CLIENT_ID', 'YT_CLIENT_SECRET', 'YT_REFRESH_TOKEN')})
+            print(json.dumps(out, ensure_ascii=False))
+            json.dump(out, open(os.path.join(os.path.dirname(LOG), 'yt_check.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1); return
+        at = r.json()['access_token']
+    except Exception as e:
+        out.update(error=type(e).__name__); json.dump(out, open(os.path.join(os.path.dirname(LOG), 'yt_check.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1); return
+    H = {'Authorization': f'Bearer {at}'}
     c = requests.get(API + '/channels', headers=H, params={'part': 'snippet', 'mine': 'true'}, timeout=30)
     p = requests.get(API + '/playlists', headers=H, params={'part': 'snippet', 'mine': 'true', 'maxResults': 50}, timeout=30)
-    out = {'at': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()), 'channels_status': c.status_code,
+    out.update({'channels_status': c.status_code,
            'channels': [{'id': x['id'], 'title': x['snippet']['title']} for x in c.json().get('items', [])] if c.ok else c.text[:300],
-           'playlists_status': p.status_code, 'playlists': [x['snippet']['title'] for x in p.json().get('items', [])] if p.ok else p.text[:300]}
+           'playlists_status': p.status_code, 'playlists': [x['snippet']['title'] for x in p.json().get('items', [])] if p.ok else p.text[:300]})
     print(json.dumps(out, ensure_ascii=False))
     json.dump(out, open(os.path.join(os.path.dirname(LOG), 'yt_check.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 

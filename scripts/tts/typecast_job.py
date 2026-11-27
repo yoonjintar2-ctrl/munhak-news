@@ -3,19 +3,17 @@
 python3 scripts/tts/typecast_job.py voices                 → tts/typecast_voices.json (목소리 목록)
 python3 scripts/tts/typecast_job.py run <job.json> [...]   → out/<name>/<id>.wav + out/<name>.zip
 
-환경 변수: TYPECAST_API_KEY(깃허브 시크릿), TC_VOICE_NAME(목소리 이름 — 문학늬우스는 저장소 Variables 의 TC_VOICE_NAME, 발행인이 샘플 듣고 고름),
-TC_VOICE(목소리 id 직접 지정), TC_MODEL(기본 ssfm-v31, 없으면 v30)
-(usstock-news 에서 가져옴 2026-11-27)
+환경 변수: TYPECAST_API_KEY(깃허브 시크릿), TC_VOICE(기본: 목록에서 이름이 '한영'인 목소리), TC_MODEL(기본 ssfm-v30)
 작업 파일의 "tc" 칸으로 목소리·감정·속도를 바꿀 수 있다: {"voice": "...", "emotion": "normal", "tempo": 1.0}
 """
-import json, os, re, sys, time, zipfile
+import io, json, os, re, sys, time, wave, zipfile
 import requests
 
 API = 'https://api.typecast.ai'
 H = {'X-API-KEY': os.environ.get('TYPECAST_API_KEY', '')}
 ROOT = os.path.join(os.path.dirname(__file__), '..', '..')
 VOICES = os.path.join(ROOT, 'tts', 'typecast_voices.json')
-NAME = os.environ.get('TC_VOICE_NAME', '')
+NAME = os.environ.get('TC_VOICE_NAME', '한영')
 
 
 def voices():
@@ -45,7 +43,6 @@ def pick_voice():
         if nm == NAME or nm.startswith(NAME):
             models = [m.get('version') or m.get('name') or m for m in v.get('models', [])] if isinstance(v.get('models'), list) else []
             return v.get('voice_id') or v.get('id'), models
-    if not NAME: sys.exit('TC_VOICE_NAME 이 비어 있음 — 저장소 Settings → Variables 에 목소리 이름을 넣거나 작업 파일 tc.voice 에 id')
     sys.exit(f'목소리 "{NAME}"를 찾지 못함 — tts/typecast_voices.json 확인')
 
 
@@ -68,15 +65,28 @@ def tts(text, vid, model, emo='normal', tempo=1.0, fmt='wav'):
     sys.exit(f'타입캐스트 실패 {r.status_code}: {r.text[:300]}')
 
 
+def to24k(data):
+    """타입캐스트 wav(44.1kHz)를 예전 맥 TTS와 같은 24kHz 모노 16비트로 바꾼다.
+    11/27 사고: 영상 파이프라인(narr_prep·prep_sum)이 24kHz 를 가정해 44.1kHz 를 그대로 넣자 1.84배 느리고 낮은 '괴물 목소리'가 됐다."""
+    import numpy as np
+    from scipy.signal import resample_poly
+    w = wave.open(io.BytesIO(data)); sr, ch, sw = w.getframerate(), w.getnchannels(), w.getsampwidth()
+    x = np.frombuffer(w.readframes(w.getnframes()), {2: np.int16, 4: np.int32}[sw]).astype(np.float32)
+    x = x / (32768.0 if sw == 2 else 2147483648.0)
+    if ch > 1: x = x.reshape(-1, ch).mean(1)
+    if sr != 24000:
+        from math import gcd
+        g = gcd(24000, sr); x = resample_poly(x, 24000 // g, sr // g)
+    y = (np.clip(x, -1, 1) * 32767).astype(np.int16)
+    b = io.BytesIO(); o = wave.open(b, 'wb'); o.setnchannels(1); o.setsampwidth(2); o.setframerate(24000); o.writeframes(y.tobytes()); o.close()
+    return b.getvalue()
+
+
 def run(job):
     J = json.load(open(job, encoding='utf-8'))
     name = J['name']; tc = J.get('tc', {})
-    if tc.get('voice'):
-        vid = tc['voice']; models = []
-        for v in (json.load(open(VOICES, encoding='utf-8')) if os.path.exists(VOICES) else []):
-            if v.get('voice_id') == vid: models = [m.get('version') for m in v.get('models', [])]
-    else:
-        vid, models = pick_voice()
+    vid, models = pick_voice()
+    vid = tc.get('voice', vid)
     model = os.environ.get('TC_MODEL') or tc.get('model') or ('ssfm-v31' if 'ssfm-v31' in (models or []) else 'ssfm-v30')
     od = os.path.join(ROOT, 'out', name); os.makedirs(od, exist_ok=True)
     chars = 0
@@ -84,7 +94,7 @@ def run(job):
         t = clean(it['text']); chars += len(t)
         p = os.path.join(od, it['id'] + '.wav')
         if not os.path.exists(p):
-            open(p, 'wb').write(tts(t, vid, model, tc.get('emotion', 'normal'), tc.get('tempo', 1.0)))
+            open(p, 'wb').write(to24k(tts(t, vid, model, tc.get('emotion', 'normal'), tc.get('tempo', 1.0))))
         print(f'{name}/{it["id"]} ok', flush=True)
     open(os.path.join(od, 'DONE'), 'w').write(time.strftime('%H:%M:%S'))
     zp = os.path.join(ROOT, 'out', name + '.zip')
