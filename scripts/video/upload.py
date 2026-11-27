@@ -91,7 +91,21 @@ def main(mp4, thumb, spec, publish_at=None, key=None):
     json.dump(log[:400], open(LOG, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 
 
+def check():
+    """업로드 없이 토큰 확인: 어느 채널인지·재생목록 이름을 video/yt_check.json 에 적는다(쿼터 2단위)."""
+    H = {'Authorization': f'Bearer {token()}'}
+    c = requests.get(API + '/channels', headers=H, params={'part': 'snippet', 'mine': 'true'}, timeout=30)
+    p = requests.get(API + '/playlists', headers=H, params={'part': 'snippet', 'mine': 'true', 'maxResults': 50}, timeout=30)
+    out = {'at': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()), 'channels_status': c.status_code,
+           'channels': [{'id': x['id'], 'title': x['snippet']['title']} for x in c.json().get('items', [])] if c.ok else c.text[:300],
+           'playlists_status': p.status_code, 'playlists': [x['snippet']['title'] for x in p.json().get('items', [])] if p.ok else p.text[:300]}
+    print(json.dumps(out, ensure_ascii=False))
+    json.dump(out, open(os.path.join(os.path.dirname(LOG), 'yt_check.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+
+
 if __name__ == '__main__':
+    if sys.argv[1:2] == ['--check']:
+        check(); sys.exit(0)
     a = sys.argv[1:]; pa = None
     if '--publish-at' in a:
         i = a.index('--publish-at'); pa = a[i + 1]; del a[i:i + 2]
