@@ -1,5 +1,6 @@
 {
- "at": "2026-11-27T04:07:58Z",
+ "at": "2026-11-27T04:09:49Z",
+ "scopes": "https://www.googleapis.com/auth/youtube.upload",
  "channels_status": 403,
  "channels": "{\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Request had insufficient authentication scopes.\",\n    \"errors\": [\n      {\n        \"message\": \"Insufficient Permission\",\n        \"domain\": \"global\",\n        \"reason\": \"insufficientPermissions\"\n      }\n    ],\n    \"status\": \"PERMISSION_DENIED\",\n    \"detai",
  "playlists_status": 403,
