@@ -1,0 +1,10 @@
+{
+ "at": "2026-11-27T03:05:47Z",
+ "token_status": 401,
+ "token_error": "invalid_client The OAuth client was not found.",
+ "secrets_set": {
+  "YT_CLIENT_ID": true,
+  "YT_CLIENT_SECRET": true,
+  "YT_REFRESH_TOKEN": true
+ }
+}
