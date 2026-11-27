@@ -11,6 +11,7 @@
   - `.github/workflows/typecast.yml` — `tts/typecast/*.json` 이 push 되면 실행, 결과 zip 을 `tts-out` 브랜치에 올린다. 받기: `curl -fsSL https://raw.githubusercontent.com/yoonjintar2-ctrl/<저장소>/tts-out/<name>.zip`.
 - 이 저장소에 할 일: 두 파일을 복사(워크플로의 저장소 이름만 확인), 작업 파일을 `tts/jobs/` 대신 `tts/typecast/` 에 쓰게 초안 단계 수정, '수집' 단계는 맥 대신 위 zip 을 받아 기존 `scripts/tts/tts_post.py` 로 후처리.
 - **목소리**: 타입캐스트 목소리 이름을 환경 변수 `TC_VOICE_NAME` 으로 정한다(미국주식은 '한영'). 문학늬우스의 차분한 톤에 맞는 목소리는 발행인에게 샘플 2~3개를 들려주고 고른다(목소리 목록은 Actions 첫 실행 때 `tts/typecast_voices.json` 에 저장됨).
+- ⚠️ **샘플레이트 사고(11/27, 미국주식)**: 타입캐스트는 44.1kHz wav 를 보내는데 후처리 코드가 예전 맥 TTS(24kHz)로 가정해 읽어, 1.84배 느리고 낮은 '괴물 목소리'가 영상에 실렸다. 지금 usstock-news 의 typecast_job.py 는 받은 즉시 **24kHz 모노 16비트로 변환**(to24k)하니 최신본을 복사한다. 후처리(tts_post.py 등)에서 샘플레이트를 숫자로 박아 두지 말고 파일 헤더에서 읽는다. 올리기 전에 완성 mp3/mp4 의 목소리 높이(pyin 중앙값)와 길이를 원본 wav 와 비교해 확인한다.
 - 문장 끝 '다' 잘림: 타입캐스트는 시험에서 잘림 없음(마지막 30ms 음량 0.0002). 예전 맥 TTS용 ' ,' 꼬리는 스크립트가 자동으로 지운다.
 
 ## 2. 유튜브 — API 업로드 (맥·크롬 없음)
