@@ -20,6 +20,9 @@ def load(p):
     w, sr = sf.read(p, dtype="float32")
     if w.ndim > 1: w = w.mean(1)
     if sr != SR: w = librosa.resample(w, orig_sr=sr, target_sr=SR)
+    if TC:   # 11/28: 타입캐스트는 맥 TTS보다 약 6dB 작아 영상 배경음악에 묻힘 → 문장마다 소리 크기를 -19 dBFS(RMS)로 맞춤
+        r = float(np.sqrt(np.mean(w ** 2))) if len(w) else 0
+        if r > 1e-5: w = np.clip(w * (10 ** (-19 / 20) / r), -0.98, 0.98).astype(np.float32)
     return w
 
 

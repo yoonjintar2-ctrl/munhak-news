@@ -24,7 +24,7 @@ def dur(p):
     return float(o.strip() or 0)
 
 
-def f0_med(p, max_sec=40):
+def f0_med(p, max_sec=40, fmin=70):
     """파일 헤더의 샘플레이트 그대로 읽어(sr=None) 높이 중앙값(Hz)."""
     if p.endswith('.wav'):
         w, sr = sf.read(p, dtype='float32')
@@ -34,7 +34,7 @@ def f0_med(p, max_sec=40):
         subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', p, '-vn', '-ac', '1', '-t', str(max_sec), t], check=True)
         w, sr = sf.read(t, dtype='float32')
     w = w[: int(max_sec * sr)]
-    f0, _, _ = librosa.pyin(w, fmin=70, fmax=500, sr=sr, frame_length=int(2 ** np.ceil(np.log2(sr * 0.03))))
+    f0, _, _ = librosa.pyin(w, fmin=fmin, fmax=500, sr=sr, frame_length=int(2 ** np.ceil(np.log2(sr * 0.03))))
     f0 = f0[~np.isnan(f0)]
     return float(np.median(f0)) if len(f0) else float('nan')
 
@@ -56,7 +56,7 @@ def check(name, out, srcs, ref_hz, tol_semi, bad):
         print(f'❌ {name}: 원본 wav 없음'); bad.append(name); return
     d_out, d_src = dur(out), sum(dur(p) for p in srcs)
     r = d_out / d_src if d_src else 99
-    fo = f0_med(out)
+    fo = f0_med(out, fmin=100 if out.endswith('.mp4') else 70)   # 영상은 배경음악 저음(100Hz 아래)을 빼고 잼. 괴물 목소리(약 105Hz)는 그래도 잡힘
     s = semis(fo, ref_hz)
     ok = 0.5 <= r <= 1.5 and s <= tol_semi
     print(f'{"✅" if ok else "❌"} {name}: 길이 {d_out:.1f}s / 원본 {d_src:.1f}s = {r:.2f}배, 높이 {fo:.0f}Hz vs 원본 {ref_hz:.0f}Hz ({s:.1f}반음)')
@@ -88,7 +88,7 @@ def main(mode, D, q, outdir):
             # 결말까지 쇼츠는 앞부분만 쓰므로 길이는 하한 없이 상한만 본다
             out = os.path.join(outdir, f'{D}-{k}-full.mp4')
             if os.path.exists(out) and src:
-                r = dur(out) / sum(dur(p) for p in src); fo = f0_med(out); s = semis(fo, ref)
+                r = dur(out) / sum(dur(p) for p in src); fo = f0_med(out, fmin=100); s = semis(fo, ref)
                 ok = r <= 1.5 and s <= 3.0
                 print(f'{"✅" if ok else "❌"} {k}-full: {r:.2f}배, 높이 {fo:.0f}Hz ({s:.1f}반음)')
                 if not ok: bad.append(k + '-full')
