@@ -1,0 +1,1106 @@
+{
+ "name": "shorts-2026-11-18",
+ "mode": "clone",
+ "ref_audio": "out/casual1/E_think.wav",
+ "ref_text": "음… 그럼 데이터센터는 이제 못 짓는 건가?",
+ "gen": {
+  "temperature": 0.75,
+  "top_p": 0.9
+ },
+ "reload_every": 4,
+ "retries": 4,
+ "items": [
+  {
+   "id": "open_00_t0",
+   "text": "일 분 만에 떠먹여 주는, 일 분 문학! 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "open_00_t1",
+   "text": "일 분 만에 떠먹여 주는, 일 분 문학! 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_00_t0",
+   "text": "천팔백팔십사 년, 모파상. 빌린 목걸이 하나가 한 여자의 십 년을 바꾼 이야기예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_00_t1",
+   "text": "천팔백팔십사 년, 모파상. 빌린 목걸이 하나가 한 여자의 십 년을 바꾼 이야기예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_01_t0",
+   "text": "파리에 사는 마틸드 루아젤은 예쁘고 매력 있는 여자입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_01_t1",
+   "text": "파리에 사는 마틸드 루아젤은 예쁘고 매력 있는 여자입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_02_t0",
+   "text": "그런데 운명의 실수처럼 하급 관리 집안에 태어났고, 문교부의 말단 서기와 결혼했지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_02_t1",
+   "text": "그런데 운명의 실수처럼 하급 관리 집안에 태어났고, 문교부의 말단 서기와 결혼했지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_03_t0",
+   "text": "그녀는 늘 불행합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_03_t1",
+   "text": "그녀는 늘 불행합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_04_t0",
+   "text": "낡은 벽지와 해진 의자를 볼 때마다, 자기가 마땅히 누려야 했을 화려한 살롱과 은식기를 꿈꿉니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_04_t1",
+   "text": "낡은 벽지와 해진 의자를 볼 때마다, 자기가 마땅히 누려야 했을 화려한 살롱과 은식기를 꿈꿉니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_05_t0",
+   "text": "어느 저녁, 남편이 의기양양하게 봉투 하나를 내밉니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_05_t1",
+   "text": "어느 저녁, 남편이 의기양양하게 봉투 하나를 내밉니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_06_t0",
+   "text": "장관 부부가 부처 청사에서 여는 무도회 초대장이었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_06_t1",
+   "text": "장관 부부가 부처 청사에서 여는 무도회 초대장이었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_07_t0",
+   "text": "아내가 기뻐할 줄 알았는데, 마틸드는 울음을 터뜨립니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_07_t1",
+   "text": "아내가 기뻐할 줄 알았는데, 마틸드는 울음을 터뜨립니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_08_t0",
+   "text": "입고 갈 옷이 없다고요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_08_t1",
+   "text": "입고 갈 옷이 없다고요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_09_t0",
+   "text": "남편은 잠시 망설이다가, 사냥총을 사려고 모아 둔 사백프랑을 내놓습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_09_t1",
+   "text": "남편은 잠시 망설이다가, 사냥총을 사려고 모아 둔 사백프랑을 내놓습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_10_t0",
+   "text": "드레스는 마련됐지만 이번엔 장신구가 없습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_10_t1",
+   "text": "드레스는 마련됐지만 이번엔 장신구가 없습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_11_t0",
+   "text": "보석 하나 없이 초라해 보이느니 안 가는 게 낫다는 아내에게, 남편은 부자 친구 포레스티에 부인에게 빌려 보라고 권합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_11_t1",
+   "text": "보석 하나 없이 초라해 보이느니 안 가는 게 낫다는 아내에게, 남편은 부자 친구 포레스티에 부인에게 빌려 보라고 권합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_12_t0",
+   "text": "수녀원 학교 시절 동무인 포레스티에 부인은 선선히 보석함을 열어 주고, 마틸드는 그 안에서 다이아몬드 목걸이 하나를 골라 품에 안고 돌아옵니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_12_t1",
+   "text": "수녀원 학교 시절 동무인 포레스티에 부인은 선선히 보석함을 열어 주고, 마틸드는 그 안에서 다이아몬드 목걸이 하나를 골라 품에 안고 돌아옵니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_13_t0",
+   "text": "무도회의 밤, 마틸드는 그 자리의 누구보다 빛납니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_13_t1",
+   "text": "무도회의 밤, 마틸드는 그 자리의 누구보다 빛납니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_14_t0",
+   "text": "남자들이 이름을 묻고 춤을 청하고, 장관마저 그녀를 눈여겨봅니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_14_t1",
+   "text": "남자들이 이름을 묻고 춤을 청하고, 장관마저 그녀를 눈여겨봅니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_15_t0",
+   "text": "그녀는 행복에 취해 밤늦도록 춤을 추고, 남편과 함께 삯마차를 타고 집으로 돌아옵니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_15_t1",
+   "text": "그녀는 행복에 취해 밤늦도록 춤을 추고, 남편과 함께 삯마차를 타고 집으로 돌아옵니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_16_t0",
+   "text": "그런데 집에 들어선 순간, 목에 있어야 할 목걸이가 없습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_16_t1",
+   "text": "그런데 집에 들어선 순간, 목에 있어야 할 목걸이가 없습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_17_t0",
+   "text": "남편이 왔던 길을 되짚어 걷고 경찰서와 신문사까지 찾아다녔지만 목걸이는 나오지 않습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_17_t1",
+   "text": "남편이 왔던 길을 되짚어 걷고 경찰서와 신문사까지 찾아다녔지만 목걸이는 나오지 않습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_18_t0",
+   "text": "둘은 포레스티에 부인에게 고리가 망가져 고치는 중이라고 둘러대고 시간을 법니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_18_t1",
+   "text": "둘은 포레스티에 부인에게 고리가 망가져 고치는 중이라고 둘러대고 시간을 법니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_19_t0",
+   "text": "마침내 보석상에서 똑같아 보이는 목걸이를 찾아내지만, 값은 삼만 육천 프랑. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_19_t1",
+   "text": "마침내 보석상에서 똑같아 보이는 목걸이를 찾아내지만, 값은 삼만 육천 프랑. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_20_t0",
+   "text": "남편은 아버지가 남긴 일만 팔천 프랑을 털고, 나머지는 여기저기서 비싼 이자로 빌립니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_20_t1",
+   "text": "남편은 아버지가 남긴 일만 팔천 프랑을 털고, 나머지는 여기저기서 비싼 이자로 빌립니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_21_t0",
+   "text": "그렇게 새 목걸이를 포레스티에 부인에게 돌려줍니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_21_t1",
+   "text": "그렇게 새 목걸이를 포레스티에 부인에게 돌려줍니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_22_t0",
+   "text": "그날부터 가난이 시작됩니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_22_t1",
+   "text": "그날부터 가난이 시작됩니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_23_t0",
+   "text": "하녀를 내보내고 좁고 허름한 집으로 옮겨, 마틸드는 손수 빨래하고 장을 보며 한 푼까지 깎습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_23_t1",
+   "text": "하녀를 내보내고 좁고 허름한 집으로 옮겨, 마틸드는 손수 빨래하고 장을 보며 한 푼까지 깎습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_24_t0",
+   "text": "그렇게 십 년, 빚을 다 갚았을 때 마틸드는 몰라보게 억세고 늙은 여자가 되어 있었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_24_t1",
+   "text": "그렇게 십 년, 빚을 다 갚았을 때 마틸드는 몰라보게 억세고 늙은 여자가 되어 있었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_25_t0",
+   "text": "그리고 어느 일요일, 샹젤리제를 걷다가 여전히 젊고 아름다운 포레스티에 부인과 마주칩니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_25_t1",
+   "text": "그리고 어느 일요일, 샹젤리제를 걷다가 여전히 젊고 아름다운 포레스티에 부인과 마주칩니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_26_t0",
+   "text": "포레스티에 부인은 처음엔 그녀를 알아보지 못합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_26_t1",
+   "text": "포레스티에 부인은 처음엔 그녀를 알아보지 못합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_27_t0",
+   "text": "마틸드는 이제 다 갚았으니 털어놓겠다며, 목걸이를 잃어버려 똑같은 것을 사서 돌려주고 십 년 동안 그 빚을 갚았다고 말합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_27_t1",
+   "text": "마틸드는 이제 다 갚았으니 털어놓겠다며, 목걸이를 잃어버려 똑같은 것을 사서 돌려주고 십 년 동안 그 빚을 갚았다고 말합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_28_t0",
+   "text": "조금은 뿌듯하게요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_28_t1",
+   "text": "조금은 뿌듯하게요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_29_t0",
+   "text": "그러자 포레스티에 부인이 말합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_29_t1",
+   "text": "그러자 포레스티에 부인이 말합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_30_t0",
+   "text": "오, 가엾은 마틸드! 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_30_t1",
+   "text": "오, 가엾은 마틸드! 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_31_t0",
+   "text": "내 건 가짜였어. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_31_t1",
+   "text": "내 건 가짜였어. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_32_t0",
+   "text": "기껏해야 오백프랑짜리였는걸! 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_32_t1",
+   "text": "기껏해야 오백프랑짜리였는걸! 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_33_t0",
+   "text": "십 년을 갚은 빚이 단 한 줄로 뒤집혔지만, 그 십 년을 버틴 사람은 분명 마틸드였어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_33_t1",
+   "text": "십 년을 갚은 빚이 단 한 줄로 뒤집혔지만, 그 십 년을 버틴 사람은 분명 마틸드였어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_34_t0",
+   "text": "오늘 문학늬우스 지면에는 한용운의 나룻배와 행인과 보르헤르트의 짧은 소설 빵도 실려 있어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_34_t1",
+   "text": "오늘 문학늬우스 지면에는 한용운의 나룻배와 행인과 보르헤르트의 짧은 소설 빵도 실려 있어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_35_t0",
+   "text": "영상 아래 링크로 가볍게 놀러 오세요. 고맙습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_35_t1",
+   "text": "영상 아래 링크로 가볍게 놀러 오세요. 고맙습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_tz_t0",
+   "text": "뒷이야기와 결말까지, 전체 영상에서 이어서 들어 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_tz_t1",
+   "text": "뒷이야기와 결말까지, 전체 영상에서 이어서 들어 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_00_t0",
+   "text": "이천십일 년, 김애란. 열일곱에 부모가 된 엄마 아빠와 누구보다 빨리 늙는 아들 이야기예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_00_t1",
+   "text": "이천십일 년, 김애란. 열일곱에 부모가 된 엄마 아빠와 누구보다 빨리 늙는 아들 이야기예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_01_t0",
+   "text": "아름이는 열일곱 살입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_01_t1",
+   "text": "아름이는 열일곱 살입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_02_t0",
+   "text": "그런데 몸은 누구보다 빨리 늙어 갑니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_02_t1",
+   "text": "그런데 몸은 누구보다 빨리 늙어 갑니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_03_t0",
+   "text": "남보다 몇 곱절 빠르게 시간이 흐르는 병, 조로증이지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_03_t1",
+   "text": "남보다 몇 곱절 빠르게 시간이 흐르는 병, 조로증이지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_04_t0",
+   "text": "엄마 미라와 아빠 대수는 서른넷. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_04_t1",
+   "text": "엄마 미라와 아빠 대수는 서른넷. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_05_t0",
+   "text": "열일곱 살에 덜컥 아름이를 낳은, 세상에서 가장 어린 축에 드는 부모입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_05_t1",
+   "text": "열일곱 살에 덜컥 아름이를 낳은, 세상에서 가장 어린 축에 드는 부모입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_06_t0",
+   "text": "그러니 이 집에는 묘한 셈법이 생깁니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_06_t1",
+   "text": "그러니 이 집에는 묘한 셈법이 생깁니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_07_t0",
+   "text": "부모는 아직 젊은데 아들이 먼저 늙어 가고, 아들은 부모보다 먼저 인생의 끝을 내다봅니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_07_t1",
+   "text": "부모는 아직 젊은데 아들이 먼저 늙어 가고, 아들은 부모보다 먼저 인생의 끝을 내다봅니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_08_t0",
+   "text": "또래들이 교실과 운동장을 오갈 때, 아름이는 집과 병원을 오갑니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_08_t1",
+   "text": "또래들이 교실과 운동장을 오갈 때, 아름이는 집과 병원을 오갑니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_09_t0",
+   "text": "대신 아름이에게는 쓰고 있는 글이 하나 있습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_09_t1",
+   "text": "대신 아름이에게는 쓰고 있는 글이 하나 있습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_10_t0",
+   "text": "엄마와 아빠가 처음 만난 열일곱 살의 여름 이야기. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_10_t1",
+   "text": "엄마와 아빠가 처음 만난 열일곱 살의 여름 이야기. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_11_t0",
+   "text": "자기가 태어나기 전, 두 사람이 가장 두근거렸을 계절입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_11_t1",
+   "text": "자기가 태어나기 전, 두 사람이 가장 두근거렸을 계절입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_12_t0",
+   "text": "늙어 가는 몸으로 부모의 가장 젊은 날을 상상하는 일, 그것이 아름이가 시간을 견디는 방법입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_12_t1",
+   "text": "늙어 가는 몸으로 부모의 가장 젊은 날을 상상하는 일, 그것이 아름이가 시간을 견디는 방법입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_13_t0",
+   "text": "어느 날 방송국 PD로 일하는 엄마 친구에게서 출연 제안이 옵니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_13_t1",
+   "text": "어느 날 방송국 PD로 일하는 엄마 친구에게서 출연 제안이 옵니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_14_t0",
+   "text": "고민 끝에 세 식구는 텔레비전에 나가고, 아름이네 사연은 많은 사람에게 알려집니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_14_t1",
+   "text": "고민 끝에 세 식구는 텔레비전에 나가고, 아름이네 사연은 많은 사람에게 알려집니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_15_t0",
+   "text": "화면 속 아름이를 보며 누군가는 안쓰러워하고 누군가는 응원을 보냅니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_15_t1",
+   "text": "화면 속 아름이를 보며 누군가는 안쓰러워하고 누군가는 응원을 보냅니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_16_t0",
+   "text": "그리고 그 많은 시청자 가운데 한 사람이, 아름이의 삶에 조용히 말을 걸어옵니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_16_t1",
+   "text": "그리고 그 많은 시청자 가운데 한 사람이, 아름이의 삶에 조용히 말을 걸어옵니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_17_t0",
+   "text": "방송이 나간 뒤 아름이에게 이메일 한 통이 옵니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_17_t1",
+   "text": "방송이 나간 뒤 아름이에게 이메일 한 통이 옵니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_18_t0",
+   "text": "보낸 사람은 서하. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_18_t1",
+   "text": "보낸 사람은 서하. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_19_t0",
+   "text": "자기도 암으로 아프다는 또래 여자아이였지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_19_t1",
+   "text": "자기도 암으로 아프다는 또래 여자아이였지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_20_t0",
+   "text": "두 사람은 매일같이 편지를 주고받습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_20_t1",
+   "text": "두 사람은 매일같이 편지를 주고받습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_21_t0",
+   "text": "아픈 몸 이야기, 좋아하는 것, 하고 싶은 것. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_21_t1",
+   "text": "아픈 몸 이야기, 좋아하는 것, 하고 싶은 것. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_22_t0",
+   "text": "아름이는 생애 처음으로 누군가의 답장을 기다리며 두근거립니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_22_t1",
+   "text": "아름이는 생애 처음으로 누군가의 답장을 기다리며 두근거립니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_23_t0",
+   "text": "하지만 서하에게는 비밀이 있었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_23_t1",
+   "text": "하지만 서하에게는 비밀이 있었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_24_t0",
+   "text": "편지를 쓴 사람은 소녀가 아니라 서른이 넘은 무명 시나리오 작가 남자였던 것이지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_24_t1",
+   "text": "편지를 쓴 사람은 소녀가 아니라 서른이 넘은 무명 시나리오 작가 남자였던 것이지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_25_t0",
+   "text": "진실을 알게 된 아름이는 깊이 무너집니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_25_t1",
+   "text": "진실을 알게 된 아름이는 깊이 무너집니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_26_t0",
+   "text": "그는 게임 속 세상으로 숨어들고, 그사이 몸은 빠르게 나빠져 끝내 앞을 볼 수 없게 됩니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_26_t1",
+   "text": "그는 게임 속 세상으로 숨어들고, 그사이 몸은 빠르게 나빠져 끝내 앞을 볼 수 없게 됩니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_27_t0",
+   "text": "처음 받아 본 설렘이 거짓이었다는 사실은, 병보다 더 아프게 아름이를 할퀴었을 겁니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_27_t1",
+   "text": "처음 받아 본 설렘이 거짓이었다는 사실은, 병보다 더 아프게 아름이를 할퀴었을 겁니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_28_t0",
+   "text": "눈이 먼 아름이는 아빠에게 부탁합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_28_t1",
+   "text": "눈이 먼 아름이는 아빠에게 부탁합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_29_t0",
+   "text": "그동안 써 둔 글을 가져다 달라고요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_29_t1",
+   "text": "그동안 써 둔 글을 가져다 달라고요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_30_t0",
+   "text": "이윽고 중환자실에 누운 아름이를 엄마와 아빠가 하루 두 번 찾아옵니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_30_t1",
+   "text": "이윽고 중환자실에 누운 아름이를 엄마와 아빠가 하루 두 번 찾아옵니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_31_t0",
+   "text": "그리고 두 사람은 아름이에게 동생이 생겼다는 소식을 전합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_31_t1",
+   "text": "그리고 두 사람은 아름이에게 동생이 생겼다는 소식을 전합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_32_t0",
+   "text": "엄마 아빠는 아름이가 쓴 소설을 소리 내어 읽어 줍니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_32_t1",
+   "text": "엄마 아빠는 아름이가 쓴 소설을 소리 내어 읽어 줍니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_33_t0",
+   "text": "열일곱의 미라와 대수가 처음 만난 여름 이야기, 두근두근 그 여름. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_33_t1",
+   "text": "열일곱의 미라와 대수가 처음 만난 여름 이야기, 두근두근 그 여름. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_34_t0",
+   "text": "아름이는 부모의 목소리로 그 이야기를 들으며 조용히 의식을 잃고, 평화롭게 세상을 떠납니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_34_t1",
+   "text": "아름이는 부모의 목소리로 그 이야기를 들으며 조용히 의식을 잃고, 평화롭게 세상을 떠납니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_35_t0",
+   "text": "그가 남긴 소설은 책으로 나올 예정이라는 소식과 함께요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_35_t1",
+   "text": "그가 남긴 소설은 책으로 나올 예정이라는 소식과 함께요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_36_t0",
+   "text": "부모의 가장 젊은 날을 선물로 남긴 아이. 오늘은 내 부모의 열일곱 살을 한번 상상해 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_36_t1",
+   "text": "부모의 가장 젊은 날을 선물로 남긴 아이. 오늘은 내 부모의 열일곱 살을 한번 상상해 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_37_t0",
+   "text": "오늘 문학늬우스 지면에는 조세희의 난장이가 쏘아올린 작은 공 첫 문장과 이세돌의 깨진 축 한 수도 실려 있어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_37_t1",
+   "text": "오늘 문학늬우스 지면에는 조세희의 난장이가 쏘아올린 작은 공 첫 문장과 이세돌의 깨진 축 한 수도 실려 있어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_38_t0",
+   "text": "영상 아래 링크로 놀러 오세요. 고맙습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_38_t1",
+   "text": "영상 아래 링크로 놀러 오세요. 고맙습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_tz_t0",
+   "text": "뒷이야기와 결말까지, 전체 영상에서 이어서 들어 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_tz_t1",
+   "text": "뒷이야기와 결말까지, 전체 영상에서 이어서 들어 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  }
+ ]
+}

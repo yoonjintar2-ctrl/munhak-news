@@ -1,0 +1,19 @@
+{
+ "at": "2026-11-27T04:14:04Z",
+ "scopes": "https://www.googleapis.com/auth/youtube.force-ssl https://www.googleapis.com/auth/youtube.upload",
+ "channels_status": 200,
+ "channels": [
+  {
+   "id": "UCC6rvGkmmC-HgWYxdJ6KP-g",
+   "title": "문학늬우스"
+  }
+ ],
+ "playlists_status": 200,
+ "playlists": [
+  "독자 신청작 | 읽고 싶은 작품을 댓글로 알려 주세요",
+  "세계 문학 줄거리 | 고골부터 노벨상 작가까지",
+  "한국 문학 줄거리 | 교과서 단편부터 베스트셀러까지",
+  "1분 현대문학 | 요즘 소설 줄거리 처음부터 결말까지",
+  "1분 고전 | 명작 줄거리 처음부터 결말까지"
+ ]
+}

@@ -1,0 +1,714 @@
+{
+ "name": "mnews-2026-11-20",
+ "mode": "clone",
+ "ref_audio": "out/casual1/E_think.wav",
+ "ref_text": "음… 그럼 데이터센터는 이제 못 짓는 건가?",
+ "gen": {
+  "temperature": 0.75,
+  "top_p": 0.9
+ },
+ "reload_every": 4,
+ "retries": 4,
+ "items": [
+  {
+   "id": "sentence_00_t0",
+   "text": "오늘의 문장, 한강의 소년이 온다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_00_t1",
+   "text": "오늘의 문장, 한강의 소년이 온다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_01_t0",
+   "text": "네가 죽은 뒤 장례식을 치르지 못해, 내 삶이 장례식이 되었다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_01_t1",
+   "text": "네가 죽은 뒤 장례식을 치르지 못해, 내 삶이 장례식이 되었다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_02_t0",
+   "text": "이 문장이 품은 뜻. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_02_t1",
+   "text": "이 문장이 품은 뜻. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_03_t0",
+   "text": "제대로 보내 주지 못한 죽음은 끝나지 않습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_03_t1",
+   "text": "제대로 보내 주지 못한 죽음은 끝나지 않습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_04_t0",
+   "text": "장례를 치르지 못하자 남은 사람의 하루하루가 대신 애도가 되었다는 말이지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_04_t1",
+   "text": "장례를 치르지 못하자 남은 사람의 하루하루가 대신 애도가 되었다는 말이지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_05_t0",
+   "text": "슬픔이 한 번의 의식이 아니라 삶 전체의 모양이 된 겁니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_05_t1",
+   "text": "슬픔이 한 번의 의식이 아니라 삶 전체의 모양이 된 겁니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_06_t0",
+   "text": "누가, 어느 장면에서. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_06_t1",
+   "text": "누가, 어느 장면에서. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_07_t0",
+   "text": "천구백팔십 년 오 월 광주에서 숨진 중학생 동호를 기억하는 소설입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_07_t1",
+   "text": "천구백팔십 년 오 월 광주에서 숨진 중학생 동호를 기억하는 소설입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_08_t0",
+   "text": "그날 살아남은 사람들이 저마다의 자리에서 동호를 너라고 부르며 말을 건네는데, 그 목소리들 가운데 나온 문장이지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_08_t1",
+   "text": "그날 살아남은 사람들이 저마다의 자리에서 동호를 너라고 부르며 말을 건네는데, 그 목소리들 가운데 나온 문장이지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_09_t0",
+   "text": "작가가 노린 것. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_09_t1",
+   "text": "작가가 노린 것. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_10_t0",
+   "text": "장례식을 두 번 씁니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_10_t1",
+   "text": "장례식을 두 번 씁니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_11_t0",
+   "text": "앞의 것은 치르지 못한 의식, 뒤의 것은 끝나지 않는 삶이지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_11_t1",
+   "text": "앞의 것은 치르지 못한 의식, 뒤의 것은 끝나지 않는 삶이지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_12_t0",
+   "text": "같은 낱말이 한 문장 안에서 무게를 바꾸는 사이, 독자는 그 긴 세월을 짐작하게 됩니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_12_t1",
+   "text": "같은 낱말이 한 문장 안에서 무게를 바꾸는 사이, 독자는 그 긴 세월을 짐작하게 됩니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_00_t0",
+   "text": "오늘의 시, 최치원의 추야우중(秋夜雨中). 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_00_t1",
+   "text": "오늘의 시, 최치원의 추야우중(秋夜雨中). 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_01_t0",
+   "text": "가을바람에 홀로 괴로이 읊조리니. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_01_t1",
+   "text": "가을바람에 홀로 괴로이 읊조리니. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_02_t0",
+   "text": "세상에 내 노래 알아줄 이 드물구나. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_02_t1",
+   "text": "세상에 내 노래 알아줄 이 드물구나. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_03_t0",
+   "text": "창밖엔 깊은 밤 삼경의 비. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_03_t1",
+   "text": "창밖엔 깊은 밤 삼경의 비. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_04_t0",
+   "text": "등불 앞 마음은 만 리를 가네. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_04_t1",
+   "text": "등불 앞 마음은 만 리를 가네. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_05_t0",
+   "text": "읽기. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_05_t1",
+   "text": "읽기. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_06_t0",
+   "text": "다섯 글자씩 네 줄, 스무 글자입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_06_t1",
+   "text": "다섯 글자씩 네 줄, 스무 글자입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_07_t0",
+   "text": "가을바람, 삼경(한밤중)의 비, 등불 하나. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_07_t1",
+   "text": "가을바람, 삼경(한밤중)의 비, 등불 하나. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_08_t0",
+   "text": "지음(知音)은 거문고 소리만 듣고도 벗의 마음을 알았다는 백아와 종자기 이야기에서 온 말로, 나를 알아주는 사람을 뜻하지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_08_t1",
+   "text": "지음(知音)은 거문고 소리만 듣고도 벗의 마음을 알았다는 백아와 종자기 이야기에서 온 말로, 나를 알아주는 사람을 뜻하지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_09_t0",
+   "text": "몸은 좁은 방에 있는데 마음은 만 리를 떠돕니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_09_t1",
+   "text": "몸은 좁은 방에 있는데 마음은 만 리를 떠돕니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_10_t0",
+   "text": "당나라에서 썼는지 신라로 돌아와 썼는지는 여러 설이 있고, 첫 줄 惟를 唯로 적은 본도 있습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_10_t1",
+   "text": "당나라에서 썼는지 신라로 돌아와 썼는지는 여러 설이 있고, 첫 줄 惟를 唯로 적은 본도 있습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_00_t0",
+   "text": "오늘의 소설 구절, 미겔 데 세르반테스의 돈키호테. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_00_t1",
+   "text": "오늘의 소설 구절, 미겔 데 세르반테스의 돈키호테. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_01_t0",
+   "text": "이름은 굳이 떠올리고 싶지 않은 라만차의 어느 마을에, 얼마 전까지 한 시골 양반이 살았다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_01_t1",
+   "text": "이름은 굳이 떠올리고 싶지 않은 라만차의 어느 마을에, 얼마 전까지 한 시골 양반이 살았다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_02_t0",
+   "text": "창걸이에 세워 둔 창, 낡은 가죽 방패, 비쩍 마른 말과 날랜 사냥개를 지닌 그런 양반 말이다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_02_t1",
+   "text": "창걸이에 세워 둔 창, 낡은 가죽 방패, 비쩍 마른 말과 날랜 사냥개를 지닌 그런 양반 말이다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_03_t0",
+   "text": "앞뒤 맥락. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_03_t1",
+   "text": "앞뒤 맥락. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_04_t0",
+   "text": "소설의 첫 문장입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_04_t1",
+   "text": "소설의 첫 문장입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_05_t0",
+   "text": "쉰 살 가까운 이 시골 양반은 기사 소설에 빠져 밤낮 책만 읽다가 끝내 정신이 나가, 스스로 편력 기사 돈키호테가 되어 길을 나서기로 하지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_05_t1",
+   "text": "쉰 살 가까운 이 시골 양반은 기사 소설에 빠져 밤낮 책만 읽다가 끝내 정신이 나가, 스스로 편력 기사 돈키호테가 되어 길을 나서기로 하지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_06_t0",
+   "text": "문체와 인물. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_06_t1",
+   "text": "문체와 인물. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_07_t0",
+   "text": "작가는 마을 이름을 일부러 감춥니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_07_t1",
+   "text": "작가는 마을 이름을 일부러 감춥니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_08_t0",
+   "text": "대단한 영웅담처럼 시작할 듯하다가 낡은 창, 비쩍 마른 말을 늘어놓으며 슬쩍 김을 빼지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_08_t1",
+   "text": "대단한 영웅담처럼 시작할 듯하다가 낡은 창, 비쩍 마른 말을 늘어놓으며 슬쩍 김을 빼지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_09_t0",
+   "text": "기사 소설을 흉내 내며 비트는 이 웃음이 근대 소설의 첫걸음으로 꼽힙니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_09_t1",
+   "text": "기사 소설을 흉내 내며 비트는 이 웃음이 근대 소설의 첫걸음으로 꼽힙니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_10_t0",
+   "text": "우스꽝스러운데도 자꾸 응원하고 싶어지는 사람, 돈키호테는 이 한 문장에서 태어났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_10_t1",
+   "text": "우스꽝스러운데도 자꾸 응원하고 싶어지는 사람, 돈키호테는 이 한 문장에서 태어났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_11_t0",
+   "text": "제이부는 십 년 뒤인 천육백십오 년에 나왔지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_11_t1",
+   "text": "제이부는 십 년 뒤인 천육백십오 년에 나왔지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "writer_00_t0",
+   "text": "오늘의 문인, 최치원. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "writer_00_t1",
+   "text": "오늘의 문인, 최치원. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "writer_01_t0",
+   "text": "신라 육두품 집안에서 태어나 열두 살에 당나라로 건너갔고, 열여덟에 외국인을 위한 과거인 빈공과에 급제했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "writer_01_t1",
+   "text": "신라 육두품 집안에서 태어나 열두 살에 당나라로 건너갔고, 열여덟에 외국인을 위한 과거인 빈공과에 급제했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "writer_02_t0",
+   "text": "황소의 난 때 쓴 토황소격문으로 이름을 떨쳤지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "writer_02_t1",
+   "text": "황소의 난 때 쓴 토황소격문으로 이름을 떨쳤지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "writer_03_t0",
+   "text": "스물여덟 무렵 돌아와 진성여왕에게 시무책을 올렸으나 뜻을 펴지 못하고, 가야산 등지를 떠돌다 자취를 감췄다고 전합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "writer_03_t1",
+   "text": "스물여덟 무렵 돌아와 진성여왕에게 시무책을 올렸으나 뜻을 펴지 못하고, 가야산 등지를 떠돌다 자취를 감췄다고 전합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_00_t0",
+   "text": "그날의 문학. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_00_t1",
+   "text": "그날의 문학. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_01_t0",
+   "text": "백십육 년 전 오늘. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_01_t1",
+   "text": "백십육 년 전 오늘. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_02_t0",
+   "text": "톨스토이, 시골 기차역에서 눈을 감다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_02_t1",
+   "text": "톨스토이, 시골 기차역에서 눈을 감다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_03_t0",
+   "text": "레프 톨스토이가 천구백십 년 오늘 러시아의 작은 기차역 아스타포보에서 세상을 떠났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_03_t1",
+   "text": "레프 톨스토이가 천구백십 년 오늘 러시아의 작은 기차역 아스타포보에서 세상을 떠났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_04_t0",
+   "text": "여든둘에 몰래 집을 나선 지 열흘 남짓 만이었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_04_t1",
+   "text": "여든둘에 몰래 집을 나선 지 열흘 남짓 만이었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_05_t0",
+   "text": "그 마을은 지금 레프 톨스토이라는 이름으로 불립니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_05_t1",
+   "text": "그 마을은 지금 레프 톨스토이라는 이름으로 불립니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_06_t0",
+   "text": "백삼 년 전 오늘. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_06_t1",
+   "text": "백삼 년 전 오늘. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_07_t0",
+   "text": "나딘 고디머 태어나다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_07_t1",
+   "text": "나딘 고디머 태어나다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_08_t0",
+   "text": "남아프리카공화국 작가 나딘 고디머가 천구백이십삼 년 오늘 요하네스버그 근처 광산 도시 스프링스에서 태어났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_08_t1",
+   "text": "남아프리카공화국 작가 나딘 고디머가 천구백이십삼 년 오늘 요하네스버그 근처 광산 도시 스프링스에서 태어났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_09_t0",
+   "text": "인종 차별 정책 아래의 삶을 써 천구백구십일 년 노벨문학상을 받았지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_09_t1",
+   "text": "인종 차별 정책 아래의 삶을 써 천구백구십일 년 노벨문학상을 받았지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  }
+ ]
+}

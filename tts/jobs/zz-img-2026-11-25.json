@@ -1,0 +1,110 @@
+{
+ "kind": "image",
+ "name": "img-2026-11-25",
+ "items": [
+  {
+   "id": "2026-11-25-classic",
+   "prompt": "black and white pen and ink engraving illustration, cross-hatching. Two men at night by the wooden gate of a 1930s Korean tile-roofed house: a simple-hearted delivery man with a big head and a bundle of newspapers under his left arm gestures cheerfully, the homeowner in a Korean jacket listens smiling. Full moon, hillside village.",
+   "neg": "color, text, letters, signature, watermark, deformed hands, extra fingers, extra limbs, distorted face, lowres, blurry, cartoon, 3d render, photo",
+   "seeds": [
+    11,
+    22
+   ],
+   "w": 1344,
+   "h": 768
+  },
+  {
+   "id": "2026-11-25-classic-s1",
+   "prompt": "black and white pen and ink engraving illustration, cross-hatching. A cheerful 1930s Korean newspaper boy with a big head walks proudly down a village lane, a bundle of newspapers in both arms and a small bell on his waist. Stone walls, persimmon tree, morning light.",
+   "neg": "color, text, letters, signature, watermark, deformed hands, extra fingers, extra limbs, distorted face, lowres, blurry, cartoon, 3d render, photo",
+   "seeds": [
+    11
+   ],
+   "w": 1344,
+   "h": 768
+  },
+  {
+   "id": "2026-11-25-classic-s2",
+   "prompt": "black and white pen and ink engraving illustration, cross-hatching. A lonely Korean man in a straw rain hat crouches beside a small street stall of yellow oriental melons under heavy summer rain, 1930s, school wall behind him, puddles.",
+   "neg": "color, text, letters, signature, watermark, deformed hands, extra fingers, extra limbs, distorted face, lowres, blurry, cartoon, 3d render, photo",
+   "seeds": [
+    11
+   ],
+   "w": 1344,
+   "h": 768
+  },
+  {
+   "id": "2026-11-25-classic-s3",
+   "prompt": "black and white pen and ink engraving illustration, cross-hatching. Night, a 1930s Korean house gate: a shy simple man bows and offers a few bunches of dark grapes with both hands to the homeowner, who reaches out to take them. Paper lantern, full moon.",
+   "neg": "color, text, letters, signature, watermark, deformed hands, extra fingers, extra limbs, distorted face, lowres, blurry, cartoon, 3d render, photo",
+   "seeds": [
+    11
+   ],
+   "w": 1344,
+   "h": 768
+  },
+  {
+   "id": "2026-11-25-modern",
+   "prompt": "black and white pen and ink engraving illustration, cross-hatching. Two people in a narrow Tokyo back street on a sunny April morning: a man in a light jacket turns his head to look back at a woman in a cardigan who walks past him the other way. Small flower shop, bicycles, cherry petals.",
+   "neg": "color, text, letters, signature, watermark, deformed hands, extra fingers, extra limbs, distorted face, lowres, blurry, cartoon, 3d render, photo",
+   "seeds": [
+    11,
+    22
+   ],
+   "w": 1344,
+   "h": 768
+  },
+  {
+   "id": "2026-11-25-modern-s1",
+   "prompt": "black and white pen and ink engraving illustration, cross-hatching. Two teenagers, a boy and a girl in school-style casual clothes, stop face to face at a quiet Tokyo street corner, both surprised, the girl points at the boy. Mailbox, street lamp, petals in the air.",
+   "neg": "color, text, letters, signature, watermark, deformed hands, extra fingers, extra limbs, distorted face, lowres, blurry, cartoon, 3d render, photo",
+   "seeds": [
+    11
+   ],
+   "w": 1344,
+   "h": 768
+  },
+  {
+   "id": "2026-11-25-modern-s2",
+   "prompt": "black and white pen and ink engraving illustration, cross-hatching. A boy and a girl walk away from each other in opposite directions on a narrow street, each turning back to wave once. Overhead power lines, low houses, soft evening light.",
+   "neg": "color, text, letters, signature, watermark, deformed hands, extra fingers, extra limbs, distorted face, lowres, blurry, cartoon, 3d render, photo",
+   "seeds": [
+    11
+   ],
+   "w": 1344,
+   "h": 768
+  },
+  {
+   "id": "2026-11-25-modern-s3",
+   "prompt": "black and white pen and ink engraving illustration, cross-hatching. A young person lies sick in bed under a thick quilt in a small Japanese room in winter, a steaming cup and medicine on a tray beside the futon, snow falling outside the window.",
+   "neg": "color, text, letters, signature, watermark, deformed hands, extra fingers, extra limbs, distorted face, lowres, blurry, cartoon, 3d render, photo",
+   "seeds": [
+    11
+   ],
+   "w": 1344,
+   "h": 768
+  },
+  {
+   "id": "2026-11-25-food",
+   "prompt": "black and white pen and ink engraving illustration, cross-hatching. Rustic Alpine wooden hut interior: a large wedge of cheese on a long iron fork toasting golden over an open hearth fire, a wooden table with a round loaf of crusty bread and a bowl of goat milk. Warm glow, no people.",
+   "neg": "color, text, letters, signature, watermark, deformed hands, extra fingers, extra limbs, distorted face, lowres, blurry, cartoon, 3d render, photo",
+   "seeds": [
+    11,
+    22
+   ],
+   "w": 1344,
+   "h": 768
+  },
+  {
+   "id": "2026-11-25-man",
+   "prompt": "black and white pen and ink engraving illustration, cross-hatching. A sailor in a life vest leans far out of a small one-man racing dinghy in rough grey sea, reaching his hand toward a person in the water. A capsized boat behind, wind-bent white sail, spray. Seen from a distance.",
+   "neg": "color, text, letters, signature, watermark, deformed hands, extra fingers, extra limbs, distorted face, lowres, blurry, cartoon, 3d render, photo",
+   "seeds": [
+    11,
+    22
+   ],
+   "w": 1344,
+   "h": 768
+  }
+ ]
+}

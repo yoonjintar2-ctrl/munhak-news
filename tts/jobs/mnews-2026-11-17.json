@@ -1,0 +1,1120 @@
+{
+ "name": "mnews-2026-11-17",
+ "mode": "clone",
+ "ref_audio": "out/casual1/E_think.wav",
+ "ref_text": "음… 그럼 데이터센터는 이제 못 짓는 건가?",
+ "gen": {
+  "temperature": 0.75,
+  "top_p": 0.9
+ },
+ "reload_every": 4,
+ "retries": 4,
+ "items": [
+  {
+   "id": "sentence_00_t0",
+   "text": "오늘의 문장, 채만식의 레디메이드 인생. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_00_t1",
+   "text": "오늘의 문장, 채만식의 레디메이드 인생. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_01_t0",
+   "text": "레디메이드 인생이 비로소 겨우 임자를 만나 팔리었구나. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_01_t1",
+   "text": "레디메이드 인생이 비로소 겨우 임자를 만나 팔리었구나. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_02_t0",
+   "text": "이 문장이 품은 뜻. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_02_t1",
+   "text": "이 문장이 품은 뜻. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_03_t0",
+   "text": "만들어 놓았지만 사 가는 사람 없는 기성품, 곧 일자리 없는 지식인 자신을 비웃는 말입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_03_t1",
+   "text": "만들어 놓았지만 사 가는 사람 없는 기성품, 곧 일자리 없는 지식인 자신을 비웃는 말입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_04_t0",
+   "text": "자식을 견습공으로 보내고서야 팔렸다고 셈하는 씁쓸한 장부지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_04_t1",
+   "text": "자식을 견습공으로 보내고서야 팔렸다고 셈하는 씁쓸한 장부지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_05_t0",
+   "text": "누가, 어느 장면에서. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_05_t1",
+   "text": "누가, 어느 장면에서. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_06_t0",
+   "text": "대학을 나오고도 일자리가 없는 P는 신문사 사장에게 거절당하고, 아들 창선을 학교 대신 인쇄소 견습공으로 보내기로 합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_06_t1",
+   "text": "대학을 나오고도 일자리가 없는 P는 신문사 사장에게 거절당하고, 아들 창선을 학교 대신 인쇄소 견습공으로 보내기로 합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_07_t0",
+   "text": "이튿날 아침 아들을 맡기고 돌아서며 혼자 중얼거린 말이 소설의 마지막 문장입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_07_t1",
+   "text": "이튿날 아침 아들을 맡기고 돌아서며 혼자 중얼거린 말이 소설의 마지막 문장입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_08_t0",
+   "text": "작가가 노린 것. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_08_t1",
+   "text": "작가가 노린 것. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_09_t0",
+   "text": "팔리었구나라는 장사꾼의 말로 아들을 보내는 아픔을 감춥니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_09_t1",
+   "text": "팔리었구나라는 장사꾼의 말로 아들을 보내는 아픔을 감춥니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_10_t0",
+   "text": "울음 대신 냉소를 고른 이 반어가 채만식 풍자의 핵심이고, 영어 레디메이드를 제목에 박은 것도 천구백삼십 년대 경성의 공기 그대로입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_10_t1",
+   "text": "울음 대신 냉소를 고른 이 반어가 채만식 풍자의 핵심이고, 영어 레디메이드를 제목에 박은 것도 천구백삼십 년대 경성의 공기 그대로입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_00_t0",
+   "text": "오늘의 시, 프랑수아 비용의 지난날의 여인들의 발라드. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_00_t1",
+   "text": "오늘의 시, 프랑수아 비용의 지난날의 여인들의 발라드. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_01_t0",
+   "text": "말해 다오, 어디에, 어느 나라에 있는지. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_01_t1",
+   "text": "말해 다오, 어디에, 어느 나라에 있는지. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_02_t0",
+   "text": "로마의 미인 플로라,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_02_t1",
+   "text": "로마의 미인 플로라,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_03_t0",
+   "text": "아르키피아다, 그리고 타이스,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_03_t1",
+   "text": "아르키피아다, 그리고 타이스,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_04_t0",
+   "text": "그와 사촌 자매였다는 그이,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_04_t1",
+   "text": "그와 사촌 자매였다는 그이,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_05_t0",
+   "text": "강물 위 연못 위에서 누가 소리 내면. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_05_t1",
+   "text": "강물 위 연못 위에서 누가 소리 내면. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_06_t0",
+   "text": "말을 되받아 주던 에코,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_06_t1",
+   "text": "말을 되받아 주던 에코,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_07_t0",
+   "text": "사람의 것을 훨씬 넘는 아름다움을 지녔던 그이. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_07_t1",
+   "text": "사람의 것을 훨씬 넘는 아름다움을 지녔던 그이. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_08_t0",
+   "text": "하지만 지난해 내린 눈은 어디 있는가? 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_08_t1",
+   "text": "하지만 지난해 내린 눈은 어디 있는가? 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_09_t0",
+   "text": "어디 있는가, 그토록 지혜롭던 엘로이즈,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_09_t1",
+   "text": "어디 있는가, 그토록 지혜롭던 엘로이즈,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_10_t0",
+   "text": "그 여인 때문에 거세당하고 수도사가 된. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_10_t1",
+   "text": "그 여인 때문에 거세당하고 수도사가 된. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_11_t0",
+   "text": "생드니의 피에르 아벨라르. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_11_t1",
+   "text": "생드니의 피에르 아벨라르. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_12_t0",
+   "text": "그녀를 사랑한 탓에 그 고초를 겪었지. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_12_t1",
+   "text": "그녀를 사랑한 탓에 그 고초를 겪었지. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_13_t0",
+   "text": "마찬가지로 어디 있는가, 그 왕비는,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_13_t1",
+   "text": "마찬가지로 어디 있는가, 그 왕비는,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_14_t0",
+   "text": "뷔리당을 자루에 담아. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_14_t1",
+   "text": "뷔리당을 자루에 담아. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_15_t0",
+   "text": "센강에 던지라 명했다던 그 왕비는? 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_15_t1",
+   "text": "센강에 던지라 명했다던 그 왕비는? 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_16_t0",
+   "text": "하지만 지난해 내린 눈은 어디 있는가? 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_16_t1",
+   "text": "하지만 지난해 내린 눈은 어디 있는가? 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_17_t0",
+   "text": "백합처럼 흰 블랑슈 왕비,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_17_t1",
+   "text": "백합처럼 흰 블랑슈 왕비,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_18_t0",
+   "text": "세이렌의 목소리로 노래하던 그이,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_18_t1",
+   "text": "세이렌의 목소리로 노래하던 그이,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_19_t0",
+   "text": "발 큰 베르트, 비에트리스, 알리스,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_19_t1",
+   "text": "발 큰 베르트, 비에트리스, 알리스,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_20_t0",
+   "text": "멘 땅을 다스린 아랑뷔르지스,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_20_t1",
+   "text": "멘 땅을 다스린 아랑뷔르지스,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_21_t0",
+   "text": "그리고 잉글랜드 사람들이 루앙에서 불태운. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_21_t1",
+   "text": "그리고 잉글랜드 사람들이 루앙에서 불태운. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_22_t0",
+   "text": "로렌의 착한 잔,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_22_t1",
+   "text": "로렌의 착한 잔,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_23_t0",
+   "text": "그들은 어디, 어디 있나요, 성모님? 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_23_t1",
+   "text": "그들은 어디, 어디 있나요, 성모님? 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_24_t0",
+   "text": "하지만 지난해 내린 눈은 어디 있는가? 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_24_t1",
+   "text": "하지만 지난해 내린 눈은 어디 있는가? 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_25_t0",
+   "text": "왕자여, 이번 주에도 올해에도. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_25_t1",
+   "text": "왕자여, 이번 주에도 올해에도. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_26_t0",
+   "text": "그 여인들 있는 곳은 묻지 마시라,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_26_t1",
+   "text": "그 여인들 있는 곳은 묻지 마시라,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_27_t0",
+   "text": "물으면 이 후렴으로 돌아올 뿐이니. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_27_t1",
+   "text": "물으면 이 후렴으로 돌아올 뿐이니. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_28_t0",
+   "text": "하지만 지난해 내린 눈은 어디 있는가? 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_28_t1",
+   "text": "하지만 지난해 내린 눈은 어디 있는가? 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_29_t0",
+   "text": "읽기. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_29_t1",
+   "text": "읽기. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_30_t0",
+   "text": "전설의 미녀 플로라부터 엘로이즈, 잔 다르크까지 이름을 줄줄이 불러 놓고 매번 같은 물음으로 닫습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_30_t1",
+   "text": "전설의 미녀 플로라부터 엘로이즈, 잔 다르크까지 이름을 줄줄이 불러 놓고 매번 같은 물음으로 닫습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_31_t0",
+   "text": "지난해의 눈은 어디 있느냐. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_31_t1",
+   "text": "지난해의 눈은 어디 있느냐. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_32_t0",
+   "text": "답은 이미 들어 있지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_32_t1",
+   "text": "답은 이미 들어 있지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_33_t0",
+   "text": "녹아서, 없다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_33_t1",
+   "text": "녹아서, 없다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_34_t0",
+   "text": "후렴은 네 번 돌아옵니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_34_t1",
+   "text": "후렴은 네 번 돌아옵니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_35_t0",
+   "text": "비용은 도둑질로 교수형 선고까지 받았다가 천사백육십삼 년 파리에서 추방된 뒤 행방이 끊긴 시인이고, 영국 시인 로세티가 천팔백칠십 년 시집에서 이 후렴을 Where are the snows of yesteryear?로 옮겨 널리 알렸지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_35_t1",
+   "text": "비용은 도둑질로 교수형 선고까지 받았다가 천사백육십삼 년 파리에서 추방된 뒤 행방이 끊긴 시인이고, 영국 시인 로세티가 천팔백칠십 년 시집에서 이 후렴을 Where are the snows of yesteryear?로 옮겨 널리 알렸지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_00_t0",
+   "text": "오늘의 소설 구절, 나도향의 벙어리 삼룡이. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_00_t1",
+   "text": "오늘의 소설 구절, 나도향의 벙어리 삼룡이. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_01_t0",
+   "text": "그의 울분은 그 불과 함께 사라졌을는지! 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_01_t1",
+   "text": "그의 울분은 그 불과 함께 사라졌을는지! 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_02_t0",
+   "text": "평화롭고 행복스러운 웃음이 그의 입 가장자리에 엷게 나타났을 뿐이다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_02_t1",
+   "text": "평화롭고 행복스러운 웃음이 그의 입 가장자리에 엷게 나타났을 뿐이다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_03_t0",
+   "text": "앞뒤 맥락. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_03_t1",
+   "text": "앞뒤 맥락. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_04_t0",
+   "text": "주인집 아들에게 매를 맞고 쫓겨난 벙어리 하인 삼룡. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_04_t1",
+   "text": "주인집 아들에게 매를 맞고 쫓겨난 벙어리 하인 삼룡. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_05_t0",
+   "text": "그날 밤 주인집에 불이 나자 그는 불 속으로 뛰어들어 주인을 구하고, 학대받던 새아씨를 찾아 안고 지붕 위로 오릅니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_05_t1",
+   "text": "그날 밤 주인집에 불이 나자 그는 불 속으로 뛰어들어 주인을 구하고, 학대받던 새아씨를 찾아 안고 지붕 위로 오릅니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_06_t0",
+   "text": "소설의 마지막 문장입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_06_t1",
+   "text": "소설의 마지막 문장입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_07_t0",
+   "text": "문체와 인물. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_07_t1",
+   "text": "문체와 인물. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_08_t0",
+   "text": "삼룡이는 말을 못 합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_08_t1",
+   "text": "삼룡이는 말을 못 합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_09_t0",
+   "text": "그래서 나도향은 그의 마음을 몸짓과 불로 말하게 하지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_09_t1",
+   "text": "그래서 나도향은 그의 마음을 몸짓과 불로 말하게 하지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_10_t0",
+   "text": "평생 억눌려 온 울분이 집을 태우는 불과 함께 사라지고, 남은 것은 엷은 웃음 하나. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_10_t1",
+   "text": "평생 억눌려 온 울분이 집을 태우는 불과 함께 사라지고, 남은 것은 엷은 웃음 하나. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_11_t0",
+   "text": "죽음의 장면에 행복스러운을 붙이는 역설이 이 단편을 비극이면서 구원의 이야기로 만듭니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_11_t1",
+   "text": "죽음의 장면에 행복스러운을 붙이는 역설이 이 단편을 비극이면서 구원의 이야기로 만듭니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_12_t0",
+   "text": "감탄 부호 하나(사라졌을는지!)에 화자의 떨림까지 실렸습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_12_t1",
+   "text": "감탄 부호 하나(사라졌을는지!)에 화자의 떨림까지 실렸습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_13_t0",
+   "text": "작가는 이듬해 결핵으로 스물넷 남짓한 나이에 세상을 떠났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_13_t1",
+   "text": "작가는 이듬해 결핵으로 스물넷 남짓한 나이에 세상을 떠났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "writer_00_t0",
+   "text": "오늘의 문인, 채만식. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "writer_00_t1",
+   "text": "오늘의 문인, 채만식. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "writer_01_t0",
+   "text": "천구백이 년 칠 월 이십일 일 전북 옥구(지금의 군산)에서 태어났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "writer_01_t1",
+   "text": "천구백이 년 칠 월 이십일 일 전북 옥구(지금의 군산)에서 태어났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "writer_02_t0",
+   "text": "천구백이십사 년 조선문단에 새길로를 내며 등단했고, 탁류, 태평천하 같은 풍자로 이름을 얻었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "writer_02_t1",
+   "text": "천구백이십사 년 조선문단에 새길로를 내며 등단했고, 탁류, 태평천하 같은 풍자로 이름을 얻었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "writer_03_t0",
+   "text": "일제 말 친일 글을 쓴 일은 해방 뒤 민족의 죄인에서 스스로 돌아봤지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "writer_03_t1",
+   "text": "일제 말 친일 글을 쓴 일은 해방 뒤 민족의 죄인에서 스스로 돌아봤지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "writer_04_t0",
+   "text": "천구백오십 년 육 월 십일 일 이리에서 폐결핵으로 세상을 떠났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "writer_04_t1",
+   "text": "천구백오십 년 육 월 십일 일 이리에서 폐결핵으로 세상을 떠났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_00_t0",
+   "text": "그날의 문학. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_00_t1",
+   "text": "그날의 문학. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_01_t0",
+   "text": "백이십일 년 전 오늘. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_01_t1",
+   "text": "백이십일 년 전 오늘. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_02_t0",
+   "text": "을사조약 강제 체결 , 사흘 뒤 시일야방성대곡. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_02_t1",
+   "text": "을사조약 강제 체결 , 사흘 뒤 시일야방성대곡. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_03_t0",
+   "text": "천구백오 년 오늘 일제가 고종과 대신들을 위협해 을사조약을 강제로 맺었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_03_t1",
+   "text": "천구백오 년 오늘 일제가 고종과 대신들을 위협해 을사조약을 강제로 맺었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_04_t0",
+   "text": "사흘 뒤 황성신문에 장지연의 논설 시일야방성대곡이 실렸지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_04_t1",
+   "text": "사흘 뒤 황성신문에 장지연의 논설 시일야방성대곡이 실렸지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_05_t0",
+   "text": "이날을 목 놓아 통곡한다는 뜻입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_05_t1",
+   "text": "이날을 목 놓아 통곡한다는 뜻입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_06_t0",
+   "text": "십삼 년 전 오늘. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_06_t1",
+   "text": "십삼 년 전 오늘. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_07_t0",
+   "text": "금색 공책의 도리스 레싱, 세상을 떠나다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_07_t1",
+   "text": "금색 공책의 도리스 레싱, 세상을 떠나다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_08_t0",
+   "text": "이천칠 년 노벨문학상을 받은 영국 작가 도리스 레싱이 이천십삼 년 오늘 런던에서 세상을 떠났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_08_t1",
+   "text": "이천칠 년 노벨문학상을 받은 영국 작가 도리스 레싱이 이천십삼 년 오늘 런던에서 세상을 떠났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_09_t0",
+   "text": "천구백육십이 년작 금색 공책으로 잘 알려져 있지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_09_t1",
+   "text": "천구백육십이 년작 금색 공책으로 잘 알려져 있지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_10_t0",
+   "text": "오십팔 년 전 오늘. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_10_t1",
+   "text": "오십팔 년 전 오늘. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_11_t0",
+   "text": "고먼가스트의 머빈 피크 별세. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_11_t1",
+   "text": "고먼가스트의 머빈 피크 별세. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_12_t0",
+   "text": "거대한 성 고먼가스트를 무대로 한 판타지 연작을 쓰고, 시와 삽화까지 손수 그린 영국 작가 머빈 피크가 천구백육십팔 년 오늘 세상을 떠났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_12_t1",
+   "text": "거대한 성 고먼가스트를 무대로 한 판타지 연작을 쓰고, 시와 삽화까지 손수 그린 영국 작가 머빈 피크가 천구백육십팔 년 오늘 세상을 떠났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  }
+ ]
+}

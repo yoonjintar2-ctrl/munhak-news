@@ -1,0 +1,1778 @@
+{
+ "name": "mnews-2026-11-21",
+ "mode": "clone",
+ "ref_audio": "out/casual1/E_think.wav",
+ "ref_text": "음… 그럼 데이터센터는 이제 못 짓는 건가?",
+ "gen": {
+  "temperature": 0.75,
+  "top_p": 0.9
+ },
+ "reload_every": 4,
+ "retries": 4,
+ "items": [
+  {
+   "id": "sentence_00_t0",
+   "text": "오늘의 문장, 최인훈의 광장. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_00_t1",
+   "text": "오늘의 문장, 최인훈의 광장. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_01_t0",
+   "text": "광장은 대중의 밀실이며 밀실은 개인의 광장이다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_01_t1",
+   "text": "광장은 대중의 밀실이며 밀실은 개인의 광장이다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_02_t0",
+   "text": "이 문장이 품은 뜻. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_02_t1",
+   "text": "이 문장이 품은 뜻. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_03_t0",
+   "text": "모두가 모이는 광장도 결국 한 사람 한 사람의 방에서 시작되고, 혼자의 방도 남과 이어질 때 비로소 넓어진다는 말입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_03_t1",
+   "text": "모두가 모이는 광장도 결국 한 사람 한 사람의 방에서 시작되고, 혼자의 방도 남과 이어질 때 비로소 넓어진다는 말입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_04_t0",
+   "text": "둘 중 하나만으로는 사람이 온전히 살 수 없다는 뜻이지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_04_t1",
+   "text": "둘 중 하나만으로는 사람이 온전히 살 수 없다는 뜻이지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_05_t0",
+   "text": "누가, 어느 장면에서. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_05_t1",
+   "text": "누가, 어느 장면에서. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_06_t0",
+   "text": "광장 단행본 서문에 작가가 쓴 문장입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_06_t1",
+   "text": "광장 단행본 서문에 작가가 쓴 문장입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_07_t0",
+   "text": "주인공 이명준은 남에서는 밀실만, 북에서는 광장만 강요받다가 전쟁 포로가 된 뒤 남도 북도 아닌 중립국을 택하지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_07_t1",
+   "text": "주인공 이명준은 남에서는 밀실만, 북에서는 광장만 강요받다가 전쟁 포로가 된 뒤 남도 북도 아닌 중립국을 택하지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_08_t0",
+   "text": "작가가 노린 것. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_08_t1",
+   "text": "작가가 노린 것. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_09_t0",
+   "text": "광장과 밀실을 자리만 바꿔 두 번 맞세웁니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_09_t1",
+   "text": "광장과 밀실을 자리만 바꿔 두 번 맞세웁니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_10_t0",
+   "text": "거울처럼 접힌 문장이라 한 번 읽으면 잊히지 않고, 둘이 서로를 품어야 한다는 생각이 문장 모양 그대로 전해지지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "sentence_10_t1",
+   "text": "거울처럼 접힌 문장이라 한 번 읽으면 잊히지 않고, 둘이 서로를 품어야 한다는 생각이 문장 모양 그대로 전해지지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_00_t0",
+   "text": "오늘의 시, 윌리엄 버틀러 예이츠의 이니스프리 호수 섬. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_00_t1",
+   "text": "오늘의 시, 윌리엄 버틀러 예이츠의 이니스프리 호수 섬. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_01_t0",
+   "text": "나 이제 일어나 가리라, 이니스프리로 가리라,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_01_t1",
+   "text": "나 이제 일어나 가리라, 이니스프리로 가리라,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_02_t0",
+   "text": "거기 진흙과 욋가지로 작은 오두막 하나 짓고,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_02_t1",
+   "text": "거기 진흙과 욋가지로 작은 오두막 하나 짓고,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_03_t0",
+   "text": "콩 이랑 아홉 두둑, 꿀벌 칠 벌통 하나 두고,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_03_t1",
+   "text": "콩 이랑 아홉 두둑, 꿀벌 칠 벌통 하나 두고,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_04_t0",
+   "text": "벌 소리 붕붕대는 숲속 빈터에 홀로 살리라. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_04_t1",
+   "text": "벌 소리 붕붕대는 숲속 빈터에 홀로 살리라. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_05_t0",
+   "text": "거기서 나는 얼마쯤 평화를 얻으리, 평화는 천천히 방울져 내리니,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_05_t1",
+   "text": "거기서 나는 얼마쯤 평화를 얻으리, 평화는 천천히 방울져 내리니,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_06_t0",
+   "text": "아침의 베일에서 귀뚜라미 우는 곳까지 방울져 내리니,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_06_t1",
+   "text": "아침의 베일에서 귀뚜라미 우는 곳까지 방울져 내리니,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_07_t0",
+   "text": "거기 한밤은 온통 희미한 반짝임, 한낮은 보랏빛 물듦,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_07_t1",
+   "text": "거기 한밤은 온통 희미한 반짝임, 한낮은 보랏빛 물듦,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_08_t0",
+   "text": "저녁은 홍방울새 날갯짓으로 가득하리. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_08_t1",
+   "text": "저녁은 홍방울새 날갯짓으로 가득하리. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_09_t0",
+   "text": "나 이제 일어나 가리라, 밤이고 낮이고 늘. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_09_t1",
+   "text": "나 이제 일어나 가리라, 밤이고 낮이고 늘. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_10_t0",
+   "text": "호숫가에 나직이 찰랑이는 물소리 들리니,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_10_t1",
+   "text": "호숫가에 나직이 찰랑이는 물소리 들리니,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_11_t0",
+   "text": "한길에 서 있을 때도, 잿빛 포장길 위에서도,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_11_t1",
+   "text": "한길에 서 있을 때도, 잿빛 포장길 위에서도,. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_12_t0",
+   "text": "가슴 가장 깊은 곳에서 그 소리 들리네. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_12_t1",
+   "text": "가슴 가장 깊은 곳에서 그 소리 들리네. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_13_t0",
+   "text": "읽기. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_13_t1",
+   "text": "읽기. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_14_t0",
+   "text": "이니스프리는 아일랜드 서부 슬라이고의 길 호수에 떠 있는 작은 섬입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_14_t1",
+   "text": "이니스프리는 아일랜드 서부 슬라이고의 길 호수에 떠 있는 작은 섬입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_15_t0",
+   "text": "런던에 살던 젊은 예이츠는 거리 가게 진열창의 작은 분수 소리를 듣다 고향 호수가 떠올라 이 시를 썼다고 회고했지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_15_t1",
+   "text": "런던에 살던 젊은 예이츠는 거리 가게 진열창의 작은 분수 소리를 듣다 고향 호수가 떠올라 이 시를 썼다고 회고했지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_16_t0",
+   "text": "가리라를 되풀이하지만 시인은 끝내 떠나지 않습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_16_t1",
+   "text": "가리라를 되풀이하지만 시인은 끝내 떠나지 않습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_17_t0",
+   "text": "잿빛 포장길에 선 채, 물소리는 가슴 깊은 곳에서만 들리지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_17_t1",
+   "text": "잿빛 포장길에 선 채, 물소리는 가슴 깊은 곳에서만 들리지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_18_t0",
+   "text": "그리움이 하나의 장소가 되는 순간입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "poem_18_t1",
+   "text": "그리움이 하나의 장소가 되는 순간입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_00_t0",
+   "text": "오늘의 소설 구절, 박경리의 토지. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_00_t1",
+   "text": "오늘의 소설 구절, 박경리의 토지. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_01_t0",
+   "text": "천팔백구십칠 년의 한가위. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_01_t1",
+   "text": "천팔백구십칠 년의 한가위. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_02_t0",
+   "text": "앞뒤 맥락. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_02_t1",
+   "text": "앞뒤 맥락. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_03_t0",
+   "text": "구한말 경남 하동 평사리, 대지주 최참판댁의 한가위로 소설이 열립니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_03_t1",
+   "text": "구한말 경남 하동 평사리, 대지주 최참판댁의 한가위로 소설이 열립니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_04_t0",
+   "text": "이 집의 외동딸 서희가 집안의 몰락과 간도 이주, 귀향을 거치며 반세기를 건너는 이야기의 첫걸음이지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_04_t1",
+   "text": "이 집의 외동딸 서희가 집안의 몰락과 간도 이주, 귀향을 거치며 반세기를 건너는 이야기의 첫걸음이지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_05_t0",
+   "text": "문체와 인물. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_05_t1",
+   "text": "문체와 인물. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_06_t0",
+   "text": "다섯 글자짜리 첫 문장입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_06_t1",
+   "text": "다섯 글자짜리 첫 문장입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_07_t0",
+   "text": "연도와 명절 하나로 시간을 못 박아 두고, 소설은 곧 들판과 마을 사람들, 풍물 소리 쪽으로 넓어지지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_07_t1",
+   "text": "연도와 명절 하나로 시간을 못 박아 두고, 소설은 곧 들판과 마을 사람들, 풍물 소리 쪽으로 넓어지지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_08_t0",
+   "text": "천팔백구십칠 년은 조선이 대한제국을 선포한 해. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_08_t1",
+   "text": "천팔백구십칠 년은 조선이 대한제국을 선포한 해. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_09_t0",
+   "text": "가장 풍성한 명절에서 출발한 이야기가 나라를 잃는 시대로 걸어 들어갈 것을 짧은 문장이 조용히 예고합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_09_t1",
+   "text": "가장 풍성한 명절에서 출발한 이야기가 나라를 잃는 시대로 걸어 들어갈 것을 짧은 문장이 조용히 예고합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_10_t0",
+   "text": "스물여섯 해에 걸친 대장정의 첫 칸이었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "novel_10_t1",
+   "text": "스물여섯 해에 걸친 대장정의 첫 칸이었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "writer_00_t0",
+   "text": "오늘의 문인, 박경리. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "writer_00_t1",
+   "text": "오늘의 문인, 박경리. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "writer_01_t0",
+   "text": "천구백이십육 년 경남 통영에서 태어났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "writer_01_t1",
+   "text": "천구백이십육 년 경남 통영에서 태어났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "writer_02_t0",
+   "text": "천구백오십오 년 김동리의 추천으로 단편 계산을 발표하며 등단했고, 김약국의 딸들(천구백육십이)로 이름을 알렸지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "writer_02_t1",
+   "text": "천구백오십오 년 김동리의 추천으로 단편 계산을 발표하며 등단했고, 김약국의 딸들(천구백육십이)로 이름을 알렸지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "writer_03_t0",
+   "text": "천구백육십구 년부터 천구백구십사 년까지 스물여섯 해 동안 토지를 써 완간했고, 말년에는 원주에서 텃밭을 가꾸며 후배 문인들을 품었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "writer_03_t1",
+   "text": "천구백육십구 년부터 천구백구십사 년까지 스물여섯 해 동안 토지를 써 완간했고, 말년에는 원주에서 텃밭을 가꾸며 후배 문인들을 품었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "writer_04_t0",
+   "text": "올해가 탄생 백주년입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "writer_04_t1",
+   "text": "올해가 탄생 백주년입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_00_t0",
+   "text": "그날의 문학. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_00_t1",
+   "text": "그날의 문학. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_01_t0",
+   "text": "백육십삼 년 전 오늘. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_01_t1",
+   "text": "백육십삼 년 전 오늘. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_02_t0",
+   "text": "필명 Q, 아서 퀼러쿠치 태어나다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_02_t1",
+   "text": "필명 Q, 아서 퀼러쿠치 태어나다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_03_t0",
+   "text": "영국 작가 아서 퀼러쿠치가 천팔백육십삼 년 오늘 콘월의 보드민에서 태어났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_03_t1",
+   "text": "영국 작가 아서 퀼러쿠치가 천팔백육십삼 년 오늘 콘월의 보드민에서 태어났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_04_t0",
+   "text": "Q라는 필명으로 소설을 썼고, 천구백 년 옥스퍼드 영시선을 엮어 오래도록 영시 읽기의 길잡이가 되게 했지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_04_t1",
+   "text": "Q라는 필명으로 소설을 썼고, 천구백 년 옥스퍼드 영시선을 엮어 오래도록 영시 읽기의 길잡이가 되게 했지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_05_t0",
+   "text": "구십칠 년 전 오늘. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_05_t1",
+   "text": "구십칠 년 전 오늘. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_06_t0",
+   "text": "여자들의 방의 메릴린 프렌치 태어나다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_06_t1",
+   "text": "여자들의 방의 메릴린 프렌치 태어나다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_07_t0",
+   "text": "미국 작가 메릴린 프렌치가 천구백이십구 년 오늘 뉴욕에서 태어났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_07_t1",
+   "text": "미국 작가 메릴린 프렌치가 천구백이십구 년 오늘 뉴욕에서 태어났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_08_t0",
+   "text": "천구백칠십칠 년 소설 여자들의 방으로 천구백오십 년대 교외 주부들의 삶을 그려 큰 반향을 일으켰지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "day_08_t1",
+   "text": "천구백칠십칠 년 소설 여자들의 방으로 천구백오십 년대 교외 주부들의 삶을 그려 큰 반향을 일으켰지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_00_t0",
+   "text": "일분 고전, 박지원의 허생전. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_00_t1",
+   "text": "일분 고전, 박지원의 허생전. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_01_t0",
+   "text": "책만 읽던 가난한 선비가 만 냥을 빌려 조선의 민낯을 시험해 본다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_01_t1",
+   "text": "책만 읽던 가난한 선비가 만 냥을 빌려 조선의 민낯을 시험해 본다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_02_t0",
+   "text": "한양 남산 아래 묵적골, 비가 새는 오막살이에 허생이라는 선비가 삽니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_02_t1",
+   "text": "한양 남산 아래 묵적골, 비가 새는 오막살이에 허생이라는 선비가 삽니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_03_t0",
+   "text": "그는 밤낮 책만 읽고, 살림은 아내가 남의 바느질을 해 주며 겨우 꾸려 가지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_03_t1",
+   "text": "그는 밤낮 책만 읽고, 살림은 아내가 남의 바느질을 해 주며 겨우 꾸려 가지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_04_t0",
+   "text": "칠 년째 되던 어느 날, 굶주림에 지친 아내가 따집니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_04_t1",
+   "text": "칠 년째 되던 어느 날, 굶주림에 지친 아내가 따집니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_05_t0",
+   "text": "과거도 안 보고 장사도 공장(工匠) 일도 못 하면 도둑질이라도 하라는 거냐고. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_05_t1",
+   "text": "과거도 안 보고 장사도 공장(工匠) 일도 못 하면 도둑질이라도 하라는 거냐고. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_06_t0",
+   "text": "허생은 책을 덮으며 탄식합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_06_t1",
+   "text": "허생은 책을 덮으며 탄식합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_07_t0",
+   "text": "십 년을 채우려 했는데 아깝다고. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_07_t1",
+   "text": "십 년을 채우려 했는데 아깝다고. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_08_t0",
+   "text": "허생은 곧장 장안 제일 부자라는 변씨를 찾아가 만 냥을 빌려 달라고 합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_08_t1",
+   "text": "허생은 곧장 장안 제일 부자라는 변씨를 찾아가 만 냥을 빌려 달라고 합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_09_t0",
+   "text": "변씨는 해진 옷차림의 낯선 선비를 한 번 보더니 그 자리에서 만 냥을 내줍니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_09_t1",
+   "text": "변씨는 해진 옷차림의 낯선 선비를 한 번 보더니 그 자리에서 만 냥을 내줍니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_10_t0",
+   "text": "이름도 묻지 않았지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_10_t1",
+   "text": "이름도 묻지 않았지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_11_t0",
+   "text": "식구들이 어리둥절해하자 변씨는 말합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_11_t1",
+   "text": "식구들이 어리둥절해하자 변씨는 말합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_12_t0",
+   "text": "돈 빌리러 오는 사람은 대개 말이 길고 굽실거리는데, 저 사람은 말이 짧고 눈빛이 당당하더라고. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_12_t1",
+   "text": "돈 빌리러 오는 사람은 대개 말이 길고 굽실거리는데, 저 사람은 말이 짧고 눈빛이 당당하더라고. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_13_t0",
+   "text": "허생은 그 돈을 들고 삼남으로 가는 길목 안성으로 내려가 대추, 밤, 감, 배 같은 과일을 모조리 사들입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_13_t1",
+   "text": "허생은 그 돈을 들고 삼남으로 가는 길목 안성으로 내려가 대추, 밤, 감, 배 같은 과일을 모조리 사들입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_14_t0",
+   "text": "과일이 동나 잔치도 제사도 못 치르게 된 사람들이 몰려왔고, 허생은 열 배 값에 되팔지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_14_t1",
+   "text": "과일이 동나 잔치도 제사도 못 치르게 된 사람들이 몰려왔고, 허생은 열 배 값에 되팔지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_15_t0",
+   "text": "이번엔 제주로 건너가 망건 만드는 말총을 몽땅 사들입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_15_t1",
+   "text": "이번엔 제주로 건너가 망건 만드는 말총을 몽땅 사들입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_16_t0",
+   "text": "얼마 안 가 망건 값이 열 배로 뛰었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_16_t1",
+   "text": "얼마 안 가 망건 값이 열 배로 뛰었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_17_t0",
+   "text": "허생은 혀를 찹니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_17_t1",
+   "text": "허생은 혀를 찹니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_18_t0",
+   "text": "만 냥으로 온 나라 물건 값이 흔들리니, 이 나라 살림이 얼마나 얕은가. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_18_t1",
+   "text": "만 냥으로 온 나라 물건 값이 흔들리니, 이 나라 살림이 얼마나 얕은가. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_19_t0",
+   "text": "허생은 늙은 뱃사공에게 사람 살 만한 빈 섬을 묻습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_19_t1",
+   "text": "허생은 늙은 뱃사공에게 사람 살 만한 빈 섬을 묻습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_20_t0",
+   "text": "사공이 일러 준 섬은 나무와 꽃이 우거지고 땅이 기름졌지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_20_t1",
+   "text": "사공이 일러 준 섬은 나무와 꽃이 우거지고 땅이 기름졌지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_21_t0",
+   "text": "마침 변산에는 관군에 쫓겨 산에 숨어 사는 도적 떼 수천 명이 있었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_21_t1",
+   "text": "마침 변산에는 관군에 쫓겨 산에 숨어 사는 도적 떼 수천 명이 있었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_22_t0",
+   "text": "허생은 그들을 찾아가 돈을 나눠 주며 말합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_22_t1",
+   "text": "허생은 그들을 찾아가 돈을 나눠 주며 말합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_23_t0",
+   "text": "각자 아내 한 사람, 소 한 마리를 데리고 오라고. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_23_t1",
+   "text": "각자 아내 한 사람, 소 한 마리를 데리고 오라고. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_24_t0",
+   "text": "도적질 대신 땅을 일구며 살자는 말에 도적들은 너도나도 그를 따랐습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_24_t1",
+   "text": "도적질 대신 땅을 일구며 살자는 말에 도적들은 너도나도 그를 따랐습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_25_t0",
+   "text": "섬에 들어간 사람들은 집을 짓고 밭을 갈았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_25_t1",
+   "text": "섬에 들어간 사람들은 집을 짓고 밭을 갈았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_26_t0",
+   "text": "땅이 워낙 기름져 삼 년 먹을 곡식을 쌓고도 남았지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_26_t1",
+   "text": "땅이 워낙 기름져 삼 년 먹을 곡식을 쌓고도 남았지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_27_t0",
+   "text": "허생은 남은 곡식을 일본 나가사키에 내다 팔아 큰돈을 법니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_27_t1",
+   "text": "허생은 남은 곡식을 일본 나가사키에 내다 팔아 큰돈을 법니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_28_t0",
+   "text": "그러고는 글 아는 사람들을 데리고 섬을 떠나며 배를 모두 불사르고, 돈 오십만 냥은 바다에 던져 버리지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_28_t1",
+   "text": "그러고는 글 아는 사람들을 데리고 섬을 떠나며 배를 모두 불사르고, 돈 오십만 냥은 바다에 던져 버리지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_29_t0",
+   "text": "나라 안에 이만한 돈을 담을 곳이 없다면서요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_29_t1",
+   "text": "나라 안에 이만한 돈을 담을 곳이 없다면서요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_30_t0",
+   "text": "뭍으로 돌아온 허생은 가난한 사람들을 두루 돕고, 남은 십만 냥을 들고 변씨를 찾아가 갚습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_30_t1",
+   "text": "뭍으로 돌아온 허생은 가난한 사람들을 두루 돕고, 남은 십만 냥을 들고 변씨를 찾아가 갚습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_31_t0",
+   "text": "놀란 변씨가 이자를 셈하려 하자 허생은 손사래를 치지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_31_t1",
+   "text": "놀란 변씨가 이자를 셈하려 하자 허생은 손사래를 치지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_32_t0",
+   "text": "그날부터 둘은 벗이 됩니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_32_t1",
+   "text": "그날부터 둘은 벗이 됩니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_33_t0",
+   "text": "변씨가 쌀과 옷을 보내면 허생은 꼭 필요한 만큼만 받았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_33_t1",
+   "text": "변씨가 쌀과 옷을 보내면 허생은 꼭 필요한 만큼만 받았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_34_t0",
+   "text": "어느 날 변씨가 손님 한 사람을 데리고 옵니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_34_t1",
+   "text": "어느 날 변씨가 손님 한 사람을 데리고 옵니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_35_t0",
+   "text": "청나라를 치는 북벌을 준비하던 어영대장 이완이었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_35_t1",
+   "text": "청나라를 치는 북벌을 준비하던 어영대장 이완이었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_36_t0",
+   "text": "나라를 도울 인재를 구한다는 그에게 허생은 세 가지 계책을 내놓습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_36_t1",
+   "text": "나라를 도울 인재를 구한다는 그에게 허생은 세 가지 계책을 내놓습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_37_t0",
+   "text": "어진 선비를 몸소 찾아가 모셔 올 것, 명나라 장수의 후손들에게 종실의 딸을 시집보낼 것, 양반 자제들에게 머리를 깎고 청나라 옷을 입혀 그 나라로 보내 배우게 할 것. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_37_t1",
+   "text": "어진 선비를 몸소 찾아가 모셔 올 것, 명나라 장수의 후손들에게 종실의 딸을 시집보낼 것, 양반 자제들에게 머리를 깎고 청나라 옷을 입혀 그 나라로 보내 배우게 할 것. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_38_t0",
+   "text": "이완은 셋 다 고개를 젓습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_38_t1",
+   "text": "이완은 셋 다 고개를 젓습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_39_t0",
+   "text": "어렵다고, 어렵다고, 또 어렵다고. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_39_t1",
+   "text": "어렵다고, 어렵다고, 또 어렵다고. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_00_t0",
+   "text": "일분 현대문학, 레이먼드 카버의 별것 아닌 것 같지만, 도움이 되는. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_00_t1",
+   "text": "일분 현대문학, 레이먼드 카버의 별것 아닌 것 같지만, 도움이 되는. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_01_t0",
+   "text": "찾아가지 않은 생일 케이크, 그리고 한밤에 걸려 오는 정체 모를 전화. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_01_t1",
+   "text": "찾아가지 않은 생일 케이크, 그리고 한밤에 걸려 오는 정체 모를 전화. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_02_t0",
+   "text": "토요일 오후, 앤은 쇼핑센터 빵집에 가서 아들 스코티의 생일 케이크를 주문합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_02_t1",
+   "text": "토요일 오후, 앤은 쇼핑센터 빵집에 가서 아들 스코티의 생일 케이크를 주문합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_03_t0",
+   "text": "월요일이면 여덟 살이 되는 아이를 위해 고른 건 우주선 그림을 올린 초콜릿 케이크. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_03_t1",
+   "text": "월요일이면 여덟 살이 되는 아이를 위해 고른 건 우주선 그림을 올린 초콜릿 케이크. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_04_t0",
+   "text": "빵집 주인은 굵은 목에 앞치마를 두른 나이 지긋한 남자였습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_04_t1",
+   "text": "빵집 주인은 굵은 목에 앞치마를 두른 나이 지긋한 남자였습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_05_t0",
+   "text": "필요한 말만 하고 웃지도 않아서, 앤은 조금 서운한 마음으로 가게를 나옵니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_05_t1",
+   "text": "필요한 말만 하고 웃지도 않아서, 앤은 조금 서운한 마음으로 가게를 나옵니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_06_t0",
+   "text": "케이크는 월요일 오후, 친구들을 불러 여는 작은 생일 파티에 맞춰 찾아가기로 했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_06_t1",
+   "text": "케이크는 월요일 오후, 친구들을 불러 여는 작은 생일 파티에 맞춰 찾아가기로 했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_07_t0",
+   "text": "앤은 돌아오는 길에 아이가 촛불을 끄는 모습을 그려 봅니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_07_t1",
+   "text": "앤은 돌아오는 길에 아이가 촛불을 끄는 모습을 그려 봅니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_08_t0",
+   "text": "아이를 키우는 일은 이런 작은 약속들이 하루하루 이어지는 것이었으니까요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_08_t1",
+   "text": "아이를 키우는 일은 이런 작은 약속들이 하루하루 이어지는 것이었으니까요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_09_t0",
+   "text": "빵집 주인에게 그 케이크는 그날 주문받은 여러 개 가운데 하나였을 테지만요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_09_t1",
+   "text": "빵집 주인에게 그 케이크는 그날 주문받은 여러 개 가운데 하나였을 테지만요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_10_t0",
+   "text": "월요일 아침, 스코티는 친구와 학교에 가다 길모퉁이에서 차에 치입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_10_t1",
+   "text": "월요일 아침, 스코티는 친구와 학교에 가다 길모퉁이에서 차에 치입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_11_t0",
+   "text": "차는 그대로 가 버렸지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_11_t1",
+   "text": "차는 그대로 가 버렸지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_12_t0",
+   "text": "아이는 혼자 일어나 집까지 걸어와 엄마에게 그 일을 이야기하다가, 소파에 누운 채 깨어나지 않습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_12_t1",
+   "text": "아이는 혼자 일어나 집까지 걸어와 엄마에게 그 일을 이야기하다가, 소파에 누운 채 깨어나지 않습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_13_t0",
+   "text": "앤은 아이를 안고 남편에게 전화를 겁니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_13_t1",
+   "text": "앤은 아이를 안고 남편에게 전화를 겁니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_14_t0",
+   "text": "그날 오후의 파티도, 빵집에 맡겨 둔 생일 케이크도 그렇게 잊혔습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_14_t1",
+   "text": "그날 오후의 파티도, 빵집에 맡겨 둔 생일 케이크도 그렇게 잊혔습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_15_t0",
+   "text": "병원에서 의사는 혼수상태가 아니라 깊이 잠든 것뿐이라고, 곧 깨어날 거라고 말합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_15_t1",
+   "text": "병원에서 의사는 혼수상태가 아니라 깊이 잠든 것뿐이라고, 곧 깨어날 거라고 말합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_16_t0",
+   "text": "앤과 남편 하워드는 침대 곁을 떠나지 못하지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_16_t1",
+   "text": "앤과 남편 하워드는 침대 곁을 떠나지 못하지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_17_t0",
+   "text": "잠깐 씻으러 집에 들른 하워드에게 전화가 걸려 옵니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_17_t1",
+   "text": "잠깐 씻으러 집에 들른 하워드에게 전화가 걸려 옵니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_18_t0",
+   "text": "낯선 남자가 케이크를 찾아가지 않았다고 말하는데, 하워드는 무슨 소린지 몰라 전화를 끊어 버립니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_18_t1",
+   "text": "낯선 남자가 케이크를 찾아가지 않았다고 말하는데, 하워드는 무슨 소린지 몰라 전화를 끊어 버립니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_19_t0",
+   "text": "전화는 그 뒤로도 계속 옵니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_19_t1",
+   "text": "전화는 그 뒤로도 계속 옵니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_20_t0",
+   "text": "아무 말 없이 끊기도 하고, 불쑥 스코티 이야기를 꺼내기도 하지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_20_t1",
+   "text": "아무 말 없이 끊기도 하고, 불쑥 스코티 이야기를 꺼내기도 하지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_21_t0",
+   "text": "아이가 깨어나지 않는 낮과 밤 사이로 정체 모를 목소리가 부부를 할퀴고 지나갑니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_21_t1",
+   "text": "아이가 깨어나지 않는 낮과 밤 사이로 정체 모를 목소리가 부부를 할퀴고 지나갑니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_22_t0",
+   "text": "앤은 병원 대기실에서 다른 아이의 소식을 기다리는 가족을 만나, 서로의 두려움을 잠시 나누기도 합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_22_t1",
+   "text": "앤은 병원 대기실에서 다른 아이의 소식을 기다리는 가족을 만나, 서로의 두려움을 잠시 나누기도 합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_23_t0",
+   "text": "낯선 사람과 나눈 몇 마디가 이상하게 위로가 되었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_23_t1",
+   "text": "낯선 사람과 나눈 몇 마디가 이상하게 위로가 되었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_24_t0",
+   "text": "하지만 병실로 돌아오면 아이는 여전히 같은 자세로 잠들어 있습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_24_t1",
+   "text": "하지만 병실로 돌아오면 아이는 여전히 같은 자세로 잠들어 있습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_25_t0",
+   "text": "의사들은 검사를 거듭하지만 아이는 여전히 눈을 뜨지 않습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_25_t1",
+   "text": "의사들은 검사를 거듭하지만 아이는 여전히 눈을 뜨지 않습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_26_t0",
+   "text": "앤은 아이 손을 꼭 쥐고 이름을 부르고, 하워드는 창밖만 바라보지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_26_t1",
+   "text": "앤은 아이 손을 꼭 쥐고 이름을 부르고, 하워드는 창밖만 바라보지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_27_t0",
+   "text": "의사는 조심스럽게 수술 이야기를 꺼냅니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_27_t1",
+   "text": "의사는 조심스럽게 수술 이야기를 꺼냅니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_28_t0",
+   "text": "부부는 곧 깨어날 거라는 그 말 하나에 기대어 또 하루를 버팁니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_28_t1",
+   "text": "부부는 곧 깨어날 거라는 그 말 하나에 기대어 또 하루를 버팁니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_29_t0",
+   "text": "밤이 깊어 가고, 병원 복도의 불빛은 꺼지지 않습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_29_t1",
+   "text": "밤이 깊어 가고, 병원 복도의 불빛은 꺼지지 않습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_30_t0",
+   "text": "앤은 집에 잠깐 다녀오라는 남편의 말에도 쉽게 자리를 뜨지 못합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_30_t1",
+   "text": "앤은 집에 잠깐 다녀오라는 남편의 말에도 쉽게 자리를 뜨지 못합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  }
+ ]
+}

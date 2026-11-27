@@ -1,0 +1,55 @@
+# 움직이는 3D 삽화 (발행인 지시 2026-11-13)
+
+> "3D로 삽화를 그리고 3초쯤 살짝 움직이게. 배경 말고 오브젝트도 움직이게(갓등이 흔들리고, 사람이 서로 마주 보고 신기해하거나 손가락으로 가리키는 등). 가능한 많은 삽화를 매일 이렇게."
+
+three.js로 장면을 세우고 신문 망점·윤곽선 후처리를 입혀 흑백 펜화처럼 만든 뒤, 3초(90프레임) 반복 MP4로 굽는다.
+사이트(index.html의 `__vidUp`)는 JSON에서 `img` 옆에 `video`가 있는 칸을 찾아 그 그림 자리를 소리 없는 반복 영상으로 바꾼다.
+- 데이터 절약·'동작 줄이기' 설정을 켠 독자는 그림(img) 그대로 본다. 그래서 img는 지우지 않는다(GPT 그림이나 SVG).
+- 포스터는 영상과 같은 이름의 .jpg(렌더러가 첫 프레임으로 자동 생성).
+
+## 만들기
+1. 장면 파일 `scripts/m3d/scenes/<날짜>-<칸>.js` 를 쓴다(예: `example-plaza.js`를 복사해 고친다).
+2. 검수용 정지 컷 3장(움직임이 가장 많은 순간): 
+   `node scripts/m3d/render.cjs scenes/<파일>.js /tmp/s1.jpg --still 0.3` (0.3·1.2·2.1초 등) → Read로 직접 본다.
+3. 본 렌더(약 30초): `node scripts/m3d/render.cjs scenes/<파일>.js img/jp/<칸>-<날짜>-3d.mp4` → 같은 이름 .jpg 포스터도 생긴다. 1MB 안팎.
+4. JSON의 그 칸에 `"video": "img/jp/<칸>-<날짜>-3d.mp4"` 추가(img는 그대로).
+   - 사설 삽화 jipiltae.json `cartoon`, 도안나 미니 사설 `editorial.cartoon`, 안광주 미니 사설 gemini.json `editorial.cartoon`(파일은 img/gm/),
+     광고인 `person`, 트렌드 `trend`·`trendArt`, 4컷 grok.json `strip.panels[n]`(파일은 img/gk/, 칸마다 하나).
+   - ingest 스크립트가 덮어쓸 수 있으니 ingest가 끝난 뒤 마지막에 넣는다.
+NODE_PATH=$(npm root -g) 로 playwright를 찾는다. 크로미움은 /opt/pw-browsers/chromium 이 있으면 그것을 쓴다(소프트웨어 WebGL, swiftshader).
+
+## 장면 파일 규칙
+```js
+export const secs = 3;
+export default function (K) {           // K = kit.js 전부 + {THREE, scene, cam, R, render}
+  K.ground(scene); K.building(scene, x, z, w, d, h, seed, rot); ...
+  const P = K.person(scene, { x, z, coat, hair:'short'|'long'|'bun'|'cap', backpack, scale, rot });
+  cam.position.set(...); cam.lookAt(...);          // 카메라는 고정(움직이면 영상이 2~3배 무거워진다)
+  return (t, ph) => {                               // ph: 0→2π 한 바퀴 = 영상 한 번
+    const W = (a, b) => K.win(ph, a, b, 0.1);       // 반복 안에서 a~b 구간만 1 (손짓 타이밍)
+    P.pose({ headYaw, headPitch, headTilt, torsoYaw, lean, bob, armL:{fwd,out,elbow,point}, armR:{...} });
+  };
+}
+```
+- 모든 움직임은 ph의 sin/cos 또는 `K.win`으로 → 3초 끝과 처음이 이어져 끊김 없이 반복된다.
+- **품질(11/14 발행인 "구분 안 됨·배경 없음·선 깨짐")**: 렌더는 2배로 그려 줄임(setup ss=2, 바꾸지 말 것), crf 기본 24. 후처리에 밝기 소벨 윤곽선 → 얼굴·옷·배경 경계에도 선. `K.backdrop(scene,{kind,seed,night,near})` 로 배경을 채우고(country/town/city/room/shore), 장면 소품 3개 이상. `K.person` 은 얼굴 밝게·옷 진하게·머리 진하게로 대비를 자동 보정하고 깃·단추·허리띠·소매끝·귀를 그린다(`scarf: 0xf2f0ea` 로 목도리, `detail:false` 로 끔).
+- **밝게(11/14 발행인 "삽화 배경이 다 회색이니 밝게")**: 후처리가 중간 회색을 밝게 끌어올린다(kit.js `pow(1.-l,1.6)`). 장면 opts 의 bg·fog 는 0xd8 이상 밝은 종이색, 바닥·벽도 밝은 회색(0xc8 이상)으로 — 어두운 회색 배경은 밤 장면에만. 인물·사물은 배경보다 확실히 진하거나 윤곽으로 구분되게.
+- **방향(11/14 발행인 지적 — 차가 거꾸로 가고 운전자가 반대로 앉은 장면이 나갔음)**: `K.person` rot 0 → -z(안쪽), rot +π/2 → -x(왼쪽), rot -π/2 → +x(오른쪽). 탈것 장면은 배경이 흐르는 쪽의 반대가 진행 방향 — 차 앞(전조등·보닛), 운전자·탄 사람 얼굴, 걷는 발걸음이 모두 그쪽을 향하는지 정지 컷 두 장으로 확인하고 파일 첫 줄 주석에 진행 방향을 적는다.
+- 사람은 -z(화면 안쪽)를 본다. `headYaw>0` 왼쪽으로 고개, `fwd` 팔을 앞으로 드는 각(2.4≈위를 가리킴), `point:true` 검지, `elbow` 팔꿈치 굽힘 정도(0~2.4, 부호 상관없이 항상 앞쪽으로만 굽음 — 사람 팔처럼), `fwd:1.2, elbow:1.8` 손을 얼굴로.
+  뒷모습 구도에서 서로 마주 보게 하려면 headYaw ±1.3, torsoYaw ±0.5 정도까지 돌려야 옆얼굴이 보인다.
+- 움직일 거리: 사람 몸짓(가리키기·마주 보기·놀라기·고개 끄덕이기), 매달린 것(`K.lanternString` 흔들림), 화면 속 영상(`K.screen` + drift),
+  깜박이는 간판, 먼지(`K.motes`), 새(`K.bird`). 장면마다 오브젝트 2~3개 이상은 움직이게 한다.
+- 도구: `K.box`, `K.cyl`, `K.line`, `K.canvasTex`(캔버스로 간판·포스터·화면 그림), `K.imgTex('/repo/img/...')`(저장소 그림을 화면 텍스처로), `K.windowsTex`.
+- 실존 인물은 얼굴 세부 없이(뒷모습·인형 얼굴), 실제 로고·브랜드 디자인·글자 금지(간판은 도형·기호로), 논란 장면 재현 금지.
+- 망점·해칭은 쓰지 않는다(움직이면 무늬가 일렁여 어지럽다, 발행인 11/13). 후처리는 먹 농담 4단 + 윤곽선.
+- 반복 무늬(창문 격자·바닥 타일·먼지)는 옅고 성기게, 화면 속 사진은 흐르게 하지 않는다(drift 0). 큰 배경은 멈추고 오브젝트만 움직인다.
+
+- **소품은 손에 붙인다(11/18 발행인 "봉투가 공중에 떠 있다")**: 사람이 쥐는 물건(봉투·편지·잔·책·꽃)을 월드 좌표로 두지 말 것. `const P = K.person(...); P.hold('R', mesh, { at:[x,y,z], rot:[rx,ry,rz] })` — 손 기준으로 붙여서 팔을 따라 움직인다. 정지 컷 두 장(팔 내린 때·뻗은 때)으로 손에 물려 있는지 확인.
+- **잉크 재드로잉(선택)**: `render.cjs ... --look ink` → 컬러로 렌더한 뒤 Lemo-Opuscar redraw.js(XDoG 선·농담·해칭, MIT, vendor/lemo/)로 펜화처럼 다시 그린다.
+
+- **K.person 다양성(11/24 발행인 "캐릭터 의상·표정·눈이 다 똑같다, 특히 여자 치마가 맨날 똑같다")**: 치마를 손으로 원뿔 붙이지 말고 옵션으로 고른다. 한 장면 안에서도, 전날 장면과도 겹치지 않게 섞는다.
+  - `outfit`: 'coat'(기본·단추 외투) · 'suit'(양복·넥타이) · 'sweater'(목폴라·줄무늬) · 'apron'(앞치마) · 'jeogori'(한복 저고리·옷고름) · 'durumagi'(두루마기) · 'longcoat'(긴 외투) · 'vest'(셔츠+조끼, `sleeve` 로 소매색)
+  - `skirt`: 'a'(무릎 A라인) · 'long'(발목) · 'pleat'(주름) · 'pencil'(H라인) · 'tiered'(층층) · 'chima'(한복 치마, 가슴부터 바닥) + `skirtC`
+  - `hair`: short · long · bun · cap · bob · ponytail · braid · curly · bald · topknot(상투) · gat(갓) · fedora · beret · kerchief(머릿수건)
+  - 얼굴: `eyes` dot·oval·wide·smile·narrow·closed / `brows` flat·up·worried·stern·thick / `mouth` line·smile·open·frown·small / `beard` mustache·beard·goatee / `glasses:true`. 안 적으면 `seed`(없으면 위치)로 매번 다르게 고른다 — 장면 감정에 맞게 직접 정해 주는 게 더 좋다(슬픈 장면에 웃는 입 금지).
+  - 한국 근대 소설 여인 = jeogori+chima, 시골 아낙 = apron+long+kerchief, 서양 현대 = sweater/coat + pleat/pencil/a, 선비 = durumagi+gat 처럼 시대·인물에 맞게.

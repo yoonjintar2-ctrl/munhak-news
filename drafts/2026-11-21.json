@@ -1,0 +1,729 @@
+{
+ "date": "2026-11-21",
+ "no": 9,
+ "publisher": {
+  "name": "윤진탈",
+  "org": "지구별"
+ },
+ "author": {
+  "name": "금로동",
+  "title": "기자"
+ },
+ "lead": "토요일 아침입니다. 책만 읽던 선비 허생이 만 냥으로 조선을 시험하고, 카버의 빵집 주인은 한밤에 따뜻한 빵을 내놓습니다. 올해 탄생 100주년을 맞은 박경리의 다섯 글자, 예이츠의 호수 섬까지. 최인훈의 한 문장으로 문을 엽니다.",
+ "sentence": {
+  "text": "광장은 대중의 밀실이며 밀실은 개인의 광장이다.",
+  "big": [
+   "광장은 대중의 밀실이며",
+   "밀실은 개인의 광장이다."
+  ],
+  "speaker": "작가 최인훈(단행본 서문)",
+  "work": "광장",
+  "writer": "최인훈",
+  "year": 1960,
+  "origin": "국내",
+  "book": "중편소설, 1960년 『새벽』 발표",
+  "meaning": "모두가 모이는 광장도 결국 한 사람 한 사람의 방에서 시작되고, 혼자의 방도 남과 이어질 때 비로소 넓어진다는 말입니다. 둘 중 하나만으로는 사람이 온전히 살 수 없다는 뜻이지요.",
+  "context": "『광장』 단행본 서문에 작가가 쓴 문장입니다. 주인공 이명준은 남에서는 밀실만, 북에서는 광장만 강요받다가 전쟁 포로가 된 뒤 남도 북도 아닌 중립국을 택하지요.",
+  "craft": "'광장'과 '밀실'을 자리만 바꿔 두 번 맞세웁니다. 거울처럼 접힌 문장이라 한 번 읽으면 잊히지 않고, 둘이 서로를 품어야 한다는 생각이 문장 모양 그대로 전해지지요.",
+  "img": "img/2026-11-21-sentence.jpg",
+  "video": "img/2026-11-21-sentence.mp4",
+  "alt": "넓은 광장 한가운데 홀로 선 사람이 고개를 들어, 광장 가장자리 건물의 불 켜진 작은 창 하나를 올려다본다. 비둘기가 날아오르고 창의 커튼이 흔들린다",
+  "sources": [
+   "https://pressian.com/pages/articles/42992",
+   "https://weekly.khan.co.kr/article/201711061834061",
+   "https://encykorea.aks.ac.kr/Article/E0005204",
+   "https://sgsg.hankyung.com/article/2017061697571"
+  ],
+  "ai": "A lone person in a dark coat and white scarf stands in the middle of a wide empty stone plaza, pointing up at one small lit window in a tall building at the edge. Pigeons flying, street lamps, a bench, a fountain."
+ },
+ "poem": {
+  "title": "이니스프리 호수 섬",
+  "title_orig": "The Lake Isle of Innisfree",
+  "writer": "윌리엄 버틀러 예이츠",
+  "year": 1890,
+  "origin": "국외",
+  "book": "1890년 잡지 『내셔널 옵서버』 발표, 1892년 시집 『캐슬린 백작부인』 수록",
+  "public_domain": true,
+  "translator": "금로동 옮김",
+  "orig_lang": "영어",
+  "lines": [
+   "나 이제 일어나 가리라, 이니스프리로 가리라,",
+   "거기 진흙과 욋가지로 작은 오두막 하나 짓고,",
+   "콩 이랑 아홉 두둑, 꿀벌 칠 벌통 하나 두고,",
+   "벌 소리 붕붕대는 숲속 빈터에 홀로 살리라.",
+   "",
+   "거기서 나는 얼마쯤 평화를 얻으리, 평화는 천천히 방울져 내리니,",
+   "아침의 베일에서 귀뚜라미 우는 곳까지 방울져 내리니,",
+   "거기 한밤은 온통 희미한 반짝임, 한낮은 보랏빛 물듦,",
+   "저녁은 홍방울새 날갯짓으로 가득하리.",
+   "",
+   "나 이제 일어나 가리라, 밤이고 낮이고 늘",
+   "호숫가에 나직이 찰랑이는 물소리 들리니,",
+   "한길에 서 있을 때도, 잿빛 포장길 위에서도,",
+   "가슴 가장 깊은 곳에서 그 소리 들리네."
+  ],
+  "lines_orig": [
+   "I will arise and go now, and go to Innisfree,",
+   "And a small cabin build there, of clay and wattles made;",
+   "Nine bean-rows will I have there, a hive for the honey-bee,",
+   "And live alone in the bee-loud glade.",
+   "",
+   "And I shall have some peace there, for peace comes dropping slow,",
+   "Dropping from the veils of the morning to where the cricket sings;",
+   "There midnight's all a glimmer, and noon a purple glow,",
+   "And evening full of the linnet's wings.",
+   "",
+   "I will arise and go now, for always night and day",
+   "I hear lake water lapping with low sounds by the shore;",
+   "While I stand on the roadway, or on the pavements grey,",
+   "I hear it in the deep heart's core."
+  ],
+  "img": "img/2026-11-21-poem.jpg",
+  "video": "img/2026-11-21-poem.mp4",
+  "alt": "잔잔한 호수 가운데 나무가 우거진 작은 섬, 물가에 오두막과 벌통 하나. 호숫가 길에 선 사람이 섬 쪽을 바라보고, 물결이 찰랑이며 새 떼가 날아간다",
+  "analysis": "이니스프리는 아일랜드 서부 슬라이고의 길 호수에 떠 있는 작은 섬입니다. 런던에 살던 젊은 예이츠는 거리 가게 진열창의 작은 분수 소리를 듣다 고향 호수가 떠올라 이 시를 썼다고 회고했지요. '가리라'를 되풀이하지만 시인은 끝내 떠나지 않습니다. 잿빛 포장길에 선 채, 물소리는 가슴 깊은 곳에서만 들리지요. 그리움이 하나의 장소가 되는 순간입니다.",
+  "oneline": "떠나지 못하는 날에도, 마음속 호수 하나는 늘 찰랑입니다.",
+  "sources": [
+   "https://en.wikisource.org/wiki/The_Lake_Isle_of_Innisfree",
+   "https://en.wikipedia.org/wiki/The_Lake_Isle_of_Innisfree",
+   "https://rpo.library.utoronto.ca/content/lake-isle-innisfree",
+   "https://www.victorianweb.org/authors/yeats/works/1.html"
+  ]
+ },
+ "novel": {
+  "title": "토지",
+  "writer": "박경리",
+  "year": 1969,
+  "origin": "국내",
+  "where": "제1부 제1편 첫 문장(1969년 연재 시작, 1994년 완간)",
+  "quote": "1897년의 한가위.",
+  "translator": null,
+  "img": "img/2026-11-21-novel.jpg",
+  "video": "img/2026-11-21-novel.mp4",
+  "alt": "한가위 아침, 기와집 솟을대문 앞 너른 들판에서 마을 사람들이 꽹과리와 북을 치며 풍물을 돌고, 대문 곁 어린 소녀가 그 모습을 바라본다. 들판의 벼가 흔들리고 상모 끈이 돈다",
+  "context": "구한말 경남 하동 평사리, 대지주 최참판댁의 한가위로 소설이 열립니다. 이 집의 외동딸 서희가 집안의 몰락과 간도 이주, 귀향을 거치며 반세기를 건너는 이야기의 첫걸음이지요.",
+  "analysis": "다섯 글자짜리 첫 문장입니다. 연도와 명절 하나로 시간을 못 박아 두고, 소설은 곧 들판과 마을 사람들, 풍물 소리 쪽으로 넓어지지요. 1897년은 조선이 대한제국을 선포한 해. 가장 풍성한 명절에서 출발한 이야기가 나라를 잃는 시대로 걸어 들어갈 것을 짧은 문장이 조용히 예고합니다. 스물여섯 해에 걸친 대장정의 첫 칸이었습니다.",
+  "sources": [
+   "https://brunch.co.kr/@boowoon/87",
+   "https://www.gqkorea.co.kr/2021/01/12/%ed%95%9c%ea%b5%ad-%eb%ac%b8%ed%95%99-%ec%86%8d-%eb%b9%9b%eb%82%98%eb%8a%94-%ec%b2%ab-%eb%ac%b8%ec%9e%a5-30%ed%8e%b8/",
+   "https://m.seoul.co.kr/news/2005/01/20/20050120065001",
+   "https://encykorea.aks.ac.kr/Article/E0071046"
+  ]
+ },
+ "writer": {
+  "name": "박경리",
+  "life": "1926–2008",
+  "bio": "1926년 경남 통영에서 태어났습니다. 1955년 김동리의 추천으로 단편 「계산」을 발표하며 등단했고, 『김약국의 딸들』(1962)로 이름을 알렸지요. 1969년부터 1994년까지 스물여섯 해 동안 『토지』를 써 완간했고, 말년에는 원주에서 텃밭을 가꾸며 후배 문인들을 품었습니다. 올해가 탄생 100주년입니다.",
+  "works": [
+   "토지",
+   "김약국의 딸들",
+   "시장과 전장"
+  ],
+  "link": "오늘의 소설 구절, 『토지』의 다섯 글자 첫 문장을 쓴 사람입니다. 그렇게 연 이야기를 스물여섯 해 동안 놓지 않았지요.",
+  "img": "img/2026-11-21-writer.png",
+  "alt": "얼굴 세부 없이 그린, 짧은 단발의 작가가 원고지 놓인 책상 앞에 앉아 펜을 든 옆모습 실루엣 펜화, 뒤로 나뭇잎 비치는 창",
+  "sources": [
+   "https://encykorea.aks.ac.kr/Article/E0071046",
+   "https://www.mt.co.kr/society/2008/05/05/2008050515585852576",
+   "https://m.seoul.co.kr/news/1994/10/09/19941009011001",
+   "https://v.daum.net/v/20260504161332153"
+  ]
+ },
+ "trivia": [
+  {
+   "q": "박경리의 『토지』는 스물여섯 해에 걸쳐 완성됐다.",
+   "a": "O",
+   "why": "1969년 연재를 시작해 1994년에 마쳤습니다. 그해 가을 '26년의 창작혼'을 기리는 완간 기념 자리가 열렸지요."
+  },
+  {
+   "q": "「허생전」은 박지원이 따로 펴낸 소설집에 실린 작품이다.",
+   "a": "X",
+   "why": "청나라 여행기 『열하일기』 속 「옥갑야화」에 들어 있는 이야기입니다. 여행길에 들은 이야기를 옮겨 적는 형식이지요."
+  },
+  {
+   "q": "『동국세시기』는 냉면을 여름 음식으로 적었다.",
+   "a": "X",
+   "why": "11월의 음식으로 적었습니다. 메밀국수를 무김치·배추김치 국물에 말고 돼지고기를 얹는다고 했지요."
+  }
+ ],
+ "calendar": "1694년 11월 21일 — 『캉디드』를 쓴 프랑스 작가 볼테르(본명 프랑수아마리 아루에), 파리에서 태어나다",
+ "calendar_sources": [
+  "https://www.britannica.com/biography/Voltaire",
+  "https://www.history.co.uk/this-day-in-history/21-november/voltaires-birthday"
+ ],
+ "onthisday": [
+  {
+   "year": "1863",
+   "title": "필명 'Q', 아서 퀼러쿠치 태어나다",
+   "body": "영국 작가 아서 퀼러쿠치가 1863년 오늘 콘월의 보드민에서 태어났습니다. 'Q'라는 필명으로 소설을 썼고, 1900년 『옥스퍼드 영시선』을 엮어 오래도록 영시 읽기의 길잡이가 되게 했지요.",
+   "sources": [
+    "https://www.britannica.com/biography/Arthur-Thomas-Quiller-Couch",
+    "https://en.wikipedia.org/wiki/Arthur_Quiller-Couch"
+   ]
+  },
+  {
+   "year": "1929",
+   "title": "『여자들의 방』의 메릴린 프렌치 태어나다",
+   "body": "미국 작가 메릴린 프렌치가 1929년 오늘 뉴욕에서 태어났습니다. 1977년 소설 『여자들의 방』으로 1950년대 교외 주부들의 삶을 그려 큰 반향을 일으켰지요.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Marilyn_French",
+    "https://en.wikipedia.org/wiki/The_Women%27s_Room",
+    "https://www.irishtimes.com/news/american-feminist-and-writer-best-known-for-the-women-s-room-1.761662"
+   ]
+  }
+ ],
+ "classic": {
+  "title": "허생전",
+  "title_orig": "許生傳",
+  "writer": "박지원",
+  "year": "1780년대",
+  "origin": "국내",
+  "where": "한문 단편, 『열하일기』 「옥갑야화」 속 이야기",
+  "oneline": "책만 읽던 가난한 선비가 만 냥을 빌려 조선의 민낯을 시험해 본다.",
+  "img": "img/2026-11-21-classic.jpg",
+  "video": "img/2026-11-21-classic.mp4",
+  "alt": "비가 새는 초가 오막살이, 등잔 아래 책을 펼친 갓 쓴 선비 곁에서 아내가 바느질하던 손을 멈추고 돌아본다. 처마에서 빗방울이 떨어지고 등잔불이 흔들린다",
+  "ai": "Two people in a shabby Joseon thatched hut at night: a thin scholar in a white robe and black gat hat reads a book by an oil lamp; his wife in hanbok (short jeogori jacket, long full chima skirt) stops sewing and turns to him, upset. Rain drips from eaves.",
+  "story": [
+   "한양 남산 아래 묵적골, 비가 새는 오막살이에 허생이라는 선비가 삽니다. 그는 밤낮 책만 읽고, 살림은 아내가 남의 바느질을 해 주며 겨우 꾸려 가지요. 칠 년째 되던 어느 날, 굶주림에 지친 아내가 따집니다. 과거도 안 보고 장사도 공장(工匠) 일도 못 하면 도둑질이라도 하라는 거냐고. 허생은 책을 덮으며 탄식합니다. 십 년을 채우려 했는데 아깝다고.",
+   "허생은 곧장 장안 제일 부자라는 변씨를 찾아가 만 냥을 빌려 달라고 합니다. 변씨는 해진 옷차림의 낯선 선비를 한 번 보더니 그 자리에서 만 냥을 내줍니다. 이름도 묻지 않았지요. 식구들이 어리둥절해하자 변씨는 말합니다. 돈 빌리러 오는 사람은 대개 말이 길고 굽실거리는데, 저 사람은 말이 짧고 눈빛이 당당하더라고.",
+   "허생은 그 돈을 들고 삼남으로 가는 길목 안성으로 내려가 대추·밤·감·배 같은 과일을 모조리 사들입니다. 과일이 동나 잔치도 제사도 못 치르게 된 사람들이 몰려왔고, 허생은 열 배 값에 되팔지요. 이번엔 제주로 건너가 망건 만드는 말총을 몽땅 사들입니다. 얼마 안 가 망건 값이 열 배로 뛰었습니다. 허생은 혀를 찹니다. 만 냥으로 온 나라 물건 값이 흔들리니, 이 나라 살림이 얼마나 얕은가.",
+   "허생은 늙은 뱃사공에게 사람 살 만한 빈 섬을 묻습니다. 사공이 일러 준 섬은 나무와 꽃이 우거지고 땅이 기름졌지요. 마침 변산에는 관군에 쫓겨 산에 숨어 사는 도적 떼 수천 명이 있었습니다. 허생은 그들을 찾아가 돈을 나눠 주며 말합니다. 각자 아내 한 사람, 소 한 마리를 데리고 오라고. 도적질 대신 땅을 일구며 살자는 말에 도적들은 너도나도 그를 따랐습니다.",
+   "섬에 들어간 사람들은 집을 짓고 밭을 갈았습니다. 땅이 워낙 기름져 삼 년 먹을 곡식을 쌓고도 남았지요. 허생은 남은 곡식을 일본 나가사키에 내다 팔아 큰돈을 법니다. 그러고는 글 아는 사람들을 데리고 섬을 떠나며 배를 모두 불사르고, 돈 오십만 냥은 바다에 던져 버리지요. 나라 안에 이만한 돈을 담을 곳이 없다면서요.",
+   "뭍으로 돌아온 허생은 가난한 사람들을 두루 돕고, 남은 십만 냥을 들고 변씨를 찾아가 갚습니다. 놀란 변씨가 이자를 셈하려 하자 허생은 손사래를 치지요. 그날부터 둘은 벗이 됩니다. 변씨가 쌀과 옷을 보내면 허생은 꼭 필요한 만큼만 받았습니다.",
+   "어느 날 변씨가 손님 한 사람을 데리고 옵니다. 청나라를 치는 북벌을 준비하던 어영대장 이완이었지요. 나라를 도울 인재를 구한다는 그에게 허생은 세 가지 계책을 내놓습니다. 어진 선비를 몸소 찾아가 모셔 올 것, 명나라 장수의 후손들에게 종실의 딸을 시집보낼 것, 양반 자제들에게 머리를 깎고 청나라 옷을 입혀 그 나라로 보내 배우게 할 것. 이완은 셋 다 고개를 젓습니다. 어렵다고, 어렵다고, 또 어렵다고."
+  ],
+  "ending": "허생은 크게 노합니다. 어렵다는 말만 되풀이하며 머리 하나, 옷 한 벌 바꾸지 못하고 체면만 따지면서 무슨 북벌이냐고 꾸짖고는, 칼을 찾아 이완을 찌르려 하지요. 이완은 놀라 뒷문으로 달아났습니다. 이튿날 다시 찾아가 보니 오막살이는 텅 비어 있었고, 허생은 어디론가 사라진 뒤였습니다.",
+  "why": "장사를 천하게 여기던 시대에, 박지원은 책만 읽던 선비를 장사꾼으로 내세워 조선 경제의 허약함과 북벌론의 허세를 꼬집었습니다. 웃음 속에 날이 선 실학의 소설입니다.",
+  "sources": [
+   "https://encykorea.aks.ac.kr/Article/E0063073",
+   "https://sgsg.hankyung.com/article/2022050668681",
+   "https://scholar.kyobobook.co.kr/article/detail/4010028524879",
+   "https://thewiki.kr/w/허생"
+  ],
+  "scenes": [
+   {
+    "after": 1,
+    "img": "img/2026-11-21-classic-s1.jpg",
+    "video": "img/2026-11-21-classic-s1.mp4",
+    "alt": "부잣집 대청 앞마당, 진한 두루마기의 부자 변씨가 엽전 꾸러미를 담은 궤짝을 내밀고 해진 흰 옷에 갓을 쓴 허생이 손을 내밀어 받는다. 대청 위 식구들이 고개를 빼고, 처마 풍경이 흔들린다",
+    "ai": "Two Joseon men in a rich house courtyard: a plump wealthy merchant in a dark robe and black horsehair cap holds out a wooden chest of strung brass coins; a thin scholar in a worn white robe and black gat hat reaches out one hand to take it. Family peeking from the wooden hall."
+   },
+   {
+    "after": 4,
+    "img": "img/2026-11-21-classic-s2.jpg",
+    "video": "img/2026-11-21-classic-s2.mp4",
+    "alt": "곡식 섬을 실은 돛단배 뱃머리에서 갓 쓴 허생이 엽전 꾸러미를 바다로 힘껏 던지고, 고물의 사공이 노를 젓는다. 꾸러미가 물보라를 일으키고, 멀리 밭이 일군 섬과 갈매기",
+    "ai": "A Joseon scholar in a white robe and black gat hat stands at the bow of a small wooden sailboat loaded with grain sacks, throwing a bundle of coins into the sea with a big swing; a boatman rows at the stern. Island with farm fields behind, gulls."
+   },
+   {
+    "after": 6,
+    "img": "img/2026-11-21-classic-s3.jpg",
+    "video": "img/2026-11-21-classic-s3.mp4",
+    "alt": "오막살이 방 안, 흰 옷의 허생이 몸을 내밀어 손가락으로 짚어 가며 계책을 말하고, 검은 갓에 진한 옷의 이완이 팔짱을 낀 채 고개를 젓는다. 가운데 소반 위 찻잔, 등잔불이 일렁인다",
+    "ai": "Two Joseon men seated on the floor of a bare room facing each other across a small round table with tea cups: a thin scholar in white robe and gat leans forward raising three fingers; a stern general in a dark robe and black hat folds his arms, shaking his head. Oil lamp."
+   }
+  ]
+ },
+ "modern": {
+  "title": "별것 아닌 것 같지만, 도움이 되는",
+  "title_orig": "A Small, Good Thing",
+  "writer": "레이먼드 카버",
+  "year": 1983,
+  "origin": "국외",
+  "where": "단편, 소설집 『대성당』(Cathedral, 1983) 수록",
+  "oneline": "찾아가지 않은 생일 케이크, 그리고 한밤에 걸려 오는 정체 모를 전화.",
+  "img": "img/2026-11-21-modern.jpg",
+  "video": "img/2026-11-21-modern.mp4",
+  "alt": "쇼핑센터 빵집 진열대 앞, 어머니가 케이크 견본 사진첩을 가리키고, 앞치마 두른 굵은 목의 빵집 주인이 무뚝뚝하게 주문서를 적는다. 진열대 위 선풍기가 돌고 문에 달린 종이 흔들린다",
+  "ai": "Two people in a small American bakery 1980s: a young mother in a coat points at a cake album on the counter; a heavy-set older baker in a white apron, thick neck, writes an order on a pad without smiling. Glass display case with loaves and rolls.",
+  "story": [
+   "토요일 오후, 앤은 쇼핑센터 빵집에 가서 아들 스코티의 생일 케이크를 주문합니다. 월요일이면 여덟 살이 되는 아이를 위해 고른 건 우주선 그림을 올린 초콜릿 케이크. 빵집 주인은 굵은 목에 앞치마를 두른 나이 지긋한 남자였습니다. 필요한 말만 하고 웃지도 않아서, 앤은 조금 서운한 마음으로 가게를 나옵니다.",
+   "케이크는 월요일 오후, 친구들을 불러 여는 작은 생일 파티에 맞춰 찾아가기로 했습니다. 앤은 돌아오는 길에 아이가 촛불을 끄는 모습을 그려 봅니다. 아이를 키우는 일은 이런 작은 약속들이 하루하루 이어지는 것이었으니까요. 빵집 주인에게 그 케이크는 그날 주문받은 여러 개 가운데 하나였을 테지만요.",
+   "월요일 아침, 스코티는 친구와 학교에 가다 길모퉁이에서 차에 치입니다. 차는 그대로 가 버렸지요. 아이는 혼자 일어나 집까지 걸어와 엄마에게 그 일을 이야기하다가, 소파에 누운 채 깨어나지 않습니다. 앤은 아이를 안고 남편에게 전화를 겁니다. 그날 오후의 파티도, 빵집에 맡겨 둔 생일 케이크도 그렇게 잊혔습니다.",
+   "병원에서 의사는 혼수상태가 아니라 깊이 잠든 것뿐이라고, 곧 깨어날 거라고 말합니다. 앤과 남편 하워드는 침대 곁을 떠나지 못하지요. 잠깐 씻으러 집에 들른 하워드에게 전화가 걸려 옵니다. 낯선 남자가 케이크를 찾아가지 않았다고 말하는데, 하워드는 무슨 소린지 몰라 전화를 끊어 버립니다.",
+   "전화는 그 뒤로도 계속 옵니다. 아무 말 없이 끊기도 하고, 불쑥 스코티 이야기를 꺼내기도 하지요. 아이가 깨어나지 않는 낮과 밤 사이로 정체 모를 목소리가 부부를 할퀴고 지나갑니다. 앤은 병원 대기실에서 다른 아이의 소식을 기다리는 가족을 만나, 서로의 두려움을 잠시 나누기도 합니다. 낯선 사람과 나눈 몇 마디가 이상하게 위로가 되었지요. 하지만 병실로 돌아오면 아이는 여전히 같은 자세로 잠들어 있습니다.",
+   "의사들은 검사를 거듭하지만 아이는 여전히 눈을 뜨지 않습니다. 앤은 아이 손을 꼭 쥐고 이름을 부르고, 하워드는 창밖만 바라보지요. 의사는 조심스럽게 수술 이야기를 꺼냅니다. 부부는 곧 깨어날 거라는 그 말 하나에 기대어 또 하루를 버팁니다. 밤이 깊어 가고, 병원 복도의 불빛은 꺼지지 않습니다. 앤은 집에 잠깐 다녀오라는 남편의 말에도 쉽게 자리를 뜨지 못합니다."
+  ],
+  "ending": "마침내 스코티가 눈을 뜹니다. 하지만 짧게 울음을 터뜨린 뒤 숨을 거두지요. 그날 밤 또 울린 전화에 앤은 깨닫습니다. 빵집 주인이었다는 걸. 분노에 차 찾아간 부부에게 그는 진심으로 사과하고, 막 구운 따뜻한 롤빵과 묵직한 검은 빵을 내놓습니다. 이럴 때 먹는 건 작지만 좋은 일이라고. 셋은 날이 밝도록 빵을 나누며 이야기합니다.",
+  "why": "슬픔의 한가운데에서 사람을 일으키는 건 거창한 위로가 아니라 따뜻한 빵 한 조각일 수 있다고, 카버는 짧고 건조한 문장으로 보여 줍니다. 미국 단편 소설의 오늘을 연 작품이지요.",
+  "sources": [
+   "https://www.ebsco.com/research-starters/literature-and-writing/small-good-thing-raymond-carver",
+   "https://www.litcharts.com/lit/a-small-good-thing/summary",
+   "https://www.supersummary.com/a-small-good-thing/summary",
+   "https://www.dordt.edu/in-all-things/eating-is-a-small-good-thing",
+   "https://sgsg.hankyung.com/article/2021052889651"
+  ],
+  "scenes": [
+   {
+    "after": 2,
+    "img": "img/2026-11-21-modern-s1.jpg",
+    "video": "img/2026-11-21-modern-s1.mp4",
+    "alt": "병실 침대에 머리에 붕대를 감은 소년이 잠들어 있고, 의자에 앉은 어머니가 몸을 숙여 아이 손을 쥔다. 창가의 아버지는 팔짱을 낀 채 창밖을 보고, 링거 병과 블라인드 끈이 흔들린다",
+    "ai": "Hospital room 1980s: a small boy with a bandaged head asleep in a white bed; his mother in a cardigan sits on a chair leaning over, holding his hand; the father stands by the window with arms folded looking out. IV stand, blinds."
+   },
+   {
+    "after": 3,
+    "img": "img/2026-11-21-modern-s2.jpg",
+    "video": "img/2026-11-21-modern-s2.mp4",
+    "alt": "밤 부엌, 수건을 목에 건 아버지가 벽걸이 전화 수화기를 귀에 대고 고개를 갸웃한다. 식탁 위 등이 흔들리고 꼬인 전화선이 출렁인다",
+    "ai": "A tired man with a towel around his neck stands in a dim American kitchen at night holding a wall phone receiver to his ear, frowning, puzzled. Coiled phone cord, kitchen table with a cup, hanging lamp, dark window."
+   },
+   {
+    "after": "ending",
+    "img": "img/2026-11-21-modern-s3.jpg",
+    "video": "img/2026-11-21-modern-s3.mp4",
+    "alt": "한밤 빵집, 앞치마를 두른 빵집 주인이 작업대에서 빵을 매만지고, 맞은편 탁자에 앉은 어머니가 빵을 들어 먹는다. 선반 가득한 단지와 흔들리는 천장 등(AI 펜화)",
+    "ai": "Three people at a worktable in the back of a bakery late at night: a heavy older baker in a white apron offers a plate of warm steaming cinnamon rolls and a dark loaf; a grieving young couple sit across, the woman taking a roll. Oven, shelves of bread, hanging lamp."
+   }
+  ]
+ },
+ "go": {
+  "title": "「열여섯의 끝내기」 백234",
+  "game": "제3회 동양증권배 세계바둑선수권 결승 제5국",
+  "date": "1992-01-27",
+  "black": "임해봉(린하이펑) 9단",
+  "white": "이창호 5단",
+  "result": "백 1집 반 승",
+  "moves": "pd dd pq cp ep qn qp qk cq bq dq bo iq dn fc cf db cc ic qf nd rd qc ph dg cg di fd gd fe hd dk gh kq mq hr hq gq gp fq ir fp fo go hp eo fn dp fk kn kl mp nq mn pk qj pm pn on oo om op oq ml qm rm rl rn ql rq lp mo oi oh mi rp kp nh ni nk pj pi nj lg ki qq pp po rc rk le lh li cb lm mm ln ej sk sj fj ei eh lo ko fi gi fh fg gg gf hg ff kk jk jj jl kj ji ij ii hj dl el fl ek em dm lk gm ck cl dj dl gl fm hl ll lj ch dh kf sl ri km pr ke hn gr fr hs jn fs es er gs qr rr fs im hk gs mh hr nf is kr ge hf ec fb he ie gj hi js io jo jp ho or qs ks bj eb ng mg qe qd re dc de cj bk ca ba da oe of pe ne sc sb sd rb bb ed ee os if ig ci hh df eg en jr od oc pf hs is ps qr og pg sm sn qo ro mk ol pl hm ec",
+  "from": 226,
+  "to": 235,
+  "key": 234,
+  "key_label": "H7",
+  "lead": "2승 2패로 맞선 마지막 판, 열여섯 살 이창호(백)가 끝까지 1집 반을 지켜 냈다.",
+  "body": [
+   "1992년 1월 27일, 동양증권배 결승 최종국. 백을 쥔 이창호는 그때 5단, 만 열여섯 살이었다. 맞은편은 일본에서 이름을 떨친 대만 출신 임해봉 9단. 결승 다섯 판은 한 판씩 주고받으며 2승 2패가 됐다.",
+   "당시 신문은 이 판을 '팽팽한 접전'이었다가 '중반에 뒤집었다'고 적었다. 지면의 그림은 235수로 끝난 이 판의 마지막 열 수다. 끝내기는 집 경계를 마무리하는 마지막 단계로, 한 집 차이가 여기서 갈린다. 백234는 이 판에 놓인 백의 마지막 돌.",
+   "결과는 백 1집 반 승. 이창호의 첫 세계 대회 우승이자, 당시로서는 세계 대회 최연소 우승이었다. 신문은 '국내용'이라는 꼬리표를 말끔히 떼어 냈다고 썼다."
+  ],
+  "lit": "다섯 글자로 시작한 『토지』처럼, 큰 승부도 끝은 한 집 반의 작은 칸에서 닫힙니다.",
+  "sources": [
+   "https://www.seoul.co.kr/news/1992/01/28/19920128019001",
+   "https://www.Wikipedia.org/wiki/Lee_Changho",
+   "https://github.com/yenw/computer-go-dataset (기보: Professional/pro1940-1999.zip → pro1940-1999.txt, GN 1992-01-27a)"
+  ]
+ },
+ "man": {
+  "kind": "격투가",
+  "name": "무하마드 알리",
+  "sub": "권투 · 미국 루이빌 1942 – 2016",
+  "img": "img/2026-11-21-man.jpg",
+  "video": "img/2026-11-21-man.mp4",
+  "alt": "밤의 야외 경기장, 링 한가운데서 두 주먹을 번쩍 든 헤비급 권투 선수의 뒷모습. 양쪽에 조명이 빛나고 관중석이 가득하다(AI 삽화, 실제 인물 아님)",
+  "cap": "AI 삽화",
+  "bio": "1942년 미국 켄터키주 루이빌에서 캐시어스 클레이로 태어나 열두 살에 권투를 시작했습니다. 1964년 스물두 살에 헤비급 챔피언이 된 뒤 이름을 무하마드 알리로 바꾸었지요. 빠른 발과 거침없는 입담으로 링 밖에서도 싸웠고, 헤비급 정상에 세 번 오른 첫 선수로 남았습니다.",
+  "feats": [
+   {
+    "when": "1960",
+    "text": "열여덟 살에 로마 올림픽 라이트헤비급 금메달을 따고, 그해 10월 프로로 데뷔했습니다."
+   },
+   {
+    "when": "1964.2.25",
+    "text": "마이애미비치에서 8 대 1로 불리하다던 예상을 뒤집고 소니 리스턴을 꺾어 세계 헤비급 챔피언이 됐습니다."
+   },
+   {
+    "when": "1974.10.30",
+    "text": "자이르(지금의 콩고민주공화국) 킨샤사의 '정글의 혈투'. 로프에 기대 버티는 작전으로 무패의 조지 포먼을 8회에 눕히고 왕좌를 되찾았습니다."
+   },
+   {
+    "when": "1996",
+    "text": "애틀랜타 올림픽 개막식에서 성화대에 불을 붙였습니다."
+   }
+  ],
+  "quote": "나비처럼 날아서 벌처럼 쏜다.",
+  "quote_by": "1964년 리스턴과의 경기를 앞두고 외친 구호. 코너맨 드루 '번디니' 브라운이 함께 지었다고 전합니다(금로동 옮김)",
+  "sources": [
+   "https://www.history.com/articles/muhammad-ali",
+   "https://www.biography.com/athlete/muhammad-ali",
+   "https://www.history.com/this-day-in-history/2/25",
+   "https://www.aol.com/articles/day-history-muhammad-ali-takes-105627016.html",
+   "https://www.history.com/topics/sports/muhammad-ali",
+   "https://en.wikipedia.org/wiki/Drew_Bundini_Brown",
+   "https://en.wikipedia.org/wiki/Muhammad_Ali"
+  ],
+  "ai": "A heavyweight boxer seen from behind raising both gloved fists in a night ring, crowd, ring lights. No faces."
+ },
+ "food": {
+  "name": "메밀국수",
+  "hanja": null,
+  "work": "국수",
+  "writer": "백석",
+  "year": "1941",
+  "where": "눈 내린 겨울밤의 평안도 산골 마을",
+  "img": "img/2026-11-21-food.jpg",
+  "video": "img/2026-11-21-food.mp4",
+  "alt": "눈 내린 겨울밤, 등잔불 켜진 방 안 소반 위에 동치미 국물에 만 메밀국수 한 그릇과 동치미 보시기, 수저. 창밖에 눈이 내리고 국수 그릇에서 김이 오른다",
+  "ai": "Close-up: a brass bowl of cold buckwheat noodles, thin greyish-brown noodles in clear radish-kimchi broth with sliced white radish and a few slices of meat, on a small wooden Korean tray table with a bowl of dongchimi and brass spoon and chopsticks. Snowy window at night, oil lamp.",
+  "quote": "아, 이 반가운 것은 무엇인가",
+  "quote_by": "시의 화자가, 눈 오는 밤 마을에 찾아온 그 음식을 맞으며",
+  "body": [
+   "「국수」는 눈이 많이 내린 겨울 평안도 산골 마을의 밤을 그립니다. 시인은 그 음식의 이름을 곧장 말하지 않고 '아, 이 반가운 것은 무엇인가' 하고 묻기만 하지요. 마을과 조상과 이웃을 한데 잇는, 수수하고 심심한 무엇. 답은 제목에 있습니다. 겨울밤 온 동네가 나눠 먹던 메밀국수입니다.",
+   "1849년 무렵의 세시 풍속서 『동국세시기』는 11월의 음식으로 냉면을 꼽습니다. 메밀국수를 무김치나 배추김치 국물에 말고 돼지고기를 얹은 것이 냉면이며, 관서(평안도) 것이 으뜸이라고 적었지요. 지금은 여름 별미로 여기지만, 본래는 김칫독 국물이 살얼음을 머금는 한겨울의 음식이었습니다.",
+   "메밀은 서늘하고 메마른 산골에서도 잘 자라 평안도와 강원도 산간의 든든한 곡식이 됐습니다. 끈기가 적어 손으로 늘이기 어려우니, 구멍 뚫린 틀에 반죽을 넣고 눌러 국수를 뽑았지요. 시에도 동치미 국물과 얼얼한 고춧가루, 산꿩 고기가 국수 곁에 함께 놓입니다.",
+   "다시 시로 돌아가면, 백석의 국수는 혼자 먹는 별미가 아니라 '마을'의 음식입니다. 눈 오는 밤 한 그릇씩 나눠 먹으며 서로를 확인하던 맛. 김장 김치 국물이 맛 드는 11월, 국수 한 그릇이 유난히 반가운 까닭입니다."
+  ],
+  "try": "오늘은 동치미 국물에 메밀국수를 말아 보세요. 눈 오는 밤이라면 더 백석답습니다.",
+  "sources": [
+   "https://www.korean.go.kr/nkview/onletter/20071101/08.html",
+   "https://brunch.co.kr/@litcrit/29",
+   "https://weekly.khan.co.kr/article/18314",
+   "https://en.wikipedia.org/wiki/Naengmyeon",
+   "https://segye.com/newsView/20221204507763"
+  ],
+  "short": {
+   "hook": "백석의 시 「국수」, 눈 오는 겨울밤 온 마을이 반긴 그 음식 이야기예요.",
+   "lines": [
+    "눈이 많이 내린 평안도 산골 마을, 시인은 묻습니다. 아, 이 반가운 것은 무엇인가.",
+    "이름도 말하지 않고, 수수하고 심심한 그 맛을 마을과 이웃의 이야기로 그려 내죠.",
+    "답은 제목에 있어요. 겨울밤 온 동네가 나눠 먹던 메밀국수.",
+    "1849년 무렵의 『동국세시기』는 냉면을 11월 음식으로 적었어요. 메밀국수를 김치 국물에 말고 돼지고기를 얹는다고요.",
+    "냉면은 원래 김칫독에 살얼음이 끼는 한겨울 음식이었던 거죠."
+   ],
+   "outro": "오늘 문학늬우스에서 국수 이야기를 더 만나 보세요.",
+   "thumb": [
+    "이 반가운 것은",
+    "무엇인가"
+   ],
+   "title": "백석 「국수」 눈 오는 밤의 메밀국수, 냉면은 원래 겨울 음식? | 문학 한술 #백석 #국수 #냉면 #shorts"
+  }
+ },
+ "zodiac": [
+  {
+   "key": "rat",
+   "animal": "쥐",
+   "text": "추강에 밤이 드니 물결이 차노매라 / 낚시 드리오니 고기 아니 무노매라 / 무심한 달빛만 싣고 빈 배 저어 오노라",
+   "writer": "월산대군",
+   "work": "추강에 밤이 드니(시조)",
+   "year": "15세기",
+   "note": "빈손으로 돌아오는 날도 있어요. 오늘은 달빛만 싣고 와도 넉넉하다고 여겨 보세요.",
+   "sources": [
+    "https://ko.wikisource.org/wiki/%EC%B6%94%EA%B0%95%EC%97%90_%EB%B0%A4%EC%9D%B4_%EB%93%9C%EB%8B%88",
+    "https://sgsg.hankyung.com/tag/20190804145233252"
+   ]
+  },
+  {
+   "key": "ox",
+   "animal": "소",
+   "text": "말 없는 청산이요 태 없는 유수로다 / 값 없는 청풍이요 임자 없는 명월이라 / 이 중에 병 없는 이 몸이 분별 없이 늙으리라",
+   "writer": "성혼",
+   "work": "말 없는 청산이요(시조)",
+   "year": "16세기",
+   "note": "값을 매길 수 없는 바람과 달이 곁에 있어요. 오늘은 셈을 내려놓고 천천히 걸어 보세요.",
+   "sources": [
+    "https://ko.wikisource.org/wiki/%EC%A0%80%EC%9E%90:%EC%84%B1%ED%98%BC",
+    "https://sgsg.hankyung.com/article/2017111073831"
+   ]
+  },
+  {
+   "key": "tiger",
+   "animal": "범",
+   "text": "삭풍은 나무 끝에 불고 명월은 눈 속에 찬데 / 만리변성에 일장검 짚고 서서 / 긴 파람 큰 한 소리에 거칠 것이 없어라",
+   "writer": "김종서",
+   "work": "삭풍은 나무 끝에 불고(시조)",
+   "year": "15세기",
+   "note": "찬바람 속에서도 어깨를 펴 보세요. 크게 숨 한 번 내쉬면 막힌 길이 조금 보입니다.",
+   "sources": [
+    "https://www.hankyung.com/amp/1997010301061",
+    "https://weekly.khan.co.kr/article/18760",
+    "https://encykorea.aks.ac.kr/Article/E0063683"
+   ]
+  },
+  {
+   "key": "rabbit",
+   "animal": "토끼",
+   "text": "백설이 잦아진 골에 구름이 머흐레라 / 반가운 매화는 어느 곳에 피었는고 / 석양에 홀로 서 있어 갈 곳 몰라 하노라",
+   "writer": "이색",
+   "work": "백설이 잦아진 골에(시조)",
+   "year": "14세기",
+   "note": "갈 곳이 헷갈리는 날엔 반가운 것 하나만 찾아 보세요. 매화처럼 작은 기쁨이면 충분해요.",
+   "sources": [
+    "https://ko.wikisource.org/wiki/%EB%B0%B1%EC%84%A4%EC%9D%B4_%EC%9E%A6%EC%95%84%EC%A7%84_%EA%B3%A8%EC%97%90",
+    "https://encykorea.aks.ac.kr/Article/E0065441"
+   ]
+  },
+  {
+   "key": "dragon",
+   "animal": "용",
+   "text": "나타난 용이 밭에 있으니, 큰사람을 만나 봄이 이롭다.",
+   "orig": "見龍在田 利見大人",
+   "translator": "금로동 옮김",
+   "writer": "작자 미상",
+   "work": "주역 건괘(乾卦) 구이(九二)",
+   "year": "고대 중국",
+   "note": "숨어 있던 재주가 고개를 드는 때예요. 오늘은 배울 만한 사람을 먼저 찾아가 보세요.",
+   "sources": [
+    "https://ko.wikisource.org/wiki/%EC%A3%BC%EC%97%AD%EC%83%81",
+    "https://tilnote.io/pages/68db803da4fdde51fa4c343a"
+   ]
+  },
+  {
+   "key": "snake",
+   "animal": "뱀",
+   "text": "순진한 꽃처럼 보이되, 그 아래 뱀이 되어라.",
+   "orig": "look like th' innocent flower, / But be the serpent under't",
+   "translator": "금로동 옮김",
+   "writer": "윌리엄 셰익스피어",
+   "work": "맥베스(1막 5장)",
+   "year": "1606년 무렵",
+   "note": "맥베스 부인의 위험한 충고를 거꾸로 읽어 보세요. 오늘은 겉과 속이 같은 하루가 편안합니다.",
+   "sources": [
+    "https://www.folger.edu/explore/shakespeares-works/Macbeth/read/1/5/",
+    "https://shakespeare-online.com/plays/macbeth_1_5.html"
+   ]
+  },
+  {
+   "key": "horse",
+   "animal": "말",
+   "text": "강호에 병이 깊어 죽림에 누웠더니 / 관동 팔백 리에 방면을 맡기시니",
+   "writer": "정철",
+   "work": "관동별곡",
+   "year": 1580,
+   "note": "쉬려던 참에 먼 길이 열리기도 해요. 오늘은 뜻밖의 부름에 가볍게 길을 나서 보세요.",
+   "sources": [
+    "https://encykorea.aks.ac.kr/Article/E0004779",
+    "https://www.khan.co.kr/article/200111231845061"
+   ]
+  },
+  {
+   "key": "sheep",
+   "animal": "양",
+   "text": "주님은 나의 목자, 나는 아쉬울 것이 없어라.",
+   "orig": "The LORD is my shepherd; I shall not want.",
+   "translator": "금로동 옮김",
+   "writer": "작자 미상",
+   "work": "구약성경 시편 23편 1절",
+   "year": "고대",
+   "note": "오늘 가진 것을 하나씩 세어 보세요. 생각보다 모자람이 적다는 걸 알게 됩니다.",
+   "sources": [
+    "https://www.esv.org/Psalm+23:1;Psalm+23:2–6/",
+    "https://www.bible.com/ko/bible/88/PSA.23.1"
+   ]
+  },
+  {
+   "key": "monkey",
+   "animal": "원숭이",
+   "text": "아침에 셋, 저녁에 넷을 주겠다 하자 원숭이들이 모두 성을 냈다.",
+   "orig": "朝三而暮四 衆狙皆怒",
+   "translator": "금로동 옮김",
+   "writer": "장자",
+   "work": "장자 제물론(齊物論)",
+   "year": "기원전 4세기",
+   "note": "같은 것을 순서만 바꿔 보여 주는 말에 속지 마세요. 오늘은 셈을 끝까지 해 보는 날.",
+   "sources": [
+    "https://ko.wikisource.org/wiki/%EC%9E%A5%EC%9E%90/%E9%BD%8A%E7%89%A9%E8%AB%96",
+    "https://sgsg.hankyung.com/article/2019083084761"
+   ]
+  },
+  {
+   "key": "rooster",
+   "animal": "닭",
+   "text": "까마귀 검다 하고 백로야 웃지 마라 / 겉이 검은들 속조차 검을쏘냐 / 겉 희고 속 검은 이는 너뿐인가 하노라",
+   "writer": "이직",
+   "work": "까마귀 검다 하고(시조)",
+   "year": "15세기",
+   "note": "겉모습으로 누군가를 재기 전에 한 번 더 들여다보세요. 오늘은 속을 보는 눈이 빛나요.",
+   "sources": [
+    "https://ko.wikisource.org/wiki/%EB%B6%84%EB%A5%98:%EC%8B%9C%EC%A1%B0",
+    "https://m.dailian.co.kr/news/view/9789/%EB%8D%95%ED%95%AD%EC%82%B013-2004"
+   ]
+  },
+  {
+   "key": "dog",
+   "animal": "개",
+   "text": "허영 없는 아름다움, 오만 없는 힘, 사나움 없는 용기, 그리고 사람의 악덕은 하나도 없이 사람의 미덕은 다 지녔던 이.",
+   "orig": "Beauty without Vanity, Strength without Insolence, Courage without Ferocity, and all the Virtues of Man without his Vices.",
+   "translator": "금로동 옮김",
+   "writer": "조지 고든 바이런",
+   "work": "어느 개의 묘비명(Epitaph to a Dog)",
+   "year": 1808,
+   "note": "곁에 있는 이의 미덕을 오늘 하나 소리 내어 말해 주세요. 개처럼 한결같은 다정함으로요.",
+   "sources": [
+    "https://en.wikisource.org/wiki/Epitaph_to_a_Dog",
+    "https://poets.org/poem/epitaph-dog"
+   ]
+  },
+  {
+   "key": "pig",
+   "animal": "돼지",
+   "text": "때가 왔다고 바다코끼리가 말했지, 이것저것 이야기할 때가. 신발이며 배며 봉랍이며, 양배추며 임금님이며, 바다는 왜 펄펄 끓는지, 돼지에게 날개가 있는지.",
+   "orig": "\"The time has come,\" the Walrus said, / \"To talk of many things: / Of shoes—and ships—and sealing-wax— / Of cabbages—and kings— / And why the sea is boiling hot— / And whether pigs have wings.\"",
+   "translator": "금로동 옮김",
+   "writer": "루이스 캐럴",
+   "work": "바다코끼리와 목수(『거울 나라의 앨리스』)",
+   "year": 1871,
+   "note": "쓸데없어 보이는 수다가 마음을 풀어 줘요. 오늘은 엉뚱한 이야기 한 자락 나눠 보세요.",
+   "sources": [
+    "https://www.poetryfoundation.org/poems/43914/the-walrus-and-the-carpenter-56d222cbc80a9",
+    "https://en.wikipedia.org/wiki/The_Walrus_and_the_Carpenter"
+   ]
+  }
+ ],
+ "puzzle": {
+  "size": [
+   8,
+   9
+  ],
+  "words": [
+   {
+    "n": 3,
+    "dir": "across",
+    "r": 1,
+    "c": 1,
+    "a": "한문소설",
+    "clue": "한자로 쓴 소설"
+   },
+   {
+    "n": 4,
+    "dir": "across",
+    "r": 2,
+    "c": 0,
+    "a": "문집",
+    "clue": "한 사람의 글을 모은 책"
+   },
+   {
+    "n": 5,
+    "dir": "across",
+    "r": 2,
+    "c": 4,
+    "a": "가사",
+    "clue": "4음보로 길게 이어 쓰는 조선 시가"
+   },
+   {
+    "n": 7,
+    "dir": "across",
+    "r": 3,
+    "c": 1,
+    "a": "반복",
+    "clue": "같은 말을 되풀이하는 표현"
+   },
+   {
+    "n": 9,
+    "dir": "across",
+    "r": 3,
+    "c": 5,
+    "a": "설화",
+    "clue": "입에서 입으로 전해 온 이야기"
+   },
+   {
+    "n": 11,
+    "dir": "across",
+    "r": 4,
+    "c": 2,
+    "a": "선비",
+    "clue": "글 읽는 사람"
+   },
+   {
+    "n": 13,
+    "dir": "across",
+    "r": 4,
+    "c": 6,
+    "a": "가난",
+    "clue": "허생 집안의 형편"
+   },
+   {
+    "n": 14,
+    "dir": "across",
+    "r": 5,
+    "c": 3,
+    "a": "유배",
+    "clue": "귀양 보내는 벌"
+   },
+   {
+    "n": 17,
+    "dir": "across",
+    "r": 6,
+    "c": 4,
+    "a": "우주선",
+    "clue": "스코티 케이크에 올린 그림"
+   },
+   {
+    "n": 19,
+    "dir": "across",
+    "r": 7,
+    "c": 6,
+    "a": "물소리",
+    "clue": "예이츠가 가슴 깊은 곳에서 듣는 소리"
+   },
+   {
+    "n": 1,
+    "dir": "down",
+    "r": 0,
+    "c": 2,
+    "a": "대문",
+    "clue": "집의 큰 문"
+   },
+   {
+    "n": 2,
+    "dir": "down",
+    "r": 0,
+    "c": 4,
+    "a": "소설가",
+    "clue": "소설을 쓰는 사람"
+   },
+   {
+    "n": 3,
+    "dir": "down",
+    "r": 1,
+    "c": 1,
+    "a": "한집반",
+    "clue": "이창호가 이긴 집 차이(붙여 씀)"
+   },
+   {
+    "n": 6,
+    "dir": "down",
+    "r": 2,
+    "c": 5,
+    "a": "사설",
+    "clue": "신문사의 주장을 쓴 글"
+   },
+   {
+    "n": 8,
+    "dir": "down",
+    "r": 3,
+    "c": 2,
+    "a": "복선",
+    "clue": "뒷일을 미리 슬쩍 깔아 두는 장치"
+   },
+   {
+    "n": 10,
+    "dir": "down",
+    "r": 3,
+    "c": 6,
+    "a": "화가",
+    "clue": "그림 그리는 사람"
+   },
+   {
+    "n": 12,
+    "dir": "down",
+    "r": 4,
+    "c": 3,
+    "a": "비유",
+    "clue": "빗대어 나타내는 표현"
+   },
+   {
+    "n": 15,
+    "dir": "down",
+    "r": 5,
+    "c": 4,
+    "a": "배우",
+    "clue": "무대에서 연기하는 사람"
+   },
+   {
+    "n": 16,
+    "dir": "down",
+    "r": 5,
+    "c": 8,
+    "a": "박경리",
+    "clue": "『김약국의 딸들』의 작가"
+   },
+   {
+    "n": 18,
+    "dir": "down",
+    "r": 6,
+    "c": 6,
+    "a": "선물",
+    "clue": "생일에 주는 것"
+   }
+  ]
+ }
+}

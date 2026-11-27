@@ -1,0 +1,656 @@
+{
+ "date": "2026-11-28",
+ "no": 16,
+ "publisher": {
+  "name": "윤진탈",
+  "org": "지구별"
+ },
+ "author": {
+  "name": "금로동",
+  "title": "기자"
+ },
+ "lead": "토요일 아침입니다. 현진건의 「빈처」가 가난한 부부의 손을 맞잡게 하고, 에밀리 디킨슨이 '나는 아무도 아니에요'라고 속삭입니다. 1분 문학은 「토끼전」과 『기억 전달자』, 문학 한술은 앨리스가 본 하트 여왕의 타르트입니다.",
+ "sentence": {
+  "text": "아아, 나에게 위안을 주고 용기를 주는 아내여!",
+  "big": [
+   "아아, 나에게 위안을 주고",
+   "용기를 주는 아내여!"
+  ],
+  "speaker": "무명 작가인 '나'",
+  "work": "빈처",
+  "writer": "현진건",
+  "year": 1921,
+  "origin": "국내",
+  "book": "1921년 『개벽』 발표 단편",
+  "meaning": "가진 것 없는 남편이 아내에게 보내는 고백입니다. 돈도 이름도 없는 자신을 믿어 주는 단 한 사람이 있다는 것, 그 믿음이 곧 살아갈 힘이 된다는 깨달음이 감탄사 하나에 담겼지요.",
+  "context": "소설의 마지막 문장입니다. 글만 쓰는 가난한 '나'는 넉넉하게 사는 처형이 다녀간 날 아내 앞에서 한없이 초라해집니다. 그런데 아내는 넉넉한 살림보다 남편을 믿는다는 마음을 보여 주고, '나'는 아내를 끌어안으며 이렇게 외치지요.",
+  "craft": "'아아'로 시작하는 영탄은 1920년대 소설에서도 드문 직설입니다. 내내 자격지심과 부끄러움을 늘어놓던 화자가 끝에서 한 번에 감정을 터뜨리게 해, 가난한 방 안의 온기를 더 또렷하게 남겼습니다.",
+  "img": "img/2026-11-28-sentence.jpg",
+  "video": "img/2026-11-28-sentence.mp4",
+  "alt": "1920년대 셋방 안, 등잔불 아래 책상에 원고지를 펼친 청년이 바느질하던 아내의 손을 두 손으로 감싸 쥔다. 등잔불이 흔들리고 창호지 문에 그림자가 일렁인다",
+  "sources": [
+   "https://encykorea.aks.ac.kr/Article/E0025288",
+   "https://ko.wikisource.org/wiki/%EC%A0%80%EC%9E%90:%ED%98%84%EC%A7%84%EA%B1%B4",
+   "https://library.ltikorea.or.kr/ebooks/300382"
+  ]
+ },
+ "poem": {
+  "title": "나는 아무도 아니에요! 당신은 누구세요?",
+  "title_orig": "I'm Nobody! Who are you?",
+  "writer": "에밀리 디킨슨",
+  "year": 1891,
+  "origin": "국외",
+  "book": "1861년 무렵 씀, 시인이 세상을 떠난 뒤 1891년 『시집 둘째 권』에 처음 실림",
+  "public_domain": true,
+  "translator": "금로동 옮김",
+  "lines": [
+   "나는 아무도 아니에요! 당신은 누구세요?",
+   "당신도 — 아무도 — 아닌가요?",
+   "그럼 우리 둘이 한 짝이네요!",
+   "말하지 마세요! 소문낼 테니까요 — 알잖아요!",
+   "",
+   "얼마나 따분할까 — 누군가 — 된다는 건!",
+   "얼마나 요란할까 — 개구리처럼 —",
+   "기나긴 6월 내내 — 제 이름을 외쳐 대는 건 —",
+   "넋 놓고 듣는 늪에다 대고!"
+  ],
+  "lines_orig": [
+   "I'm Nobody! Who are you?",
+   "Are you – Nobody – too?",
+   "Then there's a pair of us!",
+   "Don't tell! they'd advertise – you know!",
+   "",
+   "How dreary – to be – Somebody!",
+   "How public – like a Frog –",
+   "To tell one's name – the livelong June –",
+   "To an admiring Bog!"
+  ],
+  "img": "img/2026-11-28-poem.jpg",
+  "video": "img/2026-11-28-poem.mp4",
+  "alt": "초여름 늪가 풀숲에 흰 옷의 여인이 몸을 숙이고 앉아 연잎 위 개구리를 들여다보며 입가에 손가락을 댄다. 갈대가 흔들리고 잠자리가 날아다닌다",
+  "analysis": "평생 시를 거의 발표하지 않은 디킨슨다운, 장난스럽고도 단단한 시입니다. 1연은 '아무도 아닌' 두 사람이 비밀스럽게 손을 잡는 장면이고, 2연은 이름을 알리느라 6월 내내 개굴개굴 우는 '누군가'를 늪의 개구리에 빗대 놀리지요. 줄표(—)가 숨을 끊어 읽게 만들어, 속삭이듯 웃는 목소리가 들립니다. 이름 없는 삶을 부끄러움이 아니라 자유로 바꿔 놓은 시입니다.",
+  "oneline": "유명해지지 못해 서운한 날, 이 시는 '우리 둘이 한 짝'이라며 손을 내밉니다.",
+  "sources": [
+   "https://www.poetryfoundation.org/poems/1647321/im-nobody-who-are-you",
+   "https://poets.org/poem/im-nobody-who-are-you-260",
+   "https://rpo.library.utoronto.ca/poems/im-nobody-who-are-you"
+  ]
+ },
+ "novel": {
+  "title": "경희",
+  "writer": "나혜석",
+  "year": 1918,
+  "origin": "국내",
+  "where": "단편소설, 1918년 『여자계』 발표",
+  "quote": "경희도 사람이다. 그다음에는 여자다.",
+  "translator": null,
+  "img": "img/2026-11-28-novel.jpg",
+  "video": "img/2026-11-28-novel.mp4",
+  "alt": "1910년대 한옥 대청마루, 저고리에 짧은 통치마를 입은 젊은 여인이 책을 가슴에 안고 일어서서 마당 너머 하늘을 올려다본다. 처마 끝 풍경이 흔들리고 빨랫줄의 옷이 날린다",
+  "context": "일본 유학에서 방학을 맞아 돌아온 경희에게 집안 어른들은 어서 좋은 집에 시집가라고 다그칩니다. 혼자 남은 밤, 고민하던 경희가 마침내 스스로에게 내린 대답이 이 문장이지요.",
+  "analysis": "'여자이기 전에 사람'이라는 생각을, 경희는 남에게 외치기 전에 먼저 자기 안에서 붙잡습니다. 소설 앞부분은 부지런히 집안일을 해내는 경희의 하루를 꼼꼼히 보여 주는데, 공부한 여자도 일 잘한다는 걸 보여 주려는 장면이면서 동시에 그 굴레를 드러내지요. 짧은 평서문 두 개가 차례를 정하듯 이어져, 선언문처럼 또렷하게 읽힙니다.",
+  "sources": [
+   "https://ko.wikisource.org/wiki/%EA%B2%BD%ED%9D%AC",
+   "https://weekly.khan.co.kr/article/202610091414021",
+   "https://encykorea.aks.ac.kr/Article/E0011547"
+  ]
+ },
+ "writer": {
+  "name": "나혜석",
+  "life": "1896–1948",
+  "bio": "경기도 수원에서 태어나 도쿄에서 유화를 공부했습니다. 1918년 「경희」를 발표했고, 1921년 경성에서 유화 개인전을 열어 우리나라 첫 여성 서양화가로 이름을 남겼지요. 여성도 사람이라는 생각을 글과 그림으로 굽힘 없이 말했지만, 세상의 손가락질 속에 쓸쓸한 말년을 보냈습니다.",
+  "works": [
+   "경희",
+   "이혼 고백장",
+   "인형의 가"
+  ],
+  "link": "오늘의 소설 구절 「경희」를 쓴 작가입니다. 경희가 스스로 찾은 대답은 나혜석 자신의 대답이기도 했지요.",
+  "img": "img/2026-11-28-writer.png",
+  "alt": "얼굴 세부 없이 그린, 단발머리 여인이 이젤 앞에서 붓을 든 옆모습 실루엣 펜화",
+  "sources": [
+   "https://encykorea.aks.ac.kr/Article/E0011547",
+   "https://en.wikipedia.org/wiki/Na_Hyes%C5%8Fk",
+   "https://www.khan.co.kr/article/202203082254005"
+  ]
+ },
+ "trivia": [
+  {
+   "q": "나혜석의 「경희」는 잡지 『여자계』에 처음 실렸다.",
+   "a": "O",
+   "why": "1918년 도쿄의 여자 유학생들이 펴낸 잡지 『여자계』에 실렸습니다. 우리 근대 여성 소설의 첫머리로 꼽히지요."
+  },
+  {
+   "q": "에밀리 디킨슨의 「나는 아무도 아니에요!」는 시인이 살아 있을 때 발표됐다.",
+   "a": "X",
+   "why": "디킨슨은 생전에 시를 거의 발표하지 않았습니다. 이 시도 그가 세상을 떠난 뒤인 1891년에야 시집에 실렸습니다."
+  },
+  {
+   "q": "「토끼전」에서 토끼는 간을 뭍에 두고 왔다고 둘러대 용궁을 빠져나온다.",
+   "a": "O",
+   "why": "간을 꺼내 바위틈에 말려 두고 왔다는 꾀로 용왕을 속이고, 자라 등에 업혀 다시 뭍으로 돌아오지요."
+  }
+ ],
+ "trivia_sources": [
+  "https://encykorea.aks.ac.kr/Article/E0011547",
+  "https://en.wikipedia.com/wiki/I%27m_Nobody!_Who_are_you%3F",
+  "https://encykorea.aks.ac.kr/Article/E0059167"
+ ],
+ "calendar": "1757년 11월 28일 — 『순수의 노래』·『경험의 노래』의 시인이자 판화가 윌리엄 블레이크, 런던에서 태어나다",
+ "calendar_sources": [
+  "https://britannica.com:443/biography/William-Blake",
+  "https://www.tate.org.uk/art/artists/william-blake-39/william-blakes-london"
+ ],
+ "onthisday": [
+  {
+   "year": "1859",
+   "title": "「슬리피 할로의 전설」의 워싱턴 어빙, 서니사이드에서 눈을 감다",
+   "body": "1859년 오늘, 미국 단편소설의 아버지로 불리는 워싱턴 어빙이 허드슨강 가 자택 서니사이드에서 세상을 떠났습니다. 스무 해를 잠든 「립 밴 윙클」과 머리 없는 기사의 「슬리피 할로의 전설」이 그의 이야기지요.",
+   "sources": [
+    "https://www.britannica.com/biography/Washington-Irving",
+    "https://en.wikipedia.org/wiki/Sunnyside_(Tarrytown,_New_York)"
+   ]
+  },
+  {
+   "year": "1881",
+   "title": "『어제의 세계』의 슈테판 츠바이크, 빈에서 태어나다",
+   "body": "1881년 오늘, 오스트리아 작가 슈테판 츠바이크가 빈에서 태어났습니다. 「낯선 여인의 편지」 같은 소설과 인물 평전으로 한때 세계에서 가장 많이 번역된 작가 가운데 하나였고, 회고록 『어제의 세계』를 남겼지요.",
+   "sources": [
+    "https://www.britannica.com/biography/Stefan-Zweig",
+    "https://www.dhm.de/lemo/biografie/stefan-zweig"
+   ]
+  }
+ ],
+ "classic": {
+  "title": "토끼전",
+  "writer": "작자 미상",
+  "year": "조선 후기",
+  "origin": "국내",
+  "where": "판소리계 고전소설(「별주부전」「수궁가」로도 전함)",
+  "oneline": "용왕의 약이 될 뻔한 토끼가, 꾀 하나로 바닷속을 빠져나오는 이야기.",
+  "img": "img/2026-11-28-classic.jpg",
+  "video": "img/2026-11-28-classic.mp4",
+  "alt": "푸른 바닷가 바위 위에서 등딱지가 둥근 자라가 앞발을 들어 바다 쪽을 가리키고, 귀가 긴 토끼가 솔깃한 얼굴로 귀를 쫑긋 세운다. 파도가 밀려오고 소나무 가지가 흔들린다",
+  "ai": "On a rocky seashore with pine trees, a big round-shelled soft turtle raises one flipper and points toward the sea, while a long-eared brown rabbit listens with a curious face. Waves, Korean folk tale style. No people.",
+  "story": [
+   "남쪽 바닷속 용궁의 용왕이 큰 병에 걸렸습니다. 온갖 약을 다 써도 낫지 않자, 신선 같은 의원이 찾아와 말했지요. 뭍에 사는 토끼의 간을 먹어야만 낫는다고요. 용궁은 술렁였습니다. 바닷속 신하들 가운데 뭍에 올라가 본 이가 거의 없었거든요.",
+   "누가 뭍으로 갈지를 두고 신하들이 서로 미루고 다투는데, 자라 한 마리가 앞으로 나섰습니다. 벼슬 이름을 따 별주부라 불리던 자라였지요. 자라는 토끼를 한 번도 본 적이 없어서, 화공에게 토끼 그림을 그려 달라고 해 품에 넣고 바다를 떠났습니다.",
+   "뭍에 오른 자라는 산속을 헤매다 마침내 그림과 똑같이 생긴 짐승을 만났습니다. 자라는 넙죽 절하고 말을 붙였지요. 산속은 사냥꾼과 매, 사냥개가 득실거려 하루도 마음 편할 날이 없지 않으냐고. 용궁에 가면 높은 벼슬에 맛난 음식, 아름다운 풍경이 기다린다고요.",
+   "처음엔 의심하던 토끼도 자라의 말솜씨에 점점 넘어갔습니다. 겨울이면 먹을 것이 없고, 언제 잡혀갈지 몰라 떨던 날들이 떠올랐거든요. 마침내 토끼는 자라 등에 올라탔고, 자라는 신이 나서 물살을 가르며 깊은 바닷속으로 헤엄쳐 들어갔습니다.",
+   "그런데 용궁에 닿자마자 분위기가 싹 바뀌었습니다. 병졸들이 달려들어 토끼를 꽁꽁 묶었고, 용왕은 네 간을 내어 내 병을 고치라고 호령했지요. 그제야 토끼는 자기가 속았다는 것을 알았습니다. 벼슬도 잔치도 모두 간을 얻기 위한 미끼였던 거예요.",
+   "죽을 고비 앞에서 토끼는 오히려 침착해졌습니다. 그러고는 아쉽다는 듯 한숨을 쉬며 말했지요. 토끼는 간을 몸에 넣었다 꺼냈다 할 수 있어서, 마침 깨끗이 씻어 산속 바위틈에 말려 두고 왔다고요. 미리 말해 주었으면 가져왔을 텐데 이를 어쩌냐며, 토끼는 진심으로 안타까운 얼굴을 지어 보였습니다.",
+   "용왕은 반신반의했지만, 토끼가 너무도 태연하게 말하자 그만 그 말을 믿고 말았습니다. 용왕은 토끼의 밧줄을 풀어 주고 잔치를 베풀었지요. 그리고 자라에게 다시 토끼를 업고 뭍에 다녀오라고 명했습니다. 자라의 등에 오른 토끼는 시치미를 뚝 떼고 앉아, 멀어지는 용궁을 돌아보았습니다."
+  ],
+  "ending": "뭍에 닿자마자 토끼는 자라 등에서 펄쩍 뛰어내려 산으로 달아났습니다. 그러고는 뒤돌아 외쳤지요. 세상에 간을 빼놓고 다니는 짐승이 어디 있느냐고. 자라는 빈손으로 바닷가에 남았습니다. 그 뒤 자라와 용왕이 어찌 되었는지는 이본마다 다르게 전하는데, 신선이 나타나 약을 주었다고도 하고 자라가 끝내 돌아가지 못했다고도 하지요.",
+  "why": "힘 있는 자의 욕심 앞에서 힘없는 이가 꾀 하나로 살아남는 이야기입니다. 판소리 「수궁가」로도 불리며, 웃음 속에 세상을 꼬집어 왔지요.",
+  "sources": [
+   "https://encykorea.aks.ac.kr/Article/E0059167",
+   "https://ko.wikisource.org/wiki/%EC%A3%BC%EB%B6%80%EC%A0%84",
+   "https://kyeonggi.com/article/201012220386813"
+  ],
+  "scenes": [
+   {
+    "after": 1,
+    "img": "img/2026-11-28-classic-s1.jpg",
+    "video": "img/2026-11-28-classic-s1.mp4",
+    "alt": "바닷가 정자 아래, 갓에 두루마기 차림의 화공이 토끼를 그린 두루마리를 펼쳐 보이고, 자라가 목을 길게 빼 그림을 들여다본다. 물거품이 오르고 두루마리가 살랑인다",
+    "ai": "Under a seaside pavilion, a Joseon-era painter in a black gat hat and white durumagi coat holds open a scroll painting of a rabbit; a big soft-shelled turtle stretches its neck to look at it. Coral, shells, bubbles."
+   },
+   {
+    "after": 3,
+    "img": "img/2026-11-28-classic-s2.jpg",
+    "video": "img/2026-11-28-classic-s2.mp4",
+    "alt": "토끼를 등에 태운 자라가 물살을 가르며 오른쪽 먼바다로 헤엄쳐 간다. 물보라가 튀고 갈매기가 날며 먼 섬이 보인다",
+    "ai": "A turtle swims across the open sea toward the right, carrying a small brown rabbit sitting on its shell; spray splashes, a seagull flies, distant islands."
+   },
+   {
+    "after": 5,
+    "img": "img/2026-11-28-classic-s3.jpg",
+    "video": "img/2026-11-28-classic-s3.mp4",
+    "alt": "기둥 늘어선 용궁 대전, 높은 자리의 용왕이 손가락질하고 창 든 병졸 앞에서 밧줄에 묶인 토끼가 태연하게 고개를 갸웃한다. 물풀이 흔들리고 물고기가 지나간다",
+    "ai": "In an undersea Korean palace hall with pillars, a crowned Dragon King in a long robe points from his throne; a rabbit tied with rope sits calmly in front, a guard with a spear nearby. Seaweed, fish, bubbles."
+   }
+  ]
+ },
+ "modern": {
+  "title": "기억 전달자",
+  "title_orig": "The Giver",
+  "writer": "로이스 로리",
+  "year": 1993,
+  "origin": "국외",
+  "where": "장편소설, 1993년 미국 출간(1994년 뉴베리상)",
+  "oneline": "아픔도 색깔도 없는 마을에서, 한 소년이 처음으로 '기억'을 물려받는 이야기.",
+  "img": "img/2026-11-28-modern.jpg",
+  "video": "img/2026-11-28-modern.mp4",
+  "alt": "눈 덮인 언덕 위에 낡은 나무 썰매가 놓여 있고, 스웨터 차림의 소년이 아기를 안은 채 언덕 아래를 내려다본다. 눈송이가 흩날리고 먼 집 창에 불빛이 깜박인다",
+  "ai": "A twelve-year-old boy in a plain sweater holds a small baby wrapped in a blanket at the top of a snowy hill beside an old wooden sled, looking down at a distant village with warm lit windows. Falling snow, evening.",
+  "story": [
+   "조너스가 사는 마을에는 아픔도 다툼도 없습니다. 날씨는 늘 알맞게 맞춰져 있고, 가족은 위원회가 짝지어 주며, 아이들은 정해진 나이마다 정해진 옷과 자전거를 받지요. 말 한마디도 정확하게 써야 하고, 저녁마다 식구끼리 그날 느낀 감정을 털어놓는 것이 규칙입니다. 모두가 비슷하게, 조용하고 안전하게 살아갑니다.",
+   "열두 살이 되는 해, 마을 아이들은 한자리에 모여 평생 할 일을 받습니다. 친구들이 하나둘 이름이 불려 직업을 받는 동안 조너스의 차례는 건너뛰어졌고, 마지막에야 그는 아주 드문 일에 뽑혔다는 말을 듣습니다. 마을에 단 한 명뿐인 '기억 보유자'였지요.",
+   "조너스는 날마다 한 노인을 찾아갑니다. 노인은 자신을 '기억 전달자'라 불렀습니다. 노인이 조너스의 등에 손을 얹자, 처음 보는 장면이 밀려왔지요. 하얀 눈이 내리는 언덕, 썰매를 타고 바람을 가르며 내려가는 기쁨. 마을에서는 오래전에 사라진 눈과 언덕, 그리고 썰매였습니다.",
+   "기억이 쌓일수록 조너스의 눈에는 색깔이 보이기 시작했습니다. 사과의 빨강, 친구 머리칼의 붉은빛. 기억 전달자는 햇볕의 따스함과 함께, 전쟁과 굶주림과 아픔의 기억도 건넸지요. 마을이 편안함을 얻는 대신 무엇을 버렸는지, 조너스는 혼자서만 알게 되었습니다.",
+   "가장 마음을 흔든 기억은 할머니와 손주들이 둘러앉은 어느 겨울 저녁이었습니다. 조너스는 그것이 '사랑'이라는 걸 배웠지요. 마침 조너스의 집에는 잘 자라지 못해 맡겨진 아기 게이브리얼이 있었습니다. 조너스는 밤마다 칭얼대는 아기에게 몰래 평온한 기억을 나눠 주며 재웠습니다.",
+   "그러다 조너스는 마을 사람들이 '임무 해제'라 부르는 일의 진실을 알게 됩니다. 늙거나 약하거나 규칙을 어긴 이를 마을 밖으로 보낸다던 그 말은, 사실 그들을 세상에서 지워 버리는 일이었지요. 그리고 머지않아 게이브리얼도 해제될 거라는 말을 듣습니다. 조너스는 기억 전달자와 함께 마을을 떠날 계획을 세웠습니다.",
+   "계획한 날을 기다릴 수 없었던 어느 밤, 조너스는 잠든 게이브리얼을 자전거에 태우고 마을을 빠져나왔습니다. 수색 비행기가 하늘을 맴돌면 나무 아래 숨었고, 먹을 것이 떨어지면 들판의 열매로 버텼지요. 날이 갈수록 길은 험해지고, 처음으로 차가운 바람과 굶주림이 몸에 닿았습니다."
+  ],
+  "ending": "마침내 눈이 내리기 시작했습니다. 기운이 다한 조너스는 게이브리얼을 품에 안고 언덕 꼭대기에 올랐고, 그곳에서 기억 속과 똑같은 썰매 하나를 발견하지요. 썰매가 언덕을 미끄러져 내려가는 동안, 저 아래 창마다 불빛이 반짝이고 어디선가 음악 소리가 들려왔습니다. 그곳에 정말 누가 기다리고 있었는지, 소설은 끝까지 말하지 않습니다.",
+  "why": "편안함을 위해 아픔과 기억을 지워 버린 세상에서, 사랑을 알게 된 한 소년의 선택을 그린 소설입니다. 열린 결말이 오래 질문을 남기지요.",
+  "sources": [
+   "https://en.wikipedia.com/wiki/The_Giver",
+   "https://www.ala.org/winner/giver",
+   "https://www.litcharts.com/lit/the-giver/summary"
+  ],
+  "scenes": [
+   {
+    "after": 1,
+    "img": "img/2026-11-28-modern-s1.jpg",
+    "video": "img/2026-11-28-modern-s1.mp4",
+    "alt": "열두 살 기념식 강당 단상, 똑같은 옷을 입은 아이들 줄 가운데 한 소년이 서 있고, 연단 옆 정장 차림의 원로가 손을 들어 가리킨다. 아이들이 서로 돌아보고 깃발이 흔들린다",
+    "ai": "On an auditorium stage, a row of twelve-year-old children in identical plain sweaters; one boy in the middle stands apart while a woman elder in a dark suit at the podium points at him. Flags."
+   },
+   {
+    "after": 2,
+    "img": "img/2026-11-28-modern-s2.jpg",
+    "video": "img/2026-11-28-modern-s2.mp4",
+    "alt": "책이 빼곡한 방에서 수염 난 노인이 눈 감은 소년의 등에 손을 얹고, 소년 둘레로 하얀 눈송이 같은 기억이 피어오른다. 스탠드 불빛이 은은하다",
+    "ai": "In a room full of bookshelves, an old bearded man with glasses places his hand on the back of a boy with closed eyes; small white snowflakes swirl up around the boy like memories. A floor lamp, armchair."
+   },
+   {
+    "after": 6,
+    "img": "img/2026-11-28-modern-s3.jpg",
+    "video": "img/2026-11-28-modern-s3.mp4",
+    "alt": "달 뜬 밤 들길, 소년이 뒷자리 아기 의자에 아기를 태우고 오른쪽으로 자전거를 몬다. 나무가 스쳐 지나가고 하늘에서 수색 비행기 불빛이 훑는다",
+    "ai": "At night on a country road, a boy rides a bicycle to the right with a small baby in a child seat behind him; trees pass by, the moon, a search plane with a light beam in the sky."
+   }
+  ]
+ },
+ "man": {
+  "kind": "격투가",
+  "name": "장창선",
+  "sub": "레슬링 · 대한민국 1943 – 2026",
+  "img": "img/2026-11-28-man.jpg",
+  "video": "img/2026-11-28-man.mp4",
+  "alt": "체육관 매트 위에서 두 레슬링 선수가 어깨를 맞대고 겨루고, 심판이 손을 들어 보이며 관중석의 사람들이 손뼉을 친다(3D 삽화, 실제 인물 아님)",
+  "cap": "3D 삽화",
+  "ai": "Two amateur freestyle wrestlers in singlets grapple shoulder to shoulder on a mat in a 1960s gym, a referee in white raising his hand, spectators clapping. Seen from a distance, no face details.",
+  "bio": "작은 체구로 매트 위를 누빈 자유형 레슬링 선수입니다. 1964년 도쿄 올림픽에서 은메달을 땄고, 1966년 미국 톨레도 세계선수권에서는 금메달을 목에 걸었지요. 한국 레슬링의 첫 세계 챔피언이었지만, 뒤이은 올림픽 영웅들에 가려 이름이 조금 덜 알려진 숨은 선구자입니다.",
+  "feats": [
+   {
+    "when": "1964 도쿄",
+    "text": "올림픽 자유형 플라이급에서 은메달을 땄습니다."
+   },
+   {
+    "when": "1966 톨레도",
+    "text": "세계레슬링선수권 자유형 플라이급에서 우승해, 한국 레슬링 첫 세계 챔피언이 되었습니다."
+   },
+   {
+    "when": "2026.7",
+    "text": "여든셋으로 세상을 떠났습니다. 한국 레슬링을 세계 무대에 처음 올려놓은 사람으로 기억됩니다."
+   }
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Chang_Chang-sun",
+   "https://www.olympedia.org/athletes/59154",
+   "https://mobile.newsis.com/view/NISX20260720_0003715548",
+   "https://www.koreatimes.co.kr/amp/sports/20260720/former-wrestling-world-champion-jang-chang-sun-dies-at-83"
+  ]
+ },
+ "go": {
+  "title": "「오른쪽 변에 세 점」 흑5",
+  "game": "제6회 후지쓰배 세계바둑선수권 결승 (유창혁-조훈현)",
+  "date": "1993-08-07",
+  "black": "유창혁 6단",
+  "white": "조훈현 9단",
+  "result": "흑 6집반승",
+  "moves": "pd dd pp dp pj nc pf pb fq",
+  "from": 1,
+  "to": 9,
+  "key": 5,
+  "key_label": "Q10",
+  "lead": "스물일곱 살 유창혁이 스승 세대의 거목 조훈현을 꺾고 처음 세계 정상에 오른 판의 첫머리.",
+  "body": [
+   "후지쓰배는 1988년 일본에서 시작된 세계 바둑 대회입니다. 1993년 제6회 결승은 한국 기사끼리의 대결이었지요. 공격적인 바둑으로 이름난 유창혁 6단이 흑을, 응창기배 초대 우승자 조훈현 9단이 백을 쥐었습니다.",
+   "그림은 대국의 첫 아홉 수입니다. 흑은 1·3·5로 오른쪽 변의 화점 세 곳을 나란히 차지했는데, 이렇게 한 줄로 늘어선 모양을 '삼연성(三連星)'이라 부릅니다. 동그라미 친 흑5가 그 마지막 한 점으로, 오른쪽을 크게 집으로 삼겠다는 선언이지요. 백은 6으로 곧장 그 틀에 뛰어들었습니다.",
+   "판은 끝까지 가서 집을 세었고, 흑이 6집 반을 이겼습니다. 유창혁의 첫 세계 대회 우승이었습니다."
+  ],
+  "lit": "「경희」의 경희가 제 자리를 스스로 정하듯, 첫 수부터 판의 모양을 또렷이 선언한 대국입니다.",
+  "sources": [
+   "https://ko.wikipedia.org/wiki/%ED%9B%84%EC%A7%80%EC%AF%94%EB%B0%B0_%EC%84%B8%EA%B3%84_%EB%B0%94%EB%91%91_%EC%84%A0%EC%88%98%EA%B6%8C_%EB%8C%80%ED%9A%8C",
+   "https://en.wikipedia.org/wiki/Yoo_Chang-hyuk",
+   "https://www.Wikipedia.com/wiki/Fujitsu_Cup",
+   "https://github.com/yenw/computer-go-dataset (기보: Professional/pro1940-1999.zip → pro1940-1999.txt, GN 1993-08-07a)"
+  ]
+ },
+ "food": {
+  "name": "잼 타르트",
+  "hanja": null,
+  "work": "이상한 나라의 앨리스",
+  "writer": "루이스 캐럴",
+  "year": "1865",
+  "where": "하트 왕과 여왕의 재판정",
+  "img": "img/2026-11-28-food.jpg",
+  "video": "img/2026-11-28-food.mp4",
+  "alt": "재판정 한가운데 탁자 위 커다란 접시에 동그란 잼 타르트가 수북이 담겨 있고, 그 옆 찻주전자에서 김이 오른다. 커튼이 살랑이고 장미 꽃잎이 떨어진다",
+  "ai": "A large silver dish piled with small round English jam tarts with crimped golden pastry edges and shiny red strawberry jam centres, on a table in a whimsical courtroom with red curtains. A teapot with steam. No people.",
+  "quote": "재판정 한가운데 탁자에는 타르트를 수북이 담은 큰 접시가 놓여 있었는데, 어찌나 맛있어 보이던지 보기만 해도 앨리스는 배가 고파졌다.",
+  "quote_by": "앨리스가 '타르트를 훔친 자'의 재판정에 들어서는 대목(제11장, 금로동 옮김)",
+  "body": [
+   "이상한 나라의 마지막 소동은 타르트에서 시작됩니다. 하트 여왕이 구운 타르트를 하트 잭이 훔쳤다는 죄로 재판이 열리지요. 흰 토끼가 읽는 고발장은 영국 아이들이 다 아는 동요 그대로입니다. 그런데 정작 재판정 탁자에는 그 타르트가 멀쩡히 놓여 있어, 재판 전체가 우스꽝스러워집니다.",
+   "타르트는 얇게 구운 반죽 그릇에 속을 채운 과자입니다. 영국의 잼 타르트는 동그란 반죽에 딸기나 살구 잼을 한 숟갈씩 떠 넣어 굽는, 집에서 흔히 만들던 간식이지요. 남은 반죽 자투리로도 만들 수 있어 차 마시는 시간이나 아이들 생일상에 자주 올랐습니다.",
+   "캐럴이 빌려 온 동요 「하트 여왕」은 1782년 한 잡지에 처음 실린 것으로 알려져 있습니다. 여름날 여왕이 타르트를 굽고, 잭이 몽땅 훔쳐 가고, 왕이 잭을 혼내 돌려받는다는 짧은 노래지요. 앨리스 이야기 덕분에 이 노래와 타르트는 더 널리 사랑받게 되었습니다.",
+   "재판은 끝내 엉터리로 흘러가고, 앨리스는 '너희는 카드 한 벌일 뿐'이라 외치며 꿈에서 깨어납니다. 그 많은 소동 속에서도 탁자 위 타르트만은 처음부터 끝까지 그대로였지요. 꿈이 끝나도 어쩐지 그 단내만은 남아 있을 것 같습니다."
+  ],
+  "try": "식빵 가장자리를 둥글게 눌러 잼 한 숟갈을 올리고 살짝 구워 보세요. 여왕의 타르트 흉내가 납니다.",
+  "sources": [
+   "https://gutenberg.org/cache/epub/11/pg11-images.html",
+   "https://en.wikipedia.org/wiki/The_Queen_of_Hearts_(poem)",
+   "https://en.wikipedia.org/wiki/Jam_tart",
+   "https://etc.usf.edu/lit2go/1/alices-adventures-in-wonderland/21/chapter-xi-who-stole-the-tarts/"
+  ],
+  "short": {
+   "hook": "루이스 캐럴의 『이상한 나라의 앨리스』, 하트 여왕의 잼 타르트 이야기예요.",
+   "lines": [
+    "이상한 나라의 마지막 소동은 재판이에요. 하트 잭이 여왕이 구운 타르트를 훔쳤다는 거죠.",
+    "그런데 재판정 한가운데 탁자 위에는 그 타르트가 멀쩡히 수북하게 놓여 있었어요.",
+    "앨리스는 보기만 해도 배가 고파졌대요.",
+    "잼 타르트는 동그란 반죽에 딸기나 살구 잼을 떠 넣어 굽는 영국 간식이에요.",
+    "고발장으로 읽히는 동요 「하트 여왕」은 1782년 한 잡지에 처음 실린 것으로 알려져 있답니다.",
+    "오늘 오후엔 잼 한 숟갈 올린 작은 과자로, 이상한 나라의 단내를 맛보세요."
+   ],
+   "outro": "오늘 문학늬우스에서 하트 여왕의 타르트 이야기를 더 만나 보세요.",
+   "thumb": [
+    "여왕의",
+    "잼 타르트"
+   ],
+   "title": "루이스 캐럴 『이상한 나라의 앨리스』 하트 여왕의 잼 타르트 | 문학 한술 #이상한나라의앨리스 #잼타르트 #루이스캐럴 #shorts"
+  }
+ },
+ "zodiac": [
+  {
+   "key": "rat",
+   "animal": "쥐",
+   "text": "산에는 꽃 피네 / 꽃이 피네 / 갈 봄 여름 없이 / 꽃이 피네",
+   "writer": "김소월",
+   "work": "산유화",
+   "year": 1925,
+   "note": "계절을 가리지 않고 피는 꽃처럼, 오늘 하루도 내 속도대로 피어 보세요.",
+   "sources": [
+    "https://ko.wikisource.org/wiki/%EC%A7%84%EB%8B%AC%EB%9E%98%EA%BD%83_(%EC%8B%9C%EC%A7%91)/%EC%82%B0%EC%9C%A0%ED%99%94"
+   ]
+  },
+  {
+   "key": "ox",
+   "animal": "소",
+   "text": "타고 남은 재가 다시 기름이 됩니다",
+   "writer": "한용운",
+   "work": "알 수 없어요",
+   "year": 1926,
+   "note": "다 써 버린 것 같은 마음에도 다시 불씨가 남아 있어요. 천천히 기름을 모아 보세요.",
+   "sources": [
+    "https://encykorea.aks.ac.kr/Article/E0035136"
+   ]
+  },
+  {
+   "key": "tiger",
+   "animal": "호랑이",
+   "text": "청산리 벽계수야 수이 감을 자랑 마라",
+   "writer": "황진이",
+   "work": "청산리 벽계수야(시조)",
+   "note": "서두르는 걸음을 잠시 멈추고, 지나는 풍경에 눈길을 한 번 주어 보세요.",
+   "sources": [
+    "https://encykorea.aks.ac.kr/Article/E0065346"
+   ]
+  },
+  {
+   "key": "rabbit",
+   "animal": "토끼",
+   "text": "그대를 여름날에 견주어 볼까요?",
+   "orig": "Shall I compare thee to a summer's day?",
+   "translator": "금로동 옮김",
+   "writer": "윌리엄 셰익스피어",
+   "work": "소네트 18",
+   "year": 1609,
+   "note": "좋아하는 사람에게 어울리는 계절 하나를 골라, 오늘 슬쩍 말해 주세요.",
+   "sources": [
+    "https://www.gutenberg.org/ebooks/1041"
+   ]
+  },
+  {
+   "key": "dragon",
+   "animal": "용",
+   "text": "잠들기 전 가야 할 길이 멀어요",
+   "orig": "And miles to go before I sleep",
+   "translator": "금로동 옮김",
+   "writer": "로버트 프로스트",
+   "work": "눈 내리는 저녁 숲가에 멈춰 서서",
+   "year": 1923,
+   "note": "쉬어 가고 싶은 숲 앞에서도 약속은 잊지 마세요. 그 길 끝에 단잠이 있어요.",
+   "sources": [
+    "https://poetryfoundation.org/poems/42891/stopping-by-woods-on-a-snowy-evening"
+   ]
+  },
+  {
+   "key": "snake",
+   "animal": "뱀",
+   "text": "엄마야 누나야 강변 살자",
+   "writer": "김소월",
+   "work": "엄마야 누나야",
+   "year": 1922,
+   "note": "함께 살고 싶은 곳, 함께 있고 싶은 사람을 오늘 한 번 떠올려 보세요.",
+   "sources": [
+    "https://encykorea.aks.ac.kr/Article/E0026311"
+   ]
+  },
+  {
+   "key": "horse",
+   "animal": "말",
+   "text": "마음에 두려움이 없고 머리를 높이 드는 곳",
+   "orig": "Where the mind is without fear and the head is held high",
+   "translator": "금로동 옮김",
+   "writer": "라빈드라나트 타고르",
+   "work": "기탄잘리 35",
+   "year": 1912,
+   "note": "고개를 들고 한 걸음 내디뎌 보세요. 두려움은 생각보다 작아요.",
+   "sources": [
+    "https://poetryfoundation.org/poems/45668/gitanjali-35"
+   ]
+  },
+  {
+   "key": "sheep",
+   "animal": "양",
+   "text": "살어리 살어리랏다 청산애 살어리랏다",
+   "writer": "작자 미상(고려가요)",
+   "work": "청산별곡",
+   "note": "마음이 쉴 수 있는 나만의 청산 한 곳을 오늘 찾아가 보세요.",
+   "sources": [
+    "https://encykorea.aks.ac.kr/Article/E0056472"
+   ]
+  },
+  {
+   "key": "monkey",
+   "animal": "원숭이",
+   "text": "겨울엔 깜깜한 밤에 일어나 / 노란 촛불 아래 옷을 입어요",
+   "orig": "In winter I get up at night / And dress by yellow candle-light.",
+   "translator": "금로동 옮김",
+   "writer": "로버트 루이스 스티븐슨",
+   "work": "여름의 잠자리(Bed in Summer)",
+   "year": 1885,
+   "note": "어두운 아침이라도 작은 불 하나 켜고 천천히 하루를 시작해 보세요.",
+   "sources": [
+    "https://gutenberg.org/cache/epub/136/pg136-images.html"
+   ]
+  },
+  {
+   "key": "rooster",
+   "animal": "닭",
+   "text": "아아 님은 갔지마는 나는 님을 보내지 아니하였습니다",
+   "writer": "한용운",
+   "work": "님의 침묵",
+   "year": 1926,
+   "note": "떠난 것을 붙잡지 않아도, 마음에 남은 것은 그대로 간직해도 괜찮아요.",
+   "sources": [
+    "https://encykorea.aks.ac.kr/Article/E0035136"
+   ]
+  },
+  {
+   "key": "dog",
+   "animal": "개",
+   "text": "그대는 한 송이 꽃 같아라 / 그리도 곱고 맑고 깨끗하여",
+   "orig": "Du bist wie eine Blume, / So hold und schön und rein;",
+   "translator": "금로동 옮김",
+   "writer": "하인리히 하이네",
+   "work": "그대는 한 송이 꽃 같아라(『노래의 책』)",
+   "year": 1827,
+   "note": "곁에 있는 사람의 맑은 얼굴을 오늘 한 번 오래 바라봐 주세요.",
+   "sources": [
+    "https://www.lieder.net/lieder/get_text.html?TextId=7483"
+   ]
+  },
+  {
+   "key": "pig",
+   "animal": "돼지",
+   "text": "청산도 절로절로 녹수도 절로절로",
+   "writer": "김인후(송시열 작으로도 전함)",
+   "work": "청산도 절로절로(시조)",
+   "note": "억지로 애쓰지 말고, 오늘은 흘러가는 대로 한숨 돌려 보세요.",
+   "sources": [
+    "https://encykorea.aks.ac.kr/Article/E0047989"
+   ]
+  }
+ ],
+ "puzzle": {
+  "size": [
+   11,
+   7
+  ],
+  "words": [
+   {
+    "n": 2,
+    "dir": "across",
+    "r": 2,
+    "c": 3,
+    "a": "이야기",
+    "clue": "「토끼전」 같은 옛 ○○○"
+   },
+   {
+    "n": 4,
+    "dir": "across",
+    "r": 3,
+    "c": 2,
+    "a": "기름",
+    "clue": "'타고 남은 재가 다시 ○○이 됩니다'"
+   },
+   {
+    "n": 5,
+    "dir": "across",
+    "r": 4,
+    "c": 1,
+    "a": "가사",
+    "clue": "노래의 말"
+   },
+   {
+    "n": 6,
+    "dir": "across",
+    "r": 5,
+    "c": 0,
+    "a": "마을",
+    "clue": "조너스가 빠져나온 곳"
+   },
+   {
+    "n": 7,
+    "dir": "across",
+    "r": 5,
+    "c": 5,
+    "a": "유학",
+    "clue": "경희가 방학에 돌아오기 전 일본에서 한 공부"
+   },
+   {
+    "n": 8,
+    "dir": "across",
+    "r": 6,
+    "c": 4,
+    "a": "기자",
+    "clue": "문학늬우스 금로동의 직업"
+   },
+   {
+    "n": 9,
+    "dir": "across",
+    "r": 7,
+    "c": 3,
+    "a": "영탄",
+    "clue": "'아아'처럼 감탄을 터뜨리는 표현"
+   },
+   {
+    "n": 10,
+    "dir": "across",
+    "r": 9,
+    "c": 3,
+    "a": "자리",
+    "clue": "용왕이 앉은 높은 ○○"
+   },
+   {
+    "n": 11,
+    "dir": "across",
+    "r": 10,
+    "c": 2,
+    "a": "은유",
+    "clue": "'내 마음은 호수'처럼 빗대는 표현"
+   },
+   {
+    "n": 1,
+    "dir": "down",
+    "r": 0,
+    "c": 4,
+    "a": "엄마야",
+    "clue": "'○○○ 누나야 강변 살자'"
+   },
+   {
+    "n": 2,
+    "dir": "down",
+    "r": 2,
+    "c": 3,
+    "a": "이름",
+    "clue": "개구리가 6월 내내 외치는 것"
+   },
+   {
+    "n": 3,
+    "dir": "down",
+    "r": 2,
+    "c": 5,
+    "a": "기억보유자",
+    "clue": "조너스가 뽑힌 마을에 단 한 명뿐인 자리"
+   },
+   {
+    "n": 4,
+    "dir": "down",
+    "r": 3,
+    "c": 2,
+    "a": "기사",
+    "clue": "바둑을 업으로 두는 사람"
+   },
+   {
+    "n": 5,
+    "dir": "down",
+    "r": 4,
+    "c": 1,
+    "a": "가을",
+    "clue": "단풍 드는 계절"
+   },
+   {
+    "n": 8,
+    "dir": "down",
+    "r": 6,
+    "c": 4,
+    "a": "기탄잘리",
+    "clue": "타고르의 노벨상 수상 시집"
+   },
+   {
+    "n": 10,
+    "dir": "down",
+    "r": 9,
+    "c": 3,
+    "a": "자유",
+    "clue": "이름 없는 삶을 디킨슨이 바꿔 부른 것"
+   }
+  ]
+ }
+}

@@ -1,0 +1,1257 @@
+{
+ "moods": [
+  {
+   "key": "tired",
+   "label": "지쳤어요",
+   "symptom": "몸도 마음도 방전"
+  },
+  {
+   "key": "blue",
+   "label": "울적해요",
+   "symptom": "이유 없이 가라앉음"
+  },
+  {
+   "key": "anxious",
+   "label": "불안해요",
+   "symptom": "내일이 자꾸 걱정됨"
+  },
+  {
+   "key": "angry",
+   "label": "화나요",
+   "symptom": "속에서 불이 남"
+  },
+  {
+   "key": "flutter",
+   "label": "설레요",
+   "symptom": "괜히 두근거림"
+  },
+  {
+   "key": "blank",
+   "label": "멍해요",
+   "symptom": "아무 생각이 없음"
+  }
+ ],
+ "items": [
+  {
+   "mood": "tired",
+   "text": "날개야 다시 돋아라. 날자. 날자. 날자. 한 번만 더 날자꾸나.",
+   "writer": "이상",
+   "work": "날개",
+   "year": 1936,
+   "kind": "소설",
+   "dose": "어깨를 한 번 크게 펴고 소리 내어 세 번 읽으세요. '날자'를 할 때마다 목소리를 조금씩 키우는 게 요령입니다.",
+   "sources": [
+    "https://namu.wiki/w/%EB%82%A0%EA%B0%9C(%EC%86%8C%EC%84%A4)"
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "mood": "tired",
+   "text": "타고 남은 재가 다시 기름이 됩니다.",
+   "writer": "한용운",
+   "work": "알 수 없어요",
+   "year": 1926,
+   "kind": "시",
+   "dose": "다 타 버린 것 같은 날에 복용하세요. 오늘 쓴 기운은 재가 되어 내일 다시 불을 붙입니다.",
+   "sources": [
+    "https://encykorea.aks.ac.kr/Article/E0035136"
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "mood": "blue",
+   "text": "내일은 아직 아무 실수도 하지 않은 새날이라고 생각하면 기분 좋지 않아요?",
+   "orig": "Isn't it nice to think that tomorrow is a new day with no mistakes in it yet?",
+   "translator": "금로동 옮김",
+   "writer": "L. M. 몽고메리",
+   "work": "빨간 머리 앤",
+   "year": 1908,
+   "kind": "소설",
+   "dose": "잠들기 직전에 한 번. 오늘의 실수는 오늘 밤 12시에 유효기간이 끝납니다.",
+   "sources": [
+    "https://graciousquotes.com/library/anne-of-green-gables-quotes/"
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "mood": "blue",
+   "text": "'희망'은 깃털 달린 것 — 영혼에 내려앉아 가사 없는 노래를 부르고, 결코 멈추지 않는다.",
+   "orig": "\"Hope\" is the thing with feathers — That perches in the soul — And sings the tune without the words — And never stops — at all —",
+   "translator": "금로동 옮김",
+   "writer": "에밀리 디킨슨",
+   "work": "'희망'은 깃털 달린 것",
+   "year": 1891,
+   "kind": "시",
+   "dose": "가슴께에 작은 새 한 마리가 앉아 있다고 상상하며 숨을 세 번 고르세요. 노랫말이 없어도 노래는 노래입니다.",
+   "sources": [
+    "https://shenandoahliterary.org/blog/2014/01/emily-dickinson-hope-is-the-thing-with-feathers-1891/"
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "mood": "anxious",
+   "text": "어제로 돌아가 봐야 소용없어요. 그때 저는 다른 사람이었거든요.",
+   "orig": "It's no use going back to yesterday, because I was a different person then.",
+   "translator": "금로동 옮김",
+   "writer": "루이스 캐럴",
+   "work": "이상한 나라의 앨리스",
+   "year": 1865,
+   "kind": "소설",
+   "dose": "지나간 일을 곱씹을 때 복용하세요. 어제의 나는 이미 퇴근했습니다.",
+   "sources": [
+    "https://www.sparknotes.com/lit/alice/quotes/theme/the-loss-of-childhood-innocence"
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "mood": "anxious",
+   "text": "우리는 만날 때에 떠날 것을 염려하는 것과 같이 떠날 때에 다시 만날 것을 믿습니다.",
+   "writer": "한용운",
+   "work": "님의 침묵",
+   "year": 1926,
+   "kind": "시",
+   "dose": "걱정의 방향을 반대로 돌려 보는 약입니다. 끝을 걱정하는 만큼 다시 시작될 것도 믿어 보세요.",
+   "sources": [
+    "https://ko.wikisource.org/wiki/%EB%8B%98%EC%9D%98_%EC%B9%A8%EB%AC%B5/%EB%8B%98%EC%9D%98_%EC%B9%A8%EB%AC%B5"
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "mood": "angry",
+   "text": "한때의 분함을 참으면 백 날의 근심을 면한다.",
+   "orig": "忍一時之忿 免百日之憂",
+   "writer": "명심보감",
+   "work": "계성편(戒性篇)",
+   "year": "고려 말 엮음",
+   "kind": "고전",
+   "dose": "답장 보내기 전에 열을 세고 복용하세요. 하루만 묵혀도 백 날이 편해집니다.",
+   "sources": [
+    "https://m.cafe.daum.net/kyongcj/9Lg8/4028"
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "mood": "angry",
+   "text": "분노와 슬픔이 가져오는 결과는, 그것을 불러일으킨 일보다 얼마나 더 해로운가!",
+   "translator": "금로동 옮김",
+   "writer": "마르쿠스 아우렐리우스",
+   "work": "명상록 11권 18장",
+   "year": "2세기",
+   "kind": "고전",
+   "dose": "황제도 화가 났다는 사실에서 위로를 받으세요. 그리고 그 화가 나를 더 다치게 하기 전에 내려놓기.",
+   "sources": [
+    "https://wist.info/marcus-aureleus/22955/"
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "mood": "flutter",
+   "text": "동짓달 기나긴 밤을 한 허리를 베어 내어 / 춘풍 이불 아래 서리서리 넣었다가 / 어른 님 오신 날 밤이여든 구비구비 펴리라",
+   "writer": "황진이",
+   "work": "동짓달 기나긴 밤을",
+   "year": "16세기",
+   "kind": "시조",
+   "dose": "기다리는 사람이 있는 날 복용하세요. 긴 밤을 잘라 접어 두었다가 만나는 날 펼치는, 조선 최고의 시간 보관법입니다.",
+   "sources": [
+    "https://brunch.co.kr/@@5xkf/143"
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "mood": "flutter",
+   "text": "10월이 있는 세상에 살아서 정말 기뻐요.",
+   "orig": "I'm so glad I live in a world where there are Octobers.",
+   "translator": "금로동 옮김",
+   "writer": "L. M. 몽고메리",
+   "work": "빨간 머리 앤",
+   "year": 1908,
+   "kind": "소설",
+   "dose": "'10월' 자리에 오늘 설레게 한 것을 넣어 다시 읽으세요. 효과가 두 배가 됩니다.",
+   "sources": [
+    "https://www.goodreads.com/work/quotes/3464264"
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "mood": "blank",
+   "text": "산에는 꽃 피네 / 꽃이 피네 / 갈 봄 여름 없이 / 꽃이 피네",
+   "writer": "김소월",
+   "work": "산유화",
+   "year": 1925,
+   "kind": "시",
+   "dose": "아무 생각 없을 때 딱 맞는 약입니다. 이유 없이 피는 꽃처럼, 그냥 있어도 괜찮습니다.",
+   "sources": [
+    "https://ko.wikisource.org/wiki/%EC%A7%84%EB%8B%AC%EB%9E%98%EA%BD%83_(%EC%8B%9C%EC%A7%91)/%EC%82%B0%EC%9C%A0%ED%99%94"
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "mood": "blank",
+   "text": "시간이란 내가 낚시하러 가는 개울일 뿐이다.",
+   "orig": "Time is but the stream I go a-fishing in.",
+   "translator": "금로동 옮김",
+   "writer": "헨리 데이비드 소로",
+   "work": "월든",
+   "year": 1854,
+   "kind": "산문",
+   "dose": "멍한 시간을 낭비라고 부르지 마세요. 소로는 그 시간에 낚싯대를 드리웠습니다.",
+   "sources": [
+    "https://walden.org/quotation-category/time/page/7"
+   ],
+   "added": "2026-11-13"
+  },
+  {
+   "mood": "tired",
+   "text": "두 손은 함뿍 적셔도 좋으련. / 하이얀 모시 수건을 마련해 두렴.",
+   "writer": "이육사",
+   "work": "청포도",
+   "year": 1939,
+   "kind": "시",
+   "dose": "따뜻한 물에 두 손을 한참 담갔다가 마른 수건으로 닦고 복용하세요. 고달픈 몸으로 온 손님에겐 그게 첫 대접입니다.",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EC%9D%B4%EC%9C%A1%EC%82%AC",
+    "https://namu.wiki/w/%EC%B2%AD%ED%8F%AC%EB%8F%84(%EC%8B%9C)"
+   ],
+   "added": "2026-11-14"
+  },
+  {
+   "mood": "blue",
+   "text": "나는 아직 기다리고 있을 테요, 찬란한 슬픔의 봄을",
+   "writer": "김영랑",
+   "work": "모란이 피기까지는",
+   "year": 1934,
+   "kind": "시",
+   "dose": "슬픔 앞에 '찬란한'을 붙여 소리 내 한 번 읽으세요. 기다리는 동안도 계절은 계절입니다.",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EB%AA%A8%EB%9E%80%EC%9D%B4_%ED%94%BC%EA%B8%B0%EA%B9%8C%EC%A7%80%EB%8A%94"
+   ],
+   "added": "2026-11-14"
+  },
+  {
+   "mood": "flutter",
+   "text": "푸른 하늘 푸른 들이 맞붙은 곳으로 / 가르마 같은 논길을 따라 꿈 속을 가듯 걸어만 간다.",
+   "writer": "이상화",
+   "work": "빼앗긴 들에도 봄은 오는가",
+   "year": "",
+   "kind": "시",
+   "dose": "약속 장소 한 정거장 전에 내려 걸어가며 복용하세요. 발끝이 먼저 설렙니다.",
+   "sources": [
+    "https://ko.wikipedia.org/wiki/%EB%B9%BC%EC%95%97%EA%B8%B4_%EB%93%A4%EC%97%90%EB%8F%84_%EB%B4%84%EC%9D%80_%EC%98%A4%EB%8A%94%EA%B0%80"
+   ],
+   "added": "2026-11-14"
+  },
+  {
+   "mood": "anxious",
+   "text": "우리를 겁주는 것이 실제로 짓누르는 것보다 많고, 우리는 현실보다 생각 때문에 더 자주 괴롭다.",
+   "orig": "Plura sunt, Lucili, quae nos terrent quam quae premunt, et saepius opinione quam re laboramus.",
+   "translator": "금로동 옮김",
+   "writer": "세네카",
+   "work": "루킬리우스에게 보내는 편지 13",
+   "year": "",
+   "kind": "산문",
+   "dose": "걱정을 종이에 다 적은 뒤, 오늘 실제로 일어난 것에만 동그라미를 치세요. 대개 동그라미가 모자랍니다.",
+   "sources": [
+    "https://www.thelatinlibrary.com/sen/seneca.ep2.shtml"
+   ],
+   "added": "2026-11-14"
+  },
+  {
+   "mood": "angry",
+   "text": "화가 나면 넷을 세라. 몹시 화가 나면, 욕을 해라.",
+   "orig": "When angry, count four; when very angry, swear.",
+   "translator": "금로동 옮김",
+   "writer": "마크 트웨인",
+   "work": "얼간이 윌슨(10장 '얼간이 윌슨의 달력')",
+   "year": 1894,
+   "kind": "소설",
+   "dose": "넷까지 세는 동안 대부분은 가라앉습니다. 남은 분량은 베개에 대고만 복용하세요.",
+   "sources": [
+    "https://www.gutenberg.org/files/102/102-h/102-h.htm"
+   ],
+   "added": "2026-11-14"
+  },
+  {
+   "mood": "blank",
+   "text": "사람의 모든 불행은 단 하나에서 온다. 제 방에 조용히 머물 줄 모른다는 것.",
+   "orig": "…all the unhappiness of men arises from one single fact, that they cannot stay quietly in their own chamber.",
+   "translator": "금로동 옮김(영역본에서)",
+   "writer": "블레즈 파스칼",
+   "work": "팡세 139",
+   "year": "",
+   "kind": "산문",
+   "dose": "멍한 게 아니라 방에 머무는 연습 중입니다. 휴대폰을 엎어 두고 10분 복용하세요.",
+   "sources": [
+    "https://www.gutenberg.org/files/18269/18269-h/18269-h.htm"
+   ],
+   "added": "2026-11-14"
+  },
+  {
+   "mood": "tired",
+   "text": "엄마야 누나야 강변 살자 / 뜰에는 반짝이는 금모래빛",
+   "writer": "김소월",
+   "work": "엄마야 누나야",
+   "year": 1922,
+   "kind": "시",
+   "dose": "모니터 불빛 대신 금모래빛을 떠올리며, 눈 감고 두 줄을 천천히 소리 내어 한 번. 강변 이사는 처방에 포함되지 않습니다.",
+   "sources": [
+    "https://www.kairnews.com/news/410122",
+    "http://www.ppss.kr/news/articleView.html?idxno=231471"
+   ],
+   "added": "2026-11-15"
+  },
+  {
+   "mood": "blue",
+   "text": "오늘 밤에도 별이 바람에 스치운다.",
+   "writer": "윤동주",
+   "work": "서시",
+   "year": 1941,
+   "kind": "시",
+   "dose": "잠들기 전 창문을 한 뼘 열고 이 한 줄을 읽은 뒤 별 하나만 찾아보세요. 흐린 날은 마음속 별로 대체 가능합니다.",
+   "sources": [
+    "https://www.korean.go.kr/nkview/nknews/200401/66_8.html"
+   ],
+   "added": "2026-11-15"
+  },
+  {
+   "mood": "blank",
+   "text": "왜 사냐건 / 웃지요.",
+   "writer": "김상용",
+   "work": "남으로 창을 내겠소",
+   "year": 1934,
+   "kind": "시",
+   "dose": "누가 요즘 뭐 하고 사냐고 물으면, 설명 대신 이 처방대로 웃어 두세요. 부작용 없음.",
+   "sources": [
+    "https://encykorea.aks.ac.kr/Article/E0012085"
+   ],
+   "added": "2026-11-15"
+  },
+  {
+   "mood": "anxious",
+   "text": "다 괜찮아질 거예요. 다 괜찮아질 거예요. 모든 것이, 하나도 빠짐없이 괜찮아질 거예요.",
+   "orig": "al shal be wel & al shal be wel & al manner of thyng shal be wele",
+   "translator": "금로동 옮김",
+   "writer": "노리치의 줄리언",
+   "work": "하느님 사랑의 계시 27장",
+   "year": "14세기",
+   "kind": "산문",
+   "dose": "같은 말을 세 번 하는 데는 이유가 있습니다. 소리 내어 세 번, 숨을 길게 쉬며 복용하세요.",
+   "sources": [
+    "https://milnepublishing.geneseo.edu/revelations/?p=35",
+    "https://d.lib.rochester.edu/teams/text/the-shewings-of-julian-of-norwich-part-2.html"
+   ],
+   "added": "2026-11-15"
+  },
+  {
+   "mood": "angry",
+   "text": "노여움을 남에게 옮기지 않았고, 같은 잘못을 두 번 하지 않았다.",
+   "orig": "不遷怒，不貳過。",
+   "translator": "금로동 옮김",
+   "writer": "공자(제자 안회를 두고)",
+   "work": "논어 옹야편",
+   "year": "",
+   "kind": "고전",
+   "dose": "엉뚱한 사람에게 화풀이하기 전, 이 여섯 글자 不遷怒 不貳過를 손바닥에 한 번 써 보세요. 쓰는 사이 반은 식습니다.",
+   "sources": [
+    "https://lawlec.korea.ac.kr/?p=2016",
+    "https://en.5000yan.com/the-analects/yong-ye/mastery-self-reluctance-repeat-errors.html"
+   ],
+   "added": "2026-11-15"
+  },
+  {
+   "mood": "flutter",
+   "text": "당신이 내 영혼을 꿰뚫는군요. 나는 반은 괴로움, 반은 희망입니다.",
+   "orig": "You pierce my soul. I am half agony, half hope.",
+   "translator": "금로동 옮김",
+   "writer": "제인 오스틴",
+   "work": "설득(23장, 웬트워스 대령의 편지)",
+   "year": 1817,
+   "kind": "소설",
+   "dose": "답장을 기다리며 두근거리는 날, 반은 괴로움 반은 희망인 게 정상이라는 확인용으로 한 번. 이백 년 전에도 그랬습니다.",
+   "sources": [
+    "https://literaturepage.com/read/persuasion-209.html"
+   ],
+   "added": "2026-11-15"
+  },
+  {
+   "mood": "tired",
+   "text": "살어리 살어리랏다 청산에 살어리랏다",
+   "writer": "작자 미상(고려가요)",
+   "work": "청산별곡",
+   "year": null,
+   "kind": "고려가요",
+   "dose": "모니터 앞에서 산으로 가고 싶어질 때 소리 내어 두 번. 실제로 가지 않아도 반쯤은 다녀온 기분이 듭니다.",
+   "sources": [
+    "https://encykorea.aks.ac.kr/Article/E0056472"
+   ],
+   "added": "2026-11-16"
+  },
+  {
+   "mood": "blue",
+   "text": "모가지가 길어서 슬픈 짐승이여",
+   "writer": "노천명",
+   "work": "사슴",
+   "year": 1938,
+   "kind": "시",
+   "dose": "괜히 목이 길게 빠지도록 누군가를 기다리는 날, 슬픔에도 품위가 있다는 걸 떠올리며 한 줄.",
+   "sources": [
+    "https://encykorea.aks.ac.kr/Article/E0025764"
+   ],
+   "added": "2026-11-16"
+  },
+  {
+   "mood": "anxious",
+   "text": "당신 마음속에서 아직 풀리지 않은 모든 것에 인내를 가지세요.",
+   "orig": "Geduld zu haben gegen alles Ungelöste in Ihrem Herzen",
+   "translator": "금로동 옮김",
+   "writer": "라이너 마리아 릴케",
+   "work": "젊은 시인에게 보내는 편지",
+   "year": 1929,
+   "kind": "편지",
+   "dose": "답이 안 나오는 문제를 붙들고 잠 못 들 때, 오늘은 풀지 말고 덮어 두라는 처방으로 한 번.",
+   "sources": [
+    "https://carmenbutcher.com/blog/?p=1429"
+   ],
+   "added": "2026-11-16"
+  },
+  {
+   "mood": "angry",
+   "text": "거룩한 분노는 / 종교보다도 깊고",
+   "writer": "변영로",
+   "work": "논개",
+   "year": 1924,
+   "kind": "시",
+   "dose": "화가 날 때 이 분노가 '거룩한' 쪽인지 그냥 배고픈 쪽인지 먼저 따져 보는 용도로. 대개는 밥부터입니다.",
+   "sources": [
+    "https://www.jjan.kr/article/20240402580005"
+   ],
+   "added": "2026-11-16"
+  },
+  {
+   "mood": "flutter",
+   "text": "다정도 병인 양하여 잠 못 들어 하노라",
+   "writer": "이조년",
+   "work": "이화에 월백하고(시조)",
+   "year": null,
+   "kind": "시조",
+   "dose": "설레서 잠이 안 오는 밤, 칠백 년 전 사람도 똑같았다는 확인용으로 한 줄. 병명은 '다정'입니다.",
+   "sources": [
+    "https://cagibilit.com/in-translation-pear-flowers-illume-moon-white/"
+   ],
+   "added": "2026-11-16"
+  },
+  {
+   "mood": "blank",
+   "text": "산천은 의구하되 인걸은 간데없네",
+   "writer": "길재",
+   "work": "오백 년 도읍지를(회고가)",
+   "year": null,
+   "kind": "시조",
+   "dose": "창밖을 멍하니 보다 시간이 훌쩍 간 날, 그 멍함에도 오래된 족보가 있다는 걸 알려 드리는 한 알.",
+   "sources": [
+    "https://www.imaeil.com/page/view/2015110401113138836"
+   ],
+   "added": "2026-11-16"
+  },
+  {
+   "mood": "tired",
+   "text": "근심의 엉킨 실타래를 풀어 짜 주는 잠, / 하루하루 삶의 죽음, 고된 노동의 목욕",
+   "orig": "Sleep that knits up the ravell'd sleeve of care, / The death of each day's life, sore labour's bath,",
+   "translator": "금로동 옮김",
+   "writer": "윌리엄 셰익스피어",
+   "work": "맥베스(2막 2장)",
+   "year": 1606,
+   "kind": "희곡",
+   "dose": "오늘은 처방보다 베개가 먼저입니다. 이 두 줄을 읽고 불을 끄세요.",
+   "sources": [
+    "https://web.mit.edu/shakespeare/TheMITTech/macbeth/macbeth.2.2.html"
+   ],
+   "added": "2026-11-17"
+  },
+  {
+   "mood": "blue",
+   "text": "우물 속에는 달이 밝고 구름이 흐르고 하늘이 / 펼치고 파아란 바람이 불고 가을이 있습니다.",
+   "writer": "윤동주",
+   "work": "자화상",
+   "year": 1939,
+   "kind": "시",
+   "dose": "울적한 날엔 들여다볼 우물 하나를 찾으세요. 거울도, 찻잔도, 창문도 됩니다.",
+   "sources": [
+    "https://www.korean.go.kr/nkview/nklife/1998_3/8-11.html"
+   ],
+   "added": "2026-11-17"
+  },
+  {
+   "mood": "anxious",
+   "text": "등불을 밝혀 어둠을 조금 내몰고, / 시대처럼 올 아침을 기다리는 최후의 나,",
+   "writer": "윤동주",
+   "work": "쉽게 씌어진 시",
+   "year": 1942,
+   "kind": "시",
+   "dose": "어둠을 다 걷으려 하지 말고, 스탠드 하나 켤 만큼만 내모세요. 아침은 옵니다.",
+   "sources": [
+    "https://v.daum.net/v/20160305112609068"
+   ],
+   "added": "2026-11-17"
+  },
+  {
+   "mood": "angry",
+   "text": "탐욕도 벗어놓고 성냄도 벗어놓고 / 물같이 바람같이 살다가 가라하네",
+   "writer": "나옹선사(전함)",
+   "work": "청산은 나를 보고",
+   "year": null,
+   "kind": "선시",
+   "dose": "화를 외투처럼 벗어 의자에 걸어 두세요. 다시 입을지는 차 한 잔 뒤에 정해도 늦지 않습니다.",
+   "sources": [
+    "https://www.jjan.kr/articleAmp/20170201602650"
+   ],
+   "added": "2026-11-17"
+  },
+  {
+   "mood": "flutter",
+   "text": "문 열자 선뜻! / 먼 산이 이마에 차라.",
+   "writer": "정지용",
+   "work": "춘설",
+   "year": 1939,
+   "kind": "시",
+   "dose": "두근거리면 창문을 열어 이마로 바람을 받으세요. 설렘이 한결 맑아집니다.",
+   "sources": [
+    "https://www.korean.go.kr/nkview/nklife/2006_1/2006_0109.pdf"
+   ],
+   "added": "2026-11-17"
+  },
+  {
+   "mood": "blank",
+   "text": "자주, 소파에 누워 / 멍하니 혹은 생각에 잠겨 있을 때면,",
+   "orig": "For oft, when on my couch I lie / In vacant or in pensive mood,",
+   "translator": "금로동 옮김",
+   "writer": "윌리엄 워즈워스",
+   "work": "나는 구름처럼 외로이 떠돌았네",
+   "year": 1807,
+   "kind": "시",
+   "dose": "멍한 시간은 시인이 수선화를 다시 꺼내 보던 시간입니다. 죄책감 없이 누워 계세요.",
+   "sources": [
+    "https://rpo.library.utoronto.ca/poems/i-wandered-lonely-cloud"
+   ],
+   "added": "2026-11-17"
+  },
+  {
+   "mood": "tired",
+   "text": "나처럼 길을 찾아온 이들 모두에게 누울 침대가 있을까요? / 그럼요, 오는 이 누구에게나 침대가 있지요.",
+   "orig": "Will there be beds for me and all who seek? / Yea, beds for all who come.",
+   "translator": "금로동 옮김",
+   "writer": "크리스티나 로세티",
+   "work": "오르막길(Up-Hill)",
+   "year": 1861,
+   "kind": "시",
+   "dose": "오르막 끝에는 여관이 있다고 시인이 장담했습니다. 오늘은 조금 일찍 체크인하세요.",
+   "sources": [
+    "https://poetryoutloud.org/poem/up-hill",
+    "https://rpo.library.utoronto.ca/poems/hill"
+   ],
+   "added": "2026-11-18"
+  },
+  {
+   "mood": "blue",
+   "text": "나는 그믐달을 몹시 사랑한다.",
+   "writer": "나도향",
+   "work": "그믐달",
+   "year": 1925,
+   "kind": "산문",
+   "dose": "가장 가늘어진 달을 가장 아낀 작가가 있었습니다. 오늘 밤 기운이 그믐달만큼만 남았어도 충분합니다.",
+   "sources": [
+    "https://thewiki.kr/w/그믐달"
+   ],
+   "added": "2026-11-18"
+  },
+  {
+   "mood": "anxious",
+   "text": "돌담에 속삭이는 햇발같이 / 풀 아래 웃음 짓는 샘물같이 / 내 마음 고요히 고운 봄 길 위에 / 오늘 하루 하늘을 우러르고 싶다",
+   "writer": "김영랑",
+   "work": "돌담에 속삭이는 햇발",
+   "year": 1930,
+   "kind": "시",
+   "dose": "시인의 소원은 딱 '오늘 하루'만큼이었습니다. 내일 걱정은 접어 두고 고개 들어 하늘 한 번 보세요.",
+   "sources": [
+    "https://brunch.co.kr/@doyeol/14",
+    "https://www.youthassembly.kr/news/967153"
+   ],
+   "added": "2026-11-18"
+  },
+  {
+   "mood": "angry",
+   "text": "친구에게 화가 났다. / 화났다고 말했더니, 화가 끝났다.",
+   "orig": "I was angry with my friend; / I told my wrath, my wrath did end.",
+   "translator": "금로동 옮김",
+   "writer": "윌리엄 블레이크",
+   "work": "독나무(A Poison Tree)",
+   "year": 1794,
+   "kind": "시",
+   "dose": "속에 묻어 둔 화는 독나무로 자란다고 블레이크가 일러두었습니다. 오늘은 차분한 한 문장으로 꺼내 보세요.",
+   "sources": [
+    "https://www.poetryfoundation.org/poems/45952/a-poison-tree",
+    "https://rpo.library.utoronto.ca/poems/poison-tree"
+   ],
+   "added": "2026-11-18"
+  },
+  {
+   "mood": "flutter",
+   "text": "내 마음은 바다처럼 끝이 없고, / 내 사랑도 그만큼 깊어요. 당신께 줄수록 / 내게 더 많아져요, 둘 다 끝이 없으니까요.",
+   "orig": "My bounty is as boundless as the sea, / My love as deep; the more I give to thee, / The more I have, for both are infinite.",
+   "translator": "금로동 옮김",
+   "writer": "윌리엄 셰익스피어",
+   "work": "로미오와 줄리엣(2막 2장)",
+   "year": 1597,
+   "kind": "희곡",
+   "dose": "주면 줄수록 늘어난다는 건 줄리엣이 발코니에서 확인했습니다. 설렘은 아끼지 말고 쓰셔도 됩니다.",
+   "sources": [
+    "https://web.mit.edu/shakespeare/TheMITTech/romeo_juliet/romeo_juliet.2.2.html",
+    "https://en.wikisource.org/wiki/The_Tragedy_of_Romeo_and_Juliet_(Dowden)/Act_2/Scene_2"
+   ],
+   "added": "2026-11-18"
+  },
+  {
+   "mood": "blank",
+   "text": "낙엽타는 냄새같이 좋은 것이 있을까? 갓 볶아낸 커피의 냄새가 난다.",
+   "writer": "이효석",
+   "work": "낙엽을 태우면서",
+   "year": 1938,
+   "kind": "산문",
+   "dose": "머리가 하얄 때는 코가 먼저 깨어납니다. 커피 볶는 냄새든 낙엽 냄새든, 한 번 깊이 맡아 보세요.",
+   "sources": [
+    "https://ridibooks.com/books/5493000042",
+    "https://www.yeongnam.com/web/view.php?key=20211022010002125"
+   ],
+   "added": "2026-11-18"
+  },
+  {
+   "mood": "tired",
+   "text": "강나루 건너서 / 밀밭 길을 // 구름에 달 가듯이 / 가는 나그네",
+   "writer": "박목월",
+   "work": "나그네",
+   "year": 1946,
+   "kind": "시(한두 줄)",
+   "dose": "서두르지 않아도 길은 이어집니다. 오늘은 구름에 달 가듯 한 걸음씩만 가세요.",
+   "sources": [
+    "https://sgsg.hankyung.com/article/2024030864911",
+    "https://weekly.khan.co.kr/article/201505051404341"
+   ],
+   "added": "2026-11-19"
+  },
+  {
+   "mood": "blue",
+   "text": "지금 그 사람 이름은 잊었지만 / 그 눈동자 입술은 / 내 가슴에 있네",
+   "writer": "박인환",
+   "work": "세월이 가면",
+   "year": 1956,
+   "kind": "시",
+   "dose": "잊힌 것보다 남은 것을 세어 보세요. 가슴에 남은 것들이 오늘의 나를 데워 줍니다.",
+   "sources": [
+    "https://sgsg.hankyung.com/article/2023110315701",
+    "https://www.ajunews.com/view/20180327102638821"
+   ],
+   "added": "2026-11-19"
+  },
+  {
+   "mood": "anxious",
+   "text": "사람을 흔드는 것은 일 자체가 아니라, 그 일에 대한 생각이다.",
+   "orig": "Ταράσσει τοὺς ἀνθρώπους οὐ τὰ πράγματα, ἀλλὰ τὰ περὶ τῶν πραγμάτων δόγματα.",
+   "translator": "금로동 옮김",
+   "writer": "에픽테토스",
+   "work": "엥케이리디온 5",
+   "year": "2세기",
+   "kind": "잠언",
+   "dose": "걱정이 일어나면 '일'과 '내 생각'을 종이 두 칸에 나눠 적어 보세요. 한 칸은 생각보다 작습니다.",
+   "sources": [
+    "https://cts.perseids.org/read/greekLit/tlg0557/tlg002/perseus-eng3/5",
+    "https://www.hermitary.com/solitude/epictetus_enchiridion.html"
+   ],
+   "added": "2026-11-19"
+  },
+  {
+   "mood": "angry",
+   "text": "말하기 좋다 하고 남의 말을 말을 것이 / 남의 말 내 하면 남도 내 말 하는 것이 / 말로써 말이 많으니 말 말을까 하노라",
+   "writer": "작자 미상",
+   "work": "말하기 좋다 하고(시조)",
+   "year": "조선",
+   "kind": "시조",
+   "dose": "화가 날 땐 말 한마디를 하루 뒤로 미뤄 보세요. 말 말을까 하는 마음이 약입니다.",
+   "sources": [
+    "https://www.imaeil.com/page/view/2014041714333823586",
+    "https://m.cafe.daum.net/maranada91/Osob/130"
+   ],
+   "added": "2026-11-19"
+  },
+  {
+   "mood": "flutter",
+   "text": "그대를 여름날에 견주어 볼까? / 그대는 더 사랑스럽고 더 온화한걸.",
+   "orig": "Shall I compare thee to a summer's day? / Thou art more lovely and more temperate:",
+   "translator": "금로동 옮김",
+   "writer": "윌리엄 셰익스피어",
+   "work": "소네트 18",
+   "year": 1609,
+   "kind": "시",
+   "dose": "설레는 사람을 무엇에 견줄지 하루 종일 골라 보세요. 비유를 찾는 동안 마음이 더 환해집니다.",
+   "sources": [
+    "https://rpo.library.utoronto.ca/poems/shakespeares-sonnets-shall-i-compare-thee-summers-day",
+    "https://www.litcharts.com/poetry/william-shakespeare/sonnet-18-shall-i-compare-thee-to-a-summer-s-day"
+   ],
+   "added": "2026-11-19"
+  },
+  {
+   "mood": "blank",
+   "text": "오래된 연못 / 개구리 뛰어드는 / 물소리",
+   "orig": "古池や蛙飛びこむ水の音",
+   "translator": "금로동 옮김",
+   "writer": "마쓰오 바쇼",
+   "work": "오래된 연못(하이쿠)",
+   "year": 1686,
+   "kind": "하이쿠",
+   "dose": "머리가 텅 빌 땐 귀를 열어 보세요. 작은 물소리 하나가 하루를 깨웁니다.",
+   "sources": [
+    "https://takase.com/JapaneseCalligraphy/basho-the-old-pond-a-frog-jumps-in-the-sound-of-water",
+    "https://www.wikiwand.com/en/articles/Basho"
+   ],
+   "added": "2026-11-19"
+  },
+  {
+   "mood": "tired",
+   "text": "청산리 벽계수야 수이 감을 자랑 마라 / 일도창해하면 다시 오기 어려우니 / 명월이 만공산하니 쉬어 간들 어떠리",
+   "writer": "황진이",
+   "work": "청산리 벽계수야(시조)",
+   "year": "16세기",
+   "kind": "시조",
+   "dose": "쉬지 않고 흘러가기만 하면 다시 돌아오기 어려워요. 달 밝은 오늘 밤엔 잠시 쉬어 가세요.",
+   "sources": [
+    "https://ppss.kr/archives/55981",
+    "https://gwangjunewsgic.com/arts-culture/korean-poetry/a-sijo-by-hwang-jini/"
+   ],
+   "added": "2026-11-20"
+  },
+  {
+   "mood": "blue",
+   "text": "유리에 차고 슬픈 것이 어른거린다.",
+   "writer": "정지용",
+   "work": "유리창 1",
+   "year": 1930,
+   "kind": "시",
+   "dose": "슬픔을 유리창 너머로 잠시 바라보세요. 입김을 불었다 지우듯, 조금씩 옅어집니다.",
+   "sources": [
+    "https://www.korean.go.kr/nkview/nknews/200107/36_8.html",
+    "https://encykorea.aks.ac.kr/Article/E0071117"
+   ],
+   "added": "2026-11-20"
+  },
+  {
+   "mood": "anxious",
+   "text": "그러므로 내일을 걱정하지 마라. 내일 일은 내일이 걱정할 것이다. 하루의 괴로움은 그날로 넉넉하다.",
+   "orig": "Take therefore no thought for the morrow: for the morrow shall take thought for the things of itself. Sufficient unto the day is the evil thereof.",
+   "translator": "금로동 옮김",
+   "writer": "『성경』",
+   "work": "마태복음 6장 34절",
+   "year": "1세기",
+   "kind": "경전",
+   "dose": "걱정은 오늘 몫만 챙기세요. 내일 몫은 내일의 내가 꽤 잘 해냅니다.",
+   "sources": [
+    "https://biblehub.com/parallel/matthew/6-34.htm",
+    "https://www.biblegateway.com/verse/en/Matthew%206:34"
+   ],
+   "added": "2026-11-20"
+  },
+  {
+   "mood": "angry",
+   "text": "분노를 다스리는 가장 좋은 약은 미루는 것이다.",
+   "orig": "Maximum remedium irae mora est.",
+   "translator": "금로동 옮김",
+   "writer": "세네카",
+   "work": "분노에 대하여(De Ira) 2권",
+   "year": "1세기",
+   "kind": "산문",
+   "dose": "화가 치밀면 답장은 내일로 미뤄 두세요. 하룻밤 재운 분노는 크기가 반으로 줍니다.",
+   "sources": [
+    "https://whatisstoicism.com/stoicism-resources/senecas-mental-remedies-for-anger/",
+    "https://universe.byu.edu/2021/08/16/opinion-the-greatest-remedy-for-anger-is-delay"
+   ],
+   "added": "2026-11-20"
+  },
+  {
+   "mood": "flutter",
+   "text": "내가 당신을 사랑하는 것은 까닭이 없는 것이 아닙니다.",
+   "writer": "한용운",
+   "work": "사랑하는 까닭",
+   "year": 1926,
+   "kind": "시",
+   "dose": "설레는 마음에도 까닭이 있어요. 그 사람이 좋은 이유 하나를 오늘 적어 두세요.",
+   "sources": [
+    "https://ebook-product.kyobobook.co.kr/dig/epd/sam/E000005472922",
+    "https://www.happycampus.com/report-doc/29484869"
+   ],
+   "added": "2026-11-20"
+  },
+  {
+   "mood": "blank",
+   "text": "어찌하여 푸른 산에 사느냐 묻기에 / 웃고 대답하지 않으니 마음 절로 한가롭다",
+   "orig": "問余何意棲碧山 / 笑而不答心自閑",
+   "translator": "금로동 옮김",
+   "writer": "이백",
+   "work": "산중문답(山中問答)",
+   "year": "8세기",
+   "kind": "한시",
+   "dose": "머리가 텅 빈 날엔 굳이 설명하지 않아도 괜찮아요. 웃음 한 번으로 대답을 대신해 보세요.",
+   "sources": [
+    "https://www.etoday.co.kr/news/view/2408339",
+    "https://en.wikiquote.org/wiki/Li_Bai"
+   ],
+   "added": "2026-11-20"
+  },
+  {
+   "mood": "tired",
+   "text": "잘 가노라 닫지 말며 못 가노라 쉬지 말라 / 부디 긋지 말고 촌음을 아껴 쓰라 / 가다가 중지 곧 하면 아니 감만 못하니라",
+   "writer": "김천택(전함)",
+   "work": "잘 가노라 닫지 말며(시조)",
+   "year": "18세기",
+   "kind": "시조",
+   "dose": "잘 간다고 뛰지도, 못 간다고 멈추지도 마세요. 오늘은 내 걸음 그대로 조금만 더.",
+   "sources": [
+    "https://ko.wikisource.org/wiki/%EB%B6%84%EB%A5%98:%EC%8B%9C%EC%A1%B0",
+    "https://m.cafe.daum.net/lovesisarang/H4dx/370"
+   ],
+   "added": "2026-11-21"
+  },
+  {
+   "mood": "blue",
+   "text": "못 잊어 생각이 나겠지요, / 그런대로 한세상 지내시구려,",
+   "writer": "김소월",
+   "work": "못 잊어",
+   "year": 1923,
+   "kind": "시",
+   "dose": "잊으려 애쓰지 않아도 괜찮아요. 생각나는 채로, 그런대로 오늘을 지내 보세요.",
+   "sources": [
+    "https://www.korean.go.kr/nkview/nknews/200207/48_8.html",
+    "https://poets.org/poem/i-would-forget"
+   ],
+   "added": "2026-11-21"
+  },
+  {
+   "mood": "anxious",
+   "text": "바람이 부는데 / 내 괴로움에는 이유가 없다.",
+   "writer": "윤동주",
+   "work": "바람이 불어",
+   "year": 1941,
+   "kind": "시",
+   "dose": "이유 없는 불안도 있어요. 까닭을 캐묻지 말고, 바람 지나가듯 잠시 흘려보내세요.",
+   "sources": [
+    "https://www.korean.go.kr/nkview/nknews/200401/66_8.html",
+    "https://ko.wikisource.org/wiki/%EC%A0%80%EC%9E%90:%EC%9C%A4%EB%8F%99%EC%A3%BC"
+   ],
+   "added": "2026-11-21"
+  },
+  {
+   "mood": "angry",
+   "text": "화로 시작한 일은 부끄러움으로 끝난다.",
+   "orig": "Whatever is begun in anger, ends in shame.",
+   "translator": "금로동 옮김",
+   "writer": "벤저민 프랭클린",
+   "work": "가난한 리처드의 달력(Poor Richard's Almanack)",
+   "year": 1734,
+   "kind": "잠언",
+   "dose": "화가 난 채로 시작하려던 일은 한 시간만 미뤄 두세요. 부끄러움을 아끼는 법입니다.",
+   "sources": [
+    "https://founders.archives.gov/documents/Franklin/01-01-02-0107",
+    "https://en.wikiquote.org/wiki/Poor_Richard%27s_Almanack"
+   ],
+   "added": "2026-11-21"
+  },
+  {
+   "mood": "flutter",
+   "text": "내가 당신을 얼마나 사랑하느냐고요? 하나씩 세어 볼게요.",
+   "orig": "How do I love thee? Let me count the ways.",
+   "translator": "금로동 옮김",
+   "writer": "엘리자베스 배럿 브라우닝",
+   "work": "포르투갈 소네트 43",
+   "year": 1850,
+   "kind": "시",
+   "dose": "설레는 이유를 하나씩 손꼽아 보세요. 셀수록 마음이 또렷해집니다.",
+   "sources": [
+    "https://www.poetryfoundation.org/poems-and-poets/poems/detail/43742",
+    "https://rpo.library.utoronto.ca/poems/sonnets-portuguese-43-how-do-i-love-thee"
+   ],
+   "added": "2026-11-21"
+  },
+  {
+   "mood": "blank",
+   "text": "난 아무도 아니에요! 당신은 누구죠? 당신도 아무도 아닌가요?",
+   "orig": "I'm Nobody! Who are you? / Are you – Nobody – too?",
+   "translator": "금로동 옮김",
+   "writer": "에밀리 디킨슨",
+   "work": "난 아무도 아니에요! 당신은 누구죠?(260)",
+   "year": "1861년 무렵",
+   "kind": "시",
+   "dose": "아무것도 아닌 기분인 날, 그건 아무도 아닐 자유이기도 해요. 오늘은 이름 없이 쉬세요.",
+   "sources": [
+    "https://poets.org/poem/im-nobody-who-are-you-260",
+    "https://emilydickinsonmuseum.org/roomitem/im-nobody-who-are-you"
+   ],
+   "added": "2026-11-21"
+  },
+  {
+   "mood": "tired",
+   "text": "뱃사람은 바다에서 집으로 돌아왔고, 사냥꾼은 언덕에서 집으로 돌아왔다.",
+   "orig": "Home is the sailor, home from sea, / And the hunter home from the hill.",
+   "translator": "금로동 옮김",
+   "writer": "로버트 루이스 스티븐슨",
+   "work": "레퀴엠(Requiem)",
+   "year": 1887,
+   "kind": "시",
+   "dose": "오늘 할 만큼 했다면 이제 집으로 돌아온 사람처럼 쉬세요. 문을 닫는 것도 일입니다.",
+   "sources": [
+    "https://rpo.library.utoronto.ca/poems/requiem",
+    "https://www.scottishpoetrylibrary.org.uk/poem/requiem/"
+   ],
+   "added": "2026-11-22"
+  },
+  {
+   "mood": "blue",
+   "text": "그립다 / 말을 할까 / 하니 그리워",
+   "writer": "김소월",
+   "work": "가는 길",
+   "year": 1923,
+   "kind": "시",
+   "dose": "그리운 마음은 말하려는 순간 더 커져요. 오늘은 그 그리움을 한 줄 적어 두기만 하세요.",
+   "sources": [
+    "https://www.korean.go.kr/nkview/nknews/200207/48_8.html",
+    "https://ko.wikisource.org/wiki/%EB%B6%84%EB%A5%98:1923%EB%85%84_%EC%9E%91%ED%92%88"
+   ],
+   "added": "2026-11-22"
+  },
+  {
+   "mood": "anxious",
+   "text": "봄이 오던 아침, 서울 어느 쪼그만 정거장에서 / 희망과 사랑처럼 기차를 기다려",
+   "writer": "윤동주",
+   "work": "사랑스런 추억",
+   "year": 1942,
+   "kind": "시",
+   "dose": "초조한 기다림도 언젠가 사랑스런 추억이 돼요. 오늘은 기차를 기다리듯 조금만 느긋하게.",
+   "sources": [
+    "https://ko.wikisource.org/wiki/%EC%82%AC%EB%9E%91%EC%8A%A4%EB%9F%B0_%EC%B6%94%EC%96%B5",
+    "https://www.wikitree.co.kr/articles/253023"
+   ],
+   "added": "2026-11-22"
+  },
+  {
+   "mood": "angry",
+   "text": "청산도 절로절로 녹수도 절로절로 / 산 절로 수 절로 산수 간에 나도 절로",
+   "writer": "김인후(송시열 작으로도 전함)",
+   "work": "청산도 절로절로(자연가)",
+   "year": "16세기",
+   "kind": "시조",
+   "dose": "화가 치밀면 산과 물이 '절로' 흐르는 걸 떠올려 보세요. 억지로 붙든 것부터 놓아 줍니다.",
+   "sources": [
+    "https://encykorea.aks.ac.kr/Article/E0047989",
+    "https://www.khan.co.kr/article/200807041727315"
+   ],
+   "added": "2026-11-22"
+  },
+  {
+   "mood": "flutter",
+   "text": "오, 내 사랑은 붉디붉은 장미, / 유월에 갓 피어난.",
+   "orig": "O my Luve is like a red, red rose / That's newly sprung in June",
+   "translator": "금로동 옮김",
+   "writer": "로버트 번스",
+   "work": "붉디붉은 장미(A Red, Red Rose)",
+   "year": 1794,
+   "kind": "시",
+   "dose": "설레는 마음은 숨기지 말고 꽃처럼 피워 두세요. 오늘 그 사람에게 칭찬 하나를 건네 봅니다.",
+   "sources": [
+    "https://rpo.library.utoronto.ca/poems/red-red-rose",
+    "https://nts.org.uk/stories/my-luve-is-like-a-red-red-rose"
+   ],
+   "added": "2026-11-22"
+  },
+  {
+   "mood": "blank",
+   "text": "빈산에 사람은 보이지 않고, / 어디선가 말소리만 들려온다.",
+   "orig": "空山不見人 / 但聞人語響",
+   "translator": "금로동 옮김",
+   "writer": "왕유",
+   "work": "녹시(鹿柴)",
+   "year": "8세기",
+   "kind": "한시",
+   "dose": "머릿속이 빈산 같은 날엔 비어 있는 그대로 두세요. 먼 말소리만 들어도 하루는 갑니다.",
+   "sources": [
+    "https://eastasiastudent.net/china/classical/wang-wei-deer-enclosure/",
+    "https://zh.wikisource.org/wiki/%E8%BC%9E%E5%B7%9D%E9%9B%86_(%E7%8E%8B%E7%B6%AD)"
+   ],
+   "added": "2026-11-22"
+  },
+  {
+   "mood": "tired",
+   "text": "대추 볼 붉은 골에 밤은 어이 듣드리며 / 벼 벤 그루에 게는 어이 내리는고 / 술 익자 체 장수 돌아가니 아니 먹고 어이리",
+   "writer": "황희",
+   "work": "대추 볼 붉은 골에(시조)",
+   "year": "15세기",
+   "kind": "시조",
+   "dose": "일이 끝난 저녁엔 차린 것이 있으면 그냥 드세요. 수고한 하루엔 그럴 자격이 있어요.",
+   "sources": [
+    "https://m.cafe.daum.net/gobangseyee/LYDs/1305",
+    "https://ko.wikisource.org/wiki/%EA%B8%80%EB%A1%9C%EB%B2%8C_%EC%84%B8%EA%B3%84_%EB%8C%80%EB%B0%B1%EA%B3%BC%EC%82%AC%EC%A0%84/%EC%96%B8%EC%96%B4I%C2%B7%ED%95%9C%EA%B5%AD%EB%AC%B8%ED%95%99%C2%B7%EB%85%BC%EC%88%A0/%EA%B3%A0%EB%A0%A4-%EC%A1%B0%EC%84%A0%EC%9D%98_%EB%AC%B8%ED%95%99/%EC%A1%B0%EC%84%A0_%EC%A0%84%EA%B8%B0_%EB%AC%B8%ED%95%99/%EC%8B%9C%EC%A1%B0_%EB%AC%B8%ED%95%99"
+   ],
+   "added": "2026-11-23"
+  },
+  {
+   "mood": "blue",
+   "text": "슬퍼하는 자는 복이 있나니 / 저희가 영원히 슬플 것이오.",
+   "writer": "윤동주",
+   "work": "팔복",
+   "year": "1940",
+   "kind": "시",
+   "dose": "슬픔을 서둘러 끝내려 하지 마세요. 오늘은 슬픈 채로 있어도 괜찮은 날입니다.",
+   "sources": [
+    "https://thewiki.kr/w/팔복",
+    "https://www.munhwa.com/article/11165036"
+   ],
+   "added": "2026-11-23"
+  },
+  {
+   "mood": "anxious",
+   "text": "세상에 좋은 것도 나쁜 것도 없네. 생각이 그렇게 만들 뿐이지.",
+   "orig": "there is nothing either good or bad, but thinking makes it so",
+   "translator": "금로동 옮김",
+   "writer": "윌리엄 셰익스피어",
+   "work": "햄릿(2막 2장)",
+   "year": "1600년경",
+   "kind": "희곡",
+   "dose": "불안이 커지면 지금 일어난 일과 머릿속에서 키운 일을 종이에 나눠 적어 보세요.",
+   "sources": [
+    "https://standardebooks.org/ebooks/william-shakespeare/hamlet/text/act-2",
+    "https://rsc.org.uk/hamlet/about-the-play/famous-quotes"
+   ],
+   "added": "2026-11-23"
+  },
+  {
+   "mood": "angry",
+   "text": "자비는 억지로 짜내는 것이 아니라 / 하늘에서 부드러운 비처럼 내리는 것",
+   "orig": "The quality of mercy is not strain'd, / It droppeth as the gentle rain from heaven",
+   "translator": "금로동 옮김",
+   "writer": "윌리엄 셰익스피어",
+   "work": "베니스의 상인(4막 1장)",
+   "year": "1598년경",
+   "kind": "희곡",
+   "dose": "화가 난 상대에게 오늘 다 갚아 주지 않아도 됩니다. 비 한 줄기만큼 너그러워져 보세요.",
+   "sources": [
+    "https://poets.org/poem/merchant-venice-act-iv-scene-i-quality-mercy-not-strained",
+    "https://wikipedia.com/wiki/The_quality_of_mercy"
+   ],
+   "added": "2026-11-23"
+  },
+  {
+   "mood": "flutter",
+   "text": "그녀는 아름답게 걷는다, 밤처럼 / 구름 없는 하늘, 별 가득한 밤처럼",
+   "orig": "She walks in beauty, like the night / Of cloudless climes and starry skies",
+   "translator": "금로동 옮김",
+   "writer": "조지 고든 바이런",
+   "work": "그녀는 아름답게 걷는다(She Walks in Beauty)",
+   "year": "1814",
+   "kind": "시",
+   "dose": "설레는 사람이 지나가면 오늘은 그 걸음을 별처럼 기억해 두세요.",
+   "sources": [
+    "https://en.Wikipedia.com/wiki/She_Walks_in_Beauty",
+    "https://www.sjsu.edu/faculty/harris/Eng149_Byron_She%20Walks%20in%20Beauty.pdf"
+   ],
+   "added": "2026-11-23"
+  },
+  {
+   "mood": "blank",
+   "text": "산수간 바위 아래 띠집을 짓노라 하니 / 그 모른 남들은 웃는다 한다마는 / 어리고 햐암의 뜻에는 내 분인가 하노라",
+   "writer": "윤선도",
+   "work": "만흥(漫興) 제1수",
+   "year": "1642년경",
+   "kind": "시조",
+   "dose": "남들이 웃어도 내 몫의 조용한 자리가 있습니다. 오늘은 그 띠집에 잠시 앉아 계세요.",
+   "sources": [
+    "https://www.koreadaily.com/article/20230504204823607",
+    "https://library.ltikorea.or.kr/node/35626"
+   ],
+   "added": "2026-11-23"
+  },
+  {
+   "mood": "tired",
+   "text": "수고하고 무거운 짐 진 자들아 다 내게로 오라 / 내가 너희를 쉬게 하리라",
+   "writer": "『성경』",
+   "work": "마태복음 11장 28절",
+   "year": "1세기",
+   "kind": "경전",
+   "dose": "오늘 짊어진 것 가운데 하나만 내려놓고 쉬세요. 나머지는 내일의 어깨가 들어 줄 거예요.",
+   "sources": [
+    "https://www.jw.org/ko/%EC%84%B1%EA%B2%BD-%EA%B0%80%EB%A5%B4%EC%B9%A8/%EC%84%B1%EA%B2%BD-%EA%B5%AC%EC%A0%88/%EB%A7%88%ED%83%9C%EB%B3%B5%EC%9D%8C-11-28/",
+    "https://www.Wikipedia.org/wiki/Matthew_11:28"
+   ],
+   "added": "2026-11-24"
+  },
+  {
+   "mood": "blue",
+   "text": "가만있으렴, 슬픈 마음아! 이제 그만 서러워하렴. / 구름 뒤에서도 해는 여전히 빛나고 있으니",
+   "orig": "Be still, sad heart! and cease repining; / Behind the clouds is the sun still shining;",
+   "translator": "금로동 옮김",
+   "writer": "헨리 워즈워스 롱펠로",
+   "work": "비 오는 날(The Rainy Day)",
+   "year": "1842",
+   "kind": "시",
+   "dose": "울적한 날은 구름이 낀 날일 뿐, 해가 없어진 날은 아니에요. 창을 한 뼘만 열어 두세요.",
+   "sources": [
+    "https://etc.usf.edu/lit2go/71/henry-wadsworth-longfellow-selected-works/5030/the-rainy-day",
+    "https://interestingliterature.com/2018/03/a-short-analysis-of-henry-wadsworth-longfellows-the-rainy-day/"
+   ],
+   "added": "2026-11-24"
+  },
+  {
+   "mood": "anxious",
+   "text": "우리의 의심은 배신자라서, / 해 보기를 두려워하게 해 / 얻을 수도 있었던 좋은 것을 잃게 하지",
+   "orig": "Our doubts are traitors, / And make us lose the good we oft might win / By fearing to attempt.",
+   "translator": "금로동 옮김",
+   "writer": "윌리엄 셰익스피어",
+   "work": "자에는 자로(1막 4장)",
+   "year": "1604년경",
+   "kind": "희곡",
+   "dose": "걱정이 커지면 아주 작은 첫걸음 하나만 정해 오늘 해 보세요. 의심은 움직이는 사람을 못 따라옵니다.",
+   "sources": [
+    "https://shakespeare.mit.edu/measure/measure.1.4.html",
+    "https://www.folger.edu/blogs/shakespeare-and-beyond/famous-quotes-from-measure-for-measure/"
+   ],
+   "added": "2026-11-24"
+  },
+  {
+   "mood": "angry",
+   "text": "분을 내어도 죄를 짓지 말며 / 해가 지도록 분을 품지 말고",
+   "writer": "『성경』",
+   "work": "에베소서 4장 26절",
+   "year": "1세기",
+   "kind": "경전",
+   "dose": "화는 내도 괜찮습니다. 다만 해가 지기 전에 한 번 내려놓기로, 오늘 저녁 시각을 정해 두세요.",
+   "sources": [
+    "https://www.bible.com/ko/bible/100/EPH.4.26-27",
+    "https://www.biblegateway.com/verse/en/Ephesians%204:26"
+   ],
+   "added": "2026-11-24"
+  },
+  {
+   "mood": "flutter",
+   "text": "첫눈에 반하지 않고 사랑한 이가 어디 있으랴?",
+   "orig": "Who ever loved, that loved not at first sight?",
+   "translator": "금로동 옮김",
+   "writer": "크리스토퍼 말로",
+   "work": "헤로와 레안드로스(Hero and Leander)",
+   "year": "1598",
+   "kind": "시",
+   "dose": "두근거림은 첫눈이 보낸 신호입니다. 오늘은 그 마음을 부정하지 말고 그냥 즐기세요.",
+   "sources": [
+    "https://rpo.library.utoronto.ca/poems/hero-and-leander",
+    "https://gutenberg.org/cache/epub/18781/pg18781-images.html"
+   ],
+   "added": "2026-11-24"
+  },
+  {
+   "mood": "blank",
+   "text": "동쪽 울타리 아래서 국화를 따다가 / 무심히 남산을 바라보네",
+   "orig": "採菊東籬下 / 悠然見南山",
+   "translator": "금로동 옮김",
+   "writer": "도연명",
+   "work": "음주(飮酒) 제5수",
+   "year": "5세기 초",
+   "kind": "한시",
+   "dose": "멍한 마음은 쉬는 마음이기도 합니다. 오늘은 창밖 먼 곳을 오 분만 그냥 바라보세요.",
+   "sources": [
+    "https://www.edb.gov.hk/attachment/tc/curriculum-development/kla/chi-edu/recommended-passages/KS4_11.pdf",
+    "https://sgsg.hankyung.com/article/2024062125361"
+   ],
+   "added": "2026-11-24"
+  },
+  {
+   "mood": "tired",
+   "text": "이제 창을 열어 공기를 바꾸어 들여야 할 텐데",
+   "writer": "윤동주",
+   "work": "돌아와 보는 밤",
+   "year": 1941,
+   "kind": "시",
+   "dose": "지친 날엔 방 공기부터 바꿔 주세요. 창을 열고 깊은 숨 세 번이면 오늘 처방은 끝입니다.",
+   "sources": [
+    "https://www.hankyung.com/article/202505204351i",
+    "https://ko.wikisource.org/wiki/%EC%A0%80%EC%9E%90:%EC%9C%A4%EB%8F%99%EC%A3%BC"
+   ],
+   "added": "2026-11-25"
+  },
+  {
+   "mood": "blue",
+   "text": "자세히 보아야 예쁘다 / 오래 보아야 사랑스럽다 / 너도 그렇다",
+   "writer": "나태주",
+   "work": "풀꽃",
+   "year": "2000년대",
+   "kind": "시",
+   "dose": "울적한 날엔 나를 너무 멀리서 보지 마세요. 오늘 애쓴 일 하나를 가까이 들여다보고 칭찬해 주세요.",
+   "sources": [
+    "https://m.seoul.co.kr/news/2020/03/31/20200331022003",
+    "https://www.khan.co.kr/article/201707142152005"
+   ],
+   "added": "2026-11-25"
+  },
+  {
+   "mood": "anxious",
+   "text": "모든 일에는 정한 때가 있고, / 하늘 아래 모든 뜻에는 그 시기가 있다",
+   "orig": "To every thing there is a season, and a time to every purpose under the heaven",
+   "translator": "금로동 옮김(킹 제임스 영역본에서)",
+   "writer": "『성경』",
+   "work": "전도서 3장 1절",
+   "year": "기원전",
+   "kind": "경전",
+   "dose": "조급할 땐 오늘 할 일과 나중 할 일을 두 줄로 나눠 적어 보세요. 아래 줄은 때가 오면 됩니다.",
+   "sources": [
+    "https://biblehub.com/ecclesiastes/3-1.htm",
+    "https://www.jw.org/en/library/bible/king-james-version/books/ecclesiastes/3/"
+   ],
+   "added": "2026-11-25"
+  },
+  {
+   "mood": "angry",
+   "text": "화를 내는 일은 누구나 할 수 있고 쉽다. 그러나 마땅한 사람에게, 마땅한 만큼, 마땅한 때에 그리하기란 쉬운 일이 아니다.",
+   "orig": "anyone can get angry—that is easy— … but to do this to the right person, to the right extent, at the right time … that is not for every one, nor is it easy",
+   "translator": "금로동 옮김(W. D. 로스 영역본에서)",
+   "writer": "아리스토텔레스",
+   "work": "니코마코스 윤리학 2권 9장",
+   "year": "기원전 4세기",
+   "kind": "철학",
+   "dose": "화가 나면 '누구에게, 얼마나, 언제'를 한 줄씩 적어 보세요. 세 칸을 채우는 동안 불길이 한풀 꺾입니다.",
+   "sources": [
+    "https://pressbooks.ulib.csuohio.edu/nicomacheanethics/?p=64",
+    "https://www.psychologytoday.com/intl/blog/the-wisdom-of-anger/202303/the-wisdom-of-aristotle-on-anger-management"
+   ],
+   "added": "2026-11-25"
+  },
+  {
+   "mood": "flutter",
+   "text": "봄 가을 없이 밤마다 돋는 달도 / '예전엔 미처 몰랐어요.'",
+   "writer": "김소월",
+   "work": "예전엔 미처 몰랐어요",
+   "year": 1925,
+   "kind": "시",
+   "dose": "설레는 마음은 늘 보던 것을 새로 보이게 합니다. 오늘 밤 달 한 번 올려다보세요.",
+   "sources": [
+    "https://www.korean.go.kr/nkview/nknews/200206/47_8.html",
+    "https://m.cafe.daum.net/obh2004/Kjo/24"
+   ],
+   "added": "2026-11-25"
+  },
+  {
+   "mood": "blank",
+   "text": "오늘 저녁 이 좁다란 방의 흰 바람벽에 / 어쩐지 쓸쓸한 것만이 오고 간다",
+   "writer": "백석",
+   "work": "흰 바람벽이 있어",
+   "year": 1941,
+   "kind": "시",
+   "dose": "멍한 저녁엔 흰 벽을 화면 삼아 떠오르는 얼굴들을 그냥 지나가게 두세요. 붙잡지 않아도 괜찮습니다.",
+   "sources": [
+    "https://dh.aks.ac.kr/Edu/wiki/index.php/%ED%9D%B0_%EB%B0%94%EB%9E%8C%EB%B2%BD%EC%9D%B4_%EC%9E%88%EC%96%B4",
+    "https://brunch.co.kr/@poesy/645"
+   ],
+   "added": "2026-11-25"
+  }
+ ]
+}

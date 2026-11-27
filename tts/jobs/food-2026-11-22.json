@@ -1,0 +1,126 @@
+{
+ "name": "food-2026-11-22",
+ "mode": "clone",
+ "ref_audio": "out/casual1/E_think.wav",
+ "ref_text": "음… 그럼 데이터센터는 이제 못 짓는 건가?",
+ "gen": {
+  "temperature": 0.75,
+  "top_p": 0.9
+ },
+ "reload_every": 4,
+ "retries": 4,
+ "items": [
+  {
+   "id": "food_00_t0",
+   "text": "찰스 디킨스의 올리버 트위스트, 빈 그릇을 든 소년이 청한 묽은 죽 한 그릇 이야기예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_00_t1",
+   "text": "찰스 디킨스의 올리버 트위스트, 빈 그릇을 든 소년이 청한 묽은 죽 한 그릇 이야기예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_01_t0",
+   "text": "구빈원 아이들은 하루 세 번, 묽은 귀리죽 한 그릇씩만 받았어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_01_t1",
+   "text": "구빈원 아이들은 하루 세 번, 묽은 귀리죽 한 그릇씩만 받았어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_02_t0",
+   "text": "배고픔을 못 견딘 아이들이 제비를 뽑았고, 뽑힌 아이가 올리버였죠. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_02_t1",
+   "text": "배고픔을 못 견딘 아이들이 제비를 뽑았고, 뽑힌 아이가 올리버였죠. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_03_t0",
+   "text": "빈 그릇을 들고 한마디. 선생님, 조금만 더 주세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_03_t1",
+   "text": "빈 그릇을 들고 한마디. 선생님, 조금만 더 주세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_04_t0",
+   "text": "식당은 얼어붙고, 어른들은 이 아이를 내보내려 현상금까지 걸어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_04_t1",
+   "text": "식당은 얼어붙고, 어른들은 이 아이를 내보내려 현상금까지 걸어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_05_t0",
+   "text": "묽은 귀리죽은 그 시절 구빈원의 엄격함을 상징하는 밥상이었어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_05_t1",
+   "text": "묽은 귀리죽은 그 시절 구빈원의 엄격함을 상징하는 밥상이었어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_06_t0",
+   "text": "디킨스도 열두 살에 구두약 공장에서 일했던 배고픈 아이였답니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_06_t1",
+   "text": "디킨스도 열두 살에 구두약 공장에서 일했던 배고픈 아이였답니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_07_t0",
+   "text": "오늘 문학늬우스에서 그 죽 한 그릇 이야기를 더 만나 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_07_t1",
+   "text": "오늘 문학늬우스에서 그 죽 한 그릇 이야기를 더 만나 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  }
+ ]
+}

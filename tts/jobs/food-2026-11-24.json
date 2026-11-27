@@ -1,0 +1,126 @@
+{
+ "name": "food-2026-11-24",
+ "mode": "clone",
+ "ref_audio": "out/casual1/E_think.wav",
+ "ref_text": "음… 그럼 데이터센터는 이제 못 짓는 건가?",
+ "gen": {
+  "temperature": 0.75,
+  "top_p": 0.9
+ },
+ "reload_every": 4,
+ "retries": 4,
+ "items": [
+  {
+   "id": "food_00_t0",
+   "text": "춘향전에서 거지 차림 이몽룡 앞에 놓인 막걸리 한 사발 이야기예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_00_t1",
+   "text": "춘향전에서 거지 차림 이몽룡 앞에 놓인 막걸리 한 사발 이야기예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_01_t0",
+   "text": "변학도의 생일잔치 날, 다른 손님 상엔 기름진 음식이 가득했어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_01_t1",
+   "text": "변학도의 생일잔치 날, 다른 손님 상엔 기름진 음식이 가득했어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_02_t0",
+   "text": "그런데 이몽룡 앞엔 모서리 떨어진 소반에 콩나물, 깍두기, 막걸리 한 사발뿐이었죠. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_02_t1",
+   "text": "그런데 이몽룡 앞엔 모서리 떨어진 소반에 콩나물, 깍두기, 막걸리 한 사발뿐이었죠. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_03_t0",
+   "text": "그 상 앞에서 이몽룡은 금 술잔의 술은 천 사람의 피라는 시를 짓고, 곧 암행어사 출두가 외쳐져요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_03_t1",
+   "text": "그 상 앞에서 이몽룡은 금 술잔의 술은 천 사람의 피라는 시를 짓고, 곧 암행어사 출두가 외쳐져요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_04_t0",
+   "text": "막걸리는 맑게 떠내지 않고 막 걸러 낸 술이라 그런 이름이 붙었다고 풀이해요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_04_t1",
+   "text": "막걸리는 맑게 떠내지 않고 막 걸러 낸 술이라 그런 이름이 붙었다고 풀이해요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_05_t0",
+   "text": "들일 하다 새참으로 마셔서 농주라고도 불렀답니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_05_t1",
+   "text": "들일 하다 새참으로 마셔서 농주라고도 불렀답니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_06_t0",
+   "text": "오늘 저녁엔 깍두기 한 종지에 막걸리 한 잔, 어떠세요? 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_06_t1",
+   "text": "오늘 저녁엔 깍두기 한 종지에 막걸리 한 잔, 어떠세요? 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_07_t0",
+   "text": "오늘 문학늬우스에서 어사또의 막걸리 한 사발 이야기를 더 만나 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_07_t1",
+   "text": "오늘 문학늬우스에서 어사또의 막걸리 한 사발 이야기를 더 만나 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  }
+ ]
+}

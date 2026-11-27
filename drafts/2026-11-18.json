@@ -1,0 +1,686 @@
+{
+ "date": "2026-11-18",
+ "no": 6,
+ "publisher": {
+  "name": "윤진탈",
+  "org": "지구별"
+ },
+ "author": {
+  "name": "금로동",
+  "title": "기자"
+ },
+ "lead": "수요일 아침, 독자 신청작 두 편이 왔습니다. 전쟁 뒤 독일 부엌의 빵 한 쪽과, 파리 무도회에서 빌린 목걸이 하나. 그리고 올해로 백 살이 된 시집에서 나룻배 한 척을 띄웁니다.",
+ "sentence": {
+  "text": "사람들은 아버지를 난장이라고 불렀다. 사람들은 옳게 보았다.",
+  "big": [
+   "사람들은 아버지를 난장이라고 불렀다.",
+   "사람들은 옳게 보았다."
+  ],
+  "speaker": "맏아들 영수",
+  "work": "난장이가 쏘아올린 작은 공",
+  "writer": "조세희",
+  "year": 1976,
+  "origin": "국내",
+  "book": "『문학과 지성』 1976년 겨울호, 연작집 1978년 문학과지성사",
+  "meaning": "세상이 아버지에게 붙인 이름을 아들이 그대로 받아 적습니다. '옳게 보았다'고 인정하는 순간, 작은 몸이라는 사실 너머 그 이름에 묻은 멸시까지 함께 드러나지요.",
+  "context": "1970년대 서울 '낙원구 행복동'. 철거 계고장을 받아 든 난장이 가족의 맏아들 영수가 이야기를 시작하며 꺼내는 첫 문장입니다. 연작 열두 편 가운데 표제작이지요.",
+  "craft": "짧은 평서문 두 개, 꾸밈말 하나 없습니다. 감정을 빼고 사실만 놓으니 아파하는 일은 독자 몫이 되지요. 이 건조하고 맑은 문장이 산업화 시대의 그늘을 동화처럼 비춥니다.",
+  "img": "img/2026-11-18-sentence.jpg",
+  "video": "img/2026-11-18-sentence.mp4",
+  "alt": "재개발을 앞둔 산동네 골목, 작은 아버지가 공장 굴뚝 쪽을 올려다보고 곁의 아들이 그 어깨에 손을 얹는다. 빨랫줄이 흔들리고 굴뚝 연기가 오른다",
+  "sources": [
+   "https://encykorea.aks.ac.kr/Article/E0011711",
+   "https://www.segye.com/newsView/20221226508296",
+   "https://brunch.co.kr/@boowoon/87",
+   "https://sgsg.hankyung.com/article/2018030903501"
+  ]
+ },
+ "poem": {
+  "title": "나룻배와 행인",
+  "writer": "한용운",
+  "year": 1926,
+  "origin": "국내",
+  "book": "『님의 침묵』(회동서관, 1926)",
+  "public_domain": true,
+  "translator": null,
+  "lines": [
+   "나는 나룻배",
+   "당신은 행인",
+   "",
+   "당신은 흙발로 나를 짓밟습니다.",
+   "나는 당신을 안고 물을 건너갑니다.",
+   "나는 당신을 안으면 깊으나 옅으나 급한 여울이나 건너갑니다.",
+   "",
+   "만일 당신이 아니 오시면 나는 바람을 쐬고 눈비를 맞으며 밤에서 낮까지 당신을 기다립니다.",
+   "당신은 물만 건너면 나를 돌아 보지도 않고 가십니다 그려.",
+   "그러나 당신이 언제든지 오실 줄만은 알아요.",
+   "나는 당신을 기다리면서 날마다 날마다 낡아 갑니다.",
+   "",
+   "나는 나룻배",
+   "당신은 행인"
+  ],
+  "img": "img/2026-11-18-poem.jpg",
+  "video": "img/2026-11-18-poem.mp4",
+  "alt": "안개 낀 강가, 나룻배에 선 사공이 장대를 짚고 강 건너를 바라본다. 둑 위로 봇짐 진 행인이 등을 보이며 걸어가고, 갈대가 흔들린다",
+  "analysis": "'나'는 나룻배, '당신'은 행인. 흙발로 짓밟고 돌아보지도 않고 가는 당신을, 나는 바람과 눈비 속에서 날마다 기다립니다. 만해의 '님'은 연인으로도, 빼앗긴 조국으로도, 진리로도 읽혀 왔지요. 첫 연과 끝 연이 똑같이 되풀이되어, 강을 오가는 배처럼 시가 제자리로 돌아옵니다. '~습니다'의 경어체가 기다림을 원망이 아닌 다짐으로 바꿔 놓고요.",
+  "oneline": "올해는 『님의 침묵』이 나온 지 꼭 백 년. 날마다 낡아 가는 것을 슬퍼하지 않는 시입니다. 건네준 만큼 배는 제 몫을 한 거니까요.",
+  "sources": [
+   "https://gwangjunewsgic.com/arts-culture/gwangju-writes/the-ferryboat-and-the-traveler/",
+   "https://m.cafe.daum.net/yjla/2zjK/964",
+   "https://en.wikipedia.org/wiki/Han_Yong-un",
+   "https://biz.newdaily.co.kr/site/data/html/2026/05/11/2026051100270.html"
+  ]
+ },
+ "novel": {
+  "title": "빵",
+  "title_orig": "Das Brot",
+  "writer": "볼프강 보르헤르트",
+  "year": 1946,
+  "origin": "국외",
+  "where": "1946년 씀, 전쟁 직후 함부르크",
+  "request": "독자 신청작",
+  "quote": "당신은 마음 놓고 네 쪽 드세요. (…) 나는 이 빵이 잘 안 받아요.",
+  "orig": "Du kannst ruhig vier essen (…) Ich kann dieses Brot nicht so recht vertragen.",
+  "translator": "금로동 옮김",
+  "img": "img/2026-11-18-novel.jpg",
+  "video": "img/2026-11-18-novel.mp4",
+  "alt": "한밤의 좁은 부엌, 잠옷 차림의 늙은 남편이 식탁 곁에 어정쩡하게 서 있고, 문간의 아내가 그를 바라본다. 머리 위 전등이 흔들리고 창밖에 바람이 분다",
+  "context": "새벽 두 시 반, 부엌에서 난 소리에 깬 아내는 식탁의 칼과 빵 부스러기를 보고 남편이 몰래 빵을 잘라 먹었음을 압니다. 그녀는 모른 척하고, 이튿날 저녁 자기 몫의 빵을 남편 접시에 얹어 줍니다.",
+  "analysis": "전쟁이 끝난 이듬해 독일, 먹을 것이 모자라던 때입니다. 오래 함께 산 부부가 빵 한 쪽 앞에서 서로를 속입니다. 남편은 '무슨 소리가 난 것 같아서', 아내는 '저녁엔 빵이 잘 안 받는다'. 보르헤르트는 짧은 문장과 되풀이되는 말로 그 거짓말을 사랑으로 바꿔 놓지요. 전쟁에서 병을 얻은 작가는 이듬해 스물여섯 살로 세상을 떠났습니다.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/The_Bread",
+   "https://www.oebv.at/internal/d9bbe35b-bdba-4de0-b1ce-ae1e00feed37",
+   "https://www.pangloss.de/cms/uploads/Dokumente/Schule/Deutsch/131013_D_Aufbau_einer_Kurzprosaanalyse.pdf",
+   "https://en.wikipedia.org/wiki/Wolfgang_Borchert"
+  ]
+ },
+ "writer": {
+  "name": "한용운",
+  "pen": "만해(卍海)",
+  "life": "1879–1944",
+  "bio": "1879년 충남 홍성에서 태어났습니다. 1905년 백담사에서 출가한 승려이자, 1919년 3·1 독립선언서에 이름을 올린 민족대표 33인 가운데 한 사람이지요. 1926년 시집 『님의 침묵』을 냈고, 총독부를 등지려 북향으로 앉혔다는 성북동 심우장에 살다 1944년 해방을 한 해 앞두고 눈을 감았습니다.",
+  "works": [
+   "조선불교유신론 (1913)",
+   "님의 침묵 (1926)",
+   "흑풍 (1935)"
+  ],
+  "link": "오늘의 시 「나룻배와 행인」을 쓴 사람입니다. 그 시가 실린 『님의 침묵』이 올해로 백 살이 됐습니다.",
+  "img": "img/2026-11-18-writer.png",
+  "alt": "얼굴 세부 없이 그린 승복 차림 문인의 실루엣 펜화, 곁에 염주와 시집",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Han_Yong-un",
+   "https://mediahub.seoul.go.kr/archives/2007152",
+   "https://www.kyeonggi.com/article/202103041159929"
+  ]
+ },
+ "trivia": [
+  {
+   "q": "모파상에게 글쓰기를 가르친 스승은 『보바리 부인』의 귀스타브 플로베르다.",
+   "a": "O",
+   "why": "어머니의 오랜 벗이던 플로베르가 젊은 모파상의 원고를 봐 주며 문단으로 이끌었습니다. 1880년 「비곗덩어리」를 크게 칭찬했지요."
+  },
+  {
+   "q": "한용운의 시집 『님의 침묵』에는 시 30편이 실려 있다.",
+   "a": "X",
+   "why": "서문 격인 「군말」과 맺음 「독자에게」 사이에 시 88편이 실렸습니다."
+  },
+  {
+   "q": "『난장이가 쏘아올린 작은 공』은 단편 열두 편을 엮은 연작 소설집이다.",
+   "a": "O",
+   "why": "1975~78년에 쓴 열두 편을 1978년 한 권으로 묶었습니다. 표제작은 그 가운데 한 편이에요."
+  }
+ ],
+ "calendar": "1836년 11월 18일 — 설리번과 함께 희가극 『펜잔스의 해적』을 만든 극작가 W. S. 길버트, 런던에서 태어나다",
+ "onthisday": [
+  {
+   "year": "1922",
+   "title": "마르셀 프루스트, 긴 시간을 마치다",
+   "body": "『잃어버린 시간을 찾아서』의 마르셀 프루스트가 1922년 오늘 파리에서 세상을 떠났습니다. 일곱 권짜리 대작의 마지막 세 권은 그가 떠난 뒤에야 책으로 나왔지요.",
+   "sources": [
+    "https://www.britannica.com/summary/Marcel-Proust",
+    "https://en.wikipedia.org/wiki/In_Search_of_Lost_Time"
+   ]
+  },
+  {
+   "year": "1939",
+   "title": "『시녀 이야기』의 마거릿 애트우드 태어나다",
+   "body": "캐나다 작가 마거릿 애트우드가 1939년 오늘 오타와에서 태어났습니다. 『눈먼 암살자』(2000)와 『증언들』(2019)로 부커상을 두 번 받았지요.",
+   "sources": [
+    "https://britannica.com/biography/Margaret-Atwood"
+   ]
+  },
+  {
+   "year": "1952",
+   "title": "「자유」의 시인 폴 엘뤼아르 눈감다",
+   "body": "초현실주의를 함께 연 프랑스 시인 폴 엘뤼아르가 1952년 오늘 세상을 떠났습니다. 점령기에 쓴 「자유」는 비행기로 뿌려질 만큼 널리 읽혔습니다.",
+   "sources": [
+    "https://www.britannica.com/biography/Paul-Eluard"
+   ]
+  }
+ ],
+ "classic": {
+  "title": "목걸이",
+  "title_orig": "La Parure",
+  "writer": "기 드 모파상",
+  "year": 1884,
+  "origin": "국외",
+  "where": "일간지 『르 골루아』 1884년 2월 17일",
+  "request": "독자 신청작",
+  "oneline": "빌린 다이아몬드 목걸이 하나가 한 여자의 십 년을 바꿔 놓는다.",
+  "img": "img/2026-11-18-classic.jpg",
+  "video": "img/2026-11-18-classic.mp4",
+  "alt": "화려한 무도회장, 목걸이를 건 여인이 샹들리에 아래에서 돌고, 연미복 신사들이 그녀를 바라보며 손짓한다",
+  "story": [
+   "파리에 사는 마틸드 루아젤은 예쁘고 매력 있는 여자입니다. 그런데 운명의 실수처럼 하급 관리 집안에 태어났고, 문교부의 말단 서기와 결혼했지요. 그녀는 늘 불행합니다. 낡은 벽지와 해진 의자를 볼 때마다, 자기가 마땅히 누려야 했을 화려한 살롱과 은식기를 꿈꿉니다.",
+   "어느 저녁, 남편이 의기양양하게 봉투 하나를 내밉니다. 장관 부부가 부처 청사에서 여는 무도회 초대장이었지요. 아내가 기뻐할 줄 알았는데, 마틸드는 울음을 터뜨립니다. 입고 갈 옷이 없다고요. 남편은 잠시 망설이다가, 사냥총을 사려고 모아 둔 400프랑을 내놓습니다.",
+   "드레스는 마련됐지만 이번엔 장신구가 없습니다. 보석 하나 없이 초라해 보이느니 안 가는 게 낫다는 아내에게, 남편은 부자 친구 포레스티에 부인에게 빌려 보라고 권합니다. 수녀원 학교 시절 동무인 포레스티에 부인은 선선히 보석함을 열어 주고, 마틸드는 그 안에서 다이아몬드 목걸이 하나를 골라 품에 안고 돌아옵니다.",
+   "무도회의 밤, 마틸드는 그 자리의 누구보다 빛납니다. 남자들이 이름을 묻고 춤을 청하고, 장관마저 그녀를 눈여겨봅니다. 그녀는 행복에 취해 밤늦도록 춤을 추고, 남편과 함께 삯마차를 타고 집으로 돌아옵니다.",
+   "그런데 집에 들어선 순간, 목에 있어야 할 목걸이가 없습니다. 남편이 왔던 길을 되짚어 걷고 경찰서와 신문사까지 찾아다녔지만 목걸이는 나오지 않습니다. 둘은 포레스티에 부인에게 고리가 망가져 고치는 중이라고 둘러대고 시간을 법니다.",
+   "마침내 보석상에서 똑같아 보이는 목걸이를 찾아내지만, 값은 3만 6천 프랑. 남편은 아버지가 남긴 1만 8천 프랑을 털고, 나머지는 여기저기서 비싼 이자로 빌립니다. 그렇게 새 목걸이를 포레스티에 부인에게 돌려줍니다.",
+   "그날부터 가난이 시작됩니다. 하녀를 내보내고 좁고 허름한 집으로 옮겨, 마틸드는 손수 빨래하고 장을 보며 한 푼까지 깎습니다. 그렇게 십 년, 빚을 다 갚았을 때 마틸드는 몰라보게 억세고 늙은 여자가 되어 있었습니다. 그리고 어느 일요일, 샹젤리제를 걷다가 여전히 젊고 아름다운 포레스티에 부인과 마주칩니다."
+  ],
+  "ending": "포레스티에 부인은 처음엔 그녀를 알아보지 못합니다. 마틸드는 이제 다 갚았으니 털어놓겠다며, 목걸이를 잃어버려 똑같은 것을 사서 돌려주고 십 년 동안 그 빚을 갚았다고 말합니다. 조금은 뿌듯하게요. 그러자 포레스티에 부인이 말합니다. \"오, 가엾은 마틸드! 내 건 가짜였어. 기껏해야 500프랑짜리였는걸!\"",
+  "why": "마지막 한 줄이 앞의 십 년을 통째로 뒤집는, 반전 단편의 교과서입니다. 허영을 꾸짖는 이야기로도, 정직하게 빚을 갚은 사람의 존엄으로도 읽혀 볼 때마다 맛이 다릅니다.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/The_Necklace",
+   "https://fr.wikipedia.org/wiki/La_Parure",
+   "https://www.schoolmouv.fr/fiches-de-lecture/la-parure-guy-de-maupassant/fiche-de-lecture"
+  ],
+  "scenes": [
+   {
+    "after": 1,
+    "img": "img/2026-11-18-classic-s1.jpg",
+    "video": "img/2026-11-18-classic-s1.mp4",
+    "alt": "소박한 거실, 남편이 흰 봉투를 내밀고 마틸드는 두 손으로 얼굴을 감싸며 고개를 숙인다"
+   },
+   {
+    "after": 4,
+    "img": "img/2026-11-18-classic-s2.jpg",
+    "video": "img/2026-11-18-classic-s2.mp4",
+    "alt": "무도회에서 돌아온 밤, 마틸드가 두 손으로 빈 목을 더듬으며 굳어 서 있고 남편이 돌아보며 문 쪽을 가리킨다"
+   },
+   {
+    "after": 6,
+    "img": "img/2026-11-18-classic-s3.jpg",
+    "video": "img/2026-11-18-classic-s3.mp4",
+    "alt": "허름한 뒷마당 우물가, 마틸드가 빨래통 앞에서 빨래를 비틀어 짜고 빨랫줄의 빨래가 흔들린다"
+   }
+  ]
+ },
+ "modern": {
+  "title": "두근두근 내 인생",
+  "writer": "김애란",
+  "year": 2011,
+  "origin": "국내",
+  "where": "장편소설, 2011년 창비",
+  "oneline": "열일곱에 부모가 된 엄마 아빠와, 누구보다 빨리 늙어 가는 열일곱 아들.",
+  "img": "img/2026-11-18-modern.jpg",
+  "video": "img/2026-11-18-modern.mp4",
+  "alt": "작은 아파트 거실, 모자를 쓴 작은 소년이 책상에서 글을 쓰고, 젊은 엄마 아빠가 뒤에서 어깨를 맞대고 들여다본다. 창가 화분이 흔들린다",
+  "story": [
+   "아름이는 열일곱 살입니다. 그런데 몸은 누구보다 빨리 늙어 갑니다. 남보다 몇 곱절 빠르게 시간이 흐르는 병, 조로증이지요. 엄마 미라와 아빠 대수는 서른넷. 열일곱 살에 덜컥 아름이를 낳은, 세상에서 가장 어린 축에 드는 부모입니다. 그러니 이 집에는 묘한 셈법이 생깁니다. 부모는 아직 젊은데 아들이 먼저 늙어 가고, 아들은 부모보다 먼저 인생의 끝을 내다봅니다.",
+   "또래들이 교실과 운동장을 오갈 때, 아름이는 집과 병원을 오갑니다. 대신 아름이에게는 쓰고 있는 글이 하나 있습니다. 엄마와 아빠가 처음 만난 열일곱 살의 여름 이야기. 자기가 태어나기 전, 두 사람이 가장 두근거렸을 계절입니다. 늙어 가는 몸으로 부모의 가장 젊은 날을 상상하는 일, 그것이 아름이가 시간을 견디는 방법입니다.",
+   "어느 날 방송국 PD로 일하는 엄마 친구에게서 출연 제안이 옵니다. 고민 끝에 세 식구는 텔레비전에 나가고, 아름이네 사연은 많은 사람에게 알려집니다. 화면 속 아름이를 보며 누군가는 안쓰러워하고 누군가는 응원을 보냅니다. 그리고 그 많은 시청자 가운데 한 사람이, 아름이의 삶에 조용히 말을 걸어옵니다.",
+   "방송이 나간 뒤 아름이에게 이메일 한 통이 옵니다. 보낸 사람은 서하. 자기도 암으로 아프다는 또래 여자아이였지요. 두 사람은 매일같이 편지를 주고받습니다. 아픈 몸 이야기, 좋아하는 것, 하고 싶은 것. 아름이는 생애 처음으로 누군가의 답장을 기다리며 두근거립니다.",
+   "하지만 서하에게는 비밀이 있었습니다. 편지를 쓴 사람은 소녀가 아니라 서른이 넘은 무명 시나리오 작가 남자였던 것이지요. 진실을 알게 된 아름이는 깊이 무너집니다. 그는 게임 속 세상으로 숨어들고, 그사이 몸은 빠르게 나빠져 끝내 앞을 볼 수 없게 됩니다. 처음 받아 본 설렘이 거짓이었다는 사실은, 병보다 더 아프게 아름이를 할퀴었을 겁니다.",
+   "눈이 먼 아름이는 아빠에게 부탁합니다. 그동안 써 둔 글을 가져다 달라고요. 이윽고 중환자실에 누운 아름이를 엄마와 아빠가 하루 두 번 찾아옵니다. 그리고 두 사람은 아름이에게 동생이 생겼다는 소식을 전합니다."
+  ],
+  "ending": "엄마 아빠는 아름이가 쓴 소설을 소리 내어 읽어 줍니다. 열일곱의 미라와 대수가 처음 만난 여름 이야기, 「두근두근 그 여름」. 아름이는 부모의 목소리로 그 이야기를 들으며 조용히 의식을 잃고, 평화롭게 세상을 떠납니다. 그가 남긴 소설은 책으로 나올 예정이라는 소식과 함께요.",
+  "why": "가장 어린 부모와 가장 늙은 자식이라는 뒤집힌 거울로, 산다는 게 무엇인지 묻는 소설입니다. 슬픈데 자주 웃기고, 다 읽고 나면 내 심장 소리가 들립니다.",
+  "sources": [
+   "https://namu.wiki/w/%EB%91%90%EA%B7%BC%EB%91%90%EA%B7%BC%20%EB%82%B4%20%EC%9D%B8%EC%83%9D",
+   "https://www.khan.co.kr/article/201108072119295",
+   "https://pressian.com/pages/articles/66579"
+  ],
+  "scenes": [
+   {
+    "after": 2,
+    "img": "img/2026-11-18-modern-s1.jpg",
+    "video": "img/2026-11-18-modern-s1.mp4",
+    "alt": "거실 소파에 나란히 앉은 세 식구를 삼각대 카메라와 조명이 비추고, PD가 손짓으로 신호를 준다. 가운데 작은 아름이가 손을 흔든다"
+   },
+   {
+    "after": 3,
+    "img": "img/2026-11-18-modern-s2.jpg",
+    "video": "img/2026-11-18-modern-s2.mp4",
+    "alt": "밤의 아름이 방, 작은 아름이가 컴퓨터 화면 앞에 바짝 앉아 자판을 두드리다 고개를 갸웃한다. 창밖 별이 깜박인다"
+   },
+   {
+    "after": 5,
+    "img": "img/2026-11-18-modern-s3.jpg",
+    "video": "img/2026-11-18-modern-s3.mp4",
+    "alt": "병실, 침대 곁 의자에 앉은 엄마가 공책을 펼쳐 읽어 주고 곁에 선 아빠가 몸을 기울여 함께 듣는다"
+   }
+  ]
+ },
+ "go": {
+  "title": "「깨진 축」 흑67",
+  "game": "제3기 KAT배",
+  "date": "2003-04-23",
+  "black": "이세돌 6단",
+  "white": "홍장식 4단",
+  "result": "흑 211수 불계승",
+  "moves": "pd dd pq po pl mp oo on no pp nq nn mo qq oq qr pn pm qn qm ro qo rn rm rp qp om rk qk rl rq rr sr sn sm sl rj so sq rs fd ol df db nm mn lo mm nl dq ok km iq co nc cf ec de dc cc cb bb cg dg ef ce dh eg fg eh ei fh lm ml gh fi fj gi",
+  "from": 67,
+  "to": 78,
+  "key": 67,
+  "key_label": "D12",
+  "lead": "스무 살 이세돌(흑)이 바둑 입문서가 '하지 말라'고 가르치는 깨진 축을 몰기 시작했다.",
+  "body": [
+   "2003년 4월 23일 제3기 KAT배. 그해 3월 6단이 된 스무 살 이세돌이 흑을 쥐고 홍장식 4단과 마주 앉았다.",
+   "흑67은 백 돌을 단수(한 수만 더 두면 잡히는 상태)로 모는 수다. 백이 달아나면 또 단수, 또 단수. 돌이 계단처럼 비스듬히 줄지어 가는 이 모양을 '축'이라 한다. 가는 길에 상대 돌이 있으면 축은 깨지고, 몰던 쪽에는 구멍투성이 돌만 남는다. 초보의 실수로 꼽히고, 프로끼리라면 대개 그대로 승부가 끝난다.",
+   "이세돌은 흑97까지 축을 오른쪽 아래로 끌고 가, 그곳 백 돌 무리를 잡으며 갇혀 있던 제 돌을 살려 냈다. 축으로 몰던 백 돌은 끝내 잡지 못했지만, 211수에서 백이 돌을 던졌다."
+  ],
+  "lit": "모두가 실패라 부르는 길도 끝까지 건너가 보면 다른 기슭이 나옵니다. 오늘 시의 나룻배처럼요.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/List_of_Go_games",
+   "https://en.wikipedia.org/wiki/Lee_Sedol",
+   "https://go4go.net/go/games/bydate/2003/1470",
+   "https://github.com/yenw/computer-go-dataset (기보: Professional/pro2000+.zip → pro2000+.txt, GN 2003-04-23a)"
+  ]
+ },
+ "man": {
+  "kind": "특수부대",
+  "name": "영국 육군 특수공수부대 (SAS)",
+  "sub": "영국 · 1941 북아프리카 창설 · 헤리퍼드",
+  "img": "img/2026-11-18-man.jpg",
+  "alt": "비 내리는 능선 길을 무거운 배낭을 메고 오르는 대원 둘",
+  "cap": "3D 삽화",
+  "bio": "1941년 북아프리카 사막에서 젊은 장교 데이비드 스털링이 장병 67명으로 꾸린 'L 분견대'에서 시작했습니다. 1945년 해체됐다가 다시 일어나 오늘의 22 SAS 연대로 이어졌고, 1960년부터 잉글랜드 헤리퍼드에 자리 잡았습니다. 표어는 스털링이 직접 고른 'Who Dares Wins'.",
+  "feats": [
+   {
+    "when": "1941.11",
+    "text": "첫 작전(스쿼터 작전)은 사막 낙하산 강하가 어긋나 실패로 끝났습니다. 다음 작전에서는 리비아 비행장 세 곳을 기습해 항공기 60대를 부수고 한 명도 잃지 않았습니다."
+   },
+   {
+    "when": "1945 → 1952",
+    "text": "1945년 10월 8일 해체됐다가 1947년 예비군 부대(21 SAS)로 되살아났고, 1952년 정규군 22 SAS 연대가 정식으로 생겼습니다."
+   },
+   {
+    "when": "1980.5.5",
+    "text": "런던 이란 대사관 인질극 엿새째, '님로드 작전'으로 17분 만에 사태를 끝냈습니다. 휴일 저녁 TV로 생중계되며 부대 이름이 널리 알려졌습니다."
+   },
+   {
+    "when": "선발",
+    "text": "해마다 여름·겨울 두 번 열립니다. 웨일스 브레컨 비컨스 산지의 4주 체력 단계에 200명쯤이 도전하지만, 첫 선발을 통과하는 사람은 대개 10% 남짓입니다."
+   }
+  ],
+  "quote": "Who Dares Wins (감히 하는 자가 이긴다)",
+  "quote_by": "부대 표어. 창설자 데이비드 스털링이 직접 골랐다.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Special_Air_Service",
+   "https://en.wikipedia.org/wiki/Iranian_Embassy_siege",
+   "https://www.nam.ac.uk/explore/David-Stirling"
+  ],
+  "video": "img/2026-11-18-man.mp4"
+ },
+ "zodiac": [
+  {
+   "key": "rat",
+   "animal": "쥐",
+   "text": "그래도 생쥐야, 너만 그런 게 아니란다. / 앞일을 내다봐도 헛될 때가 있지. / 생쥐도 사람도 아무리 잘 짠 계획이라도 / 곧잘 어그러지는 법.",
+   "orig": "But, Mousie, thou art no thy lane, / In proving foresight may be vain: / The best-laid schemes o' mice an' men / Gang aft agley,",
+   "translator": "금로동 옮김",
+   "writer": "로버트 번스",
+   "work": "생쥐에게(To a Mouse)",
+   "year": 1785,
+   "note": "계획이 어긋나도 혼자만 그런 건 아니에요. 오늘 일정표에 빈칸 하나를 일부러 남겨 두어 보세요.",
+   "sources": [
+    "https://englishverse.com/poems/to_a_mouse",
+    "https://interestingliterature.com/2018/12/to-a-mouse-a-poem-by-robert-burns/"
+   ]
+  },
+  {
+   "key": "ox",
+   "animal": "소",
+   "text": "나는 아침을 먹었다. 할 일이 없다.",
+   "writer": "이상",
+   "work": "권태",
+   "year": 1937,
+   "note": "되새김질하는 소처럼 천천히 곱씹는 날도 필요해요. 할 일 없는 십 분을 일부러 만들어 보세요.",
+   "sources": [
+    "https://www.khan.co.kr/article/201501072049175/amp",
+    "https://m.cafe.daum.net/urisi/KduE/187"
+   ]
+  },
+  {
+   "key": "tiger",
+   "animal": "호랑이",
+   "text": "호랑이, 호랑이, 밤의 숲속에서 / 이글이글 타오르는 것아, / 어떤 불멸의 손이, 어떤 눈이 / 너의 무시무시한 균형을 빚어냈느냐?",
+   "orig": "Tyger Tyger, burning bright, / In the forests of the night; / What immortal hand or eye, / Could frame thy fearful symmetry?",
+   "translator": "금로동 옮김",
+   "writer": "윌리엄 블레이크",
+   "work": "호랑이(The Tyger)",
+   "year": 1794,
+   "note": "속에서 불이 잘 붙는 날이에요. 그 불빛을 여러 곳에 나누지 말고 한 가지 일에 오래 비춰 보세요.",
+   "sources": [
+    "https://www.poetryfoundation.org/poems/43687/the-tyger"
+   ]
+  },
+  {
+   "key": "rabbit",
+   "animal": "토끼",
+   "text": "푸른 하늘 은하수 하얀 쪽배엔 / 계수나무 한 나무 토끼 한 마리",
+   "writer": "윤극영",
+   "work": "반달",
+   "year": 1924,
+   "note": "돛도 삿대도 없이 가는 쪽배처럼, 오늘은 정해 둔 길 말고 마음 가는 쪽으로 한 정거장 걸어 보세요.",
+   "sources": [
+    "https://m.cafe.daum.net/bokhwa1111/VHmS/56",
+    "https://www.seoul.co.kr/news/society/2013/08/21/20130821800032",
+    "https://encykorea.aks.ac.kr/Article/E0021454"
+   ]
+  },
+  {
+   "key": "dragon",
+   "animal": "용",
+   "text": "뿌리 깊은 나무는 바람에 흔들리지 않으니, 꽃이 좋고 열매가 많다",
+   "writer": "정인지·권제·안지 등",
+   "work": "용비어천가 제2장",
+   "year": 1447,
+   "note": "용도 뿌리 깊은 나무 곁에서 쉬어 간다지요. 오래 해 온 일 하나의 바탕을 다시 다져 보세요.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Yongbi%C5%8Fch%27%C5%8Fn%27ga",
+    "https://encykorea.aks.ac.kr/Article/E0039509"
+   ],
+   "orig": "불휘 기픈 남ᄀᆞᆫ ᄇᆞᄅᆞ매 아니 뮐ᄊᆡ / 곶 됴코 여름 하ᄂᆞ니",
+   "translator": "금로동 풀이"
+  },
+  {
+   "key": "snake",
+   "animal": "뱀",
+   "text": "풀숲의 가느다란 친구 하나 / 이따금 미끄러져 지나가지요 — / 만나 본 적 있나요? 없다고요? / 그 친구, 나타나는 건 늘 순식간이거든요 —",
+   "orig": "A narrow Fellow in the Grass / Occasionally rides - / You may have met him? Did you not / His notice instant is -",
+   "translator": "금로동 옮김",
+   "writer": "에밀리 디킨슨",
+   "work": "풀숲의 가느다란 친구(A narrow Fellow in the Grass)",
+   "year": 1866,
+   "note": "작은 기척을 잘 알아채는 날이에요. 늘 지나치던 길가를 오늘은 한 번 더 천천히 살펴보세요.",
+   "sources": [
+    "https://www.poetryfoundation.org/poems/49909/a-narrow-fellow-in-the-grass-1096",
+    "https://www.encyclopedia.com/arts/educational-magazines/narrow-fellow-grass"
+   ]
+  },
+  {
+   "key": "horse",
+   "animal": "말",
+   "text": "우리는 그들을 말 못 하는 짐승이라 부르지요. 맞아요, 어떤 기분인지 우리에게 말해 줄 수 없으니까요. 하지만 말이 없다고 덜 아픈 건 아니랍니다.",
+   "orig": "We call them dumb animals, and so they are, for they cannot tell us how they feel, but they do not suffer less because they have no words.",
+   "translator": "금로동 옮김",
+   "writer": "애나 슈얼",
+   "work": "블랙 뷰티",
+   "year": 1877,
+   "note": "말로 꺼내지 않은 마음을 읽어 주기 좋은 날이에요. 조용한 동료에게 먼저 안부 한마디 건네 보세요.",
+   "sources": [
+    "https://www.litcharts.com/lit/black-beauty/quotes",
+    "https://www.mentalfloss.com/literature/books/black-beauty-animal-welfare"
+   ]
+  },
+  {
+   "key": "sheep",
+   "animal": "양",
+   "text": "지금, 새들이 이렇게 즐거운 노래를 부르고 / 어린 양들이 작은북 소리에 맞추듯 / 껑충껑충 뛰노는 동안,",
+   "orig": "Now, while the Birds thus sing a joyous song, / And while the young Lambs bound / As to the tabor's sound,",
+   "translator": "금로동 옮김",
+   "writer": "윌리엄 워즈워스",
+   "work": "송가: 어린 시절을 회상하며 얻는 불멸의 암시",
+   "year": 1807,
+   "note": "몸이 먼저 신나는 날이에요. 좋아하는 노래 한 곡을 틀어 놓고 그 박자에 맞춰 걸어 보세요.",
+   "sources": [
+    "https://anthology.lib.virginia.edu/work/Wordsworth/wordsworth-intimations-ode",
+    "https://www.sparknotes.com/poetry/wordsworth/full-text/section3/"
+   ]
+  },
+  {
+   "key": "monkey",
+   "animal": "원숭이",
+   "text": "아니요, 자유를 바란 게 아니었습니다. 그저 출구 하나를요. 오른쪽이든 왼쪽이든, 어디로든.",
+   "orig": "Nein, Freiheit wollte ich nicht. Nur einen Ausweg; rechts, links, wohin immer;",
+   "translator": "금로동 옮김",
+   "writer": "프란츠 카프카",
+   "work": "어느 학술원에 드리는 보고",
+   "year": 1917,
+   "note": "거창한 해답보다 작은 출구 하나면 되는 날도 있어요. 막힌 일 옆에 난 쪽문이 없는지 찾아보세요.",
+   "sources": [
+    "https://projekt-gutenberg.org/authors/franz-kafka/books/franz-kafka-erzaehlungen-i/chapter/3",
+    "https://americanliterature.com/author/franz-kafka/short-story/a-report-to-an-academy"
+   ]
+  },
+  {
+   "key": "rooster",
+   "animal": "닭",
+   "text": "오늘도 또 우리 수탉이 막 쫓기었다.",
+   "writer": "김유정",
+   "work": "동백꽃",
+   "year": 1936,
+   "note": "자꾸 밀리는 싸움이라면 하루쯤 물러서도 괜찮아요. 닭싸움 대신 노란 동백꽃 핀 산길을 떠올려 보세요.",
+   "sources": [
+    "https://m.cafe.daum.net/bkyoon/v1C/110",
+    "https://encykorea.aks.ac.kr/Article/E0016498"
+   ]
+  },
+  {
+   "key": "dog",
+   "animal": "개",
+   "text": "개를 여라믄이나 기르되 요 개같이 얄미우랴 / … / 쉰 밥이 그릇그릇 난들 너 먹일 줄이 있으랴",
+   "writer": "작자 미상(사설시조)",
+   "work": "개를 여라믄이나 기르되(진본 청구영언)",
+   "year": 1728,
+   "note": "반가운 사람을 제대로 알아보고 반기는 날로 삼아 보세요. 꼬리는 고운 님 앞에서 흔드는 겁니다.",
+   "sources": [
+    "https://repository.sungshin.ac.kr/bitstream/2025.oak/3916/2/%ec%82%ac%ec%84%a4%ec%8b%9c%ec%a1%b0%20%ea%b5%90%ec%9c%a1%ec%9d%98%20%eb%ac%b8%ec%a0%9c%ec%a0%90%ea%b3%bc%20%eb%8c%80%ec%95%88.pdf"
+   ]
+  },
+  {
+   "key": "pig",
+   "animal": "돼지",
+   "text": "옛성 모퉁이 버드나무 까치 둥우리 위에 푸르둥한 하늘이 얕게 드리웠다.",
+   "writer": "이효석",
+   "work": "돈(豚)",
+   "year": 1933,
+   "note": "하늘이 낮게 내려앉은 날엔 걸음도 느긋하게. 동네 모퉁이 나무 하나를 올려다보며 잠깐 쉬어 가 보세요.",
+   "sources": [
+    "https://m.cafe.daum.net/osolhyang/ia9E/2436",
+    "https://itwiki.kr/w/%EB%8F%88_(%EC%86%8C%EC%84%A4)"
+   ]
+  }
+ ],
+ "puzzle": {
+  "size": [
+   11,
+   9
+  ],
+  "words": [
+   {
+    "n": 1,
+    "dir": "across",
+    "r": 0,
+    "c": 6,
+    "a": "서기",
+    "clue": "관청에서 문서를 맡아 보는 사람, 마틸드 남편의 직업"
+   },
+   {
+    "n": 5,
+    "dir": "across",
+    "r": 2,
+    "c": 5,
+    "a": "전후문학",
+    "clue": "전쟁이 끝난 뒤의 상처를 다룬 문학"
+   },
+   {
+    "n": 6,
+    "dir": "across",
+    "r": 3,
+    "c": 2,
+    "a": "장편소설",
+    "clue": "『삼대』 같은 긴 소설"
+   },
+   {
+    "n": 8,
+    "dir": "across",
+    "r": 4,
+    "c": 0,
+    "a": "아름이",
+    "clue": "『두근두근 내 인생』의 열일곱 살 주인공"
+   },
+   {
+    "n": 9,
+    "dir": "across",
+    "r": 5,
+    "c": 3,
+    "a": "시집",
+    "clue": "시를 묶어 낸 책"
+   },
+   {
+    "n": 10,
+    "dir": "across",
+    "r": 6,
+    "c": 2,
+    "a": "행인",
+    "clue": "「나룻배와 행인」에서 흙발로 배를 밟고 건너는 '당신'"
+   },
+   {
+    "n": 11,
+    "dir": "across",
+    "r": 7,
+    "c": 1,
+    "a": "반복",
+    "clue": "같은 말·구조를 되풀이하는 기법"
+   },
+   {
+    "n": 12,
+    "dir": "across",
+    "r": 8,
+    "c": 2,
+    "a": "동인지",
+    "clue": "뜻 맞는 문인들이 함께 낸 잡지"
+   },
+   {
+    "n": 14,
+    "dir": "across",
+    "r": 9,
+    "c": 4,
+    "a": "문인",
+    "clue": "글 쓰는 사람"
+   },
+   {
+    "n": 2,
+    "dir": "down",
+    "r": 0,
+    "c": 7,
+    "a": "기행문",
+    "clue": "여행하며 겪은 일을 적은 글"
+   },
+   {
+    "n": 3,
+    "dir": "down",
+    "r": 2,
+    "c": 0,
+    "a": "엘뤼아르",
+    "clue": "시 「자유」를 쓴 프랑스 초현실주의 시인"
+   },
+   {
+    "n": 4,
+    "dir": "down",
+    "r": 2,
+    "c": 2,
+    "a": "난장이",
+    "clue": "사람들이 영수 아버지를 부른 이름"
+   },
+   {
+    "n": 5,
+    "dir": "down",
+    "r": 2,
+    "c": 5,
+    "a": "전설",
+    "clue": "예부터 전해 오는 이야기"
+   },
+   {
+    "n": 7,
+    "dir": "down",
+    "r": 3,
+    "c": 4,
+    "a": "소설집",
+    "clue": "단편소설을 묶은 책"
+   },
+   {
+    "n": 9,
+    "dir": "down",
+    "r": 5,
+    "c": 3,
+    "a": "시인",
+    "clue": "시를 쓰는 사람"
+   },
+   {
+    "n": 10,
+    "dir": "down",
+    "r": 6,
+    "c": 2,
+    "a": "행복동",
+    "clue": "난장이 가족이 살던 낙원구의 동네"
+   },
+   {
+    "n": 13,
+    "dir": "down",
+    "r": 8,
+    "c": 4,
+    "a": "지문",
+    "clue": "희곡에서 동작·무대를 지시하는 글"
+   },
+   {
+    "n": 15,
+    "dir": "down",
+    "r": 9,
+    "c": 5,
+    "a": "인물",
+    "clue": "작품 속에 나오는 사람"
+   }
+  ]
+ },
+ "food": {
+  "name": "빵",
+  "hanja": null,
+  "work": "빵",
+  "writer": "볼프강 보르헤르트",
+  "year": "1946",
+  "where": "전쟁 직후 독일의 어느 부엌, 새벽 두 시 반",
+  "img": "img/2026-11-18-food.jpg",
+  "video": "img/2026-11-18-food.mp4",
+  "alt": "식탁 위 나무 도마에 올린 거무스름한 빵 한 덩이와 썰어 둔 두 쪽, 빵칼. 창밖에 바람이 불고 전등이 흔들린다",
+  "quote": "여기 뭐가 있는 줄 알았지.",
+  "orig": "Ich dachte, hier wäre was.",
+  "translator": "금로동 옮김",
+  "quote_by": "새벽 부엌에서 아내와 마주친 남편",
+  "body": [
+   "보르헤르트의 「빵」에는 빵이 몇 쪽 나오지 않습니다. 남편이 새벽에 몰래 잘라 먹은 한 쪽, 그리고 이튿날 저녁 아내가 '저녁엔 빵이 잘 안 받는다'며 건넨 한 쪽. 이 소설에서 빵은 음식이라기보다 서로에게 내줄 수 있는 마지막 몫입니다.",
+   "소설이 쓰인 1946년 무렵 독일에서는 먹을거리를 배급표로 나눠 받았습니다. 1946년 겨울부터 이듬해까지 이어진 혹독한 추위와 식량난을 독일 사람들은 지금도 '굶주림의 겨울(Hungerwinter)'이라 부르지요. 그 시절 빵 한 쪽은 하루 끼니의 셈이 걸린 물건이었습니다.",
+   "독일은 지금 이름난 빵의 나라입니다. 호밀과 밀을 섞은 묵직한 빵이 많고, 등록된 빵 종류만 수천 가지라고 하지요. 2014년에는 '독일 빵 문화'가 독일의 국가 무형문화유산 목록에 올랐습니다. 빵 한 덩이를 사서 며칠에 걸쳐 얇게 썰어 먹는 것이 독일식 식탁입니다.",
+   "그래서 이 소설의 빵칼 소리는 더 크게 들립니다. 얇게 썰어 오래 나눠 먹어야 하는 빵을, 늙은 남편은 배고픔을 못 이겨 몰래 썰었고, 아내는 그 거짓말을 덮어 주려 제 몫을 내밀었지요. 빵이 모자란 시절에도 다정함은 모자라지 않았다는 이야기입니다."
+  ],
+  "try": "오늘 빵을 썰 때는 한 쪽을 먼저 옆 사람 접시에 놓아 보세요. 소설 한 편이 식탁에 올라옵니다.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/The_Bread",
+   "https://www.oebv.at/internal/d9bbe35b-bdba-4de0-b1ce-ae1e00feed37",
+   "https://deutsche-digitale-bibliothek.de/content/galerien/der-hungerwinter-1946-1947",
+   "https://www.planet-wissen.de/geschichte/deutsche_geschichte/nachkriegszeit/falscher-honig-100.html",
+   "https://deutschland.de/en/topic/life/german-bread-and-bread-culture"
+  ],
+  "short": {
+   "hook": "보르헤르트의 소설 「빵」, 새벽 두 시 반 부엌에서 빵 한 쪽이 사라졌어요.",
+   "lines": [
+    "범인은 배고픔을 못 이긴 늙은 남편이었죠.",
+    "부엌에서 마주친 남편은 무슨 소리가 난 것 같아서 나와 봤다고 둘러댑니다.",
+    "아내는 식탁의 빵칼과 부스러기를 보고도 모른 척하고, 같이 자러 들어가요.",
+    "전쟁이 끝난 이듬해 독일, 먹을거리를 배급표로 나눠 받던 때였어요.",
+    "다음 날 저녁, 아내는 제 몫의 빵 한 쪽을 남편 접시에 얹어 줍니다. 저녁엔 빵이 잘 안 받는다는, 다정한 거짓말과 함께요.",
+    "작가 보르헤르트는 이 소설을 쓴 이듬해, 스물여섯 살로 세상을 떠났어요."
+   ],
+   "outro": "오늘 문학늬우스에서 이 짧은 소설과 빵 이야기를 더 만나 보세요.",
+   "thumb": [
+    "사라진",
+    "빵 한 쪽"
+   ],
+   "title": "보르헤르트 「빵」 속 빵 한 쪽, 전쟁 뒤 부부의 다정한 거짓말 | 문학 한술 #빵 #보르헤르트 #독일문학 #shorts"
+  }
+ }
+}

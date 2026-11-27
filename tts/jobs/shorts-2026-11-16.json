@@ -1,0 +1,952 @@
+{
+ "name": "shorts-2026-11-16",
+ "mode": "clone",
+ "ref_audio": "out/casual1/E_think.wav",
+ "ref_text": "음… 그럼 데이터센터는 이제 못 짓는 건가?",
+ "gen": {
+  "temperature": 0.75,
+  "top_p": 0.9
+ },
+ "reload_every": 4,
+ "retries": 4,
+ "items": [
+  {
+   "id": "open_00_t0",
+   "text": "일 분 만에 떠먹여 주는, 일 분 문학! 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "open_00_t1",
+   "text": "일 분 만에 떠먹여 주는, 일 분 문학! 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_00_t0",
+   "text": "천구백오십삼 년, 황순원. 개울가 징검다리에서 시작되는 소년과 소녀의 가을 이야기예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_00_t1",
+   "text": "천구백오십삼 년, 황순원. 개울가 징검다리에서 시작되는 소년과 소녀의 가을 이야기예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_01_t0",
+   "text": "개울가 징검다리 한가운데서 한 소녀가 물장난을 하고 있습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_01_t1",
+   "text": "개울가 징검다리 한가운데서 한 소녀가 물장난을 하고 있습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_02_t0",
+   "text": "소년은 소녀가 윤 초시네 증손녀라는 걸 금세 알아봅니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_02_t1",
+   "text": "소년은 소녀가 윤 초시네 증손녀라는 걸 금세 알아봅니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_03_t0",
+   "text": "그런데 말 한마디 붙이지 못하고, 소녀가 징검다리에서 비켜 주기만 기다리지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_03_t1",
+   "text": "그런데 말 한마디 붙이지 못하고, 소녀가 징검다리에서 비켜 주기만 기다리지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_04_t0",
+   "text": "이 소설에서 두 아이의 이름은 끝내 나오지 않습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_04_t1",
+   "text": "이 소설에서 두 아이의 이름은 끝내 나오지 않습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_05_t0",
+   "text": "그저 소년과 소녀입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_05_t1",
+   "text": "그저 소년과 소녀입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_06_t0",
+   "text": "어느 날, 소녀가 물속에서 조약돌 하나를 집어 들더니 이 바보. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_06_t1",
+   "text": "어느 날, 소녀가 물속에서 조약돌 하나를 집어 들더니 이 바보. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_07_t0",
+   "text": "하고 소년 쪽으로 던지고는 달아납니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_07_t1",
+   "text": "하고 소년 쪽으로 던지고는 달아납니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_08_t0",
+   "text": "소년은 그 조약돌을 주워 주머니에 넣습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_08_t1",
+   "text": "소년은 그 조약돌을 주워 주머니에 넣습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_09_t0",
+   "text": "그날부터 주머니 속 조약돌을 만지작거리는 버릇이 생깁니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_09_t1",
+   "text": "그날부터 주머니 속 조약돌을 만지작거리는 버릇이 생깁니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_10_t0",
+   "text": "말로는 하나도 못 한 마음이 작은 돌 하나에 고스란히 옮겨 간 셈이지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_10_t1",
+   "text": "말로는 하나도 못 한 마음이 작은 돌 하나에 고스란히 옮겨 간 셈이지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_11_t0",
+   "text": "그러던 어느 날 소녀가 먼저 묻습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_11_t1",
+   "text": "그러던 어느 날 소녀가 먼저 묻습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_12_t0",
+   "text": "너 저 산 너머에 가 본 일이 있니? 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_12_t1",
+   "text": "너 저 산 너머에 가 본 일이 있니? 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_13_t0",
+   "text": "둘은 들길을 따라 산 쪽으로 걸어갑니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_13_t1",
+   "text": "둘은 들길을 따라 산 쪽으로 걸어갑니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_14_t0",
+   "text": "밭에서 무를 뽑아 나눠 먹고, 허수아비를 흔들어 보고, 칡꽃을 땁니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_14_t1",
+   "text": "밭에서 무를 뽑아 나눠 먹고, 허수아비를 흔들어 보고, 칡꽃을 땁니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_15_t0",
+   "text": "소년은 코뚜레도 꿰지 않은 송아지 등에 올라타 보이며 으쓱해하지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_15_t1",
+   "text": "소년은 코뚜레도 꿰지 않은 송아지 등에 올라타 보이며 으쓱해하지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_16_t0",
+   "text": "소녀 앞에서 처음 해 보는 자랑입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_16_t1",
+   "text": "소녀 앞에서 처음 해 보는 자랑입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_17_t0",
+   "text": "그때 하늘이 갑자기 어두워지더니 소나기가 쏟아집니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_17_t1",
+   "text": "그때 하늘이 갑자기 어두워지더니 소나기가 쏟아집니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_18_t0",
+   "text": "둘은 밭가의 원두막으로 뛰어들지만 비를 피할 수가 없습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_18_t1",
+   "text": "둘은 밭가의 원두막으로 뛰어들지만 비를 피할 수가 없습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_19_t0",
+   "text": "소년은 수숫단을 날라 와 덧세우고, 그 안에 소녀가 들어앉을 자리를 만들어 줍니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_19_t1",
+   "text": "소년은 수숫단을 날라 와 덧세우고, 그 안에 소녀가 들어앉을 자리를 만들어 줍니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_20_t0",
+   "text": "비가 그치고 돌아오는 길, 개울물이 불어 있습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_20_t1",
+   "text": "비가 그치고 돌아오는 길, 개울물이 불어 있습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_21_t0",
+   "text": "아까 건너온 징검다리가 보이지 않을 만큼입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_21_t1",
+   "text": "아까 건너온 징검다리가 보이지 않을 만큼입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_22_t0",
+   "text": "소년이 등을 내밀고, 소녀는 소년의 목을 그러안고 업혀 개울을 건넙니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_22_t1",
+   "text": "소년이 등을 내밀고, 소녀는 소년의 목을 그러안고 업혀 개울을 건넙니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_23_t0",
+   "text": "그 뒤로 소녀는 한동안 개울가에 나타나지 않습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_23_t1",
+   "text": "그 뒤로 소녀는 한동안 개울가에 나타나지 않습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_24_t0",
+   "text": "소년은 날마다 개울가를 서성이며 주머니 속 조약돌만 만집니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_24_t1",
+   "text": "소년은 날마다 개울가를 서성이며 주머니 속 조약돌만 만집니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_25_t0",
+   "text": "오랜만에 나타난 소녀는 얼굴이 핼쑥합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_25_t1",
+   "text": "오랜만에 나타난 소녀는 얼굴이 핼쑥합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_26_t0",
+   "text": "그동안 앓았다고 합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_26_t1",
+   "text": "그동안 앓았다고 합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_27_t0",
+   "text": "소녀의 분홍 스웨터 앞자락에는 검붉은 물이 배어 있습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_27_t1",
+   "text": "소녀의 분홍 스웨터 앞자락에는 검붉은 물이 배어 있습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_28_t0",
+   "text": "그날 업혀서 개울을 건널 때 소년의 등에서 옮은 물이지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_28_t1",
+   "text": "그날 업혀서 개울을 건널 때 소년의 등에서 옮은 물이지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_29_t0",
+   "text": "소녀는 소년에게 대추 한 줌을 건네며, 곧 이사를 간다고 말합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_29_t1",
+   "text": "소녀는 소년에게 대추 한 줌을 건네며, 곧 이사를 간다고 말합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_30_t0",
+   "text": "소년은 소녀에게 줄 호두알을 주머니에 넣고 만지작거리며, 이사 가기 전에 한 번만 더 만날 수 있기를 바랍니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_30_t1",
+   "text": "소년은 소녀에게 줄 호두알을 주머니에 넣고 만지작거리며, 이사 가기 전에 한 번만 더 만날 수 있기를 바랍니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_31_t0",
+   "text": "그리고 이사 가기 전날 밤, 마을에 다녀온 아버지가 어머니에게 무슨 이야기를 꺼냅니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_31_t1",
+   "text": "그리고 이사 가기 전날 밤, 마을에 다녀온 아버지가 어머니에게 무슨 이야기를 꺼냅니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_32_t0",
+   "text": "잠자리에 든 소년의 귀에 그 말이 들려옵니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_32_t1",
+   "text": "잠자리에 든 소년의 귀에 그 말이 들려옵니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_33_t0",
+   "text": "그날 밤 아버지가 꺼낸 이야기는 무엇이었을까요. 마지막 한마디는 오늘의 문학늬우스에서 확인하세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_33_t1",
+   "text": "그날 밤 아버지가 꺼낸 이야기는 무엇이었을까요. 마지막 한마디는 오늘의 문학늬우스에서 확인하세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_34_t0",
+   "text": "좋아한다는 말 한 번 없이 조약돌과 대추로 마음을 다 전하는 소설이에요. 오늘은 주머니 속 작은 물건 하나, 한번 만져 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_34_t1",
+   "text": "좋아한다는 말 한 번 없이 조약돌과 대추로 마음을 다 전하는 소설이에요. 오늘은 주머니 속 작은 물건 하나, 한번 만져 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_00_t0",
+   "text": "이천팔 년, 신경숙. 서울역에서 엄마를 잃어버린 한 가족의 이야기예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_00_t1",
+   "text": "이천팔 년, 신경숙. 서울역에서 엄마를 잃어버린 한 가족의 이야기예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_01_t0",
+   "text": "엄마를 잃어버린 지 일주일째다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_01_t1",
+   "text": "엄마를 잃어버린 지 일주일째다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_02_t0",
+   "text": "소설은 이렇게 시작합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_02_t1",
+   "text": "소설은 이렇게 시작합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_03_t0",
+   "text": "시골에 사는 예순아홉 살 엄마 박소녀는 남편과 함께 서울 자식들 집에 오던 길이었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_03_t1",
+   "text": "시골에 사는 예순아홉 살 엄마 박소녀는 남편과 함께 서울 자식들 집에 오던 길이었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_04_t0",
+   "text": "서울역 지하철 승강장, 사람들에 떠밀리다 남편이 먼저 전철에 올랐고, 문이 닫힌 뒤에야 아내가 타지 못한 걸 압니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_04_t1",
+   "text": "서울역 지하철 승강장, 사람들에 떠밀리다 남편이 먼저 전철에 올랐고, 문이 닫힌 뒤에야 아내가 타지 못한 걸 압니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_05_t0",
+   "text": "가방은 남편 손에 있었고, 엄마는 글을 읽지 못합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_05_t1",
+   "text": "가방은 남편 손에 있었고, 엄마는 글을 읽지 못합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_06_t0",
+   "text": "자식들은 전단지를 만들어 거리로 나갑니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_06_t1",
+   "text": "자식들은 전단지를 만들어 거리로 나갑니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_07_t0",
+   "text": "일장 아무도 모른다는 소설가인 큰딸의 이야기인데, 소설은 그녀를 너라고 부릅니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_07_t1",
+   "text": "일장 아무도 모른다는 소설가인 큰딸의 이야기인데, 소설은 그녀를 너라고 부릅니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_08_t0",
+   "text": "제목처럼, 엄마를 찾아 나선 가족은 정작 엄마에 대해 아는 것이 많지 않았다는 사실과 마주합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_08_t1",
+   "text": "제목처럼, 엄마를 찾아 나선 가족은 정작 엄마에 대해 아는 것이 많지 않았다는 사실과 마주합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_09_t0",
+   "text": "이장은 큰아들 형철의 몫입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_09_t1",
+   "text": "이장은 큰아들 형철의 몫입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_10_t0",
+   "text": "그날 서울역에 엄마를 마중 나가기로 했던 사람이 형철이었지만, 그는 사우나에 가느라 나가지 않았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_10_t1",
+   "text": "그날 서울역에 엄마를 마중 나가기로 했던 사람이 형철이었지만, 그는 사우나에 가느라 나가지 않았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_11_t0",
+   "text": "그 사소한 선택이 두고두고 그를 찌릅니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_11_t1",
+   "text": "그 사소한 선택이 두고두고 그를 찌릅니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_12_t0",
+   "text": "형철은 엄마가 지난가을 뇌졸중을 겪었다는 것도, 동생이 뇌 사진을 보여 주고서야 실감했지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_12_t1",
+   "text": "형철은 엄마가 지난가을 뇌졸중을 겪었다는 것도, 동생이 뇌 사진을 보여 주고서야 실감했지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_13_t0",
+   "text": "전단지를 본 사람들의 제보가 들어옵니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_13_t1",
+   "text": "전단지를 본 사람들의 제보가 들어옵니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_14_t0",
+   "text": "삼십여 년 전 형철이 일하던 용산의 동사무소 근처에서, 파란 슬리퍼를 신고 발등이 곪은 여자를 봤다는 것. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_14_t1",
+   "text": "삼십여 년 전 형철이 일하던 용산의 동사무소 근처에서, 파란 슬리퍼를 신고 발등이 곪은 여자를 봤다는 것. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_15_t0",
+   "text": "아버지는 엄마가 베이지색 샌들을 신고 나왔다고 했지만, 형철은 압니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_15_t1",
+   "text": "아버지는 엄마가 베이지색 샌들을 신고 나왔다고 했지만, 형철은 압니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_16_t0",
+   "text": "엄마가 발을 다친 뒤로 파란 슬리퍼를 신었다는 걸. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_16_t1",
+   "text": "엄마가 발을 다친 뒤로 파란 슬리퍼를 신었다는 걸. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_17_t0",
+   "text": "형철이 서울에 와 처음 살던 역촌동에서도 소식이 옵니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_17_t1",
+   "text": "형철이 서울에 와 처음 살던 역촌동에서도 소식이 옵니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_18_t0",
+   "text": "한 약사가 다친 여자의 상처를 닦아 주고 경찰에 전화하러 들어간 사이 여자가 사라졌다고요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_18_t1",
+   "text": "한 약사가 다친 여자의 상처를 닦아 주고 경찰에 전화하러 들어간 사이 여자가 사라졌다고요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_19_t0",
+   "text": "가족은 번번이 한발 늦습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_19_t1",
+   "text": "가족은 번번이 한발 늦습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_20_t0",
+   "text": "삼장 나, 왔네는 남편의 장입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_20_t1",
+   "text": "삼장 나, 왔네는 남편의 장입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_21_t0",
+   "text": "소설은 그를 당신이라 부릅니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_21_t1",
+   "text": "소설은 그를 당신이라 부릅니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_22_t0",
+   "text": "늘 곁에 있어 당연했던 아내를, 당신은 아내가 사라진 뒤에야 하나하나 떠올립니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_22_t1",
+   "text": "늘 곁에 있어 당연했던 아내를, 당신은 아내가 사라진 뒤에야 하나하나 떠올립니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_23_t0",
+   "text": "소설은 그동안 아무도 묻지 않았던 질문을 남편에게 돌려줍니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_23_t1",
+   "text": "소설은 그동안 아무도 묻지 않았던 질문을 남편에게 돌려줍니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_24_t0",
+   "text": "아내는 어떤 사람이었는가. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_24_t1",
+   "text": "아내는 어떤 사람이었는가. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_25_t0",
+   "text": "그리고 사장 또 다른 여인에서 처음으로 엄마 자신이 말을 합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_25_t1",
+   "text": "그리고 사장 또 다른 여인에서 처음으로 엄마 자신이 말을 합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_26_t0",
+   "text": "내내 엄마로만 불리던 사람이 비로소 자기 목소리를 얻는 장입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_26_t1",
+   "text": "내내 엄마로만 불리던 사람이 비로소 자기 목소리를 얻는 장입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_27_t0",
+   "text": "엄마의 넋은 부암동 막내딸의 집에 들러 눈 덮인 소나무를 바라보고, 곰소 바닷가에 사는 그 사람에게 가 보겠다고 합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_27_t1",
+   "text": "엄마의 넋은 부암동 막내딸의 집에 들러 눈 덮인 소나무를 바라보고, 곰소 바닷가에 사는 그 사람에게 가 보겠다고 합니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_28_t0",
+   "text": "자식도 남편도 몰랐던, 엄마가 아닌 한 사람의 삶이 거기 있었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_28_t1",
+   "text": "자식도 남편도 몰랐던, 엄마가 아닌 한 사람의 삶이 거기 있었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_29_t0",
+   "text": "아홉 달 뒤, 큰딸이 선 곳은 어디였을까요. 결말은 오늘의 문학늬우스에서 확인하세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_29_t1",
+   "text": "아홉 달 뒤, 큰딸이 선 곳은 어디였을까요. 결말은 오늘의 문학늬우스에서 확인하세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_30_t0",
+   "text": "늘 곁에 있어서 한 번도 제대로 보지 못한 사람. 오늘은 엄마에게 전화 한 통 걸어 보면 어떨까요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_30_t1",
+   "text": "늘 곁에 있어서 한 번도 제대로 보지 못한 사람. 오늘은 엄마에게 전화 한 통 걸어 보면 어떨까요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  }
+ ]
+}

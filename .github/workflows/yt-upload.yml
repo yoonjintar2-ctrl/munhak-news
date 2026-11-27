@@ -1,0 +1,41 @@
+name: yt-upload
+# (usstock-news 에서 가져옴 11/27) yt-queue 브랜치의 q/<key>/ (video.mp4, thumb.jpg, spec.json, job.json) 를 유튜브 API로 올리고, 기록 후 대기열에서 지운다. 맥 필요 없음.
+on:
+  workflow_dispatch:
+  push:                # scripts/video/yt_kick.sh 가 main 의 video/kick.txt 를 바꿔 실행
+    branches: [main]
+    paths: ['video/kick.txt']
+permissions:
+  contents: write
+concurrency: {group: yt-upload, cancel-in-progress: false}
+jobs:
+  up:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+      YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+      YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+      YT_EXPECT_CHANNEL: UCC6rvGkmmC-HgWYxdJ6KP-g   # 문학늬우스 채널이 아니면 올리지 않음
+    steps:
+      - uses: actions/checkout@v4
+        with: {ref: main}
+      - name: 올리기
+        run: |
+          pip install -q requests
+          python3 scripts/video/upload.py --check || true   # 어느 채널 토큰인지 기록(video/yt_check.json)
+          git fetch -q origin yt-queue && git worktree add -q /tmp/q origin/yt-queue || { git worktree add -q --detach /tmp/q && (cd /tmp/q && git checkout -q --orphan yt-queue && git rm -rqf . 2>/dev/null; mkdir -p q); }
+          git config user.name "yt-bot"; git config user.email "yt-bot@users.noreply.github.com"
+          for d in /tmp/q/q/*/; do
+            [ -f "$d/job.json" ] || continue
+            K=$(python3 -c "import json;print(json.load(open('$d/job.json'))['key'])")
+            PA=$(python3 -c "import json;print(json.load(open('$d/job.json')).get('publish_at') or '')")
+            python3 scripts/video/upload.py "$d/video.mp4" "$d/thumb.jpg" "$d/spec.json" --key "$K" ${PA:+--publish-at $PA} 2>&1 | tee -a /tmp/log.txt
+            rm -rf "$d"
+          done
+          if [ -n "$(git status --porcelain video/uploaded.json video/yt_check.json)" ]; then
+            git add video/uploaded.json video/yt_check.json && git commit -qm "유튜브 업로드 기록(API)" && for i in 1 2 3 4; do git pull -q --rebase -X theirs && git push -q && break; sleep 5; done
+          fi
+          # 대기열 비우기: 남은 것만 담은 고아 커밋으로 덮어써서 올린 영상이 저장소 기록에 쌓이지 않게(그 사이 새로 들어온 게 있으면 lease 로 실패 → 다음 실행 때 처리)
+          SHA=$(git rev-parse -q --verify origin/yt-queue || echo '')
+          cd /tmp/q && git checkout -q --orphan fresh && git add -A && git commit -qm "대기열(남은 것만)" --allow-empty && git push -q --force-with-lease=yt-queue:$SHA origin HEAD:yt-queue 2>/dev/null || true
