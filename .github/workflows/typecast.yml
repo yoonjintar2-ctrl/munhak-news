@@ -1,5 +1,5 @@
 name: typecast-tts
-# (usstock-news 에서 가져옴 11/27) tts/typecast/*.json 이 올라오면 타입캐스트 API(목소리: 저장소 Variables TC_VOICE_NAME)로 음성을 만들어 tts-out 브랜치에 <name>.zip 으로 올린다. 맥 필요 없음.
+# (usstock-news 에서 가져옴 11/27) tts/typecast/*.json 이 올라오면 타입캐스트 API(목소리: 한영 — 미국주식과 같음, 바꾸려면 저장소 Variables TC_VOICE_NAME)로 음성을 만들어 tts-out 브랜치에 <name>.zip 으로 올린다. 맥 필요 없음.
 # 수동: Actions → typecast-tts → Run workflow (job 칸에 파일 경로, 비우면 목소리 목록만 갱신)
 on:
   push:
@@ -16,7 +16,7 @@ jobs:
     timeout-minutes: 30
     env:
       TYPECAST_API_KEY: ${{ secrets.TYPECAST_API_KEY }}
-      TC_VOICE_NAME: ${{ vars.TC_VOICE_NAME }}
+      TC_VOICE_NAME: ${{ vars.TC_VOICE_NAME || '한영' }}   # 발행인 11/27: 미국주식 늬우스와 같은 목소리
     steps:
       - uses: actions/checkout@v4
         with: {fetch-depth: 30}

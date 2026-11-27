@@ -31,5 +31,6 @@
 ## 진행 (11/27 오전)
 - 끝: typecast_job.py·typecast.yml(목소리 = 저장소 Variables TC_VOICE_NAME, tts-out 은 최근 4일치만 남기는 고아 브랜치), to_typecast.py(테이크 1개·'음' 꼬리 제거, 하루 약 4,700자),
   tts_post/make_short 의 TTS_ENGINE=typecast 모드, collect_tc.sh, upload.py(+자막·재생목록·교육 카테고리), yt_queue.sh·yt_kick.sh·yt-upload.yml(video/kick.txt push 로 실행, 대기열은 고아 커밋으로 비움), queue_all.sh, RUNBOOK_cloud_video.md, 초안 런북 7단계.
-- 남은 것: 발행인 Secrets 4개 → 목소리 샘플(tts/typecast-samples) 돌려 고르기 → TC_VOICE_NAME → 04:52 클라우드 예약 작업(RUNBOOK_cloud_video) 만들기.
+- 목소리: 발행인 11/27 '미국주식과 같은 것' → 한영(워크플로 기본값). 샘플 고르기 생략.
+- 남은 것: 발행인 Secrets 4개 → 04:52 클라우드 예약 작업(RUNBOOK_cloud_video) 만들기.
 - 유튜브 쿼터: videos.insert 는 따로 하루 100회 칸, 나머지(자막 400×2, 재생목록 50×4)는 하루 1만 단위 중 약 1,000 — 미국주식과 같이 써도 넉넉.
