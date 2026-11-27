@@ -16,6 +16,7 @@ jobs:
       YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
       YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
       YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+      YT_EXPECT_CHANNEL: UCC6rvGkmmC-HgWYxdJ6KP-g   # 문학늬우스 채널이 아니면 올리지 않음
     steps:
       - uses: actions/checkout@v4
         with: {ref: main}

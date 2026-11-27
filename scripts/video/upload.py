@@ -60,6 +60,12 @@ def main(mp4, thumb, spec, publish_at=None, key=None):
     if any(x.get('key') == key for x in log):
         print('이미 올림 — 건너뜀', key); return
     at = token(); H = {'Authorization': f'Bearer {at}'}
+    want = os.environ.get('YT_EXPECT_CHANNEL')   # 다른 채널 토큰으로 잘못 올리는 사고 방지(문학늬우스 UCC6rvGkmmC-HgWYxdJ6KP-g)
+    if want:
+        c = requests.get(API + '/channels', headers=H, params={'part': 'id', 'mine': 'true'}, timeout=30)
+        got = [x['id'] for x in c.json().get('items', [])] if c.ok else []
+        if want not in got:
+            sys.exit(f'채널 확인 실패 — 토큰 채널 {got or c.status_code}, 기대 {want}. 올리지 않음')
     status = {'privacyStatus': 'private' if publish_at else 'public', 'selfDeclaredMadeForKids': False, 'containsSyntheticMedia': True}
     if publish_at: status['publishAt'] = publish_at
     meta = {'snippet': {'title': V['title'][:100], 'description': V['description'][:4900], 'tags': (V.get('tags') if isinstance(V.get('tags'), list) else [])[:15],
@@ -105,6 +111,8 @@ def check():
         at = r.json()['access_token']
     except Exception as e:
         out.update(error=type(e).__name__); json.dump(out, open(os.path.join(os.path.dirname(LOG), 'yt_check.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1); return
+    ti = requests.get('https://oauth2.googleapis.com/tokeninfo', params={'access_token': at}, timeout=30)
+    out['scopes'] = ti.json().get('scope', '') if ti.ok else ti.status_code
     H = {'Authorization': f'Bearer {at}'}
     c = requests.get(API + '/channels', headers=H, params={'part': 'snippet', 'mine': 'true'}, timeout=30)
     p = requests.get(API + '/playlists', headers=H, params={'part': 'snippet', 'mine': 'true', 'maxResults': 50}, timeout=30)
