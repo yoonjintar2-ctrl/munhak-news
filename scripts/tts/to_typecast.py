@@ -10,7 +10,9 @@
 import json, os, re, sys
 
 ROOT = os.path.join(os.path.dirname(__file__), '..', '..')
-TC = {'emotion': 'normal', 'tempo': 1.0}   # 문학늬우스: 차분하게(필요하면 tempo 0.95)
+TC = {'emotion': 'normal', 'tempo': 1.0}   # 문학늬우스: 차분하게
+# 11/28: 타입캐스트가 맥 TTS보다 약 11% 느려 '결말까지' 쇼츠가 3분을 넘음 → 영상 대본(shorts)만 1.1배
+TEMPO = {'shorts': 1.1}
 
 
 def clean(t):
@@ -36,7 +38,7 @@ def main(D, dry=False):
         print(f'{n}-{D}: {len(items)}줄 {chars}자')
         if not dry:
             os.makedirs(os.path.join(ROOT, 'tts', 'typecast'), exist_ok=True)
-            json.dump({'name': J['name'], 'tc': TC, 'items': items},
+            json.dump({'name': J['name'], 'tc': {**TC, 'tempo': TEMPO.get(n, TC['tempo'])}, 'items': items},
                       open(os.path.join(ROOT, 'tts', 'typecast', f'{n}-{D}.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     print(f'합계 {total}자 (타입캐스트 크레딧, 문학늬우스 하루 목표 4,500자 안쪽)')
     return total
