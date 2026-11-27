@@ -1,0 +1,126 @@
+{
+ "name": "food-2026-11-28",
+ "mode": "clone",
+ "ref_audio": "out/casual1/E_think.wav",
+ "ref_text": "음… 그럼 데이터센터는 이제 못 짓는 건가?",
+ "gen": {
+  "temperature": 0.75,
+  "top_p": 0.9
+ },
+ "reload_every": 4,
+ "retries": 4,
+ "items": [
+  {
+   "id": "food_00_t0",
+   "text": "루이스 캐럴의 이상한 나라의 앨리스, 하트 여왕의 잼 타르트 이야기예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_00_t1",
+   "text": "루이스 캐럴의 이상한 나라의 앨리스, 하트 여왕의 잼 타르트 이야기예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_01_t0",
+   "text": "이상한 나라의 마지막 소동은 재판이에요. 하트 잭이 여왕이 구운 타르트를 훔쳤다는 거죠. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_01_t1",
+   "text": "이상한 나라의 마지막 소동은 재판이에요. 하트 잭이 여왕이 구운 타르트를 훔쳤다는 거죠. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_02_t0",
+   "text": "그런데 재판정 한가운데 탁자 위에는 그 타르트가 멀쩡히 수북하게 놓여 있었어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_02_t1",
+   "text": "그런데 재판정 한가운데 탁자 위에는 그 타르트가 멀쩡히 수북하게 놓여 있었어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_03_t0",
+   "text": "앨리스는 보기만 해도 배가 고파졌대요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_03_t1",
+   "text": "앨리스는 보기만 해도 배가 고파졌대요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_04_t0",
+   "text": "잼 타르트는 동그란 반죽에 딸기나 살구 잼을 떠 넣어 굽는 영국 간식이에요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_04_t1",
+   "text": "잼 타르트는 동그란 반죽에 딸기나 살구 잼을 떠 넣어 굽는 영국 간식이에요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_05_t0",
+   "text": "고발장으로 읽히는 동요 하트 여왕은 천칠백팔십이 년 한 잡지에 처음 실린 것으로 알려져 있답니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_05_t1",
+   "text": "고발장으로 읽히는 동요 하트 여왕은 천칠백팔십이 년 한 잡지에 처음 실린 것으로 알려져 있답니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_06_t0",
+   "text": "오늘 오후엔 잼 한 숟갈 올린 작은 과자로, 이상한 나라의 단내를 맛보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_06_t1",
+   "text": "오늘 오후엔 잼 한 숟갈 올린 작은 과자로, 이상한 나라의 단내를 맛보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_07_t0",
+   "text": "오늘 문학늬우스에서 하트 여왕의 타르트 이야기를 더 만나 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "food_07_t1",
+   "text": "오늘 문학늬우스에서 하트 여왕의 타르트 이야기를 더 만나 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  }
+ ]
+}
