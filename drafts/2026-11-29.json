@@ -1,0 +1,635 @@
+{
+ "date": "2026-11-29",
+ "no": 17,
+ "publisher": {
+  "name": "윤진탈",
+  "org": "지구별"
+ },
+ "author": {
+  "name": "금로동",
+  "title": "기자"
+ },
+ "lead": "일요일 아침입니다. 이효석이 낙엽 타는 냄새에서 갓 볶은 커피 향을 맡고, 탄생 100주년을 맞은 박인환이 「세월이 가면」을 부릅니다. 1분 문학은 「금 따는 콩밭」과 『삼미 슈퍼스타즈의 마지막 팬클럽』, 문학 한술은 체호프의 구스베리입니다.",
+ "sentence": {
+  "text": "낙엽 타는 냄새같이 좋은 것이 있을까? 갓 볶아 낸 커피의 냄새가 난다.",
+  "speaker": "글쓴이(이효석)",
+  "work": "낙엽을 태우면서",
+  "writer": "이효석",
+  "year": 1938,
+  "origin": "국내",
+  "meaning": "늦가을 뜰에서 낙엽을 긁어모아 태우며 맡은 냄새를, 갓 볶은 커피 향에 견준 문장입니다. 쓸쓸한 계절의 끝자락에서 오히려 생활의 기운과 기쁨을 찾아내지요.",
+  "context": "가을이 깊어 뜰의 낙엽을 날마다 긁어모아 태우는 글쓴이의 일상을 담은 수필의 한 대목입니다. 연기 속에서 그는 지나간 여름을 떠나보내고 다가올 겨울살이를 준비하는 마음을 다집니다.",
+  "craft": "물음으로 시작해 곧바로 '커피의 냄새'라는 뜻밖의 비유로 답합니다. 시골 뜰의 낙엽과 도시의 커피를 한 문장에 겹쳐, 이효석 특유의 감각적이고 세련된 문체가 살아나지요.",
+  "sources": [
+   "https://ko.wikisource.org/wiki/%EB%82%99%EC%97%BD%EC%9D%84_%ED%83%9C%EC%9A%B0%EB%A9%B4%EC%84%9C"
+  ]
+ },
+ "poem": {
+  "title": "세월이 가면",
+  "writer": "박인환",
+  "year": 1956,
+  "origin": "국내",
+  "book": "1956년 봄 명동에서 쓰고, 같은 자리에서 이진섭이 곡을 붙여 노래로도 불림",
+  "public_domain": true,
+  "translator": null,
+  "lines": [
+   "지금 그 사람 이름은 잊었지만",
+   "그 눈동자 입술은",
+   "내 가슴에 있네",
+   "",
+   "바람이 불고",
+   "비가 올 때도",
+   "나는 저 유리창 밖",
+   "가로등 그늘의 밤을 잊지 못하지",
+   "",
+   "사랑은 가고",
+   "과거는 남는 것",
+   "여름날의 호숫가",
+   "가을의 공원",
+   "그 벤치 위에",
+   "나뭇잎은 떨어지고",
+   "나뭇잎은 흙이 되고",
+   "나뭇잎에 덮여서",
+   "우리들 사랑이 사라진다 해도",
+   "",
+   "지금 그 사람 이름은 잊었지만",
+   "그 눈동자 입술은",
+   "내 가슴에 있어",
+   "내 서늘한 가슴에 있건만"
+  ],
+  "img": "img/2026-11-29-poem.jpg",
+  "video": "img/2026-11-29-poem.mp4",
+  "alt": "비 내리는 저녁 명동 골목, 중절모에 긴 외투를 입은 사내가 가로등 아래 벤치 곁에 서서 불 켜진 다방 유리창 쪽을 돌아본다. 빗줄기와 낙엽이 흩날린다",
+  "ai": "A rainy evening alley in 1950s Seoul, a man in a long overcoat sits by the window of a small tea room looking out at a street lamp; fallen leaves on a wooden bench outside, rain falling.",
+  "analysis": "박인환이 세상을 떠나기 며칠 전 명동 술집에서 써 내려간 시로 알려져 있습니다. 이름은 잊었는데 눈동자와 입술은 남았다는 첫 연이, 흐릿해지는 기억과 끝내 지워지지 않는 감각을 맞세우지요. '나뭇잎은'을 세 번 되풀이하며 사랑이 낙엽처럼 흙으로 돌아가는 시간을 보여 주고, 마지막에 '서늘한 가슴'으로 그 쓸쓸함을 가만히 덮습니다. 노래로 불리며 더 오래 살아남은 시입니다.",
+  "oneline": "이름은 잊어도 남는 것이 있다는 말, 늦가을 벤치에 앉아 읽기 좋은 시입니다.",
+  "sources": [
+   "https://www.ajunews.com/view/20180327102638821",
+   "https://sgsg.hankyung.com/article/2023110315701",
+   "https://encykorea.aks.ac.kr/Article/E0021080"
+  ]
+ },
+ "novel": {
+  "title": "죽은 사람들",
+  "title_orig": "The Dead",
+  "writer": "제임스 조이스",
+  "year": 1914,
+  "origin": "국외",
+  "where": "단편집 『더블린 사람들』(1914)의 마지막 작품",
+  "quote": "온 세상에 희미하게 내리는, 그들의 마지막 날처럼 산 사람과 죽은 사람 모두의 위에 희미하게 내리는 눈 소리를 들으며, 그의 영혼은 천천히 아득해졌다.",
+  "quote_orig": "His soul swooned slowly as he heard the snow falling faintly through the universe and faintly falling, like the descent of their last end, upon all the living and the dead.",
+  "translator": "금로동 옮김",
+  "img": "img/2026-11-29-novel.jpg",
+  "video": "img/2026-11-29-novel.mp4",
+  "alt": "눈 내리는 밤 호텔 방, 창가에 선 셔츠 차림의 사내가 커튼을 젖히고 가로등 불빛 속에 비스듬히 내리는 눈을 바라본다. 침대 쪽에는 잠든 여인의 머리맡 촛불이 흔들린다",
+  "ai": "A Dublin hotel room at night around 1904, a man in shirt and waistcoat stands at the window holding the curtain aside, watching snow fall slantwise past a gas lamp; a candle flickers on a bedside table.",
+  "context": "크리스마스 무렵 이모들의 만찬을 마친 밤, 가브리엘은 아내 그레타에게서 그녀가 젊은 날 사랑했던 소년 마이클 퓨리의 이야기를 처음 듣습니다. 아내가 잠든 뒤 창밖의 눈을 바라보며 맞는 소설의 마지막 문장이지요.",
+  "analysis": "'희미하게 내리는(falling faintly)'을 '희미하게… 내리는(faintly falling)'으로 뒤집어 되풀이하며, 문장 자체가 눈처럼 천천히 내려앉습니다. 아일랜드 전체를 덮는 눈은 산 사람과 죽은 사람을 가르지 않지요. 자기만 안다고 믿던 아내의 마음에 낯선 과거가 있었음을 안 가브리엘이, 질투를 지나 겸허한 깨달음에 이르는 순간입니다.",
+  "sources": [
+   "https://en.wikipedia.com/wiki/The_Dead_(Joyce_short_story)",
+   "https://people.csail.mit.edu/namin/oldschool/fiction/joyce-the-dead.pdf",
+   "https://www.sparknotes.com/lit/dubliners/what-does-the-ending-mean/"
+  ]
+ },
+ "writer": {
+  "name": "박인환",
+  "life": "1926–1956",
+  "bio": "강원도 인제에서 태어났습니다. 해방 뒤 서울 종로에서 서점 '마리서사'를 열어 젊은 시인들의 사랑방을 만들었고, 김수영 등과 함께 『새로운 도시와 시민들의 합창』을 펴내며 모더니즘 시를 이끌었지요. 전쟁의 폐허 속 도시인의 고독을 노래하다 서른 살에 세상을 떠났습니다. 올해가 탄생 100주년입니다.",
+  "works": [
+   "목마와 숙녀",
+   "세월이 가면",
+   "검은 신이여"
+  ],
+  "link": "오늘의 시 「세월이 가면」을 쓴 시인입니다. 명동의 비 오는 밤이 그의 시와 노래 속에 남았지요.",
+  "img": "img/2026-11-29-writer.png",
+  "alt": "얼굴 세부 없이 그린, 중절모에 긴 외투를 입은 사내가 책을 들고 비 내리는 가로등 곁에 선 실루엣 펜화",
+  "sources": [
+   "https://encykorea.aks.ac.kr/Article/E0021080",
+   "https://v.daum.net/v/20260726154737270",
+   "https://m.seoul.co.kr/news/2022/06/24/20220624015001"
+  ]
+ },
+ "trivia": [
+  {
+   "q": "박인환의 「세월이 가면」은 노래로도 만들어져 불렸다.",
+   "a": "O",
+   "why": "1956년 명동에서 박인환이 시를 쓰자 그 자리에서 이진섭이 곡을 붙였다고 전합니다. 지금도 여러 가수가 부르지요."
+  },
+  {
+   "q": "제임스 조이스의 「죽은 사람들」은 『더블린 사람들』의 첫 번째 작품이다.",
+   "a": "X",
+   "why": "열다섯 편 가운데 맨 마지막에 실린 작품입니다. 가장 길고, 단편집 전체를 마무리하는 이야기로 꼽히지요."
+  },
+  {
+   "q": "프로야구 원년인 1982년, 삼미 슈퍼스타즈의 승률은 2할이 채 안 됐다.",
+   "a": "O",
+   "why": "15승 65패, 승률 1할 8푼 8리였습니다. 박민규는 이 팀을 소설의 주인공 자리로 불러냈지요."
+  }
+ ],
+ "trivia_sources": [
+  "https://www.ajunews.com/view/20180327102638821",
+  "https://en.wikipedia.com/wiki/The_Dead_(Joyce_short_story)",
+  "https://pedia.watcha.com/ko/contents/b9jxpKo/book_description"
+ ],
+ "calendar": "1781년 11월 29일 — 시인이자 문법학자, 칠레 대학 초대 총장 안드레스 베요, 베네수엘라 카라카스에서 태어나다",
+ "calendar_sources": [
+  "https://www.britannica.com/biography/Andres-Bello",
+  "https://uchile.cl/presentacion/historia/rectores-de-la-u-de-chile/andres-bello-lopez-1843-1865"
+ ],
+ "onthisday": [
+  {
+   "year": "1802",
+   "title": "역사소설 『리히텐슈타인』의 빌헬름 하우프, 슈투트가르트에서 태어나다",
+   "body": "1802년 오늘, 독일 작가 빌헬름 하우프가 슈투트가르트에서 태어났습니다. 월터 스콧의 영향을 받은 역사소설 『리히텐슈타인』(1826)으로 이름을 알렸지만, 스물다섯 번째 생일을 며칠 앞두고 세상을 떠났지요.",
+   "sources": [
+    "https://www.britannica.com/more-on-this-day/November-29",
+    "https://wikipedia.com/wiki/November_29"
+   ]
+  },
+  {
+   "year": "1924",
+   "title": "「라 보엠」의 작곡가 자코모 푸치니, 브뤼셀에서 눈을 감다",
+   "body": "1924년 오늘, 이탈리아 작곡가 푸치니가 벨기에 브뤼셀에서 세상을 떠났습니다. 앙리 뮈르제의 소설 『보헤미안 생활의 정경』을 오페라 「라 보엠」으로 옮겼고, 마지막 작품 「투란도트」는 끝내 마무리하지 못했지요.",
+   "sources": [
+    "https://www.britannica.com/summary/Giacomo-Puccini",
+    "https://en.wikipedia.org/wiki/Turandot"
+   ]
+  }
+ ],
+ "classic": {
+  "title": "금 따는 콩밭",
+  "writer": "김유정",
+  "year": 1935,
+  "origin": "국내",
+  "where": "단편소설, 1935년 『개벽』 발표",
+  "oneline": "다 자란 콩밭 밑에 금이 있다는 말에, 가난한 농부가 제 밭을 갈아엎는 이야기.",
+  "img": "img/2026-11-29-classic.jpg",
+  "video": "img/2026-11-29-classic.mp4",
+  "alt": "산골 콩밭 한가운데 깊게 판 구덩이 곁에서, 삽을 든 농부가 땀을 닦고 맞은편 사내가 흙덩이를 들어 올려 보이며 손가락으로 가리킨다. 콩잎이 바람에 흔들리고 흙이 흩어진다",
+  "ai": "In a mountain bean field in 1930s rural Korea, a farmer in white hemp clothes leans on a shovel beside a deep pit, while another man holds up a lump of earth and points at it eagerly. Bean plants sway.",
+  "story": [
+   "영식은 산골에서 남의 땅을 부쳐 먹고 사는 가난한 농사꾼입니다. 올해도 콩밭의 콩은 제법 잘 자라 거둘 날만 기다리고 있었지요. 그런 어느 날, 금점판을 떠돌던 수재가 찾아와 귀가 솔깃한 말을 늘어놓았습니다. 이 콩밭 밑으로 금줄이 지나간다고, 파기만 하면 금이 쏟아질 거라고요. 그 무렵 산골 곳곳에는 금을 캐겠다는 사람들이 몰려들어, 하루아침에 부자가 됐다는 소문이 바람처럼 돌았습니다.",
+   "처음에 영식은 고개를 저었습니다. 다 자란 콩을 갈아엎는다는 건 농사꾼에게 말도 안 되는 일이었으니까요. 하지만 수재는 날마다 찾아와, 금만 나오면 콩 농사 몇 해 치를 한 번에 벌 수 있다고 부추겼습니다. 아무리 땀 흘려도 늘 빚만 남던 영식의 마음은 조금씩 기울었지요.",
+   "마침내 영식은 수재와 함께 콩밭 한가운데에 구덩이를 파기 시작했습니다. 아내는 밭을 버리면 무얼 먹고 사느냐며 울상을 지었고, 지나가던 동네 노인은 멀쩡한 밭을 망친다며 혀를 찼지요. 땅 주인 쪽에서도 밭을 버려 놓으면 가만두지 않겠다는 말이 들려왔습니다. 그래도 영식은 이를 악물고 깊이깊이 파 들어갔습니다.",
+   "구덩이가 깊어질수록 잘 자란 콩은 뿌리째 뽑혀 흙더미 아래 묻혀 갔습니다. 그런데도 나오는 것은 금빛은커녕 돌멩이와 축축한 흙뿐이었지요. 영식은 점점 말수가 줄고 신경이 날카로워졌습니다. 집에 돌아와서도 한숨만 쉬었고, 아내에게 던지는 말도 하루가 다르게 거칠어졌습니다. 그래도 수재는 조금만 더 파면 된다고, 금줄이 바로 코앞이라고 영식을 다독였지요.",
+   "처음엔 말리던 아내도 차츰 마음이 바뀌었습니다. 금이 나오기만 하면 지긋지긋한 가난도 끝나리라는 꿈을 품게 된 거지요. 아내는 이웃에서 쌀을 꾸어다 떡을 쪘습니다. 산에 올라 산신령께 고사를 지내고, 부디 금이 나오게 해 달라고 정성껏 빌었습니다. 이제 부부에게는 그 구덩이가 남은 전부였습니다.",
+   "하지만 고사를 지내고도 구덩이에서는 아무것도 나오지 않았습니다. 콩밭은 이미 엉망이 되었고, 쌀을 꾸어 온 빚까지 생겼지요. 영식의 눈에는 핏발이 서기 시작했습니다. 수재는 그런 영식의 눈치를 살피며 점점 불안해졌습니다. 이대로 가다가는 무슨 봉변을 당할지 몰랐거든요."
+  ],
+  "ending": "그때 수재가 구덩이 바닥에서 누런 흙 한 줌을 움켜쥐고 소리쳤습니다. 금줄을 잡았다고, 한 포대에 오십 원씩은 나오겠다고요. 영식 부부의 얼굴이 금세 환해졌지만, 그것은 금이 아니라 그저 누런 황토였습니다. 수재는 들뜬 부부를 곁눈질하며 속으로 다짐하지요. 오늘 밤에는 꼭 달아나리라고.",
+  "why": "1930년대 금광 바람에 휩쓸린 농촌의 가난과 헛된 꿈을, 김유정 특유의 해학으로 그린 소설입니다. 웃음 끝에 씁쓸함이 오래 남고, 땅을 버린 대가가 무엇인지 묻게 되지요.",
+  "sources": [
+   "https://ko.wikisource.org/wiki/%EA%B8%88_%EB%94%B0%EB%8A%94_%EC%BD%A9%EB%B0%AD",
+   "https://encykorea.aks.ac.kr/Article/E0007732",
+   "https://www.korean.go.kr/nkview/nklife/2007_3/2007_0307.pdf"
+  ],
+  "scenes": [
+   {
+    "after": 0,
+    "img": "img/2026-11-29-classic-s1.jpg",
+    "video": "img/2026-11-29-classic-s1.mp4",
+    "alt": "초가집 사립문 앞, 봇짐을 멘 수재가 손짓을 섞어 콩밭 쪽을 가리키며 말을 늘어놓고, 영식이 지게를 진 채 귀를 기울인다. 닭이 모이를 쪼고 빨랫줄의 옷이 흔들린다"
+   },
+   {
+    "after": 2,
+    "img": "img/2026-11-29-classic-s2.jpg",
+    "video": "img/2026-11-29-classic-s2.mp4",
+    "alt": "콩밭 둑에서 머릿수건을 쓴 아내가 두 손을 모아 말리고, 갓 쓰고 지팡이 짚은 노인이 고개를 젓는다. 구덩이 속 영식은 허리를 굽혀 삽질을 멈추지 않는다"
+   },
+   {
+    "after": 4,
+    "img": "img/2026-11-29-classic-s3.jpg",
+    "video": "img/2026-11-29-classic-s3.mp4",
+    "alt": "산속 큰 바위 앞에 떡시루와 촛불을 차린 작은 상을 두고, 영식 부부가 나란히 허리를 숙여 두 손을 모아 빈다. 촛불이 흔들리고 나뭇잎이 떨어진다"
+   }
+  ]
+ },
+ "modern": {
+  "title": "삼미 슈퍼스타즈의 마지막 팬클럽",
+  "writer": "박민규",
+  "year": 2003,
+  "origin": "국내",
+  "where": "장편소설, 2003년 제8회 한겨레문학상 수상작",
+  "oneline": "꼴찌 야구팀의 어린 팬이 어른이 되어, '지지 않는 법' 대신 '즐겁게 사는 법'을 다시 배우는 이야기.",
+  "img": "img/2026-11-29-modern.jpg",
+  "video": "img/2026-11-29-modern.mp4",
+  "alt": "1980년대 야구장 외야 관중석, 야구 모자를 쓴 두 소년이 두 팔을 번쩍 들고 팻말을 흔들며 응원하고, 저 아래 그라운드 위로 공이 높이 떠오른다. 깃발이 펄럭이고 종이 꽃가루가 날린다",
+  "ai": "Two boys in baseball caps cheer and wave a handmade sign in the outfield bleachers of a 1980s Korean baseball stadium; a fly ball rises over the field, flags flutter. No logos.",
+  "story": [
+   "1982년, 우리나라에 프로야구가 생겼습니다. 인천에 사는 중학생 '나'는 단짝 조성훈과 함께 연고 팀 삼미 슈퍼스타즈의 어린이 회원이 되었지요. 회원증과 모자를 받던 날, 두 소년은 세상을 다 가진 것만 같았습니다. 이제 슈퍼스타들이 이겨 주기만 하면 되었으니까요.",
+   "그런데 삼미는 지고 또 졌습니다. 원년 시즌 성적은 15승 65패. 다른 팀들이 우승을 다투는 동안 삼미는 늘 맨 아래에 있었지요. 학교에서는 놀림을 받았고, '나'는 차츰 깨달았습니다. 이 세상은 이긴 사람만 기억하고, 지는 쪽에 서면 부끄러워진다는 것을요.",
+   "한때 반짝 좋은 시즌도 있었지만 오래가지 않았습니다. 결국 팀은 다른 회사에 팔려 이름마저 사라졌지요. '나'는 마음을 굳혔습니다. 다시는 삼미처럼 살지 않겠다고. 밤낮없이 공부해 이름난 대학에 들어갔고, 큰 회사에 들어가 누구보다 열심히 일했습니다.",
+   "그렇게 '나'는 남들처럼, 아니 남들보다 앞서 달렸습니다. 결혼도 하고, 일에 쫓겨 늘 피곤했지만 지지 않는다는 것만으로 마음이 놓였지요. 쉬는 날에도 뒤처질까 봐 불안했고, 야구 중계는 더 이상 보지 않았습니다. 그러다 1990년대 끝 무렵 나라에 외환 위기가 닥쳤습니다. 그토록 성실했던 '나'에게도 정리 해고 통보가 날아왔습니다.",
+   "일자리를 잃고 가정도 무너진 채, '나'는 텅 빈 방에 홀로 남았습니다. 이기려고만 달려온 삶이었는데, 손에 남은 것이 없었지요. 아침이면 습관처럼 눈을 떴지만 갈 곳이 없었고, 거울 속 얼굴은 낯설 만큼 지쳐 있었습니다. 그때 오랜 연락 끝에 조성훈이 다시 나타났습니다. 그는 여전히 느긋하게 웃으며, 삼미 이야기를 꺼냈습니다.",
+   "조성훈은 삼미의 야구를 다시 보라고 말했습니다. 삼미는 그저 못한 게 아니라, 이기는 것만이 전부인 세상과는 다른 야구를 한 거라고요. 두 사람은 옛 기억을 되짚으며 '삼미 슈퍼스타즈의 마지막 팬클럽'을 만들기로 했습니다. 하나둘 모여든 사람들도 저마다 세상에서 밀려난 이들이었지요. 누구는 회사에서, 누구는 집에서, 누구는 경쟁에서 밀려나 있었습니다. 그들은 낡은 삼미 모자를 다시 꺼내 썼습니다."
+  ],
+  "ending": "팬클럽 사람들은 주말마다 공터에 모여 공을 던지고 치며 땀을 흘렸습니다. 치기 힘든 공은 치지 않고, 잡기 힘든 공은 잡지 않는다. 이기려고 애쓰지 않는 그들의 야구는 이상하게도 즐거웠지요. '나'는 그제야 알게 됩니다. 인생은 꼭 이겨야 하는 경기가 아니라, 제 속도로 즐기는 놀이일 수도 있다는 것을요.",
+  "why": "꼴찌 팀의 기억을 빌려, 이기는 것만 가르치는 세상에 '그래도 괜찮다'고 말하는 소설입니다. 경쾌한 입담과 엉뚱한 상상 아래, 지친 어른을 향한 따뜻한 위로가 흐르지요.",
+  "sources": [
+   "https://pedia.watcha.com/ko/contents/b9jxpKo/book_description",
+   "https://cine21.com/news/view/?mag_id=35525",
+   "https://www.pressian.com/pages/articles/128531"
+  ],
+  "scenes": [
+   {
+    "after": 1,
+    "img": "img/2026-11-29-modern-s1.jpg",
+    "video": "img/2026-11-29-modern-s1.mp4",
+    "alt": "중학교 교실, 창가 뒷자리 소년이 야구 모자를 책상에 둔 채 시무룩한 얼굴로 서 있고, 앞자리 아이들이 돌아보며 손가락질하고 웃는다. 커튼이 흔들리고 칠판 앞 분필 가루가 날린다"
+   },
+   {
+    "after": 3,
+    "img": "img/2026-11-29-modern-s2.jpg",
+    "video": "img/2026-11-29-modern-s2.mp4",
+    "alt": "늦은 밤 사무실, 양복 차림의 사내가 서류 더미 사이에서 봉투 한 장을 펼쳐 들고 굳은 얼굴로 서 있다. 형광등이 깜박이고 벽시계 추가 흔들린다"
+   },
+   {
+    "after": 5,
+    "img": "img/2026-11-29-modern-s3.jpg",
+    "video": "img/2026-11-29-modern-s3.mp4",
+    "alt": "포장마차 둥근 탁자에 마주 앉은 두 사내, 곱슬머리 사내가 낡은 야구 모자를 내밀며 웃고 외투 차림 사내가 놀란 얼굴로 바라본다. 천막이 바람에 흔들리고 냄비에서 김이 오른다"
+   }
+  ]
+ },
+ "man": {
+  "kind": "격투가",
+  "name": "한수안",
+  "sub": "복싱 · 대한민국 · 1948 런던 올림픽 플라이급",
+  "img": "img/2026-11-29-man.jpg",
+  "video": "img/2026-11-29-man.mp4",
+  "alt": "1940년대 실내 경기장 링 위, 짧은 운동복의 권투 선수가 글러브를 올려 자세를 잡고, 링 밖에서 심판과 관중이 지켜본다. 천장 조명이 흔들리고 관중이 손뼉을 친다(3D 삽화, 실제 인물 아님)",
+  "cap": "3D 삽화",
+  "ai": "A 1940s flyweight boxer in shorts raises his gloves in a ring under hanging lamps, a referee and clapping spectators around. Seen from a distance, no face details.",
+  "bio": "해방 뒤 처음 태극기를 달고 나간 1948년 런던 올림픽에서 메달을 딴 권투 선수입니다. 가장 가벼운 체급 가운데 하나인 플라이급 링에 올라 동메달을 목에 걸었지요. 같은 대회 역도의 김성집과 함께 한국 올림픽 메달의 첫 장을 연 사람이지만, 그 이름을 기억하는 이는 많지 않은 숨은 선구자입니다.",
+  "feats": [
+   {
+    "when": "1948 런던",
+    "text": "'코리아'라는 이름으로 처음 나간 하계 올림픽에서 복싱 플라이급에 출전했습니다."
+   },
+   {
+    "when": "1948.8",
+    "text": "준결승까지 올라 동메달을 땄습니다. 한국 복싱의 첫 올림픽 메달이었지요."
+   },
+   {
+    "when": "그 뒤",
+    "text": "이 대회에서 한국이 딴 메달은 동메달 두 개. 역도 김성집과 함께 한국 올림픽 역사의 첫 줄에 이름을 올렸습니다."
+   }
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Han_Soo-ann",
+   "https://olympics.com/en/athletes/soo-an-han",
+   "https://olympics.com/en/olympic-games/london-1948/results/boxing/51kg-flyweight-men",
+   "https://EN.wikipedia.com/wiki/Korea_at_the_1948_Summer_Olympics"
+  ]
+ },
+ "go": {
+  "title": "「반집의 첫 우승」 백8",
+  "game": "제15회 후지쓰배 세계바둑선수권 결승 (이세돌-유창혁)",
+  "date": "2002-08-03",
+  "black": "유창혁 9단",
+  "white": "이세돌 3단",
+  "result": "백 반집승",
+  "moves": "pd dp pq dd qk gq fc id",
+  "from": 1,
+  "to": 8,
+  "key": 8,
+  "key_label": "J16",
+  "lead": "열아홉 살 이세돌이 처음 세계 대회 정상에 오른 판, 반집 차이로 끝난 대국의 첫머리.",
+  "body": [
+   "2002년 여름 후지쓰배 결승은 한국 기사끼리의 대결이었습니다. 흑은 '세계 최강의 공격수'로 불리던 유창혁 9단, 백은 아직 3단이던 열아홉 살 이세돌이었지요.",
+   "그림은 대국의 첫 여덟 수입니다. 흑7은 왼쪽 위 백 돌에 다가가는 '걸침'인데, 백은 받아 주지 않고 동그라미 친 8로 그 돌을 멀리서 조였습니다. 상대 돌을 양쪽에서 압박하는 이런 수를 '협공'이라 부르지요. 겁 없이 먼저 싸움을 거는 이세돌다운 출발이었습니다.",
+   "판은 끝까지 가서 집을 세었고, 백이 단 반집을 이겼습니다. 이세돌의 첫 세계 대회 우승이었습니다."
+  ],
+  "lit": "질 때마다 고개를 숙이던 소설 속 소년과 달리, 열아홉 살 이세돌은 첫 판부터 물러서지 않았습니다.",
+  "sources": [
+   "https://archive.nihonkiin.or.jp/english/topics/02/topics2002_08.htm",
+   "https://github.com/yenw/computer-go-dataset (기보: Professional/pro2000+.zip → pro2000+.txt, GN 2002-08-03a)"
+  ]
+ },
+ "food": {
+  "name": "구스베리",
+  "hanja": null,
+  "work": "구스베리",
+  "writer": "안톤 체호프",
+  "year": "1898",
+  "where": "19세기 말 러시아 시골 영지",
+  "img": "img/2026-11-29-food.jpg",
+  "video": "img/2026-11-29-food.mp4",
+  "alt": "시골 영지 저택 베란다 탁자 위 접시에 연둣빛 줄무늬 구스베리가 소복이 담겨 있고, 옆에 찻잔과 사모바르가 놓였다. 찻잔에서 김이 오르고 창밖 정원의 나뭇잎이 흔들린다",
+  "ai": "On a wooden table on the veranda of a 19th-century Russian country house, a plate heaped with pale green striped gooseberries, a samovar and a glass of tea with steam; garden bushes outside. No people.",
+  "quote": "그는 열매 하나를 입에 넣고, 장난감을 손에 쥔 아이처럼 의기양양하게 나를 보며 말했다. '아, 맛있다!'",
+  "quote_by": "형 이반이 동생 니콜라이의 영지에서 처음 거둔 구스베리 맛보기를 지켜본 회상(금로동 옮김)",
+  "body": [
+   "체호프의 단편 「구스베리」에서 수의사 이반은 동생 니콜라이 이야기를 들려줍니다. 관청 서기였던 동생은 평생 한 가지 꿈만 꾸었지요. 구스베리 덤불이 있는 시골 영지를 갖는 것. 돈 많은 과부와 결혼해 그 돈까지 아껴 모은 끝에, 마침내 꿈을 이룹니다.",
+   "구스베리는 까치밥나무 무리에 드는 작은 관목의 열매입니다. 포도알만 한 열매에 세로 줄무늬가 비치고, 덜 익으면 시고 잘 익으면 새콤달콤하지요. 추운 곳에서도 잘 자라 러시아 시골 정원에 흔히 심었고, 잼이나 설탕 절임으로 오래 두고 먹었습니다.",
+   "영국에서도 구스베리는 사랑받는 과일이었습니다. 19세기에는 누가 더 크고 무거운 열매를 키우는지 겨루는 품평회가 곳곳에서 열렸는데, 노스요크셔의 작은 마을 에그턴브리지에서는 1800년에 시작된 품평회가 지금까지 이어지고 있습니다.",
+   "처음 거둔 구스베리는 사실 딱딱하고 시었다고 이반은 말합니다. 그런데도 동생은 눈물까지 글썽이며 맛있다고 했지요. 이반은 그날 밤, 행복한 사람의 문 앞에 불행을 일깨워 줄 누군가가 서 있어야 한다고 생각합니다. 새콤한 열매 한 알이 묻는 셈이지요. 내가 바라는 행복은 무엇이냐고."
+  ],
+  "try": "구할 수 있다면 생 구스베리를 한 알, 없다면 덜 익은 청포도 한 알을 깨물어 보세요. 니콜라이가 맛본 '시고도 단' 맛이 납니다.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Gooseberries_(short_story)",
+   "https://en.wikisource.org/wiki/Gooseberries",
+   "https://www.rhs.org.uk/advice/grow-your-own/features/fascinating-facts-gooseberries",
+   "https://egtongooseberryshow.org.uk/gooseberry-facts/",
+   "https://www.atlasobscura.com/articles/gooseberry-show"
+  ],
+  "short": {
+   "hook": "안톤 체호프의 단편 「구스베리」, 평생의 꿈이 담긴 새콤한 열매 이야기예요.",
+   "lines": [
+    "관청 서기 니콜라이는 평생 한 가지 꿈만 꿨어요. 구스베리 덤불이 있는 시골 영지를 갖는 것.",
+    "돈을 아끼고 또 아껴, 마침내 그 꿈을 이루었죠.",
+    "처음 거둔 구스베리는 사실 딱딱하고 시었대요. 그런데도 그는 눈물을 글썽이며 맛있다고 했어요.",
+    "구스베리는 포도알만 한 열매에 줄무늬가 비치는 과일이에요. 추운 러시아 시골 정원에 흔히 심었답니다.",
+    "영국에서는 누가 더 큰 열매를 키우나 겨루는 품평회가, 1800년부터 지금까지 이어지는 마을도 있어요.",
+    "오늘은 새콤한 열매 한 알로, 내가 바라는 행복이 무엇인지 생각해 보세요."
+   ],
+   "outro": "오늘 문학늬우스에서 체호프의 구스베리 이야기를 더 만나 보세요.",
+   "thumb": [
+    "시고 딱딱해도",
+    "맛있다!"
+   ],
+   "title": "체호프 「구스베리」 평생의 꿈이 담긴 새콤한 열매 | 문학 한술 #체호프 #구스베리 #러시아문학 #shorts"
+  }
+ },
+ "zodiac": [
+  {
+   "key": "rat",
+   "animal": "쥐",
+   "text": "돌담에 속삭이는 햇발같이 / 풀 아래 웃음짓는 샘물같이",
+   "writer": "김영랑",
+   "work": "돌담에 속삭이는 햇발",
+   "year": 1930,
+   "note": "햇살이 돌담에 소곤대듯, 오늘은 가까운 이에게 다정한 말 한마디를 건네 보세요.",
+   "sources": [
+    "https://ko.wikisource.org/wiki/%EC%98%81%EB%9E%91%EC%8B%9C%EC%A7%91",
+    "https://brunch.co.kr/@doyeol/14"
+   ]
+  },
+  {
+   "key": "ox",
+   "animal": "소",
+   "text": "못 잊어 생각이 나겠지요, / 그런대로 한세상 지내시구려",
+   "writer": "김소월",
+   "work": "못 잊어",
+   "year": 1925,
+   "note": "잊히지 않는 일이 있어도 괜찮아요. 오늘은 그런대로, 천천히 지내 보세요.",
+   "sources": [
+    "https://Www.Wikipedia.org/wiki/Kim_Sowol",
+    "https://ppss.kr/archives/231471"
+   ]
+  },
+  {
+   "key": "tiger",
+   "animal": "범",
+   "text": "내 고장 칠월은 / 청포도가 익어 가는 시절",
+   "writer": "이육사",
+   "work": "청포도",
+   "year": 1939,
+   "note": "익어 가는 데는 저마다 철이 있어요. 기다리는 일에도 오늘 하루를 아껴 주세요.",
+   "sources": [
+    "https://encykorea.aks.ac.kr/Contents/Item/E0056822",
+    "https://dh.aks.ac.kr/~dh_edu/wiki/index.php/%EC%9D%B4%EC%9C%A1%EC%82%AC%EC%9D%98_%27%EC%B2%AD%ED%8F%AC%EB%8F%84%27"
+   ]
+  },
+  {
+   "key": "rabbit",
+   "animal": "토끼",
+   "text": "이름이 뭐길래? 우리가 장미라 부르는 꽃은 / 다른 이름으로 불러도 똑같이 향기로울 텐데",
+   "orig": "What's in a name? That which we call a rose / By any other name would smell as sweet",
+   "translator": "금로동 옮김",
+   "writer": "윌리엄 셰익스피어",
+   "work": "로미오와 줄리엣(2막 2장)",
+   "year": 1597,
+   "note": "붙은 이름보다 그 사람의 향기를 먼저 맡아 보세요. 오늘 만나는 얼굴들에게서요.",
+   "sources": [
+    "https://www.folger.edu/explore/shakespeares-works/romeo-and-juliet/read/2/2/",
+    "https://en.wikisource.org/wiki/The_Tragedy_of_Romeo_and_Juliet_(Dowden)/Act_2/Scene_2"
+   ]
+  },
+  {
+   "key": "dragon",
+   "animal": "용",
+   "text": "가장 달콤한 우리 노래는 / 가장 슬픈 생각을 말하는 노래",
+   "orig": "Our sweetest songs are those that tell of saddest thought",
+   "translator": "금로동 옮김",
+   "writer": "퍼시 비시 셸리",
+   "work": "종달새에게(To a Skylark)",
+   "year": 1820,
+   "note": "슬픈 마음도 노래가 될 수 있어요. 오늘은 좋아하는 노래 한 곡을 끝까지 들어 보세요.",
+   "sources": [
+    "https://rpo.library.utoronto.ca/poems/skylark-0",
+    "https://poets.org/poem/skylark"
+   ]
+  },
+  {
+   "key": "snake",
+   "animal": "뱀",
+   "text": "마음속 풀리지 않은 모든 것에 인내를 갖고, / 물음 그 자체를 사랑하려 해 보세요",
+   "orig": "Geduld zu haben gegen alles Ungelöste in Ihrem Herzen und zu versuchen, die Fragen selbst liebzuhaben",
+   "translator": "금로동 옮김",
+   "writer": "라이너 마리아 릴케",
+   "work": "젊은 시인에게 보내는 편지(넷째 편지)",
+   "year": 1903,
+   "note": "답이 아직 없어도 서두르지 마세요. 오늘은 물음을 품은 채 걸어 보세요.",
+   "sources": [
+    "https://www.wikipedia.org/wiki/Letters_to_a_Young_Poet",
+    "https://res.cloudinary.com/suhrkamp/images/v1742117109/50649/briefe-an-einen-jungen-dichter_9783458363828_leseprobe.pdf"
+   ]
+  },
+  {
+   "key": "horse",
+   "animal": "말",
+   "text": "거울속에는소리가없소 / 저렇게까지조용한세상은참없을것이오",
+   "writer": "이상",
+   "work": "거울",
+   "year": 1933,
+   "note": "바쁜 하루 틈에 잠깐, 아무 소리 없는 고요를 스스로에게 선물해 보세요.",
+   "sources": [
+    "https://brunch.co.kr/@doyeol/20"
+   ]
+  },
+  {
+   "key": "sheep",
+   "animal": "양",
+   "text": "왜 푸른 산에 사느냐 묻기에 / 웃으며 대답 않으니 마음 절로 한가롭네",
+   "orig": "問余何意棲碧山 / 笑而不答心自閑",
+   "translator": "금로동 옮김",
+   "writer": "이백",
+   "work": "산중문답(山中問答)",
+   "year": 750,
+   "note": "모든 물음에 답하지 않아도 괜찮아요. 오늘은 웃음 하나로 넘겨 보세요.",
+   "sources": [
+    "https://cn-poetry.com/libai-poetry/question-answer-in-mountains.html",
+    "https://www.etoday.co.kr/news/view/2408339"
+   ]
+  },
+  {
+   "key": "monkey",
+   "animal": "원숭이",
+   "text": "이상하다, 안개 속을 헤매는 것은! / 덤불도 돌도 저마다 외롭다",
+   "orig": "Seltsam, im Nebel zu wandern! / Einsam ist jeder Busch und Stein",
+   "translator": "금로동 옮김",
+   "writer": "헤르만 헤세",
+   "work": "안개 속에서(Im Nebel)",
+   "year": 1905,
+   "note": "앞이 흐릿한 날엔 걸음을 조금 늦춰도 좋아요. 안개는 곧 걷힙니다.",
+   "sources": [
+    "https://de.wikisource.org/wiki/Im_Nebel",
+    "https://harpers.org/2007/09/hesses-in-the-fog"
+   ]
+  },
+  {
+   "key": "rooster",
+   "animal": "닭",
+   "text": "외로운 돛 하나 하얗게 빛난다 / 푸른 바다 안개 속에서",
+   "orig": "Белеет парус одинокий / В тумане моря голубом",
+   "translator": "금로동 옮김",
+   "writer": "미하일 레르몬토프",
+   "work": "돛(Парус)",
+   "year": 1832,
+   "note": "혼자 가는 길도 멀리서 보면 하얗게 빛나요. 오늘 내 돛을 믿어 보세요.",
+   "sources": [
+    "https://cyclowiki.org/wiki/%D0%9F%D0%B0%D1%80%D1%83%D1%81_(%D0%9B%D0%B5%D1%80%D0%BC%D0%BE%D0%BD%D1%82%D0%BE%D0%B2)",
+    "https://math.berkeley.edu/~giventh/verse/parus.pdf"
+   ]
+  },
+  {
+   "key": "dog",
+   "animal": "개",
+   "text": "그러나 함께 있음 속에 빈자리를 두세요",
+   "orig": "But let there be spaces in your togetherness",
+   "translator": "금로동 옮김",
+   "writer": "칼릴 지브란",
+   "work": "예언자(결혼에 대하여)",
+   "year": 1923,
+   "note": "가까운 사이일수록 숨 쉴 틈이 필요해요. 오늘은 서로의 빈자리를 아껴 주세요.",
+   "sources": [
+    "https://poets.org/poem/marriage-3",
+    "https://americanliterature.com/author/kahlil-gibran/book/the-prophet/on-marriage"
+   ]
+  },
+  {
+   "key": "pig",
+   "animal": "돼지",
+   "text": "내가 당신을 사랑하는 것은 / 까닭이 없는 것이 아닙니다",
+   "writer": "한용운",
+   "work": "사랑하는 까닭",
+   "year": 1926,
+   "note": "좋아하는 마음에도 이유가 있어요. 오늘은 그 이유 하나를 소리 내어 말해 보세요.",
+   "sources": [
+    "https://ko.wikisource.org/wiki/%EB%8B%98%EC%9D%98_%EC%B9%A8%EB%AC%B5/%EB%8B%98%EC%9D%98_%EC%B9%A8%EB%AC%B5"
+   ]
+  }
+ ],
+ "puzzle": {
+  "size": [
+   11,
+   7
+  ],
+  "words": [
+   {
+    "n": 2,
+    "dir": "across",
+    "r": 2,
+    "c": 0,
+    "a": "프로야구",
+    "clue": "1982년 우리나라에서 출범한 야구 리그"
+   },
+   {
+    "n": 5,
+    "dir": "across",
+    "r": 4,
+    "c": 2,
+    "a": "모더니즘",
+    "clue": "박인환이 이끈 새로운 시 운동"
+   },
+   {
+    "n": 7,
+    "dir": "across",
+    "r": 5,
+    "c": 0,
+    "a": "눈동자",
+    "clue": "이름은 잊었지만 가슴에 남은 것, 입술과 함께"
+   },
+   {
+    "n": 8,
+    "dir": "across",
+    "r": 6,
+    "c": 4,
+    "a": "라보엠",
+    "clue": "파리 젊은 예술가들의 사랑을 그린 푸치니 오페라"
+   },
+   {
+    "n": 9,
+    "dir": "across",
+    "r": 7,
+    "c": 2,
+    "a": "구덩이",
+    "clue": "콩밭 한가운데 깊이 판 것"
+   },
+   {
+    "n": 10,
+    "dir": "across",
+    "r": 8,
+    "c": 0,
+    "a": "조이스",
+    "clue": "『더블린 사람들』을 쓴 아일랜드 작가"
+   },
+   {
+    "n": 11,
+    "dir": "across",
+    "r": 9,
+    "c": 2,
+    "a": "베요",
+    "clue": "칠레 대학 초대 총장이 된 베네수엘라 시인"
+   },
+   {
+    "n": 1,
+    "dir": "down",
+    "r": 0,
+    "c": 0,
+    "a": "체호프",
+    "clue": "「구스베리」를 쓴 러시아 작가"
+   },
+   {
+    "n": 3,
+    "dir": "down",
+    "r": 2,
+    "c": 2,
+    "a": "야구모자",
+    "clue": "어린이 회원이 받은 챙 달린 모자"
+   },
+   {
+    "n": 4,
+    "dir": "down",
+    "r": 4,
+    "c": 0,
+    "a": "첫눈",
+    "clue": "그해 처음 내리는 눈"
+   },
+   {
+    "n": 6,
+    "dir": "down",
+    "r": 4,
+    "c": 4,
+    "a": "니콜라이",
+    "clue": "구스베리 덤불을 꿈꾼 관청 서기"
+   },
+   {
+    "n": 9,
+    "dir": "down",
+    "r": 7,
+    "c": 2,
+    "a": "구스베리",
+    "clue": "체호프 단편 제목이자 니콜라이가 꿈꾼 열매"
+   },
+   {
+    "n": 10,
+    "dir": "down",
+    "r": 8,
+    "c": 0,
+    "a": "조성훈",
+    "clue": "소설 속 '나'의 단짝"
+   }
+  ]
+ }
+}

@@ -1,0 +1,1120 @@
+{
+ "name": "shorts-2026-11-29",
+ "mode": "clone",
+ "ref_audio": "out/casual1/E_think.wav",
+ "ref_text": "음… 그럼 데이터센터는 이제 못 짓는 건가?",
+ "gen": {
+  "temperature": 0.75,
+  "top_p": 0.9
+ },
+ "reload_every": 4,
+ "retries": 4,
+ "items": [
+  {
+   "id": "open_00_t0",
+   "text": "일 분 만에 떠먹여 주는, 일 분 문학! 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "open_00_t1",
+   "text": "일 분 만에 떠먹여 주는, 일 분 문학! 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_00_t0",
+   "text": "천구백삼십오 년, 김유정. 다 자란 콩밭 밑에 금이 있다는 말에 제 밭을 갈아엎은 농부, 금 따는 콩밭 이야기예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_00_t1",
+   "text": "천구백삼십오 년, 김유정. 다 자란 콩밭 밑에 금이 있다는 말에 제 밭을 갈아엎은 농부, 금 따는 콩밭 이야기예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_01_t0",
+   "text": "영식은 산골에서 남의 땅을 부쳐 먹고 사는 가난한 농사꾼입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_01_t1",
+   "text": "영식은 산골에서 남의 땅을 부쳐 먹고 사는 가난한 농사꾼입니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_02_t0",
+   "text": "올해도 콩밭의 콩은 제법 잘 자라 거둘 날만 기다리고 있었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_02_t1",
+   "text": "올해도 콩밭의 콩은 제법 잘 자라 거둘 날만 기다리고 있었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_03_t0",
+   "text": "그런 어느 날, 금점판을 떠돌던 수재가 찾아와 귀가 솔깃한 말을 늘어놓았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_03_t1",
+   "text": "그런 어느 날, 금점판을 떠돌던 수재가 찾아와 귀가 솔깃한 말을 늘어놓았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_04_t0",
+   "text": "이 콩밭 밑으로 금줄이 지나간다고, 파기만 하면 금이 쏟아질 거라고요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_04_t1",
+   "text": "이 콩밭 밑으로 금줄이 지나간다고, 파기만 하면 금이 쏟아질 거라고요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_05_t0",
+   "text": "그 무렵 산골 곳곳에는 금을 캐겠다는 사람들이 몰려들어, 하루아침에 부자가 됐다는 소문이 바람처럼 돌았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_05_t1",
+   "text": "그 무렵 산골 곳곳에는 금을 캐겠다는 사람들이 몰려들어, 하루아침에 부자가 됐다는 소문이 바람처럼 돌았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_06_t0",
+   "text": "처음에 영식은 고개를 저었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_06_t1",
+   "text": "처음에 영식은 고개를 저었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_07_t0",
+   "text": "다 자란 콩을 갈아엎는다는 건 농사꾼에게 말도 안 되는 일이었으니까요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_07_t1",
+   "text": "다 자란 콩을 갈아엎는다는 건 농사꾼에게 말도 안 되는 일이었으니까요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_08_t0",
+   "text": "하지만 수재는 날마다 찾아와, 금만 나오면 콩 농사 몇 해 치를 한 번에 벌 수 있다고 부추겼습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_08_t1",
+   "text": "하지만 수재는 날마다 찾아와, 금만 나오면 콩 농사 몇 해 치를 한 번에 벌 수 있다고 부추겼습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_09_t0",
+   "text": "아무리 땀 흘려도 늘 빚만 남던 영식의 마음은 조금씩 기울었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_09_t1",
+   "text": "아무리 땀 흘려도 늘 빚만 남던 영식의 마음은 조금씩 기울었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_10_t0",
+   "text": "마침내 영식은 수재와 함께 콩밭 한가운데에 구덩이를 파기 시작했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_10_t1",
+   "text": "마침내 영식은 수재와 함께 콩밭 한가운데에 구덩이를 파기 시작했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_11_t0",
+   "text": "아내는 밭을 버리면 무얼 먹고 사느냐며 울상을 지었고, 지나가던 동네 노인은 멀쩡한 밭을 망친다며 혀를 찼지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_11_t1",
+   "text": "아내는 밭을 버리면 무얼 먹고 사느냐며 울상을 지었고, 지나가던 동네 노인은 멀쩡한 밭을 망친다며 혀를 찼지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_12_t0",
+   "text": "땅 주인 쪽에서도 밭을 버려 놓으면 가만두지 않겠다는 말이 들려왔습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_12_t1",
+   "text": "땅 주인 쪽에서도 밭을 버려 놓으면 가만두지 않겠다는 말이 들려왔습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_13_t0",
+   "text": "그래도 영식은 이를 악물고 깊이깊이 파 들어갔습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_13_t1",
+   "text": "그래도 영식은 이를 악물고 깊이깊이 파 들어갔습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_14_t0",
+   "text": "구덩이가 깊어질수록 잘 자란 콩은 뿌리째 뽑혀 흙더미 아래 묻혀 갔습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_14_t1",
+   "text": "구덩이가 깊어질수록 잘 자란 콩은 뿌리째 뽑혀 흙더미 아래 묻혀 갔습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_15_t0",
+   "text": "그런데도 나오는 것은 금빛은커녕 돌멩이와 축축한 흙뿐이었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_15_t1",
+   "text": "그런데도 나오는 것은 금빛은커녕 돌멩이와 축축한 흙뿐이었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_16_t0",
+   "text": "영식은 점점 말수가 줄고 신경이 날카로워졌습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_16_t1",
+   "text": "영식은 점점 말수가 줄고 신경이 날카로워졌습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_17_t0",
+   "text": "집에 돌아와서도 한숨만 쉬었고, 아내에게 던지는 말도 하루가 다르게 거칠어졌습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_17_t1",
+   "text": "집에 돌아와서도 한숨만 쉬었고, 아내에게 던지는 말도 하루가 다르게 거칠어졌습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_18_t0",
+   "text": "그래도 수재는 조금만 더 파면 된다고, 금줄이 바로 코앞이라고 영식을 다독였지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_18_t1",
+   "text": "그래도 수재는 조금만 더 파면 된다고, 금줄이 바로 코앞이라고 영식을 다독였지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_19_t0",
+   "text": "처음엔 말리던 아내도 차츰 마음이 바뀌었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_19_t1",
+   "text": "처음엔 말리던 아내도 차츰 마음이 바뀌었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_20_t0",
+   "text": "금이 나오기만 하면 지긋지긋한 가난도 끝나리라는 꿈을 품게 된 거지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_20_t1",
+   "text": "금이 나오기만 하면 지긋지긋한 가난도 끝나리라는 꿈을 품게 된 거지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_21_t0",
+   "text": "아내는 이웃에서 쌀을 꾸어다 떡을 쪘습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_21_t1",
+   "text": "아내는 이웃에서 쌀을 꾸어다 떡을 쪘습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_22_t0",
+   "text": "산에 올라 산신령께 고사를 지내고, 부디 금이 나오게 해 달라고 정성껏 빌었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_22_t1",
+   "text": "산에 올라 산신령께 고사를 지내고, 부디 금이 나오게 해 달라고 정성껏 빌었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_23_t0",
+   "text": "이제 부부에게는 그 구덩이가 남은 전부였습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_23_t1",
+   "text": "이제 부부에게는 그 구덩이가 남은 전부였습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_24_t0",
+   "text": "하지만 고사를 지내고도 구덩이에서는 아무것도 나오지 않았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_24_t1",
+   "text": "하지만 고사를 지내고도 구덩이에서는 아무것도 나오지 않았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_25_t0",
+   "text": "콩밭은 이미 엉망이 되었고, 쌀을 꾸어 온 빚까지 생겼지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_25_t1",
+   "text": "콩밭은 이미 엉망이 되었고, 쌀을 꾸어 온 빚까지 생겼지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_26_t0",
+   "text": "영식의 눈에는 핏발이 서기 시작했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_26_t1",
+   "text": "영식의 눈에는 핏발이 서기 시작했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_27_t0",
+   "text": "수재는 그런 영식의 눈치를 살피며 점점 불안해졌습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_27_t1",
+   "text": "수재는 그런 영식의 눈치를 살피며 점점 불안해졌습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_28_t0",
+   "text": "이대로 가다가는 무슨 봉변을 당할지 몰랐거든요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_28_t1",
+   "text": "이대로 가다가는 무슨 봉변을 당할지 몰랐거든요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_29_t0",
+   "text": "그때 수재가 구덩이 바닥에서 누런 흙 한 줌을 움켜쥐고 소리쳤습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_29_t1",
+   "text": "그때 수재가 구덩이 바닥에서 누런 흙 한 줌을 움켜쥐고 소리쳤습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_30_t0",
+   "text": "금줄을 잡았다고, 한 포대에 오십 원씩은 나오겠다고요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_30_t1",
+   "text": "금줄을 잡았다고, 한 포대에 오십 원씩은 나오겠다고요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_31_t0",
+   "text": "영식 부부의 얼굴이 금세 환해졌지만, 그것은 금이 아니라 그저 누런 황토였습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_31_t1",
+   "text": "영식 부부의 얼굴이 금세 환해졌지만, 그것은 금이 아니라 그저 누런 황토였습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_32_t0",
+   "text": "수재는 들뜬 부부를 곁눈질하며 속으로 다짐하지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_32_t1",
+   "text": "수재는 들뜬 부부를 곁눈질하며 속으로 다짐하지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_33_t0",
+   "text": "오늘 밤에는 꼭 달아나리라고. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_33_t1",
+   "text": "오늘 밤에는 꼭 달아나리라고. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_34_t0",
+   "text": "금빛 꿈을 좇는 사이, 정작 손에 쥔 콩밭은 흙 속에 묻혀 버렸네요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_34_t1",
+   "text": "금빛 꿈을 좇는 사이, 정작 손에 쥔 콩밭은 흙 속에 묻혀 버렸네요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_35_t0",
+   "text": "오늘 문학늬우스 지면에는 박인환의 세월이 가면과, 열아홉 살 이세돌이 반집으로 이긴 후지쓰배 결승의 한 수도 실려 있어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_35_t1",
+   "text": "오늘 문학늬우스 지면에는 박인환의 세월이 가면과, 열아홉 살 이세돌이 반집으로 이긴 후지쓰배 결승의 한 수도 실려 있어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_36_t0",
+   "text": "영상 아래 링크로 가볍게 놀러 오세요. 고맙습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_36_t1",
+   "text": "영상 아래 링크로 가볍게 놀러 오세요. 고맙습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_tz_t0",
+   "text": "뒷이야기와 결말까지, 전체 영상에서 이어서 들어 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "classic_tz_t1",
+   "text": "뒷이야기와 결말까지, 전체 영상에서 이어서 들어 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_00_t0",
+   "text": "이천삼 년, 박민규. 원년 꼴찌 야구팀의 어린 팬이 어른이 되어 다시 배운 것, 삼미 슈퍼스타즈의 마지막 팬클럽 이야기예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_00_t1",
+   "text": "이천삼 년, 박민규. 원년 꼴찌 야구팀의 어린 팬이 어른이 되어 다시 배운 것, 삼미 슈퍼스타즈의 마지막 팬클럽 이야기예요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_01_t0",
+   "text": "천구백팔십이 년, 우리나라에 프로야구가 생겼습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_01_t1",
+   "text": "천구백팔십이 년, 우리나라에 프로야구가 생겼습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_02_t0",
+   "text": "인천에 사는 중학생 나는 단짝 조성훈과 함께 연고 팀 삼미 슈퍼스타즈의 어린이 회원이 되었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_02_t1",
+   "text": "인천에 사는 중학생 나는 단짝 조성훈과 함께 연고 팀 삼미 슈퍼스타즈의 어린이 회원이 되었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_03_t0",
+   "text": "회원증과 모자를 받던 날, 두 소년은 세상을 다 가진 것만 같았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_03_t1",
+   "text": "회원증과 모자를 받던 날, 두 소년은 세상을 다 가진 것만 같았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_04_t0",
+   "text": "이제 슈퍼스타들이 이겨 주기만 하면 되었으니까요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_04_t1",
+   "text": "이제 슈퍼스타들이 이겨 주기만 하면 되었으니까요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_05_t0",
+   "text": "그런데 삼미는 지고 또 졌습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_05_t1",
+   "text": "그런데 삼미는 지고 또 졌습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_06_t0",
+   "text": "원년 시즌 성적은 십오승 육십오패. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_06_t1",
+   "text": "원년 시즌 성적은 십오승 육십오패. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_07_t0",
+   "text": "다른 팀들이 우승을 다투는 동안 삼미는 늘 맨 아래에 있었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_07_t1",
+   "text": "다른 팀들이 우승을 다투는 동안 삼미는 늘 맨 아래에 있었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_08_t0",
+   "text": "학교에서는 놀림을 받았고, 나는 차츰 깨달았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_08_t1",
+   "text": "학교에서는 놀림을 받았고, 나는 차츰 깨달았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_09_t0",
+   "text": "이 세상은 이긴 사람만 기억하고, 지는 쪽에 서면 부끄러워진다는 것을요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_09_t1",
+   "text": "이 세상은 이긴 사람만 기억하고, 지는 쪽에 서면 부끄러워진다는 것을요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_10_t0",
+   "text": "한때 반짝 좋은 시즌도 있었지만 오래가지 않았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_10_t1",
+   "text": "한때 반짝 좋은 시즌도 있었지만 오래가지 않았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_11_t0",
+   "text": "결국 팀은 다른 회사에 팔려 이름마저 사라졌지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_11_t1",
+   "text": "결국 팀은 다른 회사에 팔려 이름마저 사라졌지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_12_t0",
+   "text": "나는 마음을 굳혔습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_12_t1",
+   "text": "나는 마음을 굳혔습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_13_t0",
+   "text": "다시는 삼미처럼 살지 않겠다고. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_13_t1",
+   "text": "다시는 삼미처럼 살지 않겠다고. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_14_t0",
+   "text": "밤낮없이 공부해 이름난 대학에 들어갔고, 큰 회사에 들어가 누구보다 열심히 일했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_14_t1",
+   "text": "밤낮없이 공부해 이름난 대학에 들어갔고, 큰 회사에 들어가 누구보다 열심히 일했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_15_t0",
+   "text": "그렇게 나는 남들처럼, 아니 남들보다 앞서 달렸습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_15_t1",
+   "text": "그렇게 나는 남들처럼, 아니 남들보다 앞서 달렸습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_16_t0",
+   "text": "결혼도 하고, 일에 쫓겨 늘 피곤했지만 지지 않는다는 것만으로 마음이 놓였지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_16_t1",
+   "text": "결혼도 하고, 일에 쫓겨 늘 피곤했지만 지지 않는다는 것만으로 마음이 놓였지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_17_t0",
+   "text": "쉬는 날에도 뒤처질까 봐 불안했고, 야구 중계는 더 이상 보지 않았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_17_t1",
+   "text": "쉬는 날에도 뒤처질까 봐 불안했고, 야구 중계는 더 이상 보지 않았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_18_t0",
+   "text": "그러다 천구백구십 년대 끝 무렵 나라에 외환 위기가 닥쳤습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_18_t1",
+   "text": "그러다 천구백구십 년대 끝 무렵 나라에 외환 위기가 닥쳤습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_19_t0",
+   "text": "그토록 성실했던 나에게도 정리 해고 통보가 날아왔습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_19_t1",
+   "text": "그토록 성실했던 나에게도 정리 해고 통보가 날아왔습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_20_t0",
+   "text": "일자리를 잃고 가정도 무너진 채, 나는 텅 빈 방에 홀로 남았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_20_t1",
+   "text": "일자리를 잃고 가정도 무너진 채, 나는 텅 빈 방에 홀로 남았습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_21_t0",
+   "text": "이기려고만 달려온 삶이었는데, 손에 남은 것이 없었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_21_t1",
+   "text": "이기려고만 달려온 삶이었는데, 손에 남은 것이 없었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_22_t0",
+   "text": "아침이면 습관처럼 눈을 떴지만 갈 곳이 없었고, 거울 속 얼굴은 낯설 만큼 지쳐 있었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_22_t1",
+   "text": "아침이면 습관처럼 눈을 떴지만 갈 곳이 없었고, 거울 속 얼굴은 낯설 만큼 지쳐 있었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_23_t0",
+   "text": "그때 오랜 연락 끝에 조성훈이 다시 나타났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_23_t1",
+   "text": "그때 오랜 연락 끝에 조성훈이 다시 나타났습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_24_t0",
+   "text": "그는 여전히 느긋하게 웃으며, 삼미 이야기를 꺼냈습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_24_t1",
+   "text": "그는 여전히 느긋하게 웃으며, 삼미 이야기를 꺼냈습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_25_t0",
+   "text": "조성훈은 삼미의 야구를 다시 보라고 말했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_25_t1",
+   "text": "조성훈은 삼미의 야구를 다시 보라고 말했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_26_t0",
+   "text": "삼미는 그저 못한 게 아니라, 이기는 것만이 전부인 세상과는 다른 야구를 한 거라고요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_26_t1",
+   "text": "삼미는 그저 못한 게 아니라, 이기는 것만이 전부인 세상과는 다른 야구를 한 거라고요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_27_t0",
+   "text": "두 사람은 옛 기억을 되짚으며 삼미 슈퍼스타즈의 마지막 팬클럽을 만들기로 했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_27_t1",
+   "text": "두 사람은 옛 기억을 되짚으며 삼미 슈퍼스타즈의 마지막 팬클럽을 만들기로 했습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_28_t0",
+   "text": "하나둘 모여든 사람들도 저마다 세상에서 밀려난 이들이었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_28_t1",
+   "text": "하나둘 모여든 사람들도 저마다 세상에서 밀려난 이들이었지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_29_t0",
+   "text": "누구는 회사에서, 누구는 집에서, 누구는 경쟁에서 밀려나 있었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_29_t1",
+   "text": "누구는 회사에서, 누구는 집에서, 누구는 경쟁에서 밀려나 있었습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_30_t0",
+   "text": "그들은 낡은 삼미 모자를 다시 꺼내 썼습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_30_t1",
+   "text": "그들은 낡은 삼미 모자를 다시 꺼내 썼습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_31_t0",
+   "text": "팬클럽 사람들은 주말마다 공터에 모여 공을 던지고 치며 땀을 흘렸습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_31_t1",
+   "text": "팬클럽 사람들은 주말마다 공터에 모여 공을 던지고 치며 땀을 흘렸습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_32_t0",
+   "text": "치기 힘든 공은 치지 않고, 잡기 힘든 공은 잡지 않는다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_32_t1",
+   "text": "치기 힘든 공은 치지 않고, 잡기 힘든 공은 잡지 않는다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_33_t0",
+   "text": "이기려고 애쓰지 않는 그들의 야구는 이상하게도 즐거웠지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_33_t1",
+   "text": "이기려고 애쓰지 않는 그들의 야구는 이상하게도 즐거웠지요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_34_t0",
+   "text": "나는 그제야 알게 됩니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_34_t1",
+   "text": "나는 그제야 알게 됩니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_35_t0",
+   "text": "인생은 꼭 이겨야 하는 경기가 아니라, 제 속도로 즐기는 놀이일 수도 있다는 것을요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_35_t1",
+   "text": "인생은 꼭 이겨야 하는 경기가 아니라, 제 속도로 즐기는 놀이일 수도 있다는 것을요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_36_t0",
+   "text": "꼭 이기지 않아도 괜찮다는 말이, 오늘따라 따뜻하게 들리네요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_36_t1",
+   "text": "꼭 이기지 않아도 괜찮다는 말이, 오늘따라 따뜻하게 들리네요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_37_t0",
+   "text": "오늘 문학늬우스 지면에는 제임스 조이스의 죽은 사람들과, 천구백사십팔 년 런던 올림픽의 숨은 복서 한수안 이야기도 실려 있어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_37_t1",
+   "text": "오늘 문학늬우스 지면에는 제임스 조이스의 죽은 사람들과, 천구백사십팔 년 런던 올림픽의 숨은 복서 한수안 이야기도 실려 있어요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_38_t0",
+   "text": "영상 아래 링크로 가볍게 놀러 오세요. 고맙습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_38_t1",
+   "text": "영상 아래 링크로 가볍게 놀러 오세요. 고맙습니다. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_tz_t0",
+   "text": "뒷이야기와 결말까지, 전체 영상에서 이어서 들어 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  },
+  {
+   "id": "modern_tz_t1",
+   "text": "뒷이야기와 결말까지, 전체 영상에서 이어서 들어 보세요. 음.",
+   "gen": {
+    "non_streaming_mode": true
+   }
+  }
+ ]
+}
